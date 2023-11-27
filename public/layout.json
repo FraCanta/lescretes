@@ -1,0 +1,96 @@
+{
+  "menu": {
+    "it": {
+      "home": "Home",
+      "storia": "Storia",
+      "vini": "Vini",
+      "degustazioni": "Degustazioni",
+      "news": "Notizie",
+      "cosmesi": "Cosmesi",
+      "download": "Area Download",
+      "contatti": "Contatti"
+    },
+    "en": {
+      "home": "Home",
+      "storia": "History",
+      "vini": "Wines",
+      "degustazioni": "Tastings",
+      "news": "News",
+      "cosmesi": "Cosmetics",
+      "download": "Download Area",
+      "contatti": "Contacts"
+    },
+    "fr": {
+      "home": "Home",
+      "storia": "Histoire",
+      "vini": "Vins",
+      "degustazioni": "Dégustations",
+      "news": "Actualités",
+      "cosmesi": "Cosmétique",
+      "download": "Téléchargements",
+      "contatti": "Contacts"
+    }
+  },
+  "footer": {
+    "it": {
+      "col1": {
+        "row1": {
+          "title": "Vuoi collaborare con me?",
+          "cta": "Cominciamo."
+        }
+      },
+      "col2": {
+        "row1": {
+          "title": "Vuoi saperne di più?",
+          "cta": "Contattami."
+        }
+      }
+    },
+    "en": {
+      "col1": {
+        "row1": {
+          "title": "Do you want to collaborate with me?",
+          "cta": "Let's get started"
+        }
+      },
+      "col2": {
+        "row1": {
+          "title": "Do you want to know more?",
+          "cta": "Contact Me."
+        }
+      }
+    },
+    "fr": {
+      "col1": {
+        "row1": {
+          "title": "Veux-tu collaborer avec moi ?",
+          "cta": "Allons-y."
+        }
+      },
+      "col2": {
+        "row1": {
+          "title": "Veux-tu en savoir plus ? ",
+          "cta": "Contactez-moi."
+        }
+      }
+    }
+  },
+  "socials": [
+    {
+      "name": "facebook",
+      "url": "https://www.facebook.com/thalliondev",
+      "icon": "entypo-social:facebook"
+    },
+
+    {
+      "name": "instagram",
+      "url": "https://www.instagram.com/thallion.dev/",
+      "icon": "ph:instagram-logo-fill"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/francesca-cantale-30730b182/",
+      "icon": "devicon-plain:linkedin"
+    }
+  ]
+}

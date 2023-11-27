@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "minerva-modern", sans-serif;
+  color: #4a4a49;
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
+  color: #4a4a49;
+  font-weight: 300;
+}
+
+@layer utilities {
+  .bg-pattern {
+    background-image: url("../public/assets/pattern2.png");
+    background-size: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  @media screen and (max-width: 640px) {
+    .bg-pattern {
+      background-size: 500px;
+    }
+  }
+}
+
+.kzANES {
+  margin: 0 !important;
+}
+
+.degustazione {
+  background-image: url("../public/assets/degustazioni.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 999;
+}
+
+.hero {
+  background-image: url("../public/assets/coteau.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    background-position: center;
+  }
+}
