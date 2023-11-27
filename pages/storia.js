@@ -47,9 +47,9 @@ export default function Storia({ translation }) {
             </div>
           </div>
 
-          {/* <div>
+          <div>
             <Reviews />
-          </div> */}
+          </div>
         </div>
       </div>
     </>

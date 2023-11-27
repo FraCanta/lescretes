@@ -37,7 +37,7 @@ const Degustazioni = ({ translation }) => {
             creare la tua visita personalizzata.
           </p>
         </div>
-        <div className="grid grid-cols-1 xl:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 xl:grid-cols-4 gap-4">
           {translation?.cards?.map((el, i) => {
             return (
               <Cards

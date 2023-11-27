@@ -124,9 +124,9 @@ export default function Home({ translation }) {
             </div>
           </div>
 
-          {/* <div>
+          <div>
             <Reviews />
-          </div> */}
+          </div>
         </div>
       </div>
       <div className="w-full min-h-screen bg-main flex flex-col justify-center items-center relative ">

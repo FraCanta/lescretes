@@ -7,7 +7,7 @@ const Cards = ({ img, title, descrizione, price, link, lang }) => {
   return (
     <>
       <Link href={link}>
-        <div className="card w-full xl:w-96 border">
+        <div className="card w-full xl:w-full h-full border">
           <figure className="p-4 ">
             <Image
               src={img}
@@ -18,12 +18,12 @@ const Cards = ({ img, title, descrizione, price, link, lang }) => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title !justify-center font-bold text-[24px]">
+            <h2 className="card-title !justify-center font-bold text-[20px]">
               {title}
             </h2>
-            <p className="text-center text-base">{descrizione}</p>
+            <p className="text-center text-[15px]">{descrizione}</p>
             <div className="card-actions justify-center border-t mt-4">
-              <p className="text-center py-4 font-bold text-[18px]">{price}</p>
+              <p className="text-center py-4 font-bold text-[16px]">{price}</p>
             </div>
           </div>
         </div>
