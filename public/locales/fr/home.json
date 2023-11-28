@@ -2,6 +2,120 @@
   "home": {
     "hero": {
       "title": "Passion et Montagne"
-    }
+    },
+    "tabs": [
+      {
+        "name": "Rossi",
+        "content": [
+          {
+            "img": "/assets/vinirossi/merle.webp",
+            "name": "Merlot Le Merle Valle D'Aosta DOP"
+          },
+          {
+            "img": "/assets/vinirossi/cigliegiolo.webp",
+            "name": "Cigliegiolo Ofre Valle D'Aosta"
+          },
+          {
+            "img": "/assets/vinirossi/cornalin.webp",
+            "name": "Cornalin"
+          },
+          {
+            "img": "/assets/vinirossi/fumin_lacor.webp",
+            "name": "Fumin La Cor"
+          },
+          {
+            "img": "/assets/vinirossi/monrouge.webp",
+            "name": "Mon Rouge"
+          },
+          {
+            "img": "/assets/vinirossi/nebbiolo.webp",
+            "name": "Nebbiolo"
+          },
+          {
+            "img": "/assets/vinirossi/pinot_nero.webp",
+            "name": "Pinot Nero"
+          },
+          {
+            "img": "/assets/vinirossi/pinot_revei.webp",
+            "name": "Pinot Revei"
+          },
+          {
+            "img": "/assets/vinirossi/sabla.webp",
+            "name": "Sabla"
+          },
+          {
+            "img": "/assets/vinirossi/syrah.webp",
+            "name": "Syrah"
+          },
+          {
+            "img": "/assets/vinirossi/torrette_sup.webp",
+            "name": "Torrette Superiore"
+          },
+          {
+            "img": "/assets/vinirossi/torrette.webp",
+            "name": "Torrette"
+          }
+        ]
+      },
+      {
+        "name": "Bianchi",
+        "content": [
+          {
+            "img": "/assets/vinibianchi/chardonnay_cb.webp",
+            "name": "Chardonnay Cuvée Bois"
+          },
+          {
+            "img": "/assets/vinibianchi/chardonnay.webp",
+            "name": "Chardonnay"
+          },
+          {
+            "img": "/assets/vinibianchi/mon_blanc.webp",
+            "name": "Mon Blanc"
+          },
+          {
+            "img": "/assets/vinibianchi/neige.webp",
+            "name": "Neige D'Or"
+          },
+          {
+            "img": "/assets/vinibianchi/petite_arvine.webp",
+            "name": "Petite Arvine"
+          },
+          {
+            "img": "/assets/vinibianchi/petite_fleur.webp",
+            "name": "Petite Arvine Fleur"
+          },
+          {
+            "img": "/assets/vinibianchi/pinot_grigio.webp",
+            "name": "Pinot Gris Brutant"
+          }
+        ]
+      },
+      {
+        "name": "Rosè",
+        "content": [
+          {
+            "img": "/assets/vinirose/rose.webp",
+            "name": "Rosè"
+          }
+        ]
+      },
+      {
+        "name": "Dessert e Bollicine",
+        "content": [
+          {
+            "img": "/assets/vinidessert/dorè.webp",
+            "name": "Dorè"
+          },
+          {
+            "img": "/assets/vinidessert/neblu.webp",
+            "name": "Neblu Brut Nature Rose"
+          },
+          {
+            "img": "/assets/vinidessert/reban.webp",
+            "name": "Reban Pas Dosè"
+          }
+        ]
+      }
+    ]
   }
 }
