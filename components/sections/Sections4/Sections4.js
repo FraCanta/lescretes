@@ -1,7 +1,7 @@
 import React from "react";
 import Tabs from "./Tabs";
 
-const Sections4 = () => {
+const Sections4 = ({ tabs }) => {
   return (
     <>
       <div className="w-[90%] mx-auto flex flex-col gap-4 py-[50px] lg:py-[90px] min-h-screen justify-center ">
@@ -13,7 +13,7 @@ const Sections4 = () => {
           Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar
           elementum tempus hac tellus libero accumsan.{" "}
         </p>
-        <Tabs />
+        <Tabs tabs={tabs} />
       </div>
     </>
   );

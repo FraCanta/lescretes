@@ -7,6 +7,7 @@ import viniFR from "../public/locales/fr/vini.json";
 import Head from "next/head";
 
 const Vini = ({ translation }) => {
+  console.log(translation);
   return (
     <>
       <Head>
@@ -19,7 +20,7 @@ const Vini = ({ translation }) => {
         />
       </div>
       <div className="w-[90%] mx-auto">
-        <Tabs />
+        <Tabs translation={translation?.tabs} />
       </div>
     </>
   );

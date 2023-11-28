@@ -96,7 +96,7 @@ export default function Home({ translation }) {
         <Sections3 />
       </div>
       <div className="min-h-screen flex flex-col justify-center items-center relative ">
-        <Sections4 />
+        <Sections4 tabs={translation.tabs} />
       </div>
       <div className="min-h-screen fxl:min-h-[80vh] bg-main flex flex-col justify-center items-center relative ">
         <Sections5 />
