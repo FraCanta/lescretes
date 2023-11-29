@@ -106,7 +106,7 @@ export default function Home({ translation }) {
           <div className="grid grid-cols-1 2xl:grid-cols-2 gap-6">
             <div className="flex flex-col gap-4">
               <h2 className="text-main text-[35px] leading-[36px] lg:text-[43.12px] font-bold  lg:leading-[55.10px]">
-                Che dicono di Les Crêtes
+                Dicono di noi
               </h2>
               <p className="lg:w-[90%] text-main lg:text-[21.56px] font-normal leading-9">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit semper

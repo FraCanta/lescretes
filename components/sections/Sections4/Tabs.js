@@ -18,7 +18,7 @@ const Tabs = ({ tabs }) => {
   return (
     <div className="pt-10">
       {/* Tab links */}
-      <div className="tabs !pl-0">
+      <div className="flex flex-wrap gap-[30px]  !pl-0">
         {tabs.map((tab, index) => (
           <button
             key={index}

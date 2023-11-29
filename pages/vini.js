@@ -7,7 +7,6 @@ import viniFR from "../public/locales/fr/vini.json";
 import Head from "next/head";
 
 const Vini = ({ translation }) => {
-  console.log(translation);
   return (
     <>
       <Head>
@@ -45,8 +44,6 @@ export async function getStaticProps(locale, context) {
       obj = viniIT;
       break;
   }
-
-  console.log(obj);
 
   return {
     props: {

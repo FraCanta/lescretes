@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Tabs = ({ translation }) => {
   const [activeTab, setActiveTab] = useState(0);
@@ -33,11 +34,12 @@ const Tabs = ({ translation }) => {
           }`}
         >
           {tab.content.map((content, contentIndex) => (
-            <div
+            <Link
+              href={content.link}
               key={contentIndex}
-              className="w-full h-[450px] fxl:h-full relative"
+              className="w-full h-[450px] fxl:h-full relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white"
             >
-              <div className="w-full h-[450px] fxl:h-full left-0 top-0 absolute bg-[#F4F3EF] rounded-3xl hover:bg-main " />
+              <div className="w-full h-[450px] fxl:h-full left-0 top-0 absolute " />
               <Image
                 className="object-contain left-20 top-[1.5rem] absolute w-[50%] h-[80%]"
                 src={content.img}
@@ -47,7 +49,7 @@ const Tabs = ({ translation }) => {
               <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[19px] font-bold  leading-snug">
                 {content.name}
               </p>
-            </div>
+            </Link>
           ))}
         </div>
       ))}

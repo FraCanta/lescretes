@@ -58,37 +58,65 @@
       "trewines": {
         "img": "/assets/degustazioni/tre.jpeg",
         "name": "3 Wines Experience",
-        "title": "trewines"
+        "title": "trewines",
+        "degustazione": "3 vini",
+        "durata": "1 ora",
+        "visita": "sì",
+        "lingua": "italiano, inglese, francese"
       },
       "native": {
         "img": "/assets/degustazioni/native.jpeg",
         "name": "Native Wines Experience",
-        "title": "native"
+        "title": "native",
+        "degustazione": "3 vini",
+        "durata": "1 ora",
+        "visita": "sì",
+        "lingua": "italiano, inglese, francese"
       },
       "cheese": {
         "img": "/assets/degustazioni/cheese.jpeg",
         "name": "Wine and Cheese Experience",
-        "title": "cheese"
+        "title": "cheese",
+        "degustazione": "3 vini",
+        "durata": "1 ora",
+        "visita": "sì",
+        "lingua": "italiano, inglese, francese"
       },
       "top": {
         "img": "/assets/degustazioni/top.jpeg",
         "name": "Top Wines Experience",
-        "title": "top"
+        "title": "top",
+        "degustazione": "3 vini",
+        "durata": "1 ora",
+        "visita": "sì",
+        "lingua": "italiano, inglese, francese"
       },
       "tour": {
         "img": "/assets/degustazioni/coteau.jpeg",
         "name": "Coteau la Tour Experience",
-        "title": "tour"
+        "title": "tour",
+        "degustazione": "3 vini",
+        "durata": "1 ora",
+        "visita": "sì",
+        "lingua": "italiano, inglese, francese"
       },
       "winemaker": {
         "img": "/assets/degustazioni/winemaker.jpeg",
         "name": "Winemaker's Experience",
-        "title": "winemaker"
+        "title": "winemaker",
+        "degustazione": "3 vini",
+        "durata": "1 ora",
+        "visita": "sì",
+        "lingua": "italiano, inglese, francese"
       },
       "wellness": {
         "img": "/assets/degustazioni/wellness.jpeg",
         "name": "Wellness & Wine Tasting",
-        "title": "wellness"
+        "title": "wellness",
+        "degustazione": "3 vini",
+        "durata": "1 ora",
+        "visita": "sì",
+        "lingua": "italiano, inglese, francese"
       }
     }
   }

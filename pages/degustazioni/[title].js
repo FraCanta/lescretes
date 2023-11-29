@@ -40,54 +40,74 @@ const SingleDeg = ({ deg }) => {
         <div className="flex h-full items-center">
           <Image src={Bicchiere} className="h-full w-12" alt="bicchiere" />
           <div className="flex flex-col ">
-            <h2 className="font-bold text-[18px] text-main">Degustazione</h2>
-            <p className="text-[16px]">3 vini</p>
+            <h2 className="font-bold text-[18px] text-main">
+              {deg.degustazione.title}
+            </h2>
+            <p className="text-[16px]">{deg.degustazione.vini}</p>
           </div>
         </div>
         <div className="flex h-full items-center">
           <Image src={Durata} className="h-full w-12" alt="bicchiere" />
           <div className="flex flex-col ">
-            <h2 className="font-bold text-[18px] text-main">Durata</h2>
-            <p className="text-[16px]">3 vini</p>
+            <h2 className="font-bold text-[18px] text-main">
+              {deg.durata?.title}
+            </h2>
+            <p className="text-[16px]">{deg.durata?.tempo}</p>
           </div>
         </div>
         <div className="flex h-full items-center">
           <Image src={Cantina} className="h-full w-12" alt="bicchiere" />
           <div className="flex flex-col ">
-            <h2 className="font-bold text-[18px] text-main">Visita Cantina</h2>
-            <p className="text-[16px]">3 vini</p>
+            <h2 className="font-bold text-[18px] text-main">
+              {deg.visita?.title}
+            </h2>
+            <p className="text-[16px]">{deg.visita?.cantina}</p>
           </div>
         </div>
         <div className="flex h-full items-center">
           <Image src={Lingue} className="h-full w-12" alt="bicchiere" />
           <div className="flex flex-col ">
-            <h2 className="font-bold text-[18px] text-main">Lingua</h2>
-            <p className="text-[16px]">3 vini</p>
+            <h2 className="font-bold text-[18px] text-main">
+              {deg.lingua?.title}
+            </h2>
+            <p className="text-[16px]">{deg.lingua.tipo}</p>
           </div>
         </div>
       </div>
       <div className="w-[90%] mx-auto flex-col justify-start items-start gap-[34px] flex py-10">
-        <h2 className="w-[214px] text-main text-4xl font-bold  leading-[46px]">
-          Descrizione
+        <h2 className=" text-main text-4xl font-bold  leading-[46px]">
+          {deg.descrizione.title}
         </h2>
         <div className="w-full text-main text-xl font-normal  leading-9 flex flex-col gap-6">
-          <p>
-            Fai un primo passo nel mondo Les Cretes per scoprirne la storia, il
-            territorio, i suoi vitigni ed i vini. Nella suggestiva cornice del
-            Rifugio del Vino, potrai degustare tre vini con vista sui vigneti,
-            dopo aver visitato la cantina e la barricaia.
-          </p>
-          <p>
-            Ut accumsan imperdiet quam quis porttitor. In dapibus dapibus
-            facilisis. Praesent tortor sapien, dapibus hendrerit scelerisque a,
-            vulputate eget mauris. Integer eget ligula et justo molestie
-            consectetur. Mauris sed lectus lectus. Praesent varius blandit
-            lobortis. Vivamus nunc ligula, varius vel risus ut, mollis fermentum
-            erat. Donec id neque ipsum. Proin blandit, urna at tincidunt
-            volutpat, purus ante ultrices nisl, nec luctus purus odio sit amet
-            lectus.
-          </p>
+          <p>{deg.descrizione.content}</p>
+          <h2 className="text-main text-4xl font-bold  leading-[46px]">
+            {deg?.descrizione?.pacchetto?.title}
+          </h2>
+          <ul>
+            <li>{deg?.descrizione?.pacchetto?.uno}</li>
+            <li>{deg?.descrizione?.pacchetto?.due}</li>
+            {deg?.descrizione?.pacchetto?.tre ? (
+              <li>{deg?.descrizione?.pacchetto?.tre}</li>
+            ) : (
+              ""
+            )}
+          </ul>
+          {deg?.descrizione?.opzione ? (
+            <div className="bg-[#F4F3EF] flex flex-col gap-[20px] p-4">
+              <h2 className="text-main text-4xl font-bold  leading-[46px]">
+                {deg?.descrizione?.opzione?.title}
+              </h2>
+              <p className="text-[18px]"> {deg?.descrizione?.opzione?.uno}</p>
+            </div>
+          ) : (
+            ""
+          )}
         </div>
+        {deg?.descrizione?.asterisco ? (
+          <p className="text-main/60">{deg?.descrizione?.asterisco}</p>
+        ) : (
+          ""
+        )}
       </div>
       <div className="w-[90%] mx-auto ">
         <h2 className="text-6xl font-bold py-8">FAQs</h2>
