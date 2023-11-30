@@ -105,7 +105,8 @@
             "title": "In opzione con questa degustazione:",
             "uno": "La nostra selezione di salumi e formaggi della gastronomia locale al costo aggiuntivo di € 14.00 pax IVA incl."
           }
-        }
+        },
+        "download": "/Native-Wines-Experience-EN.pdf"
       },
       "cheese": {
         "img": "/assets/degustazioni/cheese.jpeg",
@@ -132,7 +133,8 @@
             ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
-        }
+        },
+        "download": "/Wines-Cheese-Experience-EN.pdf"
       },
       "top": {
         "img": "/assets/degustazioni/top.jpeg",
@@ -161,7 +163,8 @@
             ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
-        }
+        },
+        "download": "/Top-Wines-Experience-EN.pdf"
       },
       "tour": {
         "img": "/assets/degustazioni/coteau.jpeg",
@@ -190,7 +193,8 @@
             ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
-        }
+        },
+        "download": "/Coteau-la-Tour-Experience-EN.pdf"
       },
       "winemaker": {
         "img": "/assets/degustazioni/winemaker.jpeg",
@@ -219,7 +223,8 @@
             ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
-        }
+        },
+        "download": "/Winemaker-Experience-EN.pdf"
       },
       "wellness": {
         "img": "/assets/degustazioni/wellness.jpeg",
@@ -246,7 +251,8 @@
             ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
-        }
+        },
+        "download": "https://www.qcterme.com/en/corporate/offerte-e-pacchetti/wellness-wine-tasting"
       }
     }
   }
