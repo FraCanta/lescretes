@@ -130,7 +130,7 @@ const SingleDeg = ({ deg }) => {
       <div className="w-full h-[1px] bg-second my-2"></div>
       <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs">
         <div className="flex gap-6 items-center ">
-          <p>Condividi su</p>
+          <p className="text-lg xl:text-2xl">Condividi su</p>
           <ul className="flex gap-6">
             <li>
               {" "}
@@ -168,7 +168,7 @@ const SingleDeg = ({ deg }) => {
                 icon="lets-icons:back"
                 className="text-white w-4 h-4 fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
               />
-              <p className="fxl:text-xl 3xl:text-3xl text-white">
+              <p className="text-lg xl:text-2xl fxl:text-xl 3xl:text-3xl text-white">
                 Torna alle Degustazioni
               </p>
             </Link>
