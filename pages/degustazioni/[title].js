@@ -90,13 +90,10 @@ const SingleDeg = ({ deg }) => {
       <div className="w-[90%] mx-auto flex-col justify-start items-start gap-[34px] flex py-10">
         <h2 className=" text-main text-[25px] xl:text-4xl font-bold  flex items-center gap-2">
           {deg.descrizione.title}{" "}
-          <Link href={deg.download} download target="_blank">
-            <Icon icon="material-symbols:download" color="#4A4A49" width={30} />
-          </Link>
         </h2>
         <div className="w-full text-main text-xl font-normal  leading-9 flex flex-col gap-6">
           <p>{deg.descrizione.content}</p>
-          <h2 className="text-main text-4xl font-bold  leading-[46px]">
+          <h2 className="text-main text-[25px] xl:text-4xl font-bold  leading-[46px]">
             {deg?.descrizione?.pacchetto?.title}
           </h2>
           <ul>
@@ -120,6 +117,15 @@ const SingleDeg = ({ deg }) => {
         ) : (
           ""
         )}
+        <Link
+          href={deg.download}
+          download
+          target="_blank"
+          className="flex items-center text-2xl gap-2 text-main font-bold w-full lg:max-w-max text-center  lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 border-main"
+        >
+          Scarica qui
+          <Icon icon="material-symbols:download" color="#4A4A49" width={30} />
+        </Link>
       </div>
       <div className="w-full h-[1px] bg-second my-2"></div>
       <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs">
