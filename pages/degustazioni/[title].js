@@ -25,7 +25,10 @@ const SingleDeg = ({ deg }) => {
         <title>{`Les Cretes - ${deg?.name}`}</title>
 
         <meta name="og:description" content={deg.descrizione.content} />
-        <meta property="og:image" content={deg?.img} />
+        <meta
+          property="og:image"
+          content={`https://lescretes-liard.vercel.app${deg.img}`}
+        />
       </Head>
       <div className="min-h-[70vh] w-[90%] my-6 mx-auto flex items-center justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main before:opacity-40 before:rounded-[30px]">
         <div className="p-8 w-full h-full ">
