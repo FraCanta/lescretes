@@ -88,8 +88,11 @@ const SingleDeg = ({ deg }) => {
         </div>
       </div>
       <div className="w-[90%] mx-auto flex-col justify-start items-start gap-[34px] flex py-10">
-        <h2 className=" text-main text-4xl font-bold  leading-[46px]">
-          {deg.descrizione.title}
+        <h2 className=" text-main text-[25px] xl:text-4xl font-bold  flex items-center gap-2">
+          {deg.descrizione.title}{" "}
+          <a href="assets/pdf/degustazioni/tre.pdf" download target="_blank">
+            <Icon icon="material-symbols:download" color="#4A4A49" width={30} />
+          </a>
         </h2>
         <div className="w-full text-main text-xl font-normal  leading-9 flex flex-col gap-6">
           <p>{deg.descrizione.content}</p>
