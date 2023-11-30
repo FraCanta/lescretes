@@ -16,9 +16,18 @@ import {
   TwitterShareButton,
   WhatsappShareButton,
 } from "next-share";
+import Drawer from "@/components/drawer/drawer";
 
 const SingleDeg = ({ deg }) => {
   console.log(deg);
+  const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
+  const handleDrawerToggle = () => {
+    setIsDrawerOpen(!isDrawerOpen);
+  };
+
+  const handleCloseDrawer = () => {
+    setIsDrawerOpen(false);
+  };
   return (
     <>
       <Head>
@@ -39,15 +48,16 @@ const SingleDeg = ({ deg }) => {
             {deg?.name}
           </h1>
           <div className="flex items-center">
-            <Link
-              href="/contatti"
+            <button
+              onClick={handleDrawerToggle}
               className="text-center capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] text-main hover:transition-all  bg-white max-w-max "
             >
               Prenota subito
-            </Link>
+            </button>
           </div>
         </div>
       </div>
+      <Drawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} />
 
       <div className="w-[90%] mx-auto grid grid-cols-1 xl:grid-cols-4 gap-10 py-10 flex-col">
         <div className="flex h-full items-center">
