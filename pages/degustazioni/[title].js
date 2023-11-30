@@ -10,6 +10,12 @@ import Cantina from "@/public/assets/iconeperdegustazioni/cantina.svg";
 import Lingue from "@/public/assets/iconeperdegustazioni/lingue.svg";
 import Link from "next/link";
 import Head from "next/head";
+import { Icon } from "@iconify/react";
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  WhatsappShareButton,
+} from "next-share";
 
 const SingleDeg = ({ deg }) => {
   console.log(deg);
@@ -17,12 +23,15 @@ const SingleDeg = ({ deg }) => {
     <>
       <Head>
         <title>{`Les Cretes - ${deg?.name}`}</title>
+
+        <meta name="og:description" content={deg.descrizione.content} />
+        <meta property="og:image" content={deg?.img} />
       </Head>
       <div className="min-h-[70vh] w-[90%] my-6 mx-auto flex items-center justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main before:opacity-40 before:rounded-[30px]">
         <div className="p-8 w-full h-full ">
           <Image src={deg?.img} fill className="object-cover rounded-[30px]" />
         </div>
-        <div className="flex flex-col xl:flex-row gap-8 xl:gap-0 justify-between w-[90%] translate-x-[6%]  absolute bottom-0 left-0 p-8 z-[999]">
+        <div className=" flex flex-col xl:flex-row gap-8 xl:gap-0 justify-between w-[90%] translate-x-[6%]  absolute bottom-0 left-0 p-8 z-[999]">
           <h1 className="text-white text-[40px] leading-none xl:text-[56px] xl:leading-[66px] font-bold">
             {deg?.name}
           </h1>
@@ -36,6 +45,7 @@ const SingleDeg = ({ deg }) => {
           </div>
         </div>
       </div>
+
       <div className="w-[90%] mx-auto grid grid-cols-2 xl:grid-cols-4 gap-10 py-10 flex-col">
         <div className="flex h-full items-center">
           <Image src={Bicchiere} className="h-full w-12" alt="bicchiere" />
@@ -84,13 +94,9 @@ const SingleDeg = ({ deg }) => {
             {deg?.descrizione?.pacchetto?.title}
           </h2>
           <ul>
-            <li>{deg?.descrizione?.pacchetto?.uno}</li>
-            <li>{deg?.descrizione?.pacchetto?.due}</li>
-            {deg?.descrizione?.pacchetto?.tre ? (
-              <li>{deg?.descrizione?.pacchetto?.tre}</li>
-            ) : (
-              ""
-            )}
+            {deg?.descrizione?.pacchetto?.lista?.map((l, i) => (
+              <li key={i}>{l.testo}</li>
+            ))}
           </ul>
           {deg?.descrizione?.opzione ? (
             <div className="bg-[#F4F3EF] flex flex-col gap-[20px] p-4">
@@ -108,6 +114,57 @@ const SingleDeg = ({ deg }) => {
         ) : (
           ""
         )}
+      </div>
+      <div className="w-full h-[1px] bg-second my-2"></div>
+      <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs">
+        <div className="flex gap-6 items-center ">
+          <p>Condividi su</p>
+          <ul className="flex gap-2">
+            <li>
+              {" "}
+              <FacebookShareButton
+                url={`https://lescretes-liard.vercel.app/degustazioni/${deg?.title}`}
+                hashtag={"#lescretes"}
+                style={{
+                  marginRight: "0.5rem",
+                }}
+              >
+                {/* <FacebookIcon size={32} round /> */}
+                <Icon
+                  icon="entypo-social:facebook"
+                  width={20}
+                  color="#4A4A49"
+                />
+              </FacebookShareButton>
+            </li>
+            <li className="text-[#757575]">
+              {" "}
+              <WhatsappShareButton
+                url={`https://lescretes-liard.vercel.app/degustazioni/${deg?.title}`}
+                separator="- "
+              >
+                <Icon
+                  icon="mingcute:whatsapp-fill"
+                  color="#4A4A49"
+                  width="20"
+                />
+              </WhatsappShareButton>
+            </li>
+          </ul>
+        </div>
+        <ul className="px-6 py-2 max-w-max bg-main rounded-[30px]">
+          <li>
+            <Link href="/degustazioni" title="Back to Degustazioni">
+              <Icon
+                icon="lets-icons:back"
+                className="text-white w-4 h-4 fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
+              />
+              <p className="fxl:text-xl 3xl:text-3xl text-white">
+                Torna alle Degustazioni
+              </p>
+            </Link>
+          </li>
+        </ul>
       </div>
       <div className="w-[90%] mx-auto ">
         <h2 className="text-6xl font-bold py-8">FAQs</h2>

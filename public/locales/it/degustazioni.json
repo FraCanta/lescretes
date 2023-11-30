@@ -71,8 +71,10 @@
           "content": " Fai un primo passo nel mondo Les Crêtes per scoprirne la storia, il territorio, i suoi vitigni ed i vini. Nella suggestiva cornice del Rifugio del Vino, potrai degustare tre vini con vista sui vigneti, dopo aver visitato la cantina e la barricaia.",
           "pacchetto": {
             "title": "Cosa comprende:",
-            "uno": "- Degustazione di 3 vini",
-            "due": "- Visita della cantina e barricaia"
+            "lista": [
+              { "testo": "- Degustazione di 3 vini" },
+              { "testo": "- Visita della cantina e barricaia" }
+            ]
           }
         }
       },
@@ -93,8 +95,10 @@
           "content": " Vivi un percorso nel mondo del vino Les Crêtes che dai vini nativi risale alla storia, al territorio, ai suoi vitigni ancestrali. Nella cornice del Rifugio del Vino, dopo la visita di cantina e barricaia, degusterai i vini autoctoni con vista sui vigneti e potrai eventualmente scegliere l'abbinamento con la nostra selezione di charcuterie e formaggi della gastronomia locale.",
           "pacchetto": {
             "title": "Cosa comprende:",
-            "uno": "- Degustazione di 5 vini",
-            "due": "- Visita della cantina e barricaia"
+            "lista": [
+              { "testo": "- Degustazione di 5 vini" },
+              { "testo": "- Visita della cantina e barricaia" }
+            ]
           },
           "opzione": {
             "title": "In opzione con questa degustazione:",
@@ -118,8 +122,13 @@
           "content": " Entra nel mondo Les Crêtes per scoprirne la storia, il territorio e i suoi vitigni, in un percorso gastronomico che vede protagonisti il vino ed i formaggi. Nella suggestiva cornice del Rifugio del Vino potrai degustare una selezione dei nostri vini, ciascuno in abbinamento ad un pregiato formaggio locale, accompagnato da miele di montagna.",
           "pacchetto": {
             "title": "Cosa comprende:",
-            "uno": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali (Rosé o Reban Metodo Classico, Petite Arvine Fleur, Torrette Supérieur o Chardonnay Cuvée Bois, Fumin, Doré Vendemmia di uve stramature o Merlot Le Merle)* ",
-            "due": "- Visita della cantina e barricaia"
+
+            "lista": [
+              {
+                "testo": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali * "
+              },
+              { "testo": "- Visita della cantina e barricaia" }
+            ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
         }
@@ -140,9 +149,15 @@
           "content": " Per wine lovers ed esperti, 5 prestigiose etichette Les Crêtes da degustare nella cornice del Rifugio del Vino, assaporando, con vista sui vigneti, l'abbinamento di una selezione di charcuterie e formaggi pregiati della gastronomia locale, dopo la visita guidata dedicata.",
           "pacchetto": {
             "title": "Cosa comprende:",
-            "uno": "- Degustazione di 5 vini top concordati con il nostro Sommelier (tra Petite Arvine Fleur, Chardonnay Cuvée Bois, Neige d'Or, Fumin, Merlot, Nebbiolo, Neblù metodo classico)* ",
-            "due": "- Visita della cantina e barricaia",
-            "tre": "- La nostra selezione di salumi e formaggi della gastronomia locale"
+            "lista": [
+              {
+                "testo": "- Degustazione di 5 vini top concordati con il nostro Sommelier * "
+              },
+              { "testo": "- Visita della cantina e barricaia" },
+              {
+                "testo": "- La nostra selezione di salumi e formaggi della gastronomia locale"
+              }
+            ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
         }
@@ -166,8 +181,12 @@
           "content": " Entra nel mondo Les Crêtes per scoprirne la storia, il territorio e i suoi vitigni, in un percorso gastronomico che vede protagonisti il vino ed i formaggi. Nella suggestiva cornice del Rifugio del Vino potrai degustare una selezione dei nostri vini, ciascuno in abbinamento ad un pregiato formaggio locale, accompagnato da miele di montagna.",
           "pacchetto": {
             "title": "Cosa comprende:",
-            "uno": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali (Rosé o Reban Metodo Classico, Petite Arvine Fleur, Torrette Supérieur o Chardonnay Cuvée Bois, Fumin, Doré Vendemmia di uve stramature o Merlot Le Merle)* ",
-            "due": "- Visita della cantina e barricaia"
+            "lista": [
+              {
+                "testo": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali * "
+              },
+              { "testo": "- Visita della cantina e barricaia" }
+            ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
         }
@@ -191,8 +210,12 @@
           "content": " Entra nel mondo Les Crêtes per scoprirne la storia, il territorio e i suoi vitigni, in un percorso gastronomico che vede protagonisti il vino ed i formaggi. Nella suggestiva cornice del Rifugio del Vino potrai degustare una selezione dei nostri vini, ciascuno in abbinamento ad un pregiato formaggio locale, accompagnato da miele di montagna.",
           "pacchetto": {
             "title": "Cosa comprende:",
-            "uno": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali (Rosé o Reban Metodo Classico, Petite Arvine Fleur, Torrette Supérieur o Chardonnay Cuvée Bois, Fumin, Doré Vendemmia di uve stramature o Merlot Le Merle)* ",
-            "due": "- Visita della cantina e barricaia"
+            "lista": [
+              {
+                "testo": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali * "
+              },
+              { "testo": "- Visita della cantina e barricaia" }
+            ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
         }
@@ -214,8 +237,12 @@
           "content": " Entra nel mondo Les Crêtes per scoprirne la storia, il territorio e i suoi vitigni, in un percorso gastronomico che vede protagonisti il vino ed i formaggi. Nella suggestiva cornice del Rifugio del Vino potrai degustare una selezione dei nostri vini, ciascuno in abbinamento ad un pregiato formaggio locale, accompagnato da miele di montagna.",
           "pacchetto": {
             "title": "Cosa comprende:",
-            "uno": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali (Rosé o Reban Metodo Classico, Petite Arvine Fleur, Torrette Supérieur o Chardonnay Cuvée Bois, Fumin, Doré Vendemmia di uve stramature o Merlot Le Merle)* ",
-            "due": "- Visita della cantina e barricaia"
+            "lista": [
+              {
+                "testo": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali * "
+              },
+              { "testo": "- Visita della cantina e barricaia" }
+            ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
         }
