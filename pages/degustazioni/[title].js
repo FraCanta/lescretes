@@ -30,12 +30,12 @@ const SingleDeg = ({ deg }) => {
           content={`https://lescretes-liard.vercel.app${deg.img}`}
         />
       </Head>
-      <div className="min-h-[70vh] w-[90%] my-6 mx-auto flex items-center justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main before:opacity-40 before:rounded-[30px]">
+      <div className="min-h-[55vh] xl:min-h-[70vh] w-[90%] my-6 mx-auto flex items-center justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main before:opacity-40 before:rounded-[30px]">
         <div className="p-8 w-full h-full ">
           <Image src={deg?.img} fill className="object-cover rounded-[30px]" />
         </div>
-        <div className=" flex flex-col xl:flex-row gap-8 xl:gap-0 justify-between w-[90%] translate-x-[6%]  absolute bottom-0 left-0 p-8 z-[999]">
-          <h1 className="text-white text-[40px] leading-none xl:text-[56px] xl:leading-[66px] font-bold">
+        <div className=" flex flex-col xl:flex-row gap-4 xl:gap-0 justify-between w-[90%] translate-x-[6%]  absolute bottom-4 xl:bottom-0 left-0  xl:p-8 z-[999]">
+          <h1 className="text-white text-[40px] leading-[52px] xl:text-[56px] xl:leading-[66px] font-bold">
             {deg?.name}
           </h1>
           <div className="flex items-center">
@@ -122,20 +122,17 @@ const SingleDeg = ({ deg }) => {
       <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs">
         <div className="flex gap-6 items-center ">
           <p>Condividi su</p>
-          <ul className="flex gap-2">
+          <ul className="flex gap-6">
             <li>
               {" "}
               <FacebookShareButton
                 url={`https://lescretes-liard.vercel.app/degustazioni/${deg?.title}`}
                 hashtag={"#lescretes"}
-                style={{
-                  marginRight: "0.5rem",
-                }}
               >
                 {/* <FacebookIcon size={32} round /> */}
                 <Icon
                   icon="entypo-social:facebook"
-                  width={20}
+                  width={25}
                   color="#4A4A49"
                 />
               </FacebookShareButton>
@@ -149,7 +146,7 @@ const SingleDeg = ({ deg }) => {
                 <Icon
                   icon="mingcute:whatsapp-fill"
                   color="#4A4A49"
-                  width="20"
+                  width="25"
                 />
               </WhatsappShareButton>
             </li>

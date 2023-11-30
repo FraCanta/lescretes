@@ -15,14 +15,14 @@ const Degustazioni = ({ translation }) => {
       <Head>
         <title>Les Cretes - degustazioni</title>
       </Head>
-      <div className="flex flex-col lg:flex-row items-center w-[90%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
+      <div className="flex flex-col lg:flex-row items-center justify-center w-[90%] mx-auto min-h-[calc(90vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
         <HeroHome />
       </div>
-      <div className="w-[90%] min-h-screen flex-col justify-start items-center gap-[60px] flex mx-auto py-10">
-        <h2 className="text-center text-main text-5xl font-bold leading-[50.91px]">
-          Prenota la degustazione che preferisci
-        </h2>
-        <div className="flex flex-col gap-4 text-center text-main text-[20px] font-normal leading-[33.20px]">
+      <div className="w-[90%] min-h-screen flex-col justify-start items-center gap-[60px] flex mx-auto pb-10 xl:py-10">
+        {/* <h2 className="xl:text-center text-main text-5xl  xl:text-5xl font-bold xl:leading-[50.91px]">
+          Prenota la tua degustazione
+        </h2> */}
+        <div className="flex flex-col gap-4 xl:text-center text-main text-[18px] xl:text-[20px] font-normal leading-[33.20px]">
           <p>
             Il <span className="font-bold">Rifugio del Vino</span> è una vera
             terrazza sulla vigne che sovrastano la città di Aosta, un luogo dove
@@ -62,7 +62,7 @@ const Degustazioni = ({ translation }) => {
             className="object-cover rounded-[30px]"
           />
         </div>
-        <div className="flex flex-col h-full justify-center gap-8 relative">
+        <div className="flex flex-col h-full justify-center gap-8 relative w-[90%] mx-auto">
           <div className="flex flex-col gap-6">
             <h3 className="text-white text-[35px] xl:text-[43.22px] font-bold xl:leading-[55.22px] xl:w-[70%]">
               La nostra forza è la cura e la passione che abbiamo per la nostra
