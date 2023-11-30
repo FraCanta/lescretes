@@ -76,7 +76,8 @@
               { "testo": "- Visita della cantina e barricaia" }
             ]
           }
-        }
+        },
+        "download": "/3-Wines-Experience-ITA.pdf"
       },
       "native": {
         "img": "/assets/degustazioni/native.jpeg",
@@ -104,7 +105,8 @@
             "title": "In opzione con questa degustazione:",
             "uno": "La nostra selezione di salumi e formaggi della gastronomia locale al costo aggiuntivo di € 14.00 pax IVA incl."
           }
-        }
+        },
+        "download": "/Native-Wines-Experience-ITA.pdf"
       },
       "cheese": {
         "img": "/assets/degustazioni/cheese.jpeg",
@@ -131,7 +133,8 @@
             ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
-        }
+        },
+        "download": "/Wines-Cheese-Experience-ITA.pdf"
       },
       "top": {
         "img": "/assets/degustazioni/top.jpeg",
@@ -160,7 +163,8 @@
             ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
-        }
+        },
+        "download": "/Top-Wines-Experience-ITA.pdf"
       },
       "tour": {
         "img": "/assets/degustazioni/coteau.jpeg",
@@ -189,7 +193,8 @@
             ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
-        }
+        },
+        "download": "/Coteau-la-Tour-Experience-ITA.pdf"
       },
       "winemaker": {
         "img": "/assets/degustazioni/winemaker.jpeg",
@@ -218,7 +223,8 @@
             ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
-        }
+        },
+        "download": "/Winemaker-Experience-ITA.pdf"
       },
       "wellness": {
         "img": "/assets/degustazioni/wellness.jpeg",
@@ -245,7 +251,8 @@
             ]
           },
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
-        }
+        },
+        "download": "https://www.qcterme.com/it/corporate/offerte-e-pacchetti/wellness-wine-tasting"
       }
     }
   }
