@@ -18,13 +18,13 @@ const FAQItem = ({ question, answer }) => {
         <div className="font-bold text-main text-lg py-10">{question}</div>
         <div className="ml-2 text-main text-lg">
           {isOpen ? (
-            <Icon icon="mdi:minus-circle" color="#4a4a49" />
+            <Icon icon="mdi:minus-circle" color="#4a4a49" width={25} />
           ) : (
-            <Icon icon="mdi:plus-circle" color="#4a4a49" />
+            <Icon icon="mdi:plus-circle" color="#4a4a49" width={25} />
           )}
         </div>
       </div>
-      {isOpen && <div className="mt-2 text-main">{answer}</div>}
+      {isOpen && <div className="mt-2 text-main ">{answer}</div>}
     </div>
   );
 };
