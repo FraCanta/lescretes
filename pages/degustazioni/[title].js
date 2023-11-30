@@ -91,22 +91,29 @@ const SingleDeg = ({ deg }) => {
         <h2 className=" text-main text-[25px] xl:text-4xl font-bold  flex items-center gap-2">
           {deg.descrizione.title}{" "}
         </h2>
-        <div className="w-full text-main text-xl font-normal  leading-9 flex flex-col gap-6">
-          <p>{deg.descrizione.content}</p>
+        <p className="text-base xl:text-xl font-normal  !leading-[40px]">
+          {deg.descrizione.content}
+        </p>
+        <div className="w-full text-main flex flex-col gap-6">
           <h2 className="text-main text-[25px] xl:text-4xl font-bold  leading-[46px]">
             {deg?.descrizione?.pacchetto?.title}
           </h2>
-          <ul>
+          <ul className="flex flex-col gap-2">
             {deg?.descrizione?.pacchetto?.lista?.map((l, i) => (
-              <li key={i}>{l.testo}</li>
+              <li className="text-base xl:text-xl" key={i}>
+                {l.testo}
+              </li>
             ))}
           </ul>
           {deg?.descrizione?.opzione ? (
             <div className="bg-[#F4F3EF] flex flex-col gap-[20px] p-4">
-              <h2 className="text-main text-4xl font-bold  leading-[46px]">
+              <h2 className="text-main text-2xl xl:text-4xl font-bold  leading-[46px]">
                 {deg?.descrizione?.opzione?.title}
               </h2>
-              <p className="text-[18px]"> {deg?.descrizione?.opzione?.uno}</p>
+              <p className="xl:text-[18px]">
+                {" "}
+                {deg?.descrizione?.opzione?.uno}
+              </p>
             </div>
           ) : (
             ""
@@ -130,7 +137,7 @@ const SingleDeg = ({ deg }) => {
       <div className="w-full h-[1px] bg-second my-2"></div>
       <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs">
         <div className="flex gap-6 items-center ">
-          <p className="text-lg xl:text-2xl">Condividi su</p>
+          <p className="text-lg xl:text-xl">Condividi su</p>
           <ul className="flex gap-6">
             <li>
               {" "}
@@ -168,15 +175,15 @@ const SingleDeg = ({ deg }) => {
                 icon="lets-icons:back"
                 className="text-white w-4 h-4 fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
               />
-              <p className="text-lg xl:text-2xl fxl:text-xl 3xl:text-3xl text-white">
+              <p className="text-lg xl:text-xl fxl:text-xl 3xl:text-3xl text-white">
                 Torna alle Degustazioni
               </p>
             </Link>
           </li>
         </ul>
       </div>
-      <div className="w-[90%] mx-auto ">
-        <h2 className="text-6xl font-bold py-8">FAQs</h2>
+      <div className="w-[90%] mx-auto my-[50px]">
+        <h2 className="text-6xl font-bold py-6">FAQs</h2>
         <FAQ />
       </div>
     </>

@@ -24,7 +24,9 @@ const FAQItem = ({ question, answer }) => {
           )}
         </div>
       </div>
-      {isOpen && <div className="mt-2 text-main ">{answer}</div>}
+      {isOpen && (
+        <div className="mt-2 text-main transition ease-in-out">{answer}</div>
+      )}
     </div>
   );
 };
