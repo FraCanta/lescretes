@@ -47,7 +47,7 @@ export default function Storia({ translation }) {
             </div>
           </div>
 
-          <div>
+          <div className="w-full overflow-x-hidden">
             <Reviews />
           </div>
         </div>
