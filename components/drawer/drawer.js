@@ -33,19 +33,9 @@ const Drawer = ({ isOpen, onClose }) => {
       variants={variants}
       transition={{ duration: 0.5 }}
       style={{
-        position: "fixed",
-        right: 0,
-        bottom: 20,
-        background: "red",
         zIndex: 999999,
-        width: "100vh",
-        height: "80vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "column",
-        paddingLeft: 20,
       }}
+      className="fixed right-0 bottom-0 p-8 bg-main h-[80vh] xl:h-screen w-screen xl:w-[50vw]"
     >
       {/* Contenuto del drawer, incluso il form */}
 

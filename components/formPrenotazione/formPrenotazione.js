@@ -1,7 +1,7 @@
 import React from "react";
 
 const FormPrenotazione = () => {
-  return <div>FormPrenotazione</div>;
+  return <p className="text-white">forms</p>;
 };
 
 export default FormPrenotazione;
