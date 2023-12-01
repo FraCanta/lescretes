@@ -18,7 +18,7 @@ const FormPrenotazione = () => {
     <div className="container mx-auto xl:my-20  bg-white">
       <div className="py-5 ">
         <form>
-          <div className="grid grid-cols-2 gap-2 xl:gap-10">
+          <div className="grid grid-cols-2 gap-6 xl:gap-10">
             <input
               type="text"
               className="border-b  py-2 focus:outline-none focus:border-main bg-transparent col-span-2 xl:col-span-1"
