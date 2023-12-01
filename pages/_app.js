@@ -5,29 +5,44 @@ import "@/styles/tabs.css";
 
 import Script from "next/script";
 import { useEffect, useState } from "react";
-import { AnimatePresence } from "framer-motion";
-import Loading from "@/components/Loading/loading";
-export default function App({ Component, pageProps }) {
-  const [loading, setLoading] = useState(true);
+import { AnimatePresence, motion, Spring } from "framer-motion";
+export default function App({ Component, pageProps, router }) {
+  const transitionSpringPhysics = {
+    type: "spring",
+    mass: 0.2,
+    stiffness: 80,
+    damping: 10,
+  };
+  const transitionColor = "white";
 
-  useEffect(() => {
-    // Simula il caricamento dei dati o altre operazioni asincrone
-    const loadData = async () => {
-      // Aggiungi qui la logica per caricare i dati o eseguire altre operazioni
-      // Attendere per un certo periodo di tempo (simulazione)
-      await new Promise((resolve) => setTimeout(resolve, 2000));
-
-      // Quando i dati sono pronti, impostare loading su false
-      setLoading(false);
-    };
-    // Chiamare la funzione per caricare i dati
-    loadData();
-  }, []);
   return (
-    <AnimatePresence mode="whait" initial={false}>
-      {loading ? (
-        <Loading />
-      ) : (
+    <AnimatePresence mode="wait" initial={false}>
+      <motion.div key={router.route}>
+        <motion.div
+          style={{
+            backgroundColor: transitionColor,
+            position: "fixed",
+            width: "100vw",
+            zIndex: 1000,
+            bottom: 0,
+          }}
+          transition={transitionSpringPhysics}
+          animate={{ height: "0vh" }}
+          exit={{ height: "100vh" }}
+        />
+
+        <motion.div
+          style={{
+            backgroundColor: transitionColor,
+            position: "fixed",
+            width: "100vw",
+            zIndex: 99999,
+            top: 0,
+          }}
+          transition={transitionSpringPhysics}
+          initial={{ height: "100vh" }}
+          animate={{ height: "0vh", transition: { delay: 0.2 } }}
+        />
         <main>
           {" "}
           <Layout>
@@ -39,7 +54,7 @@ export default function App({ Component, pageProps }) {
             defer
           ></Script>
         </main>
-      )}
+      </motion.div>
     </AnimatePresence>
   );
 }

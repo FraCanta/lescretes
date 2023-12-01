@@ -112,7 +112,7 @@ const SingleDeg = ({ deg }) => {
         <h2 className=" text-main text-[25px] xl:text-4xl font-bold  flex items-center gap-2">
           {deg.descrizione.title}{" "}
         </h2>
-        <p className="text-base xl:text-xl font-normal  !leading-[40px]">
+        <p className="text-base xl:text-xl font-normal  !leading-[33.2px]">
           {deg.descrizione.content}
         </p>
         <div className="w-full text-main flex flex-col gap-6">

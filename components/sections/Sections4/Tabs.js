@@ -1,12 +1,11 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { motion } from "framer-motion"; // Importa il componente motion
 import "swiper/css";
 import "swiper/css/pagination";
-// import required modules
 import { Pagination } from "swiper/modules";
-
 import { useState } from "react";
+import Link from "next/link";
 
 const Tabs = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(0);
@@ -34,9 +33,16 @@ const Tabs = ({ tabs }) => {
 
       {/* Tab content */}
       {tabs.map((tab, index) => (
-        <div
+        <motion.div // Usa motion.div anziché div
           key={index}
           id={tab.name}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{
+            opacity: activeTab === index ? 1 : 0,
+            y: activeTab === index ? 0 : 20,
+            transition: { duration: 0.5 },
+          }}
+          exit={{ opacity: 0, y: 20 }}
           className={`w-full py-10 gap-4 ${
             activeTab === index ? "tabcontent" : "tabcontent hidden"
           }`}
@@ -44,7 +50,6 @@ const Tabs = ({ tabs }) => {
           <Swiper
             slidesPerView={4}
             spaceBetween={20}
-            // grabCursor={true}
             pagination={{
               clickable: true,
             }}
@@ -69,27 +74,32 @@ const Tabs = ({ tabs }) => {
             }}
           >
             {tab.content.map((content, contentIndex) => (
-              <SwiperSlide>
-                <div
-                  className="w-full h-[450px] fxl:h-[500px] relative"
+              <SwiperSlide key={contentIndex}>
+                <Link
+                  href={content.link}
                   key={contentIndex}
+                  className="w-full h-[450px] fxl:h-full relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white"
                 >
-                  <div className="w-full h-[450px] fxl:h-[500px] left-0 top-0 absolute bg-[#F4F3EF] rounded-3xl hover:bg-main" />
+                  <motion.div // Usa motion.div anziché div
+                    className="w-full h-[450px] fxl:h-[500px] relative"
+                  >
+                    <div className="w-full h-[450px] fxl:h-[500px] left-0 top-0 absolute bg-[#F4F3EF] rounded-3xl hover:bg-main" />
 
-                  <Image
-                    className="object-contain left-20 top-[1.5rem] absolute w-[50%] h-[80%]"
-                    src={content.img}
-                    width={100}
-                    height={100}
-                  />
-                  <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[18px] font-bold  leading-snug">
-                    {content.name}
-                  </p>
-                </div>
+                    <Image
+                      className="object-contain left-20 top-[1.5rem] absolute w-[50%] h-[80%]"
+                      src={content.img}
+                      width={100}
+                      height={100}
+                    />
+                    <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[18px] font-bold  leading-snug">
+                      {content.name}
+                    </p>
+                  </motion.div>
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>
-        </div>
+        </motion.div>
       ))}
     </div>
   );

@@ -54,7 +54,7 @@ p {
 }
 
 .hero {
-  background-image: url("../public/assets/coteau.jpg");
+  background-image: url("../public/assets/coteau.webp");
   background-size: cover;
   background-position: top;
 }
