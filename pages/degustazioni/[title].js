@@ -47,20 +47,11 @@ const SingleDeg = ({ deg }) => {
           <h1 className="text-white text-[40px] leading-[52px] xl:text-[56px] xl:leading-[66px] font-bold">
             {deg?.name}
           </h1>
-          <div className="flex items-center">
-            <button
-              onClick={handleDrawerToggle}
-              className="text-center capitalize font-medium py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] text-main hover:transition-all  bg-white max-w-max "
-            >
-              Prenota ora
-            </button>
-          </div>
         </div>
       </div>
-      <Drawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} />
 
-      <div className="w-[90%] mx-auto grid grid-cols-1 xl:grid-cols-4 gap-10 py-10 flex-col">
-        <div className="flex h-full items-center">
+      <div className="w-[90%] mx-auto grid grid-cols-1 xl:grid-cols-5 gap-8 xl:gap-4 py-10 flex-col">
+        <div className="flex h-full ">
           <Image src={Bicchiere} className="h-full w-12" alt="bicchiere" />
           <div className="flex flex-col ">
             <h2 className="font-bold text-[18px] text-main">
@@ -70,8 +61,8 @@ const SingleDeg = ({ deg }) => {
           </div>
         </div>
         <div className="flex h-full items-center">
-          <Image src={Durata} className="h-full w-12" alt="bicchiere" />
-          <div className="flex flex-col ">
+          <Image src={Durata} className="h-full w-10 xl:w-12" alt="bicchiere" />
+          <div className="flex flex-col h-full justify-center">
             <h2 className="font-bold text-[18px] text-main">
               {deg.durata?.title}
             </h2>
@@ -79,8 +70,12 @@ const SingleDeg = ({ deg }) => {
           </div>
         </div>
         <div className="flex h-full items-center">
-          <Image src={Cantina} className="h-full w-12" alt="bicchiere" />
-          <div className="flex flex-col ">
+          <Image
+            src={Cantina}
+            className="h-full w-10 xl:w-12"
+            alt="bicchiere"
+          />
+          <div className="flex flex-col h-full justify-center">
             <h2 className="font-bold text-[18px] text-main">
               {deg.visita?.title}
             </h2>
@@ -96,7 +91,23 @@ const SingleDeg = ({ deg }) => {
             <p className="text-[16px]">{deg.lingua.tipo}</p>
           </div>
         </div>
+        <div className="flex items-center ">
+          <button
+            onClick={handleDrawerToggle}
+            className="flex items-center justify-center text-[18px]  gap-2 text-center capitalize font-medium py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] text-white hover:transition-all  bg-main w-full "
+          >
+            Prenota ora
+            <Icon
+              icon="mingcute:calendar-line"
+              color="white"
+              className="w-5 h-5"
+            />
+          </button>
+        </div>
       </div>
+
+      <Drawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} />
+
       <div className="w-[90%] mx-auto flex-col justify-start items-start gap-[34px] flex py-10">
         <h2 className=" text-main text-[25px] xl:text-4xl font-bold  flex items-center gap-2">
           {deg.descrizione.title}{" "}
