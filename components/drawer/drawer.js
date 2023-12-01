@@ -2,6 +2,7 @@
 import { motion, useAnimation } from "framer-motion";
 import { useState, useEffect } from "react";
 import FormPrenotazione from "../formPrenotazione/formPrenotazione";
+import { Icon } from "@iconify/react";
 
 const Drawer = ({ isOpen, onClose }) => {
   const controls = useAnimation();
@@ -27,22 +28,45 @@ const Drawer = ({ isOpen, onClose }) => {
   }, [isOpen]);
 
   return (
-    <motion.div
-      initial="closed"
-      animate={controls}
-      variants={variants}
-      transition={{ duration: 0.5 }}
-      style={{
-        zIndex: 999999,
-      }}
-      className="fixed right-0 bottom-0 p-8 bg-main h-[80vh] xl:h-screen w-screen xl:w-[50vw]"
-    >
-      {/* Contenuto del drawer, incluso il form */}
+    <>
+      {/* Overlay quando il drawer è aperto */}
+      {isOpen && (
+        <motion.div
+          initial="closed"
+          animate={{ opacity: isOpen ? 1 : 0 }}
+          transition={{ duration: 0.5 }}
+          style={{
+            zIndex: 999998, // Assegna uno zIndex inferiore rispetto al drawer
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: "rgba(0, 0, 0, 0.5)", // Colore di sfondo semi-trasparente
+          }}
+        />
+      )}
 
-      {/* Bottone per chiudere il drawer */}
-      <button onClick={onClose}>Chiudi</button>
-      <FormPrenotazione />
-    </motion.div>
+      {/* Drawer */}
+      <motion.div
+        initial="closed"
+        animate={controls}
+        variants={variants}
+        transition={{ duration: 0.5 }}
+        style={{
+          zIndex: 999999,
+        }}
+        className="fixed right-0 bottom-0 p-8 bg-white h-[90vh] xl:h-screen w-screen xl:w-[50vw]"
+      >
+        {/* Contenuto del drawer, incluso il form */}
+
+        {/* Bottone per chiudere il drawer */}
+        <button onClick={onClose}>
+          <Icon icon="carbon:close-filled" className="text-main w-6 h-6 " />{" "}
+        </button>
+        <FormPrenotazione />
+      </motion.div>
+    </>
   );
 };
 

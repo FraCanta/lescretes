@@ -16,6 +16,7 @@
     "next-share": "^0.27.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-international-phone": "^4.0.4",
     "swiper": "^11.0.5"
   },
   "devDependencies": {

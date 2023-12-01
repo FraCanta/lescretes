@@ -59,6 +59,11 @@ p {
   background-position: top;
 }
 
+.react-international-phone-country-selector-button,
+.react-international-phone-input-container .react-international-phone-input {
+  border: none !important;
+}
+
 @media screen and (max-width: 768px) {
   .hero {
     background-position: center;
