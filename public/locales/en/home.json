@@ -9,51 +9,63 @@
         "content": [
           {
             "img": "/assets/vinirossi/merle.webp",
-            "name": "Merlot Le Merle Valle D'Aosta DOP"
+            "name": "Merlot Le Merle Valle D'Aosta DOP",
+            "link": "/vini/rossi/merle"
           },
           {
             "img": "/assets/vinirossi/cigliegiolo.webp",
-            "name": "Cigliegiolo Ofre Valle D'Aosta"
+            "name": "Cigliegiolo Ofre Valle D'Aosta",
+            "link": "/vini/rossi/ofre"
           },
           {
             "img": "/assets/vinirossi/cornalin.webp",
-            "name": "Cornalin"
+            "name": "Cornalin",
+            "link": "/vini/rossi/cornalin"
           },
           {
             "img": "/assets/vinirossi/fumin_lacor.webp",
-            "name": "Fumin La Cor"
+            "name": "Fumin La Cor",
+            "link": "/vini/rossi/lacor"
           },
           {
             "img": "/assets/vinirossi/monrouge.webp",
-            "name": "Mon Rouge"
+            "name": "Mon Rouge",
+            "link": "/vini/rossi/monrouge"
           },
           {
             "img": "/assets/vinirossi/nebbiolo.webp",
-            "name": "Nebbiolo"
+            "name": "Nebbiolo",
+            "link": "/vini/rossi/nebbiolo"
           },
           {
             "img": "/assets/vinirossi/pinot_nero.webp",
-            "name": "Pinot Nero"
+            "name": "Pinot Nero",
+            "link": "/vini/rossi/pinot"
           },
           {
             "img": "/assets/vinirossi/pinot_revei.webp",
-            "name": "Pinot Revei"
+            "name": "Pinot Revei",
+            "link": "/vini/rossi/revei"
           },
           {
             "img": "/assets/vinirossi/sabla.webp",
-            "name": "Sabla"
+            "name": "Sabla",
+            "link": "/vini/rossi/sabla"
           },
           {
             "img": "/assets/vinirossi/syrah.webp",
-            "name": "Syrah"
+            "name": "Syrah",
+            "link": "/vini/rossi/syrah"
           },
           {
             "img": "/assets/vinirossi/torrette_sup.webp",
-            "name": "Torrette Superiore"
+            "name": "Torrette Superiore",
+            "link": "/vini/rossi/torrettesup"
           },
           {
             "img": "/assets/vinirossi/torrette.webp",
-            "name": "Torrette"
+            "name": "Torrette",
+            "link": "/vini/rossi/torrette"
           }
         ]
       },
@@ -62,31 +74,38 @@
         "content": [
           {
             "img": "/assets/vinibianchi/chardonnay_cb.webp",
-            "name": "Chardonnay Cuvée Bois"
+            "name": "Chardonnay Cuvée Bois",
+            "link": "/vini/rossi/torrette"
           },
           {
             "img": "/assets/vinibianchi/chardonnay.webp",
-            "name": "Chardonnay"
+            "name": "Chardonnay",
+            "link": "/vini/rossi/torrette"
           },
           {
             "img": "/assets/vinibianchi/mon_blanc.webp",
-            "name": "Mon Blanc"
+            "name": "Mon Blanc",
+            "link": "/vini/rossi/torrette"
           },
           {
             "img": "/assets/vinibianchi/neige.webp",
-            "name": "Neige D'Or"
+            "name": "Neige D'Or",
+            "link": "/vini/rossi/torrette"
           },
           {
             "img": "/assets/vinibianchi/petite_arvine.webp",
-            "name": "Petite Arvine"
+            "name": "Petite Arvine",
+            "link": "/vini/rossi/torrette"
           },
           {
             "img": "/assets/vinibianchi/petite_fleur.webp",
-            "name": "Petite Arvine Fleur"
+            "name": "Petite Arvine Fleur",
+            "link": "/vini/rossi/torrette"
           },
           {
             "img": "/assets/vinibianchi/pinot_grigio.webp",
-            "name": "Pinot Gris Brutant"
+            "name": "Pinot Gris Brutant",
+            "link": "/vini/rossi/torrette"
           }
         ]
       },
@@ -95,7 +114,8 @@
         "content": [
           {
             "img": "/assets/vinirose/rose.webp",
-            "name": "Rosè"
+            "name": "Rosè",
+            "link": "/vini/rossi/torrette"
           }
         ]
       },
@@ -104,15 +124,18 @@
         "content": [
           {
             "img": "/assets/vinidessert/dorè.webp",
-            "name": "Dorè"
+            "name": "Dorè",
+            "link": "/vini/rossi/torrette"
           },
           {
             "img": "/assets/vinidessert/neblu.webp",
-            "name": "Neblu Brut Nature Rose"
+            "name": "Neblu Brut Nature Rose",
+            "link": "/vini/rossi/torrette"
           },
           {
             "img": "/assets/vinidessert/reban.webp",
-            "name": "Reban Pas Dosè"
+            "name": "Reban Pas Dosè",
+            "link": "/vini/rossi/torrette"
           }
         ]
       }
