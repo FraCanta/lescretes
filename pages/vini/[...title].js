@@ -1,13 +1,22 @@
 import React from "react";
 import Image from "next/image";
-import Merle from "@/public/assets/vinirossi/nebbiolo.webp";
 import viniIT from "../../public/locales/it/vini.json";
 import viniEN from "../../public/locales/en/vini.json";
 import viniFR from "../../public/locales/fr/vini.json";
+import Head from "next/head";
 
 const SingleWine = ({ wine }) => {
   return (
     <>
+      <Head>
+        <title>{`Les Cretes - ${wine?.name}`}</title>
+
+        {/* <meta name="og:description" content={deg.descrizione.content} /> */}
+        <meta
+          property="og:image"
+          content={`https://lescretes-liard.vercel.app${wine.img}`}
+        />
+      </Head>
       <div className="min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_60px)] fxl:min-h-[calc(100vh_-_100px)] w-full h-full relative grid grid-cols-1 xl:grid-cols-2">
         <div className="flex items-center justify-center relative bg-pattern min-h-[calc(100vh_-_70px)] xl:h-[calc(100vh_-_60px)]">
           <Image src={wine.img} alt="" fill className="object-contain p-8" />
@@ -18,7 +27,7 @@ const SingleWine = ({ wine }) => {
               {wine.name}
             </h1>
             <p className="text-[18px] leading-[32px]">
-              Il “Sommet” di Les Cretes è un Nebbiolo valdostano di estrema
+              Il “Sommet” di Les Crêtes è un Nebbiolo valdostano di estrema
               finezza e freschezza, immagine coerente della cime della montagna
               verso cui guardano le viti. Dopo un passaggio in legno di un anno,
               sfodera al naso un ventaglio organolettico di fiori e frutti
