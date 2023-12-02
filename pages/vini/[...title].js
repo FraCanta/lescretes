@@ -5,18 +5,17 @@ import viniIT from "../../public/locales/it/vini.json";
 import viniEN from "../../public/locales/en/vini.json";
 import viniFR from "../../public/locales/fr/vini.json";
 
-const SingleWine = ({ title }) => {
-  // console.log(title);
+const SingleWine = ({ wine }) => {
   return (
     <>
       <div className="min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_60px)] fxl:min-h-[calc(100vh_-_100px)] w-full h-full relative grid grid-cols-1 xl:grid-cols-2">
         <div className="flex items-center justify-center relative bg-pattern min-h-[calc(100vh_-_70px)] xl:h-[calc(100vh_-_60px)]">
-          <Image src={Merle} alt="" fill className="object-contain p-8" />
+          <Image src={wine.img} alt="" fill className="object-contain p-8" />
         </div>
         <div className="flex py-8 w-[90%] mx-auto xl:mx-0">
           <div className="flex-col justify-start items-start gap-[30px] flex">
             <h1 className="text-main text-[42.08px] font-black  leading-[53.77px]">
-              Nebbiolo ‘Sommet’ Les Crêtes
+              {wine.name}
             </h1>
             <p className="text-[18px] leading-[32px]">
               Il “Sommet” di Les Cretes è un Nebbiolo valdostano di estrema
@@ -73,11 +72,11 @@ export async function getStaticProps(context) {
       obj = viniIT;
       break;
   }
-  let targetObj = obj?.vini?.singleWine?.[params?.title];
+  let targetObj = obj?.vini?.singleWine?.[params?.title[1]];
 
   return {
     props: {
-      title: params.title,
+      wine: targetObj,
     },
   };
 }
@@ -101,12 +100,14 @@ export async function getStaticPaths({ locale }) {
       break;
   }
 
-  const wines = Object.keys(obj?.vini?.singleWine);
-  console.log(wines);
+  const wines = Object.keys(obj?.vini?.singleWine).map(
+    (el) => obj?.vini?.singleWine[el]
+  );
+
   const pathEn = wines?.map((el) => {
     return {
       params: {
-        title: [el],
+        title: [el?.cat, el?.title],
       },
       locale: "en",
     };
@@ -114,7 +115,7 @@ export async function getStaticPaths({ locale }) {
   const pathFr = wines?.map((el) => {
     return {
       params: {
-        title: [el],
+        title: [el?.cat, el?.title],
       },
       locale: "fr",
     };
@@ -122,13 +123,13 @@ export async function getStaticPaths({ locale }) {
   const pathIt = wines?.map((el) => {
     return {
       params: {
-        title: [el],
+        title: [el?.cat, el?.title],
       },
       locale: "it",
     };
   });
-  // console.log(pathIt);
-  const paths = [];
+  const paths = pathIt.concat(pathEn).concat(pathFr);
+
   return {
     paths,
     fallback: false,
