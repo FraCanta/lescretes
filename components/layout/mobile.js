@@ -52,7 +52,7 @@ const Mobile = ({ translation }) => {
       <AnimatePresence initial={false}>
         {open && (
           <motion.div
-            className="menu-container absolute top-full right-0 bg-white min-h-[calc(100vh_-_60px)] w-screen text-main  px-4 flex flex-col  items-center bg-pattern2"
+            className="container absolute top-[60px] left-0 bg-white h-screen w-screen text-main  px-6 flex flex-col  bg-pattern2"
             variants={variants}
             initial="closed"
             animate="open"
@@ -67,7 +67,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/`}
                 title="Scopri chi sono e cosa posso fare per te"
-                className={`menu-item block  my-4 text-3xl font-regular text-main ${
+                className={`menu-item block  my-2 text-[20px] leading-[30px] font-regular text-main ${
                   pathname === "/" ? "font-bold" : ""
                 }`}
               >
@@ -78,7 +78,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/storia`}
                 title="Ecco tutti i miei servizi"
-                className={`menu-item block my-4 text-3xl font-regular text-main ${
+                className={`menu-item block my-2 text-[20px] leading-[30px] font-regular text-main ${
                   pathname === "/storia" ? "font-bold" : ""
                 }`}
               >
@@ -89,7 +89,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/vini`}
                 title="Guarda tutti i miei casi studio"
-                className={`menu-item block my-4 text-3xl font-regular text-main ${
+                className={`menu-item block my-2 text-[20px] leading-[30px] font-regular text-main ${
                   pathname === "/vini" ? "font-bold" : ""
                 }`}
               >
@@ -100,7 +100,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/degustazioni`}
                 title="I miei articoli"
-                className={`menu-item block my-4 text-3xl font-regular text-main ${
+                className={`menu-item block my-2 text-[20px] leading-[30px] font-regular text-main ${
                   pathname === "/degustazioni" ? "font-bold" : ""
                 }`}
               >
@@ -111,7 +111,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/notizie`}
                 title="I miei articoli"
-                className={`menu-item block my-4 text-3xl font-regular text-main ${
+                className={`menu-item block my-2 text-[20px] leading-[30px] font-regular text-main ${
                   pathname === "/notizie" ? "font-bold" : ""
                 }`}
               >
@@ -122,14 +122,59 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/cosmesi`}
                 title="I miei articoli"
-                className={`menu-item block my-4 text-3xl font-regular text-main ${
+                className={`menu-item block my-2 text-[20px] leading-[30px] font-regular text-main ${
                   pathname === "/cosmesi" ? "font-bold" : ""
                 }`}
               >
                 {translation?.[locale]?.cosmesi}
               </Link>
             </motion.div>
-            {/* ... (other menu items) */}
+            <motion.div variants={variants.item} animate="visibleItem">
+              <Link
+                href={`/areaDownload`}
+                title="I miei articoli"
+                className={`menu-item block my-2 text-[20px] leading-[30px] font-regular text-main flex items-center gap-2 ${
+                  pathname === "/areaDownload" ? "font-bold" : ""
+                }`}
+              >
+                {translation?.[locale]?.download}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-4 h-4 3xl:w-8 3xl:h-8"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+                  />
+                </svg>
+              </Link>
+            </motion.div>
+            <motion.div variants={variants.item} animate="visibleItem">
+              <Link
+                href={`/contatti`}
+                title="I miei articoli"
+                className={`menu-item block my-2 text-[20px] leading-[30px] font-regular text-white font-bold py-2.5 px-6 bg-main max-w-max rounded-[32px] ${
+                  pathname === "/contatti" ? "font-bold" : ""
+                }`}
+              >
+                {translation?.[locale]?.contatti}
+              </Link>
+            </motion.div>
+            <motion.div
+              ariants={variants.item}
+              animate="visibleItem"
+              className="mt-20"
+            >
+              <h3 className="text-[20px] font-bold">Les Crêtes</h3>
+              <p className="text-[14px]">
+                SR20, 5011010 Aymavilles (AO) <br /> Valle d’Aosta, Italia
+              </p>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
