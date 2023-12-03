@@ -11,7 +11,7 @@ const Tabs = ({ translation }) => {
   };
 
   return (
-    <div className="pt-10">
+    <div className="pt-20">
       <div className="tabs !pl-0">
         {translation.map((tab, index) => (
           <button
