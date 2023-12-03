@@ -15,7 +15,7 @@ export default function Storia({ translation }) {
       <Head>
         <title>Les Cretes - storia</title>
       </Head>
-      <div className="flex flex-col justify-center lg:flex-row items-center w-full mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
+      <div className="flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
         <HeroHome2
           title={translation?.hero?.title}
           img={translation?.hero?.img}
