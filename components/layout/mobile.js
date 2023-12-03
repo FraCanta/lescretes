@@ -52,18 +52,22 @@ const Mobile = ({ translation }) => {
       <AnimatePresence initial={false}>
         {open && (
           <motion.div
-            className="menu-container absolute top-full right-0 bg-white h-screen w-screen text-main  px-4 flex flex-col justify-center items-center"
+            className="menu-container absolute top-[60px] right-0 bg-white h-screen w-screen text-main  px-4 flex flex-col  items-center bg-pattern"
             variants={variants}
             initial="closed"
             animate="open"
             exit="closed"
           >
             {/* Add your menu items here */}
-            <motion.div variants={variants.item} animate="visibleItem">
+            <motion.div
+              variants={variants.item}
+              animate="visibleItem"
+              className="mt-8"
+            >
               <Link
                 href={`/`}
                 title="Scopri chi sono e cosa posso fare per te"
-                className={`menu-item block my-4 text-3xl font-regular text-main ${
+                className={`menu-item block  my-4 text-3xl font-regular text-main ${
                   pathname === "/" ? "font-bold" : ""
                 }`}
               >
