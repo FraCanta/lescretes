@@ -56,7 +56,7 @@ const Tabs = ({ translation }) => {
                   height={100}
                   alt={content.name}
                 />
-                <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[19px] font-bold  leading-snug">
+                <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[16px] font-bold  leading-snug">
                   {content.name}
                 </p>
               </div>

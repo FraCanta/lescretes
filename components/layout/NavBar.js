@@ -4,13 +4,9 @@ import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Logo from "@/public/logo/logo.png";
 import { Icon } from "@iconify/react";
+import Mobile from "./mobile";
 const NavBar = ({ translation }) => {
   const { locale } = useRouter();
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => {
-    setOpen(!open);
-    console.log(open);
-  };
 
   return (
     <header className="relative">
@@ -104,74 +100,7 @@ const NavBar = ({ translation }) => {
             </Link>
           </div>
           <div className="text-main flex items-center justify-end py-1 lg:hidden ">
-            <div className="flex items-center">
-              <div id="close" onClick={handleOpen}>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                  />
-                </svg>
-              </div>
-              {/* Conditionally render the menu */}
-              {open && (
-                <div className="menu-container absolute top-full right-0 bg-white h-screen w-screen text-main w-[90%] mx-auto">
-                  {/* Add your menu items here */}
-                  <Link
-                    href={`/`}
-                    title="Scopri chi sono e cosa posso fare per te"
-                    className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
-                  >
-                    {translation?.[locale]?.home}
-                  </Link>
-
-                  <Link
-                    href={`/storia`}
-                    title="Ecco tutti i miei servizi"
-                    className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
-                  >
-                    {translation?.[locale]?.storia}
-                  </Link>
-                  <Link
-                    href={`/vini`}
-                    title="Guarda tutti i miei casi studio"
-                    className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
-                  >
-                    {translation?.[locale]?.vini}
-                  </Link>
-                  <Link
-                    href={`/degustazioni`}
-                    title="I miei articoli"
-                    className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
-                  >
-                    {translation?.[locale]?.degustazioni}
-                  </Link>
-                  <Link
-                    href={`/notizie`}
-                    title="I miei articoli"
-                    className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
-                  >
-                    {translation?.[locale]?.news}
-                  </Link>
-                  <Link
-                    href={`/cosmesi`}
-                    title="I miei articoli"
-                    className="text-[16px] md:text-[1.2rem] xl:text-[1rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
-                  >
-                    {translation?.[locale]?.cosmesi}
-                  </Link>
-                  {/* ... (other menu items) */}
-                </div>
-              )}
-            </div>
+            <Mobile translation={translation} />
           </div>
         </div>
       </nav>

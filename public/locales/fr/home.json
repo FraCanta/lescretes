@@ -13,11 +13,6 @@
             "link": "/vini/rossi/merle"
           },
           {
-            "img": "/assets/vinirossi/cigliegiolo.webp",
-            "name": "Cigliegiolo Ofre Valle D'Aosta",
-            "link": "/vini/rossi/ofre"
-          },
-          {
             "img": "/assets/vinirossi/cornalin.webp",
             "name": "Cornalin",
             "link": "/vini/rossi/cornalin"
@@ -34,7 +29,7 @@
           },
           {
             "img": "/assets/vinirossi/nebbiolo.webp",
-            "name": "Nebbiolo",
+            "name": "Nebbiolo Sommet Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/nebbiolo"
           },
           {
@@ -75,37 +70,37 @@
           {
             "img": "/assets/vinibianchi/chardonnay_cb.webp",
             "name": "Chardonnay Cuvée Bois",
-            "link": "/vini/rossi/torrette"
+            "link": "/vini/bianchi/chardonnaycb"
           },
           {
             "img": "/assets/vinibianchi/chardonnay.webp",
             "name": "Chardonnay",
-            "link": "/vini/rossi/torrette"
+            "link": "/vini/bianchi/chardonnay"
           },
           {
             "img": "/assets/vinibianchi/mon_blanc.webp",
             "name": "Mon Blanc",
-            "link": "/vini/rossi/torrette"
+            "link": "/vini/bianchi/monblanc"
           },
           {
             "img": "/assets/vinibianchi/neige.webp",
             "name": "Neige D'Or",
-            "link": "/vini/rossi/torrette"
+            "link": "/vini/bianchi/neige"
           },
           {
             "img": "/assets/vinibianchi/petite_arvine.webp",
             "name": "Petite Arvine",
-            "link": "/vini/rossi/torrette"
+            "link": "/vini/bianchi/petitearvine"
           },
           {
             "img": "/assets/vinibianchi/petite_fleur.webp",
             "name": "Petite Arvine Fleur",
-            "link": "/vini/rossi/torrette"
+            "link": "/vini/bianchi/petitefleur"
           },
           {
             "img": "/assets/vinibianchi/pinot_grigio.webp",
             "name": "Pinot Gris Brutant",
-            "link": "/vini/rossi/torrette"
+            "link": "/vini/bianchi/pinotgris"
           }
         ]
       },
@@ -115,7 +110,7 @@
           {
             "img": "/assets/vinirose/rose.webp",
             "name": "Rosè",
-            "link": "/vini/rossi/torrette"
+            "link": "/vini/rose/rose"
           }
         ]
       },
@@ -125,17 +120,17 @@
           {
             "img": "/assets/vinidessert/dorè.webp",
             "name": "Dorè",
-            "link": "/vini/rossi/torrette"
+            "link": "/vini/vinidessert/dore"
           },
           {
             "img": "/assets/vinidessert/neblu.webp",
             "name": "Neblu Brut Nature Rose",
-            "link": "/vini/rossi/torrette"
+            "link": "/vini/vinidessert/neblu"
           },
           {
             "img": "/assets/vinidessert/reban.webp",
             "name": "Reban Pas Dosè",
-            "link": "/vini/rossi/torrette"
+            "link": "/vini/vinidessert/reban"
           }
         ]
       }

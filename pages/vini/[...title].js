@@ -4,6 +4,17 @@ import viniIT from "../../public/locales/it/vini.json";
 import viniEN from "../../public/locales/en/vini.json";
 import viniFR from "../../public/locales/fr/vini.json";
 import Head from "next/head";
+import Denominazione from "@/public/assets/iconewine/denominazione.svg";
+import Vitigni from "@/public/assets/iconewine/vitigni.svg";
+import Tipologia from "@/public/assets/iconewine/tipologia.svg";
+import Gradazione from "@/public/assets/iconewine/gradazione.svg";
+import Type from "@/public/assets/iconewine/type.svg";
+import Formati from "@/public/assets/iconewine/formati.svg";
+import Vinificazione from "@/public/assets/iconewine/vinificazione.svg";
+import Zona from "@/public/assets/iconewine/zona.svg";
+import Affinamento from "@/public/assets/iconewine/affinamento.svg";
+import Servizio from "@/public/assets/iconewine/servizio.svg";
+import Vini from "../vini";
 
 const SingleWine = ({ wine }) => {
   return (
@@ -26,31 +37,104 @@ const SingleWine = ({ wine }) => {
             <h1 className="text-main text-[42.08px] font-black  leading-[53.77px]">
               {wine.name}
             </h1>
-            <p className="text-[18px] leading-[32px]">
-              Il “Sommet” di Les Crêtes è un Nebbiolo valdostano di estrema
-              finezza e freschezza, immagine coerente della cime della montagna
-              verso cui guardano le viti. Dopo un passaggio in legno di un anno,
-              sfodera al naso un ventaglio organolettico di fiori e frutti
-              selvatici, muschio e liquirizia, cenere e eucalipto e rinfresca il
-              palato con un assaggio succoso, sapido e finemente tannico
-            </p>
-            <h3 className="text-main text-[30px] font-bold  leading-normal">
+            {/* <p className="text-[18px] leading-[32px]">{wine.descrizione} </p> */}
+            {/* <h3 className="text-main text-[30px] font-bold  leading-normal">
               Caratteristiche:
-            </h3>
-            <div className="grid grid-cols-1 xl:grid-cols-2 w-full h-full gap-4 xl:gap-0">
+            </h3> */}
+            <div className="grid grid-cols-1 xl:grid-cols-2 w-full h-[80%] gap-4 xl:gap-0">
               <ul className="flex flex-col justify-between gap-4 xl:gap-0">
-                <li>items 1</li>
-                <li>items 2</li>
-                <li>items 3</li>
-                <li>items 4</li>
-                <li>items 5</li>
+                <li className="flex gap-4 items-center">
+                  <Image src={Denominazione} className="text-main" />
+                  <div className="flex flex-col gap-1">
+                    <h2 className="text-[20px] font-black text-main/90">
+                      Denominazione
+                    </h2>
+                    <p className="text-main/70">Valle d'Aosta</p>
+                  </div>
+                </li>
+                <li className="flex gap-4 items-center">
+                  <Image src={Vitigni} />
+                  <div className="flex flex-col gap-1">
+                    <h2 className="text-[20px] font-black text-main/90">
+                      Denominazione
+                    </h2>
+                    <p className="text-main/70">Valle d'Aosta</p>
+                  </div>
+                </li>
+                <li className="flex gap-4 items-center">
+                  <Image src={Tipologia} />
+                  <div className="flex flex-col gap-1">
+                    <h2 className="text-[20px] font-black text-main/90">
+                      Denominazione
+                    </h2>
+                    <p className="text-main/70">Valle d'Aosta</p>
+                  </div>
+                </li>
+                <li className="flex gap-4 items-center">
+                  <Image src={Gradazione} />
+                  <div className="flex flex-col gap-1">
+                    <h2 className="text-[20px] font-black text-main/90">
+                      Denominazione
+                    </h2>
+                    <p className="text-main/70">Valle d'Aosta</p>
+                  </div>
+                </li>
+                <li className="flex gap-4 items-center">
+                  <Image src={Type} />
+                  <div className="flex flex-col gap-1">
+                    <h2 className="text-[20px] font-black text-main/90">
+                      Denominazione
+                    </h2>
+                    <p className="text-main/70">Valle d'Aosta</p>
+                  </div>
+                </li>
               </ul>
               <ul className="flex flex-col justify-between gap-4 xl:gap-0">
-                <li>items 1</li>
-                <li>items 2</li>
-                <li>items 3</li>
-                <li>items 4</li>
-                <li>items 5</li>
+                <li className="flex gap-4 items-center">
+                  <Image src={Formati} />
+                  <div className="flex flex-col gap-1">
+                    <h2 className="text-[20px] font-black text-main/90">
+                      Denominazione
+                    </h2>
+                    <p className="text-main/70">Valle d'Aosta</p>
+                  </div>
+                </li>
+                <li className="flex gap-4 items-center">
+                  <Image src={Vinificazione} />
+                  <div className="flex flex-col gap-1">
+                    <h2 className="text-[20px] font-black text-main/90">
+                      Denominazione
+                    </h2>
+                    <p className="text-main/70">Valle d'Aosta</p>
+                  </div>
+                </li>
+                <li className="flex gap-4 items-center">
+                  <Image src={Zona} />
+                  <div className="flex flex-col gap-1">
+                    <h2 className="text-[20px] font-black text-main/90">
+                      Denominazione
+                    </h2>
+                    <p className="text-main/70">Valle d'Aosta</p>
+                  </div>
+                </li>
+                <li className="flex gap-4 items-center">
+                  <Image src={Affinamento} />
+                  <div className="flex flex-col gap-1">
+                    <h2 className="text-[20px] font-black text-main/90">
+                      Denominazione
+                    </h2>
+                    <p className="text-main/70">Valle d'Aosta</p>
+                  </div>
+                </li>
+                <li className="flex gap-4 items-center">
+                  <Image src={Servizio} />
+                  <div className="flex flex-col gap-1">
+                    <h2 className="text-[20px] font-black text-main/90">
+                      Denominazione
+                    </h2>
+                    <p className="text-main/70">Valle d'Aosta</p>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
