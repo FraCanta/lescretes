@@ -9,7 +9,7 @@ const HeroHome = () => {
           Entra nel mondo Les Crêtes per degustare i nostri vini.
         </h1>
         <div className="w-full h-[40vh] xl:h-[80vh] relative">
-          <Image src={Degustazioni} fill className="object-contain" />
+          <Image src={Degustazioni} fill className="object-cover" />
         </div>
       </div>
     </>
