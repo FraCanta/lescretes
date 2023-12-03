@@ -34,6 +34,12 @@ p {
     background-repeat: no-repeat;
     background-position: bottom right;
   }
+  .bg-pattern2 {
+    background-image: url("../public/assets/pattern2.png");
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
 
   @media screen and (max-width: 640px) {
     .bg-pattern {

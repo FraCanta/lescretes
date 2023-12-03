@@ -86,7 +86,7 @@ export default function Home({ translation }) {
           content="https://www.miaographics.it/assets/cover_web.png"
         /> */}
       </Head>
-      <div className="min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_60px)] fxl:min-h-[calc(100vh_-_100px)] w-full hero  relative flex text-end items-end">
+      <div className="min-h-[calc(100vh_-_60px)] md:min-h-[calc(100vh_-_60px)] fxl:min-h-[calc(100vh_-_100px)] w-full hero  relative flex text-end items-end">
         <HeroHome3 translation={translation?.hero} />
       </div>
       <div className="min-h-screen">
