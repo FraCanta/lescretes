@@ -52,7 +52,7 @@ const Mobile = ({ translation }) => {
       <AnimatePresence initial={false}>
         {open && (
           <motion.div
-            className="container absolute top-[60px] left-0 bg-white h-screen w-screen text-main  px-6 flex flex-col  bg-pattern2"
+            className="container absolute top-[60px] left-0 bg-white h-screen w-screen text-main  px-6 flex flex-col items-center  bg-pattern2"
             variants={variants}
             initial="closed"
             animate="open"
@@ -67,7 +67,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/`}
                 title="Scopri chi sono e cosa posso fare per te"
-                className={`menu-item block  my-2 text-[20px] leading-[30px] font-regular text-main ${
+                className={`menu-item block  my-2 text-[25px] leading-[30px] font-regular text-main ${
                   pathname === "/" ? "font-bold" : ""
                 }`}
               >
@@ -78,7 +78,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/storia`}
                 title="Ecco tutti i miei servizi"
-                className={`menu-item block my-2 text-[20px] leading-[30px] font-regular text-main ${
+                className={`menu-item block my-2 text-[25px] leading-[30px] font-regular text-main ${
                   pathname === "/storia" ? "font-bold" : ""
                 }`}
               >
@@ -89,7 +89,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/vini`}
                 title="Guarda tutti i miei casi studio"
-                className={`menu-item block my-2 text-[20px] leading-[30px] font-regular text-main ${
+                className={`menu-item block my-2 text-[25px] leading-[30px] font-regular text-main ${
                   pathname === "/vini" ? "font-bold" : ""
                 }`}
               >
@@ -100,7 +100,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/degustazioni`}
                 title="I miei articoli"
-                className={`menu-item block my-2 text-[20px] leading-[30px] font-regular text-main ${
+                className={`menu-item block my-2 text-[25px] leading-[30px] font-regular text-main ${
                   pathname === "/degustazioni" ? "font-bold" : ""
                 }`}
               >
@@ -111,7 +111,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/notizie`}
                 title="I miei articoli"
-                className={`menu-item block my-2 text-[20px] leading-[30px] font-regular text-main ${
+                className={`menu-item block my-2 text-[25px] leading-[30px] font-regular text-main ${
                   pathname === "/notizie" ? "font-bold" : ""
                 }`}
               >
@@ -122,7 +122,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/cosmesi`}
                 title="I miei articoli"
-                className={`menu-item block my-2 text-[20px] leading-[30px] font-regular text-main ${
+                className={`menu-item block my-2 text-[25px] leading-[30px] font-regular text-main ${
                   pathname === "/cosmesi" ? "font-bold" : ""
                 }`}
               >
@@ -133,7 +133,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/areaDownload`}
                 title="I miei articoli"
-                className={`menu-item block my-2 text-[20px] leading-[30px] font-regular text-main flex items-center gap-2 ${
+                className={`menu-item block my-2 text-[25px] leading-[30px] font-regular text-main flex items-center gap-2 ${
                   pathname === "/areaDownload" ? "font-bold" : ""
                 }`}
               >
@@ -158,7 +158,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/contatti`}
                 title="I miei articoli"
-                className={`menu-item block my-2 text-[20px] leading-[30px] font-regular text-white font-bold py-2.5 px-6 bg-main max-w-max rounded-[32px] ${
+                className={`menu-item block my-2 text-[25px] leading-[30px] font-regular text-white font-bold py-2.5 px-8 bg-main max-w-max rounded-[32px] ${
                   pathname === "/contatti" ? "font-bold" : ""
                 }`}
               >
@@ -168,7 +168,7 @@ const Mobile = ({ translation }) => {
             <motion.div
               ariants={variants.item}
               animate="visibleItem"
-              className="mt-20"
+              className="mt-20 text-center"
             >
               <h3 className="text-[20px] font-bold">Les Crêtes</h3>
               <p className="text-[14px]">
