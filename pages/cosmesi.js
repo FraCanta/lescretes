@@ -2,7 +2,12 @@ import HeroHome2 from "@/components/heroHome/HeroHome2";
 import React from "react";
 import Cosmetico from "@/public/assets/cosmesi_hero.png";
 import Head from "next/head";
-const Cosmesi = () => {
+import cosmesiIT from "../public/locales/it/cosmesi.json";
+import cosmesiEN from "../public/locales/en/cosmesi.json";
+import cosmesiFR from "../public/locales/fr/cosmesi.json";
+import Cards from "@/components/Cards/Cards";
+
+const Cosmesi = ({ translation }) => {
   return (
     <>
       <Head>
@@ -35,23 +40,50 @@ const Cosmesi = () => {
             benefici nutrienti e restituendo al viso il suo naturale splendore.
           </p>
         </div>
-        {/* <div className="grid grid-cols-1 xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 xl:grid-cols-4 gap-4">
           {translation?.cards?.map((el, i) => {
             return (
               <Cards
                 key={i}
                 img={el?.img}
                 title={el?.title}
-                descrizione={el?.descrizione}
-                price={el?.price}
-                link={el.link}
+                details={el?.details}
+                button={el.button}
               />
             );
           })}
-        </div> */}
+        </div>
       </div>
     </>
   );
 };
 
 export default Cosmesi;
+
+export async function getStaticProps(locale, context) {
+  let obj;
+  switch (locale.locale) {
+    case "it":
+      obj = cosmesiIT;
+      break;
+
+    case "en":
+      obj = cosmesiEN;
+      break;
+    case "fr":
+      obj = cosmesiFR;
+      break;
+    default:
+      obj = cosmesiIT;
+      break;
+  }
+
+  console.log(obj);
+
+  return {
+    props: {
+      translation: obj?.cosmesi,
+    },
+    revalidate: 60,
+  };
+}

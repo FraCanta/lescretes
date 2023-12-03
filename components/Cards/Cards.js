@@ -3,12 +3,37 @@ import React from "react";
 import Tre from "@/public/assets/degustazioni/tre.jpeg";
 import Link from "next/link";
 
-const Cards = ({ img, title, descrizione, price, link, lang }) => {
+const Cards = ({ img, title, descrizione, price, link, details, button }) => {
   return (
     <>
-      <Link href={link}>
-        <div className="card w-full xl:w-full h-full border">
-          <figure className="p-4 ">
+      {link ? (
+        <Link href={link}>
+          <div className="card w-full xl:w-full h-full border">
+            <figure className="p-4 ">
+              <Image
+                src={img}
+                alt="Shoes"
+                className="rounded rounded-lg h-[35vh] object-cover"
+                width={500}
+                height={600}
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title !justify-center font-bold text-[20px]">
+                {title}
+              </h2>
+              <p className="text-center text-[15px]">{descrizione}</p>
+              <div className="card-actions justify-center border-t mt-4">
+                <p className="text-center py-4 font-bold text-[16px]">
+                  {price}
+                </p>
+              </div>
+            </div>
+          </div>
+        </Link>
+      ) : (
+        <div className="card w-full xl:w-full h-full border border-main/30">
+          <figure className="p-4">
             <Image
               src={img}
               alt="Shoes"
@@ -17,17 +42,18 @@ const Cards = ({ img, title, descrizione, price, link, lang }) => {
               height={600}
             />
           </figure>
-          <div className="card-body">
+          <Link href={button} className="card-body !p-0 !py-4">
             <h2 className="card-title !justify-center font-bold text-[20px]">
               {title}
             </h2>
-            <p className="text-center text-[15px]">{descrizione}</p>
-            <div className="card-actions justify-center border-t mt-4">
-              <p className="text-center py-4 font-bold text-[16px]">{price}</p>
+            <div className="card-actions justify-center  ">
+              <p className="text-center text-main/60 font-[500] text-[16px] !-py-2">
+                {details}
+              </p>
             </div>
-          </div>
+          </Link>
         </div>
-      </Link>
+      )}
     </>
   );
 };
