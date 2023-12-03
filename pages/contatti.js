@@ -9,9 +9,9 @@ const Contatti = () => {
         width="100%"
         height="400px"
         loading="lazy"
-        frameborder="0"
+        frameBorder="0"
         scrolling="no"
-        allowfullscreen
+        allowFullScreen
       ></iframe>
     </div>
   );
