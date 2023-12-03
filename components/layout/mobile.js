@@ -52,7 +52,7 @@ const Mobile = ({ translation }) => {
       <AnimatePresence initial={false}>
         {open && (
           <motion.div
-            className="container absolute top-[60px] left-0 bg-white h-screen w-screen text-main  px-6 flex flex-col items-center bg-pattern2"
+            className=" absolute top-[60px] left-0 right-0 bg-white h-screen w-screen text-main   flex flex-col items-center bg-pattern2"
             variants={variants}
             initial="closed"
             animate="open"
