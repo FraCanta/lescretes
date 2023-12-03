@@ -10,9 +10,14 @@ const Tabs = ({ translation }) => {
     setActiveTab(index);
   };
 
+  const lineMotion = {
+    rest: { width: "0%", transition: { duration: 0.1 } },
+    active: { width: "100%", transition: { duration: 0.1 } },
+  };
+
   return (
     <div className="pt-20">
-      <div className="tabs !pl-0">
+      <div className="flex flex-wrap gap-[20px]  !pl-0">
         {translation.map((tab, index) => (
           <button
             key={index}
@@ -22,6 +27,14 @@ const Tabs = ({ translation }) => {
             onClick={() => openCity(index)}
           >
             {tab.name}
+            {activeTab === index && (
+              <motion.div
+                className="line-below-tab"
+                variants={lineMotion}
+                initial="rest"
+                animate="active"
+              />
+            )}
           </button>
         ))}
       </div>
