@@ -67,7 +67,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/`}
                 title="Scopri chi sono e cosa posso fare per te"
-                className={`menu-item block  my-2 text-[25px] leading-[30px] font-regular text-main ${
+                className={`menu-item block  mb-6 text-[25px] leading-[30px] font-regular text-main ${
                   pathname === "/" ? "font-bold" : ""
                 }`}
               >
@@ -78,7 +78,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/storia`}
                 title="Ecco tutti i miei servizi"
-                className={`menu-item block my-2 text-[25px] leading-[30px] font-regular text-main ${
+                className={`menu-item block mb-6 text-[25px] leading-[30px] font-regular text-main ${
                   pathname === "/storia" ? "font-bold" : ""
                 }`}
               >
@@ -89,7 +89,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/vini`}
                 title="Guarda tutti i miei casi studio"
-                className={`menu-item block my-2 text-[25px] leading-[30px] font-regular text-main ${
+                className={`menu-item block mb-6 text-[25px] leading-[30px] font-regular text-main ${
                   pathname === "/vini" ? "font-bold" : ""
                 }`}
               >
@@ -100,7 +100,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/degustazioni`}
                 title="I miei articoli"
-                className={`menu-item block my-2 text-[25px] leading-[30px] font-regular text-main ${
+                className={`menu-item block mb-6 text-[25px] leading-[30px] font-regular text-main ${
                   pathname === "/degustazioni" ? "font-bold" : ""
                 }`}
               >
@@ -111,7 +111,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/notizie`}
                 title="I miei articoli"
-                className={`menu-item block my-2 text-[25px] leading-[30px] font-regular text-main ${
+                className={`menu-item block mb-6 text-[25px] leading-[30px] font-regular text-main ${
                   pathname === "/notizie" ? "font-bold" : ""
                 }`}
               >
@@ -122,7 +122,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/cosmesi`}
                 title="I miei articoli"
-                className={`menu-item block my-2 text-[25px] leading-[30px] font-regular text-main ${
+                className={`menu-item block mb-6 text-[25px] leading-[30px] font-regular text-main ${
                   pathname === "/cosmesi" ? "font-bold" : ""
                 }`}
               >
@@ -133,7 +133,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/areaDownload`}
                 title="I miei articoli"
-                className={`menu-item block my-2 text-[25px] leading-[30px] font-regular text-main flex items-center gap-2 ${
+                className={`menu-item block mb-6 text-[25px] leading-[30px] font-regular text-main flex items-center gap-2 ${
                   pathname === "/areaDownload" ? "font-bold" : ""
                 }`}
               >
@@ -158,7 +158,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/contatti`}
                 title="I miei articoli"
-                className={`menu-item block my-2 text-[25px] leading-[30px] font-regular text-white font-bold py-2.5 px-8 bg-main max-w-max rounded-[32px] ${
+                className={`menu-item block mt-6 text-[25px] leading-[30px] font-regular text-white font-bold py-2.5 px-8 bg-main max-w-max rounded-[32px] ${
                   pathname === "/contatti" ? "font-bold" : ""
                 }`}
               >
