@@ -21,7 +21,7 @@ const SingleCosmetic = ({ cosm, others }) => {
         </div>
         <div className=" flex flex-col gap-[30px] w-[90%] mx-auto xl:mx-0 py-4">
           <div className="flex flex-col">
-            <div className="flex flex-wrap xl:justify-between w-full xl:items-center">
+            <div className="flex flex-col xl:flex-row xl:justify-between w-full xl:items-center">
               <h1 className="text-main text-[30px] leading-[40px] xl:text-[40px] xl:leading-[50px] font-bold">
                 {cosm?.name}
               </h1>
@@ -40,18 +40,34 @@ const SingleCosmetic = ({ cosm, others }) => {
             Svolge una decisa azione tonificante e levigante per una pelle più
             elastica, compatta e uniforme.
           </p>
-          <h2 className="text-[25px] font-bold">Ingredienti</h2>
-          <p className="text-base">
-            olio di vinaccioli, acido ialuronico, olio di mandorle dolci,
-            polisaccaride protettivo effetto barriera, estratto di Hibisco,
-            estratto di avena, estratto di rosa damascena e olio di noce.
-          </p>
-          <h2 className="text-[25px] font-bold">Metodo di applicazione</h2>
-          <p className="text-base">
-            Applicare mattino e sera o dopo il bagno/doccia su pelle asciutta e
-            detersa, massaggiare con movimenti circolari a completo
-            assorbimento.
-          </p>
+
+          <div className="collapse collapse-arrow bg-second">
+            <input type="radio" name="my-accordion-2" />
+            <div className="collapse-title text-xl font-medium ">
+              <h2 className="text-[25px] font-bold">Ingredienti</h2>
+            </div>
+            <div className="collapse-content">
+              <p className="text-base">
+                olio di vinaccioli, acido ialuronico, olio di mandorle dolci,
+                polisaccaride protettivo effetto barriera, estratto di Hibisco,
+                estratto di avena, estratto di rosa damascena e olio di noce.
+              </p>
+            </div>
+          </div>
+          <div className="collapse collapse-arrow bg-second">
+            <input type="radio" name="my-accordion-2" />
+            <div className="collapse-title text-xl font-medium ">
+              <h2 className="text-[25px] font-bold">Metodo di applicazione</h2>
+            </div>
+            <div className="collapse-content">
+              <p className="text-base">
+                Applicare mattino e sera o dopo il bagno/doccia su pelle
+                asciutta e detersa, massaggiare con movimenti circolari a
+                completo assorbimento.
+              </p>
+            </div>
+          </div>
+
           <div className="flex gap-6 mt-4">
             <div className="bg-main h-20 w-20 rounded-full"></div>
             <div className="bg-main h-20 w-20 rounded-full"></div>
