@@ -49,7 +49,15 @@
         "img": "/assets/cosmetici/soin_main.jpg",
         "name": " Fleurs DeVin Soin Mains  ",
         "ml": "50ml",
-
+        "descrizione": [
+          {
+            "testo": "Autentico trattamento di bellezza per le mani, ad azione nutriente e lenitiva contro aridità, disidratazione, screpolature e arrossamenti"
+          }
+        ],
+        "ingredientiTitle": "Ingredienti",
+        "ingredienti": "Contiene olio di vinaccioli, ricco in polifenoli dell'uva, dalle proprietà antiossidanti e protettive. Arricchita con estratti biologici di fiori di elicriso, camomilla. Contiene inoltre glicerina vegetale, allantoina, urea, prolina, alghe",
+        "istruzioniTitle": "Istruzioni d'uso",
+        "istruzioni": "Applicare con massaggio dopo ogni detersione, per mani sempre morbide e setose",
         "details": "Crema mani fiorita delicata",
         "title": "soinmain",
         "button": "/cosmesi/soinmain"
@@ -58,7 +66,15 @@
         "img": "/assets/cosmetici/visage.jpg",
         "name": "Fleurs DeVin Soin Visage",
         "ml": "50ml",
-
+        "descrizione": [
+          {
+            "testo": "La sua formula ricca e cremosa costituisce una fonte preziosa di energia e nutrimento per prevenire l'invecchiamento cutaneo."
+          }
+        ],
+        "ingredientiTitle": "Ingredienti",
+        "ingredienti": "Contiene olio di vinaccioli, ricco in polifenoli d'uva, dalle proprietà antiossidanti, protettive. Arricchito con gli estratti biologici di fiori di rosa damascena e ibisco; contiene inoltre glicerinavegetale, urea, squalene, elastina, collagene, allantoina, prolina, alghe, acido ialuronico, glicosaminoglicani per una pelle distesa, luminosa e rigenerata.",
+        "istruzioniTitle": "Istruzioni d'uso",
+        "istruzioni": "Applicare sia al mattino che alla sera dopo la detersione.",
         "details": "Crema viso fiorita delicata",
         "title": "soinvisage",
         "button": "/cosmesi/soinvisage"
@@ -67,15 +83,33 @@
         "img": "/assets/cosmetici/gommage.jpg",
         "name": "Visage DeVin Gommage Doux",
         "ml": "50ml",
+        "descrizione": [
+          {
+            "testo": "Qui mi manca la descrizione"
+          }
+        ],
+        "ingredientiTitle": "Ingredienti",
+        "ingredienti": "Qui mi mancano gli ingredienti",
+        "istruzioniTitle": "Istruzioni d'uso",
+        "istruzioni": "Qui mi mancano le istruzioni d'uso",
 
         "details": "Scrub delicato",
         "title": "gommage",
-        "button": "/cosmesi/soinvisage"
+        "button": "/cosmesi/gommage"
       },
       "lotion": {
         "img": "/assets/cosmetici/lotion_tonique.jpg",
         "name": "Visage DeVin Lotion Tonique ",
         "ml": "200ml",
+        "descrizione": [
+          {
+            "testo": "Qui mi manca la descrizione"
+          }
+        ],
+        "ingredientiTitle": "Ingredienti",
+        "ingredienti": "Qui mi mancano gli ingredienti",
+        "istruzioniTitle": "Istruzioni d'uso",
+        "istruzioni": "Qui mi mancano le istruzioni d'uso",
 
         "details": "Tonico delicato",
         "title": "lotion",
@@ -85,6 +119,18 @@
         "img": "/assets/cosmetici/latte.jpg",
         "name": "Fleurs DeVin Soin Corps ",
         "ml": "200ml",
+        "descrizione": [
+          {
+            "testo": "Texture ultra ricca e fondente che dona nutrimento per una pelle tonica, rigenerata e idratata. Indicata per tutti i tipi di pelle, in particolare nei casi di forte secchezza, disidratazione e atonie."
+          },
+          {
+            "testo": "Svolge una decisa azione tonificante e levigante per una pelle più elastica, compatta e uniforme."
+          }
+        ],
+        "ingredientiTitle": "Ingredienti",
+        "ingredienti": "Contiene olio di vinaccioli, acido ialuronico, olio di mandorle dolci, polisaccaride protettivo effetto barriera, estratto di Hibisco, estratto di avena, estratto di rosa damascena e olio di noce.",
+        "istruzioniTitle": "Istruzioni d'uso",
+        "istruzioni": "Applicare mattino e sera o dopo il bagno/doccia su pelle asciutta e detersa, massaggiare con movimenti circolari fino a completo assorbimento.",
 
         "details": "Crema corpo fiorita delicata",
         "title": "soincorps",
@@ -94,6 +140,18 @@
         "img": "/assets/cosmetici/acqua2.jpg",
         "name": "Cristal DeVin ",
         "ml": "50ml",
+        "descrizione": [
+          {
+            "testo": "Fresca, idratante e leggera. Costituita da una base d'acqua, arricchita con aromi ed essenze naturali. E' un'ottima alternativa al profumo, perchè contiene una percentuale minima di alcool. Risultando più leggera e delicata, si può vaporizzare più volte al giorno, anche in estate e durante l'esposizione al sole."
+          },
+          {
+            "testo": "Avvolge corpo e mente con una nota iniziale fresca e agrumata, per poi sedurre con note di fiori di vigna e bianchi, cui segue un finale dai sentori di muschio e legni dolci."
+          }
+        ],
+        "ingredientiTitle": "Ingredienti",
+        "ingredienti": "Contiene bergamotto, acqua, cristalli di thé, pera, mandarino, fiori di vigna e bianchi, giglio, iris, muschio bianco, legni dolci, muschio grigio.",
+        "istruzioniTitle": "Istruzioni d'uso",
+        "istruzioni": "Ideale da utilizzare dopo il bagno/doccia o in qualsiasi momento della giornata, per donare morbidezza e idratazione alla pelle, lasciando una piacevole sensazione di benessere. E' UNISEX. Applicare sulle zone sensibili del corpo o sui tessuti.",
 
         "details": " Eau Parfumee Fraiche",
         "title": "parfumee",
@@ -103,6 +161,18 @@
         "img": "/assets/cosmetici/diffusore.jpg",
         "name": "Thé DeVin",
         "ml": "250ml",
+        "descrizione": [
+          {
+            "testo": "Caratterizzato da fragranze dolci, vivaci, fresche e floreali. Esordisce con sentori agrumati, per eplodere in un bouquet di fiori d'uva e cotone, di violetta di montagna, gelsomino e rosa, che sul finale si intrecciano con note vanigliate."
+          },
+          {
+            "testo": "Il suo profumo delicato avvolge l'ambiente, evaporando gradualmente attraverso le bacchette di legno."
+          }
+        ],
+        "ingredientiTitle": "Ingredienti",
+        "ingredienti": "Contiene limone, arancio, fiori di cotone e d'uva, bergamotto, cassis, pompelmo rosa e mandarino, violetta dimontagna, mughetto, gelsomino, rosa di vigna, pesca, fiori bianchi, ambra, patchouly, legni dolci, vaniglia, sandalo, muschio bianco e zucchero.",
+        "istruzioniTitle": "Istruzioni d'uso",
+        "istruzioni": "Per lo sviluppo di maggiore fragranza, muovere le bacchette di legno.",
 
         "details": "Diffuseur de parfum",
         "title": "diffuseur",

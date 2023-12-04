@@ -49,44 +49,32 @@ const SingleCosmetic = ({ cosm, others }) => {
               {cosm.details}
             </p>
           </div>
-          <p className="text-base fxl:text-2xl">
-            Texture ultra ricca e fondente che dona nutrimento per una pelle
-            tonica, rigenerata e idratata. Indicata per tutti i tipi di pelle,
-            in particolare nei casi di forte secchezza, disidratazione e atonie.
-          </p>
-          <p className="text-base fxl:text-2xl">
-            Svolge una decisa azione tonificante e levigante per una pelle più
-            elastica, compatta e uniforme.
-          </p>
+          {cosm?.descrizione?.map((el, i) => (
+            <p className="text-base fxl:text-2xl" key={i}>
+              {el.testo}
+            </p>
+          ))}
 
           <div className="collapse collapse-arrow bg-second">
             <input type="radio" name="my-accordion-2" />
             <div className="collapse-title font-medium ">
               <h2 className="text-[20px] font-bold fxl:text-2xl">
-                Ingredienti
+                {cosm.ingredientiTitle}
               </h2>
             </div>
             <div className="collapse-content">
-              <p className="text-base fxl:text-2xl">
-                olio di vinaccioli, acido ialuronico, olio di mandorle dolci,
-                polisaccaride protettivo effetto barriera, estratto di Hibisco,
-                estratto di avena, estratto di rosa damascena e olio di noce.
-              </p>
+              <p className="text-base fxl:text-2xl">{cosm.ingredienti}</p>
             </div>
           </div>
           <div className="collapse collapse-arrow bg-second">
             <input type="radio" name="my-accordion-2" />
             <div className="collapse-title text-xl font-medium ">
               <h2 className="text-[20px] font-bold fxl:text-2xl">
-                Metodo di applicazione
+                {cosm.istruzioniTitle}
               </h2>
             </div>
             <div className="collapse-content">
-              <p className="text-base fxl:text-2xl">
-                Applicare mattino e sera o dopo il bagno/doccia su pelle
-                asciutta e detersa, massaggiare con movimenti circolari a
-                completo assorbimento.
-              </p>
+              <p className="text-base fxl:text-2xl">{cosm.istruzioni}</p>
             </div>
           </div>
 
