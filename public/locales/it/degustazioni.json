@@ -77,6 +77,9 @@
             ]
           }
         },
+        "price": "€25,00 iva inclusa / persona",
+        "priceTitle": "Prezzo",
+
         "download": "/3-Wines-Experience-ITA.pdf"
       },
       "native": {
@@ -101,11 +104,15 @@
               { "testo": "- Visita della cantina e barricaia" }
             ]
           },
+
           "opzione": {
             "title": "In opzione con questa degustazione:",
             "uno": "La nostra selezione di salumi e formaggi della gastronomia locale al costo aggiuntivo di € 14.00 pax IVA incl."
           }
         },
+        "priceTitle": "Prezzo",
+
+        "price": "€40,00 iva inclusa / persona",
         "download": "/Native-Wines-Experience-ITA.pdf"
       },
       "cheese": {
@@ -132,8 +139,12 @@
               { "testo": "- Visita della cantina e barricaia" }
             ]
           },
+
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
         },
+        "price": "€45,00 iva inclusa / persona",
+        "priceTitle": "Prezzo",
+
         "download": "/Wine-Cheese-Experience-ITA.pdf"
       },
       "top": {
@@ -162,8 +173,12 @@
               }
             ]
           },
+
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
         },
+        "price": "€70,00 iva inclusa / persona",
+        "priceTitle": "Prezzo",
+
         "download": "/Top-Wines-Experience-ITA.pdf"
       },
       "tour": {
@@ -192,8 +207,13 @@
               { "testo": "- Visita della cantina e barricaia" }
             ]
           },
+
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
         },
+        "priceTitle": "Prezzo",
+
+        "price": "€90,00 iva inclusa / persona",
+
         "download": "/Coteau-la-Tour-Experience-ITA.pdf"
       },
       "winemaker": {
@@ -222,8 +242,13 @@
               { "testo": "- Visita della cantina e barricaia" }
             ]
           },
+
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
         },
+        "priceTitle": "Prezzo",
+
+        "price": "€100,00 iva inclusa / persona",
+
         "download": "/Winemaker-Experience-ITA.pdf"
       },
       "wellness": {
@@ -250,8 +275,12 @@
               { "testo": "- Visita della cantina e barricaia" }
             ]
           },
+
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
         },
+        "priceTitle": "Prezzo",
+        "price": "A partire da €346,00 iva inclusa ",
+
         "download": "https://www.qcterme.com/it/corporate/offerte-e-pacchetti/wellness-wine-tasting"
       }
     }

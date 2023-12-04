@@ -139,6 +139,12 @@ const SingleDeg = ({ deg }) => {
             ""
           )}
         </div>
+        <div className="w-full text-main flex flex-col gap-6">
+          <h2 className="text-main text-[25px] xl:text-4xl font-bold  leading-[46px]">
+            {deg?.priceTitle}
+          </h2>
+          <p className="xl:text-[18px] text-main">{deg?.price}</p>
+        </div>
         {deg?.descrizione?.asterisco ? (
           <p className="text-main/60">{deg?.descrizione?.asterisco}</p>
         ) : (

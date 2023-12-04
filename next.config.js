@@ -26,17 +26,17 @@ module.exports = withPlugins([
   //     ];
   //   },
   // },
-  // {
-  //   images: {
-  //     formats: ["image/avif", "image/webp"],
-  //     domains: ["sideblog.sideffect.it/"],
+  {
+    images: {
+      formats: ["image/avif", "image/webp"],
+      domains: ["www.lescretes.it"],
 
-  //     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-  //     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-  //     minimumCacheTTL: 60,
-  //     unoptimized: true,
-  //   },
-  // },
+      deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+      imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+      minimumCacheTTL: 60,
+      unoptimized: true,
+    },
+  },
 
   // withBundleAnalyzer,
 ]);

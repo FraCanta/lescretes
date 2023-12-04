@@ -28,7 +28,7 @@ const Cards = ({
               />
             </figure>
             <div className="card-body">
-              <h2 className="card-title !justify-center font-bold text-[20px]">
+              <h2 className="card-title !justify-center font-bold text-[20px] fxl:text-[25px]">
                 {title}
               </h2>
               <p className="text-center text-[15px]">{descrizione}</p>
@@ -52,7 +52,7 @@ const Cards = ({
             />
           </figure>
           <Link href={button} className="card-body !p-0 !py-4">
-            <h2 className="card-title !justify-center font-bold text-[20px]">
+            <h2 className="card-title !justify-center font-bold text-[20px] fxl:text-[25px]">
               {name}
             </h2>
             <div className="card-actions justify-center  ">

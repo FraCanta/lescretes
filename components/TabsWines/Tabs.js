@@ -56,10 +56,10 @@ const Tabs = ({ translation }) => {
             <Link
               href={content.link}
               key={contentIndex}
-              className="w-full h-[450px] fxl:h-full relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white"
+              className="w-full h-[450px] fxl:h-[450px] relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white"
             >
               <div
-                className="w-full h-[450px] fxl:h-full left-0 top-0 relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white"
+                className="w-full h-[450px] fxl:h-[450px] left-0 top-0 relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white"
                 key={contentIndex}
               >
                 <Image

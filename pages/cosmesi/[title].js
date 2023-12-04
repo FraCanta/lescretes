@@ -5,6 +5,17 @@ import cosmesiFR from "../../public/locales/fr/cosmesi.json";
 import Head from "next/head";
 import Image from "next/image";
 import Cards from "@/components/Cards/Cards";
+import IconaUno from "@/public/assets/cosmetici/icone/icone_cosmesi1.svg";
+import IconaDue from "@/public/assets/cosmetici/icone/icone_cosmesi2.svg";
+import IconaTre from "@/public/assets/cosmetici/icone/icone_cosmesi3.svg";
+import Link from "next/link";
+import { Icon } from "@iconify/react";
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  WhatsappShareButton,
+} from "next-share";
+import FAQ from "@/components/FAQ/FAQ";
 
 const SingleCosmetic = ({ cosm, others }) => {
   console.log(others);
@@ -14,40 +25,49 @@ const SingleCosmetic = ({ cosm, others }) => {
         <title>
           Les Crêtes - {cosm.name} - {cosm.details}
         </title>
+        <meta
+          property="og:image"
+          content={`https://lescretes-liard.vercel.app${cosm.img}`}
+        />
       </Head>
+
       <div className="min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)] grid grid-cols-1 xl:grid-cols-2 gap-8">
         <div className="w-full min-h-screen relative">
           <Image src={cosm?.img} fill className="object-cover" />
         </div>
-        <div className=" flex flex-col gap-[30px] w-[90%] mx-auto xl:mx-0 py-4">
+        <div className=" flex flex-col gap-[30px] fxl:gap-[50px] w-[90%] mx-auto xl:mx-0 py-4 fxl:py-8">
           <div className="flex flex-col">
             <div className="flex flex-col xl:flex-row xl:justify-between w-full xl:items-center">
-              <h1 className="text-main text-[30px] leading-[40px] xl:text-[40px] xl:leading-[50px] font-bold">
+              <h1 className="text-main text-[30px] leading-[40px] xl:text-[40px] xl:leading-[50px] fxl:text-[60px] font-bold">
                 {cosm?.name}
               </h1>
-              <p>200ml</p>
+              <p className="text-main font-bold xl:text-[20px] fxl:text-[30px]">
+                {cosm?.ml}
+              </p>
             </div>
-            <p className="text-main/60 font-[500] text-[16px] !-py-2">
+            <p className="text-main/60 font-[500] text-[16px] fxl:text-[25px] !-py-2">
               {cosm.details}
             </p>
           </div>
-          <p className="text-base">
+          <p className="text-base fxl:text-2xl">
             Texture ultra ricca e fondente che dona nutrimento per una pelle
             tonica, rigenerata e idratata. Indicata per tutti i tipi di pelle,
             in particolare nei casi di forte secchezza, disidratazione e atonie.
           </p>
-          <p className="text-base">
+          <p className="text-base fxl:text-2xl">
             Svolge una decisa azione tonificante e levigante per una pelle più
             elastica, compatta e uniforme.
           </p>
 
           <div className="collapse collapse-arrow bg-second">
             <input type="radio" name="my-accordion-2" />
-            <div className="collapse-title text-xl font-medium ">
-              <h2 className="text-[20px] font-bold">Ingredienti</h2>
+            <div className="collapse-title font-medium ">
+              <h2 className="text-[20px] font-bold fxl:text-2xl">
+                Ingredienti
+              </h2>
             </div>
             <div className="collapse-content">
-              <p className="text-base">
+              <p className="text-base fxl:text-2xl">
                 olio di vinaccioli, acido ialuronico, olio di mandorle dolci,
                 polisaccaride protettivo effetto barriera, estratto di Hibisco,
                 estratto di avena, estratto di rosa damascena e olio di noce.
@@ -57,10 +77,12 @@ const SingleCosmetic = ({ cosm, others }) => {
           <div className="collapse collapse-arrow bg-second">
             <input type="radio" name="my-accordion-2" />
             <div className="collapse-title text-xl font-medium ">
-              <h2 className="text-[20px] font-bold">Metodo di applicazione</h2>
+              <h2 className="text-[20px] font-bold fxl:text-2xl">
+                Metodo di applicazione
+              </h2>
             </div>
             <div className="collapse-content">
-              <p className="text-base">
+              <p className="text-base fxl:text-2xl">
                 Applicare mattino e sera o dopo il bagno/doccia su pelle
                 asciutta e detersa, massaggiare con movimenti circolari a
                 completo assorbimento.
@@ -69,14 +91,68 @@ const SingleCosmetic = ({ cosm, others }) => {
           </div>
 
           <div className="flex gap-6 mt-4">
+            {/* <div className="bg-main h-20 w-20 rounded-full"></div>
             <div className="bg-main h-20 w-20 rounded-full"></div>
-            <div className="bg-main h-20 w-20 rounded-full"></div>
-            <div className="bg-main h-20 w-20 rounded-full"></div>
+            <div className="bg-main h-20 w-20 rounded-full"></div> */}
+            <Image src={IconaTre} width={90} height={90} />
+            <Image src={IconaUno} width={90} height={90} />
+            <Image src={IconaDue} width={90} height={90} />
+          </div>
+          <div className="flex flex-col xl:flex-row w-full xl:justify-between gap-10">
+            <Link
+              href="/mani.pdf"
+              download
+              target="_blank"
+              className="flex items-center text-lg xl:text-2xl gap-2 text-main font-bold w-full max-w-max text-center  lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 border-main"
+            >
+              Scarica qui
+              <Icon
+                icon="material-symbols:download"
+                color="#4A4A49"
+                width={30}
+              />
+            </Link>
+            <div className="flex gap-6 items-center ">
+              <p className="text-lg xl:text-xl">Condividi su</p>
+              <ul className="flex gap-6">
+                <li>
+                  {" "}
+                  <FacebookShareButton
+                    url={`https://lescretes-liard.vercel.app/comesi/${cosm?.title}`}
+                    hashtag={"#lescretes"}
+                  >
+                    {/* <FacebookIcon size={32} round /> */}
+                    <Icon
+                      icon="entypo-social:facebook"
+                      width={25}
+                      color="#4A4A49"
+                    />
+                  </FacebookShareButton>
+                </li>
+                <li className="text-[#757575]">
+                  {" "}
+                  <WhatsappShareButton
+                    url={`https://lescretes-liard.vercel.app/cosmesi/${cosm?.title}`}
+                    separator="- "
+                  >
+                    <Icon
+                      icon="mingcute:whatsapp-fill"
+                      color="#4A4A49"
+                      width="25"
+                    />
+                  </WhatsappShareButton>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-[90%] mx-auto py-10 gap-[30px]">
-        <h2 className="text-[35px] font-bold">
+      <div className="w-[90%] mx-auto my-[50px]">
+        <h2 className="text-6xl font-bold py-6">FAQs</h2>
+        <FAQ />
+      </div>
+      <div className="flex flex-col w-[90%] mx-auto py-10 gap-[30px] fxl:gap-[50px] fxl:py-20">
+        <h2 className="text-[35px] font-bold fxl:text-[55px]">
           Ti potrebbero anche interessare
         </h2>
 

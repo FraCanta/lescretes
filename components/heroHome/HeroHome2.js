@@ -13,7 +13,11 @@ const HeroHome2 = ({ img, title }) => {
         </p> */}
       </div>
       <div className="relative h-[50vh] lg:h-[80vh] fxl:h-[55vh] w-full">
-        <Image src={img} fill className="object-cover xl:object-contain" />
+        <Image
+          src={img}
+          fill
+          className="object-cover xl:object-contain rounded-2xl"
+        />
       </div>
     </>
   );
