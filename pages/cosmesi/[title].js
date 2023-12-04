@@ -44,7 +44,7 @@ const SingleCosmetic = ({ cosm, others }) => {
           <div className="collapse collapse-arrow bg-second">
             <input type="radio" name="my-accordion-2" />
             <div className="collapse-title text-xl font-medium ">
-              <h2 className="text-[25px] font-bold">Ingredienti</h2>
+              <h2 className="text-[20px] font-bold">Ingredienti</h2>
             </div>
             <div className="collapse-content">
               <p className="text-base">
@@ -57,7 +57,7 @@ const SingleCosmetic = ({ cosm, others }) => {
           <div className="collapse collapse-arrow bg-second">
             <input type="radio" name="my-accordion-2" />
             <div className="collapse-title text-xl font-medium ">
-              <h2 className="text-[25px] font-bold">Metodo di applicazione</h2>
+              <h2 className="text-[20px] font-bold">Metodo di applicazione</h2>
             </div>
             <div className="collapse-content">
               <p className="text-base">

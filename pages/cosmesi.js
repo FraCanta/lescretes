@@ -63,14 +63,20 @@ const Cosmesi = ({ translation }) => {
           </h2>
           <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
             <div className="flex-col  flex relative">
-              <Image className="object-cover h-[540px]" src={Nature} />
+              <Image
+                className="object-cover h-[540px] rounded-md"
+                src={Nature}
+              />
               <p className="text-center text-neutral-600 text-[25.20px] font-['MinervaModern'] leading-[50.20px]">
                 Ingredienti naturali
               </p>
             </div>
             <div className="flex-col justify-start items-center gap-[15px] inline-flex">
               <div className="flex-col  flex">
-                <Image className="h-[540px] object-cover" src={Notest} />
+                <Image
+                  className="h-[540px] object-cover rounded-md"
+                  src={Notest}
+                />
                 <div className="text-center text-neutral-600 text-[25.20px] font-['MinervaModern'] leading-[50.20px]">
                   No test sugli animali
                 </div>
@@ -78,7 +84,10 @@ const Cosmesi = ({ translation }) => {
             </div>
             <div className="flex-col justify-start items-center gap-[15px] inline-flex">
               <div className="flex-col  flex">
-                <Image className="h-[540px] object-cover" src={Package} />
+                <Image
+                  className="h-[540px] object-cover rounded-md"
+                  src={Package}
+                />
                 <div className="text-center text-neutral-600 text-[25.20px] font-['MinervaModern'] leading-[50.20px]">
                   Bio Packaging
                 </div>
