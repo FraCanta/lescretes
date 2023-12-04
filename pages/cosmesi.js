@@ -46,7 +46,7 @@ const Cosmesi = ({ translation }) => {
               <Cards
                 key={i}
                 img={el?.img}
-                title={el?.title}
+                name={el?.name}
                 details={el?.details}
                 button={el.button}
               />

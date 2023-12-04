@@ -3,7 +3,16 @@ import React from "react";
 import Tre from "@/public/assets/degustazioni/tre.jpeg";
 import Link from "next/link";
 
-const Cards = ({ img, title, descrizione, price, link, details, button }) => {
+const Cards = ({
+  img,
+  title,
+  descrizione,
+  price,
+  link,
+  details,
+  button,
+  name,
+}) => {
   return (
     <>
       {link ? (
@@ -44,7 +53,7 @@ const Cards = ({ img, title, descrizione, price, link, details, button }) => {
           </figure>
           <Link href={button} className="card-body !p-0 !py-4">
             <h2 className="card-title !justify-center font-bold text-[20px]">
-              {title}
+              {name}
             </h2>
             <div className="card-actions justify-center  ">
               <p className="text-center text-main/60 font-[500] text-[16px] !-py-2">

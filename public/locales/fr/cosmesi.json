@@ -3,46 +3,97 @@
     "cards": [
       {
         "img": "/assets/cosmetici/soin_main.jpg",
-        "title": " Fleurs DeVin SOIN MAINS  ",
+        "name": " Fleurs DeVin Soin Mains  ",
         "details": "Crema mani fiorita delicata",
         "button": "/cosmesi/soinmain"
       },
       {
         "img": "/assets/cosmetici/visage.jpg",
-        "title": "Fleurs DeVin Soin Visage",
+        "name": "Fleurs DeVin Soin Visage",
         "details": "Crema viso fiorita delicata",
-        "button": "/cosmesi/soinmain"
+        "button": "/cosmesi/soinvisage"
       },
       {
         "img": "/assets/cosmetici/gommage.jpg",
-        "title": "Visage DeVin Gommage Doux",
+        "name": "Visage DeVin Gommage Doux",
         "details": "Scrub delicato",
-        "button": "/cosmesi/soinmain"
+        "button": "/cosmesi/gommage"
       },
       {
         "img": "/assets/cosmetici/lotion_tonique.jpg",
-        "title": "Visage DeVin Lotion Tonique ",
+        "name": "Visage DeVin Lotion Tonique ",
         "details": "Tonico delicato",
-        "button": "/cosmesi/soinmain"
+        "button": "/cosmesi/lotion"
       },
       {
-        "img": "/assets/cosmetici/soin_corpo.jpg",
-        "title": "Fleurs DeVin Soin Corps ",
+        "img": "/assets/cosmetici/latte.jpg",
+        "name": "Fleurs DeVin Soin Corps ",
         "details": "Crema corpo fiorita delicata",
-        "button": "/cosmesi/soinmain"
+        "button": "/cosmesi/soincorps"
       },
       {
         "img": "/assets/cosmetici/acqua2.jpg",
-        "title": "Cristal DeVin ",
+        "name": "Cristal DeVin ",
         "details": " Eau Parfumee Fraiche",
-        "button": "/cosmesi/soinmain"
+        "button": "/cosmesi/parfumee"
       },
       {
         "img": "/assets/cosmetici/diffuseur.jpg",
-        "title": "Thé DeVin",
+        "name": "Thé DeVin",
         "details": "Diffuseur de parfum",
-        "button": "/cosmesi/soinmain"
+        "button": "/cosmesi/diffuseur"
       }
-    ]
+    ],
+    "singleCosmetic": {
+      "soinmain": {
+        "img": "/assets/cosmetici/soin_main.jpg",
+        "name": " Fleurs DeVin Soin Mains  ",
+        "details": "Crema mani fiorita delicata",
+        "title": "soinmain",
+        "button": "/cosmesi/soinmain"
+      },
+      "soinvisage": {
+        "img": "/assets/cosmetici/visage.jpg",
+        "name": "Fleurs DeVin Soin Visage",
+        "details": "Crema viso fiorita delicata",
+        "title": "soinvisage",
+        "button": "/cosmesi/soinvisage"
+      },
+      "gommage": {
+        "img": "/assets/cosmetici/gommage.jpg",
+        "name": "Visage DeVin Gommage Doux",
+        "details": "Scrub delicato",
+        "title": "gommage",
+        "button": "/cosmesi/soinvisage"
+      },
+      "lotion": {
+        "img": "/assets/cosmetici/lotion_tonique.jpg",
+        "name": "Visage DeVin Lotion Tonique ",
+        "details": "Tonico delicato",
+        "title": "lotion",
+        "button": "/cosmesi/lotion"
+      },
+      "soincorps": {
+        "img": "/assets/cosmetici/latte.jpg",
+        "name": "Fleurs DeVin Soin Corps ",
+        "details": "Crema corpo fiorita delicata",
+        "title": "soincorps",
+        "button": "/cosmesi/soincorps"
+      },
+      "parfumee": {
+        "img": "/assets/cosmetici/acqua2.jpg",
+        "name": "Cristal DeVin ",
+        "details": " Eau Parfumee Fraiche",
+        "title": "parfumee",
+        "button": "/cosmesi/parfumee"
+      },
+      "diffuseur": {
+        "img": "/assets/cosmetici/diffuseur.jpg",
+        "name": "Thé DeVin",
+        "details": "Diffuseur de parfum",
+        "title": "diffuseur",
+        "button": "/cosmesi/diffuseur"
+      }
+    }
   }
 }

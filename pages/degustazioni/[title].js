@@ -19,7 +19,6 @@ import {
 import Drawer from "@/components/drawer/drawer";
 
 const SingleDeg = ({ deg }) => {
-  console.log(deg);
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
   const handleDrawerToggle = () => {
     setIsDrawerOpen(!isDrawerOpen);
