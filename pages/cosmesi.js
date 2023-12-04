@@ -88,131 +88,186 @@ const Cosmesi = ({ translation }) => {
           <h2 className="text-main text-[40px] font-bold leading-[59.58px]">
             Principali principi attivi della linea DeVin
           </h2>
-          <div className="flex flex-col gap-8">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-main text-lg font-black  leading-[30.43px]">
-                Olio di vinaccioli
-              </h3>
-              <p className="text-main text-lg font-normal leading-[30.43px]">
-                L’olio di vinaccioli, ottenuto tramite il procedimento di
-                spremitura a freddo, si estrae dai semi dell’uva, rigorosamente
-                senza l’impiego di solventi chimici. I semi di vinacciolo
-                racchiudono un concentrato di sostanze antiossidanti (quali
-                acido linoleico e vitamina E) in grado di contrastare
-                l’invecchiamento cutaneo e proteggere la pelle dall’attacco dei
-                radicali liberi. i semi sono inoltre ricchi di sostanze attive
-                che svolgono un’azione idratante, levigante e schiarente. Questo
-                pool di sostanze contribuisce, a mantenere l’epidermide elastica
-                e luminosa, rallentando la formazione delle rughe e riparando i
-                segni dell’invecchiamento cutaneo.
-              </p>
+          <div className="flex flex-col gap-4">
+            <div className="collapse collapse-plus  bg-second">
+              <input type="radio" name="my-accordion-3" />
+              <div className="collapse-title text-xl font-medium ">
+                <h3 className="text-main text-[25px] xl:text-2xl font-black  leading-[30.43px]">
+                  Olio di vinaccioli
+                </h3>
+              </div>
+              <div className="collapse-content ">
+                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                  L’olio di vinaccioli, ottenuto tramite il procedimento di
+                  spremitura a freddo, si estrae dai semi dell’uva,
+                  rigorosamente senza l’impiego di solventi chimici. I semi di
+                  vinacciolo racchiudono un concentrato di sostanze
+                  antiossidanti (quali acido linoleico e vitamina E) in grado di
+                  contrastare l’invecchiamento cutaneo e proteggere la pelle
+                  dall’attacco dei radicali liberi. i semi sono inoltre ricchi
+                  di sostanze attive che svolgono un’azione idratante, levigante
+                  e schiarente. Questo pool di sostanze contribuisce, a
+                  mantenere l’epidermide elastica e luminosa, rallentando la
+                  formazione delle rughe e riparando i segni dell’invecchiamento
+                  cutaneo.
+                </p>
+              </div>
             </div>
 
-            <div className="flex flex-col gap-2">
-              <h3 className="text-main text-lg font-black  leading-[30.43px]">
-                Glicerina vegetale
-              </h3>
-              <p className="text-main text-lg font-normal leading-[30.43px]">
-                Composto organico nella cui struttura sono presenti tre gruppi
-                molto affini all’acqua. Il suo ruolo è quello di mantenere una
-                corretta idratazione poiché ha la facoltà di trattenere e legare
-                l’acqua. Svolge una marcata azione umettante, prevenendo
-                desquamazioni e secchezza cutanea.
-              </p>
-            </div>
-            <div className="flex flex-col gap-2">
-              <h3 className="text-main text-lg font-black  leading-[30.43px]">
-                Estratto di camomilla biologica (fiori)
-              </h3>
-              <p className="text-main text-lg font-normal leading-[30.43px]">
-                Una vera ricchezza della natura, con azione lenitiva, emolliente
-                e protettiva. Offre uno scudo di difesa contro gli agenti
-                atmosferici aggressivi, per un immediato effetto di benessere e
-                confort.
-              </p>
-            </div>
-            <div className="flex flex-col gap-2">
-              <h3 className="text-main text-lg font-black  leading-[30.43px]">
-                NMF ricostituito (Natural Moisturizing Factor)
-              </h3>
-              <p className="text-main text-lg font-normal leading-[30.43px]">
-                Preziosa miscela idratante composta da sali (di Magnesio,
-                Manganese, Zinco, Calcio) legati al PCA, zuccheri, aminoacidi
-                (tra cui la prolina, amminoacido fondamentale per la sintesi del
-                collagene), urea, allantoina che garantisce un’idratazione
-                profonda e duratura per una pelle uniforme, idratata e luminosa.
-                E’ un fattore di idro-regolazione cutanea, naturalmente presente
-                nel film idrolipidico dell’epidermide che impedisce una
-                eccessiva disidratazione e consente di mantenere integra,
-                elastica e flessibile la superficie cutanea. E’ composto da
-                sostanze idrosolubili e igroscopiche. E’ abbondantemente
-                presente nei corneociti dove svolge funzioni umettanti. Essendo
-                però idrosolubile è facilmente asportabile con solventi,
-                detergenti, acqua e sudore. I suoi livelli diminuiscono anche a
-                causa dell’invecchiamento fisiologico e per l’eccessiva
-                esposizione alla luce solare.
-              </p>
-            </div>
-            <div className="flex flex-col gap-2">
-              <h3 className="text-main text-lg font-black  leading-[30.43px]">
-                Polisaccaride, protettivo effetto barriera.
-              </h3>
-              <p className="text-main text-lg font-normal leading-[30.43px]">
-                Alcuni microrganismi batterici vegetali auto producono dei
-                polisaccaridi ad elevato peso molecolare, per migliorare le loro
-                capacità di difesa e le loro possibilità di sopravvivenza. Tali
-                polisaccaridi formano una matrice protettiva contro le
-                aggressioni ambientali. Questo film sottile interagisce con la
-                superficie cutanea e favorisce l’eliminazione di sostanze
-                esogene nocive ed aggressive per l’organismo come polveri
-                sottili, metalli pesanti, radicali liberi, tossine.
-              </p>
-            </div>
-            <div className="flex flex-col gap-2">
-              <h3 className="text-main text-lg font-black  leading-[30.43px]">
-                Alghe marine
-              </h3>
-              <p className="text-main text-lg font-normal leading-[30.43px]">
-                Ricche in mucillagini (tra cui alginati), sali minerali, con
-                un’azione emolliente, idratante, ammorbidente, protettiva,
-                ideale per pelli secche.
-              </p>
+            <div className="collapse collapse-plus bg-second">
+              <input type="radio" name="my-accordion-3" />
+              <div className="collapse-title text-xl font-medium ">
+                <h3 className="text-main text-[25px] xl:text-2xl font-black  leading-[30.43px]">
+                  Glicerina vegetale
+                </h3>
+              </div>
+              <div className="collapse-content ">
+                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                  Composto organico nella cui struttura sono presenti tre gruppi
+                  molto affini all’acqua. Il suo ruolo è quello di mantenere una
+                  corretta idratazione poiché ha la facoltà di trattenere e
+                  legare l’acqua. Svolge una marcata azione umettante,
+                  prevenendo desquamazioni e secchezza cutanea.
+                </p>
+              </div>
             </div>
 
-            <div className="flex flex-col gap-2">
-              <h3 className="text-main text-lg font-black  leading-[30.43px]">
-                Acido ialuronico
-              </h3>
-              <p className="text-main text-lg font-normal leading-[30.43px]">
-                Molecola idratante per eccellenza, naturalmente presente nella
-                pelle per trattenere acqua nei tessuti. Il suo compito è
-                mantenere la pelle elastica, tesa e idratata e di aumentarne la
-                plasticità. In forma sia a basso che ad alto peso molecolare,
-                ricavato per bio-fermentazione di materiale vegetale.
-              </p>
+            <div className="collapse collapse-plus bg-second">
+              <input type="radio" name="my-accordion-3" />
+              <div className="collapse-title text-xl font-medium ">
+                <h3 className="text-main text-[25px] xl:text-2xl font-black  leading-[30.43px]">
+                  Estratto di camomilla biologica (fiori)
+                </h3>
+              </div>
+              <div className="collapse-content">
+                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                  Una vera ricchezza della natura, con azione lenitiva,
+                  emolliente e protettiva. Offre uno scudo di difesa contro gli
+                  agenti atmosferici aggressivi, per un immediato effetto di
+                  benessere e confort.
+                </p>
+              </div>
             </div>
 
-            <div className="flex flex-col gap-2">
-              <h3 className="text-main text-lg font-black  leading-[30.43px]">
-                Collagene idrolizzato
-              </h3>
-              <p className="text-main text-lg font-normal leading-[30.43px]">
-                Proteina della bellezza, con funzione di sostegno strutturale e
-                capacità di intrappolare acqua nei tessuti. Determina l’aspetto
-                teso, elastico e compatto della pelle. Viene utilizzato in forma
-                idrolizzata perché direttamente biodisponibile per contrastare
-                atonie e prevenire la formazione di rughe.
-              </p>
+            <div className="collapse collapse-plus bg-second">
+              <input type="radio" name="my-accordion-3" />
+              <div className="collapse-title text-xl font-medium ">
+                <h3 className="text-main text-[25px] xl:text-2xl font-black  leading-[30.43px]">
+                  NMF ricostituito (Natural Moisturizing Factor)
+                </h3>
+              </div>
+              <div className="collapse-content">
+                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                  Preziosa miscela idratante composta da sali (di Magnesio,
+                  Manganese, Zinco, Calcio) legati al PCA, zuccheri, aminoacidi
+                  (tra cui la prolina, amminoacido fondamentale per la sintesi
+                  del collagene), urea, allantoina che garantisce un’idratazione
+                  profonda e duratura per una pelle uniforme, idratata e
+                  luminosa. E’ un fattore di idro-regolazione cutanea,
+                  naturalmente presente nel film idrolipidico dell’epidermide
+                  che impedisce una eccessiva disidratazione e consente di
+                  mantenere integra, elastica e flessibile la superficie
+                  cutanea. E’ composto da sostanze idrosolubili e igroscopiche.
+                  E’ abbondantemente presente nei corneociti dove svolge
+                  funzioni umettanti. Essendo però idrosolubile è facilmente
+                  asportabile con solventi, detergenti, acqua e sudore. I suoi
+                  livelli diminuiscono anche a causa dell’invecchiamento
+                  fisiologico e per l’eccessiva esposizione alla luce solare.
+                </p>
+              </div>
             </div>
-            <div className="flex flex-col gap-2">
-              <h3 className="text-main text-lg font-black  leading-[30.43px]">
-                Estratto di avena biologica
-              </h3>
-              <p className="text-main text-lg font-normal leading-[30.43px]">
-                Altamente dermocompatibile, contrasta l’invecchiamento cutaneo,
-                idrata e potenzia la naturale rigenerazione cellulare. Forma un
-                velo di protezione che rede la pelle morbida e vellutata.
-              </p>
+
+            <div className="collapse collapse-plus bg-second">
+              <input type="radio" name="my-accordion-3" />
+              <div className="collapse-title text-xl font-medium ">
+                <h3 className="text-main text-[25px] xl:text-2xl font-black  leading-[30.43px]">
+                  Polisaccaride, protettivo effetto barriera.{" "}
+                </h3>
+              </div>
+              <div className="collapse-content ">
+                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                  Alcuni microrganismi batterici vegetali auto producono dei
+                  polisaccaridi ad elevato peso molecolare, per migliorare le
+                  loro capacità di difesa e le loro possibilità di
+                  sopravvivenza. Tali polisaccaridi formano una matrice
+                  protettiva contro le aggressioni ambientali. Questo film
+                  sottile interagisce con la superficie cutanea e favorisce
+                  l’eliminazione di sostanze esogene nocive ed aggressive per
+                  l’organismo come polveri sottili, metalli pesanti, radicali
+                  liberi, tossine.
+                </p>
+              </div>
+            </div>
+
+            <div className="collapse collapse-plus bg-second">
+              <input type="radio" name="my-accordion-3" />
+              <div className="collapse-title text-xl font-medium ">
+                <h3 className="text-main text-[25px] xl:text-2xl font-black  leading-[30.43px]">
+                  Alghe marine{" "}
+                </h3>
+              </div>
+              <div className="collapse-content ">
+                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                  Ricche in mucillagini (tra cui alginati), sali minerali, con
+                  un’azione emolliente, idratante, ammorbidente, protettiva,
+                  ideale per pelli secche.
+                </p>
+              </div>
+            </div>
+
+            <div className="collapse collapse-plus bg-second">
+              <input type="radio" name="my-accordion-3" />
+              <div className="collapse-title text-xl font-medium ">
+                <h3 className="text-main text-[25px] xl:text-2xl font-black  leading-[30.43px]">
+                  Acido ialuronico{" "}
+                </h3>
+              </div>
+              <div className="collapse-content ">
+                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                  Molecola idratante per eccellenza, naturalmente presente nella
+                  pelle per trattenere acqua nei tessuti. Il suo compito è
+                  mantenere la pelle elastica, tesa e idratata e di aumentarne
+                  la plasticità. In forma sia a basso che ad alto peso
+                  molecolare, ricavato per bio-fermentazione di materiale
+                  vegetale.
+                </p>
+              </div>
+            </div>
+
+            <div className="collapse collapse-plus bg-second">
+              <input type="radio" name="my-accordion-3" />
+              <div className="collapse-title text-xl font-medium ">
+                <h3 className="text-main text-[25px] xl:text-2xl font-black  leading-[30.43px]">
+                  Collagene idrolizzato
+                </h3>
+              </div>
+              <div className="collapse-content ">
+                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                  Proteina della bellezza, con funzione di sostegno strutturale
+                  e capacità di intrappolare acqua nei tessuti. Determina
+                  l’aspetto teso, elastico e compatto della pelle. Viene
+                  utilizzato in forma idrolizzata perché direttamente
+                  biodisponibile per contrastare atonie e prevenire la
+                  formazione di rughe.
+                </p>
+              </div>
+            </div>
+
+            <div className="collapse collapse-plus bg-second">
+              <input type="radio" name="my-accordion-3" />
+              <div className="collapse-title text-xl font-medium ">
+                <h3 className="text-main text-[25px] xl:text-2xl font-black  leading-[30.43px]">
+                  Estratto di avena biologica
+                </h3>
+              </div>
+              <div className="collapse-content ">
+                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                  Altamente dermocompatibile, contrasta l’invecchiamento
+                  cutaneo, idrata e potenzia la naturale rigenerazione
+                  cellulare. Forma un velo di protezione che rede la pelle
+                  morbida e vellutata.
+                </p>
+              </div>
             </div>
           </div>
         </div>
