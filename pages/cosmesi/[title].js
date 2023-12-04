@@ -118,7 +118,7 @@ const SingleCosmetic = ({ cosm, others }) => {
                 <li>
                   {" "}
                   <FacebookShareButton
-                    url={`https://lescretes-liard.vercel.app/comesi/${cosm?.title}`}
+                    url={`https://lescretes-liard.vercel.app/cosmesi/${cosm?.title}`}
                     hashtag={"#lescretes"}
                   >
                     {/* <FacebookIcon size={32} round /> */}
