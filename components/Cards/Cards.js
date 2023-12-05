@@ -27,7 +27,7 @@ const Cards = ({
                 height={600}
               />
             </figure>
-            <div className="card-body">
+            <div className="card-body !p-2">
               <h2 className="card-title !justify-center font-bold text-[20px] fxl:text-[25px]">
                 {title}
               </h2>
