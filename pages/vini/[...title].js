@@ -15,6 +15,14 @@ import Zona from "@/public/assets/iconewine/zona.svg";
 import Affinamento from "@/public/assets/iconewine/affinamento.svg";
 import Servizio from "@/public/assets/iconewine/servizio.svg";
 import Vini from "../vini";
+import Tabs from "@/components/TabsWines/Tabs";
+import TabWine from "@/components/TabWine/TabWine";
+const tabs = [
+  { title: "Tab 1", content: "Contenuto del Tab 1" },
+  { title: "Tab 2", content: "Contenuto del Tab 2" },
+  { title: "Tab 3", content: "Contenuto del Tab 3" },
+  { title: "Tab 4", content: "Contenuto del Tab 4" },
+];
 
 const SingleWine = ({ wine }) => {
   return (
@@ -41,7 +49,7 @@ const SingleWine = ({ wine }) => {
             {/* <h3 className="text-main text-[30px] font-bold  leading-normal">
               Caratteristiche:
             </h3> */}
-            <div className="grid grid-cols-1 xl:grid-cols-2 w-full h-[80%] gap-4 xl:gap-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 w-full h-[80%] gap-4 xl:gap-2">
               <ul className="flex flex-col justify-between gap-4 xl:gap-0">
                 <li className="flex gap-4 items-center">
                   <Image src={Denominazione} className="text-main w-8 h-10" />
@@ -138,6 +146,10 @@ const SingleWine = ({ wine }) => {
               </ul>
             </div>
           </div>
+        </div>
+        <div className="w-[90%] mx-auto">
+          <TabWine tabs={tabs} />
+          <div className="mt-4">{tabs?.content}</div>
         </div>
       </div>
     </>

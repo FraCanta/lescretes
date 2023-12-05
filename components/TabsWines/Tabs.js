@@ -48,7 +48,7 @@ const Tabs = ({ translation }) => {
             y: activeTab === index ? 0 : 20,
             transition: { duration: 0.5 }, // Specifica la durata dell'animazione
           }}
-          className={`w-full py-10 grid grid-cols-1 xl:grid-cols-4 gap-4 ${
+          className={`w-full py-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 ${
             activeTab === index ? "tabcontent" : "tabcontent hidden"
           }`}
         >
