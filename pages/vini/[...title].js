@@ -34,14 +34,14 @@ const SingleWine = ({ wine }) => {
         </div>
         <div className="flex py-8 w-[90%] mx-auto xl:mx-0">
           <div className="flex-col justify-start items-start gap-[30px] flex">
-            <h1 className="text-main text-[42.08px] font-black  leading-[53.77px]">
+            <h1 className="text-main text-[35px] md:text-[42.08px] font-black  md:leading-[53.77px]">
               {wine.name}
             </h1>
             {/* <p className="text-[18px] leading-[32px]">{wine.descrizione} </p> */}
             {/* <h3 className="text-main text-[30px] font-bold  leading-normal">
               Caratteristiche:
             </h3> */}
-            <div className="grid grid-cols-1 xl:grid-cols-2 w-full h-[80%] gap-4 xl:gap-0">
+            <div className="grid grid-cols-1 xl:grid-cols-2 w-full h-[80%] gap-4 xl:gap-2">
               <ul className="flex flex-col justify-between gap-4 xl:gap-0">
                 <li className="flex gap-4 items-center">
                   <Image src={Denominazione} className="text-main w-8 h-10" />
@@ -49,7 +49,7 @@ const SingleWine = ({ wine }) => {
                     <h2 className="text-[20px] font-black text-main/90">
                       {wine.denominazioneTitle}
                     </h2>
-                    <p className="text-main/70">Valle d'Aosta</p>
+                    <p className="text-main/70">{wine.denominazione}</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
@@ -58,7 +58,7 @@ const SingleWine = ({ wine }) => {
                     <h2 className="text-[20px] font-black text-main/90">
                       {wine.vitigniTitle}
                     </h2>
-                    <p className="text-main/70">Valle d'Aosta</p>
+                    <p className="text-main/70"> {wine.vitigni}</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
@@ -67,7 +67,7 @@ const SingleWine = ({ wine }) => {
                     <h2 className="text-[20px] font-black text-main/90">
                       {wine.tipologiaTitle}
                     </h2>
-                    <p className="text-main/70">Valle d'Aosta</p>
+                    <p className="text-main/70">{wine.tipologia}</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
@@ -76,7 +76,7 @@ const SingleWine = ({ wine }) => {
                     <h2 className="text-[20px] font-black text-main/90">
                       {wine.gradazioneTitle}
                     </h2>
-                    <p className="text-main/70">Valle d'Aosta</p>
+                    <p className="text-main/70">{wine.gradazione}</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
@@ -85,18 +85,18 @@ const SingleWine = ({ wine }) => {
                     <h2 className="text-[20px] font-black text-main/90">
                       {wine.bicchiereTitle}
                     </h2>
-                    <p className="text-main/70">Valle d'Aosta</p>
+                    <p className="text-main/70">{wine.bicchiere}</p>
                   </div>
                 </li>
               </ul>
-              <ul className="flex flex-col justify-between gap-4 xl:gap-0">
+              <ul className="flex flex-col justify-between gap-4">
                 <li className="flex gap-4 items-center">
                   <Image src={Formati} className="text-main w-10 h-10" />
                   <div className="flex flex-col">
                     <h2 className="text-[20px] font-black text-main/90">
                       {wine.formatoTitle}
                     </h2>
-                    <p className="text-main/70">Valle d'Aosta</p>
+                    <p className="text-main/70"> {wine.formato}</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
@@ -105,7 +105,7 @@ const SingleWine = ({ wine }) => {
                     <h2 className="text-[20px] font-black text-main/90">
                       {wine.vinificazioneTitle}
                     </h2>
-                    <p className="text-main/70">Valle d'Aosta</p>
+                    <p className="text-main/70"> {wine.vinificazione}</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
@@ -114,7 +114,7 @@ const SingleWine = ({ wine }) => {
                     <h2 className="text-[20px] font-black text-main/90">
                       {wine.zonaTitle}
                     </h2>
-                    <p className="text-main/70">Valle d'Aosta</p>
+                    <p className="text-main/70"> {wine.zona}</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
@@ -123,7 +123,7 @@ const SingleWine = ({ wine }) => {
                     <h2 className="text-[18px] font-black text-main/90">
                       {wine.affinamentoTitle}
                     </h2>
-                    <p className="text-main/70">Valle d'Aosta</p>
+                    <p className="text-main/70">{wine.affinamento}</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
@@ -132,7 +132,7 @@ const SingleWine = ({ wine }) => {
                     <h2 className="text-[20px] font-black text-main/90">
                       {wine.servizioTitle}
                     </h2>
-                    <p className="text-main/70">Valle d'Aosta</p>
+                    <p className="text-main/70">{wine.servizio}</p>
                   </div>
                 </li>
               </ul>

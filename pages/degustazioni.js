@@ -53,7 +53,7 @@ const Degustazioni = ({ translation }) => {
         </div>
       </div>
 
-      <div className="w-full min-h-[60vh]  grid grid-cols-1 2xl:grid-cols-2 py-[48px] 2xl:py-0 gap-10 bg-main items-center">
+      <div className="w-full min-h-[60vh]  grid grid-cols-1 2xl:grid-cols-2 py-[48px] 2xl:py-0 gap-10 bg-main items-center relative bg-pattern">
         <div className="w-[90%] h-[350px] 2xl:h-[350px] relative mx-auto">
           <Image
             src={View}
@@ -62,7 +62,7 @@ const Degustazioni = ({ translation }) => {
             className="object-cover rounded-[30px]"
           />
         </div>
-        <div className="flex flex-col h-full justify-center gap-8 relative w-[90%] mx-auto">
+        <div className="flex flex-col h-full justify-center gap-8 relative w-[90%] mx-auto ">
           <div className="flex flex-col gap-6">
             <h3 className="text-white text-[35px] xl:text-[43.22px] font-bold xl:leading-[55.22px] xl:w-[70%]">
               La nostra forza è la cura e la passione che abbiamo per la nostra
