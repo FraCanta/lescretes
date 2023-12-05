@@ -44,46 +44,46 @@ const SingleWine = ({ wine }) => {
             <div className="grid grid-cols-1 xl:grid-cols-2 w-full h-[80%] gap-4 xl:gap-0">
               <ul className="flex flex-col justify-between gap-4 xl:gap-0">
                 <li className="flex gap-4 items-center">
-                  <Image src={Denominazione} className="text-main" />
-                  <div className="flex flex-col gap-1">
+                  <Image src={Denominazione} className="text-main w-8 h-10" />
+                  <div className="flex flex-col">
                     <h2 className="text-[20px] font-black text-main/90">
-                      Denominazione
+                      {wine.denominazioneTitle}
                     </h2>
                     <p className="text-main/70">Valle d'Aosta</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Vitigni} />
-                  <div className="flex flex-col gap-1">
+                  <Image src={Vitigni} className="text-main w-8 h-10" />
+                  <div className="flex flex-col">
                     <h2 className="text-[20px] font-black text-main/90">
-                      Denominazione
+                      {wine.vitigniTitle}
                     </h2>
                     <p className="text-main/70">Valle d'Aosta</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Tipologia} />
-                  <div className="flex flex-col gap-1">
+                  <Image src={Tipologia} className="text-main w-8 h-10" />
+                  <div className="flex flex-col">
                     <h2 className="text-[20px] font-black text-main/90">
-                      Denominazione
+                      {wine.tipologiaTitle}
                     </h2>
                     <p className="text-main/70">Valle d'Aosta</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Gradazione} />
-                  <div className="flex flex-col gap-1">
+                  <Image src={Gradazione} className="text-main w-8 h-10" />
+                  <div className="flex flex-col">
                     <h2 className="text-[20px] font-black text-main/90">
-                      Denominazione
+                      {wine.gradazioneTitle}
                     </h2>
                     <p className="text-main/70">Valle d'Aosta</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Type} />
-                  <div className="flex flex-col gap-1">
+                  <Image src={Type} className="text-main w-8 h-10" />
+                  <div className="flex flex-col">
                     <h2 className="text-[20px] font-black text-main/90">
-                      Denominazione
+                      {wine.bicchiereTitle}
                     </h2>
                     <p className="text-main/70">Valle d'Aosta</p>
                   </div>
@@ -91,46 +91,46 @@ const SingleWine = ({ wine }) => {
               </ul>
               <ul className="flex flex-col justify-between gap-4 xl:gap-0">
                 <li className="flex gap-4 items-center">
-                  <Image src={Formati} />
-                  <div className="flex flex-col gap-1">
+                  <Image src={Formati} className="text-main w-10 h-10" />
+                  <div className="flex flex-col">
                     <h2 className="text-[20px] font-black text-main/90">
-                      Denominazione
+                      {wine.formatoTitle}
                     </h2>
                     <p className="text-main/70">Valle d'Aosta</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Vinificazione} />
-                  <div className="flex flex-col gap-1">
+                  <Image src={Vinificazione} className="text-main w-10 h-9" />
+                  <div className="flex flex-col">
                     <h2 className="text-[20px] font-black text-main/90">
-                      Denominazione
+                      {wine.vinificazioneTitle}
                     </h2>
                     <p className="text-main/70">Valle d'Aosta</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Zona} />
-                  <div className="flex flex-col gap-1">
+                  <Image src={Zona} className="text-main w-10 h-10" />
+                  <div className="flex flex-col">
                     <h2 className="text-[20px] font-black text-main/90">
-                      Denominazione
+                      {wine.zonaTitle}
                     </h2>
                     <p className="text-main/70">Valle d'Aosta</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Affinamento} />
-                  <div className="flex flex-col gap-1">
-                    <h2 className="text-[20px] font-black text-main/90">
-                      Denominazione
+                  <Image src={Affinamento} className="text-main w-10 h-10" />
+                  <div className="flex flex-col">
+                    <h2 className="text-[18px] font-black text-main/90">
+                      {wine.affinamentoTitle}
                     </h2>
                     <p className="text-main/70">Valle d'Aosta</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Servizio} />
-                  <div className="flex flex-col gap-1">
+                  <Image src={Servizio} className="text-main w-9 h-11" />
+                  <div className="flex flex-col ">
                     <h2 className="text-[20px] font-black text-main/90">
-                      Denominazione
+                      {wine.servizioTitle}
                     </h2>
                     <p className="text-main/70">Valle d'Aosta</p>
                   </div>

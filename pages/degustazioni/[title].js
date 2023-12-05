@@ -49,7 +49,7 @@ const SingleDeg = ({ deg }) => {
         </div>
       </div>
 
-      <div className="w-[90%] mx-auto grid grid-cols-1 xl:grid-cols-5 gap-8 xl:gap-4 py-10 flex-col">
+      <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-8 xl:gap-4 py-10 flex-col">
         <div className="flex h-full ">
           <Image src={Bicchiere} className="h-full w-12" alt="bicchiere" />
           <div className="flex flex-col ">

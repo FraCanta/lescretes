@@ -20,19 +20,19 @@
         "button": "/cosmesi/gommage"
       },
       {
-        "img": "/assets/cosmetici/tonique.webp",
+        "img": "/assets/cosmetici/tonico.webp",
         "name": "Visage DeVin Lotion Tonique ",
         "details": "Tonico delicato",
         "button": "/cosmesi/lotion"
       },
       {
-        "img": "/assets/cosmetici/huile.webp",
+        "img": "/assets/cosmetici/latte.webp",
         "name": "Fleurs DeVin Soin Corps ",
         "details": "Crema corpo fiorita delicata",
         "button": "/cosmesi/soincorps"
       },
       {
-        "img": "/assets/cosmetici/eau.webp",
+        "img": "/assets/cosmetici/acqua3.webp",
         "name": "Cristal DeVin ",
         "details": " Eau Parfumee Fraiche",
         "button": "/cosmesi/parfumee"
@@ -42,6 +42,12 @@
         "name": "Thé DeVin",
         "details": "Diffuseur de parfum",
         "button": "/cosmesi/diffuseur"
+      },
+      {
+        "img": "/assets/cosmetici/corpo.webp",
+        "name": "Fleurs DeVin Soin Corps",
+        "details": "Crema corpo fiorita delicata",
+        "button": "/cosmesi/pepin"
       }
     ],
     "singleCosmetic": {
@@ -63,7 +69,7 @@
         "button": "/cosmesi/soinmain"
       },
       "soinvisage": {
-        "img": "/assets/cosmetici/visage.jpg",
+        "img": "/assets/cosmetici/visage.webp",
         "name": "Fleurs DeVin Soin Visage",
         "ml": "50ml",
         "descrizione": [
@@ -80,7 +86,7 @@
         "button": "/cosmesi/soinvisage"
       },
       "gommage": {
-        "img": "/assets/cosmetici/gommage.jpg",
+        "img": "/assets/cosmetici/gommage.webp",
         "name": "Visage DeVin Gommage Doux",
         "ml": "50ml",
         "descrizione": [
@@ -98,7 +104,7 @@
         "button": "/cosmesi/gommage"
       },
       "lotion": {
-        "img": "/assets/cosmetici/lotion_tonique.jpg",
+        "img": "/assets/cosmetici/tonico.webp",
         "name": "Visage DeVin Lotion Tonique ",
         "ml": "200ml",
         "descrizione": [
@@ -116,9 +122,9 @@
         "button": "/cosmesi/lotion"
       },
       "soincorps": {
-        "img": "/assets/cosmetici/latte.jpg",
+        "img": "/assets/cosmetici/latte.webp",
         "name": "Fleurs DeVin Soin Corps ",
-        "ml": "200ml",
+        "ml": "50ml",
         "descrizione": [
           {
             "testo": "Texture ultra ricca e fondente che dona nutrimento per una pelle tonica, rigenerata e idratata. Indicata per tutti i tipi di pelle, in particolare nei casi di forte secchezza, disidratazione e atonie."
@@ -137,7 +143,7 @@
         "button": "/cosmesi/soincorps"
       },
       "parfumee": {
-        "img": "/assets/cosmetici/acqua2.jpg",
+        "img": "/assets/cosmetici/acqua3.webp",
         "name": "Cristal DeVin ",
         "ml": "50ml",
         "descrizione": [
@@ -158,7 +164,7 @@
         "button": "/cosmesi/parfumee"
       },
       "diffuseur": {
-        "img": "/assets/cosmetici/diffusore.jpg",
+        "img": "/assets/cosmetici/diffusore.webp",
         "name": "Thé DeVin",
         "ml": "250ml",
         "descrizione": [
@@ -177,6 +183,24 @@
         "details": "Diffuseur de parfum",
         "title": "diffuseur",
         "button": "/cosmesi/diffuseur"
+      },
+      "pepin": {
+        "img": "/assets/cosmetici/corpo.webp",
+        "name": "Fleurs DeVin Soin Corps",
+        "ml": "50ml",
+        "descrizione": [
+          {
+            "testo": "Manca la descrizione"
+          }
+        ],
+        "ingredientiTitle": "Ingredienti",
+        "ingredienti": "Mancano gli ingredienti",
+        "istruzioniTitle": "Istruzioni d'uso",
+        "istruzioni": "Qui mi mancano le istruzioni d'uso",
+
+        "details": "Crema corpo fiorita delicata",
+        "title": "pepin",
+        "button": "/cosmesi/pepin"
       }
     }
   }
