@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
 const TabWine = ({ tabs }) => {
-  console.log(tabs);
   const [activeTab, setActiveTab] = useState(0);
   const [lightboxImageIndex, setLightboxImageIndex] = useState(null);
   const changeTab = (index) => {
@@ -36,7 +35,7 @@ const TabWine = ({ tabs }) => {
         {tabs.map((tab, index) => (
           <motion.button
             key={index}
-            className={`cursor-pointer md:py-2 relative text-[20px] ${
+            className={`cursor-pointer md:py-1 relative !text-[18px] md:!text-[22px] ${
               activeTab === index ? "tab-bordered tab-active" : "tab-bordered"
             }`}
             onClick={() => changeTab(index)}
@@ -64,11 +63,13 @@ const TabWine = ({ tabs }) => {
             y: activeTab === index ? 0 : 20,
             transition: { duration: 0.5 }, // Specifica la durata dell'animazione
           }}
-          className={`w-full py-10 ${
+          className={`w-full py-6 ${
             activeTab === index ? "tabcontent" : "tabcontent hidden"
           }`}
         >
-          <div className="text-main text-xl md:w-[70%]">{tab.content.text}</div>
+          <div className="text-main/70 !text-base md:!text-xl md:w-[70%]">
+            {tab.content.text}
+          </div>
           {tab.content.images && tab.content.images.length > 0 && (
             <div className="image-gallery grid grid-cols-1 md:grid-cols-3 gap-4 md:w-[70%]">
               {tab.content.images.map((image, imageIndex) => (

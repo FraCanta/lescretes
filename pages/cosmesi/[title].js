@@ -18,7 +18,6 @@ import {
 import FAQ from "@/components/FAQ/FAQ";
 
 const SingleCosmetic = ({ cosm, others }) => {
-  console.log(others);
   return (
     <>
       <Head>

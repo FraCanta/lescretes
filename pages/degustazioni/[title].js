@@ -239,8 +239,6 @@ export async function getStaticProps(context) {
   }
   let targetObj = obj?.degustazioni?.singleDeg?.[params?.title];
 
-  console.log(targetObj);
-
   return {
     props: {
       deg: targetObj,

@@ -25,7 +25,6 @@ const Mobile = ({ translation }) => {
 
   const handleOpen = () => {
     setOpen(!open);
-    console.log(open);
   };
   return (
     <div className="flex items-center">

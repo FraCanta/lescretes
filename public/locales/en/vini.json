@@ -167,7 +167,42 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento di 18 mesi in barrique di rovere francese da 300L al 50% nuove e  al 50% di secondo passaggio. Affinamento in bottiglia di 12 mesi.",
         "servizioTitle": "Servire a:",
-        "servizio": "16/18 °C"
+        "servizio": "16/18 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot4.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "cornalin": {
         "img": "/assets/vinirossi/cornalin.webp",
@@ -194,7 +229,42 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "3 mesi in barriques di rovere di secondo passaggio da 300L, 3 mesi di affinamento in bottiglia",
         "servizioTitle": "Servire a:",
-        "servizio": "16 °C"
+        "servizio": "16 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "lacor": {
         "img": "/assets/vinirossi/fumin_lacor.webp",
@@ -221,7 +291,42 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": " Affinamento di 12 mesi in rovere francese da 300 L usate. Affinamento in bottiglia di 36 mesi.",
         "servizioTitle": "Servire a:",
-        "servizio": "16/18 °C"
+        "servizio": "16/18 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "fumin": {
         "img": "/assets/vinirossi/fumin.webp",
@@ -248,7 +353,42 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento di 12 mesi in rovere francese da 300 L. Affinamento in bottiglia di 6 mesi",
         "servizioTitle": "Servire a:",
-        "servizio": "16/18 °C"
+        "servizio": "16/18 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "monrouge": {
         "img": "/assets/vinirossi/monrouge.webp",
@@ -275,7 +415,42 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento di 6 mesi in acciaio inox",
         "servizioTitle": "Servire a:",
-        "servizio": "15/17 °C"
+        "servizio": "15/17 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "nebbiolo": {
         "img": "/assets/vinirossi/nebbiolo.webp",
@@ -302,7 +477,42 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento di 12 mesi in rovere francese da 25Hl. Affinamento in bottiglia di 1 anno. ",
         "servizioTitle": "Servire a:",
-        "servizio": "16/18 °C"
+        "servizio": "16/18 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "pinot": {
         "img": "/assets/vinirossi/pinot_nero.webp",
@@ -329,7 +539,42 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento di 18 mesi in tonneaux da 700 L usati. Imbottigliamento senza filtrazione e stabilizzazione. Affina in bottiglia di 18 mesi",
         "servizioTitle": "Servire a:",
-        "servizio": "14/16 °C"
+        "servizio": "14/16 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "revei": {
         "img": "/assets/vinirossi/pinot_revei.webp",
@@ -356,7 +601,42 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento di 18 mesi in tonneaux da 700 L usati. Imbottigliamento senza filtrazione e stabilizzazione. Affina in bottiglia di 18 mesi",
         "servizioTitle": "Servire a:",
-        "servizio": "14/16 °C"
+        "servizio": "14/16 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "sabla": {
         "img": "/assets/vinirossi/sabla.webp",
@@ -383,7 +663,42 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento in acciaio inox di 8 mesi. Affinamento in bottiglia di 5 mes",
         "servizioTitle": "Servire a:",
-        "servizio": "14/16 °C"
+        "servizio": "14/16 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "syrah": {
         "img": "/assets/vinirossi/syrah.webp",
@@ -410,7 +725,42 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento di 12 mesi in barriques di rovere francese da 300 l. Affinamento in bottiglia di 6 mesi",
         "servizioTitle": "Servire a:",
-        "servizio": "16/18 °C"
+        "servizio": "16/18 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "torrettesup": {
         "img": "/assets/vinirossi/torrette_sup.webp",
@@ -437,7 +787,42 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento  in  acciaio inox di 8 mesi. Affinamento in bottiglia di 6 mesi",
         "servizioTitle": "Servire a:",
-        "servizio": "16/18 °C"
+        "servizio": "16/18 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "torrette": {
         "img": "/assets/vinirossi/torrette.webp",
@@ -464,11 +849,48 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento in acciaio inox di 6 mesi. Affinamento in bottiglia di 2 mesi",
         "servizioTitle": "Servire a:",
-        "servizio": "16/18 °C"
+        "servizio": "16/18 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "chardonnaycb": {
         "img": "/assets/vinibianchi/chardonnay_cb.webp",
         "name": "Chardonnay Cuvée Bois Valle d’Aosta D.O.P.",
+        "link": "/vini/bianchi/chardonnaycb",
+
         "title": "chardonnaycb",
         "cat": "bianchi",
         "denominazioneTitle": "Denominazione:",
@@ -490,12 +912,48 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "affinamento “sur lies” di 12 mesi, con bâtonnages settimanali. Barriques utilizzate al 50% nuove e al 50% di secondo passaggio. Affinamento in bottiglia di 12 mesi",
         "servizioTitle": "Servire a:",
-        "servizio": "13/15 °C"
+        "servizio": "13/15 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "chardonnay": {
         "img": "/assets/vinibianchi/chardonnay.webp",
         "name": "Chardonnay Valle d’Aosta D.O.P.",
         "title": "chardonnay",
+        "link": "/vini/bianchi/chardonnay",
         "cat": "bianchi",
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
@@ -516,13 +974,49 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento “sur lies” di 3 mesi",
         "servizioTitle": "Servire a:",
-        "servizio": "10/12 °C"
+        "servizio": "10/12 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "monblanc": {
         "img": "/assets/vinibianchi/mon_blanc.webp",
         "name": "Mon Blanc – Vino bianco",
         "title": "monblanc",
         "cat": "bianchi",
+        "link": "/vini/bianchi/monblanc",
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
@@ -542,13 +1036,49 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento “sur lies” di 3 mesi",
         "servizioTitle": "Servire a:",
-        "servizio": "8/10 °C"
+        "servizio": "8/10 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "neige": {
         "img": "/assets/vinibianchi/neige.webp",
         "name": "Neige d’Or Valle d’Aosta D.O.P.",
         "title": "neige",
         "cat": "bianchi",
+        "link": "/vini/bianchi/neige",
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
@@ -568,13 +1098,50 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento “sur lies” di 12 mesi e affinamento in bottiglia di 18 mes",
         "servizioTitle": "Servire a:",
-        "servizio": "8/10 °C"
+        "servizio": "8/10 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "petitearvine": {
         "img": "/assets/vinibianchi/petite_arvine.webp",
         "name": "Petite Arvine Valle d’Aosta D.O.P.",
         "title": "petitearvine",
         "cat": "bianchi",
+        "link": "/vini/bianchi/petitearvine",
+
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
@@ -594,13 +1161,50 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento “sur lies” di 2 mesi",
         "servizioTitle": "Servire a:",
-        "servizio": "8/10 °C"
+        "servizio": "8/10 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "petitefleur": {
         "img": "/assets/vinibianchi/petite_fleur.webp",
         "name": "Fleur – Petite Arvine Valle d’Aosta D.O.P.",
         "title": "petitefleur",
         "cat": "bianchi",
+        "link": "/vini/bianchi/petitefleur",
+
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
@@ -620,13 +1224,50 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento “sur lies” di 9 mesi",
         "servizioTitle": "Servire a:",
-        "servizio": "10/12 °C"
+        "servizio": "10/12 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "pinotgris": {
         "img": "/assets/vinibianchi/pinot_grigio.webp",
         "name": "Pinot Gris Brulant Valle d’Aosta D.O.P.",
         "title": "pinotgris",
         "cat": "bianchi",
+        "link": "/vini/bianchi/pinotgris",
+
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
@@ -646,13 +1287,49 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affina “sur lies” di 9  mesi con bâtonnages giornalieri, 4 mesi di affinamento in bottiglia",
         "servizioTitle": "Servire a:",
-        "servizio": "8/10 °C"
+        "servizio": "8/10 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "rose": {
         "img": "/assets/vinirose/rose.webp",
         "name": "Rosé Valle d’Aosta D.O.P.",
         "title": "rose",
         "cat": "rose",
+        "link": "/vini/rose/rose",
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
@@ -672,13 +1349,49 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento “sur lies” di 2 mesi",
         "servizioTitle": "Servire a:",
-        "servizio": "10/12 °C"
+        "servizio": "10/12 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "dore": {
         "img": "/assets/vinidessert/dorè.webp",
         "name": "Doré – Vino da Uve Stramature",
         "title": "dore",
         "cat": "vinidessert",
+        "link": "/vini/vinidessert/dore",
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
@@ -698,7 +1411,42 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": " Affinamento “sur lies” di 6 mesi. Affinamento in bottiglia di 6 mesi",
         "servizioTitle": "Servire a:",
-        "servizio": "10/12 °C"
+        "servizio": "10/12 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "neblu": {
         "img": "/assets/vinidessert/neblu.webp",
@@ -706,6 +1454,8 @@
         "title": "neblu",
         "cat": "vinidessert",
         "denominazioneTitle": "Denominazione:",
+        "link": "/vini/vinidessert/neblu",
+
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
         "vitigni": "Rosé, varietà internazionale a bacca nera 60%, Neblu 40% (varietà autoctona a bacca nera)",
@@ -724,13 +1474,50 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": " Spumantizzazione con Metodo Classico e affinamento “sur lies” di 30 mesi",
         "servizioTitle": "Servire a:",
-        "servizio": " 6/8 °C"
+        "servizio": " 6/8 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "reban": {
         "img": "/assets/vinidessert/reban.webp",
         "name": "Rebàn Metodo Classico Pas Dosé",
         "title": "reban",
         "cat": "vinidessert",
+        "link": "/vini/vinidessert/reban",
+
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
@@ -750,7 +1537,42 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Spumantizzazione con Metodo classico, 9 mesi in acciaio “sur lies”. Sosta 42 mesi sui lieviti, prodotto millesimato e non dosato",
         "servizioTitle": "Servire a:",
-        "servizio": " 4/6 °C"
+        "servizio": " 4/6 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       }
     }
   }

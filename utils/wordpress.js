@@ -140,7 +140,6 @@ export async function getUsers() {
     revalidate: 900,
   });
   const users = await userRes.json();
-  // console.log(users)
   return users;
 }
 
