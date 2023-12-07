@@ -32,8 +32,7 @@ const SingleWine = ({ wine, others }) => {
 
         <meta
           property="og:image"
-          // content={`https://lescretes-liard.vercel.app${wine.img}`}
-          content="https://lescretes-liard.vercel.app/assets/provaog.png"
+          content={`https://lescretes-liard.vercel.app${wine.img}`}
         />
       </Head>
       <div className="min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_60px)] fxl:min-h-[calc(100vh_-_100px)] w-full h-full relative grid grid-cols-1 xl:grid-cols-2">
