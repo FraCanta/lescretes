@@ -305,8 +305,6 @@ export async function getStaticProps(locale, context) {
       break;
   }
 
-  console.log(obj);
-
   return {
     props: {
       translation: obj?.cosmesi,

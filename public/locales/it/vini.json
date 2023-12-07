@@ -167,7 +167,42 @@
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento di 18 mesi in barrique di rovere francese da 300L al 50% nuove e  al 50% di secondo passaggio. Affinamento in bottiglia di 12 mesi.",
         "servizioTitle": "Servire a:",
-        "servizio": "16/18 °C"
+        "servizio": "16/18 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/merlot1.webp",
+                "/assets/galleryWines/merlot2.webp",
+                "/assets/galleryWines/merlot3.webp"
+              ]
+            }
+          }
+        ]
       },
       "cornalin": {
         "img": "/assets/vinirossi/cornalin.webp",

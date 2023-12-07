@@ -14,6 +14,7 @@
     "next": "14.0.1",
     "next-compose-plugins": "^2.2.1",
     "next-share": "^0.27.0",
+    "photoswipe": "^5.4.3",
     "react": "^18",
     "react-dom": "^18",
     "react-international-phone": "^4.0.4",

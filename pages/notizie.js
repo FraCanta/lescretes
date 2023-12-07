@@ -3,7 +3,6 @@ import Image from "next/image";
 import React from "react";
 
 const Notizie = ({ post }) => {
-  console.log(post?.["_embedded"]?.["wp:featuredmedia"][0]);
   return (
     <div className="w-[90%] mx-auto min-h-screen grid grid-cols-4 gap-8 py-20">
       {post?.map((p, index) => {

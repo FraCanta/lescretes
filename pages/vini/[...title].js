@@ -17,14 +17,9 @@ import Servizio from "@/public/assets/iconewine/servizio.svg";
 import Vini from "../vini";
 import Tabs from "@/components/TabsWines/Tabs";
 import TabWine from "@/components/TabWine/TabWine";
-const tabs = [
-  { title: "Tab 1", content: "Contenuto del Tab 1" },
-  { title: "Tab 2", content: "Contenuto del Tab 2" },
-  { title: "Tab 3", content: "Contenuto del Tab 3" },
-  { title: "Tab 4", content: "Contenuto del Tab 4" },
-];
 
 const SingleWine = ({ wine }) => {
+  console.log(wine);
   return (
     <>
       <Head>
@@ -147,10 +142,9 @@ const SingleWine = ({ wine }) => {
             </div>
           </div>
         </div>
-        <div className="w-[90%] mx-auto">
-          <TabWine tabs={tabs} />
-          <div className="mt-4">{tabs?.content}</div>
-        </div>
+      </div>
+      <div className="w-[90%] mx-auto">
+        <TabWine tabs={wine.tabs} />
       </div>
     </>
   );
