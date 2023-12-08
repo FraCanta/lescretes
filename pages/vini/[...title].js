@@ -14,8 +14,7 @@ import Vinificazione from "@/public/assets/iconewine/vinificazione.svg";
 import Zona from "@/public/assets/iconewine/zona.svg";
 import Affinamento from "@/public/assets/iconewine/affinamento.svg";
 import Servizio from "@/public/assets/iconewine/servizio.svg";
-import Vini from "../vini";
-import Tabs from "@/components/TabsWines/Tabs";
+import { motion } from "framer-motion";
 import TabWine from "@/components/TabWine/TabWine";
 import Link from "next/link";
 import {
@@ -28,13 +27,14 @@ const SingleWine = ({ wine, others }) => {
   return (
     <>
       <Head>
-        <title>{`Les Cretes - ${wine?.name}`}</title>
+        <title>{`Les Crêtes  - vini ${wine.cat} / ${wine?.name}`}</title>
 
         <meta
           property="og:image"
           content={`https://lescretes-liard.vercel.app${wine.img}`}
         />
       </Head>
+
       <div className="min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_60px)] fxl:min-h-[calc(100vh_-_100px)] w-full h-full relative grid grid-cols-1 xl:grid-cols-2">
         <div className="flex items-center justify-center relative bg-pattern min-h-[calc(100vh_-_70px)] xl:h-[calc(100vh_-_60px)]">
           <Image src={wine.img} alt="" fill className="object-contain p-8" />
@@ -195,10 +195,12 @@ const SingleWine = ({ wine, others }) => {
           </div>
         </div>
       </div>
+
       <div className="w-[90%] mx-auto pb-10">
         <h2 className="text-main text-[40px] font-bold mb-10">
           Ti potrebbe anche interessare
         </h2>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {others.map((otherWine) => (
             <div key={otherWine.name} className="flex flex-col items-center">
@@ -215,7 +217,7 @@ const SingleWine = ({ wine, others }) => {
                     width={100}
                     height={100}
                   />
-                  <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[16px] font-bold  leading-snug">
+                  <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[15.5px] font-bold  leading-snug">
                     {otherWine.name}{" "}
                   </p>
                 </div>

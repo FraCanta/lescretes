@@ -30,7 +30,7 @@ const SingleDeg = ({ deg }) => {
   return (
     <>
       <Head>
-        <title>{`Les Cretes - ${deg?.name}`}</title>
+        <title>{`Les Crêtes  - ${deg?.name}`}</title>
 
         <meta name="og:description" content={deg.descrizione.content} />
         <meta
@@ -105,7 +105,11 @@ const SingleDeg = ({ deg }) => {
         </div>
       </div>
 
-      <Drawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} />
+      <Drawer
+        isOpen={isDrawerOpen}
+        onClose={handleCloseDrawer}
+        deg={deg.name}
+      />
 
       <div className="w-[90%] mx-auto flex-col justify-start items-start gap-[34px] flex py-10">
         <h2 className=" text-main text-[25px] xl:text-4xl font-bold  flex items-center gap-2">

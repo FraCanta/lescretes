@@ -8,7 +8,7 @@ const Sections2 = () => {
   return (
     <div className="w-full min-h-screen py-[90px]  gap-[50px] flex flex-col">
       <div className="w-[90%] mx-auto flex flex-col gap-4">
-        <h2 className="text-main text-[30px] lg:text-[2.880vw] font-bold  lg:leading-[55.20px]">
+        <h2 className="text-main text-[30px] md:text-4xl lg:text-[2.880vw] font-bold  lg:leading-[55.20px]">
           Siamo storia e futuro
         </h2>
         <p className="lg:w-1/2 text-[4.5vw] md:text-[2.5vw] lg:text-[1.3vw] leading-8 lg:leading-9">
@@ -29,7 +29,7 @@ const Sections2 = () => {
             href="/storia"
             className="right-6 bottom-6 absolute justify-start items-center gap-2.5 inline-flex"
           >
-            <h3 className="text-center text-white text-[25px] font-bold  leading-[33.60px]">
+            <h3 className="text-center text-white text-[25px] md:text-4xl font-bold  leading-[33.60px]">
               La nostra famiglia
             </h3>
             <svg
@@ -49,7 +49,7 @@ const Sections2 = () => {
           </Link>
         </div>
         <div className="flex-col justify-start items-start gap-[38px] flex lg:w-1/2">
-          <div className="w-full h-[321.17px] relative">
+          <div className="w-full lg:h-[321.17px] h-[421.17px] relative">
             <Image
               src={Rifugio}
               alt=""
@@ -61,7 +61,7 @@ const Sections2 = () => {
               href="/storia"
               className="right-6 bottom-6 absolute justify-start items-center gap-2.5 inline-flex"
             >
-              <h3 className="text-white text-[25px] font-bold  leading-[33.60px]">
+              <h3 className="text-white text-[25px] md:text-4xl font-bold  leading-[33.60px]">
                 Il Rifugio
               </h3>
               <svg
@@ -80,7 +80,7 @@ const Sections2 = () => {
               </svg>
             </Link>
           </div>
-          <div className="h-[321.17px] w-full relative">
+          <div className="lg:h-[321.17px] h-[421.17px] w-full relative">
             <Image
               src={Terroir}
               alt=""
@@ -92,7 +92,7 @@ const Sections2 = () => {
               href="/storia"
               className="right-6 bottom-6 absolute justify-start items-center gap-2.5 inline-flex"
             >
-              <h3 className="text-white text-[25px] font-bold  leading-[33.60px]">
+              <h3 className="text-white text-[25px] md:text-4xl font-bold  leading-[33.60px]">
                 Il Terroir
               </h3>
               <svg

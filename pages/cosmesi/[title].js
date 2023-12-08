@@ -143,7 +143,7 @@ const SingleCosmetic = ({ cosm, others }) => {
           Ti potrebbero anche interessare
         </h2>
 
-        <div className="grid grid-cols-1 xl:grid-cols-4 gap-4 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 ">
           {others.map((el, i) => (
             <Cards img={el.img} name={el.name} button={el.button} />
           ))}

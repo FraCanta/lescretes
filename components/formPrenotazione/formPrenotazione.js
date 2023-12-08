@@ -11,58 +11,146 @@ const countries = defaultCountries.filter((country) => {
   const { iso2 } = parseCountry(country);
   return ["it", "us", "gb", "fr", "de"].includes(iso2);
 });
-const FormPrenotazione = () => {
+const FormPrenotazione = ({ deg }) => {
   const [phone, setPhone] = useState("");
+  const [inputs, setInputs] = useState({
+    // state per le inputs normali
+    name: "",
+    surname: "",
+    email: "",
+    message: "",
+    phone: "",
+  });
+  const [form, setForm] = useState("");
+  const handleChange = (e) => {
+    setInputs((prev) => ({
+      ...prev,
+      [e.target.id]: e.target.value,
+    }));
+  };
+  const onSubmitForm = async (e) => {
+    e.preventDefault();
+
+    if (
+      inputs.name &&
+      inputs.surname &&
+      inputs.message &&
+      inputs.email &&
+      inputs.phone
+    ) {
+      setForm({ state: "loading" });
+      try {
+        const res = await fetch(`api/prenotazioni`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(inputs),
+        });
+
+        const { error } = await res.json();
+
+        if (error) {
+          setForm({
+            state: "error",
+            message: error,
+          });
+          return;
+        }
+
+        setForm({
+          state: "Fatto",
+          message:
+            "Il tuo messaggio è stato inviato. Grazie per averci contattato!",
+        });
+        setInputs({
+          name: "",
+          email: "",
+          message: "",
+          surname: "",
+          phone: "",
+        });
+      } catch (error) {
+        setForm({
+          state: "Errore ",
+          message: "Qualcosa è andato storto",
+        });
+      }
+    }
+  };
 
   return (
     <div className="container mx-auto xl:my-20  bg-white">
       <div className="py-5 ">
-        <form>
+        <form onSubmit={(e) => onSubmitForm(e)}>
           <div className="grid grid-cols-2 gap-6 xl:gap-10">
             <input
+              id="name"
               type="text"
+              name="name"
+              required
+              value={inputs.name}
+              onChange={handleChange}
               className="border-b  py-2 focus:outline-none focus:border-main bg-transparent col-span-2 xl:col-span-1"
               placeholder="First Name"
             />
             <input
+              id="surname"
               type="text"
+              value={inputs.surname}
+              onChange={handleChange}
               className="border-b  py-2 focus:outline-none focus:border-main bg-transparent col-span-2 xl:col-span-1"
               placeholder="Last Name"
             />
+
             <input
-              type="email"
+              id="email"
+              data-invalid="false"
+              data-filled="false"
               className="border-b  py-2 focus:outline-none focus:border-main bg-transparent col-span-2 xl:col-span-1"
+              name="email"
               placeholder="Email"
+              type="email"
+              value={inputs.email}
+              onChange={handleChange}
+              required
             />
-            {/* <input
-              type="tel"
-              className="border-b px-4 py-2 focus:outline-none focus:border-main bg-transparent col-span-2"
-              placeholder="Phone"
-            /> */}
+
             <PhoneInput
               defaultCountry="it"
-              value={phone}
+              value={inputs.phone}
               onChange={(phone) => setPhone(phone)}
               countries={countries}
               className="!border-b  focus:outline-none focus:border-main bg-transparent !w-full col-span-2 xl:col-span-1"
             />
+
+            {/* <select
+              id="underline_select"
+              className="block py-2.5 px-2.5 w-full text-md text-main bg-second border-0 border-b-2 rounded-lg border-main/20 appearance-none font-bold  focus:outline-none focus:ring-0 focus:border-main/30 peer col-span-2"
+            >
+              <option defaultValue>{deg}</option>
+            </select> */}
             <textarea
+              id="message"
+              onChange={handleChange}
+              value={inputs.message}
               cols="10"
               rows="5"
+              required
               className="border-b py-2 focus:outline-none focus:border-main bg-transparent col-span-2"
               placeholder="Write your message..."
             ></textarea>
 
-            <div class="flex items-center">
+            {/* <div className="flex items-center">
               <input
                 id="link-checkbox"
                 type="checkbox"
                 value=""
-                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
               />
               <label
-                for="link-checkbox"
-                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300 flex items-center gap-2"
+                htmlFor="link-checkbox"
+                className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300 flex items-center gap-2"
               >
                 <Icon
                   icon="basil:present-solid"
@@ -72,14 +160,22 @@ const FormPrenotazione = () => {
                   Voglio fare un regalo
                 </span>
               </label>
-            </div>
+            </div> */}
           </div>
           <div className="mt-10 flex justify-end">
             <input
               type="submit"
-              value="Send Message"
-              className="cursor-pointer flex items-center text-lg xl:text-xl gap-2 text-main font-bold w-full max-w-max text-center  lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 border-main"
+              className="bg-main p-3 mt-4 text-white border border-main rounded-xl hover:scale-105"
             />
+            {form.state === "loading" ? (
+              <div>Invio in corso....</div>
+            ) : form.state === "error" ? (
+              <div>{form.message}</div>
+            ) : (
+              form.state === "success" && (
+                <div>Inviato correttamente, grazie per averci contattato.</div>
+              )
+            )}
           </div>
         </form>
       </div>

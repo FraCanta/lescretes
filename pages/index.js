@@ -18,7 +18,7 @@ export default function Home({ translation }) {
   return (
     <>
       <Head>
-        <title>Les Cretes</title>
+        <title>Les Crêtes </title>
         <meta
           name="description"
           content="Sono una Graphic Designer e Content Creator, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda."

@@ -27,7 +27,7 @@ const TabWine = ({ tabs }) => {
   return (
     <div className="pt-8 md:pt-20 w-full  min-h-[60vh]">
       <div
-        className="flex flex-wrap gap-[20px]  !pl-0"
+        className="flex flex-wrap gap-[40px]  !pl-0"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
@@ -40,7 +40,7 @@ const TabWine = ({ tabs }) => {
             }`}
             onClick={() => changeTab(index)}
           >
-            <p>{tab.name}</p>
+            {tab.name ? <p>{tab.name}</p> : ""}
             {activeTab === index && (
               <motion.div
                 className="line-below-tab"
@@ -67,27 +67,31 @@ const TabWine = ({ tabs }) => {
             activeTab === index ? "tabcontent" : "tabcontent hidden"
           }`}
         >
-          <div className="text-main/70 !text-base md:!text-xl md:w-[70%]">
-            {tab.content.text}
+          <div className="text-main/70 !text-base md:!text-lg md:w-[75%]">
+            {tab.content.text ? tab.content.text : ""}
           </div>
-          {tab.content.images && tab.content.images.length > 0 && (
-            <div className="image-gallery grid grid-cols-1 md:grid-cols-3 gap-4 md:w-[70%]">
-              {tab.content.images.map((image, imageIndex) => (
-                <motion.div
-                  key={imageIndex}
-                  className="cursor-pointer"
-                  onClick={() => openLightbox(imageIndex)}
-                >
-                  <Image
-                    src={image}
-                    alt={`Tab ${index + 1} Image ${imageIndex + 1}`}
-                    className="object-cover md:h-[300px] w-full"
-                    width={500}
-                    height={500}
-                  />
-                </motion.div>
-              ))}
+          {tab.content.images && tab.content.images.length > 0 ? (
+            <div className="image-gallery grid grid-cols-1 md:grid-cols-3 gap-4 md:w-[75%]">
+              {tab.content.images
+                ? tab.content.images.map((image, imageIndex) => (
+                    <motion.div
+                      key={imageIndex}
+                      className="cursor-pointer"
+                      onClick={() => openLightbox(imageIndex)}
+                    >
+                      <Image
+                        src={image}
+                        alt={`Tab ${index + 1} Image ${imageIndex + 1}`}
+                        className="object-cover md:h-[300px] w-full"
+                        width={500}
+                        height={500}
+                      />
+                    </motion.div>
+                  ))
+                : ""}
             </div>
+          ) : (
+            ""
           )}
 
           {/* Lightbox */}

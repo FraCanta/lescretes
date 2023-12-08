@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import FormPrenotazione from "../formPrenotazione/formPrenotazione";
 import { Icon } from "@iconify/react";
 
-const Drawer = ({ isOpen, onClose }) => {
+const Drawer = ({ isOpen, onClose, deg }) => {
   const controls = useAnimation();
 
   // Configurazioni per le animazioni
@@ -64,7 +64,7 @@ const Drawer = ({ isOpen, onClose }) => {
         <button onClick={onClose}>
           <Icon icon="carbon:close-filled" className="text-main w-6 h-6 " />{" "}
         </button>
-        <FormPrenotazione />
+        <FormPrenotazione deg={deg} />
       </motion.div>
     </>
   );

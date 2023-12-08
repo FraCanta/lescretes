@@ -34,7 +34,7 @@ const Sections3 = () => {
           </div>
         </div>
       </div>
-      <div className="w-[90%] lg:w-[80%] mx-auto h-[450px] lg:h-[400px] fxl:h-[700px] rounded-tl-[30px] rounded-tr-[30px] degustazione"></div>
+      <div className="w-[90%] lg:w-[80%] mx-auto h-[450px] md:h-[600px] lg:h-[450px] fxl:h-[700px] rounded-tl-[30px] rounded-tr-[30px] degustazione"></div>
       <div className="w-full h-[400px] lg:h-[600px] absolute bottom-0 left-0">
         <Image
           src={Pattern}

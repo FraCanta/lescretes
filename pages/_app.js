@@ -4,7 +4,6 @@ import "@/styles/sections.css";
 import "@/styles/tabs.css";
 
 import Script from "next/script";
-import { useEffect, useState } from "react";
 import { AnimatePresence, motion, Spring } from "framer-motion";
 export default function App({ Component, pageProps, router }) {
   const transitionSpringPhysics = {
