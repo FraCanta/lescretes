@@ -10,7 +10,7 @@ export default async function mailer(req, res) {
       //   user: process.env.SMTP_USER, se vogliamo inserire le credenziali su env
       //   pass: process.env.SMTP_PASSWORD,
       user: "thalliondev@gmail.com",
-      pass: "abtryarebjkirtkh",
+      pass: "enmmngysukutunab",
     },
   });
 

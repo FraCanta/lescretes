@@ -124,12 +124,12 @@ const FormPrenotazione = ({ deg }) => {
               className="!border-b  focus:outline-none focus:border-main bg-transparent !w-full col-span-2 xl:col-span-1"
             />
 
-            {/* <select
+            <select
               id="underline_select"
               className="block py-2.5 px-2.5 w-full text-md text-main bg-second border-0 border-b-2 rounded-lg border-main/20 appearance-none font-bold  focus:outline-none focus:ring-0 focus:border-main/30 peer col-span-2"
             >
               <option defaultValue>{deg}</option>
-            </select> */}
+            </select>
             <textarea
               id="message"
               onChange={handleChange}
@@ -165,7 +165,7 @@ const FormPrenotazione = ({ deg }) => {
           <div className="mt-10 flex justify-end">
             <input
               type="submit"
-              className="bg-main p-3 mt-4 text-white border border-main rounded-xl hover:scale-105"
+              className="bg-[#FE6847] p-3 mt-4 text-white border border-[#FE6847] rounded-xl hover:scale-105"
             />
             {form.state === "loading" ? (
               <div>Invio in corso....</div>
