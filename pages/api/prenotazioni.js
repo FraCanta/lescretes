@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 
 export default async function mailer(req, res) {
-  const { name, surname, email, message, phone } = req.body;
+  const { name, surname, email, phone, message, deg, gift } = req.body;
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
@@ -10,7 +10,7 @@ export default async function mailer(req, res) {
       //   user: process.env.SMTP_USER, se vogliamo inserire le credenziali su env
       //   pass: process.env.SMTP_PASSWORD,
       user: "thalliondev@gmail.com",
-      pass: "enmmngysukutunab",
+      pass: "abtryarebjkirtkh",
     },
   });
 
@@ -18,19 +18,20 @@ export default async function mailer(req, res) {
     await transporter.sendMail({
       from: `${email}`,
       to: ["thalliondev@gmail.com"],
-      subject: `${name}  ${surname} ti scrivo per... `,
+      subject: `${name}  ${surname} ${deg} `,
 
       html: ` 
       
 
 
 <div >
-<div style="font-size:16px; margin-top: 20px">Ho sentito parlare di te tramite ${source}.</div>
+<div style="font-size:16px; margin-top: 20px">Ho sentito parlare di te tramite ${phone}.</div>
 <div style="font-size:16px; margin-top: 20px">Sono ${name} ,</div>
 <div style="font-size:16px; padding:4px; margin-bottom:20px;">
-${message} ${phone}
+${message}
 </div>
 <div>
+${gift ? "🎁 Voglio fare un regalo" : ""}
 Referenze del contatto: 
 </div>
 

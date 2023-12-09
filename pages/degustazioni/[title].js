@@ -40,7 +40,13 @@ const SingleDeg = ({ deg }) => {
       </Head>
       <div className="min-h-[55vh] xl:min-h-[70vh] w-[90%] my-6 mx-auto flex items-center justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main before:opacity-40 before:rounded-[30px]">
         <div className="p-8 w-full h-full ">
-          <Image src={deg?.img} fill className="object-cover rounded-[30px]" />
+          <Image
+            src={deg?.img}
+            alt={deg.name}
+            fill
+            priority
+            className="object-cover rounded-[30px] h-full"
+          />
         </div>
         <div className=" flex flex-col xl:flex-row gap-4 xl:gap-0 justify-between w-[90%] translate-x-[6%]  absolute bottom-4 xl:bottom-0 left-0  xl:p-8 z-[999]">
           <h1 className="text-white text-[40px] leading-[52px] xl:text-[56px] xl:leading-[66px] font-bold">
