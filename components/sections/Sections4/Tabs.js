@@ -22,12 +22,12 @@ const Tabs = ({ tabs }) => {
   return (
     <div className="pt-10">
       {/* Tab links */}
-      <div className="flex flex-wrap gap-[20px]  !pl-0">
+      <div className="flex flex-wrap gap-[20px] !pl-0">
         {tabs.map((tab, index) => (
           <button
             key={index}
             className={
-              activeTab === index ? "tab-bordered tab-active" : "tab-bordered"
+              activeTab === index ? "tab-bordered tab-active " : "tab-bordered "
             }
             onClick={() => openCity(index)}
           >
@@ -96,15 +96,15 @@ const Tabs = ({ tabs }) => {
                   <motion.div // Usa motion.div anziché div
                     className="w-full h-[450px] fxl:h-[500px] relative"
                   >
-                    <div className="w-full h-[450px] fxl:h-[500px] left-0 top-0 absolute bg-[#F4F3EF] rounded-3xl hover:bg-main" />
+                    <div className="w-full h-[450px] fxl:h-[500px] left-0 top-0 absolute bg-[#F4F3EF] rounded-lg hover:bg-main" />
 
                     <Image
-                      className="object-contain left-20 top-[1.5rem] absolute w-[50%] h-[80%]"
+                      className="object-contain left-20 fxl:left-[6.5rem] top-[1.5rem] absolute w-[50%] h-[80%]"
                       src={content.img}
                       width={100}
                       height={100}
                     />
-                    <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[18px] md:text-[16px] font-bold  leading-snug">
+                    <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[18px] md:text-[16px] fxl:text-[22px] font-bold  leading-snug">
                       {content.name}
                     </p>
                   </motion.div>

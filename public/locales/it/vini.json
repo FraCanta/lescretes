@@ -196,13 +196,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot4.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/lemerle1.webp",
+                "/assets/galleryWines/lemerle2.webp",
+                "/assets/galleryWines/lemerle3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "cornalin": {
         "img": "/assets/vinirossi/cornalin.webp",
@@ -258,13 +259,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "lacor": {
         "img": "/assets/vinirossi/fumin_lacor.webp",
@@ -320,13 +322,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/lacor1.webp",
+                "/assets/galleryWines/lacor2.webp",
+                "/assets/galleryWines/lacor3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "fumin": {
         "img": "/assets/vinirossi/fumin.webp",
@@ -382,13 +385,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/fumin1.webp",
+                "/assets/galleryWines/fumin2.webp",
+                "/assets/galleryWines/fumin3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "monrouge": {
         "img": "/assets/vinirossi/monrouge.webp",
@@ -436,13 +440,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/lemerle1.webp",
+                "/assets/galleryWines/lemerle2.webp",
+                "/assets/galleryWines/lemerle3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "nebbiolo": {
         "img": "/assets/vinirossi/nebbiolo.webp",
@@ -498,13 +503,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/nebbiolosommet1.webp",
+                "/assets/galleryWines/nebbiolosommet2.webp",
+                "/assets/galleryWines/nebbiolosommet3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "pinot": {
         "img": "/assets/vinirossi/pinot_nero.webp",
@@ -560,13 +566,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/noir1.webp",
+                "/assets/galleryWines/noir2.webp",
+                "/assets/galleryWines/noir3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "revei": {
         "img": "/assets/vinirossi/pinot_revei.webp",
@@ -622,13 +629,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/revei1.webp",
+                "/assets/galleryWines/revei2.webp",
+                "/assets/galleryWines/revei3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "sabla": {
         "img": "/assets/vinirossi/sabla.webp",
@@ -684,13 +692,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/lasabla1.webp",
+                "/assets/galleryWines/lasabla2.webp",
+                "/assets/galleryWines/lasabla3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "syrah": {
         "img": "/assets/vinirossi/syrah.webp",
@@ -746,13 +755,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/syrah1.webp",
+                "/assets/galleryWines/syrah2.webp",
+                "/assets/galleryWines/syrah3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "torrettesup": {
         "img": "/assets/vinirossi/torrette_sup.webp",
@@ -808,13 +818,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/torrettesup1.webp",
+                "/assets/galleryWines/torrettesup1.webp",
+                "/assets/galleryWines/torrettesup1.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "torrette": {
         "img": "/assets/vinirossi/torrette.webp",
@@ -870,13 +881,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/torrettesup1.webp",
+                "/assets/galleryWines/torrettesup1.webp",
+                "/assets/galleryWines/torrettesup1.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "chardonnaycb": {
         "img": "/assets/vinibianchi/chardonnay_cb.webp",
@@ -933,13 +945,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/chardonnay_cb1.webp",
+                "/assets/galleryWines/chardonnay_cb2.webp",
+                "/assets/galleryWines/chardonnay_cb3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "chardonnay": {
         "img": "/assets/vinibianchi/chardonnay.webp",
@@ -995,13 +1008,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/chardonnay1.webp",
+                "/assets/galleryWines/chardonnay2.webp",
+                "/assets/galleryWines/chardonnay3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "monblanc": {
         "img": "/assets/vinibianchi/mon_blanc.webp",
@@ -1057,13 +1071,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/chardonnay1.webp",
+                "/assets/galleryWines/chardonnay2.webp",
+                "/assets/galleryWines/chardonnay3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "neige": {
         "img": "/assets/vinibianchi/neige.webp",
@@ -1119,13 +1134,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/neige1.webp",
+                "/assets/galleryWines/neige2.webp",
+                "/assets/galleryWines/neige3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "petitearvine": {
         "img": "/assets/vinibianchi/petite_arvine.webp",
@@ -1182,13 +1198,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/arvine1.webp",
+                "/assets/galleryWines/arvine2.webp",
+                "/assets/galleryWines/arvine3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "petitefleur": {
         "img": "/assets/vinibianchi/petite_fleur.webp",
@@ -1245,13 +1262,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/fleur1.webp",
+                "/assets/galleryWines/fleur2.webp",
+                "/assets/galleryWines/fleur3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "pinotgris": {
         "img": "/assets/vinibianchi/pinot_grigio.webp",
@@ -1308,13 +1326,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/gris1.webp",
+                "/assets/galleryWines/gris2.webp",
+                "/assets/galleryWines/gris3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "rose": {
         "img": "/assets/vinirose/rose.webp",
@@ -1370,9 +1389,9 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/rose1.webp",
+                "/assets/galleryWines/rose2.webp",
+                "/assets/galleryWines/rose3.webp"
               ]
             }
           }
@@ -1432,13 +1451,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/dore1.webp",
+                "/assets/galleryWines/dore2.webp",
+                "/assets/galleryWines/dore3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "neblu": {
         "img": "/assets/vinidessert/neblu.webp",
@@ -1495,13 +1515,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/neblu1.webp",
+                "/assets/galleryWines/neblu2.webp",
+                "/assets/galleryWines/neblu3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "reban": {
         "img": "/assets/vinidessert/reban.webp",
@@ -1558,13 +1579,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/reban1.webp",
+                "/assets/galleryWines/reban2.webp",
+                "/assets/galleryWines/reban3.webp"
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       }
     }
   }

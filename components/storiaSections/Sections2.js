@@ -15,11 +15,7 @@ const Sections2 = () => {
       </div>
 
       <div className="w-full xl:w-[50%] h-[100vh] xl:h-full relative ">
-        <Image
-          className="h-full object-cover xl:rounded-[30px]"
-          fill
-          src={Babbo}
-        />
+        <Image className="h-full object-cover xl:rounded-lg" fill src={Babbo} />
       </div>
       <div className="w-full xl:w-[25%] h-[70vh] xl:h-[50vh] relative">
         <Image className="h-full object-cover object-left" fill src={Coto} />

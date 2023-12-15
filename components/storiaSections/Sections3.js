@@ -35,7 +35,7 @@ const Sections3 = () => {
         </h3>
         <div className="relative h-[50vh] xl:h-[70vh] w-full">
           <Image
-            className="w-full  rounded-[30px] object-cover object-top"
+            className="w-full  rounded-lg object-cover object-top"
             fill
             src={View}
           />

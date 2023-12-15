@@ -5,8 +5,8 @@ import Eco from "@/public/assets/eco.png";
 const Sections5 = () => {
   return (
     <>
-      <div className="w-[90%] mx-auto h-full relative grid grid-cols-1 2xl:grid-cols-2 py-[48px] 2xl:py-0 gap-10 2xl:gap-0">
-        <div className="flex flex-col h-full justify-between gap-8 ">
+      <div className="min-h-screen   flex flex-col xl:flex-row">
+        <div className="w-full xl:w-1/2 min-h-screen 2xl:h-full flex flex-col gap-6 p-8 2xl:gap-14 2xl:p-20 fxl:gap-24 justify-center   relative">
           <div className="flex flex-col gap-2">
             <div className="bg-white h-[50px] w-[50px] rounded-full flex items-center justify-center ">
               <svg
@@ -48,10 +48,10 @@ const Sections5 = () => {
                 />
               </svg>
             </div>
-            <h3 className="text-[25px] 2xl:text-[40px] text-white font-black">
+            <h3 className="text-[25px] lg:text-[40px] fxl:text-[50px] text-white font-black">
               Sostenibilità
             </h3>
-            <p className="text-[16px] lg:text-[20px] text-white font-medium w-full 2xl:w-[60%]">
+            <p className="text-[16px] lg:text-[20px] fxl:text-[28px] text-white font-medium w-full lg:w-[80%] 2xl:w-[60%]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
               sem leo.{" "}
             </p>
@@ -73,30 +73,30 @@ const Sections5 = () => {
                 />
               </svg>
             </div>
-            <h3 className="text-[25px] 2xl:text-[40px] text-white font-black">
+            <h3 className="text-[25px] lg:text-[40px] fxl:text-[50px] text-white font-black">
               Impegno
             </h3>
-            <p className="text-[16px] 2xl:text-[20px] text-white font-medium w-full 2xl:w-[60%]">
+            <p className="text-[16px] lg:text-[20px] fxl:text-[28px] text-white font-medium w-full lg:w-[80%] 2xl:w-[60%]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
               sem leo.{" "}
             </p>
           </div>{" "}
+          <div className="w-full h-[150px] lg:h-[350px] absolute bottom-0 left-0">
+            <Image
+              src={Pattern}
+              fill
+              className="object-cover opacity-10  mix-blend-luminosity"
+            />
+          </div>
         </div>
-        <div className="w-full h-[350px] 2xl:h-[500px] relative z-[999]">
+        <div className="w-full  h-screen 2xl:h-full ">
           <Image
+            className="w-full h-full object-cover"
+            width={500}
+            height={500}
             src={Eco}
-            alt=""
-            fill
-            className="object-cover rounded-[30px]"
           />
         </div>
-      </div>
-      <div className="w-full h-[350px] lg:h-[300px] fxl:h-[350px] absolute bottom-0  2xl:-left-[420px]">
-        <Image
-          src={Pattern}
-          fill
-          className="w-full object-cover 2xl:object-contain opacity-10 object-left mix-blend-luminosity "
-        />
       </div>
     </>
   );

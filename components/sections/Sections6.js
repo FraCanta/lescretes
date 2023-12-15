@@ -6,12 +6,12 @@ import Cosmesi from "@/public/assets/cosmesi.jpg";
 
 const Sections6 = () => {
   return (
-    <div className="min-h-screen xl:h-[40vh]  flex flex-col xl:flex-row">
-      <div className="w-full xl:w-1/2 min-h-screen 2xl:h-full flex flex-col gap-6 p-8 2xl:gap-14 2xl:p-20 justify-center   relative">
-        <h2 className="w-full  text-white text-[40px] 2xl:text-[64px] font-bold leading-[55.37px]">
+    <div className="min-h-screen grid grid-cols-1 lg:grid-cols-2">
+      <div className="w-full  min-h-screen 2xl:h-full flex flex-col gap-6 p-8 2xl:gap-14 2xl:p-20 justify-center   relative">
+        <h2 className="w-full  text-white text-[40px] 2xl:text-[64px] fxl:text-[80px] font-bold leading-[55.37px]">
           Non solo Vino
         </h2>
-        <div className="w-full  text-white 2xl:text-[21.67px] font-normal  leading-9">
+        <div className="w-full  text-white 2xl:text-[21.67px] fxl:text-[28px] font-normal  leading-9">
           Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
           phasellus mollis sit aliquam sit nullam.
         </div>
@@ -31,7 +31,7 @@ const Sections6 = () => {
           />
         </div>
       </div>
-      <div className="w-full xl:w-1/2 h-screen 2xl:h-full ">
+      <div className="w-full  h-screen 2xl:h-full ">
         <Image
           className="w-full h-full object-cover"
           width={500}

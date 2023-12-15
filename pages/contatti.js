@@ -3,7 +3,7 @@ import React from "react";
 const Contatti = () => {
   return (
     <div className="w-[90%] mx-auto">
-      <iframe
+      {/* <iframe
         src="https://my.atlist.com/map/bbe0b840-43b7-4547-b089-6bbdfff6d763?share=true"
         allow="geolocation 'self' https://my.atlist.com"
         width="100%"
@@ -12,7 +12,7 @@ const Contatti = () => {
         frameBorder="0"
         scrolling="no"
         allowFullScreen
-      ></iframe>
+      ></iframe> */}
     </div>
   );
 };
