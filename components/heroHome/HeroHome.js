@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Degustazioni from "@/public/assets/degustazioni.png";
+import Degustazioni from "@/public/assets/degustazioni2.png";
 const HeroHome = () => {
   return (
     <>
