@@ -1,7 +1,7 @@
 {
   "vini": {
     "hero": {
-      "title": "Les Crêtes Wines: Passion, Tradition, and Innovation in the Mountains",
+      "title": "Les Vins de Les Crêtes : Passion, Tradition et Innovation dans les Montagnes",
       "img": "/assets/union.png"
     },
     "tabs": [
@@ -202,7 +202,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "cornalin": {
         "img": "/assets/vinirossi/cornalin.webp",
@@ -264,7 +265,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "lacor": {
         "img": "/assets/vinirossi/fumin_lacor.webp",
@@ -326,7 +328,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "fumin": {
         "img": "/assets/vinirossi/fumin.webp",
@@ -388,7 +391,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "monrouge": {
         "img": "/assets/vinirossi/monrouge.webp",
@@ -450,7 +454,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "nebbiolo": {
         "img": "/assets/vinirossi/nebbiolo.webp",
@@ -512,7 +517,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "pinot": {
         "img": "/assets/vinirossi/pinot_nero.webp",
@@ -574,7 +580,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "revei": {
         "img": "/assets/vinirossi/pinot_revei.webp",
@@ -636,7 +643,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "sabla": {
         "img": "/assets/vinirossi/sabla.webp",
@@ -698,7 +706,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "syrah": {
         "img": "/assets/vinirossi/syrah.webp",
@@ -760,7 +769,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "torrettesup": {
         "img": "/assets/vinirossi/torrette_sup.webp",
@@ -822,7 +832,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "torrette": {
         "img": "/assets/vinirossi/torrette.webp",
@@ -884,7 +895,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "chardonnaycb": {
         "img": "/assets/vinibianchi/chardonnay_cb.webp",
@@ -947,7 +959,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "chardonnay": {
         "img": "/assets/vinibianchi/chardonnay.webp",
@@ -1009,7 +1022,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "monblanc": {
         "img": "/assets/vinibianchi/mon_blanc.webp",
@@ -1071,7 +1085,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "neige": {
         "img": "/assets/vinibianchi/neige.webp",
@@ -1133,7 +1148,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "petitearvine": {
         "img": "/assets/vinibianchi/petite_arvine.webp",
@@ -1196,7 +1212,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "petitefleur": {
         "img": "/assets/vinibianchi/petite_fleur.webp",
@@ -1259,7 +1276,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "pinotgris": {
         "img": "/assets/vinibianchi/pinot_grigio.webp",
@@ -1322,7 +1340,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "rose": {
         "img": "/assets/vinirose/rose.webp",
@@ -1446,7 +1465,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "neblu": {
         "img": "/assets/vinidessert/neblu.webp",
@@ -1509,7 +1529,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       },
       "reban": {
         "img": "/assets/vinidessert/reban.webp",
@@ -1572,7 +1593,8 @@
               ]
             }
           }
-        ]
+        ],
+        "more": "Ti potrebbe anche interessare"
       }
     }
   }

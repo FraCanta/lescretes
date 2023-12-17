@@ -31,7 +31,7 @@ const Sections6 = () => {
           />
         </div>
       </div>
-      <div className="w-full  h-screen 2xl:h-full ">
+      <div className="w-full  h-screen">
         <Image
           className="w-full h-full object-cover"
           width={500}

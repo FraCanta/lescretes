@@ -6,7 +6,7 @@ const Sections5 = () => {
   return (
     <>
       <div className="min-h-screen   flex flex-col xl:flex-row">
-        <div className="w-full xl:w-1/2 min-h-screen 2xl:h-full flex flex-col gap-6 p-8 2xl:gap-14 2xl:p-20 fxl:gap-24 justify-center   relative">
+        <div className="w-full  min-h-screen 2xl:h-full flex flex-col gap-6 p-8 2xl:gap-14 2xl:p-20 fxl:gap-24 justify-center   relative">
           <div className="flex flex-col gap-2">
             <div className="bg-white h-[50px] w-[50px] rounded-full flex items-center justify-center ">
               <svg
@@ -89,11 +89,11 @@ const Sections5 = () => {
             />
           </div>
         </div>
-        <div className="w-full  h-screen 2xl:h-full ">
+        <div className="w-full  h-screen ">
           <Image
             className="w-full h-full object-cover"
             width={500}
-            height={500}
+            height={800}
             src={Eco}
           />
         </div>
