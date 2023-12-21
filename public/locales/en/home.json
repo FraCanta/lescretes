@@ -77,11 +77,7 @@
             "name": "Chardonnay",
             "link": "/vini/bianchi/chardonnay"
           },
-          {
-            "img": "/assets/vinibianchi/mon_blanc.webp",
-            "name": "Mon Blanc",
-            "link": "/vini/bianchi/monblanc"
-          },
+
           {
             "img": "/assets/vinibianchi/neige.webp",
             "name": "Neige D'Or",
@@ -101,6 +97,11 @@
             "img": "/assets/vinibianchi/pinot_grigio.webp",
             "name": "Pinot Gris Brutant",
             "link": "/vini/bianchi/pinotgris"
+          },
+          {
+            "img": "/assets/vinibianchi/mon_blanc.webp",
+            "name": "Mon Blanc",
+            "link": "/vini/bianchi/monblanc"
           }
         ]
       },

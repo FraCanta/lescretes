@@ -5,7 +5,7 @@
     },
     "cards": [
       {
-        "img": "/assets/degustazioni/tre.jpeg",
+        "img": "/assets/degustazioni/tre2.png",
         "title": "3 Wines Experience",
         "descrizione": "Fai un primo passo nel mondo Les Cretes per scoprirne la storia, il territorio, i suoi vitigni ed i vini.",
         "price": "€25,00 iva inclusa / persona",
@@ -56,7 +56,7 @@
     ],
     "singleDeg": {
       "trewines": {
-        "img": "/assets/degustazioni/tre.jpeg",
+        "img": "/assets/degustazioni/tre2.png",
         "name": "3 Wines Experience",
         "title": "trewines",
         "degustazione": {

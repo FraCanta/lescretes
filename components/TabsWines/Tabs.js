@@ -48,7 +48,7 @@ const Tabs = ({ translation }) => {
             y: activeTab === index ? 0 : 20,
             transition: { duration: 0.5 }, // Specifica la durata dell'animazione
           }}
-          className={`w-full py-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 ${
+          className={`w-full py-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 3xl:grid-cols-6 gap-4 ${
             activeTab === index ? "tabcontent" : "tabcontent hidden"
           }`}
         >
@@ -63,13 +63,13 @@ const Tabs = ({ translation }) => {
                 key={contentIndex}
               >
                 <Image
-                  className="object-contain left-20 top-[1.5rem] absolute w-[50%] h-[80%]"
+                  className="object-contain absolute top-6 left-0  w-full h-[80%]"
                   src={content.img}
                   width={100}
                   height={100}
                   alt={content.name}
                 />
-                <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[16px] font-bold  leading-snug">
+                <p className="w-full left-0 bottom-8 absolute text-center text-main text-[16px] font-bold  leading-snug">
                   {content.name}
                 </p>
               </div>

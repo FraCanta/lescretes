@@ -68,21 +68,25 @@ const Tabs = ({ tabs }) => {
             }}
             className="mySwiper"
             breakpoints={{
-              "@0.00": {
+              300: {
                 slidesPerView: 1,
-                spaceBetween: 10,
-              },
-              "@0.75": {
-                slidesPerView: 2,
                 spaceBetween: 20,
               },
-              "@1.00": {
-                slidesPerView: 3,
-                spaceBetween: 10,
+              768: {
+                slidesPerView: 1,
+                spaceBetween: 40,
               },
-              "@1.50": {
+              1024: {
                 slidesPerView: 4,
-                spaceBetween: 10,
+                spaceBetween: 20,
+              },
+              1920: {
+                slidesPerView: 3.6,
+                spaceBetween: 20,
+              },
+              2500: {
+                slidesPerView: 4.5,
+                spaceBetween: 50,
               },
             }}
           >
@@ -99,7 +103,7 @@ const Tabs = ({ tabs }) => {
                     <div className="w-full h-[450px] fxl:h-[500px] left-0 top-0 absolute bg-[#F4F3EF] rounded-lg hover:bg-main" />
 
                     <Image
-                      className="object-contain left-20 fxl:left-[6.5rem] top-[1.5rem] absolute w-[50%] h-[80%]"
+                      className="object-contain left-0 top-[1.5rem] absolute w-full h-[80%]"
                       src={content.img}
                       width={100}
                       height={100}

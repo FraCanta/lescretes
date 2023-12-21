@@ -22,11 +22,7 @@
             "name": "Fumin La Cor Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/lacor"
           },
-          {
-            "img": "/assets/vinirossi/monrouge.webp",
-            "name": "Mon Rouge® – Vino Rosso",
-            "link": "/vini/rossi/monrouge"
-          },
+
           {
             "img": "/assets/vinirossi/nebbiolo.webp",
             "name": "Nebbiolo Sommet Valle d’Aosta D.O.P.",
@@ -61,6 +57,11 @@
             "img": "/assets/vinirossi/torrette.webp",
             "name": "Torrette Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/torrette"
+          },
+          {
+            "img": "/assets/vinirossi/monrouge.webp",
+            "name": "Mon Rouge® – Vino Rosso",
+            "link": "/vini/rossi/monrouge"
           }
         ]
       },
@@ -77,11 +78,7 @@
             "name": "Chardonnay Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/chardonnay"
           },
-          {
-            "img": "/assets/vinibianchi/mon_blanc.webp",
-            "name": "Mon Blanc",
-            "link": "/vini/bianchi/monblanc"
-          },
+
           {
             "img": "/assets/vinibianchi/neige.webp",
             "name": "Neige d’Or Valle d’Aosta D.O.P.",
@@ -101,6 +98,11 @@
             "img": "/assets/vinibianchi/pinot_grigio.webp",
             "name": "Pinot Gris Brulant Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/pinotgris"
+          },
+          {
+            "img": "/assets/vinibianchi/mon_blanc.webp",
+            "name": "Mon Blanc",
+            "link": "/vini/bianchi/monblanc"
           }
         ]
       },

@@ -6,18 +6,18 @@ import Terroir from "@/public/assets/terroir.jpg";
 import Link from "next/link";
 const Sections2 = () => {
   return (
-    <div className="w-full min-h-screen py-[90px]  gap-[50px] flex flex-col">
-      <div className="w-[90%] mx-auto flex flex-col gap-4">
+    <div className="w-full min-h-screen py-[90px] 3xl:py-[10rem]  gap-[50px] flex flex-col">
+      <div className="w-[90%] mx-auto flex flex-col gap-4 3xl:gap-10">
         <h2 className="text-main text-[30px] md:text-4xl lg:text-[2.880vw] font-bold  lg:leading-[55.20px]">
           Siamo storia e futuro
         </h2>
-        <p className="lg:w-1/2 text-[4.5vw] md:text-[2.5vw] lg:text-[1.3vw] leading-8 lg:leading-9">
+        <p className="lg:w-1/2 text-[4.5vw] md:text-[2.5vw] lg:text-[1.3vw] 3xl:text-[2.25rem] 3xl:leading-[1.2] leading-8 lg:leading-9">
           Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar
           elementum tempus hac tellus libero accumsan.{" "}
         </p>
       </div>
       <div className="w-[90%] mx-auto gap-[20px] flex flex-col lg:flex-row">
-        <div className="lg:w-2/3 h-[300px] md:h-[680.75px] relative ">
+        <div className="lg:w-2/3 h-[300px] md:h-[680.75px] 3xl:h-[70vh] relative ">
           <Link href="/storia" className="">
             <Image
               src={Family}

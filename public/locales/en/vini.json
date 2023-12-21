@@ -2,7 +2,7 @@
   "vini": {
     "hero": {
       "title": "Les Vins de Les Crêtes : Passion, Tradition et Innovation dans les Montagnes",
-      "img": "/assets/union.png"
+      "img": "/assets/vini.png"
     },
     "tabs": [
       {
@@ -83,11 +83,7 @@
             "name": "Chardonnay Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/chardonnay"
           },
-          {
-            "img": "/assets/vinibianchi/mon_blanc.webp",
-            "name": "Mon Blanc – Vino bianco",
-            "link": "/vini/bianchi/monblanc"
-          },
+
           {
             "img": "/assets/vinibianchi/neige.webp",
             "name": "Neige d’Or Valle d’Aosta D.O.P.",
@@ -107,6 +103,11 @@
             "img": "/assets/vinibianchi/pinot_grigio.webp",
             "name": "Pinot Gris Brulant Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/pinotgris"
+          },
+          {
+            "img": "/assets/vinibianchi/mon_blanc.webp",
+            "name": "Mon Blanc – Vino bianco",
+            "link": "/vini/bianchi/monblanc"
           }
         ]
       },

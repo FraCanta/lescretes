@@ -7,10 +7,10 @@ const Sections3 = () => {
     <>
       <div className="w-[90%] mx-auto relative py-[50px] lg:p-[120px] z-[9999]">
         <div className="w-full h-full  flex-col justify-start items-center gap-[28.76px] inline-flex">
-          <h2 className="w-full lg:w-[55%] fxl:w-[65%] text-center text-white text-[35px] lg:text-[43.15px] fxl:text-[60px] font-bold  leading-[55.13px] fxl:leading-[65px]">
+          <h2 className="w-full lg:w-[55%] fxl:w-[65%] 3xl:text-[100px] 3xl:leading-[1.2] text-center text-white text-[35px] lg:text-[43.15px] fxl:text-[60px] font-bold  leading-[55.13px] fxl:leading-[65px]">
             A Les Crêtes sorseggi i nostri vini immerso nel relax{" "}
           </h2>
-          <p className="lg:w-[50%] text-center text-white lg:text-[21.57px] fxl:text-[28px] font-regular leading-9">
+          <p className="lg:w-[50%] text-center text-white lg:text-[21.57px] fxl:text-[28px] 3xl:text-[35px] font-regular leading-normal">
             Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
             phasellus mollis sit aliquam sit nullam.
           </p>
@@ -34,7 +34,7 @@ const Sections3 = () => {
           </div>
         </div>
       </div>
-      <div className="w-full lg:w-[100%] mx-auto h-[450px] md:h-[600px] lg:h-[500px] fxl:h-[650px]  degustazione"></div>
+      <div className="w-full lg:w-[100%] mx-auto h-[450px] md:h-[600px] lg:h-[500px] fxl:h-[650px] 3xl:h-[65vh]  degustazione"></div>
       <div className="w-full h-[400px] lg:h-[600px] fxl:h-[800px] absolute bottom-40 left-0">
         <Image
           src={Pattern}
