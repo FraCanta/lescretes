@@ -59,11 +59,11 @@ p {
   z-index: 999;
 }
 
-.hero {
+/* .hero {
   background-image: url("../public/assets/coteau.webp");
   background-size: cover;
   background-position: top;
-}
+} */
 
 .react-international-phone-country-selector-button,
 .react-international-phone-input-container .react-international-phone-input {

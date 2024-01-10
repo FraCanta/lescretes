@@ -2,7 +2,7 @@
   "cosmesi": {
     "cards": [
       {
-        "img": "/assets/cosmetici/soin_main.jpg",
+        "img": "/assets/cosmetici/mani.webp",
         "name": " Fleurs DeVin Soin Mains  ",
         "details": "Crema mani fiorita delicata",
         "button": "/cosmesi/soinmain"
@@ -52,7 +52,7 @@
     ],
     "singleCosmetic": {
       "soinmain": {
-        "img": "/assets/cosmetici/soin_main.jpg",
+        "img": "/assets/cosmetici/mani.webp",
         "name": " Fleurs DeVin Soin Mains  ",
         "ml": "50ml",
         "descrizione": [

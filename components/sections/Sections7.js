@@ -1,9 +1,6 @@
 "use client";
 
-import Image from "next/image";
 import React, { useState } from "react";
-import News from "@/public/assets/news.jpg";
-import Link from "next/link";
 const Sections7 = () => {
   const [isEditing, setIsEditing] = useState(false);
   // Stato per gestire il valore dell'input
