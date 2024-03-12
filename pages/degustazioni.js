@@ -53,7 +53,7 @@ const Degustazioni = ({ translation }) => {
           })}
         </div>
       </div>
-      <div className="w-full min-h-[60vh] md:min-h-[50vh] xl:min-h-[60vh] flex flex-col justify-center bg-second   bg-pattern">
+      <div className="w-full min-h-[70vh] md:min-h-[50vh] xl:min-h-[60vh] flex flex-col justify-center bg-second   bg-pattern">
         <div className="w-[90%] h-full  mx-auto flex flex-col gap-4 md:gap-8 justify-center ">
           <h3 className="text-main text-3xl xl:text-4xl font-bold">
             Prenota ora la tua visita o richiedi informazioni in merito alle
