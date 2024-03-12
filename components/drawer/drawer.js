@@ -61,9 +61,12 @@ const Drawer = ({ isOpen, onClose, deg }) => {
         {/* Contenuto del drawer, incluso il form */}
 
         {/* Bottone per chiudere il drawer */}
-        <button onClick={onClose}>
-          <Icon icon="carbon:close-filled" className="text-main w-6 h-6 " />{" "}
-        </button>
+        <div className="flex justify-end">
+          <button onClick={onClose}>
+            <Icon icon="carbon:close-filled" className="text-main w-6 h-6 " />{" "}
+          </button>
+        </div>
+
         <FormPrenotazione deg={deg} />
       </motion.div>
     </>

@@ -13,7 +13,7 @@
             "link": "/vini/rossi/merle"
           },
           {
-            "img": "/assets/vinirossi/cornalin.webp",
+            "img": "/assets/vinirossi/cornalin.png",
             "name": "Cornalin",
             "link": "/vini/rossi/cornalin"
           },
@@ -22,14 +22,15 @@
             "name": "Fumin La Cor",
             "link": "/vini/rossi/lacor"
           },
+
           {
-            "img": "/assets/vinirossi/monrouge.webp",
-            "name": "Mon Rouge",
-            "link": "/vini/rossi/monrouge"
+            "img": "/assets/vinirossi/nebbiolo_sommet.png",
+            "name": "Nebbiolo Sommet Valle d’Aosta D.O.P.",
+            "link": "/vini/rossi/nebbiolos"
           },
           {
-            "img": "/assets/vinirossi/nebbiolo.webp",
-            "name": "Nebbiolo Sommet Valle d’Aosta D.O.P.",
+            "img": "/assets/vinirossi/nebbiolo.png",
+            "name": "Nebbiolo Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/nebbiolo"
           },
           {
@@ -61,6 +62,11 @@
             "img": "/assets/vinirossi/torrette.webp",
             "name": "Torrette",
             "link": "/vini/rossi/torrette"
+          },
+          {
+            "img": "/assets/vinirossi/monrouge.png",
+            "name": "Mon Rouge",
+            "link": "/vini/rossi/monrouge"
           }
         ]
       },

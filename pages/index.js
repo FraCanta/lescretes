@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import HeroHome3 from "@/components/heroHome/HeroHome3";
 import homeIT from "../public/locales/it/home.json";
 import homeEN from "../public/locales/en/home.json";

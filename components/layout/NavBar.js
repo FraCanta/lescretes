@@ -3,7 +3,6 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Logo from "@/public/logo/logo.png";
-import { Icon } from "@iconify/react";
 import Mobile from "./mobile";
 const NavBar = ({ translation }) => {
   const { locale } = useRouter();

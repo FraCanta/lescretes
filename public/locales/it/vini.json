@@ -9,63 +9,69 @@
         "name": "Rossi",
         "content": [
           {
-            "img": "/assets/vinirossi/merle.webp",
+            "img": "/assets/vinirossi/merle.png",
             "name": "Merlot Le Merle Valle D'Aosta DOP",
             "link": "/vini/rossi/merle"
           },
           {
-            "img": "/assets/vinirossi/cornalin.webp",
+            "img": "/assets/vinirossi/cornalin.png",
             "name": "Cornalin Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/cornalin"
           },
           {
-            "img": "/assets/vinirossi/fumin_lacor.webp",
+            "img": "/assets/vinirossi/fumin_lacor.png",
             "name": "Fumin La Cor Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/lacor"
           },
           {
-            "img": "/assets/vinirossi/fumin.webp",
+            "img": "/assets/vinirossi/fumin.png",
             "name": "Fumin Valle d’Aosta D.O.P. ",
             "link": "/vini/rossi/fumin"
           },
 
           {
-            "img": "/assets/vinirossi/nebbiolo.webp",
+            "img": "/assets/vinirossi/nebbiolo.png",
             "name": "Nebbiolo Sommet Valle d’Aosta D.O.P.",
+            "link": "/vini/rossi/nebbiolos"
+          },
+          {
+            "img": "/assets/vinirossi/nebbiolo.png",
+            "name": "Nebbiolo Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/nebbiolo"
           },
           {
-            "img": "/assets/vinirossi/pinot_nero.webp",
+            "img": "/assets/vinirossi/pinot_nero.png",
             "name": "Pinot Noir Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/pinot"
           },
           {
-            "img": "/assets/vinirossi/pinot_revei.webp",
+            "img": "/assets/vinirossi/pinot_revei.png",
             "name": "Pinot Nero Revei Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/revei"
           },
+
           {
-            "img": "/assets/vinirossi/sabla.webp",
+            "img": "/assets/vinirossi/sabla.png",
             "name": "La Sabla® – Vino Rosso",
             "link": "/vini/rossi/sabla"
           },
           {
-            "img": "/assets/vinirossi/syrah.webp",
+            "img": "/assets/vinirossi/syrah.png",
             "name": "Syrah Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/syrah"
           },
           {
-            "img": "/assets/vinirossi/torrette_sup.webp",
+            "img": "/assets/vinirossi/torrette_sup.png",
             "name": "Torrette Superiore Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/torrettesup"
           },
           {
-            "img": "/assets/vinirossi/torrette.webp",
+            "img": "/assets/vinirossi/torrette.png",
             "name": "Torrette Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/torrette"
           },
           {
-            "img": "/assets/vinirossi/monrouge.webp",
+            "img": "/assets/vinirossi/monrouge.png",
             "name": "Mon Rouge® – Vino Rosso",
             "link": "/vini/rossi/monrouge"
           }
@@ -75,38 +81,38 @@
         "name": "Bianchi",
         "content": [
           {
-            "img": "/assets/vinibianchi/chardonnay_cb.webp",
+            "img": "/assets/vinibianchi/chardonnay_cb.png",
             "name": "Chardonnay Cuvée Bois Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/chardonnaycb"
           },
           {
-            "img": "/assets/vinibianchi/chardonnay.webp",
+            "img": "/assets/vinibianchi/chardonnay.png",
             "name": "Chardonnay Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/chardonnay"
           },
 
           {
-            "img": "/assets/vinibianchi/neige.webp",
+            "img": "/assets/vinibianchi/neige.png",
             "name": "Neige d’Or Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/neige"
           },
           {
-            "img": "/assets/vinibianchi/petite_arvine.webp",
+            "img": "/assets/vinibianchi/petite_arvine.png",
             "name": "Petite Arvine Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/petitearvine"
           },
           {
-            "img": "/assets/vinibianchi/petite_fleur.webp",
+            "img": "/assets/vinibianchi/petite_fleur.png",
             "name": "Fleur – Petite Arvine Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/petitefleur"
           },
           {
-            "img": "/assets/vinibianchi/pinot_grigio.webp",
+            "img": "/assets/vinibianchi/pinot_grigio.png",
             "name": "Pinot Gris Brulant Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/pinotgris"
           },
           {
-            "img": "/assets/vinibianchi/mon_blanc.webp",
+            "img": "/assets/vinibianchi/mon_blanc.png",
             "name": "Mon Blanc – Vino bianco",
             "link": "/vini/bianchi/monblanc"
           }
@@ -116,7 +122,7 @@
         "name": "Rosè",
         "content": [
           {
-            "img": "/assets/vinirose/rose.webp",
+            "img": "/assets/vinirose/rose.png",
             "name": "Rosé Valle d’Aosta D.O.P.",
             "link": "/vini/rose/rose"
           }
@@ -126,17 +132,17 @@
         "name": "Dessert e Bollicine",
         "content": [
           {
-            "img": "/assets/vinidessert/dorè.webp",
+            "img": "/assets/vinidessert/dorè.png",
             "name": "Doré – Vino da Uve Stramature",
             "link": "/vini/vinidessert/dore"
           },
           {
-            "img": "/assets/vinidessert/neblu.webp",
+            "img": "/assets/vinidessert/neblu.png",
             "name": "Neblù – Brut Nature Metodo Classico Rosé",
             "link": "/vini/vinidessert/neblu"
           },
           {
-            "img": "/assets/vinidessert/reban.webp",
+            "img": "/assets/vinidessert/reban.png",
             "name": "Rebàn Metodo Classico Pas Dosé",
             "link": "/vini/vinidessert/reban"
           }
@@ -145,7 +151,7 @@
     ],
     "singleWine": {
       "merle": {
-        "img": "/assets/vinirossi/merle.webp",
+        "img": "/assets/vinirossi/merle.png",
         "name": "Merlot Le Merle Valle D'Aosta DOP",
         "link": "/vini/rossi/merle",
         "title": "merle",
@@ -208,7 +214,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "cornalin": {
-        "img": "/assets/vinirossi/cornalin.webp",
+        "img": "/assets/vinirossi/cornalin.png",
         "name": "Cornalin Valle d’Aosta D.O.P.",
         "link": "/vini/rossi/cornalin",
         "title": "cornalin",
@@ -271,7 +277,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "lacor": {
-        "img": "/assets/vinirossi/fumin_lacor.webp",
+        "img": "/assets/vinirossi/fumin_lacor.png",
         "name": "Fumin La Cor Valle d’Aosta D.O.P.",
         "link": "/vini/rossi/lacor",
         "title": "lacor",
@@ -334,7 +340,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "fumin": {
-        "img": "/assets/vinirossi/fumin.webp",
+        "img": "/assets/vinirossi/fumin.png",
         "name": "Fumin Valle d’Aosta D.O.P. ",
         "link": "/vini/rossi/fumin",
         "title": "fumin",
@@ -397,7 +403,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "monrouge": {
-        "img": "/assets/vinirossi/monrouge.webp",
+        "img": "/assets/vinirossi/monrouge.png",
         "name": "Mon Rouge® – Vino Rosso",
         "link": "/vini/rossi/monrouge",
         "title": "monrouge",
@@ -452,8 +458,8 @@
         "more": "Ti potrebbe anche interessare"
       },
       "nebbiolo": {
-        "img": "/assets/vinirossi/nebbiolo.webp",
-        "name": "Nebbiolo Sommet Valle d’Aosta D.O.P.",
+        "img": "/assets/vinirossi/nebbiolo.png",
+        "name": "Nebbiolo Valle d’Aosta D.O.P.",
         "link": "/vini/rossi/nebbiolo",
         "title": "nebbiolo",
         "cat": "rossi",
@@ -514,8 +520,71 @@
         ],
         "more": "Ti potrebbe anche interessare"
       },
+      "nebbiolos": {
+        "img": "/assets/vinirossi/nebbiolo_sommet.png",
+        "name": "Nebbiolo Sommet Valle d’Aosta D.O.P.",
+        "link": "/vini/rossi/nebbiolos",
+        "title": "nebbiolos",
+        "cat": "rossi",
+        "denominazioneTitle": "Denominazione:",
+        "denominazione": "Valle d'Aosta",
+        "vitigniTitle": "Vitigni:",
+        "vitigni": " rosso, Nebbiolo 100%",
+        "tipologiaTitle": "Tipologia:",
+        "tipologia": "Nebbiolo 100%",
+        "gradazioneTitle": "Gradazione alcolica:",
+        "gradazione": "xx°",
+        "bicchiereTitle": "Tipologia di bicchiere:",
+        "bicchiere": " Grand ballon",
+        "formatoTitle": "Formati:",
+        "formato": "75cl",
+        "vinificazioneTitle": "Vinificazione:",
+        "vinificazione": "diraspatura delle uve refrigerate, fermentazione a bacca intera di 10 giorni a temperatura controllata (23 °C), con follature quotidiane",
+        "zonaTitle": "Zona di coltivazione/vigneti:",
+        "zona": "Arnad e Issogne",
+        "affinamentoTitle": "Affinamento:",
+        "affinamento": "Affinamento di 12 mesi in rovere francese da 25Hl. Affinamento in bottiglia di 1 anno. ",
+        "servizioTitle": "Servire a:",
+        "servizio": "16/18 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/nebbiolosommet1.webp",
+                "/assets/galleryWines/nebbiolosommet2.webp",
+                "/assets/galleryWines/nebbiolosommet3.webp"
+              ]
+            }
+          }
+        ],
+        "more": "Ti potrebbe anche interessare"
+      },
       "pinot": {
-        "img": "/assets/vinirossi/pinot_nero.webp",
+        "img": "/assets/vinirossi/pinot_nero.png",
         "name": "Pinot Noir Valle d’Aosta D.O.P.",
         "link": "/vini/rossi/pinot",
         "title": "pinot",
@@ -578,7 +647,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "revei": {
-        "img": "/assets/vinirossi/pinot_revei.webp",
+        "img": "/assets/vinirossi/pinot_revei.png",
         "name": "Pinot Nero Revei Valle d’Aosta D.O.P.",
         "link": "/vini/rossi/revei",
         "title": "revei",
@@ -641,7 +710,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "sabla": {
-        "img": "/assets/vinirossi/sabla.webp",
+        "img": "/assets/vinirossi/sabla.png",
         "name": "La Sabla® – Vino Rosso",
         "link": "/vini/rossi/sabla",
         "title": "sabla",
@@ -704,7 +773,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "syrah": {
-        "img": "/assets/vinirossi/syrah.webp",
+        "img": "/assets/vinirossi/syrah.png",
         "name": "Syrah Valle d’Aosta D.O.P.",
         "link": "/vini/rossi/syrah",
         "title": "syrah",
@@ -766,8 +835,71 @@
         ],
         "more": "Ti potrebbe anche interessare"
       },
+      "ofee": {
+        "img": "/assets/vinirossi/ofee.png",
+        "name": "Ofee Valle d’Aosta D.O.P.",
+        "link": "/vini/rossi/ofee",
+        "title": "ofee",
+        "cat": "rossi",
+        "denominazioneTitle": "Denominazione:",
+        "denominazione": "Valle d'Aosta",
+        "vitigniTitle": "Vitigni:",
+        "vitigni": "rosso, Syrah 100%",
+        "tipologiaTitle": "Tipologia:",
+        "tipologia": "Syrah 100%",
+        "gradazioneTitle": "Gradazione alcolica:",
+        "gradazione": "xx°",
+        "bicchiereTitle": "Tipologia di bicchiere:",
+        "bicchiere": "grand ballon",
+        "formatoTitle": "Formati:",
+        "formato": "75cl",
+        "vinificazioneTitle": "Vinificazione:",
+        "vinificazione": "diraspatura  delle  uve  refrigerate,  fermentazione  di  12  giorni  in acciaio inox a temperatura controllata (24 °C), con rimontaggi giornalieri",
+        "zonaTitle": "Zona di coltivazione/vigneti:",
+        "zona": "La Tour di Aymavilles. Età anni 16",
+        "affinamentoTitle": "Affinamento:",
+        "affinamento": "Affinamento di 12 mesi in barriques di rovere francese da 300 l. Affinamento in bottiglia di 6 mesi",
+        "servizioTitle": "Servire a:",
+        "servizio": "16/18 °C",
+        "tabs": [
+          {
+            "name": "Curiosità",
+
+            "content": {
+              "text": "Les Crêtes  cominciò a produrre il suo Syrah nel 1995 come vino da tavola perché in Valle d’Aosta non era riconosciuto come D.O.P. Nel 2007 la legislazione cambiò e da allora Les Cretes continua a produrre il suo Syrah D.O.P., rinomato per mineralità e freschezza, legate al suo carattere di montagna"
+            }
+          },
+
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": {
+              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+            }
+          },
+          {
+            "name": "Abbinamenti gastronomici",
+
+            "content": {
+              "text": "petto d’anatra all’arancio, escargot alla Parigina, tagliatelle al ragù di cinghiale"
+            }
+          },
+          {
+            "name": "Gallery",
+
+            "content": {
+              "images": [
+                "/assets/galleryWines/syrah1.webp",
+                "/assets/galleryWines/syrah2.webp",
+                "/assets/galleryWines/syrah3.webp"
+              ]
+            }
+          }
+        ],
+        "more": "Ti potrebbe anche interessare"
+      },
       "torrettesup": {
-        "img": "/assets/vinirossi/torrette_sup.webp",
+        "img": "/assets/vinirossi/torrette_sup.png",
         "name": "Torrette Superiore Valle d’Aosta D.O.P.",
         "link": "/vini/rossi/torrettesup",
         "title": "torrettesup",
@@ -830,7 +962,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "torrette": {
-        "img": "/assets/vinirossi/torrette.webp",
+        "img": "/assets/vinirossi/torrette.png",
         "name": "Torrette Valle d’Aosta D.O.P.",
         "link": "/vini/rossi/torrette",
         "title": "torrette",
@@ -893,7 +1025,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "chardonnaycb": {
-        "img": "/assets/vinibianchi/chardonnay_cb.webp",
+        "img": "/assets/vinibianchi/chardonnay_cb.png",
         "name": "Chardonnay Cuvée Bois Valle d’Aosta D.O.P.",
         "link": "/vini/bianchi/chardonnaycb",
 
@@ -957,7 +1089,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "chardonnay": {
-        "img": "/assets/vinibianchi/chardonnay.webp",
+        "img": "/assets/vinibianchi/chardonnay.png",
         "name": "Chardonnay Valle d’Aosta D.O.P.",
         "title": "chardonnay",
         "link": "/vini/bianchi/chardonnay",
@@ -1020,7 +1152,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "monblanc": {
-        "img": "/assets/vinibianchi/mon_blanc.webp",
+        "img": "/assets/vinibianchi/mon_blanc.png",
         "name": "Mon Blanc – Vino bianco",
         "title": "monblanc",
         "cat": "bianchi",
@@ -1083,7 +1215,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "neige": {
-        "img": "/assets/vinibianchi/neige.webp",
+        "img": "/assets/vinibianchi/neige.png",
         "name": "Neige d’Or Valle d’Aosta D.O.P.",
         "title": "neige",
         "cat": "bianchi",
@@ -1146,7 +1278,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "petitearvine": {
-        "img": "/assets/vinibianchi/petite_arvine.webp",
+        "img": "/assets/vinibianchi/petite_arvine.png",
         "name": "Petite Arvine Valle d’Aosta D.O.P.",
         "title": "petitearvine",
         "cat": "bianchi",
@@ -1210,7 +1342,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "petitefleur": {
-        "img": "/assets/vinibianchi/petite_fleur.webp",
+        "img": "/assets/vinibianchi/petite_fleur.png",
         "name": "Fleur – Petite Arvine Valle d’Aosta D.O.P.",
         "title": "petitefleur",
         "cat": "bianchi",
@@ -1274,7 +1406,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "pinotgris": {
-        "img": "/assets/vinibianchi/pinot_grigio.webp",
+        "img": "/assets/vinibianchi/pinot_grigio.png",
         "name": "Pinot Gris Brulant Valle d’Aosta D.O.P.",
         "title": "pinotgris",
         "cat": "bianchi",
@@ -1338,7 +1470,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "rose": {
-        "img": "/assets/vinirose/rose.webp",
+        "img": "/assets/vinirose/rose.png",
         "name": "Rosé Valle d’Aosta D.O.P.",
         "title": "rose",
         "cat": "rose",
@@ -1400,7 +1532,7 @@
         ]
       },
       "dore": {
-        "img": "/assets/vinidessert/dorè.webp",
+        "img": "/assets/vinidessert/dorè.png",
         "name": "Doré – Vino da Uve Stramature",
         "title": "dore",
         "cat": "vinidessert",
@@ -1463,7 +1595,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "neblu": {
-        "img": "/assets/vinidessert/neblu.webp",
+        "img": "/assets/vinidessert/neblu.png",
         "name": "Neblù – Brut Nature Metodo Classico Rosé",
         "title": "neblu",
         "cat": "vinidessert",
@@ -1527,7 +1659,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "reban": {
-        "img": "/assets/vinidessert/reban.webp",
+        "img": "/assets/vinidessert/reban.png",
         "name": "Rebàn Metodo Classico Pas Dosé",
         "title": "reban",
         "cat": "vinidessert",

@@ -14,7 +14,7 @@
             "link": "/vini/rossi/merle"
           },
           {
-            "img": "/assets/vinirossi/cornalin.webp",
+            "img": "/assets/vinirossi/cornalin.png",
             "name": "Cornalin Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/cornalin"
           },
@@ -29,7 +29,7 @@
             "link": "/vini/rossi/fumin"
           },
           {
-            "img": "/assets/vinirossi/monrouge.webp",
+            "img": "/assets/vinirossi/monrouge.png",
             "name": "Mon Rouge® – Vino Rosso",
             "link": "/vini/rossi/monrouge"
           },
@@ -207,7 +207,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "cornalin": {
-        "img": "/assets/vinirossi/cornalin.webp",
+        "img": "/assets/vinirossi/cornalin.png",
         "name": "Cornalin Valle d’Aosta D.O.P.",
         "link": "/vini/rossi/cornalin",
         "title": "cornalin",
@@ -396,7 +396,7 @@
         "more": "Ti potrebbe anche interessare"
       },
       "monrouge": {
-        "img": "/assets/vinirossi/monrouge.webp",
+        "img": "/assets/vinirossi/monrouge.png",
         "name": "Mon Rouge® – Vino Rosso",
         "link": "/vini/rossi/monrouge",
         "title": "monrouge",

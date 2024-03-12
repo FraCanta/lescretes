@@ -8,6 +8,7 @@ import Cards from "@/components/Cards/Cards";
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
+import FAQ from "@/components/FAQ/FAQ";
 
 const Degustazioni = ({ translation }) => {
   return (
@@ -15,7 +16,7 @@ const Degustazioni = ({ translation }) => {
       <Head>
         <title>Les Crêtes - degustazioni</title>
       </Head>
-      <div className="flex flex-col justify-center lg:flex-row items-center justify-center xl:w-[90%] mx-auto min-h-[calc(90vh_-_70px)] md:min-h-[calc(80vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
+      <div className="flex flex-col justify-center lg:flex-row items-center xl:w-[90%] mx-auto min-h-[calc(90vh_-_70px)] md:min-h-[calc(80vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
         <HeroHome />
       </div>
       <div className="w-[90%] min-h-screen flex-col justify-start items-center gap-[60px] flex mx-auto pb-10 xl:py-10">
@@ -37,7 +38,7 @@ const Degustazioni = ({ translation }) => {
             creare la tua visita personalizzata.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-4">
           {translation?.cards?.map((el, i) => {
             return (
               <Cards
@@ -52,8 +53,39 @@ const Degustazioni = ({ translation }) => {
           })}
         </div>
       </div>
+      <div className="w-full min-h-[60vh] md:min-h-[50vh] xl:min-h-[60vh] flex flex-col justify-center bg-second   bg-pattern">
+        <div className="w-[90%] h-full  mx-auto flex flex-col gap-4 md:gap-8 justify-center ">
+          <h3 className="text-main text-3xl xl:text-4xl font-bold">
+            Prenota ora la tua visita o richiedi informazioni in merito alle
+            degustazioni:
+          </h3>{" "}
+          <ul className="flex flex-col gap-4  text-main text-[18px] xl:text-[20px] font-normal leading-[33.20px]">
+            <li>
+              - al telefono{" "}
+              <a href="callto:+390165902274">+39 0165 / 90 22 74</a>
+            </li>
+            <li>
+              - all’indirizzo mail:{" "}
+              <a href="mailto:info@lescretes.it">info@lescretes.it</a>
+            </li>
+            <li>
+              - compilando il modulo di richiesta informazioni della
+              degustazione scelta
+            </li>
+          </ul>
+          <p className=" text-main text-[18px] xl:text-[20px] font-normal leading-[33.20px]">
+            Wine shop, degustazioni e visite guidate: dal Lun al Ven
+            9.00-13.00/15.00-19.00 e Sab 10.00-13.00/15.00-19.00 .{" "}
+            <strong>CHIUSO Domenica e Festivi</strong>
+          </p>
+        </div>
+      </div>
+      <div className="w-[90%] mx-auto my-[50px]">
+        <h2 className="text-6xl font-bold py-6">FAQs</h2>
+        <FAQ />
+      </div>
 
-      <div className="w-full min-h-[60vh]  grid grid-cols-1 2xl:grid-cols-2 py-[48px] 2xl:py-0 gap-10 bg-main items-center relative bg-pattern">
+      {/* <div className="w-full min-h-[60vh]  grid grid-cols-1 2xl:grid-cols-2 py-[48px] 2xl:py-0 gap-10 bg-main items-center relative bg-pattern">
         <div className="w-[90%] h-[350px] 2xl:h-[350px] relative mx-auto">
           <Image
             src={View}
@@ -76,7 +108,7 @@ const Degustazioni = ({ translation }) => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
