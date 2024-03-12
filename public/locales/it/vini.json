@@ -835,69 +835,7 @@
         ],
         "more": "Ti potrebbe anche interessare"
       },
-      "ofee": {
-        "img": "/assets/vinirossi/ofee.png",
-        "name": "Ofee Valle d’Aosta D.O.P.",
-        "link": "/vini/rossi/ofee",
-        "title": "ofee",
-        "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
-        "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
-        "vitigni": "rosso, Syrah 100%",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Syrah 100%",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "xx°",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "grand ballon",
-        "formatoTitle": "Formati:",
-        "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "diraspatura  delle  uve  refrigerate,  fermentazione  di  12  giorni  in acciaio inox a temperatura controllata (24 °C), con rimontaggi giornalieri",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "La Tour di Aymavilles. Età anni 16",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento di 12 mesi in barriques di rovere francese da 300 l. Affinamento in bottiglia di 6 mesi",
-        "servizioTitle": "Servire a:",
-        "servizio": "16/18 °C",
-        "tabs": [
-          {
-            "name": "Curiosità",
 
-            "content": {
-              "text": "Les Crêtes  cominciò a produrre il suo Syrah nel 1995 come vino da tavola perché in Valle d’Aosta non era riconosciuto come D.O.P. Nel 2007 la legislazione cambiò e da allora Les Cretes continua a produrre il suo Syrah D.O.P., rinomato per mineralità e freschezza, legate al suo carattere di montagna"
-            }
-          },
-
-          {
-            "name": "Premi e riconoscimenti",
-
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
-          },
-          {
-            "name": "Abbinamenti gastronomici",
-
-            "content": {
-              "text": "petto d’anatra all’arancio, escargot alla Parigina, tagliatelle al ragù di cinghiale"
-            }
-          },
-          {
-            "name": "Gallery",
-
-            "content": {
-              "images": [
-                "/assets/galleryWines/syrah1.webp",
-                "/assets/galleryWines/syrah2.webp",
-                "/assets/galleryWines/syrah3.webp"
-              ]
-            }
-          }
-        ],
-        "more": "Ti potrebbe anche interessare"
-      },
       "torrettesup": {
         "img": "/assets/vinirossi/torrette_sup.png",
         "name": "Torrette Superiore Valle d’Aosta D.O.P.",
