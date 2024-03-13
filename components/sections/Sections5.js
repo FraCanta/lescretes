@@ -5,8 +5,8 @@ import Eco from "@/public/assets/eco.png";
 const Sections5 = () => {
   return (
     <>
-      <div className="min-h-screen   flex flex-col xl:flex-row">
-        <div className="w-full  min-h-screen 2xl:h-full flex flex-col gap-6 p-8 2xl:gap-14 2xl:p-20 fxl:gap-24 justify-center   relative">
+      <div className="min-h-[80vh]   flex flex-col xl:flex-row">
+        <div className="w-full  h-screen 2xl:h-full flex flex-col gap-6 p-8 2xl:gap-14 2xl:p-20 fxl:gap-24 justify-center   relative">
           <div className="flex flex-col gap-2">
             <div className="bg-white h-[50px] w-[50px] rounded-full flex items-center justify-center ">
               <svg
@@ -51,9 +51,12 @@ const Sections5 = () => {
             <h3 className="text-[25px] lg:text-[40px] fxl:text-[50px] text-white font-black">
               Sostenibilità
             </h3>
-            <p className="text-[16px] lg:text-[20px] fxl:text-[28px] text-white font-medium w-full lg:w-[80%] 2xl:w-[60%]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
-              sem leo.{" "}
+            <p className="text-[16px] lg:text-[20px] fxl:text-[28px] text-white font-medium w-full lg:w-[80%] ">
+              Ci impegniamo per la sostenibilità ambientale e seguiamo le linee
+              guida europee per i trattamenti fitosanitari, privilegiando un uso
+              limitato di fitofarmaci. La nostra dedizione alla qualità e alla
+              passione per il territorio circostante sono al centro della nostra
+              filosofia.
             </p>
           </div>
           <div className="flex flex-col gap-2">
@@ -76,9 +79,13 @@ const Sections5 = () => {
             <h3 className="text-[25px] lg:text-[40px] fxl:text-[50px] text-white font-black">
               Impegno
             </h3>
-            <p className="text-[16px] lg:text-[20px] fxl:text-[28px] text-white font-medium w-full lg:w-[80%] 2xl:w-[60%]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
-              sem leo.{" "}
+            <p className="text-[16px] lg:text-[20px] fxl:text-[28px] text-white font-medium w-full lg:w-[80%] ">
+              Il principio cardine della nostra filosofia è continuare a seguire
+              i valori delle generazioni passate, valorizzando il "Terroir" con
+              fedeltà e rispetto delle tradizioni. Tuttavia, il nostro sguardo è
+              sempre rivolto al futuro dell'innovazione che ci consente di
+              esprimere appieno le potenzialità del territorio vitivinicolo di
+              montagna della Valle d'Aosta.
             </p>
           </div>{" "}
           <div className="w-full h-[150px] lg:h-[350px] absolute bottom-0 left-0">
@@ -89,11 +96,10 @@ const Sections5 = () => {
             />
           </div>
         </div>
-        <div className="w-full  h-screen ">
+        <div className="w-full  min-h-screen relative">
           <Image
-            className="w-full h-full object-cover"
-            width={500}
-            height={800}
+            className="w-full h-full object-cover object-[-600px] 2xl:object-[-300px] fxl:object-[-350px]"
+            fill
             src={Eco}
           />
         </div>

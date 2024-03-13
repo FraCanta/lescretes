@@ -8,12 +8,14 @@ const Sections2 = () => {
   return (
     <div className="w-full min-h-screen py-[90px] 3xl:py-[10rem]  gap-[50px] flex flex-col">
       <div className="w-[90%] mx-auto flex flex-col gap-4 3xl:gap-10">
-        <h2 className="text-main text-[30px] md:text-4xl lg:text-[2.880vw] font-bold  lg:leading-[55.20px]">
-          Siamo storia e futuro
+        <h2 className="text-main text-[30px] md:text-4xl lg:text-[2.880vw] font-bold leading-10  lg:leading-normal">
+          Passione e innovazione da oltre 200 anni
         </h2>
-        <p className="lg:w-1/2 text-[4.5vw] md:text-[2.5vw] lg:text-[1.3vw] 3xl:text-[2.25rem] 3xl:leading-[1.2] leading-8 lg:leading-9">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar
-          elementum tempus hac tellus libero accumsan.{" "}
+        <p className="lg:w-2/3 text-[4.5vw] md:text-[2.5vw] lg:text-[1.3vw] 3xl:text-[2.25rem] 3xl:leading-[1.2] leading-8 lg:leading-9">
+          La storia della famiglia Charrère ha inizio nel 1750 e vive ancora
+          oggi con grande rispetto delle tradizioni e dei valori tramandati nel
+          tempo. L’attenzione all’innovazione e la cura del territorio sono il
+          motore di un’azienda che mette anima e cuore nella viticoltura.
         </p>
       </div>
       <div className="w-[90%] mx-auto gap-[20px] flex flex-col lg:flex-row">
@@ -28,7 +30,7 @@ const Sections2 = () => {
             />
 
             <h3 className="text-center text-white text-[25px] md:text-3xl fxl:text-5xl font-bold  leading-[33.60px] right-6 bottom-6 absolute justify-start items-center gap-2.5 flex">
-              La nostra famiglia
+              La famiglia Charrère
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

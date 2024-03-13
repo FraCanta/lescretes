@@ -153,7 +153,7 @@ const SingleWine = ({ wine, others }) => {
       <div className="w-[90%] mx-auto py-6">
         <div className="flex flex-col xl:flex-row w-full xl:justify-between gap-10">
           <Link
-            href="/mani.pdf"
+            href={wine.download}
             download
             target="_blank"
             className="flex items-center text-lg xl:text-2xl gap-2 text-main font-bold w-full max-w-max text-center  lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 border-main"

@@ -10,7 +10,7 @@ const HeroHome3 = ({ translation }) => {
     <AnimatePresence wait>
       <motion.div
         key="heroHome3"
-        className="w-[90%] h-full flex-col justify-end items-start flex mx-auto py-20 "
+        className="w-[90%] h-full flex-col justify-end items-start flex mx-auto py-10 md:py-20 "
         style={{
           backgroundImage: 'url("/assets/coteau.webp")', // sostituisci con il percorso dell'immagine
           backgroundSize: "cover",
@@ -23,7 +23,7 @@ const HeroHome3 = ({ translation }) => {
         <AnimatePresence>
           <motion.h1
             key="h1"
-            className="w-full text-white font-bold xs:text-[45px] xs:leading-[45px] sm:text-[55px]  md:text-8xl lg:text-[40px] 2xl:text-[80px]  fxl:text-[80px] 3xl:text-[120px] px-8"
+            className="w-full text-white font-bold xs:text-[45px] xs:leading-[55px] sm:text-[55px]  md:text-8xl lg:text-[40px] 2xl:text-[80px]  fxl:text-[80px] 3xl:text-[120px] pr-10 md:pr-20 "
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}

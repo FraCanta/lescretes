@@ -7,12 +7,14 @@ const Sections3 = () => {
     <>
       <div className="w-[90%] mx-auto relative py-[50px] lg:p-[120px] z-[9999]">
         <div className="w-full h-full  flex-col justify-start items-center gap-[28.76px] inline-flex">
-          <h2 className="w-full lg:w-[55%] fxl:w-[65%] 3xl:text-[100px] 3xl:leading-[1.2] text-center text-white text-[35px] lg:text-[43.15px] fxl:text-[60px] font-bold  leading-[55.13px] fxl:leading-[65px]">
+          <h2 className="w-full lg:w-[60%] fxl:w-[65%] 3xl:text-[100px] 3xl:leading-[1.2] text-center text-white text-[30px] md:text-4xl lg:text-[2.880vw] fxl:text-[60px] font-bold  leading-10  lg:leading-normal fxl:leading-[65px]">
             A Les Crêtes sorseggi i nostri vini immerso nel relax{" "}
           </h2>
-          <p className="lg:w-[50%] text-center text-white lg:text-[21.57px] fxl:text-[28px] 3xl:text-[35px] font-regular leading-normal">
-            Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
-            phasellus mollis sit aliquam sit nullam.
+          <p className="lg:w-[60%] text-center text-white lg:text-[21.57px] fxl:text-[28px] 3xl:text-[35px] font-regular  leading-normal">
+            Entrando si potrà vivere un’esperienza sensoriale, con una zona
+            dedicata alle essenze e una biblioteca con libri della Valle d’Aosta
+            e del vino, tutto questo in un luogo in cui potersi accomodare,
+            leggere, bere un bicchiere ed osservare il panorama.
           </p>
           <div className="justify-center items-center gap-[28.76px] flex flex-col lg:flex-row w-full h-full">
             <div className="w-full lg:w-max h-full flex justify-center">

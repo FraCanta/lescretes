@@ -12,8 +12,9 @@ const Sections6 = () => {
           Non solo Vino
         </h2>
         <div className="w-full  text-white 2xl:text-[21.67px] fxl:text-[28px] font-normal  leading-9">
-          Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
-          phasellus mollis sit aliquam sit nullam.
+          DeVin propone una formula cosmetica innovativa, naturale e efficace,
+          derivata da estratti biologici delle montagne, per soddisfare le
+          esigenze di chi cerca prodotti naturali ad alte prestazioni.
         </div>
         <div className="max-w-max z-[99999]">
           <Link

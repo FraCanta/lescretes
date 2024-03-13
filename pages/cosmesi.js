@@ -23,7 +23,7 @@ const Cosmesi = ({ translation }) => {
         />
       </div>
       <div className="w-[90%] min-h-screen flex-col justify-start items-center gap-[60px] flex mx-auto py-10 ">
-        <div className="flex flex-col gap-6 md:gap-10 text-main text-[16px] md:text-[20px] font-normal md:leading-[33.20px]">
+        <div className="flex flex-col gap-8  text-main text-[18px] xl:text-[20px] font-normal leading-[33.20px]">
           <p>
             La linea cosmetica DeVin presenta la sua innovativa formula naturale
             con attivi biologici all’olio di vinaccioli, polifenoli dell’uva e
