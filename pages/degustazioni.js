@@ -9,6 +9,8 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import FAQ from "@/components/FAQ/FAQ";
+import Banner from "@/components/Banner/Banner";
+import Rif from "@/public/assets/rifugio.jpg";
 
 const Degustazioni = ({ translation }) => {
   return (
@@ -68,10 +70,7 @@ const Degustazioni = ({ translation }) => {
               - all’indirizzo mail:{" "}
               <a href="mailto:info@lescretes.it">info@lescretes.it</a>
             </li>
-            <li>
-              - compilando il modulo di richiesta informazioni della
-              degustazione scelta
-            </li>
+            <li>- compila il form sulla pagina della degustazione scelta</li>
           </ul>
           <p className=" text-main text-[18px] xl:text-[20px] font-normal leading-[33.20px]">
             Wine shop, degustazioni e visite guidate: dal Lun al Ven
@@ -85,30 +84,13 @@ const Degustazioni = ({ translation }) => {
         <FAQ />
       </div>
 
-      {/* <div className="w-full min-h-[60vh]  grid grid-cols-1 2xl:grid-cols-2 py-[48px] 2xl:py-0 gap-10 bg-main items-center relative bg-pattern">
-        <div className="w-[90%] h-[350px] 2xl:h-[350px] relative mx-auto">
-          <Image
-            src={View}
-            alt=""
-            fill
-            className="object-cover rounded-[30px]"
-          />
-        </div>
-        <div className="flex flex-col h-full justify-center gap-8 relative w-[90%] mx-auto ">
-          <div className="flex flex-col gap-6">
-            <h3 className="text-white text-[35px] xl:text-[43.22px] font-bold xl:leading-[55.22px] xl:w-[70%]">
-              La nostra forza è la cura e la passione che abbiamo per la nostra
-              terra
-            </h3>
-            <Link
-              href="/contatti"
-              className="text-center capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] text-main hover:transition-all  bg-white w-full max-w-max"
-            >
-              Scopri di più
-            </Link>
-          </div>
-        </div>
-      </div> */}
+      <Banner
+        img={Rif}
+        title="Il Rifugio del Vino: sala di degustazione emozionale"
+        paragraph="Un luogo dove l’accoglienza è di casa e dove vivere un’esperienza unica tra le montagne della Valle d'Aosta."
+        btn1="Scopri il Rifugio"
+        link1="/rifugio"
+      />
     </>
   );
 };

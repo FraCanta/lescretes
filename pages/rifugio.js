@@ -3,6 +3,9 @@ import Rif from "@/public/assets/rifugio.jpg";
 import Hero from "@/components/heroHome/Hero";
 import Head from "next/head";
 import ImageGallery from "@/components/ImageGallery/ImageGallery";
+import Banner from "@/components/Banner/Banner";
+import Deg from "@/public/assets/degustazione.png";
+
 const Rifugio = () => {
   return (
     <>
@@ -96,6 +99,18 @@ const Rifugio = () => {
         </p>
         <ImageGallery />
       </div>
+      <Banner
+        img={Deg}
+        title="Fai o regala a chi vuoi una degustazione a Les Crêtes"
+        paragraph="Regala un’esperienza unica ed originale scegliendo una
+              degustazione tra quelle disponibili sul nostro sito oppure, se hai
+              esigenze particolari, contattaci per creare il tuo regalo
+              personalizzato."
+        btn1="Prenota subito"
+        btn2="Scopri le proposte"
+        link1="/contatti"
+        link2="/degustazioni"
+      />
     </>
   );
 };

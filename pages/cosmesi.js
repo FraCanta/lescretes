@@ -7,9 +7,9 @@ import cosmesiEN from "../public/locales/en/cosmesi.json";
 import cosmesiFR from "../public/locales/fr/cosmesi.json";
 import Cards from "@/components/Cards/Cards";
 import Image from "next/image";
-import Nature from "@/public/assets/cosmetici/naturale.jpeg";
-import Notest from "@/public/assets/cosmetici/notest.jpeg";
-import Package from "@/public/assets/cosmetici/package.jpeg";
+import Nature from "@/public/assets/cosmetici/bio.jpg";
+import Notest from "@/public/assets/cosmetici/notest2.jpg";
+import Package from "@/public/assets/cosmetici/bio_pack.jpg";
 const Cosmesi = ({ translation }) => {
   return (
     <>

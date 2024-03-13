@@ -33,7 +33,7 @@ const ImageGallery = () => {
 
   return (
     <>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 w-full lg:w-[90%] mx-auto">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 w-full  mx-auto">
         {images.map((image, index) => (
           <motion.div
             key={index}

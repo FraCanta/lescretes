@@ -106,10 +106,10 @@ export default function Home({ translation }) {
               <h2 className="text-main text-[35px] leading-[36px] lg:text-[43.12px] font-bold  lg:leading-[55.10px]">
                 Dicono di noi
               </h2>
-              <p className="lg:w-[90%] text-main lg:text-[21.56px] font-normal leading-9">
+              {/* <p className="lg:w-[90%] text-main lg:text-[21.56px] font-normal leading-9">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit semper
                 dalar elementum tempus hac tellus libero accumsan.{" "}
-              </p>
+              </p> */}
             </div>
             <div className="flex items-end lg:justify-end">
               <Link

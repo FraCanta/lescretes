@@ -5,7 +5,8 @@ import viniIT from "../public/locales/it/vini.json";
 import viniEN from "../public/locales/en/vini.json";
 import viniFR from "../public/locales/fr/vini.json";
 import Head from "next/head";
-
+import Banner from "@/components/Banner/Banner";
+import Terr from "@/public/assets/terroir2.png";
 const Vini = ({ translation }) => {
   return (
     <>
@@ -21,6 +22,13 @@ const Vini = ({ translation }) => {
       <div className="w-[90%] mx-auto">
         <Tabs translation={translation?.tabs} />
       </div>
+      <Banner
+        img={Terr}
+        title="La nostra forza è la cura e la passione che abbiamo per la nostra terra"
+        paragraph="Un luogo dove l’accoglienza è di casa e dove vivere un’esperienza unica tra le montagne della Valle d'Aosta."
+        btn1="Scopri il Terroir"
+        link1="/terroir"
+      />
     </>
   );
 };
