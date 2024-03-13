@@ -50,7 +50,7 @@ const Sections2 = () => {
         </div>
         <div className="flex-col justify-start items-start gap-[20px] flex lg:w-1/2">
           <div className="w-full h-[321.17px] lg:h-full relative">
-            <Link href="/storia" className="">
+            <Link href="/rifugio" className="">
               <Image
                 src={Rifugio}
                 alt=""
@@ -79,7 +79,7 @@ const Sections2 = () => {
             </Link>
           </div>
           <div className="h-[321.17px] lg:h-full w-full relative">
-            <Link href="/storia" className="">
+            <Link href="/terroir" className="">
               <Image
                 src={Terroir}
                 alt=""

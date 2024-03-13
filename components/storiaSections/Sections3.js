@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import View from "@/public/assets/cotoView.jpg";
+import Link from "next/link";
 const Sections3 = () => {
   return (
     <div className="w-[90%]  flex-col justify-start items-start gap-[20px] xl:gap-[50px] flex mx-auto">
@@ -10,8 +11,10 @@ const Sections3 = () => {
       <div className="flex-col justify-start items-start gap-5 flex text-main text-base xl:text-[20px] font-normal leading-9">
         <p>
           L’azienda Les Crêtes produce{" "}
-          <span className="underline leading-9">i suoi vini</span> in un
-          contesto alpino, che si sviluppa ai piedi del Monte Bianco,
+          <span className="underline font-bold">
+            <Link href="/vini">i suoi vini</Link>
+          </span>{" "}
+          in un contesto alpino, che si sviluppa ai piedi del Monte Bianco,
           caratterizzato da montagne elevate, pendenze sabbiose e temperature
           rigide. Il microclima fresco, secco e ventilato è caratterizzato da
           suoli di origine morenica, drenanti e a forte componente minerale.{" "}
@@ -44,11 +47,13 @@ const Sections3 = () => {
           <p>
             La principio cardine della filosofia dell’azienda è continuare a
             seguire i valori delle generazioni passate valorizzando il{" "}
-            <span className="underline">“Terroir”</span> con fedeltà e rispetto
-            delle tradizioni. Lo sguardo, però, è sempre rivolto a quel futuro
-            di innovazione che permette di esprimere appieno le potenzialità di
-            un territorio vitivinicolo di montagna come quello valdostano. Una
-            realtà unica ed irripetibile.{" "}
+            <Link href="/terroir" className="underline font-bold">
+              “Terroir”
+            </Link>{" "}
+            con fedeltà e rispetto delle tradizioni. Lo sguardo, però, è sempre
+            rivolto a quel futuro di innovazione che permette di esprimere
+            appieno le potenzialità di un territorio vitivinicolo di montagna
+            come quello valdostano. Una realtà unica ed irripetibile.{" "}
           </p>
 
           <p>
