@@ -1,7 +1,7 @@
 {
   "vini": {
     "hero": {
-      "title": "Les Vins de Les Crêtes : Passion, Tradition et Innovation dans les Montagnes",
+      "title": "I vini di Les Crêtes : Passione, Tradizione e Innovazione sulle Montagne",
       "img": "/assets/vini.png"
     },
     "tabs": [
@@ -28,14 +28,15 @@
             "name": "Fumin Valle d’Aosta D.O.P. ",
             "link": "/vini/rossi/fumin"
           },
-          {
-            "img": "/assets/vinirossi/monrouge.png",
-            "name": "Mon Rouge® – Vino Rosso",
-            "link": "/vini/rossi/monrouge"
-          },
+
           {
             "img": "/assets/vinirossi/nebbiolo.png",
             "name": "Nebbiolo Sommet Valle d’Aosta D.O.P.",
+            "link": "/vini/rossi/nebbiolos"
+          },
+          {
+            "img": "/assets/vinirossi/nebbiolo.png",
+            "name": "Nebbiolo Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/nebbiolo"
           },
           {
@@ -48,6 +49,7 @@
             "name": "Pinot Nero Revei Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/revei"
           },
+
           {
             "img": "/assets/vinirossi/sabla.png",
             "name": "La Sabla® – Vino Rosso",
@@ -67,6 +69,11 @@
             "img": "/assets/vinirossi/torrette.png",
             "name": "Torrette Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/torrette"
+          },
+          {
+            "img": "/assets/vinirossi/monrouge.png",
+            "name": "Mon Rouge® – Vino Rosso",
+            "link": "/vini/rossi/monrouge"
           }
         ]
       },
@@ -197,14 +204,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot4.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/lemerle1.webp",
+                "/assets/galleryWines/lemerle2.webp",
+                "/assets/galleryWines/lemerle3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "cornalin": {
         "img": "/assets/vinirossi/cornalin.png",
@@ -237,7 +245,7 @@
             "name": "Curiosità",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": " Jean Nicollier, viticoltore elvetico, riprese la produzione di questo antico vitigno valdostano sotto il sinonimo Humagne Rouge. Fu poi l’Institut Agricole Régional di Aosta che, negli anni ottanta, una volta individuate, identificate e moltiplicate alcune varietà autoctone, consolidò le virtù e la coltivazione del vitigno."
             }
           },
 
@@ -252,7 +260,7 @@
             "name": "Abbinamenti gastronomici",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": "Saltimbocca alla valdostana ai profumi alpini, robiola di capra, Duché d’Aoste, tagliatelle all’uovo al ragù di lepre"
             }
           },
           {
@@ -260,14 +268,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Cornalin-Valle-dAosta-DOP-LES-CRETES.pdf"
       },
       "lacor": {
         "img": "/assets/vinirossi/fumin_lacor.png",
@@ -300,7 +309,7 @@
             "name": "Curiosità",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": "Questa riserva che nasce dal lungo affinamento del nostro autoctono Fumin, è dedicata al mulino storico di famiglia di Via Moulins che con le sue cantine ospita, dal 1700, anche La Cor. La Cor nell’architettura locale, era il cortile interno di un edificio, riservato alla produzione ed allo scambio alimentare. Questo spazio ricopriva un ruolo di grande importanza nell’economia locale dell’epoca, che non prevedeva molti scambi mercantili di tipo monetario, perché permetteva il commercio di diversi generi tramite il baratto. Il Mulino, oltre alle cantine, ricomprende due grandi macine in pietra per la spremitura dell’olio di noce, quelle per le farine e diversi attrezzi per la produzione di sidro e vino, ad oggi in ottimo stato di conservazione"
             }
           },
 
@@ -315,7 +324,7 @@
             "name": "Abbinamenti gastronomici",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": "Cacciagione, carni frollate, Ivre de Fumin"
             }
           },
           {
@@ -323,14 +332,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/lacor1.webp",
+                "/assets/galleryWines/lacor2.webp",
+                "/assets/galleryWines/lacor3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Fumin-LA-COR-Valle-dAosta-DOP-LES-CRETES.pdf"
       },
       "fumin": {
         "img": "/assets/vinirossi/fumin.png",
@@ -363,7 +373,7 @@
             "name": "Curiosità",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": " il nome Fumin deriva dal color grigio fumo dei suoi acini, ricchi di pruina. Tradizionalmente utilizzato nei tagli per l’intenso colore, rischia l’estinzione negli anni ‘70 quando, salvato dai vignerons locali, entra a far parte della Doc Valle d’Aosta. È vinificato per la prima volta in purezza da LesCretes nel 1993, rivelandosi un vino di grande eleganza, adatto al lungo affinamento in bottiglia "
             }
           },
 
@@ -378,7 +388,7 @@
             "name": "Abbinamenti gastronomici",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": "carbonada con polenta, mocetta di cervo, brasati di selvaggina"
             }
           },
           {
@@ -386,14 +396,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/fumin1.webp",
+                "/assets/galleryWines/fumin2.webp",
+                "/assets/galleryWines/fumin3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Fumin-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "monrouge": {
         "img": "/assets/vinirossi/monrouge.png",
@@ -423,14 +434,6 @@
         "servizio": "15/17 °C",
         "tabs": [
           {
-            "name": "Curiosità",
-
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
-          },
-
-          {
             "name": "Premi e riconoscimenti",
 
             "content": {
@@ -441,7 +444,7 @@
             "name": "Abbinamenti gastronomici",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": "affettati e salumi, pasta al ragù di carne, zuppe, formaggi di media stagionatura, carni rosse"
             }
           },
           {
@@ -449,14 +452,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/lemerle1.webp",
+                "/assets/galleryWines/lemerle2.webp",
+                "/assets/galleryWines/lemerle3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Mon-Rouge-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "nebbiolo": {
         "img": "/assets/vinirossi/nebbiolo.png",
@@ -512,14 +516,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/nebbiolosommet1.webp",
+                "/assets/galleryWines/nebbiolosommet2.webp",
+                "/assets/galleryWines/nebbiolosommet3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Nebbiolo-sommet-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "nebbiolos": {
         "img": "/assets/vinirossi/nebbiolo_sommet.png",
@@ -575,14 +580,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/nebbiolosommet1.webp",
+                "/assets/galleryWines/nebbiolosommet2.webp",
+                "/assets/galleryWines/nebbiolosommet3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Nebbiolo-sommet-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "pinot": {
         "img": "/assets/vinirossi/pinot_nero.png",
@@ -615,7 +621,7 @@
             "name": "Curiosità",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": "Les Crêtes , con la lavorazione del suo Pinot Nero in solo acciaio, ottiene un Pinot di montagna elegante, che si contraddistingue per il colore luminoso ed un frutto complesso e croccante "
             }
           },
 
@@ -630,7 +636,7 @@
             "name": "Abbinamenti gastronomici",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": "battuta di carne di manzo, rollè di coniglio alle olive, crespelle alla valdostana"
             }
           },
           {
@@ -638,14 +644,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/noir1.webp",
+                "/assets/galleryWines/noir2.webp",
+                "/assets/galleryWines/noir3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Pinot-nero-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "revei": {
         "img": "/assets/vinirossi/pinot_revei.png",
@@ -678,7 +685,7 @@
             "name": "Curiosità",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": "Il Pinot Nero Revei, che in patois significa orologio, è legato alla storia della torre medievale, che domina il nostro vigneto di Aymavilles e da cui nasce. La torre fu dimora di un eremita orologiaio, che con il suo mestiere, ci ha riportato al tema del tempo e del suo valore, in natura e per l’uomo. Da qui nasce il Revei, figlio di grande esperienza e lunga attesa. Nella sua creazione, il tempo gioca un ruolo fondamentale dalla maturazione, all’affinamento. Qui il tempo si dilata per ottenere, dalle uve portate a maturazione ottimale, il potenziale espressivo migliore del Pinot nero di montagna, affinato con maestria, riposa ancora a lungo nelle nostre cantine.  "
             }
           },
 
@@ -693,7 +700,7 @@
             "name": "Abbinamenti gastronomici",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": "guancia brasata di vitello, toma di Gressoney stagionata, crostini ai fegatini, risotto allo zafferano con midollo di ossobuco"
             }
           },
           {
@@ -701,14 +708,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/revei1.webp",
+                "/assets/galleryWines/revei2.webp",
+                "/assets/galleryWines/revei3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Pinot-Nero-REVEI-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "sabla": {
         "img": "/assets/vinirossi/sabla.png",
@@ -741,7 +749,7 @@
             "name": "Curiosità",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": " prodotto  dalla famiglia  Charrère  sin dal  1971, è  il  vino storico della cantina ed è oggi come allora un sapiente blend di varietà a bacca rossa, coltivate nelle vecchie vigne. La Sabla significa sabbia nel dialetto locale, proprio per  la composizione sabbiosa dei terreni."
             }
           },
 
@@ -756,7 +764,7 @@
             "name": "Abbinamenti gastronomici",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": "salame d’asino, carne alla griglia, trippa in umido, arista di maialino al latte"
             }
           },
           {
@@ -764,14 +772,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/lasabla1.webp",
+                "/assets/galleryWines/lasabla2.webp",
+                "/assets/galleryWines/lasabla3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "syrah": {
         "img": "/assets/vinirossi/syrah.png",
@@ -804,7 +813,7 @@
             "name": "Curiosità",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": "Les Crêtes  cominciò a produrre il suo Syrah nel 1995 come vino da tavola perché in Valle d’Aosta non era riconosciuto come D.O.P. Nel 2007 la legislazione cambiò e da allora Les Cretes continua a produrre il suo Syrah D.O.P., rinomato per mineralità e freschezza, legate al suo carattere di montagna"
             }
           },
 
@@ -819,7 +828,7 @@
             "name": "Abbinamenti gastronomici",
 
             "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
+              "text": "petto d’anatra all’arancio, escargot alla Parigina, tagliatelle al ragù di cinghiale"
             }
           },
           {
@@ -827,15 +836,17 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/syrah1.webp",
+                "/assets/galleryWines/syrah2.webp",
+                "/assets/galleryWines/syrah3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
+
       "torrettesup": {
         "img": "/assets/vinirossi/torrette_sup.png",
         "name": "Torrette Superiore Valle d’Aosta D.O.P.",
@@ -890,14 +901,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/torrettesup1.webp",
+                "/assets/galleryWines/torrettesup1.webp",
+                "/assets/galleryWines/torrettesup1.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "torrette": {
         "img": "/assets/vinirossi/torrette.png",
@@ -953,14 +965,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/torrettesup1.webp",
+                "/assets/galleryWines/torrettesup1.webp",
+                "/assets/galleryWines/torrettesup1.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "chardonnaycb": {
         "img": "/assets/vinibianchi/chardonnay_cb.png",
@@ -1017,14 +1030,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/chardonnay_cb1.webp",
+                "/assets/galleryWines/chardonnay_cb2.webp",
+                "/assets/galleryWines/chardonnay_cb3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "chardonnay": {
         "img": "/assets/vinibianchi/chardonnay.png",
@@ -1080,14 +1094,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/chardonnay1.webp",
+                "/assets/galleryWines/chardonnay2.webp",
+                "/assets/galleryWines/chardonnay3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "monblanc": {
         "img": "/assets/vinibianchi/mon_blanc.png",
@@ -1143,14 +1158,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/chardonnay1.webp",
+                "/assets/galleryWines/chardonnay2.webp",
+                "/assets/galleryWines/chardonnay3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "neige": {
         "img": "/assets/vinibianchi/neige.png",
@@ -1206,14 +1222,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/neige1.webp",
+                "/assets/galleryWines/neige2.webp",
+                "/assets/galleryWines/neige3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "petitearvine": {
         "img": "/assets/vinibianchi/petite_arvine.png",
@@ -1270,14 +1287,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/arvine1.webp",
+                "/assets/galleryWines/arvine2.webp",
+                "/assets/galleryWines/arvine3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "petitefleur": {
         "img": "/assets/vinibianchi/petite_fleur.png",
@@ -1334,14 +1352,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/fleur1.webp",
+                "/assets/galleryWines/fleur2.webp",
+                "/assets/galleryWines/fleur3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "pinotgris": {
         "img": "/assets/vinibianchi/pinot_grigio.png",
@@ -1398,14 +1417,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/gris1.webp",
+                "/assets/galleryWines/gris2.webp",
+                "/assets/galleryWines/gris3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "rose": {
         "img": "/assets/vinirose/rose.png",
@@ -1461,13 +1481,14 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/rose1.webp",
+                "/assets/galleryWines/rose2.webp",
+                "/assets/galleryWines/rose3.webp"
               ]
             }
           }
-        ]
+        ],
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "dore": {
         "img": "/assets/vinidessert/dorè.png",
@@ -1523,14 +1544,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/dore1.webp",
+                "/assets/galleryWines/dore2.webp",
+                "/assets/galleryWines/dore3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "neblu": {
         "img": "/assets/vinidessert/neblu.png",
@@ -1587,14 +1609,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/neblu1.webp",
+                "/assets/galleryWines/neblu2.webp",
+                "/assets/galleryWines/neblu3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       },
       "reban": {
         "img": "/assets/vinidessert/reban.png",
@@ -1651,14 +1674,15 @@
 
             "content": {
               "images": [
-                "/assets/galleryWines/merlot1.webp",
-                "/assets/galleryWines/merlot2.webp",
-                "/assets/galleryWines/merlot3.webp"
+                "/assets/galleryWines/reban1.webp",
+                "/assets/galleryWines/reban2.webp",
+                "/assets/galleryWines/reban3.webp"
               ]
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare"
+        "more": "Ti potrebbe anche interessare",
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
       }
     }
   }
