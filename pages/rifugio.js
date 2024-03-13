@@ -86,11 +86,11 @@ const Rifugio = () => {
           </ul>
         </div>
       </div>
-      <div className="flex flex-col gap-6 xl:py-20 mx-auto mt-14 w-[90%] justify-center items-center">
+      <div className="flex flex-col gap-6 xl:py-20 mx-auto my-14 w-[90%] justify-center items-center">
         <h2 className="text-main text-[35px] md:text-5xl font-bold leading-[46px] text-center">
           Uno sguardo al Rifugio
         </h2>
-        <p className=" text-main text-base md:text-[20px] font-normal leading-9 w-full md:w-[40%] mx-auto text-center">
+        <p className=" text-main text-base md:text-[20px] font-normal leading-9 w-full md:w-[80%] lg:w-[40%] mx-auto text-center">
           Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar
           elementum tempus hac tellus libero accumsan.{" "}
         </p>

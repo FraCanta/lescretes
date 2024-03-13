@@ -33,7 +33,7 @@ const ImageGallery = () => {
 
   return (
     <>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:w-[80%] mx-auto">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 w-full lg:w-[90%] mx-auto">
         {images.map((image, index) => (
           <motion.div
             key={index}
@@ -63,7 +63,7 @@ const ImageGallery = () => {
               key={selectedImage}
               src={images[selectedImage]}
               alt={`Selected Image ${selectedImage}`}
-              className="w-[300px] h-auto"
+              className="w-[250px] md:w-[400px] h-auto"
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.5 }}
