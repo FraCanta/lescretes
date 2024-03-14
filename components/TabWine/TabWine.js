@@ -101,14 +101,14 @@ const TabWine = ({ tabs }) => {
               tab.content.images[lightboxImageIndex] && (
                 <motion.div
                   key="lightbox"
-                  className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-75 flex justify-center items-center"
+                  className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-75 flex justify-center items-center z-[99] py-10"
                   onClick={closeLightbox}
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
                 >
                   <div
-                    className="fixed top-0 left-0 w-full h-full bg-main/60 z-100"
+                    className="fixed top-0 left-0 w-full h-full bg-main/60 "
                     onClick={closeLightbox}
                   ></div>
                   <Image
@@ -117,7 +117,7 @@ const TabWine = ({ tabs }) => {
                     alt={`Tab ${activeTab + 1} Image ${lightboxImageIndex + 1}`}
                     width={600}
                     height={600}
-                    className="z-[99999]"
+                    className="z-[999] "
                   />
                 </motion.div>
               )}
