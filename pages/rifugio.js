@@ -89,6 +89,32 @@ const Rifugio = () => {
           </ul>
         </div>
       </div>
+      <div className="w-[90%] mx-auto py-10">
+        <div className="flex-col justify-start items-start gap-10 flex">
+          <h2 className="text-main text-[35px] md:text-5xl font-bold leading-[46px]">
+            Business meetings
+          </h2>
+          <div className=" text-main text-base md:text-[20px] font-normal leading-9 flex flex-col gap-10">
+            <p>
+              Le cantine Les Crêtes diventano la cornice ideale per incontri
+              aziendali, convegni, conferenze stampa e molto altro. La nostra
+              nuova sala attrezzata è a disposizione di chi desideri dare un
+              tocco di originalità ad incontri di lavoro, conferenze, corsi,
+              seminari o ad altri momenti meno formali. Su richiesta
+              organizziamo coffee break, pranzi o cene, avvalendoci della
+              collaborazione di professionisti di fiducia.
+            </p>
+            <ul className="flex flex-col gap-4  text-main text-[18px] md:text-[20px] font-normal leading-[33.20px]">
+              <li>- Info e Costi: 0165 902274 – info@lescretes.it</li>
+              <li>- Allestimento catering: 60 posti a sedere</li>
+              <li>
+                - Allestimento per lezioni frontali/conferenze/stampa: 80 posti
+                a sedere
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div className="flex flex-col gap-6 xl:py-20 mx-auto my-14 w-[90%] justify-center items-center">
         <h2 className="text-main text-[35px] md:text-5xl font-bold leading-[46px] text-center">
           Uno sguardo al Rifugio

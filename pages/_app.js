@@ -2,6 +2,7 @@ import { Layout } from "@/components/layout/Layout";
 import "@/styles/globals.css";
 import "@/styles/sections.css";
 import "@/styles/tabs.css";
+import "@/styles/wordpress.css";
 
 import Script from "next/script";
 import { AnimatePresence, motion, Spring } from "framer-motion";

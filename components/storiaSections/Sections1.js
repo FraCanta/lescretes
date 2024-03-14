@@ -58,17 +58,28 @@ const Sections1 = () => {
         </h2>
         <div className=" text-main text-base xl:text-[20px] font-normal leading-9 flex flex-col gap-4">
           <p>
-            {" "}
-            Le figlie, Elena ed Eleonora, del 1977 e del 1980, avevano il
-            compito di ricercare nei prati di Ozein le coccinelle per l'azienda.
-            Queste coccinelle venivano poi trasportate con cura e rilasciate in
-            vigna, poiché utili a combattere gli acari nocivi. Questa attività
-            era più di un gioco per le bambine, ed erano divertite a osservarle.
+            Costantino, atletico professore di ginnastica, come la moglie
+            peraltro, e maestro di sci, ha continuato l’opera del papà Antoine e
+            della mamma Ida, dedicandosi con passione alla viticoltura. Dapprima
+            selezionando vitigni che altrimenti si sarebbero persi nelle
+            montagne valdostane: la Premetta (Prié Rouge), rarissimo vitigno in
+            via di estinzione, le cui uve sono ora vinificate in purezza secondo
+            un protocollo innovativo in spumante metodo classico e il Fumin,
+            altro ceppo “autoctono”, salvato dall’estinzione e vinificato con
+            risultati eclatanti, tanto da meritarsi già nel 1999 l’attenzione
+            della critica Nazionale con “Il sole di Luigi Veronelli”.
           </p>
           <p>
-            Questa scelta della famiglia Charrère non era una fiaba, ma una
-            pratica concreta che riflette l'approccio sostenibile che la
-            famiglia ha sempre avuto nella sua storia.
+            In Seguito, lasciato l’insegnamento, Costantino è spinto dal
+            desiderio di dedicarsi completamente alla sua passione per il vino e
+            realizzando quella che è ora Les Crêtes, sempre in Aymavilles,
+            impiantando nuovi vigneti anche in altri comuni della Valle d’Aosta.
+          </p>
+          <p>
+            Oggi, l’azienda, di proprietà della Famiglia Charrère, gestisce 35
+            ettari di vigneto distribuiti in sei comuni valdostani. Con la sua
+            produzione annua di 250.000 bottiglie è la più grande azienda
+            privata operativa sul territorio regionale.
           </p>
         </div>
       </div>

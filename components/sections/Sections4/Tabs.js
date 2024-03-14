@@ -108,7 +108,7 @@ const Tabs = ({ tabs }) => {
                       width={100}
                       height={100}
                     />
-                    <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[16px] fxl:text-[22px] font-bold  leading-snug">
+                    <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[16px] fxl:text-[22px] font-bold  leading-snug z-10">
                       {content.name}
                     </p>
                   </motion.div>

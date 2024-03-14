@@ -1,29 +1,48 @@
 import { getPosts } from "@/utils/wordpress";
+import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Notizie = ({ post }) => {
+  console.log(post);
   return (
-    <div className="w-[90%] mx-auto min-h-screen grid grid-cols-4 gap-8 py-20">
-      {post?.map((p, index) => {
-        const featuredMedia = p?.["_embedded"]?.["wp:featuredmedia"][0];
-        return (
-          <div key={index} className="relative">
-            <Image
-              src={
-                featuredMedia?.["media_details"]?.sizes?.full?.["source_url"]
-              }
-              className="h-[400px]  w-full object-cover"
-              fill
-            />
-            <h4
-              dangerouslySetInnerHTML={{ __html: p?.title?.rendered }}
-              className="text-[20px]"
-            ></h4>
-          </div>
-        );
-      })}
-    </div>
+    <>
+      <Head>
+        <title>Notizie e Press</title>
+      </Head>
+      <div className="w-[90%] mx-auto min-h-screen grid grid-cols-1 lg:grid-cols-3 gap-20 py-20">
+        {post?.map((p, index) => {
+          const featuredMedia =
+            p?.["_embedded"]?.["wp:featuredmedia"][0]?.["source_url"];
+          return (
+            <div key={index} className="flex flex-col gap-6 border p-2">
+              <div className="relative h-[300px]">
+                <Image
+                  src={featuredMedia}
+                  className="h-auto  w-full aspect-square object-cover"
+                  fill
+                  alt={p.title.rendered}
+                />
+              </div>
+              <Link
+                href={`/notizie/${p?.slug}`}
+                title={`${post?.title?.rendered}`}
+              >
+                <div
+                  dangerouslySetInnerHTML={{ __html: p?.title?.rendered }}
+                  className="text-[20px] text-main"
+                ></div>
+              </Link>
+              <div
+                dangerouslySetInnerHTML={{ __html: p?.excerpt?.rendered }}
+                className="text-main"
+              ></div>
+            </div>
+          );
+        })}
+      </div>
+    </>
   );
 };
 

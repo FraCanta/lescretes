@@ -29,9 +29,10 @@ const Terroir = () => {
               seguita dal Parco Regionale Mont Avic. Orograficamente è divisa in
               due dalla Dora Baltea che scorre nella valle centrale in direzione
               ovest-est, ed evidenzia due versanti, uno ombroso esposto a nord
-              detto envers nel dialetto locale, e uno assolato e arido esposto a
-              sud detto adret. Nella Valle centrale confluiscono una ventina di
-              valli laterali orientate lungo l’asse nord-sud.
+              detto <i>envers</i> nel dialetto locale, e uno assolato e arido
+              esposto a sud detto <i>adret</i>. Nella Valle centrale
+              confluiscono una ventina di valli laterali orientate lungo l’asse
+              nord-sud.
             </p>
             <p>
               La vite in questo territorio trova il suo habitat ideale sui
@@ -40,7 +41,7 @@ const Terroir = () => {
             </p>
           </div>
         </div>
-        <div className="flex-col justify-start items-start gap-10 flex">
+        {/* <div className="flex-col justify-start items-start gap-10 flex">
           <h2 className="text-main text-[35px] md:text-5xl font-bold leading-[46px]">
             Parla l’esperto: l’enologo ci spiega...
           </h2>
@@ -72,7 +73,7 @@ const Terroir = () => {
               tincidunt ante.
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="flex-col justify-start items-start gap-10 flex">
           <h2 className="text-main text-[35px] md:text-5xl font-bold leading-[46px]">
             I vini rossi

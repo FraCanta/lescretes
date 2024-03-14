@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@iconify/react": "^4.1.1",
+    "dom-parser-react": "^0.3.0",
     "framer-motion": "^10.17.12",
+    "jsdom": "^24.0.0",
     "next": "14.0.1",
     "next-compose-plugins": "^2.2.1",
     "next-share": "^0.27.0",

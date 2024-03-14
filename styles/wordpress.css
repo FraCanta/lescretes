@@ -1,0 +1,29 @@
+.pf-content h1 {
+  font-size: 40px;
+  line-height: 1.8;
+  font-weight: bold;
+}
+
+.pf-content h2 {
+  margin-bottom: 30px;
+}
+.pf-content p {
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+.pf-content a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.pf-content img {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .pf-content h1 {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+}
