@@ -36,7 +36,7 @@ const SinglePost = ({ post, recent }) => {
       <Head>
         <title>{contents}</title>
       </Head>
-      <div className="w-[90%] mx-auto my-12 flex flex-wrap gap-8">
+      <div className="w-[90%] mx-auto my-12 flex flex-col lg:flex-row gap-8">
         <div className="lg:w-[70%]">
           <h3 className="text-center text-main text-xl md:text-2xl fxl:text-3xl 3xl:text-5xl font-medium uppercase  ">
             {post?.["_embedded"]?.["wp:term"][0][0]?.name}
