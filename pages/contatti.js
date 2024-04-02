@@ -13,7 +13,7 @@ const Contatti = () => {
         <title>Les Crêtes - contatti</title>
       </Head>
       <Hero text="Come puoi contattarci e raggiungerci " img={Rifugio} />
-      <div className="w-[90%] mx-auto py-10">
+      <div className="w-[90%] mx-auto py-20 lg:py-10">
         <ContactForm />
       </div>
       <div className="bg-second py-10">
