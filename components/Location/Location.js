@@ -8,7 +8,7 @@ const Location = () => {
         style={{ border: 0 }}
         allowFullScreen=" "
         loading="lazy"
-        referrerPolice="no-referrer-when-downgrade"
+        referrerpolice="no-referrer-when-downgrade"
         className="w-full aspect-square lg:h-[60vh]"
       ></iframe>
       <div className="flex flex-col  justify-between h-full gap-10">

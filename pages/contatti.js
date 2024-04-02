@@ -1,5 +1,5 @@
 import ContactCard from "@/components/Cards/ContactCard";
-import Location from "@/components/Map/Location";
+import Location from "@/components/Location/Location";
 import ContactForm from "@/components/contactForm/ContactForm";
 import Hero from "@/components/heroHome/Hero";
 import Head from "next/head";
