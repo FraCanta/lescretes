@@ -69,11 +69,6 @@
             "img": "/assets/vinirossi/torrette.png",
             "name": "Torrette Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/torrette"
-          },
-          {
-            "img": "/assets/vinirossi/monrouge.png",
-            "name": "Mon Rouge® – Vino Rosso",
-            "link": "/vini/rossi/monrouge"
           }
         ]
       },
@@ -410,62 +405,7 @@
         "download": "/Fumin-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg"
       },
-      "monrouge": {
-        "img": "/assets/vinirossi/monrouge.png",
-        "name": "Mon Rouge® – Vino Rosso",
-        "link": "/vini/rossi/monrouge",
-        "title": "monrouge",
-        "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
-        "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
-        "vitigni": "Cornalin, Fumin, Vuillermin, Gamay, Petit Rouge",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": " blend di varietà locali a bacca nera",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "xx°",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "ballon piccolo",
-        "formatoTitle": "Formati:",
-        "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "diraspatura delle uve refrigerate, fermentazione di 7 giorni in acciaio inox a temperatura controllata (26°C), con rimontaggi giornalieri",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "La Tour e Les Crêtes di Aymavilles. Età anni 30",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento di 6 mesi in acciaio inox",
-        "servizioTitle": "Servire a:",
-        "servizio": "15/17 °C",
-        "tabs": [
-          {
-            "name": "Premi e riconoscimenti",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
-          },
-          {
-            "name": "Abbinamenti gastronomici",
-
-            "content": {
-              "text": "affettati e salumi, pasta al ragù di carne, zuppe, formaggi di media stagionatura, carni rosse"
-            }
-          },
-          {
-            "name": "Gallery",
-
-            "content": {
-              "images": [
-                "/assets/galleryWines/lemerle1.webp",
-                "/assets/galleryWines/lemerle2.webp",
-                "/assets/galleryWines/lemerle3.webp"
-              ]
-            }
-          }
-        ],
-        "more": "Ti potrebbe anche interessare",
-        "download": "/Mon-Rouge-Valle-dAosta-DOP-LES-CRETES-1.pdf"
-      },
       "nebbiolo": {
         "img": "/assets/vinirossi/nebbiolo.png",
         "name": "Nebbiolo Valle d’Aosta D.O.P.",
