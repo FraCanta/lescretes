@@ -104,7 +104,7 @@ const Contatti = () => {
           </span>
         </div>
       </div>
-      <div className="bg-second py-2 lg:p-6 bg-pattern">
+      <div className="bg-second py-2 lg:py-6 bg-pattern">
         <Location />
       </div>
     </>

@@ -52,13 +52,13 @@ const NavBar = ({ translation }) => {
               >
                 {translation?.[locale]?.degustazioni}
               </Link>
-              <Link
+              {/* <Link
                 href={`/notizie`}
                 title="I miei articoli"
                 className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
               >
                 {translation?.[locale]?.news}
-              </Link>
+              </Link> */}
               <Link
                 href={`/cosmesi`}
                 title="I miei articoli"
