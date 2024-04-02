@@ -5,7 +5,7 @@ const ContactCard = ({ icon, title, description, color }) => {
   return (
     <div>
       <div className="flex  w-full gap-4">
-        <div className="rounded-lg bg-main text-white p-5 aspect-square w-16 flex items-center justify-center font-regular text-[22px] relative">
+        <div className="rounded-full bg-main text-white p-5 aspect-square w-16 flex items-center justify-center font-regular text-[22px] relative">
           <Icon
             icon={icon}
             width={30}
