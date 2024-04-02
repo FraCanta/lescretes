@@ -31,7 +31,7 @@ const SingleCosmetic = ({ cosm, others }) => {
       </Head>
 
       <div className="min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)] grid grid-cols-1 xl:grid-cols-2 gap-8">
-        <div className="w-full min-h-screen relative">
+        <div className="w-full aspect-square 2xl:min-h-screen relative">
           <Image src={cosm?.img} fill className="object-cover" />
         </div>
         <div className=" flex flex-col gap-[30px] fxl:gap-[50px] w-[90%] mx-auto xl:mx-0 py-4 fxl:py-8">

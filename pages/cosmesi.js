@@ -43,7 +43,7 @@ const Cosmesi = ({ translation }) => {
             benefici nutrienti e restituendo al viso il suo naturale splendore.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4">
           {translation?.cards?.map((el, i) => {
             return (
               <Cards
@@ -64,20 +64,20 @@ const Cosmesi = ({ translation }) => {
           <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
             <div className="flex-col  flex relative">
               <Image
-                className="object-cover h-[540px] rounded-md"
+                className="object-cover aspect-square rounded-md"
                 src={Nature}
               />
-              <p className="text-center text-neutral-600 text-[25.20px] font-['MinervaModern'] leading-[50.20px]">
+              <p className="text-center text-neutral-600 text-[22.20px] font-['MinervaModern'] leading-[50.20px]">
                 Ingredienti naturali
               </p>
             </div>
             <div className="flex-col justify-start items-center gap-[15px] inline-flex">
               <div className="flex-col  flex">
                 <Image
-                  className="h-[540px] object-cover rounded-md"
+                  className="object-cover aspect-square rounded-md"
                   src={Notest}
                 />
-                <div className="text-center text-neutral-600 text-[25.20px] font-['MinervaModern'] leading-[50.20px]">
+                <div className="text-center text-neutral-600 text-[22.20px] font-['MinervaModern'] leading-[50.20px]">
                   No test sugli animali
                 </div>
               </div>
@@ -85,10 +85,10 @@ const Cosmesi = ({ translation }) => {
             <div className="flex-col justify-start items-center gap-[15px] inline-flex">
               <div className="flex-col  flex">
                 <Image
-                  className="h-[540px] object-cover rounded-md"
+                  className="object-cover aspect-square rounded-md"
                   src={Package}
                 />
-                <div className="text-center text-neutral-600 text-[25.20px] font-['MinervaModern'] leading-[50.20px]">
+                <div className="text-center text-neutral-600 text-[22.20px] font-['MinervaModern'] leading-[50.20px]">
                   Bio Packaging
                 </div>
               </div>

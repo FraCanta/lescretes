@@ -12,8 +12,12 @@ const HeroHome2 = ({ img, title }) => {
           phasellus mollis sit aliquam sit nullam neque ultrices.
         </p> */}
       </div>
-      <div className="relative h-screen w-full">
-        <Image src={img} fill className="object-cover xl:object-contain " />
+      <div className="relative aspect-square lg:h-screen w-full">
+        <Image
+          src={img}
+          fill
+          className="object-cover  2xl:object-contain h-full "
+        />
       </div>
     </>
   );

@@ -99,9 +99,9 @@ export default function Home({ translation }) {
       <div className="min-h-screen fxl:min-h-[80vh] bg-main flex flex-col justify-center items-center relative ">
         <Sections5 />
       </div>
-      <div className="min-h-screen fxl:min-h-[80vh] flex flex-col justify-center items-center relative ">
+      <div className="min-h-[80vh] fxl:min-h-[80vh] flex flex-col justify-center items-center relative ">
         <div className="w-[90%] mx-auto flex flex-col gap-8 lg:gap-20 ">
-          <div className="grid grid-cols-1 2xl:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
             <div className="flex flex-col gap-4">
               <h2 className="text-main text-[35px] leading-[36px] lg:text-[43.12px] font-bold  lg:leading-[55.10px]">
                 Dicono di noi
@@ -130,9 +130,9 @@ export default function Home({ translation }) {
       <div className="w-full min-h-screen bg-main flex flex-col justify-center items-center relative ">
         <Sections6 />
       </div>
-      <div className="min-h-screen 2xl:min-h-[80vh] flex flex-col justify-center items-center relative ">
+      {/* <div className="min-h-screen 2xl:min-h-[80vh] flex flex-col justify-center items-center relative ">
         <Sections7 />
-      </div>
+      </div> */}
     </>
   );
 }

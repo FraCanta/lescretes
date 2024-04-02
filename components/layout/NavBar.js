@@ -9,19 +9,19 @@ const NavBar = ({ translation }) => {
 
   return (
     <header className="relative">
-      <nav className="h-[60px] md:h-[100px] lg:h-[70px] xl:h-[70px] fxl:h-[100px] 3xl:h-[180px] 4xl:h-[250px] 3xl flex w-full items-center justify-between relative z-[999999] nav-scroll ">
+      <nav className="h-[60px] md:h-[100px] lg:h-[70px] xl:h-[90px] fxl:h-[100px] 3xl:h-[180px] 4xl:h-[250px] 3xl flex w-full items-center justify-between relative z-[999999] nav-scroll ">
         <div className="flex w-[90%] mx-auto justify-between items-center ">
           <div className="flex-1">
             <Link href={`/`} title="Home Page">
               <Image
                 src={Logo}
                 alt="logo"
-                className="w-[85px] md:w-[100px] xl:w-[130px] 2xl:w-[100px] fxl:w-[150px] 3xl:w-[200px] 4xl:w-[300px]"
+                className="w-[85px] md:w-[150px] lg:w-[110px] xl:w-[130px] 2xl:w-[100px] fxl:w-[150px] 3xl:w-[200px] 4xl:w-[300px]"
               />
             </Link>
           </div>
 
-          <div className="lg:flex items-center  hidden capitalize flex-1 font-black text-[#4A4A49]">
+          <div className="xl:flex items-center  hidden capitalize flex-1 font-black text-[#4A4A49]">
             <div className="w-full flex items-center justify-end">
               <Link
                 href={`/`}
@@ -68,7 +68,7 @@ const NavBar = ({ translation }) => {
               </Link>
             </div>
           </div>
-          <div className="lg:flex items-center justify-end flex-1  hidden font-black">
+          <div className="xl:flex items-center justify-end flex-1  hidden font-black">
             <Link
               href={`/areaDownload`}
               title="I miei articoli"
@@ -98,7 +98,7 @@ const NavBar = ({ translation }) => {
               {translation?.[locale]?.contatti}
             </Link>
           </div>
-          <div className="text-main flex items-center justify-end py-1 lg:hidden ">
+          <div className="text-main flex items-center justify-end py-1 xl:hidden ">
             <Mobile translation={translation} />
           </div>
         </div>

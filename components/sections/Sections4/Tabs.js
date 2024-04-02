@@ -8,6 +8,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 const Tabs = ({ tabs }) => {
+  console.log(tabs);
   const [activeTab, setActiveTab] = useState(0);
 
   const openCity = (index) => {
@@ -80,7 +81,7 @@ const Tabs = ({ tabs }) => {
                 slidesPerView: 4,
                 spaceBetween: 20,
               },
-              1920: {
+              1280: {
                 slidesPerView: 3.6,
                 spaceBetween: 20,
               },

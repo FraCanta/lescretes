@@ -35,7 +35,7 @@ const Mobile = ({ translation }) => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
+          className="w-6 h-6 md:w-10 md:h-10"
         >
           <motion.path
             strokeLinecap="round"
@@ -51,7 +51,7 @@ const Mobile = ({ translation }) => {
       <AnimatePresence initial={false}>
         {open && (
           <motion.div
-            className=" absolute top-[60px] left-0 right-0 bg-white h-screen w-screen text-main   flex flex-col items-center bg-pattern2"
+            className=" absolute top-[60px] left-0 right-0 bg-white h-screen w-screen text-main   flex flex-col items-center justify-evenly bg-pattern2"
             variants={variants}
             initial="closed"
             animate="open"
@@ -61,12 +61,12 @@ const Mobile = ({ translation }) => {
             <motion.div
               variants={variants.item}
               animate="visibleItem"
-              className="mt-8"
+              className=" "
             >
               <Link
                 href={`/`}
                 title="Scopri chi sono e cosa posso fare per te"
-                className={`menu-item block  mb-6 text-[25px] leading-[30px] font-regular text-main ${
+                className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
                   pathname === "/" ? "font-bold" : ""
                 }`}
               >
@@ -77,7 +77,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/storia`}
                 title="Ecco tutti i miei servizi"
-                className={`menu-item block mb-6 text-[25px] leading-[30px] font-regular text-main ${
+                className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
                   pathname === "/storia" ? "font-bold" : ""
                 }`}
               >
@@ -88,7 +88,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/vini`}
                 title="Guarda tutti i miei casi studio"
-                className={`menu-item block mb-6 text-[25px] leading-[30px] font-regular text-main ${
+                className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
                   pathname === "/vini" ? "font-bold" : ""
                 }`}
               >
@@ -99,29 +99,29 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/degustazioni`}
                 title="I miei articoli"
-                className={`menu-item block mb-6 text-[25px] leading-[30px] font-regular text-main ${
+                className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
                   pathname === "/degustazioni" ? "font-bold" : ""
                 }`}
               >
                 {translation?.[locale]?.degustazioni}
               </Link>
             </motion.div>
-            <motion.div variants={variants.item} animate="visibleItem">
+            {/* <motion.div variants={variants.item} animate="visibleItem">
               <Link
                 href={`/notizie`}
                 title="I miei articoli"
-                className={`menu-item block mb-6 text-[25px] leading-[30px] font-regular text-main ${
+                className={`menu-item block  text-[25px] leading-[30px] font-regular text-main ${
                   pathname === "/notizie" ? "font-bold" : ""
                 }`}
               >
                 {translation?.[locale]?.news}
               </Link>
-            </motion.div>
+            </motion.div> */}
             <motion.div variants={variants.item} animate="visibleItem">
               <Link
                 href={`/cosmesi`}
                 title="I miei articoli"
-                className={`menu-item block mb-6 text-[25px] leading-[30px] font-regular text-main ${
+                className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
                   pathname === "/cosmesi" ? "font-bold" : ""
                 }`}
               >
@@ -132,7 +132,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/areaDownload`}
                 title="I miei articoli"
-                className={`menu-item block mb-6 text-[25px] leading-[30px] font-regular text-main flex items-center gap-2 ${
+                className={`menu-item gap-2   text-[25px] md:text-4xl leading-[30px] font-regular text-main flex items-center ${
                   pathname === "/areaDownload" ? "font-bold" : ""
                 }`}
               >
@@ -143,7 +143,7 @@ const Mobile = ({ translation }) => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-4 h-4 3xl:w-8 3xl:h-8"
+                  className="w-4 h-4 md:w-6 md:h-6 3xl:w-8 3xl:h-8"
                 >
                   <path
                     strokeLinecap="round"
@@ -157,7 +157,7 @@ const Mobile = ({ translation }) => {
               <Link
                 href={`/contatti`}
                 title="I miei articoli"
-                className={`menu-item block mt-6 text-[25px] leading-[30px] font-regular text-white font-bold py-2.5 px-8 bg-main max-w-max rounded-[32px] ${
+                className={`menu-item block mt-6 text-[25px] md:text-4xl leading-[30px] font-regular text-white font-bold py-2.5 px-8 bg-main max-w-max rounded-[32px] ${
                   pathname === "/contatti" ? "font-bold" : ""
                 }`}
               >
@@ -167,10 +167,10 @@ const Mobile = ({ translation }) => {
             <motion.div
               ariants={variants.item}
               animate="visibleItem"
-              className="mt-20 text-center"
+              className=" text-center my-10 md:py-4"
             >
-              <h3 className="text-[20px] font-bold">Les Crêtes</h3>
-              <p className="text-[14px]">
+              <h3 className="text-[20px] md:text-3xl font-bold">Les Crêtes</h3>
+              <p className="text-[14px] md:text-xl">
                 SR20, 5011010 Aymavilles (AO) <br /> Valle d’Aosta, Italia
               </p>
             </motion.div>

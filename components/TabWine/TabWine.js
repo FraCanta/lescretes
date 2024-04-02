@@ -67,9 +67,14 @@ const TabWine = ({ tabs }) => {
             activeTab === index ? "tabcontent" : "tabcontent hidden"
           }`}
         >
-          <div className="text-main/70 !text-base md:!text-lg md:w-[75%]">
-            {tab.content.text ? tab.content.text : ""}
-          </div>
+          {!tab.content.name ? (
+            <div className="text-main/70 !text-base md:!text-lg md:w-[75%]">
+              {tab.content.text ? tab.content.text : ""}
+            </div>
+          ) : (
+            ""
+          )}
+
           {tab.content.images && tab.content.images.length > 0 ? (
             <div className="image-gallery grid grid-cols-1 md:grid-cols-3 gap-4 md:w-[75%]">
               {tab.content.images

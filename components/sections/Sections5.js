@@ -6,7 +6,7 @@ const Sections5 = () => {
   return (
     <>
       <div className="min-h-[80vh]   flex flex-col xl:flex-row">
-        <div className="w-full  h-screen 2xl:h-full flex flex-col gap-6 p-8 2xl:gap-14 2xl:p-20 fxl:gap-24 justify-center   relative">
+        <div className="w-full  min-h-screen  flex flex-col gap-6 p-8 xl:gap-14 2xl:p-20 fxl:gap-24 justify-center   relative">
           <div className="flex flex-col gap-2">
             <div className="bg-white h-[50px] w-[50px] rounded-full flex items-center justify-center ">
               <svg
@@ -51,7 +51,7 @@ const Sections5 = () => {
             <h3 className="text-[25px] lg:text-[40px] fxl:text-[50px] text-white font-black">
               Sostenibilità
             </h3>
-            <p className="text-[16px] lg:text-[20px] fxl:text-[28px] text-white font-medium w-full lg:w-[80%] ">
+            <p className="text-[16px] lg:text-[20px] xl:text-base 2xl:text-xl fxl:text-[28px] text-white font-medium w-full lg:w-[80%] ">
               Ci impegniamo per la sostenibilità ambientale e seguiamo le linee
               guida europee per i trattamenti fitosanitari, privilegiando un uso
               limitato di fitofarmaci. La nostra dedizione alla qualità e alla
@@ -79,7 +79,7 @@ const Sections5 = () => {
             <h3 className="text-[25px] lg:text-[40px] fxl:text-[50px] text-white font-black">
               Impegno
             </h3>
-            <p className="text-[16px] lg:text-[20px] fxl:text-[28px] text-white font-medium w-full lg:w-[80%] ">
+            <p className="text-[16px] lg:text-[20px] xl:text-base 2xl:text-xl fxl:text-[28px] text-white font-medium w-full lg:w-[80%] ">
               Il principio cardine della nostra filosofia è continuare a seguire
               i valori delle generazioni passate, valorizzando il "Terroir" con
               fedeltà e rispetto delle tradizioni. Tuttavia, il nostro sguardo è
@@ -98,7 +98,7 @@ const Sections5 = () => {
         </div>
         <div className="w-full  min-h-screen relative">
           <Image
-            className="w-full h-full object-cover object-[-600px] 2xl:object-[-300px] fxl:object-[-350px]"
+            className="w-full h-full object-cover object-[-600px] xl:object-[-300px] fxl:object-[-350px]"
             fill
             src={Eco}
           />
