@@ -5,17 +5,14 @@ import Hero from "@/components/heroHome/Hero";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
-
+import Rifugio from "@/public/assets/rifugio/rifugio.JPG";
 const Contatti = () => {
   return (
     <>
       <Head>
         <title>Les Crêtes - contatti</title>
       </Head>
-      <Hero
-        text="Come puoi contattarci e raggiungerci "
-        img="/assets/rifugio.JPG"
-      />
+      <Hero text="Come puoi contattarci e raggiungerci " img={Rifugio} />
       <div className="w-[90%] mx-auto py-10">
         <ContactForm />
       </div>
