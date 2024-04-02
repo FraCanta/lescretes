@@ -71,6 +71,24 @@ p {
   border: none !important;
 }
 
+.elenco_contatti {
+  list-style: none;
+  padding: 0;
+}
+
+.elenco_contatti li {
+  padding-left: 1.3em;
+  display: flex;
+}
+
+.elenco_contatti li::before {
+  content: "\2022";
+  display: inline-block;
+  margin-left: -1.3em;
+  margin-right: 0.5em;
+  width: 1em;
+}
+
 @media screen and (max-width: 768px) {
   .hero {
     background-position: center;

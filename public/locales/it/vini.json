@@ -212,7 +212,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
+        "recycle": "/tabella.jpg"
       },
       "cornalin": {
         "img": "/assets/vinirossi/cornalin.png",
@@ -276,7 +277,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Cornalin-Valle-dAosta-DOP-LES-CRETES.pdf"
+        "download": "/Cornalin-Valle-dAosta-DOP-LES-CRETES.pdf",
+        "recycle": "/tabella.jpg"
       },
       "lacor": {
         "img": "/assets/vinirossi/fumin_lacor.png",
@@ -340,7 +342,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Fumin-LA-COR-Valle-dAosta-DOP-LES-CRETES.pdf"
+        "download": "/Fumin-LA-COR-Valle-dAosta-DOP-LES-CRETES.pdf",
+        "recycle": "/tabella.jpg"
       },
       "fumin": {
         "img": "/assets/vinirossi/fumin.png",
@@ -404,7 +407,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Fumin-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Fumin-Valle-dAosta-DOP-LES-CRETES-1.pdf",
+        "recycle": "/tabella.jpg"
       },
       "monrouge": {
         "img": "/assets/vinirossi/monrouge.png",
@@ -524,7 +528,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Nebbiolo-sommet-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Nebbiolo-sommet-Valle-dAosta-DOP-LES-CRETES-1.pdf",
+        "recycle": "/tabella.jpg"
       },
       "nebbiolos": {
         "img": "/assets/vinirossi/nebbiolo_sommet.png",
@@ -588,7 +593,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Nebbiolo-sommet-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Nebbiolo-sommet-Valle-dAosta-DOP-LES-CRETES-1.pdf",
+        "recycle": "/tabella.jpg"
       },
       "pinot": {
         "img": "/assets/vinirossi/pinot_nero.png",
@@ -652,7 +658,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Pinot-nero-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Pinot-nero-Valle-dAosta-DOP-LES-CRETES-1.pdf",
+        "recycle": "/tabella.jpg"
       },
       "revei": {
         "img": "/assets/vinirossi/pinot_revei.png",
@@ -716,7 +723,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Pinot-Nero-REVEI-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Pinot-Nero-REVEI-Valle-dAosta-DOP-LES-CRETES-1.pdf",
+        "recycle": "/tabella.jpg"
       },
       "sabla": {
         "img": "/assets/vinirossi/sabla.png",
@@ -780,7 +788,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
+        "recycle": "/tabella.jpg"
       },
       "syrah": {
         "img": "/assets/vinirossi/syrah.png",
@@ -844,7 +853,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
+        "recycle": "/tabella.jpg"
       },
 
       "torrettesup": {
@@ -909,7 +919,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
+        "recycle": "/tabella.jpg"
       },
       "torrette": {
         "img": "/assets/vinirossi/torrette.png",
@@ -973,7 +984,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
+        "recycle": "/tabella.jpg"
       },
       "chardonnaycb": {
         "img": "/assets/vinibianchi/chardonnay_cb.png",
@@ -1038,7 +1050,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Chardonnay-CUVEE-BOIS-Valle-dAosta-DOP-LES-CRETES.pdf",
+        "recycle": "/tabella.jpg"
       },
       "chardonnay": {
         "img": "/assets/vinibianchi/chardonnay.png",
@@ -1102,7 +1115,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Chardonnay-Valle-dAosta-DOP-LES-CRETES.pdf",
+        "recycle": "/tabella.jpg"
       },
       "monblanc": {
         "img": "/assets/vinibianchi/mon_blanc.png",
@@ -1166,7 +1180,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Mon-Blanc-Vino-bianco-LES-CRETES.pdf",
+        "recycle": "/tabella.jpg"
       },
       "neige": {
         "img": "/assets/vinibianchi/neige.png",
@@ -1230,7 +1245,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Neige-dOr-Valle-dAosta-DOP-LES-CRETES.pdf",
+        "recycle": "/tabella.jpg"
       },
       "petitearvine": {
         "img": "/assets/vinibianchi/petite_arvine.png",
@@ -1295,7 +1311,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Petite-arvine-Valle-dAosta-DOP-LES-CRETES.pdf",
+        "recycle": "/tabella.jpg"
       },
       "petitefleur": {
         "img": "/assets/vinibianchi/petite_fleur.png",
@@ -1360,7 +1377,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Petite-arvine-FLEUR-Valle-dAosta-DOP-LES-CRETES.pdf",
+        "recycle": "/tabella.jpg"
       },
       "pinotgris": {
         "img": "/assets/vinibianchi/pinot_grigio.png",
@@ -1425,7 +1443,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Pinot-Gris-Brulant-Valle-dAosta-DOP-LES-CRETES-2.pdf",
+        "recycle": "/tabella.jpg"
       },
       "rose": {
         "img": "/assets/vinirose/rose.png",
@@ -1488,7 +1507,8 @@
             }
           }
         ],
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Rose-Valle-dAosta-DOP-LES-CRETES-1.pdf",
+        "recycle": "/tabella.jpg"
       },
       "dore": {
         "img": "/assets/vinidessert/dorè.png",
@@ -1552,7 +1572,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Dore-Vino-da-uve-stramature-LES-CRETES-1.pdf",
+        "recycle": "/tabella.jpg"
       },
       "neblu": {
         "img": "/assets/vinidessert/neblu.png",
@@ -1617,7 +1638,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Metodo-classico-Neblu-Brut-Nature-Rose-LES-CRETES-1.pdf",
+        "recycle": "/tabella.jpg"
       },
       "reban": {
         "img": "/assets/vinidessert/reban.png",
@@ -1682,7 +1704,8 @@
           }
         ],
         "more": "Ti potrebbe anche interessare",
-        "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf"
+        "download": "/Metodo-classico-Reban-pas-dose-Valle-dAosta-DOP-LES-CRETES-1.pdf",
+        "recycle": "/tabella.jpg"
       }
     }
   }

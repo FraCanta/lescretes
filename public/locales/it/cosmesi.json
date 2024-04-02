@@ -91,13 +91,13 @@
         "ml": "50ml",
         "descrizione": [
           {
-            "testo": "Qui mi manca la descrizione"
+            "testo": "Scrub in crema per il viso con microsferule di vinaccioli che svolgono un’efficace e delicata azione levigante restituendo alla pelle la sua naturale luminosità. Gli oli di vinaccioli, di oliva e mandorle sono formulati insieme agli estratti di ibisco ed elicriso per una maggior azione emolliente. Fragranza pesca di vigna."
           }
         ],
         "ingredientiTitle": "Ingredienti",
-        "ingredienti": "Qui mi mancano gli ingredienti",
+        "ingredienti": "Contiene olio di vinaccioli, microsferule di vinaccioli o vitis vinifera seed powder (azione scrub meccanica delicata), olio di mandorle dolci biologiche, estratto di Hibiscus biologico, acqua attiva di elicriso biologico (fiori), olio di oliva biologico",
         "istruzioniTitle": "Istruzioni d'uso",
-        "istruzioni": "Qui mi mancano le istruzioni d'uso",
+        "istruzioni": "Si consiglia il suo utilizzo una volta a settimana su viso inumidito, sciacquare con acqua tiepida.",
 
         "details": "Scrub delicato",
         "title": "gommage",
@@ -109,13 +109,13 @@
         "ml": "200ml",
         "descrizione": [
           {
-            "testo": "Qui mi manca la descrizione"
+            "testo": "Acqua attiva con olio di vinaccioli e estratti da fiori biologici per un viso fresco, luminoso. Privo di alcool. Indicato per tutti i tipi di pelle. Favorisce un’azione idratante, protettiva, anti-età, riequilibrante del film idrolipidico. E’ il tocco finale della detersione quotidiana per una pelle ossigenata, uniforme e piacevolmente profumata alla pesca di vigna."
           }
         ],
         "ingredientiTitle": "Ingredienti",
-        "ingredienti": "Qui mi mancano gli ingredienti",
+        "ingredienti": "Contiene olio di vinaccioli, estratto di Hibiscus biologico, acqua attiva di elicriso biologico (fiori), acqua attiva di boccioli di Rosa damascena, estratto di avena biologica",
         "istruzioniTitle": "Istruzioni d'uso",
-        "istruzioni": "Qui mi mancano le istruzioni d'uso",
+        "istruzioni": "Applicare mattino e sera tamponandolo con un batuffolo di cotone su viso, collo, decollete’ dopo detersione con il latte detergente.",
 
         "details": "Tonico delicato",
         "title": "lotion",
@@ -190,13 +190,16 @@
         "ml": "50ml",
         "descrizione": [
           {
-            "testo": "Manca la descrizione"
+            "testo": "Latte fluido per il corpo con una texture leggera a rapido assorbimento. Si può utilizzare in qualsiasi stagione: d’estate come dopo sole oppure in inverno dopo la doccia/bagno o in qualsiasi momento della giornata in cui la pelle necessita di essere idratata."
+          },
+          {
+            "testo": "Ideale per pelle secca. Rispetto alla crema corpo è meno ricco, più adatto a tutti i tipi di pelle in particolari non troppo secche. Rende la pelle nutrita e vellutata grazie all’acido ialuronico, all’olio di vinaccioli, all’olio di mandorle e agli estratti di ibisco e rosa damascena. Fragranza fiorita delicata."
           }
         ],
         "ingredientiTitle": "Ingredienti",
-        "ingredienti": "Mancano gli ingredienti",
+        "ingredienti": "Contiene olio di vinaccioli, olio di mandorle dolci biologiche, estratto di Hibiscus biologico, acqua attiva di boccioli di Rosa damascena",
         "istruzioniTitle": "Istruzioni d'uso",
-        "istruzioni": "Qui mi mancano le istruzioni d'uso",
+        "istruzioni": "Massaggiare fino a completo assorbimento dopo la doccia/bagno, dopo l’esposizione al sole o in qualsiasi momento di necessità.",
 
         "details": "Crema corpo fiorita delicata",
         "title": "pepin",

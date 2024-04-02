@@ -36,6 +36,7 @@ module.exports = {
       white: "#ffffff",
       second: "#F4F3EF",
       main: "#4A4A49 ",
+      third: "#938A89",
     },
   },
   plugins: [require("daisyui")],

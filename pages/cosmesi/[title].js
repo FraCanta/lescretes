@@ -151,6 +151,7 @@ const SingleCosmetic = ({ cosm, others }) => {
       </div>
     </>
   );
+  ya;
 };
 
 export default SingleCosmetic;
