@@ -16,6 +16,7 @@ import {
   WhatsappShareButton,
 } from "next-share";
 import FAQ from "@/components/FAQ/FAQ";
+import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 
 const SingleCosmetic = ({ cosm, others }) => {
   return (
@@ -86,19 +87,14 @@ const SingleCosmetic = ({ cosm, others }) => {
             <Image src={IconaDue} width={90} height={90} />
           </div>
           <div className="flex flex-col xl:flex-row w-full xl:justify-between gap-10">
-            <Link
-              href="/mani.pdf"
-              download
-              target="_blank"
-              className="flex items-center text-lg xl:text-2xl gap-2 text-main font-bold w-full max-w-max text-center  lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 border-main"
-            >
+            <CtaOutlineBrown link="/mani.pdf" download>
               Scarica qui
               <Icon
                 icon="material-symbols:download"
                 color="#4A4A49"
                 width={30}
               />
-            </Link>
+            </CtaOutlineBrown>
             <div className="flex gap-6 items-center ">
               <p className="text-lg xl:text-xl">Condividi su</p>
               <ul className="flex gap-6">

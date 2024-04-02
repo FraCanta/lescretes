@@ -12,6 +12,8 @@ import Head from "next/head";
 import { Icon } from "@iconify/react";
 import { FacebookShareButton, WhatsappShareButton } from "next-share";
 import Drawer from "@/components/drawer/drawer";
+import CtaPrimary from "@/components/Cta/CtaPrimary";
+import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 
 const SingleDeg = ({ deg }) => {
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
@@ -93,18 +95,16 @@ const SingleDeg = ({ deg }) => {
         </div>
         <div className="flex items-center ">
           {deg.prenotaBtn ? (
-            <Link
-              href={deg.prenotaBtn}
-              target="_blank"
-              className="flex items-center justify-center text-[18px]  gap-2 text-center capitalize font-medium py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] text-white hover:transition-all  bg-main w-full "
-            >
-              Prenota ora
-              <Icon
-                icon="mingcute:calendar-line"
-                color="white"
-                className="w-5 h-5"
-              />
-            </Link>
+            <CtaPrimary link={deg.prenotaBtn}>
+              <div className="flex items-center gap-2">
+                Prenota ora{" "}
+                <Icon
+                  icon="mingcute:calendar-line"
+                  color="white"
+                  className="w-5 h-5"
+                />
+              </div>
+            </CtaPrimary>
           ) : (
             <button
               onClick={handleDrawerToggle}
@@ -171,15 +171,10 @@ const SingleDeg = ({ deg }) => {
           ""
         )}
         {deg.download ? (
-          <Link
-            href={deg.download}
-            download
-            target="_blank"
-            className="flex items-center text-lg xl:text-2xl gap-2 text-main font-bold w-full max-w-max text-center  lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 border-main"
-          >
+          <CtaOutlineBrown link={deg.download}>
             Scarica qui
             <Icon icon="material-symbols:download" color="#4A4A49" width={30} />
-          </Link>
+          </CtaOutlineBrown>
         ) : null}
       </div>
       <div className="w-full h-[1px] bg-second my-2"></div>
@@ -218,15 +213,17 @@ const SingleDeg = ({ deg }) => {
         </div>
         <ul className="px-6 py-2 max-w-max bg-main rounded-[30px]">
           <li>
-            <Link href="/degustazioni" title="Back to Degustazioni">
+            <Link href="/degustazioni" title="Back to Degustazioni"></Link>
+            <CtaPrimary link="/degustazioni">
+              {" "}
               <Icon
                 icon="lets-icons:back"
-                className="text-white w-4 h-4 fxl:w-6 fxl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
-              />
+                className="text-white w-4 h-4 2xl:w-6 2xl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
+              />{" "}
               <p className="text-lg xl:text-xl fxl:text-xl 3xl:text-3xl text-white">
                 Torna alle Degustazioni
               </p>
-            </Link>
+            </CtaPrimary>
           </li>
         </ul>
       </div>

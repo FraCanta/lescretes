@@ -11,6 +11,7 @@ import Sections7 from "@/components/sections/Sections7";
 import Reviews from "@/components/sections/Reviews";
 import Link from "next/link";
 import Head from "next/head";
+import CtaPrimary from "@/components/Cta/CtaPrimary";
 
 export default function Home({ translation }) {
   return (
@@ -112,13 +113,9 @@ export default function Home({ translation }) {
               </p> */}
             </div>
             <div className="flex items-end lg:justify-end">
-              <Link
-                className="capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 xl:text-[1rem] 2xl:text-[1.2rem]  fxl:text-2xl 3xl:text-3xl rounded-[32px] shadow  text-white hover:transition-all  bg-[#4A4A49] max-w-max max-h-max"
-                href="https://g.page/r/CXZcr8aa7zgbEBM/review"
-                target="_blank"
-              >
+              <CtaPrimary link="https://g.page/r/CXZcr8aa7zgbEBM/review">
                 Scrivi Recensione
-              </Link>
+              </CtaPrimary>
             </div>
           </div>
 

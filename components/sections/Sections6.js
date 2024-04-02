@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import Pattern from "@/public/assets/pattern3.png";
 import Cosmesi from "@/public/assets/cosmesi.jpg";
+import CtaWhite from "../Cta/CtaWhite";
 
 const Sections6 = () => {
   return (
@@ -17,12 +18,7 @@ const Sections6 = () => {
           esigenze di chi cerca prodotti naturali ad alte prestazioni.
         </div>
         <div className="max-w-max z-[99999]">
-          <Link
-            href="/cosmesi"
-            className="text-center capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] text-main hover:transition-all  bg-white w-full flex items-center"
-          >
-            Scopri la nostra cosmesi
-          </Link>
+          <CtaWhite link="/cosmesi">Scopri La Nostra Cosmesi</CtaWhite>
         </div>
         <div className="w-full h-[150px] lg:h-[350px] absolute bottom-0 left-0">
           <Image
