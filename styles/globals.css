@@ -22,7 +22,8 @@ a {
   color: #4a4a49;
 }
 
-p {
+p,
+span {
   font-family: "DM Sans", sans-serif;
   color: #4a4a49;
   font-weight: 300;
