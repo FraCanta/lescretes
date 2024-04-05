@@ -47,7 +47,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media (hover: hover) {
   .carousel-wrapper {
-    cursor: none;
+    cursor: none !important;
   }
 
   .cursor {

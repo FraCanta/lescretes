@@ -7,8 +7,8 @@ import CtaWhite from "../Cta/CtaWhite";
 
 const Sections6 = () => {
   return (
-    <div className="min-h-screen grid grid-cols-1 lg:grid-cols-2">
-      <div className="w-full  min-h-screen 2xl:h-full flex flex-col gap-6 p-8 2xl:gap-14 2xl:p-20 justify-center   relative">
+    <div className="grid grid-cols-1 lg:grid-cols-2">
+      <div className="w-full h-[60vh]  2xl:h-full flex flex-col gap-6 p-8 2xl:gap-14 2xl:p-20 justify-center   relative">
         <h2 className="w-full  text-white text-[40px] 2xl:text-[64px] fxl:text-[80px] font-bold leading-[55.37px]">
           Non solo Vino
         </h2>

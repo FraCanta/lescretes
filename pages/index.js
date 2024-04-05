@@ -124,7 +124,7 @@ export default function Home({ translation }) {
           </div>
         </div>
       </div>
-      <div className="w-full min-h-screen bg-main flex flex-col justify-center items-center relative ">
+      <div className="w-full  bg-main flex flex-col justify-center items-center relative ">
         <Sections6 />
       </div>
       {/* <div className="min-h-screen 2xl:min-h-[80vh] flex flex-col justify-center items-center relative ">
