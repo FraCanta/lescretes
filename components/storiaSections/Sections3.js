@@ -5,10 +5,10 @@ import Link from "next/link";
 const Sections3 = () => {
   return (
     <div className="w-[90%]  flex-col justify-start items-start gap-[20px] xl:gap-[50px] fxl:gap-20 flex mx-auto">
-      <h3 className="text-main text-[35px] xl:text-5xl fxl:text-6xl font-bold xl:leading-[50px]">
+      <h3 className="text-main text-[35px] xl:text-5xl fxl:text-6xl font-bold">
         La nostra filosofia
       </h3>
-      <div className="flex-col justify-start items-start gap-8 flex text-main text-base xl:text-[20px] fxl:text-2xl font-normal leading-9">
+      <div className="flex-col justify-start items-start gap-8 flex text-main text-[20px] fxl:text-2xl font-normal ">
         <p>
           L’azienda Les Crêtes produce{" "}
           <span className="underline font-bold px-1">
@@ -33,7 +33,7 @@ const Sections3 = () => {
         </p>
       </div>
       <div className="flex-col justify-start items-start gap-[50px] flex fxl:gap-20">
-        <h3 className="text-main text-[35px] xl:text-5xl fxl:text-6xl font-bold 2xl:leading-[50px]">
+        <h3 className="text-main text-4xl xl:text-5xl fxl:text-6xl font-bold">
           Dare valore al territorio significa tutelarne l’identità
         </h3>
         <div className="relative h-[50vh] xl:h-[70vh] w-full">
@@ -43,11 +43,14 @@ const Sections3 = () => {
             src={View}
           />
         </div>
-        <div className="flex-col justify-start items-start gap-8 flex text-main text-base xl:text-[20px] fxl:text-2xl font-normal leading-9">
+        <div className="flex-col justify-start items-start gap-8 flex text-main text-[20px] fxl:text-2xl font-normal">
           <p>
-            La principio cardine della filosofia dell’azienda è continuare a
+            Il principio cardine della filosofia dell’azienda è continuare a
             seguire i valori delle generazioni passate valorizzando il{" "}
-            <Link href="/terroir" className="underline font-bold px-2">
+            <Link
+              href="/terroir"
+              className="underline font-bold px-2 text-[20px]"
+            >
               “Terroir”
             </Link>{" "}
             con fedeltà e rispetto delle tradizioni. Lo sguardo, però, è sempre

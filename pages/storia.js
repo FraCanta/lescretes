@@ -24,7 +24,7 @@ export default function Storia({ translation }) {
       <Sections1 />
       <Sections2 />
       <Sections3 />
-      <div className="min-h-screen xl:min-h-[80vh] flex flex-col justify-center items-center relative ">
+      <div className="xl:min-h-[80vh] flex flex-col justify-center items-center relative ">
         <div className="w-[90%] mx-auto flex flex-col gap-8 lg:gap-20 ">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
             <div className="flex flex-col gap-4">
