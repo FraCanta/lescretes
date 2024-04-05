@@ -63,13 +63,13 @@ const Tabs = ({ translation }) => {
                 key={contentIndex}
               >
                 <Image
-                  className="object-contain absolute top-6 left-0  w-full h-[80%]"
+                  className="object-contain absolute inset-0 mt-6  w-full h-[80%]"
                   src={content.img}
                   width={100}
                   height={100}
                   alt={content.name}
                 />
-                <p className="w-full left-0 bottom-8 absolute text-center text-main text-[16px] font-bold  leading-snug">
+                <p className="w-full left-0 bottom-8 absolute text-center text-main text-[16px] font-bold  leading-snug fxl:text-xl">
                   {content.name}
                 </p>
               </div>

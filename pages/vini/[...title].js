@@ -38,106 +38,147 @@ const SingleWine = ({ wine, others }) => {
           <Image src={wine.img} alt="" fill className="object-contain p-8" />
         </div>
         <div className="flex py-8 w-[90%] mx-auto xl:mx-0">
-          <div className="flex-col justify-start items-start gap-[30px] flex">
-            <h1 className="text-main text-[35px] md:text-[42.08px] font-black  md:leading-[53.77px]">
+          <div className="flex-col justify-start items-start gap-[30px] flex fxl:gap-20">
+            <h1 className="text-main text-[35px] md:text-[42.08px] font-black  md:leading-[53.77px] fxl:text-5xl">
               {wine.name}
             </h1>
-            {/* <p className="text-[18px] leading-[32px]">{wine.descrizione} </p> */}
+            {/* <p className="text-[18px] leading-[32px] text-main">
+              {wine.descrizione}{" "}
+            </p> */}
             {/* <h3 className="text-main text-[30px] font-bold  leading-normal">
               Caratteristiche:
             </h3> */}
-            <div className="grid grid-cols-1 md:grid-cols-2 w-full h-[80%] gap-4 xl:gap-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 w-full h-[80%] gap-4 xl:gap-2 fxl:gap-4">
               <ul className="flex flex-col justify-between gap-4 xl:gap-0">
                 <li className="flex gap-4 items-center">
-                  <Image src={Denominazione} className="text-main w-8 h-10" />
-                  <div className="flex flex-col">
-                    <h2 className="text-[20px] font-black text-main/90">
+                  <Image
+                    src={Denominazione}
+                    className="text-main w-8 h-10 fxl:w-12 fxl:h-16"
+                  />
+                  <div className="flex flex-col fxl:gap-2">
+                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
                       {wine.denominazioneTitle}
                     </h2>
-                    <p className="text-main/70">{wine.denominazione}</p>
+                    <p className="text-main/70 fxl:text-xl">
+                      {wine.denominazione}
+                    </p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Vitigni} className="text-main w-8 h-10" />
-                  <div className="flex flex-col">
-                    <h2 className="text-[20px] font-black text-main/90">
+                  <Image
+                    src={Vitigni}
+                    className="text-main w-8 h-10 fxl:w-12 fxl:h-16"
+                  />
+                  <div className="flex flex-col fxl:gap-2">
+                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
                       {wine.vitigniTitle}
                     </h2>
-                    <p className="text-main/70"> {wine.vitigni}</p>
+                    <p className="text-main/70 fxl:text-xl">{wine.vitigni}</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Tipologia} className="text-main w-8 h-10" />
-                  <div className="flex flex-col">
-                    <h2 className="text-[20px] font-black text-main/90">
+                  <Image
+                    src={Tipologia}
+                    className="text-main w-8 h-10 fxl:w-12 fxl:h-14"
+                  />
+                  <div className="flex flex-col fxl:gap-2">
+                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
                       {wine.tipologiaTitle}
                     </h2>
-                    <p className="text-main/70">{wine.tipologia}</p>
+                    <p className="text-main/70 fxl:text-xl">{wine.tipologia}</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Gradazione} className="text-main w-8 h-10" />
-                  <div className="flex flex-col">
-                    <h2 className="text-[20px] font-black text-main/90">
+                  <Image
+                    src={Gradazione}
+                    className="text-main w-8 h-10 fxl:w-12 fxl:h-14"
+                  />
+                  <div className="flex flex-col fxl:gap-2">
+                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
                       {wine.gradazioneTitle}
                     </h2>
-                    <p className="text-main/70">{wine.gradazione}</p>
+                    <p className="text-main/70 fxl:text-xl">
+                      {wine.gradazione}
+                    </p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Type} className="text-main w-8 h-10" />
-                  <div className="flex flex-col">
-                    <h2 className="text-[20px] font-black text-main/90">
+                  <Image
+                    src={Type}
+                    className="text-main w-8 h-10 fxl:w-12 fxl:h-14"
+                  />
+                  <div className="flex flex-col fxl:gap-2">
+                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
                       {wine.bicchiereTitle}
                     </h2>
-                    <p className="text-main/70">{wine.bicchiere}</p>
+                    <p className="text-main/70 fxl:text-xl">{wine.bicchiere}</p>
                   </div>
                 </li>
               </ul>
               <ul className="flex flex-col justify-between gap-4">
                 <li className="flex gap-4 items-center">
-                  <Image src={Formati} className="text-main w-10 h-10" />
-                  <div className="flex flex-col">
-                    <h2 className="text-[20px] font-black text-main/90">
+                  <Image
+                    src={Formati}
+                    className="text-main w-8 h-10 fxl:w-16 fxl:h-16"
+                  />
+                  <div className="flex flex-col fxl:gap-2">
+                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
                       {wine.formatoTitle}
                     </h2>
-                    <p className="text-main/70"> {wine.formato}</p>
+                    <p className="text-main/70 fxl:text-xl"> {wine.formato}</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Vinificazione} className="text-main w-10 h-9" />
-                  <div className="flex flex-col">
-                    <h2 className="text-[20px] font-black text-main/90">
+                  <Image
+                    src={Vinificazione}
+                    className="text-main w-8 h-10 fxl:w-12 fxl:h-16"
+                  />
+                  <div className="flex flex-col fxl:gap-2">
+                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
                       {wine.vinificazioneTitle}
                     </h2>
-                    <p className="text-main/70"> {wine.vinificazione}</p>
+                    <p className="text-main/70 fxl:text-xl">
+                      {" "}
+                      {wine.vinificazione}
+                    </p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Zona} className="text-main w-10 h-10" />
-                  <div className="flex flex-col">
-                    <h2 className="text-[20px] font-black text-main/90">
+                  <Image
+                    src={Zona}
+                    className="text-main w-8 h-10 fxl:w-12 fxl:h-16"
+                  />
+                  <div className="flex flex-col fxl:gap-2">
+                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
                       {wine.zonaTitle}
                     </h2>
-                    <p className="text-main/70"> {wine.zona}</p>
+                    <p className="text-main/70 fxl:text-xl">{wine.zona}</p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Affinamento} className="text-main w-10 h-10" />
-                  <div className="flex flex-col">
-                    <h2 className="text-[18px] font-black text-main/90">
+                  <Image
+                    src={Affinamento}
+                    className="text-main w-8 h-10 fxl:w-12 fxl:h-16"
+                  />
+                  <div className="flex flex-col fxl:gap-2">
+                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
                       {wine.affinamentoTitle}
                     </h2>
-                    <p className="text-main/70">{wine.affinamento}</p>
+                    <p className="text-main/70 fxl:text-xl">
+                      {wine.affinamento}
+                    </p>
                   </div>
                 </li>
                 <li className="flex gap-4 items-center">
-                  <Image src={Servizio} className="text-main w-9 h-11" />
-                  <div className="flex flex-col ">
-                    <h2 className="text-[20px] font-black text-main/90">
+                  <Image
+                    src={Servizio}
+                    className="text-main w-8 h-10 fxl:w-12 fxl:h-16"
+                  />
+                  <div className="flex flex-col fxl:gap-2">
+                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
                       {wine.servizioTitle}
                     </h2>
-                    <p className="text-main/70">{wine.servizio}</p>
+                    <p className="text-main/70 fxl:text-xl">{wine.servizio}</p>
                   </div>
                 </li>
               </ul>
@@ -168,9 +209,9 @@ const SingleWine = ({ wine, others }) => {
               href={wine.recycle}
               download
               target="_blank"
-              className="flex items-center text-lg xl:text-2xl gap-2 text-main font-bold w-full max-w-max text-center  lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 border-main"
+              className="flex items-center text-lg xl:text-2xl gap-2 text-main font-bold w-full max-w-max text-center  lg:text-[21.57px] leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 border-main"
             >
-              Guida per reciclare
+              Etichettatura ambientale
               <Icon
                 icon="material-symbols:download"
                 color="#4A4A49"
@@ -180,7 +221,7 @@ const SingleWine = ({ wine, others }) => {
           </div>
 
           <div className="flex gap-6 items-center ">
-            <p className="text-lg xl:text-xl">Condividi su</p>
+            <p className="text-lg xl:text-xl fxl:text-2xl">Condividi su</p>
             <ul className="flex gap-6">
               <li>
                 {" "}
@@ -193,6 +234,7 @@ const SingleWine = ({ wine, others }) => {
                     icon="entypo-social:facebook"
                     width={25}
                     color="#4A4A49"
+                    className="fxl:w-[30px] fxl:h-[30px]"
                   />
                 </FacebookShareButton>
               </li>
@@ -206,6 +248,7 @@ const SingleWine = ({ wine, others }) => {
                     icon="mingcute:whatsapp-fill"
                     color="#4A4A49"
                     width="25"
+                    className="fxl:w-[32px] fxl:h-[32px]"
                   />
                 </WhatsappShareButton>
               </li>
@@ -227,13 +270,13 @@ const SingleWine = ({ wine, others }) => {
               >
                 <div className="w-full h-[450px] fxl:h-[450px]  relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white">
                   <Image
-                    className="object-contain left-20 top-[1.5rem] absolute w-[50%] h-[80%]"
+                    className="object-contain inset-0 absolute w-full h-[80%] mt-8"
                     src={otherWine.img}
                     alt={otherWine.name}
                     width={100}
                     height={100}
                   />
-                  <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[15.5px] font-bold  leading-snug">
+                  <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[15.5px] font-bold  leading-snug fxl:text-xl">
                     {otherWine.name}{" "}
                   </p>
                 </div>

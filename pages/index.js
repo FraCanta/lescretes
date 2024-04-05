@@ -104,7 +104,7 @@ export default function Home({ translation }) {
         <div className="w-[90%] mx-auto flex flex-col gap-8 lg:gap-20 ">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
             <div className="flex flex-col gap-4">
-              <h2 className="text-main text-[35px] leading-[36px] lg:text-[43.12px] font-bold  lg:leading-[55.10px]">
+              <h2 className="text-main text-[35px] leading-[36px] lg:text-[43.12px] fxl:text-6xl font-bold  lg:leading-[55.10px]">
                 Dicono di noi
               </h2>
               {/* <p className="lg:w-[90%] text-main lg:text-[21.56px] font-normal leading-9">

@@ -39,7 +39,7 @@ const Location = () => {
           <h2 className="text-main text-2xl font-bold">
             Da statale SS26 – Tempo di percorrenza da Aosta 10 min
           </h2>{" "}
-          <ul className="elenco_contatti flex flex-col gap-2 text-main/80">
+          <ul className="elenco_contatti flex flex-col gap-2 text-main/80 text-xl">
             <li>percorrendo SS26 seguire per Cogne/Coumayeur/ Pt-St-Bernard</li>
             <li>
               svoltare a sinistra su SS507 direzione Cogne fino alla rotonda

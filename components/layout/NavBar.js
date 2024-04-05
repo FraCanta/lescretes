@@ -82,7 +82,7 @@ const NavBar = ({ translation }) => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-4 h-4 3xl:w-8 3xl:h-8"
+                className="w-4 h-4 fxl:w-5 fxl:h-5 3xl:w-8 3xl:h-8"
               >
                 <path
                   strokeLinecap="round"

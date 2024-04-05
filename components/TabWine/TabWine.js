@@ -35,7 +35,7 @@ const TabWine = ({ tabs }) => {
         {tabs.map((tab, index) => (
           <motion.button
             key={index}
-            className={`cursor-pointer md:py-1 relative !text-[18px] md:!text-[22px] ${
+            className={`cursor-pointer md:py-1 relative !text-[18px] md:!text-[22px] fxl:!text-3xl ${
               activeTab === index ? "tab-bordered tab-active" : "tab-bordered"
             }`}
             onClick={() => changeTab(index)}
@@ -68,7 +68,7 @@ const TabWine = ({ tabs }) => {
           }`}
         >
           {!tab.content.name ? (
-            <div className="text-main/70 !text-base md:!text-lg md:w-[75%]">
+            <div className="text-main/70 !text-base md:!text-lg md:w-[75%] fxl:!text-2xl">
               {tab.content.text ? tab.content.text : ""}
             </div>
           ) : (

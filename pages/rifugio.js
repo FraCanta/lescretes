@@ -5,6 +5,8 @@ import Head from "next/head";
 import ImageGallery from "@/components/ImageGallery/ImageGallery";
 import Banner from "@/components/Banner/Banner";
 import Deg from "@/public/assets/degustazione.png";
+import Link from "next/link";
+import { Icon } from "@iconify/react";
 
 const Rifugio = () => {
   return (
@@ -18,12 +20,12 @@ const Rifugio = () => {
           text="Il Rifugio del Vino: sala di degustazione emozionale"
         />
       </div>
-      <div className="w-[90%]  flex-col justify-start items-start gap-[50px] flex mx-auto py-20 ">
+      <div className="w-[90%]  flex-col justify-start items-start gap-[50px] flex mx-auto py-20 fxl:gap-20">
         <div className="flex-col justify-start items-start gap-10 flex">
-          <h2 className="text-main text-[35px] md:text-5xl font-bold leading-[46px]">
+          <h2 className="text-main text-[35px] md:text-5xl font-bold fxl:text-6xl">
             L'edificio
           </h2>
-          <div className=" text-main text-base md:text-[20px] font-normal leading-9 flex flex-col gap-10">
+          <div className=" text-main text-base md:text-[20px] font-normal fxl:text-2xl flex flex-col gap-10">
             <p>
               Il Rifugio del Vino è un edificio di circa 170 metri quadrati,
               costruito a fianco della storica cantina dell’Azienda. Un progetto
@@ -50,10 +52,10 @@ const Rifugio = () => {
           </div>
         </div>
         <div className="flex-col justify-start items-start gap-10 flex">
-          <h2 className="text-main text-[35px] md:text-5xl font-bold leading-[46px]">
+          <h2 className="text-main text-[35px] md:text-5xl font-bold fxl:text-6xl">
             Lo stile architettonico
           </h2>
-          <div className=" text-main text-base md:text-[20px] font-normal leading-9 flex flex-col gap-10">
+          <div className=" text-main text-base md:text-[20px] font-normal flex flex-col gap-10 fxl:text-2xl">
             <p>
               L’architetto ha realizzato un edificio dall’aspetto contemporaneo,
               che nasce dalla trasformazione di un precedente progetto di
@@ -79,22 +81,49 @@ const Rifugio = () => {
       </div>
       <div className="w-full min-h-[40vh] flex flex-col justify-center bg-second   bg-pattern">
         <div className="w-[90%] h-full  mx-auto flex flex-col gap-4 md:gap-8 justify-center ">
-          <h3 className="text-main text-3xl md:text-4xl font-bold">
+          <h3 className="text-main text-3xl md:text-4xl font-bold fxl:text-5xl">
             Approfondimenti:
           </h3>{" "}
-          <ul className="flex flex-col gap-4  text-main text-[18px] md:text-[20px] font-normal leading-[33.20px]">
-            <li>- "Un inchino al castello"</li>
-            <li>- Vivere le Alpi</li>
-            <li>- Articolo su "Images"</li>
+          <ul className="flex flex-col gap-4  text-main text-[18px] md:text-[20px] font-normal fxl:text-2xl">
+            <li>
+              <Link
+                href="/pdf/Inchino_al_castello.pdf"
+                className="inline-flex items-center"
+                target="_blank"
+              >
+                <Icon icon="ph:dot-bold" width={40} />{" "}
+                <span className="underline"> "Un inchino al castello"</span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/pdf/Vivere-Le-Alpi-Art.-Domenico.pdf"
+                className="inline-flex items-center"
+                target="_blank"
+              >
+                <Icon icon="ph:dot-bold" width={40} />{" "}
+                <span className="underline">Vivere le Alpi</span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/pdf/Articolo_Images.pdf"
+                className="inline-flex items-center"
+                target="_blank"
+              >
+                <Icon icon="ph:dot-bold" width={40} />{" "}
+                <span className="underline">Articolo su "Images"</span>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
       <div className="w-[90%] mx-auto py-10">
         <div className="flex-col justify-start items-start gap-10 flex">
-          <h2 className="text-main text-[35px] md:text-5xl font-bold leading-[46px]">
+          <h2 className="text-main text-[35px] md:text-5xl font-bold fxl:text-6xl">
             Business meetings
           </h2>
-          <div className=" text-main text-base md:text-[20px] font-normal leading-9 flex flex-col gap-10">
+          <div className=" text-main text-base md:text-[20px] font-normal fxl:text-2xl flex flex-col gap-10 fxl:gap-16">
             <p>
               Le cantine Les Crêtes diventano la cornice ideale per incontri
               aziendali, convegni, conferenze stampa e molto altro. La nostra
@@ -104,7 +133,7 @@ const Rifugio = () => {
               organizziamo coffee break, pranzi o cene, avvalendoci della
               collaborazione di professionisti di fiducia.
             </p>
-            <ul className="flex flex-col gap-4  text-main text-[18px] md:text-[20px] font-normal leading-[33.20px]">
+            <ul className="flex flex-col gap-4 fxl:gap-8  text-main text-[18px] md:text-[20px] font-normal fxl:text-2xl">
               <li>- Info e Costi: 0165 902274 – info@lescretes.it</li>
               <li>- Allestimento catering: 60 posti a sedere</li>
               <li>
@@ -115,11 +144,11 @@ const Rifugio = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-6 xl:py-20 mx-auto my-14 w-[90%] justify-center items-center">
-        <h2 className="text-main text-[35px] md:text-5xl font-bold leading-[46px] text-center">
+      <div className="flex flex-col gap-6 fxl:gap-8 xl:py-20 mx-auto my-14  w-[90%] justify-center items-center">
+        <h2 className="text-main text-[35px] md:text-5xl font-bold fxl:text-6xl text-center">
           Uno sguardo al Rifugio
         </h2>
-        <p className=" text-main text-base md:text-[20px] font-normal leading-9 w-full md:w-[80%] lg:w-[40%] mx-auto text-center">
+        <p className=" text-main text-base md:text-[20px] font-normal fxl:text-2xl w-full md:w-[80%] lg:w-[40%] mx-auto text-center">
           Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar
           elementum tempus hac tellus libero accumsan.{" "}
         </p>

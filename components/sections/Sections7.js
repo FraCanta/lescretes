@@ -17,7 +17,7 @@ const Sections7 = () => {
     // Impedisce il comportamento predefinito del modulo
     e.preventDefault();
     // Puoi fare qualcosa con il valore di inputValue qui, ad esempio inviarlo al server
-    console.log("Valore inviato:", inputValue);
+    // console.log("Valore inviato:", inputValue);
     // Ripristina lo stato
     setIsEditing(false);
     setInputValue("");

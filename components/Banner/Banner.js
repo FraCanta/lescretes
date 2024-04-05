@@ -7,7 +7,7 @@ import CtaOutline from "../Cta/CtaOutline";
 
 const Banner = ({ img, title, paragraph, btn1, btn2, link1, link2 }) => {
   return (
-    <div className="w-full min-h-screen lg:min-h-[80vh]  py-[48px] 2xl:py-0  bg-main flex flex-wrap  items-center relative">
+    <div className="w-full min-h-screen lg:min-h-[80vh] fxl:min-h-[60vh]  py-[48px] 2xl:py-0  bg-main flex flex-wrap  items-center relative">
       <div className="grid grid-cols-1 2xl:grid-cols-2 w-[90%] mx-auto items-center justify-center h-full gap-10">
         <div className="relative h-[300px] lg:h-[450px]">
           <Image src={img} fill className="object-cover rounded-xl" alt="img" />
@@ -15,10 +15,12 @@ const Banner = ({ img, title, paragraph, btn1, btn2, link1, link2 }) => {
 
         <div className="flex flex-col h-full justify-center gap-8 relative lg:w-[90%] mx-auto ">
           <div className="flex flex-col gap-6">
-            <h3 className="text-white text-[32px] xl:text-[40px] font-bold leading-11 xl:w-[95%]">
+            <h3 className="text-white text-[32px] xl:text-[40px] font-bold fxl:text-5xl xl:w-[95%]">
               {title}
             </h3>
-            <p className="text-white text-[20px] lg:w-[90%]">{paragraph}</p>
+            <p className="text-white text-[20px] lg:w-[90%] fxl:text-2xl">
+              {paragraph}
+            </p>
             <div className="items-center gap-[28.76px] flex flex-col lg:flex-row w-full h-full z-40">
               <div className="w-full lg:w-max h-full flex justify-center">
                 <CtaWhite link={`${link1}`}>{btn1}</CtaWhite>

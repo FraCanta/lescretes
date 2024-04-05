@@ -12,10 +12,12 @@ const Sections6 = () => {
         <h2 className="w-full  text-white text-[40px] 2xl:text-[64px] fxl:text-[80px] font-bold leading-[55.37px]">
           Non solo Vino
         </h2>
-        <div className="w-full  text-white 2xl:text-[21.67px] fxl:text-[28px] font-normal  leading-9">
-          DeVin propone una formula cosmetica innovativa, naturale e efficace,
-          derivata da estratti biologici delle montagne, per soddisfare le
-          esigenze di chi cerca prodotti naturali ad alte prestazioni.
+        <div className="w-full  ">
+          <p className="text-white 2xl:text-xl fxl:text-2xl font-normal">
+            DeVin propone una formula cosmetica innovativa, naturale e efficace,
+            derivata da estratti biologici delle montagne, per soddisfare le
+            esigenze di chi cerca prodotti naturali ad alte prestazioni.
+          </p>
         </div>
         <div className="max-w-max z-[99999]">
           <CtaWhite link="/cosmesi">Scopri La Nostra Cosmesi</CtaWhite>
@@ -28,7 +30,7 @@ const Sections6 = () => {
           />
         </div>
       </div>
-      <div className="w-full  h-screen">
+      <div className="w-full aspect-square  h-full">
         <Image
           className="w-full h-full object-cover"
           width={500}

@@ -5,7 +5,6 @@ import Link from "next/link";
 import React from "react";
 
 const Notizie = ({ post }) => {
-  console.log(post);
   return (
     <>
       <Head>

@@ -8,10 +8,10 @@ const Sections2 = () => {
   return (
     <div className="w-full min-h-screen py-[90px] 3xl:py-[10rem]  gap-[50px] flex flex-col">
       <div className="w-[90%] mx-auto flex flex-col gap-4 3xl:gap-10">
-        <h2 className="text-main text-[30px] md:text-4xl lg:text-[2.880vw] font-bold leading-10  lg:leading-normal">
+        <h2 className="text-main text-[32px] md:text-4xl lg:text-[2.880vw] font-bold leading-10  lg:leading-normal">
           Passione e innovazione da oltre 200 anni
         </h2>
-        <p className="lg:w-2/3 text-[4.5vw] md:text-[2.5vw] lg:text-[1.3vw] 3xl:text-[2.25rem] 3xl:leading-[1.2] leading-8 lg:leading-9">
+        <p className="lg:w-2/3 text-xl md:text-[2.5vw] lg:text-xl fxl:text-2xl 3xl:text-[2.25rem]  3xl:leading-[1.2] leading-8 lg:leading-9">
           La storia della famiglia Charrère ha inizio nel 1750 e vive ancora
           oggi con grande rispetto delle tradizioni e dei valori tramandati nel
           tempo. L’attenzione all’innovazione e la cura del territorio sono il

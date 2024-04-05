@@ -4,11 +4,10 @@ import { motion } from "framer-motion"; // Importa il componente motion
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 
 const Tabs = ({ tabs }) => {
-  console.log(tabs);
   const [activeTab, setActiveTab] = useState(0);
 
   const openCity = (index) => {
@@ -19,6 +18,27 @@ const Tabs = ({ tabs }) => {
     rest: { width: "0%", transition: { duration: 0.1 } },
     active: { width: "100%", transition: { duration: 0.1 } },
   };
+
+  useEffect(() => {
+    const cursor = document.querySelector(".cursor");
+    const body = document.body;
+    const toggleClass = "show-custom-cursor";
+
+    function pointermoveHandler(e) {
+      const target = e.target;
+      if (
+        e.target.closest(".carousel-wrapper") &&
+        window.matchMedia("(hover: hover)").matches
+      ) {
+        body.classList.add(toggleClass);
+        cursor.style.setProperty("--cursor-x", `${e.clientX}px`);
+        cursor.style.setProperty("--cursor-y", `${e.clientY}px`);
+      } else {
+        body.classList.remove(toggleClass);
+      }
+    }
+    document.addEventListener("pointermove", pointermoveHandler);
+  }, []);
 
   return (
     <div className="pt-10">
@@ -67,7 +87,7 @@ const Tabs = ({ tabs }) => {
             pagination={{
               clickable: true,
             }}
-            className="mySwiper"
+            className="carousel-wrapper"
             breakpoints={{
               300: {
                 slidesPerView: 1,
@@ -96,7 +116,7 @@ const Tabs = ({ tabs }) => {
                 <Link
                   href={content.link}
                   key={contentIndex}
-                  className="w-full h-[450px] fxl:h-full relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white"
+                  className="w-full h-[450px] fxl:h-full relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white "
                 >
                   <motion.div // Usa motion.div anziché div
                     className="w-full h-[450px] fxl:h-[500px] relative"
@@ -119,6 +139,14 @@ const Tabs = ({ tabs }) => {
           </Swiper>
         </motion.div>
       ))}
+      <div class="cursor">
+        <img
+          width="40"
+          height="42"
+          src="https://assets.codepen.io/162656/cursor-swipe.svg"
+          alt="swipe indicator"
+        />
+      </div>
     </div>
   );
 };

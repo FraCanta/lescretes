@@ -4,14 +4,14 @@ import View from "@/public/assets/cotoView.jpg";
 import Link from "next/link";
 const Sections3 = () => {
   return (
-    <div className="w-[90%]  flex-col justify-start items-start gap-[20px] xl:gap-[50px] flex mx-auto">
-      <h3 className="text-main text-[35px] xl:text-5xl font-bold xl:leading-[50px]">
+    <div className="w-[90%]  flex-col justify-start items-start gap-[20px] xl:gap-[50px] fxl:gap-20 flex mx-auto">
+      <h3 className="text-main text-[35px] xl:text-5xl fxl:text-6xl font-bold xl:leading-[50px]">
         La nostra filosofia
       </h3>
-      <div className="flex-col justify-start items-start gap-5 flex text-main text-base xl:text-[20px] font-normal leading-9">
+      <div className="flex-col justify-start items-start gap-8 flex text-main text-base xl:text-[20px] fxl:text-2xl font-normal leading-9">
         <p>
           L’azienda Les Crêtes produce{" "}
-          <span className="underline font-bold">
+          <span className="underline font-bold px-1">
             <Link href="/vini">i suoi vini</Link>
           </span>{" "}
           in un contesto alpino, che si sviluppa ai piedi del Monte Bianco,
@@ -32,8 +32,8 @@ const Sections3 = () => {
           fare un utilizzo ridotto di fitofarmaci. Questa è la nostra filosofia.
         </p>
       </div>
-      <div className="flex-col justify-start items-start gap-[50px] flex">
-        <h3 className="text-main text-[35px] xl:text-5xl font-bold 2xl:leading-[50px]">
+      <div className="flex-col justify-start items-start gap-[50px] flex fxl:gap-20">
+        <h3 className="text-main text-[35px] xl:text-5xl fxl:text-6xl font-bold 2xl:leading-[50px]">
           Dare valore al territorio significa tutelarne l’identità
         </h3>
         <div className="relative h-[50vh] xl:h-[70vh] w-full">
@@ -43,11 +43,11 @@ const Sections3 = () => {
             src={View}
           />
         </div>
-        <div className="flex-col justify-start items-start gap-5 flex text-main text-base xl:text-[20px] font-normal leading-9">
+        <div className="flex-col justify-start items-start gap-8 flex text-main text-base xl:text-[20px] fxl:text-2xl font-normal leading-9">
           <p>
             La principio cardine della filosofia dell’azienda è continuare a
             seguire i valori delle generazioni passate valorizzando il{" "}
-            <Link href="/terroir" className="underline font-bold">
+            <Link href="/terroir" className="underline font-bold px-2">
               “Terroir”
             </Link>{" "}
             con fedeltà e rispetto delle tradizioni. Lo sguardo, però, è sempre
