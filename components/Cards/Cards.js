@@ -17,21 +17,21 @@ const Cards = ({
     <>
       {link ? (
         <Link href={link}>
-          <div className="card w-full xl:w-full h-full border">
+          <div className="card h-full border">
             <figure className="p-4 ">
               <Image
                 src={img}
-                alt="Shoes"
-                className="rounded rounded-lg h-[35vh] object-cover"
+                alt={`${title} degustazione img`}
+                className="rounded-lg h-[35vh] object-cover w-full"
                 width={500}
                 height={600}
               />
             </figure>
             <div className="card-body !p-2">
-              <h2 className="card-title !justify-center font-bold text-[20px] fxl:text-[25px]">
+              <h2 className="card-title !justify-center font-bold text-[20px] fxl:text-3xl">
                 {title}
               </h2>
-              <p className="text-center text-[15px]">{descrizione}</p>
+              <p className="text-center text-lg fxl:text-xl">{descrizione}</p>
               <div className="card-actions justify-center border-t mt-4">
                 <p className="text-center py-4 font-bold text-[16px]">
                   {price}
@@ -45,8 +45,8 @@ const Cards = ({
           <figure className="p-4">
             <Image
               src={img}
-              alt="Shoes"
-              className="rounded rounded-lg h-[35vh] object-cover"
+              alt={`${title} degustazione img`}
+              className="rounded-lg h-[35vh] object-cover"
               width={500}
               height={600}
             />

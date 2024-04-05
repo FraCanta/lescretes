@@ -35,18 +35,18 @@ const SingleDeg = ({ deg }) => {
           content={`https://lescretes-liard.vercel.app${deg.img}`}
         />
       </Head>
-      <div className="min-h-[55vh] xl:min-h-[70vh] w-[90%] my-6 mx-auto flex items-center justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main before:opacity-40 before:rounded-lg">
+      <div className="min-h-[55vh] xl:min-h-[90vh] fxl:min-h-[90vh] w-full my-6 mx-auto flex items-center justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main before:opacity-40 before:rounded-lg">
         <div className="p-8 w-full h-full ">
           <Image
             src={deg?.img}
             alt={deg.name}
             fill
             priority
-            className="object-cover rounded-lg h-full"
+            className="object-cover  h-full"
           />
         </div>
-        <div className=" flex flex-col xl:flex-row gap-4 xl:gap-0 justify-between w-[90%] translate-x-[6%]  absolute bottom-4 xl:bottom-0 left-0  xl:p-8 z-[999]">
-          <h1 className="text-white text-[40px] leading-[52px] xl:text-[56px] xl:leading-[66px] font-bold">
+        <div className=" flex flex-col xl:flex-row gap-4 xl:gap-0 justify-between w-[90%] translate-x-[6%]  absolute bottom-4 xl:bottom-0 left-0  xl:py-8 z-[999]">
+          <h1 className="text-white text-[40px] leading-[52px] xl:text-[56px] xl:leading-[66px] font-bold fxl:text-7xl">
             {deg?.name}
           </h1>
         </div>
@@ -54,9 +54,13 @@ const SingleDeg = ({ deg }) => {
 
       <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-8 xl:gap-2 py-10 flex-col">
         <div className="flex h-full ">
-          <Image src={Bicchiere} className="h-full w-12" alt="bicchiere" />
+          <Image
+            src={Bicchiere}
+            className="h-full w-12 fxl:w-20 "
+            alt="bicchiere"
+          />
           <div className="flex flex-col ">
-            <h2 className="font-bold text-[18px] text-main">
+            <h2 className="font-bold text-[18px] text-main fxl:text-2xl">
               {deg.degustazione.title}
             </h2>
             <p className="text-[16px]">{deg.degustazione.vini}</p>

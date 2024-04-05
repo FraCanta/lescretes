@@ -22,8 +22,8 @@ const Cosmesi = ({ translation }) => {
           img={Cosmetico}
         />
       </div>
-      <div className="w-[90%] min-h-screen flex-col justify-start items-center gap-[60px] flex mx-auto py-10 ">
-        <div className="flex flex-col gap-8  text-main text-[18px] xl:text-[20px] font-normal leading-[33.20px]">
+      <div className="w-[90%] min-h-screen flex-col justify-start items-center gap-[60px]  flex mx-auto py-10 ">
+        <div className="flex flex-col gap-8  text-main text-xl font-normal fxl:text-2xl">
           <p>
             La linea cosmetica DeVin presenta la sua innovativa formula naturale
             con attivi biologici all’olio di vinaccioli, polifenoli dell’uva e
@@ -32,7 +32,7 @@ const Cosmesi = ({ translation }) => {
             rinunciare all’efficacia degli estratti attivi naturali del terroir
             di montagna, isolati e sviluppati con le più avanzate tecnologie.
           </p>
-          <h2 className="text-main text-3xl  md:text-5xl font-bold md:leading-[50.91px]">
+          <h2 className="text-main text-3xl  md:text-5xl font-bold fxl:text-5xl">
             Indicazioni e benefici
           </h2>
           <p>
@@ -58,7 +58,7 @@ const Cosmesi = ({ translation }) => {
         </div>
 
         <div className="w-full flex-col   gap-[60px] flex">
-          <h2 className="text-main md:text-[40px] text-[35px] font-bold md:leading-[59.58px]">
+          <h2 className="text-main md:text-6xl text-4xl font-bold ">
             Prenditi cura di te stesso e della natura attorno
           </h2>
           <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
@@ -94,19 +94,19 @@ const Cosmesi = ({ translation }) => {
               </div>
             </div>
           </div>
-          <h2 className="text-main md:text-[40px] text-[35px] font-bold md:leading-[59.58px]">
+          <h2 className="text-main md:text-5xl text-3xl font-bold ">
             Principali principi attivi della linea DeVin
           </h2>
           <div className="flex flex-col gap-4">
             <div className="collapse collapse-plus  bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-[20px] md:text-[25px] xl:text-2xl font-black  md:leading-[30.43px]">
+                <h3 className="text-main text-2xl font-black fxl:text-3xl">
                   Olio di vinaccioli
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
                   L’olio di vinaccioli, ottenuto tramite il procedimento di
                   spremitura a freddo, si estrae dai semi dell’uva,
                   rigorosamente senza l’impiego di solventi chimici. I semi di
@@ -126,12 +126,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-[20px] md:text-[25px] xl:text-2xl font-black  md:leading-[30.43px]">
+                <h3 className="text-main text-2xl font-black fxl:text-3xl">
                   Glicerina vegetale
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
                   Composto organico nella cui struttura sono presenti tre gruppi
                   molto affini all’acqua. Il suo ruolo è quello di mantenere una
                   corretta idratazione poiché ha la facoltà di trattenere e
@@ -144,12 +144,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-[20px] md:text-[25px] xl:text-2xl font-black  md:leading-[30.43px]">
+                <h3 className="text-main text-2xl font-black fxl:text-3xl">
                   Estratto di camomilla biologica (fiori)
                 </h3>
               </div>
               <div className="collapse-content">
-                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
                   Una vera ricchezza della natura, con azione lenitiva,
                   emolliente e protettiva. Offre uno scudo di difesa contro gli
                   agenti atmosferici aggressivi, per un immediato effetto di
@@ -161,12 +161,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-[20px] md:text-[25px] xl:text-2xl font-black  md:leading-[30.43px]">
+                <h3 className="text-main text-2xl font-black fxl:text-3xl">
                   NMF ricostituito (Natural Moisturizing Factor)
                 </h3>
               </div>
               <div className="collapse-content">
-                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
                   Preziosa miscela idratante composta da sali (di Magnesio,
                   Manganese, Zinco, Calcio) legati al PCA, zuccheri, aminoacidi
                   (tra cui la prolina, amminoacido fondamentale per la sintesi
@@ -189,12 +189,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-[20px] md:text-[25px] xl:text-2xl font-black  md:leading-[30.43px]">
+                <h3 className="text-main text-2xl font-black fxl:text-3xl">
                   Polisaccaride, protettivo effetto barriera.{" "}
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
                   Alcuni microrganismi batterici vegetali auto producono dei
                   polisaccaridi ad elevato peso molecolare, per migliorare le
                   loro capacità di difesa e le loro possibilità di
@@ -211,12 +211,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-[20px] md:text-[25px] xl:text-2xl font-black  md:leading-[30.43px]">
+                <h3 className="text-main text-2xl font-black fxl:text-3xl">
                   Alghe marine{" "}
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
                   Ricche in mucillagini (tra cui alginati), sali minerali, con
                   un’azione emolliente, idratante, ammorbidente, protettiva,
                   ideale per pelli secche.
@@ -227,12 +227,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-[20px] md:text-[25px] xl:text-2xl font-black  md:leading-[30.43px]">
+                <h3 className="text-main text-2xl font-black fxl:text-3xl">
                   Acido ialuronico{" "}
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
                   Molecola idratante per eccellenza, naturalmente presente nella
                   pelle per trattenere acqua nei tessuti. Il suo compito è
                   mantenere la pelle elastica, tesa e idratata e di aumentarne
@@ -246,12 +246,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-[20px] md:text-[25px] xl:text-2xl font-black  md:leading-[30.43px]">
+                <h3 className="text-main text-2xl font-black fxl:text-3xl">
                   Collagene idrolizzato
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
                   Proteina della bellezza, con funzione di sostegno strutturale
                   e capacità di intrappolare acqua nei tessuti. Determina
                   l’aspetto teso, elastico e compatto della pelle. Viene
@@ -265,12 +265,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-[20px] md:text-[25px] xl:text-2xl font-black  md:leading-[30.43px]">
+                <h3 className="text-main text-2xl font-black fxl:text-3xl">
                   Estratto di avena biologica
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/60 text-lg font-normal leading-[30.43px]">
+                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
                   Altamente dermocompatibile, contrasta l’invecchiamento
                   cutaneo, idrata e potenzia la naturale rigenerazione
                   cellulare. Forma un velo di protezione che rede la pelle

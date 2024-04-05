@@ -25,7 +25,7 @@ const Degustazioni = ({ translation }) => {
         {/* <h2 className="xl:text-center text-main text-5xl  xl:text-5xl font-bold xl:leading-[50.91px]">
           Prenota la tua degustazione
         </h2> */}
-        <div className="flex flex-col gap-4 xl:text-center text-main text-[18px] xl:text-[20px] font-normal leading-[33.20px]">
+        <div className="flex flex-col gap-4 xl:text-center text-main text-xl font-normal fxl:text-2xl">
           <p>
             Il <span className="font-bold">Rifugio del Vino</span> è una vera
             terrazza sulla vigne che sovrastano la città di Aosta, un luogo dove

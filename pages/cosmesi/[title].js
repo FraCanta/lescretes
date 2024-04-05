@@ -50,7 +50,7 @@ const SingleCosmetic = ({ cosm, others }) => {
             </p>
           </div>
           {cosm?.descrizione?.map((el, i) => (
-            <p className="text-base fxl:text-2xl" key={i}>
+            <p className="text-xl xl:text-lg fxl:text-2xl" key={i}>
               {el.testo}
             </p>
           ))}
@@ -58,23 +58,19 @@ const SingleCosmetic = ({ cosm, others }) => {
           <div className="collapse collapse-arrow bg-second">
             <input type="radio" name="my-accordion-2" />
             <div className="collapse-title font-medium ">
-              <h2 className="text-[20px] font-bold fxl:text-2xl">
-                {cosm.ingredientiTitle}
-              </h2>
+              <h2 className="text-2xl font-bold ">{cosm.ingredientiTitle}</h2>
             </div>
             <div className="collapse-content">
-              <p className="text-base fxl:text-2xl">{cosm.ingredienti}</p>
+              <p className="text-lg fxl:text-xl">{cosm.ingredienti}</p>
             </div>
           </div>
           <div className="collapse collapse-arrow bg-second">
             <input type="radio" name="my-accordion-2" />
             <div className="collapse-title text-xl font-medium ">
-              <h2 className="text-[20px] font-bold fxl:text-2xl">
-                {cosm.istruzioniTitle}
-              </h2>
+              <h2 className="font-bold text-2xl">{cosm.istruzioniTitle}</h2>
             </div>
             <div className="collapse-content">
-              <p className="text-base fxl:text-2xl">{cosm.istruzioni}</p>
+              <p className="text-lg fxl:text-xl">{cosm.istruzioni}</p>
             </div>
           </div>
 
@@ -135,7 +131,7 @@ const SingleCosmetic = ({ cosm, others }) => {
         <FAQ />
       </div>
       <div className="flex flex-col w-[90%] mx-auto py-10 gap-[30px] fxl:gap-[50px] fxl:py-20">
-        <h2 className="text-[35px] font-bold fxl:text-[55px]">
+        <h2 className="text-3xl font-bold fxl:text-5xl">
           Ti potrebbero anche interessare
         </h2>
 
