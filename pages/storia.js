@@ -24,17 +24,13 @@ export default function Storia({ translation }) {
       <Sections1 />
       <Sections2 />
       <Sections3 />
-      <div className="xl:min-h-[80vh] flex flex-col justify-center items-center relative ">
+      <div className="min-h-[60vh] xl:min-h-[80vh] flex flex-col justify-center items-center relative ">
         <div className="w-[90%] mx-auto flex flex-col gap-8 lg:gap-20 ">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
             <div className="flex flex-col gap-4">
               <h2 className="text-main text-[35px] leading-[36px] lg:text-[43.12px] fxl:text-6xl font-bold  lg:leading-[55.10px]">
                 Dicono di noi
               </h2>
-              {/* <p className="lg:w-[90%] text-main lg:text-[21.56px] font-normal leading-9">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit semper
-                dalar elementum tempus hac tellus libero accumsan.{" "}
-              </p> */}
             </div>
             <div className="flex items-end lg:justify-end">
               <Link
