@@ -14,7 +14,7 @@ const Terroir = () => {
       </div>
       <div className="w-[90%]  flex-col justify-start items-start gap-[50px] flex mx-auto py-20 fxl:gap-20">
         <div className="flex-col justify-start items-start gap-10 flex">
-          <div className=" text-main text-base md:text-[20px] font-normal leading-9 fxl:text-2xl flex flex-col gap-10 fxl:gap-16">
+          <div className=" text-main text-xl md:text-2xl 2xl:text-xl font-normal fxl:text-2xl flex flex-col gap-10 fxl:gap-16">
             <p>
               Situata nel cuore delle Alpi ed incastonata tra “quattro grandi”
               come il Monte Bianco, il Cervino, il Monte Rosa ed il Gran
@@ -78,7 +78,7 @@ const Terroir = () => {
           <h2 className="text-main text-[35px] md:text-5xl fxl:text-6xl font-bold leading-[46px]">
             I vini rossi
           </h2>
-          <div className=" text-main text-base md:text-[20px] font-normal fxl:text-2xl leading-9 flex flex-col gap-10 fxl:gap-16">
+          <div className=" text-main text-xl md:text-2xl 2xl:text-xl font-normal fxl:text-2xl  flex flex-col gap-10 fxl:gap-16">
             <p>
               I vini rossi Les Crêtes nascono tra 350-800 m di altitudine. I
               vigneti sono frazionati in micro-parcelle (con estensione media
@@ -113,7 +113,7 @@ const Terroir = () => {
           <h2 className="text-main text-[35px] md:text-5xl font-bold leading-[46px] fxl:gap-6xl">
             I vini bianchi
           </h2>
-          <div className=" text-main text-base md:text-[20px] font-normal leading-9 flex flex-col gap-10 fxl:gap-16 fxl:text-2xl">
+          <div className=" text-main text-xl md:text-2xl 2xl:text-xl font-normal flex flex-col gap-10 fxl:gap-16 fxl:text-2xl">
             <p>
               I vigneti, da cui nascono i nostri vini bianchi, sono coltivati
               tra 600-800 m di altitudine. Per la conformazione geografica della
@@ -143,7 +143,7 @@ const Terroir = () => {
           <h2 className="text-main text-[35px] md:text-5xl font-bold leading-[46px] fxl:text-6xl">
             Le bollicine e i desserts
           </h2>
-          <div className=" text-main text-base md:text-[20px] font-normal leading-9 flex flex-col gap-10 fxl:gap-16 fxl:text-2xl">
+          <div className=" text-main text-xl md:text-2xl 2xl:text-xl font-normal flex flex-col gap-10 fxl:gap-16 fxl:text-2xl">
             <p>
               Il Neblù è un blend di uve a bacca nera, coltivate nelle nostre
               proprietà sin dall’antichità. Dal 2005 Les Crêtes ha avviato la

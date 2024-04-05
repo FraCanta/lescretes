@@ -5,8 +5,8 @@ import Eco from "@/public/assets/eco.png";
 const Sections5 = () => {
   return (
     <>
-      <div className="min-h-[80vh]   flex flex-col xl:flex-row ">
-        <div className="w-full  min-h-screen  flex flex-col gap-20 p-8 py-10 xl:gap-14 2xl:p-20 fxl:gap-24 justify-center   relative">
+      <div className="min-h-[80vh] flex flex-col xl:flex-row ">
+        <div className="w-full    flex flex-col gap-20 p-8 py-20 xl:gap-14 2xl:p-20 fxl:gap-24 justify-center  relative">
           <div className="flex flex-col gap-2 ">
             <div className="bg-white h-[50px] w-[50px] rounded-full flex items-center justify-center ">
               <svg
@@ -48,10 +48,10 @@ const Sections5 = () => {
                 />
               </svg>
             </div>
-            <h3 className="text-[30px] lg:text-[40px] fxl:text-[50px] text-white font-black">
+            <h3 className="text-[30px] md:text-[40px] fxl:text-[50px] text-white font-black">
               Sostenibilità
             </h3>
-            <p className="text-[20px] xl:text-base 2xl:text-xl fxl:text-2xl text-white font-medium w-full lg:w-[80%] fxl:w-[90%]">
+            <p className="text-xl md:text-2xl 2xl:text-xl fxl:text-2xl text-white font-medium w-full lg:w-[80%] fxl:w-[90%]">
               Ci impegniamo per la sostenibilità ambientale e seguiamo le linee
               guida europee per i trattamenti fitosanitari, privilegiando un uso
               limitato di fitofarmaci. La nostra dedizione alla qualità e alla
@@ -76,10 +76,10 @@ const Sections5 = () => {
                 />
               </svg>
             </div>
-            <h3 className="text-[30px] lg:text-[40px] fxl:text-[50px] text-white font-black">
+            <h3 className="text-[30px] md:text-[40px] fxl:text-[50px] text-white font-black">
               Impegno
             </h3>
-            <p className="text-[20px] xl:text-base 2xl:text-xl fxl:text-2xl text-white font-medium w-full lg:w-[80%] fxl:w-[90%] ">
+            <p className="text-xl md:text-2xl 2xl:text-xl fxl:text-2xl text-white font-medium w-full lg:w-[80%] fxl:w-[90%] ">
               Il principio cardine della nostra filosofia è continuare a seguire
               i valori delle generazioni passate, valorizzando il "Terroir" con
               fedeltà e rispetto delle tradizioni. Tuttavia, il nostro sguardo è
@@ -88,7 +88,7 @@ const Sections5 = () => {
               montagna della Valle d'Aosta.
             </p>
           </div>{" "}
-          <div className="w-full h-[150px] lg:h-[350px] absolute bottom-0 left-0">
+          <div className="w-full h-[150px] md:h-[350px] absolute bottom-0 left-0">
             <Image
               src={Pattern}
               fill
@@ -98,7 +98,7 @@ const Sections5 = () => {
         </div>
         <div className="w-full aspect-square relative">
           <Image
-            className="w-full h-full   object-cover xl:object-[-400px] fxl:object-[-450px]"
+            className="w-full h-full   object-cover xl:object-[-600px] 2xl:object-[-400px] fxl:object-[-450px]"
             fill
             src={Eco}
           />

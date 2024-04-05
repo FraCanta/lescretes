@@ -2,12 +2,12 @@ import React from "react";
 
 const Sections1 = () => {
   return (
-    <div className="w-[90%] min-h-screen  flex-col justify-start items-start gap-[50px] fxl:gap-20 flex mx-auto mt-20 xl:mt-0">
+    <div className="w-[90%] min-h-screen  flex-col justify-start items-start gap-[50px] md:gap-20 fxl:gap-20 flex mx-auto mt-20 xl:mt-0">
       <div className="flex-col justify-start items-start gap-8 flex">
-        <h2 className="text-main text-[35px] xl:text-5xl fxl:text-6xl font-bold">
+        <h2 className="text-main text-[35px] md:text-5xl fxl:text-6xl font-bold">
           La leggenda
         </h2>
-        <div className=" text-main text-[20px] fxl:text-2xl font-normal flex flex-col gap-4">
+        <div className=" text-main text-[20px] md:text-2xl 2xl:text-xl fxl:text-2xl font-normal flex flex-col gap-4">
           <p>
             Le figlie, Elena ed Eleonora, del 1977 e del 1980, avevano il
             compito di ricercare nei prati di Ozein le coccinelle per l'azienda.
@@ -23,10 +23,10 @@ const Sections1 = () => {
         </div>
       </div>
       <div className="flex-col justify-start items-start gap-8 flex">
-        <h2 className="text-main text-[35px] xl:text-5xl fxl:text-6xl font-bold">
+        <h2 className="text-main text-[35px] md:text-5xl xl:text-5xl fxl:text-6xl font-bold">
           L’inizio
         </h2>
-        <div className=" text-main text-[20px] fxl:text-2xl font-normal flex flex-col gap-4 fxl:gap-6">
+        <div className=" text-main text-[20px] md:text-2xl 2xl:text-xl fxl:text-2xl font-normal flex flex-col gap-4 fxl:gap-6">
           <p>
             Il trisnonno Bernardin Charrère emigrò dall’ Alta Savoia ad
             Aymavilles intorno al 1750, costruendo l'edificio attualmente
@@ -53,10 +53,10 @@ const Sections1 = () => {
         </div>
       </div>
       <div className="flex-col justify-start items-start gap-8 flex">
-        <h2 className="text-main text-[35px] xl:text-5xl fxl:text-6xl font-bold ">
+        <h2 className="text-main text-[35px] md:text-5xl xl:text-5xl fxl:text-6xl font-bold ">
           Costantino Charrère
         </h2>
-        <div className=" text-main text-[20px] fxl:text-2xl font-normal flex flex-col gap-4 fxl:gap-6">
+        <div className=" text-main text-[20px] md:text-2xl 2xl:text-xl fxl:text-2xl font-normal flex flex-col gap-4 fxl:gap-6">
           <p>
             Costantino, atletico professore di ginnastica, come la moglie
             peraltro, e maestro di sci, ha continuato l’opera del papà Antoine e

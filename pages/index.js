@@ -91,7 +91,7 @@ export default function Home({ translation }) {
       <div className="min-h-screen">
         <Sections2 />
       </div>
-      <div className="min-h-screen bg-main flex flex-col justify-center items-center relative ">
+      <div className=" bg-main flex flex-col justify-center items-center relative ">
         <Sections3 />
       </div>
       <div className="min-h-screen flex flex-col justify-center items-center relative ">
@@ -100,11 +100,11 @@ export default function Home({ translation }) {
       <div className="min-h-screen fxl:min-h-[80vh] bg-main flex flex-col justify-center items-center relative ">
         <Sections5 />
       </div>
-      <div className="min-h-[80vh] fxl:min-h-[80vh] flex flex-col justify-center items-center relative ">
+      <div className="min-h-[60vh] xl:min-h-[80vh]  flex flex-col justify-center items-center relative ">
         <div className="w-[90%] mx-auto flex flex-col gap-8 lg:gap-20 ">
-          <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
             <div className="flex flex-col gap-4">
-              <h2 className="text-main text-[35px] leading-[36px] lg:text-[43.12px] fxl:text-6xl font-bold  lg:leading-[55.10px]">
+              <h2 className="text-main text-3xl md:text-5xl lg:text-[43.12px] fxl:text-6xl font-bold  lg:leading-[55.10px]">
                 Dicono di noi
               </h2>
               {/* <p className="lg:w-[90%] text-main lg:text-[21.56px] font-normal leading-9">
@@ -112,7 +112,7 @@ export default function Home({ translation }) {
                 dalar elementum tempus hac tellus libero accumsan.{" "}
               </p> */}
             </div>
-            <div className="flex items-end lg:justify-end">
+            <div className="flex items-end md:justify-end">
               <CtaPrimary link="https://g.page/r/CXZcr8aa7zgbEBM/review">
                 Scrivi Recensione
               </CtaPrimary>

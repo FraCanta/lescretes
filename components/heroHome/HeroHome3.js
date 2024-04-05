@@ -23,7 +23,7 @@ const HeroHome3 = ({ translation }) => {
         <AnimatePresence>
           <motion.h1
             key="h1"
-            className="w-full text-white font-bold xs:text-[45px] xs:leading-[55px] sm:text-[55px]  md:text-8xl lg:text-[60px] 2xl:text-[80px]  fxl:text-[80px] 3xl:text-[120px] pr-10 md:pr-20 "
+            className="w-full text-white font-bold xs:text-[45px] xs:leading-[55px] sm:text-[55px]  md:text-7xl lg:text-[60px] 2xl:text-[80px]  fxl:text-[80px] 3xl:text-[120px] pr-10 md:pr-20 "
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5, ease: "easeInOut" }}

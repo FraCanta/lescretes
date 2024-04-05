@@ -8,6 +8,7 @@ import Sections3 from "@/components/storiaSections/Sections3";
 import Link from "next/link";
 import Reviews from "@/components/sections/Reviews";
 import Head from "next/head";
+import CtaPrimary from "@/components/Cta/CtaPrimary";
 
 export default function Storia({ translation }) {
   return (
@@ -24,22 +25,21 @@ export default function Storia({ translation }) {
       <Sections1 />
       <Sections2 />
       <Sections3 />
-      <div className="min-h-[60vh] xl:min-h-[80vh] flex flex-col justify-center items-center relative ">
-        <div className="w-[90%] mx-auto flex flex-col gap-8 lg:gap-20 ">
-          <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
+      <div className="min-h-[60vh] md:min-h-[50vh] xl:min-h-[80vh] flex flex-col justify-center items-center relative ">
+        <div className="w-[90%] mx-auto flex flex-col gap-8 md:gap-20 ">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex flex-col gap-4">
-              <h2 className="text-main text-[35px] leading-[36px] lg:text-[43.12px] fxl:text-6xl font-bold  lg:leading-[55.10px]">
+              <h2 className="text-main text-3xl md:text-5xl lg:text-[43.12px] fxl:text-6xl font-bold  lg:leading-[55.10px]">
                 Dicono di noi
               </h2>
             </div>
-            <div className="flex items-end lg:justify-end">
-              <Link
-                className="capitalize font-bold py-2.5 px-6 xl:py-2 xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 xl:text-[1rem] 2xl:text-[1.2rem]  fxl:text-2xl 3xl:text-3xl rounded-[32px] shadow  text-white hover:transition-all  bg-[#4A4A49] max-w-max max-h-max"
-                href="https://g.page/r/CXZcr8aa7zgbEBM/review"
+            <div className="flex items-end md:justify-end">
+              <CtaPrimary
+                link="https://g.page/r/CXZcr8aa7zgbEBM/review"
                 target="_blank"
               >
                 Scrivi Recensione
-              </Link>
+              </CtaPrimary>
             </div>
           </div>
 

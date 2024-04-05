@@ -16,7 +16,7 @@ const Tabs = ({ translation }) => {
   };
 
   return (
-    <div className="pt-20">
+    <div className="pt-20 xl:pt-0">
       <div className="flex flex-wrap gap-[20px]  !pl-0">
         {translation.map((tab, index) => (
           <button

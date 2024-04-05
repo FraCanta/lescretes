@@ -99,6 +99,10 @@ const Tabs = ({ tabs }) => {
                 slidesPerView: 1,
                 spaceBetween: 40,
               },
+              820: {
+                slidesPerView: 2.2,
+                spaceBetween: 40,
+              },
               1024: {
                 slidesPerView: 4,
                 spaceBetween: 20,
@@ -138,13 +142,13 @@ const Tabs = ({ tabs }) => {
                 </Link>
               </SwiperSlide>
             ))}
-            <div className="relative w-full mt-16 block lg:hidden">
+            <div className="relative w-full mt-16 block md:hidden">
               <div class="swiper-pagination mt-10"></div>
             </div>
           </Swiper>
         </motion.div>
       ))}
-      <div class="cursor hidden xl:block">
+      <div class="cursor hidden lg:block">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40px"
