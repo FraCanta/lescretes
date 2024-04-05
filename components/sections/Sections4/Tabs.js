@@ -77,7 +77,7 @@ const Tabs = ({ tabs }) => {
             transition: { duration: 0.5 },
           }}
           exit={{ opacity: 0, y: 20 }}
-          className={`w-full py-10 gap-4 ${
+          className={`w-full pt-10 gap-4 ${
             activeTab === index ? "tabcontent" : "tabcontent hidden"
           }`}
         >
