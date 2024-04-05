@@ -86,7 +86,9 @@ const Tabs = ({ tabs }) => {
             spaceBetween={20}
             pagination={{
               clickable: true,
+              el: ".swiper-pagination",
             }}
+            modules={[Pagination]}
             className="carousel-wrapper"
             breakpoints={{
               300: {
@@ -136,6 +138,9 @@ const Tabs = ({ tabs }) => {
                 </Link>
               </SwiperSlide>
             ))}
+            <div className="relative w-full mt-16 block lg:hidden">
+              <div class="swiper-pagination mt-10"></div>
+            </div>
           </Swiper>
         </motion.div>
       ))}
