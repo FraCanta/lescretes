@@ -100,7 +100,7 @@ export default function Home({ translation }) {
       <div className="min-h-screen fxl:min-h-[80vh] bg-main flex flex-col justify-center items-center relative ">
         <Sections5 />
       </div>
-      <div className="min-h-[60vh] xl:min-h-[80vh]  flex flex-col justify-center items-center relative ">
+      <div className="min-h-[60vh] xl:min-h-[80vh] 3xl:min-h-[60vh]  flex flex-col justify-center items-center relative ">
         <div className="w-[90%] mx-auto flex flex-col gap-8 lg:gap-20 ">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
             <div className="flex flex-col gap-4">

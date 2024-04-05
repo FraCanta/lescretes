@@ -20,12 +20,12 @@ const Rifugio = () => {
           text="Il Rifugio del Vino: sala di degustazione emozionale"
         />
       </div>
-      <div className="w-[90%]  flex-col justify-start items-start gap-[50px] flex mx-auto py-10 lg:py-20 fxl:gap-20">
+      <div className="w-[90%]  flex-col justify-start items-start gap-[50px] flex mx-auto py-10 lg:py-20 fxl:gap-20 ">
         <div className="flex-col justify-start items-start gap-10 flex">
-          <h2 className="text-main text-3xl md:text-5xl font-bold fxl:text-6xl">
+          <h2 className="text-main text-3xl md:text-5xl font-bold fxl:text-6xl 3xl:text-7xl">
             L'edificio
           </h2>
-          <div className=" text-main text-[20px] md:text-2xl 2xl:text-xl font-normal fxl:text-2xl flex flex-col gap-10">
+          <div className=" text-main text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal flex flex-col gap-10">
             <p>
               Il Rifugio del Vino è un edificio di circa 170 metri quadrati,
               costruito a fianco della storica cantina dell’Azienda. Un progetto
@@ -52,10 +52,10 @@ const Rifugio = () => {
           </div>
         </div>
         <div className="flex-col justify-start items-start gap-10 flex">
-          <h2 className="text-main text-3xl md:text-5xl font-bold fxl:text-6xl">
+          <h2 className="text-main text-3xl md:text-5xl font-bold fxl:text-6xl 3xl:text-7xl">
             Lo stile architettonico
           </h2>
-          <div className=" text-main text-[20px] md:text-2xl 2xl:text-xl font-normal flex flex-col gap-10 fxl:text-2xl">
+          <div className=" text-main text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal flex flex-col gap-10">
             <p>
               L’architetto ha realizzato un edificio dall’aspetto contemporaneo,
               che nasce dalla trasformazione di un precedente progetto di
@@ -81,10 +81,10 @@ const Rifugio = () => {
       </div>
       <div className="w-full min-h-[40vh] flex flex-col justify-center bg-second   bg-pattern">
         <div className="w-[90%] h-full  mx-auto flex flex-col gap-4 md:gap-8 justify-center ">
-          <h3 className="text-main text-3xl md:text-4xl font-bold fxl:text-5xl">
+          <h3 className="text-main text-3xl md:text-4xl font-bold fxl:text-5xl 3xl:text-6xl">
             Approfondimenti:
           </h3>{" "}
-          <ul className="flex flex-col text-main text-xl md:text-2xl xl:text-xl font-normal fxl:text-2xl">
+          <ul className="flex flex-col text-main text-xl md:text-2xl xl:text-xl 3xl:text-3xl font-normal fxl:text-2xl">
             <li>
               <Link
                 href="/pdf/Inchino_al_castello.pdf"
@@ -120,10 +120,10 @@ const Rifugio = () => {
       </div>
       <div className="w-[90%] mx-auto mt-10">
         <div className="flex-col justify-start items-start gap-10 flex">
-          <h2 className="text-main text-[35px] md:text-5xl font-bold fxl:text-6xl">
+          <h2 className="text-main text-[35px] md:text-5xl font-bold fxl:text-6xl 3xl:text-7xl">
             Business meetings
           </h2>
-          <div className=" text-main text-[20px] md:text-2xl 2xl:text-xl font-normal fxl:text-2xl flex flex-col gap-10 fxl:gap-16">
+          <div className=" text-main text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal flex flex-col gap-10">
             <p>
               Le cantine Les Crêtes diventano la cornice ideale per incontri
               aziendali, convegni, conferenze stampa e molto altro. La nostra
@@ -133,7 +133,7 @@ const Rifugio = () => {
               organizziamo coffee break, pranzi o cene, avvalendoci della
               collaborazione di professionisti di fiducia.
             </p>
-            <ul className="flex flex-col gap-4 fxl:gap-8  text-main text-[20px] md:text-2xl 2xl:text-xl font-normal fxl:text-2xl">
+            <ul className="flex flex-col gap-4 fxl:gap-8  text-main text-[20px] md:text-2xl 2xl:text-xl font-normal fxl:text-2xl 3xl:text-4xl">
               <li>
                 <span className="font-bold">- Info e Costi:</span> 0165 902274 –
                 info@lescretes.it
@@ -153,10 +153,10 @@ const Rifugio = () => {
         </div>
       </div>
       <div className="flex flex-col gap-4 fxl:gap-8 xl:py-20 mx-auto mt-14  w-[90%] lg:justify-center xl:items-center">
-        <h2 className="text-main text-3xl md:text-5xl font-bold fxl:text-6xl lg:text-center">
+        <h2 className="text-main text-3xl md:text-5xl font-bold fxl:text-6xl lg:text-center 3xl:text-7xl">
           Uno sguardo al Rifugio
         </h2>
-        <p className=" text-main text-xl md:text-2xl 2xl:text-xl font-normal fxl:text-2xl w-full  lg:w-[40%] xl:w-[60%] mx-auto xl:text-center">
+        <p className=" text-main text-xl md:text-2xl 2xl:text-xl font-normal fxl:text-2xl w-full 3xl:text-4xl  lg:w-[40%] xl:w-[60%] mx-auto xl:text-center">
           Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar
           elementum tempus hac tellus libero accumsan.{" "}
         </p>

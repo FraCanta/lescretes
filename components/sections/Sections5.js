@@ -7,14 +7,15 @@ const Sections5 = () => {
     <>
       <div className="min-h-[80vh] flex flex-col xl:flex-row ">
         <div className="w-full    flex flex-col gap-20 p-8 py-20 xl:gap-14 2xl:p-20 fxl:gap-24 justify-center  relative">
-          <div className="flex flex-col gap-2 ">
-            <div className="bg-white h-[50px] w-[50px] rounded-full flex items-center justify-center ">
+          <div className="flex flex-col gap-2 3xl:gap-6">
+            <div className="bg-white h-[50px] w-[50px] 3xl:w-[90px] 3xl:h-[90px] rounded-full flex items-center justify-center ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
                 height="42"
                 viewBox="0 0 25 47"
                 fill="none"
+                className="3xl:w-16 3xl:h-16"
               >
                 <path
                   d="M12.512 36.4608C17.7674 36.4608 22.7288 32.0139 22.7288 21.3561C22.7288 10.6984 12.512 2.09863 12.512 2.09863C12.512 2.09863 2.33203 10.7351 2.33203 21.3561C2.33203 32.0139 7.29341 36.4608 12.512 36.4608Z"
@@ -48,10 +49,10 @@ const Sections5 = () => {
                 />
               </svg>
             </div>
-            <h3 className="text-[30px] md:text-[40px] fxl:text-[50px] text-white font-black">
+            <h3 className="text-[30px] md:text-[40px] fxl:text-[50px] 3xl:text-6xl text-white font-black">
               Sostenibilità
             </h3>
-            <p className="text-xl md:text-2xl 2xl:text-xl fxl:text-2xl text-white font-medium w-full lg:w-[80%] fxl:w-[90%]">
+            <p className="text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-white font-medium w-full lg:w-[80%] fxl:w-[90%]">
               Ci impegniamo per la sostenibilità ambientale e seguiamo le linee
               guida europee per i trattamenti fitosanitari, privilegiando un uso
               limitato di fitofarmaci. La nostra dedizione alla qualità e alla
@@ -59,15 +60,15 @@ const Sections5 = () => {
               filosofia.
             </p>
           </div>
-          <div className="flex flex-col gap-2">
-            <div className="bg-white h-[50px] w-[50px] rounded-full flex items-center justify-center">
+          <div className="flex flex-col gap-2 3xl:gap-6">
+            <div className="bg-white h-[50px] w-[50px] 3xl:w-[90px] 3xl:h-[90px] rounded-full flex items-center justify-center ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="#4a4a49"
-                className="w-[30px] h-[30px]"
+                className="w-[30px] h-[30px] 3xl:w-16 3xl:h-16"
               >
                 <path
                   strokeLinecap="round"
@@ -76,10 +77,10 @@ const Sections5 = () => {
                 />
               </svg>
             </div>
-            <h3 className="text-[30px] md:text-[40px] fxl:text-[50px] text-white font-black">
+            <h3 className="text-[30px] md:text-[40px] fxl:text-[50px] 3xl:text-6xl text-white font-black">
               Impegno
             </h3>
-            <p className="text-xl md:text-2xl 2xl:text-xl fxl:text-2xl text-white font-medium w-full lg:w-[80%] fxl:w-[90%] ">
+            <p className="text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-white font-medium w-full lg:w-[80%] fxl:w-[90%]">
               Il principio cardine della nostra filosofia è continuare a seguire
               i valori delle generazioni passate, valorizzando il "Terroir" con
               fedeltà e rispetto delle tradizioni. Tuttavia, il nostro sguardo è

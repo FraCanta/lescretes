@@ -112,7 +112,7 @@ const Tabs = ({ tabs }) => {
                 spaceBetween: 20,
               },
               2500: {
-                slidesPerView: 4.5,
+                slidesPerView: 3.5,
                 spaceBetween: 50,
               },
             }}
@@ -122,12 +122,12 @@ const Tabs = ({ tabs }) => {
                 <Link
                   href={content.link}
                   key={contentIndex}
-                  className="w-full h-[450px] fxl:h-full relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white "
+                  className="w-full h-[450px] fxl:h-full 3xl:h-[800px] relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white "
                 >
                   <motion.div // Usa motion.div anziché div
-                    className="w-full h-[450px] fxl:h-[500px] relative"
+                    className="w-full h-[450px] fxl:h-[500px] 3xl:h-[800px] relative"
                   >
-                    <div className="w-full h-[450px] fxl:h-[500px] left-0 top-0 absolute bg-[#F4F3EF] rounded-lg hover:bg-main" />
+                    <div className="w-full h-[450px] fxl:h-[500px] 3xl:h-[800px] left-0 top-0 absolute bg-[#F4F3EF] rounded-lg hover:bg-main" />
 
                     <Image
                       className="object-contain left-0 top-[1.5rem] absolute w-full h-[80%]"
@@ -135,7 +135,7 @@ const Tabs = ({ tabs }) => {
                       width={100}
                       height={100}
                     />
-                    <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[16px] fxl:text-[22px] font-bold  leading-snug z-10">
+                    <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[16px] fxl:text-[22px] 3xl:text-3xl font-bold  leading-snug z-10">
                       {content.name}
                     </p>
                   </motion.div>
@@ -148,7 +148,7 @@ const Tabs = ({ tabs }) => {
           </Swiper>
         </motion.div>
       ))}
-      <div class="cursor hidden lg:block">
+      <div class="cursor hidden lg:fixed">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40px"

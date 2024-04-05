@@ -15,10 +15,10 @@ const Banner = ({ img, title, paragraph, btn1, btn2, link1, link2 }) => {
 
         <div className="flex flex-col h-full justify-center gap-8 relative lg:w-[90%] mx-auto ">
           <div className="flex flex-col gap-6">
-            <h3 className="text-white text-3xl xl:text-[40px] font-bold fxl:text-5xl xl:w-[95%]">
+            <h3 className="text-white text-3xl xl:text-[40px] font-bold fxl:text-5xl xl:w-[95%] 3xl:text-6xl">
               {title}
             </h3>
-            <p className="text-white text-xl md:text-2xl 2xl:text-xl 2xl:w-[90%] fxl:text-2xl">
+            <p className="text-white text-xl md:text-2xl 2xl:text-xl 2xl:w-[90%] fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">
               {paragraph}
             </p>
             <div className="items-center gap-[28.76px] flex flex-col md:flex-row w-full h-full z-40">

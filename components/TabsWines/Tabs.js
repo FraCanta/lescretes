@@ -48,7 +48,7 @@ const Tabs = ({ translation }) => {
             y: activeTab === index ? 0 : 20,
             transition: { duration: 0.5 }, // Specifica la durata dell'animazione
           }}
-          className={`w-full py-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 3xl:grid-cols-6 gap-4 ${
+          className={`w-full py-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4  gap-4 ${
             activeTab === index ? "tabcontent" : "tabcontent hidden"
           }`}
         >
@@ -56,10 +56,10 @@ const Tabs = ({ translation }) => {
             <Link
               href={content.link}
               key={contentIndex}
-              className="w-full h-[450px] fxl:h-[450px] relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white"
+              className="w-full h-[450px] fxl:h-[450px] 3xl:h-full relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white"
             >
               <div
-                className="w-full h-[450px] fxl:h-[450px] left-0 top-0 relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white"
+                className="w-full h-[450px] fxl:h-[450px] 3xl:h-[800px] left-0 top-0 relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white"
                 key={contentIndex}
               >
                 <Image
