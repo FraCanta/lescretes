@@ -26,7 +26,7 @@ const Terroir = () => {
         />
         <meta
           property="og:image"
-          content="https://lescretes-liard.vercel.app/assets/vinibanner.png"
+          content="https://lescretes-liard.vercel.app/assets/terroir2.png"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -42,7 +42,7 @@ const Terroir = () => {
         />
         <meta
           name="twitter:image"
-          content="https://lescretes-liard.vercel.app/assets/vinibanner.png"
+          content="https://lescretes-liard.vercel.app/assets/terroir2.png"
         />
       </Head>
       <div className="flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(80vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
