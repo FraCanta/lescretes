@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import View from "@/public/assets/cotoView.jpg";
+import View from "@/public/assets/coteau3.jpg";
 import Link from "next/link";
 const Sections3 = () => {
   return (
@@ -41,11 +41,7 @@ const Sections3 = () => {
           Dare valore al territorio significa tutelarne l’identità
         </h3>
         <div className="relative aspect-square xl:h-[70vh] w-full">
-          <Image
-            className="w-full  rounded-lg object-cover object-top"
-            fill
-            src={View}
-          />
+          <Image className="w-full  rounded-lg object-cover " fill src={View} />
         </div>
         <div className="flex-col justify-start items-start gap-8 flex text-main text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal ">
           <p>

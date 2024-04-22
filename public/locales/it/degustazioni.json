@@ -33,7 +33,7 @@
         "link": "/degustazioni/top"
       },
       {
-        "img": "/assets/degustazioni/coteau2.jpg",
+        "img": "/assets/degustazioni/coteau3.jpg",
         "title": "Côteau la Tour Experience",
         "descrizione": "Degustazione di 5 vini accompagnata da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto del Côteau e brindisi nella Torre Medievale",
         "price": "€90,00 iva inclusa / persona",
@@ -182,7 +182,7 @@
         "download": "/Top-Wines-Experience-ITA.pdf"
       },
       "tour": {
-        "img": "/assets/degustazioni/coteau2.jpg",
+        "img": "/assets/degustazioni/coteau3.jpg",
         "name": "Côteau la Tour Experience",
         "title": "tour",
         "degustazione": {

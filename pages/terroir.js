@@ -3,9 +3,48 @@ import React from "react";
 import Ter from "@/public/assets/terroir2.png";
 import Banner from "@/components/Banner/Banner";
 import Wine from "@/public/assets/vinibanner.png";
+import Head from "next/head";
 const Terroir = () => {
   return (
     <>
+      <Head>
+        <title>Les Crêtes - Il Terroir</title>
+        <meta
+          name="description"
+          content="Immersa tra i giganti delle Alpi, la Valle d'Aosta è la più piccola regione italiana ma vanta la più alta concentrazione di aree protette d'Europa, con parchi come il Gran Paradiso. Divisa dalla Dora Baltea, offre paesaggi diversificati e ospita una ricca viticoltura sui suoi terrazzamenti ventilati. Esplora le sue valli laterali e assapora i suoi vini unici."
+        />
+
+        <meta
+          property="og:url"
+          content="https://lescretes-liard.vercel.app/terroir"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Les Crêtes - Il Terroir" />
+        <meta
+          property="og:description"
+          content="Immersa tra i giganti delle Alpi, la Valle d'Aosta è la più piccola regione italiana ma vanta la più alta concentrazione di aree protette d'Europa, con parchi come il Gran Paradiso. Divisa dalla Dora Baltea, offre paesaggi diversificati e ospita una ricca viticoltura sui suoi terrazzamenti ventilati. Esplora le sue valli laterali e assapora i suoi vini unici."
+        />
+        <meta
+          property="og:image"
+          content="https://lescretes-liard.vercel.app/assets/vinibanner.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="lescretes-liard.vercel.app" />
+        <meta
+          property="twitter:url"
+          content="https://lescretes-liard.vercel.app/terroir"
+        />
+        <meta name="twitter:title" content="Les Crêtes - Il Terroir" />
+        <meta
+          name="twitter:description"
+          content="Immersa tra i giganti delle Alpi, la Valle d'Aosta è la più piccola regione italiana ma vanta la più alta concentrazione di aree protette d'Europa, con parchi come il Gran Paradiso. Divisa dalla Dora Baltea, offre paesaggi diversificati e ospita una ricca viticoltura sui suoi terrazzamenti ventilati. Esplora le sue valli laterali e assapora i suoi vini unici."
+        />
+        <meta
+          name="twitter:image"
+          content="https://lescretes-liard.vercel.app/assets/vinibanner.png"
+        />
+      </Head>
       <div className="flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(80vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
         <Hero
           img={Ter}

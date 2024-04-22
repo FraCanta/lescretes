@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Coccinella from "@/public/assets/coccinella.jpg";
 import Babbo from "@/public/assets/babbo.jpg";
-import Coto from "@/public/assets/coto.jpg";
+import Coto from "@/public/assets/coteau4.jpg";
 const Sections2 = () => {
   return (
     <div className="w-full h-[65vh] flex-col xl:flex-row items-center flex my-[70px]">
