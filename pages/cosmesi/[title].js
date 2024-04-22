@@ -32,6 +32,17 @@ const SingleCosmetic = ({ cosm, others }) => {
           property="og:image"
           content={`https://lescretes-liard.vercel.app${cosm.img}`}
         />
+        <meta
+          property="og:url"
+          content="https://lescretes-liard.vercel.app/cosmesi/lotion"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={`Les Crêtes - ${contents}`} />
+        <meta property="og:description" content={cosm.details} />
+        <meta
+          property="og:image"
+          content="https://lescretes-liard.vercel.app/assets/cosmetici/tonico.webp"
+        ></meta>
       </Head>
 
       <div className="min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)] grid grid-cols-1 xl:grid-cols-2 gap-8">
