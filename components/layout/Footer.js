@@ -5,7 +5,7 @@ import Logo from "@/public/logo/logo.png";
 const Footer = () => {
   return (
     <>
-      <footer className="grid grid-cols-1 xl:grid-cols-4 p-10 text-main gap-6 xl:gap-0">
+      <footer className="grid grid-cols-1 xl:grid-cols-5 p-10 text-main gap-6 xl:gap-0">
         <aside className="grid grid-cols-1 gap-2">
           <Link href="/" title="Home Page">
             <Image
@@ -22,32 +22,57 @@ const Footer = () => {
           <header className="uppercase font-bold !text-main">
             Orari Uffici
           </header>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+          <p className="font-bold">Da Lunedì a Venerdi</p>
+          <p>8.30 – 13.00 / 14.30 – 18.00</p>
+          <p className="font-bold">Sabato, domenica e festivi chiuso</p>
         </nav>
         <nav className="grid grid-cols-1 gap-2">
           <header className="uppercase font-bold !text-main">
-            Orari Magazzini
+            Orari Magazzino
           </header>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <p className="font-bold">Da Lunedì a Venerdi</p>
+          <p>9.00 – 12.00 / 15.00 – 17.00</p>
+          <p className="font-bold">Sabato, domenica e festivi chiuso</p>
         </nav>
         <nav className="grid grid-cols-1 gap-2">
-          <header className="uppercase font-bold !text-main">Contatti</header>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+          <header className="uppercase font-bold !text-main">
+            quick links
+          </header>
+          <Link href="/vini" className="link link-hover">
+            Vini
+          </Link>
+          <Link href="/degustazioni" className="link link-hover">
+            Degustazioni
+          </Link>
+          <Link href="/cosmesi" className="link link-hover">
+            Cosmesi
+          </Link>
+        </nav>
+        <nav className="grid grid-cols-1 gap-2">
+          <header className="uppercase font-bold !text-main">
+            Contatti & Social
+          </header>
+          <Link href="/contatti" className="link link-hover">
+            Contatti e indicazioni
+          </Link>
+          <Link
+            href="https://www.facebook.com/lescretes"
+            className="link link-hover"
+          >
+            Facebook
+          </Link>
+          <Link
+            href="https://www.instagram.com/les.cretes/"
+            className="link link-hover"
+          >
+            Instagram
+          </Link>
         </nav>
       </footer>
-      <footer className="text-center px-10 py-4 border-t  text-[#D4D2E3] border-[#D4D2E3]">
+      <footer className="lg:text-center px-10 py-4 border-t  text-[#D4D2E3] border-[#D4D2E3]">
         <aside>
           <p>
-            Copyright © 2023 Les Cretes | All Rights Reserved | Terms and
-            Conditions | Privacy Policy
+            Copyright © 2024 Les Crêtes | All Rights Reserved | Privacy Policy
           </p>
         </aside>
       </footer>
