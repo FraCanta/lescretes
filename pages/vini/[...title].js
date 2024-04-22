@@ -25,7 +25,7 @@ const SingleWine = ({ wine, others }) => {
   return (
     <>
       <Head>
-        <title>{`Les Crêtes  - vini ${wine.cat} / ${wine?.name}`}</title>
+        <title>{`Les Crêtes  -  ${wine?.name}`}</title>
 
         <meta
           property="og:image"
