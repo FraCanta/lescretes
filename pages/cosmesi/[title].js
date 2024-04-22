@@ -17,14 +17,17 @@ import {
 } from "next-share";
 import FAQ from "@/components/FAQ/FAQ";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
+import { parse } from "dom-parser-react";
 
 const SingleCosmetic = ({ cosm, others }) => {
+  const contents = parse(cosm.name, {
+    createElement: React.createElement,
+    Fragment: React.Fragment,
+  });
   return (
     <>
       <Head>
-        <title>
-          Les Crêtes - {cosm.name} - {cosm.details}
-        </title>
+        <title>Les Crêtes - {contents}</title>
         <meta
           property="og:image"
           content={`https://lescretes-liard.vercel.app${cosm.img}`}
