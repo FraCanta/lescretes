@@ -9,7 +9,7 @@ const Sections3 = () => {
     <>
       <div className="w-[90%] mx-auto relative py-[50px] lg:p-[120px] z-[9999]">
         <div className="w-full h-full  flex-col justify-start items-center gap-10 inline-flex py-10">
-          <h2 className="w-full lg:w-[80%] 2xl:w-full  fxl:w-[65%] 3xl:text-7xl  lg:text-center text-white text-[30px] md:text-5xl lg:text-5xl fxl:text-[60px] font-bold ">
+          <h2 className="w-full lg:w-[80%] 2xl:w-full  fxl:w-[65%] 3xl:text-7xl  lg:text-center text-white text-3xl md:text-5xl lg:text-5xl fxl:text-[60px] font-bold ">
             A Les Crêtes sorseggi i nostri vini immerso nel relax{" "}
           </h2>
           <p className="lg:w-[60%] xl:w-[95%] fxl:w-[60%] 3xl:w-[75%] lg:text-center text-white text-xl md:text-2xl 2xl:text-xl  fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-regular">

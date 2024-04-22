@@ -120,7 +120,7 @@ const Rifugio = () => {
       </div>
       <div className="w-[90%] mx-auto mt-10">
         <div className="flex-col justify-start items-start gap-10 flex">
-          <h2 className="text-main text-[35px] md:text-5xl font-bold fxl:text-6xl 3xl:text-7xl">
+          <h2 className="text-main text-3xl md:text-5xl font-bold fxl:text-6xl 3xl:text-7xl">
             Business meetings
           </h2>
           <div className=" text-main text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal flex flex-col gap-10">

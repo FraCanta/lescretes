@@ -75,7 +75,7 @@ const Terroir = () => {
           </div>
         </div> */}
         <div className="flex-col justify-start items-start gap-10  flex">
-          <h2 className="text-main text-[35px] md:text-5xl fxl:text-6xl font-bold leading-[46px] 3xl:text-7xl">
+          <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold leading-[46px] 3xl:text-7xl">
             I vini rossi
           </h2>
           <div className=" text-main text-xl md:text-2xl 2xl:text-xl font-normal fxl:text-2xl  flex flex-col gap-10 fxl:gap-16 3xl:text-4xl">
@@ -110,7 +110,7 @@ const Terroir = () => {
           </div>
         </div>
         <div className="flex-col justify-start items-start gap-10 flex">
-          <h2 className="text-main text-[35px] md:text-5xl font-bold leading-[46px] fxl:gap-6xl 3xl:text-7xl">
+          <h2 className="text-main text-3xl md:text-5xl font-bold leading-[46px] fxl:gap-6xl 3xl:text-7xl">
             I vini bianchi
           </h2>
           <div className=" text-main text-xl md:text-2xl 2xl:text-xl font-normal flex flex-col gap-10 fxl:gap-16 fxl:text-2xl 3xl:text-4xl">
@@ -140,7 +140,7 @@ const Terroir = () => {
           </div>
         </div>
         <div className="flex-col justify-start items-start gap-10 flex">
-          <h2 className="text-main text-[35px] md:text-5xl font-bold leading-[46px] fxl:text-6xl 3xl:text-7xl">
+          <h2 className="text-main text-3xl md:text-5xl font-bold leading-[46px] fxl:text-6xl 3xl:text-7xl">
             Le bollicine e i desserts
           </h2>
           <div className=" text-main text-xl md:text-2xl 2xl:text-xl font-normal flex flex-col gap-10 fxl:gap-16 fxl:text-2xl 3xl:text-4xl">

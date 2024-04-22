@@ -95,11 +95,11 @@
     justify-content: start;
   }
   .tab-bordered {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 900px) {
   .tabs {
     justify-content: start;
   }

@@ -6,7 +6,7 @@ const Sections4 = ({ tabs }) => {
     <>
       <div className="w-[90%] mx-auto flex flex-col gap-4 py-[50px] lg:py-[90px] min-h-screen justify-center ">
         {" "}
-        <h2 className="text-main text-[35px] md:text-5xl  lg:text-[43.12px] fxl:text-[55px] 3xl:text-7xl font-bold  ">
+        <h2 className="text-main text-3xl md:text-5xl  lg:text-[43.12px] fxl:text-[55px] 3xl:text-7xl font-bold  ">
           Vini di Montagna: Espressione Autentica della Valle d'Aosta
         </h2>
         <p className="lg:w-[90%] text-main text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal">

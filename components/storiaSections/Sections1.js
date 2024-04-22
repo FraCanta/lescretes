@@ -4,7 +4,7 @@ const Sections1 = () => {
   return (
     <div className="w-[90%] min-h-screen  flex-col justify-start items-start gap-[50px] md:gap-20 fxl:gap-20 flex mx-auto mt-20 xl:mt-0">
       <div className="flex-col justify-start items-start gap-8 flex">
-        <h2 className="text-main text-[35px] md:text-5xl fxl:text-6xl font-bold 3xl:text-7xl">
+        <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold 3xl:text-7xl">
           La leggenda
         </h2>
         <div className=" text-main text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal flex flex-col gap-4">
@@ -23,7 +23,7 @@ const Sections1 = () => {
         </div>
       </div>
       <div className="flex-col justify-start items-start gap-8 flex">
-        <h2 className="text-main text-[35px] md:text-5xl xl:text-5xl fxl:text-6xl font-bold 3xl:text-7xl">
+        <h2 className="text-main text-3xl md:text-5xl xl:text-5xl fxl:text-6xl font-bold 3xl:text-7xl">
           L’inizio
         </h2>
         <div className=" text-main text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal flex flex-col gap-4 fxl:gap-6">
@@ -53,7 +53,7 @@ const Sections1 = () => {
         </div>
       </div>
       <div className="flex-col justify-start items-start gap-8 flex">
-        <h2 className="text-main text-[35px] md:text-5xl xl:text-5xl fxl:text-6xl font-bold 3xl:text-7xl">
+        <h2 className="text-main text-3xl md:text-5xl xl:text-5xl fxl:text-6xl font-bold 3xl:text-7xl">
           Costantino Charrère
         </h2>
         <div className=" text-main text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal flex flex-col gap-4 fxl:gap-6">

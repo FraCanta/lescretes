@@ -8,7 +8,7 @@ const Sections2 = () => {
   return (
     <div className="w-full min-h-screen py-[90px] 3xl:py-[10rem]  gap-[50px] flex flex-col">
       <div className="w-[90%] mx-auto flex flex-col gap-4 3xl:gap-10">
-        <h2 className="text-main text-[32px] md:text-5xl 3xl:text-7xl  font-bold ">
+        <h2 className="text-main text-3xl md:text-5xl 3xl:text-7xl  font-bold ">
           Passione e innovazione da oltre 200 anni
         </h2>
         <p className="2xl:w-2/3 3xl:w-3/4 text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">

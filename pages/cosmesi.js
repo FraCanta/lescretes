@@ -58,7 +58,7 @@ const Cosmesi = ({ translation }) => {
         </div>
 
         <div className="w-full flex-col   gap-[60px] flex">
-          <h2 className="text-main md:text-6xl text-4xl font-bold ">
+          <h2 className="text-main md:text-6xl text-3xl font-bold ">
             Prenditi cura di te stesso e della natura attorno
           </h2>
           <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
@@ -101,7 +101,7 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus  bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-2xl font-black fxl:text-3xl">
+                <h3 className="text-main text-xl font-black fxl:text-3xl">
                   Olio di vinaccioli
                 </h3>
               </div>
@@ -126,7 +126,7 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-2xl font-black fxl:text-3xl">
+                <h3 className="text-main text-xl font-black fxl:text-3xl">
                   Glicerina vegetale
                 </h3>
               </div>
@@ -144,7 +144,7 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-2xl font-black fxl:text-3xl">
+                <h3 className="text-main text-xl font-black fxl:text-3xl">
                   Estratto di camomilla biologica (fiori)
                 </h3>
               </div>
@@ -161,7 +161,7 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-2xl font-black fxl:text-3xl">
+                <h3 className="text-main text-xl font-black fxl:text-3xl">
                   NMF ricostituito (Natural Moisturizing Factor)
                 </h3>
               </div>
@@ -189,7 +189,7 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-2xl font-black fxl:text-3xl">
+                <h3 className="text-main text-xl font-black fxl:text-3xl">
                   Polisaccaride, protettivo effetto barriera.{" "}
                 </h3>
               </div>
@@ -211,7 +211,7 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-2xl font-black fxl:text-3xl">
+                <h3 className="text-main text-xl font-black fxl:text-3xl">
                   Alghe marine{" "}
                 </h3>
               </div>
@@ -227,7 +227,7 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-2xl font-black fxl:text-3xl">
+                <h3 className="text-main text-xl font-black fxl:text-3xl">
                   Acido ialuronico{" "}
                 </h3>
               </div>
@@ -246,7 +246,7 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-2xl font-black fxl:text-3xl">
+                <h3 className="text-main text-xl font-black fxl:text-3xl">
                   Collagene idrolizzato
                 </h3>
               </div>
@@ -265,7 +265,7 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-2xl font-black fxl:text-3xl">
+                <h3 className="text-main text-xl font-black fxl:text-3xl">
                   Estratto di avena biologica
                 </h3>
               </div>
