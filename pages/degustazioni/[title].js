@@ -132,29 +132,29 @@ const SingleDeg = ({ deg }) => {
       />
 
       <div className="w-[90%] mx-auto flex-col justify-start items-start gap-[34px] flex py-10">
-        <h2 className=" text-main text-[25px] xl:text-4xl font-bold  flex items-center gap-2">
+        <h2 className=" text-main text-3xl xl:text-5xl font-bold  flex items-center gap-2">
           {deg.descrizione.title}{" "}
         </h2>
-        <p className="text-base xl:text-xl font-normal  !leading-[33.2px]">
+        <p className="text-xl xl:text-2xl font-normal  !leading-[33.2px]">
           {deg.descrizione.content}
         </p>
         <div className="w-full text-main flex flex-col gap-6">
-          <h2 className="text-main text-[25px] xl:text-4xl font-bold  leading-[46px]">
+          <h2 className="text-main text-3xl xl:text-5xl font-bold  leading-[46px]">
             {deg?.descrizione?.pacchetto?.title}
           </h2>
           <ul className="flex flex-col gap-2">
             {deg?.descrizione?.pacchetto?.lista?.map((l, i) => (
-              <li className="text-base xl:text-xl" key={i}>
+              <li className="text-xl xl:text-2xl" key={i}>
                 {l.testo}
               </li>
             ))}
           </ul>
           {deg?.descrizione?.opzione ? (
             <div className="bg-[#F4F3EF] flex flex-col gap-[20px] p-4">
-              <h2 className="text-main text-2xl xl:text-4xl font-bold  leading-[46px]">
+              <h2 className="text-main text-3xl xl:text-5xl font-bold  ">
                 {deg?.descrizione?.opzione?.title}
               </h2>
-              <p className="xl:text-[18px]">
+              <p className="text-xl lg:text-2xl">
                 {" "}
                 {deg?.descrizione?.opzione?.uno}
               </p>
@@ -164,10 +164,10 @@ const SingleDeg = ({ deg }) => {
           )}
         </div>
         <div className="w-full text-main flex flex-col gap-6">
-          <h2 className="text-main text-[25px] xl:text-4xl font-bold  leading-[46px]">
+          <h2 className="text-main text-3xl xl:text-5xl font-bold  leading-[46px]">
             {deg?.priceTitle}
           </h2>
-          <p className="xl:text-[18px] text-main">{deg?.price}</p>
+          <p className="text-xl lg:text-2xl text-main">{deg?.price}</p>
         </div>
         {deg?.descrizione?.asterisco ? (
           <p className="text-main/60">{deg?.descrizione?.asterisco}</p>
@@ -184,7 +184,7 @@ const SingleDeg = ({ deg }) => {
       <div className="w-full h-[1px] bg-second my-2"></div>
       <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs">
         <div className="flex gap-6 items-center ">
-          <p className="text-lg xl:text-xl">Condividi su</p>
+          <p className="text-xl xl:text-2xl">Condividi su</p>
           <ul className="flex gap-6">
             <li>
               {" "}
