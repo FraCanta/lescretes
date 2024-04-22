@@ -27,7 +27,7 @@ const SingleCosmetic = ({ cosm, others }) => {
   return (
     <>
       <Head>
-        <title>Les Crêtes - {contents}</title>
+        <title>{`Les Crêtes - ${contents}`}</title>
         <meta
           property="og:image"
           content={`https://lescretes-liard.vercel.app${cosm.img}`}
