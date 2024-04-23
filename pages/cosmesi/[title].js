@@ -32,7 +32,10 @@ const SingleCosmetic = ({ cosm, others }) => {
           property="og:image"
           content={`https://lescretes-liard.vercel.app${cosm.img}`}
         />
-        <meta property="og:url" content="https://lescretes-liard.vercel.app/" />
+        <meta
+          property="og:url"
+          content={`https://lescretes-liard.vercel.app/cosmesi/${cosm?.title}`}
+        />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={`Les Crêtes - ${contents}`} />
         <meta property="og:description" content={cosm.details} />

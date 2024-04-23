@@ -19,68 +19,10 @@ export default function Home({ translation }) {
       <Head>
         <title>Les Crêtes </title>
 
-        {/* <meta
-          name="keywords"
-          content="Studio grafico, 
-          Grafica,
-          Arte grafica,
-          Agenzia di graphic design,
-          Graphic design,
-          Branding, 
-          Agenzia di branding,
-          Agenzia di comunicazione, 
-          Comunicazione visiva, 
-          studio grafico Milano, 
-          Milano,
-          Agenzia di branding Milano,
-          Grafico Milano,
-          Grafica Milano,
-          Graphic design studio,
-          Soluzioni creative,
-          Soluzioni creative su misura,
-          Immagine coordinata, 
-          Studio di graphic design Milano,
-          Grafico,
-          Graphic designer,
-          Designer grafico,
-          Studio di comunicazione, 
-          Identità visiva, 
-          Logo maker, 
-          Creative agendo,
-          Creative solutions, 
-          Comunicazione visiva, 
-          Arte del comunicare"
-        />
-        <meta name="author" content="Elisa Avantey" /> */}
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
-        {/* <meta property="og:url" content="https://www.miaographics.it/" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Miao graphics - grafismi itineranti"
-        />
-        <meta
-          property="og:image"
-          content="https://www.miaographics.it/assets/cover_web.png"
-        />
-        <meta
-          property="og:description"
-          content="Sono una Graphic Designer e Content Creator, e sono qui per essere la tua partner nella definizione dell’identità visiva della tua azienda."
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="miaographics.it" />
-        <meta property="twitter:url" content="https://www.miaographics.it/" />
-        <meta
-          name="twitter:title"
-          content="Miao graphics - grafismi itineranti"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.miaographics.it/assets/cover_web.png"
-        /> */}
       </Head>
       <div className="h-[calc(100vh_-_60px)] md:h-[calc(100vh_-_70px)] overflow-hidden fxl:min-h-[calc(100vh_-_100px)] 3xl:min-h-[calc(100vh_-_180px)] w-full hero  relative flex text-end items-end">
         <HeroHome3 translation={translation?.hero} />
