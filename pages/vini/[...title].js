@@ -29,7 +29,8 @@ const SingleWine = ({ wine, others }) => {
 
         <meta
           property="og:image"
-          content={`https://lescretes-liard.vercel.app${wine.img}`}
+          // content={`https://lescretes-liard.vercel.app${wine.img}`}
+          content="https://lescretes-liard.vercel.app/assets/seo/prova.jpg"
         />
       </Head>
 
