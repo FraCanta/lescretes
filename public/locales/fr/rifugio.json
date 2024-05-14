@@ -1,0 +1,80 @@
+{
+  "rifugio": {
+    "hero": {
+      "title": "Le Refuge du Vin : salle de dégustation émotionnelle"
+    },
+    "section1": [
+      {
+        "title": "Le bâtiment",
+        "descrizione": [
+          {
+            "p": "Le Rifugio del Vino est un bâtiment d’environ 170 mètres carrés, construit à côté de la cave historique de l’entreprise. Un projet ambitieux : union du vin, de la culture de la montagne et de l’architecture. Le projet, de l’architecte Domenico Mazza de Courmayeur, a reçu une mention spéciale dans le concours international 'Les cathédrales du vin' de la revue Il Gambero Rosso, événement collatéral de la biennale de Venise."
+          },
+          {
+            "p": "L’impact est impressionnant, avec un toit qui rappelle les montagnes et une structure dans laquelle les vitraux dominent. En entrant, vous pourrez vivre une expérience sensorielle, avec une zone dédiée aux essences et une bibliothèque avec des livres de la Vallée d’Aoste et du vin, tout cela dans un endroit où vous pouvez vous asseoir, lire, boire un verre et observer la vue."
+          },
+          {
+            "p": "Le choix de l’architecture et du nom <a href='/rifugio' title='Pagina rifugio' class='underline font-bold'>'Rifugio'</a> a une double signification : un rappel aux montagnes, constituant ainsi un refuge alpin à l’architecture typique de haute montagne. Et puis aussi le concept de refuge entendu comme accueil."
+          }
+        ]
+      },
+      {
+        "title": "Le style architectural",
+        "descrizione": [
+          {
+            "p": "L’architecte a réalisé un bâtiment à l’aspect contemporain, qui naît de la transformation d’un précédent projet d’agrandissement déjà initié par la propriété puis révisé. L’architecte Mazza a donc dû penser au bâtiment à partir de quelques structures en béton armé déjà présentes qui ont fortement influencé l’installation. La cave ressemble à un grand auvent en bois lamellé-collé, recouvert de tôle et avec des tampons verticaux presque exclusivement vitrés."
+          },
+          {
+            "p": "Le profil complexe de la construction - qui de loin rappelle presque celui d’un massif montagneux - naît de l’interpénétration de plusieurs volumes simples inclinés entre eux. Lorsque la nuit tombe, l’utilisation judicieuse de la transparence et de l’éclairage ne fait qu’accroître le caractère déconstructioniste de cette œuvre. Sous cette grande cour couverte se trouvent les différents milieux de la production, de la vente et même du loisir maintenus ensemble par un intéressant parcours de visite."
+          }
+        ]
+      }
+    ],
+    "section2": {
+      "title": "Informations",
+      "links": [
+        {
+          "name": "Une révérence au château",
+          "link": "/pdf/Inchino_al_castello.pdf"
+        },
+        {
+          "name": "Vivre les Alpes",
+          "link": "/pdf/Vivere-Le-Alpi-Art.-Domenico.pdf"
+        },
+        {
+          "name": "Article sur 'Images'",
+          "link": "/pdf/Articolo_Images.pdf"
+        }
+      ]
+    },
+    "section3": {
+      "title": "Business meetings",
+      "descrizione": "Les caves Les Crêtes deviennent le cadre idéal pour vos réunions d’entreprise, congrès, conférences de presse et bien plus encore. Notre nouvelle salle équipée est à la disposition de ceux qui souhaitent donner une touche d’originalité aux réunions de travail, conférences, cours, séminaires ou autres moments moins formels. Sur demande, nous organisons des pauses-café, déjeuners ou dîners, en utilisant la collaboration de professionnels de confiance.",
+      "list": [
+        {
+          "name": "Infos et Coûts:",
+          "span": "0165 902274 – info@lescretes.it"
+        },
+        {
+          "name": "Restauration:",
+          "span": "60 places assises"
+        },
+        {
+          "name": "Équipement pour cours/conférences/presse:",
+          "span": "80 places assises"
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Un regard sur le Refuge"
+    },
+    "banner": {
+      "title": "Faites ou offrez une dégustation aux Les Crêtes",
+      "paragraph": "Offrez une expérience unique et originale en choisissant une dégustation parmi celles disponibles sur notre site ou, si vous avez des besoins particuliers, contactez-nous pour créer votre cadeau personnalisé.",
+      "btn1": "Réservez maintenant",
+      "btn2": "En savoir plus",
+      "link1": "/contatti",
+      "link2": "/degustazioni"
+    }
+  }
+}

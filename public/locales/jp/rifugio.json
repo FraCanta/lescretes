@@ -1,0 +1,80 @@
+{
+  "rifugio": {
+    "hero": {
+      "title": "The Wine Haven: A Sanctuary for Emotional Tasting"
+    },
+    "section1": [
+      {
+        "title": "The building",
+        "descrizione": [
+          {
+            "p": "The Rifugio del Vino is a building of about 170 square meters, built next to the historic winery of the company. An ambitious project: the union of wine, mountain culture and architecture. The project, by the architect Domenico Mazza of Courmayeur, had a special mention in the international competition 'Le cattedrali del Vino' of the magazine Il Gambero Rosso, collateral event of the biennial in Venice."
+          },
+          {
+            "p": "The impact is impressive, with a roof that resembles the mountains in shape and with a structure dominated by the windows. Entering you can live a sensory experience, with an area dedicated to essences and a library with books of the Aosta Valley and wine, all this in a place where you can sit, read, drink a glass and observe the view."
+          },
+          {
+            "p": "The choice of architecture and the name <a href='/rifugio' class='underline font-bold' title='Pagina del Rifugio'>'Rifugio'</a> has a double meaning: a reference to the mountains, thus constituting an alpine refuge with typical high mountain architecture. And then also the concept of refuge as a welcome."
+          }
+        ]
+      },
+      {
+        "title": "The architectural style",
+        "descrizione": [
+          {
+            "p": "The architect has created a building with a contemporary look, born from the transformation of a previous expansion project already started by the property and then revised. The architect Mazza therefore had to think about the building starting from some reinforced concrete structures already present that have strongly influenced the plant. The cellar appears as a large laminated wood canopy, covered in sheet metal and with vertical infills almost exclusively glazed."
+          },
+          {
+            "p": "The complex profile of the building - which from a distance almost resembles that of a mountain massif - comes from the interpenetration of several simple volumes inclined to each other. When evening falls, the wise use of transparencies and lighting only increases the deconstructivist character of this work. Under this large covered courtyard there are the different environments of production, sales and even loisir held together by an interesting tour."
+          }
+        ]
+      }
+    ],
+    "section2": {
+      "title": "Insights",
+      "links": [
+        {
+          "name": "A bow to the castle",
+          "link": "/pdf/Inchino_al_castello.pdf"
+        },
+        {
+          "name": "Living the Alps",
+          "link": "/pdf/Vivere-Le-Alpi-Art.-Domenico.pdf"
+        },
+        {
+          "name": "Article on 'Images'",
+          "link": "/pdf/Articolo_Images.pdf"
+        }
+      ]
+    },
+    "section3": {
+      "title": "Business meetings",
+      "descrizione": "Les Crêtes wineries become the ideal setting for business meetings, conferences, press conferences and much more. Our new equipped room is available to those who want to give a touch of originality to business meetings, conferences, courses, seminars or other less formal moments. Upon request we organize coffee breaks, lunches or dinners, making use of the collaboration of trusted professionals.",
+      "list": [
+        {
+          "name": "Info and Costs:",
+          "span": "0165 902274 – info@lescretes.it"
+        },
+        {
+          "name": "Catering:",
+          "span": "60 seats"
+        },
+        {
+          "name": "Equipment for front-facing lessons/conferences/press:",
+          "span": "80 seats"
+        }
+      ]
+    },
+    "gallery": {
+      "title": "A look at the Rifugio"
+    },
+    "banner": {
+      "title": "Don’t miss a unique experience at Les Crêtes",
+      "paragraph": "Give a unique and original experience by choosing a tasting among those available on our site or, if you have special needs, contact us to create your personalized gift.",
+      "btn1": "Book Now",
+      "btn2": "Learn more",
+      "link1": "/contatti",
+      "link2": "/degustazioni"
+    }
+  }
+}
