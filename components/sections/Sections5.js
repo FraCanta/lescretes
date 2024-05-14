@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Pattern from "@/public/assets/pattern3.png";
 import Eco from "@/public/assets/eco.png";
-const Sections5 = () => {
+const Sections5 = ({ translation }) => {
   return (
     <>
       <div className="min-h-[80vh] flex flex-col xl:flex-row ">
@@ -50,14 +50,10 @@ const Sections5 = () => {
               </svg>
             </div>
             <h3 className="text-[30px] md:text-[40px] fxl:text-[50px] 3xl:text-6xl text-white font-black">
-              Sostenibilità
+              {translation.title1}
             </h3>
             <p className="text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-white font-medium w-full lg:w-[80%] fxl:w-[90%]">
-              Ci impegniamo per la sostenibilità ambientale e seguiamo le linee
-              guida europee per i trattamenti fitosanitari, privilegiando un uso
-              limitato di fitofarmaci. La nostra dedizione alla qualità e alla
-              passione per il territorio circostante sono al centro della nostra
-              filosofia.
+              {translation.descrizione}
             </p>
           </div>
           <div className="flex flex-col gap-2 3xl:gap-6">
@@ -78,15 +74,10 @@ const Sections5 = () => {
               </svg>
             </div>
             <h3 className="text-[30px] md:text-[40px] fxl:text-[50px] 3xl:text-6xl text-white font-black">
-              Impegno
+              {translation.title2}
             </h3>
-            <p className="text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-white font-medium w-full lg:w-[80%] fxl:w-[90%]">
-              Il principio cardine della nostra filosofia è continuare a seguire
-              i valori delle generazioni passate, valorizzando il "Terroir" con
-              fedeltà e rispetto delle tradizioni. Tuttavia, il nostro sguardo è
-              sempre rivolto al futuro dell'innovazione che ci consente di
-              esprimere appieno le potenzialità del territorio vitivinicolo di
-              montagna della Valle d'Aosta.
+            <p className="text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-white font-medium w-full lg:w-[80%] fxl:w-[90%] z-10">
+              {translation.descrizione2}
             </p>
           </div>{" "}
           <div className="w-full h-[150px] md:h-[350px] absolute bottom-0 left-0">

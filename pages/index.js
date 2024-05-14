@@ -1,7 +1,12 @@
 import HeroHome3 from "@/components/heroHome/HeroHome3";
-import homeIT from "../public/locales/it/home.json";
-import homeEN from "../public/locales/en/home.json";
-import homeFR from "../public/locales/fr/home.json";
+import homeIT from "@/public/locales/it/home.json";
+import homeEN from "@/public/locales/en/home.json";
+import homeFR from "@/public/locales/fr/home.json";
+import homeDE from "@/public/locales/de/home.json";
+import homeJP from "@/public/locales/jp/home.json";
+import homeKO from "@/public/locales/ko/home.json";
+import homeRU from "@/public/locales/ru/home.json";
+import homeZH from "@/public/locales/zh/home.json";
 import Sections2 from "@/components/sections/Sections2";
 import Sections3 from "@/components/sections/Sections3";
 import Sections4 from "@/components/sections/Sections4/Sections4";
@@ -28,32 +33,28 @@ export default function Home({ translation }) {
         <HeroHome3 translation={translation?.hero} />
       </div>
       <div className="min-h-screen">
-        <Sections2 />
+        <Sections2 translation={translation?.section2} />
       </div>
       <div className=" bg-main flex flex-col justify-center items-center relative ">
-        <Sections3 />
+        <Sections3 translation={translation?.section3} />
       </div>
       <div className="min-h-screen flex flex-col justify-center items-center relative ">
-        <Sections4 tabs={translation.tabs} />
+        <Sections4 translation={translation.section4} tabs={translation.tabs} />
       </div>
       <div className="min-h-screen fxl:min-h-[80vh] bg-main flex flex-col justify-center items-center relative ">
-        <Sections5 />
+        <Sections5 translation={translation.section5} />
       </div>
       <div className="min-h-[60vh] xl:min-h-[80vh] 3xl:min-h-[60vh]  flex flex-col justify-center items-center relative ">
         <div className="w-[90%] mx-auto flex flex-col gap-8 lg:gap-20 ">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
             <div className="flex flex-col gap-4">
               <h2 className="text-main text-3xl md:text-5xl lg:text-[43.12px] fxl:text-6xl font-bold  lg:leading-[55.10px]">
-                Dicono di noi
+                {translation.testimonials.title}
               </h2>
-              {/* <p className="lg:w-[90%] text-main lg:text-[21.56px] font-normal leading-9">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit semper
-                dalar elementum tempus hac tellus libero accumsan.{" "}
-              </p> */}
             </div>
             <div className="flex items-end md:justify-end">
               <CtaPrimary link="https://g.page/r/CXZcr8aa7zgbEBM/review">
-                Scrivi Recensione
+                {translation.testimonials.button}
               </CtaPrimary>
             </div>
           </div>
@@ -64,7 +65,7 @@ export default function Home({ translation }) {
         </div>
       </div>
       <div className="w-full  bg-main flex flex-col justify-center items-center relative ">
-        <Sections6 />
+        <Sections6 translation={translation.section6} />
       </div>
       {/* <div className="min-h-screen 2xl:min-h-[80vh] flex flex-col justify-center items-center relative ">
         <Sections7 />
@@ -85,6 +86,21 @@ export async function getStaticProps(locale, context) {
       break;
     case "fr":
       obj = homeFR;
+      break;
+    case "de":
+      obj = homeDE;
+      break;
+    case "jp":
+      obj = homeJP;
+      break;
+    case "ko":
+      obj = homeKO;
+      break;
+    case "ru":
+      obj = homeRU;
+      break;
+    case "zh":
+      obj = homeZH;
       break;
     default:
       obj = homeIT;

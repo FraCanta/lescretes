@@ -2,7 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Logo from "@/public/logo/logo.png";
-const Footer = () => {
+import { useRouter } from "next/router";
+
+const Footer = ({ translation }) => {
+  const { locale } = useRouter();
   return (
     <>
       <footer className="grid grid-cols-1 xl:grid-cols-5 p-10 text-main gap-6 xl:gap-0">
@@ -20,59 +23,50 @@ const Footer = () => {
         </aside>
         <nav className="grid grid-cols-1 gap-2">
           <header className="uppercase font-bold !text-main">
-            Orari Uffici
+            {translation?.[locale]?.col1.title}
           </header>
-          <p className="font-bold">Da Lunedì a Venerdi</p>
+          <p className="font-bold">{translation?.[locale]?.col1.days}</p>
           <p>8.30 – 13.00 / 14.30 – 18.00</p>
-          <p className="font-bold">Sabato, domenica e festivi chiuso</p>
+          <p className="font-bold">{translation?.[locale]?.col1.close}</p>
         </nav>
         <nav className="grid grid-cols-1 gap-2">
           <header className="uppercase font-bold !text-main">
-            Orari Magazzino
+            {translation?.[locale]?.col2.title}
           </header>
-          <p className="font-bold">Da Lunedì a Venerdi</p>
+          <p className="font-bold">{translation?.[locale]?.col2.days}</p>
           <p>9.00 – 12.00 / 15.00 – 17.00</p>
-          <p className="font-bold">Sabato, domenica e festivi chiuso</p>
+          <p className="font-bold">{translation?.[locale]?.col2.close}</p>
         </nav>
         <nav className="grid grid-cols-1 gap-2">
           <header className="uppercase font-bold !text-main">
-            quick links
+            {translation?.[locale]?.col3.title}
           </header>
-          <Link href="/vini" className="link link-hover">
-            Vini
-          </Link>
-          <Link href="/degustazioni" className="link link-hover">
-            Degustazioni
-          </Link>
-          <Link href="/cosmesi" className="link link-hover">
-            Cosmesi
-          </Link>
+          {translation?.[locale]?.col3.menu.map((m, i) => {
+            return (
+              <Link href={m.link} className="link link-hover" key={i}>
+                {m.name}
+              </Link>
+            );
+          })}
         </nav>
         <nav className="grid grid-cols-1 gap-2">
           <header className="uppercase font-bold !text-main">
-            Contatti & Social
+            {translation?.[locale]?.col4.title}
           </header>
-          <Link href="/contatti" className="link link-hover">
-            Contatti e indicazioni
-          </Link>
-          <Link
-            href="https://www.facebook.com/lescretes"
-            className="link link-hover"
-          >
-            Facebook
-          </Link>
-          <Link
-            href="https://www.instagram.com/les.cretes/"
-            className="link link-hover"
-          >
-            Instagram
-          </Link>
+          {translation?.[locale]?.col4.contatti.map((l, i) => {
+            return (
+              <Link href={l.link} className="link link-hover" key={i}>
+                {l.name}
+              </Link>
+            );
+          })}
         </nav>
       </footer>
       <footer className="lg:text-center px-10 py-4 border-t  text-[#D4D2E3] border-[#D4D2E3]">
         <aside>
           <p>
-            Copyright © 2024 Les Crêtes | All Rights Reserved | Privacy Policy
+            Copyright © 2024 Les Crêtes - P.iva 00520450073 | All Rights
+            Reserved | Privacy Policy
           </p>
         </aside>
       </footer>

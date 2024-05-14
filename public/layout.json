@@ -29,68 +29,428 @@
       "cosmesi": "Cosmétique",
       "download": "Téléchargements",
       "contatti": "Contacts"
+    },
+    "de": {
+      "home": "Home",
+      "storia": "History",
+      "vini": "Wines",
+      "degustazioni": "Tastings",
+      "news": "News",
+      "cosmesi": "Cosmetics",
+      "download": "Download Area",
+      "contatti": "Contacts"
+    },
+    "ko": {
+      "home": "Home",
+      "storia": "History",
+      "vini": "Wines",
+      "degustazioni": "Tastings",
+      "news": "News",
+      "cosmesi": "Cosmetics",
+      "download": "Download Area",
+      "contatti": "Contacts"
+    },
+    "jp": {
+      "home": "Home",
+      "storia": "History",
+      "vini": "Wines",
+      "degustazioni": "Tastings",
+      "news": "News",
+      "cosmesi": "Cosmetics",
+      "download": "Download Area",
+      "contatti": "Contacts"
+    },
+    "ru": {
+      "home": "Home",
+      "storia": "History",
+      "vini": "Wines",
+      "degustazioni": "Tastings",
+      "news": "News",
+      "cosmesi": "Cosmetics",
+      "download": "Download Area",
+      "contatti": "Contacts"
+    },
+    "zh": {
+      "home": "Home",
+      "storia": "History",
+      "vini": "Wines",
+      "degustazioni": "Tastings",
+      "news": "News",
+      "cosmesi": "Cosmetics",
+      "download": "Download Area",
+      "contatti": "Contacts"
     }
   },
   "footer": {
     "it": {
       "col1": {
-        "row1": {
-          "title": "Vuoi collaborare con me?",
-          "cta": "Cominciamo."
-        }
+        "title": "Orari di ufficio",
+        "days": "Da Lunedì a Venerdì",
+        "close": "Sabato, domenica e festivi chiuso"
       },
       "col2": {
-        "row1": {
-          "title": "Vuoi saperne di più?",
-          "cta": "Contattami."
-        }
+        "title": "Orari magazzino",
+        "days": "Da Lunedì a Venerdì",
+        "close": "Sabato, domenica e festivi chiuso"
+      },
+      "col3": {
+        "title": "Quick Links",
+
+        "menu": [
+          {
+            "name": "Vini",
+            "link": "/vini"
+          },
+          {
+            "name": "Degustazioni",
+            "link": "/degustazioni"
+          },
+          {
+            "name": "Cosmesi",
+            "link": "/cosmesi"
+          }
+        ]
+      },
+      "col4": {
+        "title": "Contatti & Social",
+        "contatti": [
+          {
+            "name": "Contatti e indicazioni",
+            "link": "/contatti"
+          },
+          {
+            "name": "Facebook",
+            "link": "https://www.facebook.com/lescretes"
+          },
+          {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/les.cretes/"
+          }
+        ]
       }
     },
     "en": {
       "col1": {
-        "row1": {
-          "title": "Do you want to collaborate with me?",
-          "cta": "Let's get started"
-        }
+        "title": "Office Hours",
+        "days": "From Monday to Friday",
+        "close": "Saturday, Sunday and holidays closed"
       },
       "col2": {
-        "row1": {
-          "title": "Do you want to know more?",
-          "cta": "Contact Me."
-        }
+        "title": "WAREHOUSE HOURS",
+        "days": "From Monday to Friday",
+        "close": "Saturday, Sunday and holidays closed"
+      },
+      "col3": {
+        "title": "Quick Links",
+        "menu": [
+          {
+            "name": "Wines",
+            "link": "/vini"
+          },
+          {
+            "name": "Tastings",
+            "link": "/degustazioni"
+          },
+          {
+            "name": "Cosmetics",
+            "link": "/cosmesi"
+          }
+        ]
+      },
+      "col4": {
+        "title": "Contacts & Social",
+        "contatti": [
+          {
+            "name": "Contacts and directions",
+            "link": "/contatti"
+          },
+          {
+            "name": "Facebook",
+            "link": "https://www.facebook.com/lescretes"
+          },
+          {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/les.cretes/"
+          }
+        ]
+      }
+    },
+    "de": {
+      "col1": {
+        "title": "Office Hours",
+        "days": "From Monday to Friday",
+        "close": "Saturday, Sunday and holidays closed"
+      },
+      "col2": {
+        "title": "WAREHOUSE HOURS",
+        "days": "From Monday to Friday",
+        "close": "Saturday, Sunday and holidays closed"
+      },
+      "col3": {
+        "title": "Quick Links",
+        "menu": [
+          {
+            "name": "Wines",
+            "link": "/vini"
+          },
+          {
+            "name": "Tastings",
+            "link": "/degustazioni"
+          },
+          {
+            "name": "Cosmetics",
+            "link": "/cosmesi"
+          }
+        ]
+      },
+      "col4": {
+        "title": "Contacts & Social",
+        "contatti": [
+          {
+            "name": "Contacts and directions",
+            "link": "/contatti"
+          },
+          {
+            "name": "Facebook",
+            "link": "https://www.facebook.com/lescretes"
+          },
+          {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/les.cretes/"
+          }
+        ]
       }
     },
     "fr": {
       "col1": {
-        "row1": {
-          "title": "Veux-tu collaborer avec moi ?",
-          "cta": "Allons-y."
-        }
+        "title": "HEURES DE BUREAU",
+        "days": "Du lundi au vendredi",
+        "close": "Samedi, dimanche et jours fériés fermés"
       },
       "col2": {
-        "row1": {
-          "title": "Veux-tu en savoir plus ? ",
-          "cta": "Contactez-moi."
-        }
+        "title": "HORAIRES DE L’ENTREPÔT",
+        "days": "Du lundi au vendredi",
+        "close": "Samedi, dimanche et jours fériés fermés"
+      },
+      "col3": {
+        "title": "Menu",
+
+        "menu": [
+          {
+            "name": "Vins",
+            "link": "/vini"
+          },
+          {
+            "name": "Dégustations",
+            "link": "/degustazioni"
+          },
+          {
+            "name": "Cosmétiques",
+            "link": "/cosmesi"
+          }
+        ]
+      },
+      "col4": {
+        "title": "CONTACTS & SOCIAL",
+        "contatti": [
+          {
+            "name": "Contacts et indications",
+            "link": "/contatti"
+          },
+          {
+            "name": "Facebook",
+            "link": "https://www.facebook.com/lescretes"
+          },
+          {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/les.cretes/"
+          }
+        ]
+      }
+    },
+    "jp": {
+      "col1": {
+        "title": "Office Hours",
+        "days": "From Monday to Friday",
+        "close": "Saturday, Sunday and holidays closed"
+      },
+      "col2": {
+        "title": "WAREHOUSE HOURS",
+        "days": "From Monday to Friday",
+        "close": "Saturday, Sunday and holidays closed"
+      },
+      "col3": {
+        "title": "Quick Links",
+        "menu": [
+          {
+            "name": "Wines",
+            "link": "/vini"
+          },
+          {
+            "name": "Tastings",
+            "link": "/degustazioni"
+          },
+          {
+            "name": "Cosmetics",
+            "link": "/cosmesi"
+          }
+        ]
+      },
+      "col4": {
+        "title": "Contacts & Social",
+        "contatti": [
+          {
+            "name": "Contacts and directions",
+            "link": "/contatti"
+          },
+          {
+            "name": "Facebook",
+            "link": "https://www.facebook.com/lescretes"
+          },
+          {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/les.cretes/"
+          }
+        ]
+      }
+    },
+    "ko": {
+      "col1": {
+        "title": "Office Hours",
+        "days": "From Monday to Friday",
+        "close": "Saturday, Sunday and holidays closed"
+      },
+      "col2": {
+        "title": "WAREHOUSE HOURS",
+        "days": "From Monday to Friday",
+        "close": "Saturday, Sunday and holidays closed"
+      },
+      "col3": {
+        "title": "Quick Links",
+        "menu": [
+          {
+            "name": "Wines",
+            "link": "/vini"
+          },
+          {
+            "name": "Tastings",
+            "link": "/degustazioni"
+          },
+          {
+            "name": "Cosmetics",
+            "link": "/cosmesi"
+          }
+        ]
+      },
+      "col4": {
+        "title": "Contacts & Social",
+        "contatti": [
+          {
+            "name": "Contacts and directions",
+            "link": "/contatti"
+          },
+          {
+            "name": "Facebook",
+            "link": "https://www.facebook.com/lescretes"
+          },
+          {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/les.cretes/"
+          }
+        ]
+      }
+    },
+    "ru": {
+      "col1": {
+        "title": "Office Hours",
+        "days": "From Monday to Friday",
+        "close": "Saturday, Sunday and holidays closed"
+      },
+      "col2": {
+        "title": "WAREHOUSE HOURS",
+        "days": "From Monday to Friday",
+        "close": "Saturday, Sunday and holidays closed"
+      },
+      "col3": {
+        "title": "Quick Links",
+        "menu": [
+          {
+            "name": "Wines",
+            "link": "/vini"
+          },
+          {
+            "name": "Tastings",
+            "link": "/degustazioni"
+          },
+          {
+            "name": "Cosmetics",
+            "link": "/cosmesi"
+          }
+        ]
+      },
+      "col4": {
+        "title": "Contacts & Social",
+        "contatti": [
+          {
+            "name": "Contacts and directions",
+            "link": "/contatti"
+          },
+          {
+            "name": "Facebook",
+            "link": "https://www.facebook.com/lescretes"
+          },
+          {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/les.cretes/"
+          }
+        ]
+      }
+    },
+    "zh": {
+      "col1": {
+        "title": "Office Hours",
+        "days": "From Monday to Friday",
+        "close": "Saturday, Sunday and holidays closed"
+      },
+      "col2": {
+        "title": "WAREHOUSE HOURS",
+        "days": "From Monday to Friday",
+        "close": "Saturday, Sunday and holidays closed"
+      },
+      "col3": {
+        "title": "Quick Links",
+        "menu": [
+          {
+            "name": "Wines",
+            "link": "/vini"
+          },
+          {
+            "name": "Tastings",
+            "link": "/degustazioni"
+          },
+          {
+            "name": "Cosmetics",
+            "link": "/cosmesi"
+          }
+        ]
+      },
+      "col4": {
+        "title": "Contacts & Social",
+        "contatti": [
+          {
+            "name": "Contacts and directions",
+            "link": "/contatti"
+          },
+          {
+            "name": "Facebook",
+            "link": "https://www.facebook.com/lescretes"
+          },
+          {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/les.cretes/"
+          }
+        ]
       }
     }
-  },
-  "socials": [
-    {
-      "name": "facebook",
-      "url": "https://www.facebook.com/thalliondev",
-      "icon": "entypo-social:facebook"
-    },
-
-    {
-      "name": "instagram",
-      "url": "https://www.instagram.com/thallion.dev/",
-      "icon": "ph:instagram-logo-fill"
-    },
-    {
-      "name": "linkedin",
-      "url": "https://www.linkedin.com/in/francesca-cantale-30730b182/",
-      "icon": "devicon-plain:linkedin"
-    }
-  ]
+  }
 }

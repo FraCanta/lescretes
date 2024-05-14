@@ -3,26 +3,9 @@
     "hero": {
       "title": "Passion and Mountain"
     },
-    "section2": {
-      "title": "Passion and innovation for over 200 years",
-      "descrizione": "The history of the Charrère family begins in 1750 and still thrives today with great respect for the traditions and values passed down through generations. Attention to innovation and care for the land are the driving forces of a company that puts its soul and heart into winemaking.",
-      "family": "The Charrère family",
-      "rifugio": "The refuge",
-      "terroir": "The Terroir"
-    },
-    "section3": {
-      "title": "At Les Crêtes, sip our wines in a relaxing atmosphere",
-      "descrizione": "Entering you can live a sensory experience, with an area dedicated to essences and a library with books of the Valle d'Aosta and wine, all this in a place where you can sit, read, drink a glass and observe the view.",
-      "book": "book now",
-      "scopri": "learn more"
-    },
-    "section4": {
-      "title": "Mountain Wines: Authentic Expression of the Valle d'Aosta",
-      "descrizione": "Our savory, fresh and elegant wines express the essence of Valle d'Aosta’s <strong> Terroir</strong> mountain. erroir</strong> mountain. They are created with passion and dedicated to amateurs and experts. The Alpine climate strongly influences the organoleptic characterics of <strong>the wines produced in Valle d'Aosta</strong>. They are children of a family-run winery, with small plots cultivated by hand and cared for in detail."
-    },
     "tabs": [
       {
-        "name": "Red",
+        "name": "Rossi",
         "content": [
           {
             "img": "/assets/vinirossi/merle.webp",
@@ -88,7 +71,7 @@
         ]
       },
       {
-        "name": "White",
+        "name": "Bianchi",
         "content": [
           {
             "img": "/assets/vinibianchi/chardonnay_cb.webp",
@@ -139,7 +122,7 @@
         ]
       },
       {
-        "name": "Desserts and Bubbles",
+        "name": "Dessert e Bollicine",
         "content": [
           {
             "img": "/assets/vinidessert/dorè.webp",
@@ -158,21 +141,6 @@
           }
         ]
       }
-    ],
-    "section5": {
-      "title1": "Sustainability",
-      "descrizione": "We are committed to environmental sustainability and follow the European guidelines for phytosanitary treatments, focusing on the limited use of pesticides. Our dedication to quality and passion for the surrounding area are at the heart of our philosophy.",
-      "title2": "Commitment",
-      "descrizione2": "The key principle of our philosophy is to continue to follow the values of past generations, enhancing the 'Terroir' with fidelity and respect for traditions. However, our focus is always on the future of innovation that allows us to fully express the potential of the mountain wine territory of Valle d'Aosta."
-    },
-    "testimonials": {
-      "title": "Testimonials",
-      "button": "Submit Review"
-    },
-    "section6": {
-      "title": "Beyond the Grape",
-      "descrizione": "Devin offers an innovative, natural and effective cosmetic formula, derived from organic extracts of the mountains, to meet the needs of those looking for high-performance natural products.",
-      "button": "Discover Our Own Cosmetics"
-    }
+    ]
   }
 }

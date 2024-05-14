@@ -25,12 +25,7 @@
         "details": "Tonico delicato",
         "button": "/cosmesi/lotion"
       },
-      {
-        "img": "/assets/cosmetici/latte.webp",
-        "name": "Fleurs DeVin Soin Corps ",
-        "details": "Crema corpo fiorita delicata",
-        "button": "/cosmesi/soincorps"
-      },
+
       {
         "img": "/assets/cosmetici/acqua3.webp",
         "name": "Cristal DeVin ",
@@ -121,27 +116,7 @@
         "title": "lotion",
         "button": "/cosmesi/lotion"
       },
-      "soincorps": {
-        "img": "/assets/cosmetici/latte.webp",
-        "name": "Fleurs DeVin Soin Corps ",
-        "ml": "50ml",
-        "descrizione": [
-          {
-            "testo": "Texture ultra ricca e fondente che dona nutrimento per una pelle tonica, rigenerata e idratata. Indicata per tutti i tipi di pelle, in particolare nei casi di forte secchezza, disidratazione e atonie."
-          },
-          {
-            "testo": "Svolge una decisa azione tonificante e levigante per una pelle più elastica, compatta e uniforme."
-          }
-        ],
-        "ingredientiTitle": "Ingredienti",
-        "ingredienti": "Contiene olio di vinaccioli, acido ialuronico, olio di mandorle dolci, polisaccaride protettivo effetto barriera, estratto di Hibisco, estratto di avena, estratto di rosa damascena e olio di noce.",
-        "istruzioniTitle": "Istruzioni d'uso",
-        "istruzioni": "Applicare mattino e sera o dopo il bagno/doccia su pelle asciutta e detersa, massaggiare con movimenti circolari fino a completo assorbimento.",
 
-        "details": "Crema corpo fiorita delicata",
-        "title": "soincorps",
-        "button": "/cosmesi/soincorps"
-      },
       "parfumee": {
         "img": "/assets/cosmetici/acqua3.webp",
         "name": "Cristal DeVin ",

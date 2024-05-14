@@ -4,26 +4,23 @@ import Image from "next/image";
 import Pattern from "@/public/assets/pattern3.png";
 import CtaWhite from "../Cta/CtaWhite";
 import CtaOutline from "../Cta/CtaOutline";
-const Sections3 = () => {
+const Sections3 = ({ translation }) => {
   return (
     <>
       <div className="w-[90%] mx-auto relative py-[50px] lg:p-[120px] z-[9999]">
         <div className="w-full h-full  flex-col justify-start items-center gap-10 inline-flex py-10">
           <h2 className="w-full lg:w-[80%] 2xl:w-full  fxl:w-[65%] 3xl:text-7xl  lg:text-center text-white text-3xl md:text-5xl lg:text-5xl fxl:text-[60px] font-bold ">
-            A Les Crêtes sorseggi i nostri vini immerso nel relax{" "}
+            {translation?.title}
           </h2>
           <p className="lg:w-[60%] xl:w-[95%] fxl:w-[60%] 3xl:w-[75%] lg:text-center text-white text-xl md:text-2xl 2xl:text-xl  fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-regular">
-            Entrando si potrà vivere un’esperienza sensoriale, con una zona
-            dedicata alle essenze e una biblioteca con libri della Valle d’Aosta
-            e del vino, tutto questo in un luogo in cui potersi accomodare,
-            leggere, bere un bicchiere ed osservare il panorama.
+            {translation?.descrizione}
           </p>
           <div className="justify-center items-center gap-[28.76px] flex flex-col md:flex-row w-full h-full">
             <div className="w-full lg:w-max h-full flex justify-center">
-              <CtaWhite link="/contatti">Prenota subito</CtaWhite>
+              <CtaWhite link="/contatti">{translation.book}</CtaWhite>
             </div>
             <div className="w-full lg:w-max h-full flex justify-center">
-              <CtaOutline link="/degustazioni">Scopri di più</CtaOutline>
+              <CtaOutline link="/degustazioni">{translation.scopri}</CtaOutline>
             </div>
           </div>
         </div>

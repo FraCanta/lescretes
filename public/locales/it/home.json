@@ -3,6 +3,23 @@
     "hero": {
       "title": "Passione e Montagna"
     },
+    "section2": {
+      "title": "Passione e innovazione da oltre 200 anni",
+      "descrizione": "La storia della famiglia Charrère ha inizio nel 1750 e vive ancora oggi con grande rispetto delle tradizioni e dei valori tramandati nel tempo. L’attenzione all’innovazione e la cura del territorio sono il motore di un’azienda che mette anima e cuore nella viticoltura.",
+      "family": "La famiglia Charrère",
+      "rifugio": "Il Rifugio",
+      "terroir": "Il Terroir"
+    },
+    "section3": {
+      "title": "A Les Crêtes sorseggi i nostri vini immerso nel relax",
+      "descrizione": "Entrando si potrà vivere un’esperienza sensoriale, con una zona dedicata alle essenze e una biblioteca con libri della Valle d’Aosta e del vino, tutto questo in un luogo in cui potersi accomodare, leggere, bere un bicchiere ed osservare il panorama.",
+      "book": "prenota subito",
+      "scopri": "scopri di più"
+    },
+    "section4": {
+      "title": "Vini di Montagna: Espressione Autentica della Valle d'Aosta",
+      "descrizione": "I nostri vini sapidi, freschi ed eleganti, esprimono l’essenza del <strong> Terroir</strong> di montagna della Valle d’Aosta. Sono creati con passione e dedicati agli amatori ed esperti. Il clima alpino influenza fortemente le caratteristiche organolettiche dei <strong>vini prodotti in Valle d’Aosta</strong>. Sono figli di una cantina a conduzione famigliare, con piccoli appezzamenti coltivati a mano e curati nei minimi dettagli."
+    },
     "tabs": [
       {
         "name": "Rossi",
@@ -142,6 +159,21 @@
           }
         ]
       }
-    ]
+    ],
+    "section5": {
+      "title1": "Sostenibilità",
+      "descrizione": "Ci impegniamo per la sostenibilità ambientale e seguiamo le linee guida europee per i trattamenti fitosanitari, privilegiando un uso limitato di fitofarmaci. La nostra dedizione alla qualità e alla passione per il territorio circostante sono al centro della nostra filosofia.",
+      "title2": "Impegno",
+      "descrizione2": "Il principio cardine della nostra filosofia è continuare a seguire i valori delle generazioni passate, valorizzando il 'Terroir' con fedeltà e rispetto delle tradizioni. Tuttavia, il nostro sguardo è sempre rivolto al futuro dell'innovazione che ci consente di esprimere appieno le potenzialità del territorio vitivinicolo di montagna della Valle d'Aosta."
+    },
+    "testimonials": {
+      "title": "Dicono di noi",
+      "button": "Scrivi Recensione"
+    },
+    "section6": {
+      "title": "Non solo Vino",
+      "descrizione": "DeVin propone una formula cosmetica innovativa, naturale e efficace, derivata da estratti biologici delle montagne, per soddisfare le esigenze di chi cerca prodotti naturali ad alte prestazioni.",
+      "button": "Scopri La Nostra Cosmesi"
+    }
   }
 }

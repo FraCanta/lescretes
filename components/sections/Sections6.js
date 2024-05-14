@@ -5,22 +5,20 @@ import Pattern from "@/public/assets/pattern3.png";
 import Cosmesi from "@/public/assets/cosmesi.jpg";
 import CtaWhite from "../Cta/CtaWhite";
 
-const Sections6 = () => {
+const Sections6 = ({ translation }) => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2">
       <div className="w-full h-[60vh]  xl:h-full flex flex-col gap-6 p-8 md:gap-14 2xl:gap-14 2xl:p-20 justify-center   relative">
         <h2 className="w-full  text-white text-[40px] md:text-6xl 2xl:text-[64px] fxl:text-[80px] font-bold 3xl:text-7xl">
-          Non solo Vino
+          {translation.title}
         </h2>
         <div className="w-full  ">
           <p className="text-white text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal">
-            DeVin propone una formula cosmetica innovativa, naturale e efficace,
-            derivata da estratti biologici delle montagne, per soddisfare le
-            esigenze di chi cerca prodotti naturali ad alte prestazioni.
+            {translation.descrizione}
           </p>
         </div>
         <div className="max-w-max z-[99999]">
-          <CtaWhite link="/cosmesi">Scopri La Nostra Cosmesi</CtaWhite>
+          <CtaWhite link="/cosmesi">{translation.button}</CtaWhite>
         </div>
         <div className="w-full h-[150px] lg:h-[350px] 3xl:h-[40%] absolute bottom-0 left-0">
           <Image

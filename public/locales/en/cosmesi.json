@@ -25,12 +25,7 @@
         "details": "Tonico delicato",
         "button": "/cosmesi/lotion"
       },
-      {
-        "img": "/assets/cosmetici/latte.webp",
-        "name": "Fleurs DeVin Soin Corps ",
-        "details": "Crema corpo fiorita delicata",
-        "button": "/cosmesi/soincorps"
-      },
+
       {
         "img": "/assets/cosmetici/acqua3.webp",
         "name": "Cristal DeVin ",

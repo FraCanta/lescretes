@@ -1,105 +1,129 @@
 {
   "home": {
     "hero": {
-      "title": "Passion et Montagne"
+      "title": "Passion et montagne"
+    },
+    "section2": {
+      "title": "Passion et innovation depuis plus de 200 ans",
+      "descrizione": "L’histoire de la famille Charrère a commencé en 1750 et vit encore aujourd’hui avec un grand respect des traditions et des valeurs transmises au fil du temps. L’attention à l’innovation et le soin du territoire sont le moteur d’une entreprise qui met âme et cœur dans la viticulture.",
+      "family": "La famille Charrère",
+      "rifugio": "Le Refuge",
+      "terroir": "Le Terroir"
+    },
+    "section3": {
+      "title": "À Les Crêtes, dégustez nos vins en toute détente",
+      "descrizione": "En entrant, vous pourrez vivre une expérience sensorielle, avec une zone dédiée aux essences et une bibliothèque avec des livres de la Vallée d’Aoste et du vin, tout cela dans un endroit où vous pouvez vous asseoir, lire, boire un verre et observer la vue.",
+      "book": "Réservez maintenant",
+      "scopri": "En savoir plus"
+    },
+    "section4": {
+      "title": "Vins de Montagne : Expression Authentique de la Vallée d’Aoste",
+      "descrizione": "Nos vins sapides, frais et élégants, expriment l’essence du <strong> Terroir</strong> de montagne de la Vallée d’Aoste. Ils sont créés avec passion et dédiés aux amateurs et aux experts. Le climat alpin influence fortement les caractéristiques organoleptiques des <strong>vins produits en Vallée d’Aoste</strong>. Ils sont les fils d’une cave familiale, avec de petites parcelles cultivées à la main et soignées dans les moindres détails."
     },
     "tabs": [
       {
-        "name": "Rossi",
+        "name": "Rouges",
         "content": [
           {
-            "img": "/assets/vinirossi/merle.webp",
+            "img": "/assets/vinirossi/merle.png",
             "name": "Merlot Le Merle Valle D'Aosta DOP",
             "link": "/vini/rossi/merle"
           },
           {
             "img": "/assets/vinirossi/cornalin.png",
-            "name": "Cornalin",
+            "name": "Cornalin Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/cornalin"
           },
           {
-            "img": "/assets/vinirossi/fumin_lacor.webp",
-            "name": "Fumin La Cor",
+            "img": "/assets/vinirossi/fumin_lacor.png",
+            "name": "Fumin La Cor Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/lacor"
           },
+
           {
-            "img": "/assets/vinirossi/monrouge.png",
-            "name": "Mon Rouge",
-            "link": "/vini/rossi/monrouge"
+            "img": "/assets/vinirossi/nebbiolo_sommet.png",
+            "name": "Nebbiolo Sommet Valle d’Aosta D.O.P.",
+            "link": "/vini/rossi/nebbiolos"
           },
           {
-            "img": "/assets/vinirossi/nebbiolo.webp",
-            "name": "Nebbiolo Sommet Valle d’Aosta D.O.P.",
+            "img": "/assets/vinirossi/nebbiolo.png",
+            "name": "Nebbiolo Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/nebbiolo"
           },
           {
-            "img": "/assets/vinirossi/pinot_nero.webp",
-            "name": "Pinot Nero",
+            "img": "/assets/vinirossi/pinot_nero.png",
+            "name": "Pinot Noir Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/pinot"
           },
+
           {
-            "img": "/assets/vinirossi/pinot_revei.webp",
+            "img": "/assets/vinirossi/pinot_revei.png",
             "name": "Pinot Revei",
             "link": "/vini/rossi/revei"
           },
           {
-            "img": "/assets/vinirossi/sabla.webp",
-            "name": "Sabla",
+            "img": "/assets/vinirossi/sabla.png",
+            "name": "La Sabla® – Vino Rosso",
             "link": "/vini/rossi/sabla"
           },
           {
-            "img": "/assets/vinirossi/syrah.webp",
-            "name": "Syrah",
+            "img": "/assets/vinirossi/syrah.png",
+            "name": "Syrah Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/syrah"
           },
           {
-            "img": "/assets/vinirossi/torrette_sup.webp",
-            "name": "Torrette Superiore",
+            "img": "/assets/vinirossi/torrette_sup.png",
+            "name": "Torrette Superiore Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/torrettesup"
           },
           {
-            "img": "/assets/vinirossi/torrette.webp",
-            "name": "Torrette",
+            "img": "/assets/vinirossi/torrette.png",
+            "name": "Torrette Valle d’Aosta D.O.P.",
             "link": "/vini/rossi/torrette"
+          },
+          {
+            "img": "/assets/vinirossi/monrouge.png",
+            "name": "Mon Rouge® – Vino Rosso",
+            "link": "/vini/rossi/monrouge"
           }
         ]
       },
       {
-        "name": "Bianchi",
+        "name": "Blancs",
         "content": [
           {
-            "img": "/assets/vinibianchi/chardonnay_cb.webp",
-            "name": "Chardonnay Cuvée Bois",
+            "img": "/assets/vinibianchi/chardonnay_cb.png",
+            "name": "Chardonnay Cuvée Bois Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/chardonnaycb"
           },
           {
-            "img": "/assets/vinibianchi/chardonnay.webp",
-            "name": "Chardonnay",
+            "img": "/assets/vinibianchi/chardonnay.png",
+            "name": "Chardonnay Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/chardonnay"
           },
 
           {
-            "img": "/assets/vinibianchi/neige.webp",
-            "name": "Neige D'Or",
+            "img": "/assets/vinibianchi/neige.png",
+            "name": "Neige d’Or Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/neige"
           },
           {
-            "img": "/assets/vinibianchi/petite_arvine.webp",
-            "name": "Petite Arvine",
+            "img": "/assets/vinibianchi/petite_arvine.png",
+            "name": "Petite Arvine Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/petitearvine"
           },
           {
-            "img": "/assets/vinibianchi/petite_fleur.webp",
-            "name": "Petite Arvine Fleur",
+            "img": "/assets/vinibianchi/petite_fleur.png",
+            "name": "Fleur – Petite Arvine Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/petitefleur"
           },
           {
-            "img": "/assets/vinibianchi/pinot_grigio.webp",
-            "name": "Pinot Gris Brutant",
+            "img": "/assets/vinibianchi/pinot_grigio.png",
+            "name": "Pinot Gris Brulant Valle d’Aosta D.O.P.",
             "link": "/vini/bianchi/pinotgris"
           },
           {
-            "img": "/assets/vinibianchi/mon_blanc.webp",
+            "img": "/assets/vinibianchi/mon_blanc.png",
             "name": "Mon Blanc",
             "link": "/vini/bianchi/monblanc"
           }
@@ -109,32 +133,47 @@
         "name": "Rosè",
         "content": [
           {
-            "img": "/assets/vinirose/rose.webp",
-            "name": "Rosè",
+            "img": "/assets/vinirose/rose.png",
+            "name": "Rosé Valle d’Aosta D.O.P.",
             "link": "/vini/rose/rose"
           }
         ]
       },
       {
-        "name": "Dessert e Bollicine",
+        "name": "Desserts et Bulles",
         "content": [
           {
-            "img": "/assets/vinidessert/dorè.webp",
-            "name": "Dorè",
+            "img": "/assets/vinidessert/dorè.png",
+            "name": "Doré – Vino da Uve Stramature",
             "link": "/vini/vinidessert/dore"
           },
           {
-            "img": "/assets/vinidessert/neblu.webp",
-            "name": "Neblu Brut Nature Rose",
+            "img": "/assets/vinidessert/neblu.png",
+            "name": "Neblù – Brut Nature Metodo Classico Rosé",
             "link": "/vini/vinidessert/neblu"
           },
           {
-            "img": "/assets/vinidessert/reban.webp",
-            "name": "Reban Pas Dosè",
+            "img": "/assets/vinidessert/reban.png",
+            "name": "Rebàn Metodo Classico Pas Dosé",
             "link": "/vini/vinidessert/reban"
           }
         ]
       }
-    ]
+    ],
+    "section5": {
+      "title1": "Durabilité",
+      "descrizione": "Nous nous engageons pour la durabilité environnementale et suivons les directives européennes pour les traitements phytosanitaires, en privilégiant une utilisation limitée de produits phytopharmaceutiques. Notre dévouement à la qualité et à la passion pour le territoire environnant sont au cœur de notre philosophie.",
+      "title2": "Engagement",
+      "descrizione2": "Le principe fondamental de notre philosophie est de continuer à suivre les valeurs des générations passées, en valorisant le Terroir avec fidélité et respect des traditions. Cependant, notre regard est toujours tourné vers l’avenir de l’innovation qui nous permet d’exprimer pleinement le potentiel du territoire vitivinicole de montagne de la Vallée d’Aoste."
+    },
+    "testimonials": {
+      "title": "Disent de nous",
+      "button": "Écrire un avis"
+    },
+    "section6": {
+      "title": "Non seulement Vino",
+      "descrizione": "Devin propose une formule cosmétique innovante, naturelle et efficace, dérivée d’extraits biologiques des montagnes, pour répondre aux besoins de ceux qui recherchent des produits naturels de haute performance.",
+      "button": "Découvrez Notre Cosmétique"
+    }
   }
 }

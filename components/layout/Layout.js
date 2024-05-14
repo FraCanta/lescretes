@@ -8,7 +8,7 @@ export const Layout = (props) => {
     <>
       <NavBar translation={LayoutTranslation?.menu} />
       <main>{props.children}</main>
-      <Footer />
+      <Footer translation={LayoutTranslation?.footer} />
     </>
   );
 };

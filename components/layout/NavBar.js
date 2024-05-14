@@ -70,7 +70,7 @@ const NavBar = ({ translation }) => {
             </div>
           </div>
           <div className="xl:flex items-center justify-end flex-1  hidden font-black">
-            <Link
+            {/* <Link
               href={`/areaDownload`}
               title="I miei articoli"
               className="mr-[2.35rem] gap-2 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
@@ -90,7 +90,7 @@ const NavBar = ({ translation }) => {
                   d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
                 />
               </svg>
-            </Link>
+            </Link> */}
             <CtaPrimary link="/contatti">
               {translation?.[locale]?.contatti}
             </CtaPrimary>
