@@ -7,7 +7,7 @@ import degustazioniDE from "@/public/locales/de/degustazioni.json";
 import degustazioniJP from "@/public/locales/jp/degustazioni.json";
 import degustazioniKO from "@/public/locales/ko/degustazioni.json";
 import degustazioniRU from "@/public/locales/ru/degustazioni.json";
-import degustazioniZH from "@/public/locales/zh/terroir.json";
+import degustazioniZH from "@/public/locales/zh/degustazioni.json";
 import View from "@/public/assets/cotoView.jpg";
 import Cards from "@/components/Cards/Cards";
 import Image from "next/image";
