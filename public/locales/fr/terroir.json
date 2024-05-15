@@ -1,0 +1,70 @@
+{
+  "terroir": {
+    "hero": {
+      "title": "Le Terroir : Un Trésor Protégé entre les Grandes Alpes et les Vignes Luxuriantes"
+    },
+    "intro": [
+      {
+        "p": "Située au cœur des Alpes et enchâssée entre 'quatre grands' comme le Mont Blanc, le Cervin, le Mont Rose et le Grand Paradis, la Vallée d’Aoste est la plus petite des régions d’Italie."
+      },
+      {
+        "p": "La Vallée d’Aoste est la région européenne avec la plus grande concentration d’aires protégées. 13% de la superficie totale est occupée par des parcs, des réserves naturelles et des oasis. La plus grande extension protégée est celle du Parc National du Grand Paradis, suivie du Parc Régional du Mont Avic. Orographiquement elle est divisée en deux par la Doire Baltée qui coule dans la vallée centrale en direction ouest-est, et met en évidence deux versants, un ombragé exposé au nord dit envers dans le dialecte local, et un ensoleillé et aride exposé au sud appelé adret. Dans la Vallée centrale confluent une vingtaine de vallées latérales orientées le long de l’axe nord-sud."
+      },
+      {
+        "p": "La vigne de ce territoire trouve son habitat idéal sur les terrasses ventilées qui s’étendent le long de la vallée centrale et montent près de la montagne."
+      }
+    ],
+    "paragrafi": [
+      {
+        "title": "Les vins rouges",
+        "descrizione": [
+          {
+            "p": "Les vins rouges Les Crêtes naissent entre 350-800 m d’altitude. Les vignobles sont fractionnés en micro-parcelles (d’une superficie moyenne inférieure à 1500 mètres carrés), en forte pente et se caractérisent par une densité de plantation moyenne (6-9000 pieds/ha). Outre les zones des Crêtes et La Tour d’Aymavilles, avec exposition Nord/Ouest, les raisins se trouvent aussi dans les vignes Les Toules de Sarre, zone vocationnelle historique du Torrette, et dans les vignes de Saint Christophe avec exposition Sud."
+          },
+          {
+            "p": "Le Nebbiolo, présent depuis toujours également en Vallée d’Aoste, est cultivé dans le fond de la vallée alluvionnaire d’origine glaciaire (dans les zones vocates d’Arnad et d’Issogne)."
+          },
+          {
+            "p": "Dans les localités de Bufferia et Sazzé d’Aymavilles naissent les raisins destinés à devenir nos vins rouges plus traditionnels. Les vignes ont entre 20 et 70 ans, ce sont les vieilles vignes familiales. Le sol est sablonneux et en forte pente, avec une exposition Ouest."
+          },
+          {
+            "p": "Le Pinot Noir Revei, qui en patois signifie horloge, est lié à l’histoire de la tour médiévale qui domine le vignoble d’Aymavilles où naissent les raisins avec lesquels nous produisons ce vin de longue attente."
+          }
+        ]
+      },
+      {
+        "title": "Les vins blancs",
+        "descrizione": [
+          {
+            "p": "Les vignobles, d’où naissent nos vins blancs, sont cultivés entre 600-800 m d’altitude. En raison de la conformation géographique de la Vallée d’Aoste, les fortes pentes et pour des raisons de succession héréditaire, sont fractionnées en micro-parcelles (extension moyenne inférieure à 1500 mètres carrés). Ils sont également caractérisés par une densité de plantation élevée (8-9000 pieds/ha)."
+          },
+          {
+            "p": "Le regroupement le plus étendu se développe dans la zone Les Crêtes d’Aymavilles, où la colline offre aux visiteurs sa tour médiévale, aujourd’hui point de dégustation accessible à nos clients."
+          },
+          {
+            "p": "Dans la région d’Aymavilles et aussi à Saint Christophe, aux portes d’Aoste, on trouve les vignobles de Petite Arvine Vallée d’Aoste et Chardonnay Vallée d’Aoste. Dans la basse vallée, dans la région de Montjovet, naissent les raisins de Fleur - Petite Arvine Vallée d’Aoste. Le Pinot Gris est issu des raisins cultivés à Aymavilles et à Saint Nicolas."
+          }
+        ]
+      },
+      {
+        "title": "Les bulles et les desserts",
+        "descrizione": [
+          {
+            "p": "Le Neblù est un mélange de raisins noirs, cultivés dans nos propriétés depuis l’antiquité. Depuis 2005, Les Crêtes a commencé la vinification en vin mousseux, donnant naissance à une Méthode Classique unique en son genre. Pressage moelleux avec fermentation à température contrôlée (14 C) de 12 jours, Moussage avec Méthode Classique et affinage 'sur lies' de 24 mois. De couleur vive, céramiste clair. Perlage fin et persistant, au nez fruité avec des notes de cerise, groseille et petits fruits rouges. En bouche sèche, fraîche et savoureuse, avec une finale persistante. Une petite bulle unique en son genre."
+          },
+          {
+            "p": "Rebàn (en dialecte valdôtain 'nastro'), naît pour célébrer un moment spécial. C’est la première Méthode Classique valdôtaine de Petite Arvine vinifiée en pureté. C’est un vin mousseux variétal qui exprime la fraîcheur et la salinité typiques du cépage et expressif du terroir valdôtain."
+          },
+          {
+            "p": "Notre vin à partir de raisins surmûris - Doré - naît à une altitude moyenne d’environ 700 mètres au-dessus du niveau de la mer. Les raisins fanés en plante, récoltés avant la première chute de neige, subissent un pressage doux et sont laissées fermenter pendant 25 jours à température contrôlée et poursuivent ensuite l’affinage pendant 12 mois. Des notes de lait de poule, de crème pâtissière, de miel, de baies aromatiques, de caramel et d’abricots secs enveloppent le palais d’une longue finale fruitée. Le vin de raisins Doré surmûrs étonne par son parfum intense et sa fraîcheur inattendue."
+          }
+        ]
+      }
+    ],
+    "banner": {
+      "title": "Découvrez notre sélection de vins. Vous pourrez savourer toute notre expérience.",
+      "btn": "En savoir plus",
+      "link": "/vini"
+    }
+  }
+}

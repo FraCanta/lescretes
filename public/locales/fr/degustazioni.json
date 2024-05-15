@@ -1,62 +1,70 @@
 {
   "degustazioni": {
     "hero": {
-      "title": "Entra nel mondo Les Crêtes per degustare i nostri vini."
+      "title": "Entrez dans le monde des Crêtes pour déguster nos vins."
     },
+    "intro": [
+      {
+        "p": "Le <a href='/rifugio' title='Pagina Rifugio' class='font-bold'>Refuge du Vin</a> est une véritable terrasse sur les vignes surplombant la ville d’Aoste, un lieu où l’accueil est à la maison et où vivre une expérience unique. Les dégustations sont dédiées à la fois aux groupes et aux amateurs de vin."
+      },
+      {
+        "p": "Chaque dégustation est accompagnée d’une visite à la cave, disponible en différentes modalités, selon vos préférences. Si vous avez des besoins particuliers pour vous ou votre groupe, contactez-nous pour créer votre visite personnalisée."
+      }
+    ],
     "cards": [
       {
         "img": "/assets/degustazioni/tre2.png",
         "title": "3 Wines Experience",
-        "descrizione": "Fai un primo passo nel mondo Les Cretes per scoprirne la storia, il territorio, i suoi vitigni ed i vini.",
-        "price": "€25,00 iva inclusa / persona",
+        "descrizione": "Dégustation de trois vins au Refuge du vin et visite de la cave et barricaia",
+        "price": "€25,00 TTC / personne",
         "link": "/degustazioni/trewines"
       },
       {
         "img": "/assets/degustazioni/native.jpeg",
         "title": "Native Wines Experience",
-        "descrizione": "Vivi un percorso nel mondo del vino Les Crêtes che dai vini nativi risale alla storia, al territorio, ai suoi vitigni ancestrali.",
-        "price": "€40,00 iva inclusa / persona",
+        "descrizione": "Dégustation de 5 vins du Territoire au Refuge du vin en cave et barricaia",
+        "price": "€40,00 TTC / personne",
         "link": "/degustazioni/native"
       },
       {
         "img": "/assets/degustazioni/cheese.jpeg",
         "title": "Wine and Cheese Experience",
-        "descrizione": "Al Rifugio del Vino potrai degustare una selezione dei nostri vini, abbinato ad un pregiato formaggio locale e da miele di montagna.",
-        "price": "€45,00 iva inclusa / persona",
+        "descrizione": "Dégustation de 5 vins sélectionnés avec 6 fromages locaux et visite de la cave et barricaia",
+        "price": "€45,00 TTC / personne",
         "link": "/degustazioni/cheese"
       },
       {
         "img": "/assets/degustazioni/top.jpeg",
         "title": "Top Wines Experience",
-        "descrizione": "Per wine lovers ed esperti, 5 prestigiose etichette Les Crêtes da degustare nella cornice del Rifugio del Vino.",
-        "price": "€70,00 iva inclusa / persona",
+        "descrizione": "Dégustation de 5 vins haut accompagnés de planches de la gastronomie locale et visite de la cave et barricaia",
+        "price": "€70,00 TTC / personne",
         "link": "/degustazioni/top"
       },
       {
-        "img": "/assets/degustazioni/coteau.jpeg",
-        "title": "Coteau la Tour Experience",
-        "descrizione": "Un viaggio nel mondo Les Crêtes, tra i colori, i profumi e la storia del vigneto del Côteau la Tour.",
-        "price": "€90,00 iva inclusa / persona",
+        "img": "/assets/degustazioni/coteau3.jpg",
+        "title": "Côteau la Tour Experience",
+        "descrizione": "Dégustation de 5 vins accompagnée d’une planche à découper de la gastronomie locale et visite de la cave et barricaia. Visite du vignoble du Côteau et toast dans la tour médiévale",
+        "price": "€90,00 TTC / personne",
         "link": "/degustazioni/tour"
       },
       {
         "img": "/assets/degustazioni/winemaker.jpeg",
         "title": "Winemaker's Experience",
-        "descrizione": "Scopri il mondo Les Crêtes raccontato dal nostro enologo Raffaele, a partire dalle vigne fino alla cantina.",
-        "price": "€100,00 iva inclusa / persona",
+        "descrizione": "Découvrez le monde Les Crêtes raconté par notre œnologue Raffaele, des vignes à la cave",
+        "price": "€100,00 TTC / personne",
         "link": "/degustazioni/winemaker"
       },
       {
         "img": "/assets/degustazioni/wellness.jpeg",
         "title": "Wellness & Wine Tasting",
-        "descrizione": "Soggiorno di una notte in camera doppia presso QC Terme Spas & Resorts, con percorso benessere + degustazione di 5 vini selezionati con 6 formaggi locali, visita in cantina e barricaia.",
-        "price": "A partire da €346,00 iva inclusa ",
+        "descrizione": "Séjour d’une nuit en chambre double au QC Terme Spas & Resorts, avec parcours bien-être + dégustation de 5 vins sélectionnés avec 6 fromages locaux, visite en cave et barrique",
+        "price": "À partir de 346,00 € TTC ",
         "link": "/degustazioni/wellness"
       }
     ],
     "singleDeg": {
       "trewines": {
-        "img": "/assets/degustazioni/tre2.png",
+        "img": "/assets/degustazioni/tre2.jpg",
         "name": "3 Wines Experience",
         "title": "trewines",
         "degustazione": {
@@ -83,7 +91,7 @@
         "download": "/3-Wines-Experience-ITA.pdf"
       },
       "native": {
-        "img": "/assets/degustazioni/native.jpeg",
+        "img": "/assets/degustazioni/native.jpg",
         "name": "Native Wines Experience",
         "title": "native",
         "degustazione": {
@@ -148,7 +156,7 @@
         "download": "/Wine-Cheese-Experience-ITA.pdf"
       },
       "top": {
-        "img": "/assets/degustazioni/top.jpeg",
+        "img": "/assets/degustazioni/top.jpg",
         "name": "Top Wines Experience",
         "title": "top",
         "degustazione": {
@@ -182,8 +190,8 @@
         "download": "/Top-Wines-Experience-ITA.pdf"
       },
       "tour": {
-        "img": "/assets/degustazioni/coteau.jpeg",
-        "name": "Coteau la Tour Experience",
+        "img": "/assets/degustazioni/coteau3.jpg",
+        "name": "Côteau la Tour Experience",
         "title": "tour",
         "degustazione": {
           "title": "Degustazione",
@@ -192,19 +200,25 @@
         "durata": { "title": "Durata", "tempo": "2 h" },
         "visita": {
           "title": "Visita Cantina",
-          "cantina": "sì + visita alle vigne del Coteau la Tour"
+          "cantina": "sì + visita alle vigne del Côteau la Tour"
         },
         "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
         "descrizione": {
           "title": "Descrizione",
-          "content": " Entra nel mondo Les Crêtes per scoprirne la storia, il territorio e i suoi vitigni, in un percorso gastronomico che vede protagonisti il vino ed i formaggi. Nella suggestiva cornice del Rifugio del Vino potrai degustare una selezione dei nostri vini, ciascuno in abbinamento ad un pregiato formaggio locale, accompagnato da miele di montagna.",
+          "content": "Percorri un viaggio nel mondo Les Crêtes, immergendoti tra i colori, i profumi e la storia del vigneto del Côteau la Tour, custodito dalla sua torre medievale che domina il paesaggio, svelando un panorama mozzafiato. Nella suggestiva cornice del Rifugio del Vino, potrai inoltre degustare i vini in abbinamento lla nostra selezione di salumi e formaggi della gastronomia locale.",
           "pacchetto": {
             "title": "Cosa comprende:",
             "lista": [
               {
                 "testo": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali * "
               },
-              { "testo": "- Visita della cantina e barricaia" }
+              { "testo": "- Visita della cantina e barricaia" },
+              {
+                "testo": "-  Visita alle vigne del Côteau la Tour con brindisi nella Torre Medievale (consigliato l'utilizzo di scarpe comode)"
+              },
+              {
+                "testo": "-  Tagliere di salumi e formaggi della gastronomia locale"
+              }
             ]
           },
 
@@ -232,18 +246,22 @@
         "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
         "descrizione": {
           "title": "Descrizione",
-          "content": " Entra nel mondo Les Crêtes per scoprirne la storia, il territorio e i suoi vitigni, in un percorso gastronomico che vede protagonisti il vino ed i formaggi. Nella suggestiva cornice del Rifugio del Vino potrai degustare una selezione dei nostri vini, ciascuno in abbinamento ad un pregiato formaggio locale, accompagnato da miele di montagna.",
+          "content": "Scopri il mondo Les Crêtes raccontato dal nostro enologo Raffaele, a partire dalle vigne, per arrivare alla cantina seguendo il percorso che porta le nostre uve alla bottiglia. Nella suggestiva cornice del Rifugio del Vino, degusterai i vini scelti con l'enologo, in abbinamento ad una selezione di salumi e formaggi della gastronomia locale.",
           "pacchetto": {
             "title": "Cosa comprende:",
             "lista": [
               {
-                "testo": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali * "
+                "testo": "- Degustazione di 5 vini scelti con l'enologo "
               },
-              { "testo": "- Visita della cantina e barricaia" }
+              { "testo": "- Visita in cantina e barricaia con barrel tasting" },
+              {
+                "testo": "- Visita al vigneto (consigliato l'utilizzo di scarpe comode)"
+              },
+              {
+                "testo": "- Selezione di salumi e formaggi della gastronomia locale"
+              }
             ]
-          },
-
-          "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
+          }
         },
         "priceTitle": "Prezzo",
 
@@ -265,24 +283,70 @@
         "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
         "descrizione": {
           "title": "Descrizione",
-          "content": " Entra nel mondo Les Crêtes per scoprirne la storia, il territorio e i suoi vitigni, in un percorso gastronomico che vede protagonisti il vino ed i formaggi. Nella suggestiva cornice del Rifugio del Vino potrai degustare una selezione dei nostri vini, ciascuno in abbinamento ad un pregiato formaggio locale, accompagnato da miele di montagna.",
+          "content": "Immergiti nell'incanto di una tradizione culinaria autentica, dove i sapori genuini sono protagonisti indiscussi. La Valle d'Aosta è un vero paradiso per gli amanti del buon cibo e del vino, con la possibilità di degustare eccellenti vini locali. E per rendere il tuo soggiorno ancora più memorabile, concediti un suggestivo percorso benessere, circondato da vasche panoramiche e accoglienti sale relax.",
           "pacchetto": {
             "title": "Cosa comprende:",
             "lista": [
               {
-                "testo": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali * "
+                "testo": "- Soggiorno in camera matrimoniale e ricca colazione "
               },
-              { "testo": "- Visita della cantina e barricaia" }
+              {
+                "testo": "- Ingresso al percorso benessere dell'hotel direttamente dalla camera in accappatoio"
+              },
+              {
+                "testo": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali presso la cantina Les Crêtes"
+              }
             ]
-          },
-
-          "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
+          }
         },
         "priceTitle": "Prezzo",
         "price": "A partire da €346,00 iva inclusa ",
 
-        "download": "https://www.qcterme.com/it/corporate/offerte-e-pacchetti/wellness-wine-tasting"
+        "prenotaBtn": "https://www.qcterme.com/it/corporate/offerte-e-pacchetti/wellness-wine-tasting"
       }
+    },
+    "prenota": {
+      "title": "Réservez dès maintenant votre visite ou demandez des informations sur les dégustations:",
+      "list": [
+        {
+          "name": "- au téléphoneo  <a href='callto:+390165902274'>+39 0165 / 90 22 74</a>"
+        },
+        {
+          "name": "- à l’adresse électronique suivante: <a href='mailto:info@lescretes.it'>info@lescretes.it</a>"
+        },
+        {
+          "name": "- remplir le formulaire sur la page de dégustation choisie"
+        }
+      ],
+      "nota": "Wine shop, dégustations et visites guidées : du lundi au vendredi 9.00-13.00/15.00-19.00 et du samedi 10.00-13.00/15.00-19.00.  <strong>FERMÉ Dimanche et jours fériés</strong>"
+    },
+    "faq": [
+      {
+        "question": "Puis-je emmener mes enfants à une dégustation de vin?",
+        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+      },
+      {
+        "question": "Si j’ai un imprévu, puis-je changer le jour de la dégustation?",
+        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+      },
+      {
+        "question": "Les dégustations sont-elles également idéales pour les végétariens ou les végétaliens?",
+        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+      },
+      {
+        "question": "Est-il possible d’offrir une dégustation?",
+        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+      },
+      {
+        "question": "Quelle est la capacité maximale de participants pour cette dégustation ? Dois-je réserver à l’avance?",
+        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+      }
+    ],
+    "banner": {
+      "title": "Le Refuge du Vin : salle de dégustation émotionnelle",
+      "paragraph": "Un lieu où l’accueil est à la maison et où vivre une expérience unique dans les montagnes de la Vallée d’Aoste.",
+      "btn": "Découvrez Le Refuge",
+      "link": "/rifugio"
     }
   }
 }

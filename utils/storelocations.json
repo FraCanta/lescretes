@@ -1,0 +1,165 @@
+{
+  "storelocations": [
+    {
+      "id": 1,
+      "img": "/assets/rifugio/rifugio2.jpg",
+      "name": "Les Crêtes Produzione e vendita Vini",
+      "address": "SR20, 50, 11010 Aymavilles AO",
+      "phone": "016 5902274",
+      "location": {
+        "latitudine": "45.70477881469765",
+        "longitudine": "7.247627711660989"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Enoclub",
+      "address": "Via Friuli, 15, 20135 Milano MI",
+      "phone": "02 55182421",
+      "location": {
+        "latitudine": "45.45072559984803",
+        "longitudine": "9.209453696864447"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Dispensa Srl",
+      "address": "Via Principe Umberto, 23 - fraz, 25030 Torbiato BS",
+      "phone": "030 7450757",
+      "location": {
+        "latitudine": "45.6086760067033",
+        "longitudine": "10.001937543626914"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Ebbrezza Di Noè",
+      "address": "Vico Vetriera, 9, 80132 Napoli NA",
+      "phone": "081 400104",
+      "location": {
+        "latitudine": "40.83732478223718",
+        "longitudine": "14.238863794207143"
+      }
+    },
+    {
+      "id": 5,
+      "name": "DIEGO SAS DI D. E S. CINQUE",
+      "address": "Corso Giovanni Nicotera, 24, 80069 Vico Equense NA",
+      "phone": "081 8798001",
+      "location": {
+        "latitudine": "41.009542438596576",
+        "longitudine": "14.4779203089431"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Enoteca Dante",
+      "address": "P.za Dante, 18/19, 80135 Napoli NA",
+      "phone": "081 5499689",
+      "location": {
+        "latitudine": "40.84927388129896",
+        "longitudine": "14.248239755964358"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Enoteca Cul De Sac",
+      "address": "Piazza di Pasquino, 73, 00186 Roma RM",
+      "phone": "06 68801094",
+      "location": {
+        "latitudine": "41.897187414962836",
+        "longitudine": "12.470900624216915"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Damarco",
+      "address": "Piazza della Repubblica, 4, 10122 Torino TO",
+      "phone": "011 4361086",
+      "location": {
+        "latitudine": "45.075700094673344",
+        "longitudine": "7.683447499979278"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Cremaschi",
+      "address": "Via Milano, 43, 26013 Crema CR",
+      "phone": "0373 203141",
+      "location": {
+        "latitudine": "45.35920696828845",
+        "longitudine": "9.658122798876295"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Il Consorzio Enoteca",
+      "address": "Via Giovanni Falcone, 5, 64028 Silvi TE",
+      "phone": "085 9359921",
+      "location": {
+        "latitudine": "42.551265770882985",
+        "longitudine": "14.116282941029429"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Enoteca Costantini",
+      "address": "Piazza Cavour, 16 b, 00193 Roma RM",
+      "phone": "06 3203575",
+      "location": {
+        "latitudine": "41.9057666085375",
+        "longitudine": "12.468433894262906"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Enoteca I Coloniali - Vino & Cioccolato",
+      "address": "Via Francesco Giordani, 32, 80122 Napoli NA",
+      "phone": "081 7618478",
+      "location": {
+        "latitudine": "40.83489544166627",
+        "longitudine": "14.220999538384019"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Vinoteca Al Chianti Selezione Formigli",
+      "address": "Via Cassia, 2, Via di Colle Ramole, 1, 50023 Bottai FI",
+      "phone": "055 2373267",
+      "location": {
+        "latitudine": "43.72745604442387",
+        "longitudine": "11.224122894360985"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Enoteca I Coloniali - Vino & Cioccolato",
+      "address": "Via Francesco Giordani, 32, 80122 Napoli NA",
+      "phone": "081 7618478",
+      "location": {
+        "latitudine": "40.83484673722113",
+        "longitudine": "14.22097808071323"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Enoteca Rachele Civita Bevande S.R.L.",
+      "address": "Via Terni, 01033 Civita Castellana VT",
+      "phone": "0761 549568",
+      "location": {
+        "latitudine": "42.33181589019509",
+        "longitudine": "12.417902482052797"
+      }
+    },
+    {
+      "id": 16,
+      "name": "L' Enoteca - Maison du Cognac",
+      "address": "Stradone Farnese, 55, 29121 Piacenza PC",
+      "phone": "0523 338252",
+      "location": {
+        "latitudine": "45.04697789639926",
+        "longitudine": "9.698000911623648"
+      }
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "vini": {
     "hero": {
-      "title": "I vini di Les Crêtes : Passione, Tradizione e Innovazione sulle Montagne",
+      "title": "Les vins de Les Crêtes : Passion, Tradition et Innovation dans les Montagnes",
       "img": "/assets/vini.png"
     },
     "tabs": [
       {
-        "name": "Rossi",
+        "name": "Rouges",
         "content": [
           {
             "img": "/assets/vinirossi/merle.png",
@@ -78,7 +78,7 @@
         ]
       },
       {
-        "name": "Bianchi",
+        "name": "Blancs",
         "content": [
           {
             "img": "/assets/vinibianchi/chardonnay_cb.png",
@@ -129,7 +129,7 @@
         ]
       },
       {
-        "name": "Dessert e Bollicine",
+        "name": "Desserts et Bulles",
         "content": [
           {
             "img": "/assets/vinidessert/dorè.png",
@@ -1699,6 +1699,12 @@
         "download": "/Metodo-classico-Reban-pas-dose-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg"
       }
+    },
+    "banner": {
+      "title": "Notre force est le soin et la passion que nous avons pour notre terre",
+      "paragraph": "Un lieu où l’accueil est à la maison et où vivre une expérience unique dans les montagnes de la Vallée d’Aoste.",
+      "btn": "Découvrir Le Terroir",
+      "link": "/terroir"
     }
   }
 }

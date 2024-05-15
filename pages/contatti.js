@@ -6,6 +6,7 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import Rifugio from "@/public/assets/rifugio/rifugio.JPG";
+// import StoreLocator from "@/components/storeLocator/StoreLocator";
 const Contatti = () => {
   return (
     <>
@@ -55,47 +56,7 @@ const Contatti = () => {
         </div>
       </div>
       <div className="w-[90%] mx-auto py-10 flex flex-col gap-6">
-        {/* <div className="collapse collapse-plus  bg-second">
-          <input type="radio" name="my-accordion-3" />
-          <div className="collapse-title">
-            <h3 className="text-main text-[20px] md:text-[25px] xl:text-2xl font-bold  md:leading-[30.43px]">
-              Altri contatti*
-            </h3>
-          </div>
-          <div className="collapse-content ">
-            <ul className=" flex flex-col gap-2 text-main/80 text-xl">
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
-                <strong>- Commerciale Estero:</strong> ordini@lescretes.it{" "}
-              </li>
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
-                <strong>- Commerciale Italia:</strong> corti.giulio@gmail.com
-              </li>
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
-                <strong>- Contabilità:</strong> contabilita@lescretes.it
-              </li>
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
-                <strong>- Enologo:</strong> enologo@lescretes.it
-              </li>
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
-                <strong>- Guide, contatti stampa e riviste:</strong>{" "}
-                elena@lescretes.it
-              </li>
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
-                <strong>- Magazzino:</strong> magazzino@lescretes.it
-              </li>
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
-                <strong>- Produzione, fornitori, settore agronomico:</strong>{" "}
-                eleonora@lescretes.it
-              </li>
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
-                <strong>
-                  - Segreteria, ordini, spedizioni e fatturazione:
-                </strong>{" "}
-                ordini@lescretes.it
-              </li>
-            </ul>
-          </div>
-        </div> */}
+        {/* <StoreLocator /> */}
         <div className="collapse bg-second">
           <input type="checkbox" />
           <div className="collapse-title text-xl font-medium">
@@ -162,3 +123,35 @@ const Contatti = () => {
 };
 
 export default Contatti;
+
+// export async function getStaticProps() {
+//   const client = new ApolloClient({
+//     uri: 'https://api-us-east-1.graphcms.com/v2/ckzvrda212z1d01za7m8y55rc/master',
+//     cache: new InMemoryCache()
+//   });
+
+//   const data = await client.query({
+//     query: gql`
+//       query PageStores {
+//         storeLocations {
+//           address
+//           id
+//           name
+//           phoneNumber
+//           location {
+//             latitude
+//             longitude
+//           }
+//         }
+//       }
+//     `
+//   })
+
+//   const storeLocations = data.data.storeLocations;
+
+//   return {
+//     props: {
+//       storeLocations
+//     }
+//   }
+// }

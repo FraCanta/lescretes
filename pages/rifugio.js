@@ -15,7 +15,6 @@ import rifugioJP from "@/public/locales/jp/rifugio.json";
 import rifugioKO from "@/public/locales/ko/rifugio.json";
 import rifugioRU from "@/public/locales/ru/rifugio.json";
 import rifugioZH from "@/public/locales/zh/rifugio.json";
-import { traceGlobals } from "next/dist/trace/shared";
 const Rifugio = ({ translation }) => {
   return (
     <>

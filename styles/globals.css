@@ -90,6 +90,10 @@ span {
   width: 1em;
 }
 
+.leaflet-marker-icon img {
+  color: var(--main) !important;
+}
+
 @media screen and (max-width: 768px) {
   .hero {
     background-position: center;

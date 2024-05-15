@@ -39,31 +39,17 @@ const FAQItem = ({ question, answer }) => {
   );
 };
 
-const FAQ = () => {
+const FAQ = ({ translation }) => {
   return (
-    <div>
-      <FAQItem
-        question="Posso portare i miei bambini a una degustazione di vino?"
-        answer="Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti. "
-      />
-
-      <FAQItem
-        question="Se ho un imprevisto, posso cambiare il giorno della degustazione?"
-        answer="Il mio colore preferito è il blu."
-      />
-      <FAQItem
-        question="Le degustazioni sono ideali anche per chi è vegetariano o vegano?"
-        answer="Non ho un'età specifica, sono solo un programma di computer."
-      />
-      <FAQItem
-        question="E' possibile regalare una degustazione?"
-        answer="Non ho un'età specifica, sono solo un programma di computer."
-      />
-      <FAQItem
-        question="Qual è la capacità massima di partecipanti per questa degustazione? È necessaria una prenotazione anticipata?"
-        answer="Non ho un'età specifica, sono solo un programma di computer."
-      />
-    </div>
+    <>
+      {translation.map((el, i) => {
+        return (
+          <div key={i}>
+            <FAQItem question={el.question} answer={el.answer} />
+          </div>
+        );
+      })}
+    </>
   );
 };
 

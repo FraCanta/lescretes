@@ -4,6 +4,11 @@ import React from "react";
 import viniIT from "../public/locales/it/vini.json";
 import viniEN from "../public/locales/en/vini.json";
 import viniFR from "../public/locales/fr/vini.json";
+import viniDE from "@/public/locales/de/vini.json";
+import viniJP from "@/public/locales/jp/vini.json";
+import viniKO from "@/public/locales/ko/vini.json";
+import viniRU from "@/public/locales/ru/vini.json";
+import viniZH from "@/public/locales/zh/vini.json";
 import Head from "next/head";
 import Banner from "@/components/Banner/Banner";
 import Terr from "@/public/assets/terroir2.png";
@@ -24,10 +29,10 @@ const Vini = ({ translation }) => {
       </div>
       <Banner
         img={Terr}
-        title="La nostra forza è la cura e la passione che abbiamo per la nostra terra"
-        paragraph="Un luogo dove l’accoglienza è di casa e dove vivere un’esperienza unica tra le montagne della Valle d'Aosta."
-        btn1="Scopri il Terroir"
-        link1="/terroir"
+        title={translation.banner.title}
+        paragraph={translation.banner.paragraph}
+        btn1={translation.banner.btn}
+        link1={translation.banner.link}
       />
     </>
   );
@@ -47,6 +52,21 @@ export async function getStaticProps(locale, context) {
       break;
     case "fr":
       obj = viniFR;
+      break;
+    case "de":
+      obj = viniDE;
+      break;
+    case "jp":
+      obj = viniJP;
+      break;
+    case "ko":
+      obj = viniKO;
+      break;
+    case "ru":
+      obj = viniRU;
+      break;
+    case "zh":
+      obj = viniZH;
       break;
     default:
       obj = viniIT;

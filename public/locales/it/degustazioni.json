@@ -3,6 +3,14 @@
     "hero": {
       "title": "Entra nel mondo Les Crêtes per degustare i nostri vini."
     },
+    "intro": [
+      {
+        "p": "Il <a href='/rifugio' title='Pagina Rifugio' class='font-bold'>Rifugio del Vino</a> è una vera terrazza sulla vigne che sovrastano la città di Aosta, un luogo dove l’accoglienza è di casa e dove vivere un’esperienza unica. Le degustazioni sono dedicate sia a gruppi che a singoli eno-appassionati."
+      },
+      {
+        "p": "Ogni degustazione è accompagnata da una visita in cantina, disponibile in varie modalità, a seconda delle preferenze. Se hai esigenze particolari per te o per il tuo gruppo contattaci per creare la tua visita personalizzata."
+      }
+    ],
     "cards": [
       {
         "img": "/assets/degustazioni/tre2.png",
@@ -296,6 +304,49 @@
 
         "prenotaBtn": "https://www.qcterme.com/it/corporate/offerte-e-pacchetti/wellness-wine-tasting"
       }
+    },
+    "prenota": {
+      "title": "Prenota ora la tua visita o richiedi informazioni in merito alle degustazioni:",
+      "list": [
+        {
+          "name": "- al telefono  <a href='callto:+390165902274'>+39 0165 / 90 22 74</a>"
+        },
+        {
+          "name": "- all’indirizzo mail: <a href='mailto:info@lescretes.it'>info@lescretes.it</a>"
+        },
+        {
+          "name": "- compila il form sulla pagina della degustazione scelta"
+        }
+      ],
+      "nota": "Wine shop, degustazioni e visite guidate: dal Lun al Ven 9.00-13.00/15.00-19.00 e Sab 10.00-13.00/15.00-19.00. <strong>CHIUSO Domenica e Festivi</strong>"
+    },
+    "faq": [
+      {
+        "question": "Posso portare i miei bambini a una degustazione di vino?",
+        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+      },
+      {
+        "question": "Se ho un imprevisto, posso cambiare il giorno della degustazione?",
+        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+      },
+      {
+        "question": "Le degustazioni sono ideali anche per chi è vegetariano o vegano?",
+        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+      },
+      {
+        "question": "E' possibile regalare una degustazione?",
+        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+      },
+      {
+        "question": "Qual è la capacità massima di partecipanti per questa degustazione? È necessaria una prenotazione anticipata?",
+        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+      }
+    ],
+    "banner": {
+      "title": "Il Rifugio del Vino: sala di degustazione emozionale",
+      "paragraph": "Un luogo dove l’accoglienza è di casa e dove vivere un’esperienza unica tra le montagne della Valle d'Aosta.",
+      "btn": "Scopri il Rifugio",
+      "link": "/rifugio"
     }
   }
 }

@@ -142,7 +142,7 @@ const SingleCosmetic = ({ cosm, others }) => {
       </div>
       <div className="w-[90%] mx-auto my-[50px]">
         <h2 className="text-6xl font-bold py-6">FAQs</h2>
-        <FAQ />
+        {/* <FAQ /> */}
       </div>
       <div className="flex flex-col w-[90%] mx-auto py-10 gap-[30px] fxl:gap-[50px] fxl:py-20">
         <h2 className="text-3xl font-bold fxl:text-5xl">

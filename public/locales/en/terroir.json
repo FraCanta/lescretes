@@ -1,0 +1,70 @@
+{
+  "terroir": {
+    "hero": {
+      "title": "The Terroir: A Protected Treasure between the Great Alps and the Lush Vineyards"
+    },
+    "intro": [
+      {
+        "p": "Located in the heart of the Alps and set between 'four large' as the Mont Blanc, the Matterhorn, the Monte Rosa and the Gran Paradiso, Valle d'Aosta is the smallest of the regions of Italy."
+      },
+      {
+        "p": "Valle d'Aosta is the European region with the greatest concentration of protected areas. 13% of the total area is occupied by parks, nature reserves and oases. The largest protected area is the Gran Paradiso National Park, followed by the Mont Avic Regional Park. Orographically it is divided in two by the Dora Baltea that flows in the central valley in a west-east direction, and highlights two sides, one shady exposed to the north called envers in the local dialect, and one sunny and arid facing south called adret. In the central Valley converge about twenty lateral valleys oriented along the north-south axis."
+      },
+      {
+        "p": "The vine in this territory finds its ideal habitat on the ventilated terraces that extend along the central valley and climb up close to the mountain."
+      }
+    ],
+    "paragrafi": [
+      {
+        "title": "Red wines",
+        "descrizione": [
+          {
+            "p": "Les Crêtes red wines are produced between 350-800 m above sea level. The vineyards are divided into micro-parcels (with an average extension of less than 1500 square meters), on a steep slope and are characterized by medium plant density (6-9,000 feet/ha). In addition to the areas of Les Crêtes and La Tour of Aymavilles, with North/West exposure, the grapes are also found in the Les Toules vineyards of Sarre, the historic vocation area of Torrette, and in the vineyards of Saint Christophe with South exposure."
+          },
+          {
+            "p": "Nebbiolo, however, has always been present in the Aosta Valley, is cultivated in the alluvial valley floor of glacial origin (in the areas of Arnad and Issogne)."
+          },
+          {
+            "p": "In the locality of Bufferia and Sazzé di Aymavilles, the grapes destined to become our most traditional red wines originate. The vineyards are 20 to 70 years old, they are the old family vineyards. The soil is sandy and steep, with exposure West."
+          },
+          {
+            "p": "The Pinot Noir Revei, which in patois means clock, is instead linked to the history of the medieval tower that dominates the vineyard of Aymavilles where the grapes are produced with this long-awaited wine."
+          }
+        ]
+      },
+      {
+        "title": "White wines",
+        "descrizione": [
+          {
+            "p": "The vineyards, from which our white wines are born, are cultivated between 600-800 m of altitude. Due to the geographical conformation of the Aosta Valley, the steep slopes and for reasons of inheritance, are divided into micro-parcels (average extension of less than 1500 square meters). They are also characterized by high plant density (8-9,000 feet/ha)."
+          },
+          {
+            "p": "The most extensive amalgamation takes place in the Les Crêtes area of Aymavilles, where the hill offers visitors its medieval tower, now a tasting point accessible to our customers."
+          },
+          {
+            "p": "In the area of Aymavilles and also in Saint Christophe, just outside Aosta, we find the vineyards of Petite Arvine Valle d'Aosta and Chardonnay Valle d'Aosta. In the lower Valley, in the Montjovet area, the grapes of Fleur - Petite Arvine Valle d'Aosta are produced. Pinot Gris comes from grapes grown in Aymavilles and Saint Nicolas."
+          }
+        ]
+      },
+      {
+        "title": "The bubbles and the desserts",
+        "descrizione": [
+          {
+            "p": "Neblù is a blend of black grapes, cultivated in our properties since ancient times. Since 2005 Les Crêtes has started the vinification in sparkling wine, creating a unique Classic Method. Soft pressing with fermentation at a controlled temperature (14 ºC) of 12 days, Spumantizzazione with Classic Method and aging 'sur lies' of 24 months. Bright color, light cerasuolo. Fine and persistent perlage, fruity nose with hints of cherry, currant and small red fruits. In the mouth dry, fresh and savory, with a persistent finish. A unique bubble."
+          },
+          {
+            "p": "Rebàn (Valdostan dialect 'ribbon'), was born to celebrate, a moment s pecial. It’s Petite Arvine’s first Valdostan Classic Method vinified alone. It is a varietal sparkling wine that expresses the freshness and salinity typical of the grape and expressive of the Aosta Valley terroir."
+          },
+          {
+            "p": "Our wine from overripe grapes - Doré - is born at an average altitude of about 700 meters s.l.m. The grapes dried in the plant, harvested before the first snowfall, undergo a soft pressing and are left to ferment for 25 days at a controlled temperature and then continue aging for 12 months. Notes of eggnog, custard, honey, aromatic berries, caramel and dried apricots envelop the palate with a long fruity finish. The wine made from overripe Doré grapes impresses with its intense aroma and unexpected freshness."
+          }
+        ]
+      }
+    ],
+    "banner": {
+      "title": "Discover our selection of wines. You can enjoy all our experience.",
+      "btn": "Learn more",
+      "link": "/vini"
+    }
+  }
+}
