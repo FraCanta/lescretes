@@ -5,6 +5,11 @@ import Head from "next/head";
 import cosmesiIT from "../public/locales/it/cosmesi.json";
 import cosmesiEN from "../public/locales/en/cosmesi.json";
 import cosmesiFR from "../public/locales/fr/cosmesi.json";
+import cosmesiDE from "../public/locales/de/cosmesi.json";
+import cosmesiJP from "../public/locales/jp/cosmesi.json";
+import cosmesiKO from "../public/locales/ko/cosmesi.json";
+import cosmesiRU from "../public/locales/ru/cosmesi.json";
+import cosmesiZH from "../public/locales/zh/cosmesi.json";
 import Cards from "@/components/Cards/Cards";
 import Image from "next/image";
 import Nature from "@/public/assets/cosmetici/bio.jpg";
@@ -299,6 +304,21 @@ export async function getStaticProps(locale, context) {
       break;
     case "fr":
       obj = cosmesiFR;
+      break;
+    case "de":
+      obj = cosmesiDE;
+      break;
+    case "jp":
+      obj = cosmesiJP;
+      break;
+    case "ko":
+      obj = cosmesiKO;
+      break;
+    case "ru":
+      obj = cosmesiRU;
+      break;
+    case "zh":
+      obj = cosmesiZH;
       break;
     default:
       obj = cosmesiIT;

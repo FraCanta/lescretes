@@ -5,13 +5,14 @@ import { useRouter } from "next/router";
 import Logo from "@/public/logo/logo.png";
 import Mobile from "./mobile";
 import CtaPrimary from "../Cta/CtaPrimary";
+import { Icon } from "@iconify/react";
 const NavBar = ({ translation }) => {
   const { locale } = useRouter();
 
   return (
     <header className="relative">
       <nav className="h-[60px] md:h-[100px] lg:h-[70px] xl:h-[90px] fxl:h-[100px] 3xl:h-[180px] 4xl:h-[250px] 3xl flex w-full items-center justify-between relative z-[999999] nav-scroll ">
-        <div className="flex w-[90%] mx-auto justify-between items-center ">
+        <div className="grid grid-cols-2 lg:grid-cols-5 w-[90%] mx-auto justify-between items-center ">
           <div className="flex-1">
             <Link href={`/`} title="Home Page">
               <Image
@@ -22,8 +23,8 @@ const NavBar = ({ translation }) => {
             </Link>
           </div>
 
-          <div className="xl:flex items-center  hidden capitalize flex-1 font-black text-[#4A4A49]">
-            <div className="w-full flex items-center justify-end">
+          <div className="xl:flex items-center hidden capitalize flex-1 font-black text-[#4A4A49] col-span-3">
+            <div className="w-full flex items-center justify-center">
               <Link
                 href={`/`}
                 title="Scopri chi sono e cosa posso fare per te"
@@ -56,7 +57,7 @@ const NavBar = ({ translation }) => {
               {/* <Link
                 href={`/notizie`}
                 title="I miei articoli"
-                className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
+                className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
               >
                 {translation?.[locale]?.news}
               </Link> */}
@@ -67,13 +68,24 @@ const NavBar = ({ translation }) => {
               >
                 {translation?.[locale]?.cosmesi}
               </Link>
+              <Link
+                href={`/store`}
+                title="I miei articoli"
+                className="gap-1 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-start"
+              >
+                <Icon
+                  icon="line-md:map-marker-alt-filled"
+                  className="w-6 h-6"
+                />
+                {translation?.[locale]?.store}
+              </Link>
             </div>
           </div>
-          <div className="xl:flex items-center justify-end flex-1  hidden font-black">
+          <div className="xl:flex items-center justify-end flex-1  hidden font-black ">
             {/* <Link
               href={`/areaDownload`}
               title="I miei articoli"
-              className="mr-[2.35rem] gap-2 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
+              className="mr-[1rem] gap-2 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
             >
               {translation?.[locale]?.download}
               <svg
@@ -91,6 +103,7 @@ const NavBar = ({ translation }) => {
                 />
               </svg>
             </Link> */}
+
             <CtaPrimary link="/contatti">
               {translation?.[locale]?.contatti}
             </CtaPrimary>

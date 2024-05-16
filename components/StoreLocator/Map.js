@@ -13,9 +13,10 @@ const Map = ({ store, activeStore }) => {
   useEffect(() => {
     delete L.Icon.Default.prototype._getIconUrl;
     L.Icon.Default.mergeOptions({
-      iconRetinaUrl: iconMarker2x.src,
-      iconUrl: iconMarker.src,
+      iconRetinaUrl: "/assets/puntatore.svg",
+      iconUrl: "/assets/puntatore.svg",
       shadowUrl: iconMarkerShadow.src,
+      iconSize: [38, 95],
     });
   }, []);
 

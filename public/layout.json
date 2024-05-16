@@ -8,6 +8,7 @@
       "news": "Notizie",
       "cosmesi": "Cosmesi",
       "download": "Area Download",
+      "store": "Dove acquistare",
       "contatti": "Contatti"
     },
     "en": {
@@ -18,6 +19,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
+      "store": "Dove acquistare",
       "contatti": "Contacts"
     },
     "fr": {
@@ -28,6 +30,7 @@
       "news": "Actualités",
       "cosmesi": "Cosmétique",
       "download": "Téléchargements",
+      "store": "Dove acquistare",
       "contatti": "Contacts"
     },
     "de": {
@@ -38,6 +41,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
+      "store": "Dove acquistare",
       "contatti": "Contacts"
     },
     "ko": {
@@ -48,6 +52,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
+      "store": "Dove acquistare",
       "contatti": "Contacts"
     },
     "jp": {
@@ -58,6 +63,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
+      "store": "Dove acquistare",
       "contatti": "Contacts"
     },
     "ru": {
@@ -68,6 +74,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
+      "store": "Dove acquistare",
       "contatti": "Contacts"
     },
     "zh": {
@@ -78,6 +85,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
+      "store": "Dove acquistare",
       "contatti": "Contacts"
     }
   },
@@ -108,6 +116,10 @@
           {
             "name": "Cosmesi",
             "link": "/cosmesi"
+          },
+          {
+            "name": "Dove acquistare",
+            "link": "/store"
           }
         ]
       },

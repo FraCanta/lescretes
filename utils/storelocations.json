@@ -131,16 +131,7 @@
         "longitudine": "11.224122894360985"
       }
     },
-    {
-      "id": 14,
-      "name": "Enoteca I Coloniali - Vino & Cioccolato",
-      "address": "Via Francesco Giordani, 32, 80122 Napoli NA",
-      "phone": "081 7618478",
-      "location": {
-        "latitudine": "40.83484673722113",
-        "longitudine": "14.22097808071323"
-      }
-    },
+
     {
       "id": 15,
       "name": "Enoteca Rachele Civita Bevande S.R.L.",

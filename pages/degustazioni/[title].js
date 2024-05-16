@@ -309,7 +309,54 @@ export async function getStaticPaths({ locale }) {
       locale: "it",
     };
   });
-  const paths = pathIt.concat(pathEn).concat(pathFr);
+  const pathDe = degs?.map((el) => {
+    return {
+      params: {
+        title: el,
+      },
+      locale: "de",
+    };
+  });
+  const pathJp = degs?.map((el) => {
+    return {
+      params: {
+        title: el,
+      },
+      locale: "jp",
+    };
+  });
+  const pathKo = degs?.map((el) => {
+    return {
+      params: {
+        title: el,
+      },
+      locale: "ko",
+    };
+  });
+  const pathRu = degs?.map((el) => {
+    return {
+      params: {
+        title: el,
+      },
+      locale: "ru",
+    };
+  });
+  const pathZh = degs?.map((el) => {
+    return {
+      params: {
+        title: el,
+      },
+      locale: "zh",
+    };
+  });
+  const paths = pathIt
+    .concat(pathEn)
+    .concat(pathFr)
+    .concat(pathDe)
+    .concat(pathJp)
+    .concat(pathKo)
+    .concat(pathRu)
+    .concat(pathZh);
   return {
     paths,
     fallback: false,

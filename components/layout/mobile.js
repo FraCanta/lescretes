@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { motion, AnimatePresence } from "framer-motion";
+import { Icon } from "@iconify/react";
 const Mobile = ({ translation }) => {
   const { locale, pathname } = useRouter();
 
@@ -117,6 +118,21 @@ const Mobile = ({ translation }) => {
                 {translation?.[locale]?.news}
               </Link>
             </motion.div> */}
+            <motion.div variants={variants.item} animate="visibleItem">
+              <Link
+                href={`/store`}
+                title="I miei articoli"
+                className={`menu-item flex  text-[25px] leading-[30px] font-regular text-main items-start gap-1 ${
+                  pathname === "/store" ? "font-bold" : ""
+                }`}
+              >
+                <Icon
+                  icon="line-md:map-marker-alt-filled"
+                  className="w-6 h-6"
+                />
+                {translation?.[locale]?.store}
+              </Link>
+            </motion.div>
             <motion.div variants={variants.item} animate="visibleItem">
               <Link
                 href={`/cosmesi`}

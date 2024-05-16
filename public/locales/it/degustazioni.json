@@ -88,7 +88,7 @@
         "price": "€25,00 iva inclusa / persona",
         "priceTitle": "Prezzo",
 
-        "download": "/3-Wines-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/3wines_experience_ita.pdf"
       },
       "native": {
         "img": "/assets/degustazioni/native.jpg",
@@ -121,7 +121,7 @@
         "priceTitle": "Prezzo",
 
         "price": "€40,00 iva inclusa / persona",
-        "download": "/Native-Wines-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/native_wine_experience_ita.pdf"
       },
       "cheese": {
         "img": "/assets/degustazioni/cheese.jpeg",
@@ -153,7 +153,7 @@
         "price": "€45,00 iva inclusa / persona",
         "priceTitle": "Prezzo",
 
-        "download": "/Wine-Cheese-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/wine_and_cheese_experience_ita.pdf"
       },
       "top": {
         "img": "/assets/degustazioni/top.jpg",
@@ -187,7 +187,7 @@
         "price": "€70,00 iva inclusa / persona",
         "priceTitle": "Prezzo",
 
-        "download": "/Top-Wines-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/top_wines_experience_ita.pdf"
       },
       "tour": {
         "img": "/assets/degustazioni/coteau3.jpg",
@@ -228,7 +228,7 @@
 
         "price": "€90,00 iva inclusa / persona",
 
-        "download": "/Coteau-la-Tour-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/coteau_la_tour_experience_ita.pdf"
       },
       "winemaker": {
         "img": "/assets/degustazioni/winemaker.jpeg",
@@ -267,7 +267,7 @@
 
         "price": "€100,00 iva inclusa / persona",
 
-        "download": "/Winemaker-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/winemakers_experience_ita.pdf"
       },
       "wellness": {
         "img": "/assets/degustazioni/wellness.jpeg",
@@ -302,7 +302,8 @@
         "priceTitle": "Prezzo",
         "price": "A partire da €346,00 iva inclusa ",
 
-        "prenotaBtn": "https://www.qcterme.com/it/corporate/offerte-e-pacchetti/wellness-wine-tasting"
+        "prenotaBtn": "https://www.qcterme.com/it/corporate/offerte-e-pacchetti/wellness-wine-tasting",
+        "download": "/pdf/degustazioni/wellness_and_wine_tasting_ita.pdf"
       }
     },
     "prenota": {

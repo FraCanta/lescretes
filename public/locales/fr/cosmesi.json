@@ -2,7 +2,7 @@
   "cosmesi": {
     "cards": [
       {
-        "img": "/assets/cosmetici/soin_main.jpg",
+        "img": "/assets/cosmetici/mani.webp",
         "name": " Fleurs DeVin Soin Mains  ",
         "details": "Crema mani fiorita delicata",
         "button": "/cosmesi/soinmain"
@@ -47,7 +47,7 @@
     ],
     "singleCosmetic": {
       "soinmain": {
-        "img": "/assets/cosmetici/soin_main.jpg",
+        "img": "/assets/cosmetici/mani.webp",
         "name": " Fleurs DeVin Soin Mains  ",
         "ml": "50ml",
         "descrizione": [
@@ -61,7 +61,11 @@
         "istruzioni": "Applicare con massaggio dopo ogni detersione, per mani sempre morbide e setose",
         "details": "Crema mani fiorita delicata",
         "title": "soinmain",
-        "button": "/cosmesi/soinmain"
+        "button": "/cosmesi/soinmain",
+        "downloadTitle": "Scarica qui",
+        "download": "/pdf/cosmesi/soins_main_ita.pdf",
+        "priceTitle": "Prezzo",
+        "price": "€ 18,00 iva inclusa"
       },
       "soinvisage": {
         "img": "/assets/cosmetici/visage.webp",
@@ -78,7 +82,11 @@
         "istruzioni": "Applicare sia al mattino che alla sera dopo la detersione.",
         "details": "Crema viso fiorita delicata",
         "title": "soinvisage",
-        "button": "/cosmesi/soinvisage"
+        "button": "/cosmesi/soinvisage",
+        "downloadTitle": "Scarica qui",
+        "download": "/pdf/cosmesi/soins_visage_ita.pdf",
+        "priceTitle": "Prezzo",
+        "price": "€ 40,00 iva inclusa"
       },
       "gommage": {
         "img": "/assets/cosmetici/gommage.webp",
@@ -86,17 +94,21 @@
         "ml": "50ml",
         "descrizione": [
           {
-            "testo": "Qui mi manca la descrizione"
+            "testo": "Scrub in crema per il viso con microsferule di vinaccioli che svolgono un’efficace e delicata azione levigante restituendo alla pelle la sua naturale luminosità. Gli oli di vinaccioli, di oliva e mandorle sono formulati insieme agli estratti di ibisco ed elicriso per una maggior azione emolliente. Fragranza pesca di vigna."
           }
         ],
         "ingredientiTitle": "Ingredienti",
-        "ingredienti": "Qui mi mancano gli ingredienti",
+        "ingredienti": "Contiene olio di vinaccioli, microsferule di vinaccioli o vitis vinifera seed powder (azione scrub meccanica delicata), olio di mandorle dolci biologiche, estratto di Hibiscus biologico, acqua attiva di elicriso biologico (fiori), olio di oliva biologico",
         "istruzioniTitle": "Istruzioni d'uso",
-        "istruzioni": "Qui mi mancano le istruzioni d'uso",
+        "istruzioni": "Si consiglia il suo utilizzo una volta a settimana su viso inumidito, sciacquare con acqua tiepida.",
 
         "details": "Scrub delicato",
         "title": "gommage",
-        "button": "/cosmesi/gommage"
+        "button": "/cosmesi/gommage",
+        "downloadTitle": "Scarica qui",
+        "download": "/pdf/cosmesi/gommage_ita.pdf",
+        "priceTitle": "Prezzo",
+        "price": "€ 30,00 iva inclusa"
       },
       "lotion": {
         "img": "/assets/cosmetici/tonico.webp",
@@ -104,39 +116,23 @@
         "ml": "200ml",
         "descrizione": [
           {
-            "testo": "Qui mi manca la descrizione"
+            "testo": "Acqua attiva con olio di vinaccioli e estratti da fiori biologici per un viso fresco, luminoso. Privo di alcool. Indicato per tutti i tipi di pelle. Favorisce un’azione idratante, protettiva, anti-età, riequilibrante del film idrolipidico. E’ il tocco finale della detersione quotidiana per una pelle ossigenata, uniforme e piacevolmente profumata alla pesca di vigna."
           }
         ],
         "ingredientiTitle": "Ingredienti",
-        "ingredienti": "Qui mi mancano gli ingredienti",
+        "ingredienti": "Contiene olio di vinaccioli, estratto di Hibiscus biologico, acqua attiva di elicriso biologico (fiori), acqua attiva di boccioli di Rosa damascena, estratto di avena biologica",
         "istruzioniTitle": "Istruzioni d'uso",
-        "istruzioni": "Qui mi mancano le istruzioni d'uso",
+        "istruzioni": "Applicare mattino e sera tamponandolo con un batuffolo di cotone su viso, collo, decollete’ dopo detersione con il latte detergente.",
 
         "details": "Tonico delicato",
         "title": "lotion",
-        "button": "/cosmesi/lotion"
+        "button": "/cosmesi/lotion",
+        "downloadTitle": "Scarica qui",
+        "download": "/pdf/cosmesi/tonico_ita.pdf",
+        "priceTitle": "Prezzo",
+        "price": "€ 25,00 iva inclusa"
       },
-      "soincorps": {
-        "img": "/assets/cosmetici/latte.webp",
-        "name": "Fleurs DeVin Soin Corps ",
-        "ml": "50ml",
-        "descrizione": [
-          {
-            "testo": "Texture ultra ricca e fondente che dona nutrimento per una pelle tonica, rigenerata e idratata. Indicata per tutti i tipi di pelle, in particolare nei casi di forte secchezza, disidratazione e atonie."
-          },
-          {
-            "testo": "Svolge una decisa azione tonificante e levigante per una pelle più elastica, compatta e uniforme."
-          }
-        ],
-        "ingredientiTitle": "Ingredienti",
-        "ingredienti": "Contiene olio di vinaccioli, acido ialuronico, olio di mandorle dolci, polisaccaride protettivo effetto barriera, estratto di Hibisco, estratto di avena, estratto di rosa damascena e olio di noce.",
-        "istruzioniTitle": "Istruzioni d'uso",
-        "istruzioni": "Applicare mattino e sera o dopo il bagno/doccia su pelle asciutta e detersa, massaggiare con movimenti circolari fino a completo assorbimento.",
 
-        "details": "Crema corpo fiorita delicata",
-        "title": "soincorps",
-        "button": "/cosmesi/soincorps"
-      },
       "parfumee": {
         "img": "/assets/cosmetici/acqua3.webp",
         "name": "Cristal DeVin ",
@@ -156,7 +152,11 @@
 
         "details": " Eau Parfumee Fraiche",
         "title": "parfumee",
-        "button": "/cosmesi/parfumee"
+        "button": "/cosmesi/parfumee",
+        "downloadTitle": "Scarica qui",
+        "download": "/pdf/cosmesi/cristal_ita.pdf",
+        "priceTitle": "Prezzo",
+        "price": "€ 24,00 iva inclusa"
       },
       "diffuseur": {
         "img": "/assets/cosmetici/diffusore.webp",
@@ -177,25 +177,36 @@
 
         "details": "Diffuseur de parfum",
         "title": "diffuseur",
-        "button": "/cosmesi/diffuseur"
+        "button": "/cosmesi/diffuseur",
+        "downloadTitle": "Scarica qui",
+        "download": "/pdf/cosmesi/diffusore_ita.pdf",
+        "priceTitle": "Prezzo",
+        "price": "€ 37,00 iva inclusa"
       },
       "pepin": {
         "img": "/assets/cosmetici/corpo.webp",
         "name": "Fleurs DeVin Soin Corps",
-        "ml": "50ml",
+        "ml": "200ml",
         "descrizione": [
           {
-            "testo": "Manca la descrizione"
+            "testo": "Texture ultra ricca e fondente che dona nutrimento per una pelle tonica, rigenerata e idratata. Indicata per tutti i tipi di pelle, in particolare nei casi di forte secchezza, disidratazione e atonie."
+          },
+          {
+            "testo": "Svolge una decisa azione tonificante e levigante per una pelle più elastica, compatta e uniforme. "
           }
         ],
         "ingredientiTitle": "Ingredienti",
-        "ingredienti": "Mancano gli ingredienti",
+        "ingredienti": "Contiene olio di vinaccioli, acido ialuronico, olio di mandorle dolci, polisaccaride protettivo effetto barriera, estratto di hibisco, estratto di avena, estratto di rosa damascena e olio di noce.",
         "istruzioniTitle": "Istruzioni d'uso",
-        "istruzioni": "Qui mi mancano le istruzioni d'uso",
+        "istruzioni": "Applicare mattino e sera o dopo il bagno/doccia su pelle asciutta e detersa, massaggiare con movimenti circolari fino a completo assorbimento.",
 
         "details": "Crema corpo fiorita delicata",
         "title": "pepin",
-        "button": "/cosmesi/pepin"
+        "button": "/cosmesi/pepin",
+        "downloadTitle": "Scarica qui",
+        "download": "/pdf/cosmesi/soins_corp_ita.pdf",
+        "priceTitle": "Prezzo",
+        "price": "€ 30,00 iva inclusa"
       }
     }
   }

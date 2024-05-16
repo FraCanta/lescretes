@@ -2,19 +2,19 @@ import React from "react";
 import cosmesiIT from "../../public/locales/it/cosmesi.json";
 import cosmesiEN from "../../public/locales/en/cosmesi.json";
 import cosmesiFR from "../../public/locales/fr/cosmesi.json";
+import cosmesiDE from "../../public/locales/de/cosmesi.json";
+import cosmesiJP from "../../public/locales/jp/cosmesi.json";
+import cosmesiKO from "../../public/locales/ko/cosmesi.json";
+import cosmesiRU from "../../public/locales/ru/cosmesi.json";
+import cosmesiZH from "../../public/locales/zh/cosmesi.json";
 import Head from "next/head";
 import Image from "next/image";
 import Cards from "@/components/Cards/Cards";
 import IconaUno from "@/public/assets/cosmetici/icone/icone_cosmesi1.svg";
 import IconaDue from "@/public/assets/cosmetici/icone/icone_cosmesi2.svg";
 import IconaTre from "@/public/assets/cosmetici/icone/icone_cosmesi3.svg";
-import Link from "next/link";
 import { Icon } from "@iconify/react";
-import {
-  FacebookShareButton,
-  TwitterShareButton,
-  WhatsappShareButton,
-} from "next-share";
+import { FacebookShareButton, WhatsappShareButton } from "next-share";
 import FAQ from "@/components/FAQ/FAQ";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 import { parse } from "dom-parser-react";
@@ -64,9 +64,11 @@ const SingleCosmetic = ({ cosm, others }) => {
             </p>
           </div>
           {cosm?.descrizione?.map((el, i) => (
-            <p className="text-xl xl:text-lg fxl:text-2xl" key={i}>
-              {el.testo}
-            </p>
+            <p
+              className="text-xl xl:text-lg fxl:text-2xl"
+              key={i}
+              dangerouslySetInnerHTML={{ __html: el.testo }}
+            ></p>
           ))}
 
           <div className="collapse collapse-arrow bg-second">
@@ -88,23 +90,29 @@ const SingleCosmetic = ({ cosm, others }) => {
             </div>
           </div>
 
+          <div className="w-full text-main flex flex-col gap-2 ">
+            <h2 className="text-main text-2xl font-bold  leading-[46px]">
+              {cosm?.priceTitle}
+            </h2>
+            <p className="text-lg fxl:text-xl">{cosm?.price}</p>
+          </div>
           <div className="flex gap-6 mt-4">
-            {/* <div className="bg-main h-20 w-20 rounded-full"></div>
-            <div className="bg-main h-20 w-20 rounded-full"></div>
-            <div className="bg-main h-20 w-20 rounded-full"></div> */}
             <Image src={IconaTre} width={90} height={90} />
             <Image src={IconaUno} width={90} height={90} />
             <Image src={IconaDue} width={90} height={90} />
           </div>
-          <div className="flex flex-col xl:flex-row w-full xl:justify-between gap-10">
-            <CtaOutlineBrown link="/mani.pdf" download>
-              Scarica qui
+          <div className="w-full h-[0.02rem] bg-main my-2"></div>
+
+          <div className="flex flex-col xl:flex-row w-full xl:justify-between gap-10 mt-2">
+            <CtaOutlineBrown link={cosm.download} download>
+              {cosm.downloadTitle}
               <Icon
                 icon="material-symbols:download"
                 color="#4A4A49"
                 width={30}
               />
             </CtaOutlineBrown>
+
             <div className="flex gap-6 items-center ">
               <p className="text-lg xl:text-xl">Condividi su</p>
               <ul className="flex gap-6">
@@ -166,7 +174,7 @@ export async function getStaticProps(context) {
   const { params, locale } = context;
   let obj;
 
-  switch (locale) {
+  switch (locale.locale) {
     case "it":
       obj = cosmesiIT;
       break;
@@ -176,6 +184,21 @@ export async function getStaticProps(context) {
       break;
     case "fr":
       obj = cosmesiFR;
+      break;
+    case "de":
+      obj = cosmesiDE;
+      break;
+    case "jp":
+      obj = cosmesiJP;
+      break;
+    case "ko":
+      obj = cosmesiKO;
+      break;
+    case "ru":
+      obj = cosmesiRU;
+      break;
+    case "zh":
+      obj = cosmesiZH;
       break;
     default:
       obj = cosmesiIT;
@@ -216,6 +239,21 @@ export async function getStaticPaths({ locale }) {
     case "fr":
       obj = cosmesiFR;
       break;
+    case "de":
+      obj = cosmesiDE;
+      break;
+    case "jp":
+      obj = cosmesiJP;
+      break;
+    case "ko":
+      obj = cosmesiKO;
+      break;
+    case "ru":
+      obj = cosmesiRU;
+      break;
+    case "zh":
+      obj = cosmesiZH;
+      break;
     default:
       obj = cosmesiIT;
       break;
@@ -246,7 +284,54 @@ export async function getStaticPaths({ locale }) {
       locale: "it",
     };
   });
-  const paths = pathIt.concat(pathEn).concat(pathFr);
+  const pathDe = cosmetics?.map((el) => {
+    return {
+      params: {
+        title: el,
+      },
+      locale: "de",
+    };
+  });
+  const pathJp = cosmetics?.map((el) => {
+    return {
+      params: {
+        title: el,
+      },
+      locale: "jp",
+    };
+  });
+  const pathKo = cosmetics?.map((el) => {
+    return {
+      params: {
+        title: el,
+      },
+      locale: "ko",
+    };
+  });
+  const pathRu = cosmetics?.map((el) => {
+    return {
+      params: {
+        title: el,
+      },
+      locale: "ru",
+    };
+  });
+  const pathZh = cosmetics?.map((el) => {
+    return {
+      params: {
+        title: el,
+      },
+      locale: "zh",
+    };
+  });
+  const paths = pathIt
+    .concat(pathEn)
+    .concat(pathFr)
+    .concat(pathDe)
+    .concat(pathJp)
+    .concat(pathKo)
+    .concat(pathRu)
+    .concat(pathZh);
   return {
     paths,
     fallback: false,

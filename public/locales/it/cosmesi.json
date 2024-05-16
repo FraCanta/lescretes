@@ -61,7 +61,11 @@
         "istruzioni": "Applicare con massaggio dopo ogni detersione, per mani sempre morbide e setose",
         "details": "Crema mani fiorita delicata",
         "title": "soinmain",
-        "button": "/cosmesi/soinmain"
+        "button": "/cosmesi/soinmain",
+        "downloadTitle": "Scarica qui",
+        "download": "/pdf/cosmesi/soins_main_ita.pdf",
+        "priceTitle": "Prezzo",
+        "price": "€ 18,00 iva inclusa"
       },
       "soinvisage": {
         "img": "/assets/cosmetici/visage.webp",
@@ -78,7 +82,11 @@
         "istruzioni": "Applicare sia al mattino che alla sera dopo la detersione.",
         "details": "Crema viso fiorita delicata",
         "title": "soinvisage",
-        "button": "/cosmesi/soinvisage"
+        "button": "/cosmesi/soinvisage",
+        "downloadTitle": "Scarica qui",
+        "download": "/pdf/cosmesi/soins_visage_ita.pdf",
+        "priceTitle": "Prezzo",
+        "price": "€ 40,00 iva inclusa"
       },
       "gommage": {
         "img": "/assets/cosmetici/gommage.webp",
@@ -96,7 +104,11 @@
 
         "details": "Scrub delicato",
         "title": "gommage",
-        "button": "/cosmesi/gommage"
+        "button": "/cosmesi/gommage",
+        "downloadTitle": "Scarica qui",
+        "download": "/pdf/cosmesi/gommage_ita.pdf",
+        "priceTitle": "Prezzo",
+        "price": "€ 30,00 iva inclusa"
       },
       "lotion": {
         "img": "/assets/cosmetici/tonico.webp",
@@ -114,7 +126,11 @@
 
         "details": "Tonico delicato",
         "title": "lotion",
-        "button": "/cosmesi/lotion"
+        "button": "/cosmesi/lotion",
+        "downloadTitle": "Scarica qui",
+        "download": "/pdf/cosmesi/tonico_ita.pdf",
+        "priceTitle": "Prezzo",
+        "price": "€ 25,00 iva inclusa"
       },
 
       "parfumee": {
@@ -136,7 +152,11 @@
 
         "details": " Eau Parfumee Fraiche",
         "title": "parfumee",
-        "button": "/cosmesi/parfumee"
+        "button": "/cosmesi/parfumee",
+        "downloadTitle": "Scarica qui",
+        "download": "/pdf/cosmesi/cristal_ita.pdf",
+        "priceTitle": "Prezzo",
+        "price": "€ 24,00 iva inclusa"
       },
       "diffuseur": {
         "img": "/assets/cosmetici/diffusore.webp",
@@ -157,28 +177,36 @@
 
         "details": "Diffuseur de parfum",
         "title": "diffuseur",
-        "button": "/cosmesi/diffuseur"
+        "button": "/cosmesi/diffuseur",
+        "downloadTitle": "Scarica qui",
+        "download": "/pdf/cosmesi/diffusore_ita.pdf",
+        "priceTitle": "Prezzo",
+        "price": "€ 37,00 iva inclusa"
       },
       "pepin": {
         "img": "/assets/cosmetici/corpo.webp",
         "name": "Fleurs DeVin Soin Corps",
-        "ml": "50ml",
+        "ml": "200ml",
         "descrizione": [
           {
-            "testo": "Latte fluido per il corpo con una texture leggera a rapido assorbimento. Si può utilizzare in qualsiasi stagione: d’estate come dopo sole oppure in inverno dopo la doccia/bagno o in qualsiasi momento della giornata in cui la pelle necessita di essere idratata."
+            "testo": "Texture ultra ricca e fondente che dona nutrimento per una pelle tonica, rigenerata e idratata. Indicata per tutti i tipi di pelle, in particolare nei casi di forte secchezza, disidratazione e atonie."
           },
           {
-            "testo": "Ideale per pelle secca. Rispetto alla crema corpo è meno ricco, più adatto a tutti i tipi di pelle in particolari non troppo secche. Rende la pelle nutrita e vellutata grazie all’acido ialuronico, all’olio di vinaccioli, all’olio di mandorle e agli estratti di ibisco e rosa damascena. Fragranza fiorita delicata."
+            "testo": "Svolge una decisa azione tonificante e levigante per una pelle più elastica, compatta e uniforme. "
           }
         ],
         "ingredientiTitle": "Ingredienti",
-        "ingredienti": "Contiene olio di vinaccioli, olio di mandorle dolci biologiche, estratto di Hibiscus biologico, acqua attiva di boccioli di Rosa damascena",
+        "ingredienti": "Contiene olio di vinaccioli, acido ialuronico, olio di mandorle dolci, polisaccaride protettivo effetto barriera, estratto di hibisco, estratto di avena, estratto di rosa damascena e olio di noce.",
         "istruzioniTitle": "Istruzioni d'uso",
-        "istruzioni": "Massaggiare fino a completo assorbimento dopo la doccia/bagno, dopo l’esposizione al sole o in qualsiasi momento di necessità.",
+        "istruzioni": "Applicare mattino e sera o dopo il bagno/doccia su pelle asciutta e detersa, massaggiare con movimenti circolari fino a completo assorbimento.",
 
         "details": "Crema corpo fiorita delicata",
         "title": "pepin",
-        "button": "/cosmesi/pepin"
+        "button": "/cosmesi/pepin",
+        "downloadTitle": "Scarica qui",
+        "download": "/pdf/cosmesi/soins_corp_ita.pdf",
+        "priceTitle": "Prezzo",
+        "price": "€ 30,00 iva inclusa"
       }
     }
   }
