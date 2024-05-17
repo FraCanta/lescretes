@@ -19,18 +19,18 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
-      "store": "Dove acquistare",
+      "store": "Where to buy",
       "contatti": "Contacts"
     },
     "fr": {
-      "home": "Home",
+      "home": "Accueil",
       "storia": "Histoire",
       "vini": "Vins",
       "degustazioni": "Dégustations",
       "news": "Actualités",
       "cosmesi": "Cosmétique",
       "download": "Téléchargements",
-      "store": "Dove acquistare",
+      "store": "Où acheter",
       "contatti": "Contacts"
     },
     "de": {
@@ -41,7 +41,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
-      "store": "Dove acquistare",
+      "store": "Where to buy",
       "contatti": "Contacts"
     },
     "ko": {
@@ -52,7 +52,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
-      "store": "Dove acquistare",
+      "store": "Where to buy",
       "contatti": "Contacts"
     },
     "jp": {
@@ -63,7 +63,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
-      "store": "Dove acquistare",
+      "store": "Where to buy",
       "contatti": "Contacts"
     },
     "ru": {
@@ -74,7 +74,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
-      "store": "Dove acquistare",
+      "store": "Where to buy",
       "contatti": "Contacts"
     },
     "zh": {
@@ -85,7 +85,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
-      "store": "Dove acquistare",
+      "store": "Where to buy",
       "contatti": "Contacts"
     }
   },
@@ -259,6 +259,10 @@
           {
             "name": "Cosmétiques",
             "link": "/cosmesi"
+          },
+          {
+            "name": "Où acheter",
+            "link": "/store"
           }
         ]
       },
@@ -266,7 +270,7 @@
         "title": "CONTACTS & SOCIAL",
         "contatti": [
           {
-            "name": "Contacts et indications",
+            "name": "Contacts et Accès",
             "link": "/contatti"
           },
           {

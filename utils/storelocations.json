@@ -2,6 +2,7 @@
   "storelocations": [
     {
       "id": 1,
+      "link": "https://maps.app.goo.gl/3cbSMTf1PybdEtZn9",
       "img": "/assets/rifugio/rifugio2.jpg",
       "name": "Les Crêtes Produzione e vendita Vini",
       "address": "SR20, 50, 11010 Aymavilles AO",
@@ -13,6 +14,7 @@
     },
     {
       "id": 2,
+      "link": "https://maps.app.goo.gl/1qkFFpXofWN1u7af9",
       "name": "Enoclub",
       "address": "Via Friuli, 15, 20135 Milano MI",
       "phone": "02 55182421",
@@ -23,6 +25,7 @@
     },
     {
       "id": 3,
+      "link": "https://maps.app.goo.gl/Tovkh8TnN9e3a9PX7",
       "name": "Dispensa Srl",
       "address": "Via Principe Umberto, 23 - fraz, 25030 Torbiato BS",
       "phone": "030 7450757",
@@ -33,6 +36,7 @@
     },
     {
       "id": 4,
+      "link": "https://maps.app.goo.gl/baMFMFsc3Ak5UmpXA",
       "name": "Ebbrezza Di Noè",
       "address": "Vico Vetriera, 9, 80132 Napoli NA",
       "phone": "081 400104",
@@ -43,6 +47,7 @@
     },
     {
       "id": 5,
+      "link": "https://maps.app.goo.gl/RWF8RKX7EDnwM3Sf8",
       "name": "DIEGO SAS DI D. E S. CINQUE",
       "address": "Corso Giovanni Nicotera, 24, 80069 Vico Equense NA",
       "phone": "081 8798001",
@@ -53,6 +58,7 @@
     },
     {
       "id": 6,
+      "link": "https://maps.app.goo.gl/BJfLpSgnTdUt9CaRA",
       "name": "Enoteca Dante",
       "address": "P.za Dante, 18/19, 80135 Napoli NA",
       "phone": "081 5499689",
@@ -63,6 +69,7 @@
     },
     {
       "id": 7,
+      "link": "https://maps.app.goo.gl/Abo3KUaAtwBtbBV38",
       "name": "Enoteca Cul De Sac",
       "address": "Piazza di Pasquino, 73, 00186 Roma RM",
       "phone": "06 68801094",
@@ -73,6 +80,7 @@
     },
     {
       "id": 8,
+      "link": "https://maps.app.goo.gl/oGbv4CYyZW2jCszcA",
       "name": "Damarco",
       "address": "Piazza della Repubblica, 4, 10122 Torino TO",
       "phone": "011 4361086",
@@ -83,6 +91,7 @@
     },
     {
       "id": 9,
+      "link": "https://maps.app.goo.gl/F92vKfnndoEq5KBc6",
       "name": "Cremaschi",
       "address": "Via Milano, 43, 26013 Crema CR",
       "phone": "0373 203141",
@@ -93,6 +102,7 @@
     },
     {
       "id": 10,
+      "link": "https://maps.app.goo.gl/HXhQvRy79B53oZyWA",
       "name": "Il Consorzio Enoteca",
       "address": "Via Giovanni Falcone, 5, 64028 Silvi TE",
       "phone": "085 9359921",
@@ -103,6 +113,7 @@
     },
     {
       "id": 11,
+      "link": "https://maps.app.goo.gl/46W1mBhQNrQXtzMv9",
       "name": "Enoteca Costantini",
       "address": "Piazza Cavour, 16 b, 00193 Roma RM",
       "phone": "06 3203575",
@@ -113,6 +124,7 @@
     },
     {
       "id": 12,
+      "link": "https://maps.app.goo.gl/ToQA2fdTwDTmKBLv9",
       "name": "Enoteca I Coloniali - Vino & Cioccolato",
       "address": "Via Francesco Giordani, 32, 80122 Napoli NA",
       "phone": "081 7618478",
@@ -123,6 +135,7 @@
     },
     {
       "id": 13,
+      "link": "https://maps.app.goo.gl/FjWgfSwinRLzzXQy8",
       "name": "Vinoteca Al Chianti Selezione Formigli",
       "address": "Via Cassia, 2, Via di Colle Ramole, 1, 50023 Bottai FI",
       "phone": "055 2373267",
@@ -133,7 +146,8 @@
     },
 
     {
-      "id": 15,
+      "id": 14,
+      "link": "https://maps.app.goo.gl/uFREQ9PxjBHU7Z616",
       "name": "Enoteca Rachele Civita Bevande S.R.L.",
       "address": "Via Terni, 01033 Civita Castellana VT",
       "phone": "0761 549568",
@@ -143,13 +157,432 @@
       }
     },
     {
-      "id": 16,
+      "id": 15,
+      "link": "https://maps.app.goo.gl/MPodDUiwvfXEvPo9A",
       "name": "L' Enoteca - Maison du Cognac",
       "address": "Stradone Farnese, 55, 29121 Piacenza PC",
       "phone": "0523 338252",
       "location": {
         "latitudine": "45.04697789639926",
         "longitudine": "9.698000911623648"
+      }
+    },
+    {
+      "id": 16,
+      "link": "https://maps.app.goo.gl/gixoo2n98LaejVpi6",
+      "name": "Enoteca Allegri",
+      "address": "Via Martiri della Libertà, 95, 10099 San Mauro Torinese TO",
+      "phone": "011 8221005",
+      "location": {
+        "latitudine": "45.10173592216375",
+        "longitudine": "7.764816325120606"
+      }
+    },
+    {
+      "id": 17,
+      "link": "https://maps.app.goo.gl/r6mfcLQ3gURsC9PLA",
+      "name": "Vineria Cesare 1963",
+      "address": "Via S. Francesco Nuovo, 1, 04019 Terracina LT",
+      "phone": "0773 703921",
+      "location": {
+        "latitudine": "41.28852461879199",
+        "longitudine": "13.255031796078315"
+      }
+    },
+    {
+      "id": 18,
+      "link": "https://maps.app.goo.gl/8PZng6WujQyxxNE68",
+      "name": "Enoteca La Civiltà del bere",
+      "address": "Via Vittorio Veneto, 34, 19124 La Spezia SP",
+      "phone": "340 7056007",
+      "location": {
+        "latitudine": "44.10876605224039",
+        "longitudine": "9.828918152052795"
+      }
+    },
+    {
+      "id": 19,
+      "link": "https://maps.app.goo.gl/vMExWYBaqznFATsS9",
+      "name": "Winterose Wine Store",
+      "address": "Calata Marconi, 42, 16034 Portofino GE",
+      "phone": "0185 269500",
+      "location": {
+        "latitudine": "44.30363591086653",
+        "longitudine": "9.211488565557405"
+      }
+    },
+    {
+      "id": 20,
+      "link": "https://maps.app.goo.gl/xLoMp2LxJLHnWMeAA",
+      "name": "Cento19 Snc Di Curti Valerio E Serafini Simone",
+      "address": "Viale Ciro Menotti, 217, 41121 Modena MO",
+      "phone": "059 241198",
+      "location": {
+        "latitudine": "44.648352029681135",
+        "longitudine": "10.937837911601331"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Drogheria Centrale",
+      "link": "https://maps.app.goo.gl/Jc1hgdUyVzwp94fu5",
+      "address": "Via Umberto I, 5, 20862 Arcore MB",
+      "phone": "039 617069",
+      "location": {
+        "latitudine": "45.62754005233275",
+        "longitudine": "9.325024836796427"
+      }
+    },
+    {
+      "id": 22,
+      "link": "https://maps.app.goo.gl/fEVALGk5sSuLBVbz7",
+      "name": "Enoteca Caveau",
+      "address": "Piazzale Vittoria, 1, 35043 Monselice PD",
+      "phone": "345 2270093",
+      "location": {
+        "latitudine": "45.239725618415065",
+        "longitudine": "11.750180098140747"
+      }
+    },
+    {
+      "id": 23,
+      "link": "https://maps.app.goo.gl/bN6kVj2qAGKtBbq19",
+      "name": "Enoteca Castiglionese",
+      "address": "Piazza Orsino Orsini, 18, 58043 Castiglione della Pescaia GR",
+      "phone": "0564 933572",
+      "location": {
+        "latitudine": "42.76229576993003",
+        "longitudine": "10.879401351979368"
+      }
+    },
+    {
+      "id": 24,
+      "link": "https://maps.app.goo.gl/H9Zks5gP4UTBLwAo8",
+      "name": "Enoteca La Cascina",
+      "address": "Via Corace, 88100 Catanzaro CZ",
+      "phone": "0961 32683",
+      "location": {
+        "latitudine": "38.820544110502304",
+        "longitudine": "16.611611480611685"
+      }
+    },
+    {
+      "id": 25,
+      "link": "https://maps.app.goo.gl/tqvpdkVK68iAsBVR7",
+      "name": "Casa Bava Di Bava Giuseppe & Figli Snc",
+      "address": "Piazza 27-28 Maggio, 8, 28822 Cannobio VB",
+      "phone": "0323 71247",
+      "location": {
+        "latitudine": "46.061439097058596",
+        "longitudine": "8.700354136821225"
+      }
+    },
+    {
+      "id": 26,
+      "link": "https://maps.app.goo.gl/V7WpiPePn1CA5VrN9",
+      "name": "Enoteca Vago - Enoteca dei Fedel",
+      "address": "Via S. Lorenzo, 28/30, 20824 Lazzate MB",
+      "phone": "02 96320112",
+      "location": {
+        "latitudine": "45.67445111353326",
+        "longitudine": "9.085552180976109"
+      }
+    },
+    {
+      "id": 27,
+      "link": "https://maps.app.goo.gl/icpEuuL7Qn9Ubm249",
+      "name": "Carretta Vini",
+      "address": "Str. dei Vegri, 8, 31027 Spresiano TV",
+      "phone": "0422 92148",
+      "location": {
+        "latitudine": "45.76061889777067",
+        "longitudine": "12.253913867487169"
+      }
+    },
+    {
+      "id": 28,
+      "link": "https://maps.app.goo.gl/h28hc35Ay2us4dJn9",
+      "name": "Capricci Srl",
+      "address": "Via Albert Einstein, 96, 20062 Cassano d'Adda MI",
+      "phone": "0363 64158",
+      "location": {
+        "latitudine": "45.528516974664676",
+        "longitudine": "9.505372748436882"
+      }
+    },
+    {
+      "id": 29,
+      "link": "https://maps.app.goo.gl/z2pSEMfxXChCJi38A",
+      "name": "La Cantinetta - Online L'enoteca dei Ferrari",
+      "address": "Via Carriona, 314, 54033 Carrara MS",
+      "phone": "0585 840110",
+      "location": {
+        "latitudine": "44.063063870199",
+        "longitudine": "10.075896809721051"
+      }
+    },
+    {
+      "id": 30,
+      "link": "https://maps.app.goo.gl/TksQGaeLopkvxULL6",
+      "name": "Il Cantinone | Vendita Vini e Liquori",
+      "address": "Via S. Fruttuoso, 118/124 N, 16143 Genova GE",
+      "phone": "010 506690",
+      "location": {
+        "latitudine": "44.40776828905463",
+        "longitudine": "8.962856838575572"
+      }
+    },
+    {
+      "id": 31,
+      "link": "https://maps.app.goo.gl/ce8HZdtco6y49RMv5",
+      "name": "Campidori Selections",
+      "address": "Via Papa Giovanni XXIII, 98/1, 23848 Oggiono LC",
+      "phone": "0341 209162",
+      "location": {
+        "latitudine": "45.78670442868566",
+        "longitudine": "9.34448575399481"
+      }
+    },
+    {
+      "id": 32,
+      "link": "https://maps.app.goo.gl/Lf9cMnec2Uh7vJNv5",
+      "name": "Bar La Cambusa Sas Di Antonio E Pier Francesco Fago & C.",
+      "address": "Viale S. Bartolomeo, 471, 19126 La Spezia SP",
+      "phone": "0187 503083",
+      "location": {
+        "latitudine": "45.78670442868566",
+        "longitudine": "9.34448575399481"
+      }
+    },
+    {
+      "id": 33,
+      "link": "https://maps.app.goo.gl/xinZE7eaKWTKEaAB7",
+      "name": "Antica Drogheria Calzolari",
+      "address": "Via Giuseppe Petroni, 9a, 40126 Bologna BO",
+      "phone": "051 222858",
+      "location": {
+        "latitudine": "44.49508018414756",
+        "longitudine": "11.35185148090964"
+      }
+    },
+    {
+      "id": 34,
+      "link": "https://maps.app.goo.gl/GCgjuZ3tL4oELV4cA",
+      "name": "La Bottega Dei Golosi",
+      "address": "Via Archirola, 2, 41124 Modena MO",
+      "phone": "059 238166",
+      "location": {
+        "latitudine": "44.63930058617074",
+        "longitudine": "10.930563150234493"
+      }
+    },
+    {
+      "id": 35,
+      "link": "https://maps.app.goo.gl/2HwHmmrcdknFMXcB9",
+      "name": "Ristorante Enoteca Buca di Bacco",
+      "address": "Corso Italia, 149, 17027 Pietra Ligure SV",
+      "phone": "019 615307",
+      "location": {
+        "latitudine": "44.152333821587035",
+        "longitudine": "8.289841911573756"
+      }
+    },
+    {
+      "id": 36,
+      "link": "https://maps.app.goo.gl/V5h1fqmVAWiD2epw6",
+      "name": "Ca’ di sass",
+      "address": "Via F.lli Rosselli, 115, 27058 Voghera PV",
+      "phone": "338 8722121",
+      "location": {
+        "latitudine": "44.987856472397226",
+        "longitudine": "8.993587080937264"
+      }
+    },
+    {
+      "id": 37,
+      "link": "https://maps.app.goo.gl/Y1WfPh4xBSp485fEA",
+      "name": "Enoteca Bisson S. A. S.",
+      "address": "Corso Angelo Gianelli, 28, 16043 Chiavari GE",
+      "phone": "0185 314462",
+      "location": {
+        "latitudine": "44.31647857558883",
+        "longitudine": "9.320933338570507"
+      }
+    },
+    {
+      "id": 38,
+      "link": "https://maps.app.goo.gl/wuCe3DsgwvLTLxMWA",
+      "name": "Bolis Vini",
+      "address": "Via Bernardo da Pavia, 9/11, 27100 Pavia PV",
+      "phone": "0382 302363",
+      "location": {
+        "latitudine": "45.187208211495474",
+        "longitudine": "9.14275010978382"
+      }
+    },
+    {
+      "id": 39,
+      "link": "https://maps.app.goo.gl/mTQ6Zvheyx6imU437",
+      "name": "Le Bon Boulanger",
+      "address": "Via Collalto Sabino, 27, 00199 Roma RM",
+      "phone": "06 86216033",
+      "location": {
+        "latitudine": "41.93040452549042",
+        "longitudine": "12.516290224947367"
+      }
+    },
+    {
+      "id": 40,
+      "link": "https://maps.app.goo.gl/VNsh244mhBXfUdT76",
+      "name": "Enoteca Bottazzi 1957",
+      "address": "Via Luigi Roncari, 30, 21023 Besozzo VA",
+      "phone": "0332 770222",
+      "location": {
+        "latitudine": "45.84496944590393",
+        "longitudine": "8.667836996327381"
+      }
+    },
+    {
+      "id": 41,
+      "link": "https://maps.app.goo.gl/fSC6gA91kXA44i368",
+      "name": "Enoteca La Botte Gaia Srl",
+      "address": "Piazza Giuseppe Garibaldi, 7/8, 12037 Saluzzo CN",
+      "phone": "0175 41879",
+      "location": {
+        "latitudine": "44.64574443378793",
+        "longitudine": "7.493026525095025"
+      }
+    },
+    {
+      "id": 42,
+      "link": "https://maps.app.goo.gl/fSC6gA91kXA44i368",
+      "name": "Osteria Bottega Garibaldi",
+      "address": "Via Garibaldi, 42, 29017 Fiorenzuola d'Arda PC",
+      "phone": "0523 248240",
+      "location": {
+        "latitudine": "44.92985598130235",
+        "longitudine": "9.909577582781692"
+      }
+    },
+    {
+      "id": 43,
+      "link": "https://maps.app.goo.gl/Z7wTWkKjGTKHQ1Kw7",
+      "name": "Enoteca Di Biagio",
+      "address": "P.le Jonio, 6-7-11-12, 00141 Roma RM",
+      "phone": "06 8109874",
+      "location": {
+        "latitudine": "41.94527766984607",
+        "longitudine": "12.52660153844196"
+      }
+    },
+    {
+      "id": 44,
+      "link": "https://maps.app.goo.gl/5SdetnYvUP4bTnT68",
+      "name": "Enoteca Bianco",
+      "address": "Corso Regina Margherita, 235, 10144 Torino TO",
+      "phone": "011 4376868",
+      "location": {
+        "latitudine": "45.08472040109327",
+        "longitudine": "7.659214609778071"
+      }
+    },
+    {
+      "id": 45,
+      "link": "https://maps.app.goo.gl/hdKJoGaJmVxLQjUAA",
+      "name": "Bigliardi & Garuti...enoteca",
+      "address": "Via Emilia All'Angelo, 21/a, 42124 Reggio Emilia RE",
+      "phone": "0522 792098",
+      "location": {
+        "latitudine": "44.702816710575775",
+        "longitudine": "10.619621838592032"
+      }
+    },
+    {
+      "id": 46,
+      "link": "https://maps.app.goo.gl/kQjPn5j7U2SASJMV6",
+      "name": "Enoteca Berta",
+      "address": "Via Circonvallazione, 56, 10015 Ivrea TO",
+      "phone": "0125 40224",
+      "location": {
+        "latitudine": "45.470280469111366",
+        "longitudine": " 7.8783154809644715"
+      }
+    },
+    {
+      "id": 47,
+      "link": "https://maps.app.goo.gl/rYMgqamT9qToGfXR9",
+      "name": "Enoteca Beresapere",
+      "address": "Via Mentana, 43, 06129 Perugia PG",
+      "phone": "075 5056053",
+      "location": {
+        "latitudine": "43.10106878017504",
+        "longitudine": "12.377725367339231"
+      }
+    },
+    {
+      "id": 48,
+      "link": "https://maps.app.goo.gl/xaCPqn6GnLuZryYQA",
+      "name": "Bellagaia Srl",
+      "address": "Via Gaetano Capone, 31, 84010 Maiori SA",
+      "phone": "089 877871",
+      "location": {
+        "latitudine": "40.64728559931349",
+        "longitudine": "14.643969396045156"
+      }
+    },
+    {
+      "id": 49,
+      "link": "https://maps.app.goo.gl/Kvw49UHC4WFiy1mG6",
+      "name": "Enoteca Belsito Srl",
+      "address": "Viale delle Medaglie d'Oro, 419, 00136 Roma RM",
+      "phone": "06 35344943",
+      "location": {
+        "latitudine": "41.92347383806052",
+        "longitudine": "12.445666140288617"
+      }
+    },
+    {
+      "id": 50,
+      "link": "https://maps.app.goo.gl/sfzzG7tEQnpHMGMy7",
+      "name": "Barberis & Barberis Enoteca Srl",
+      "address": "Regione Giovannetta, 11, 13011 Borgosesia VC",
+      "phone": "0163 22366",
+      "location": {
+        "latitudine": "45.725751937672676",
+        "longitudine": "8.283989376723982"
+      }
+    },
+    {
+      "id": 51,
+      "link": "https://maps.app.goo.gl/JcDhFZ9NqGK8mPmg9",
+      "name": "Enoteca Balducci",
+      "address": "Via Igea, 43, 00135 Roma RM",
+      "phone": "06 3071134",
+      "location": {
+        "latitudine": "41.9348984773068",
+        "longitudine": "12.441775951935258"
+      }
+    },
+    {
+      "id": 52,
+      "link": "https://maps.app.goo.gl/crhVmuaYax3fWenw7",
+      "name": "Enoteca Baldi Federigo",
+      "address": "Via R. Scotellaro, 4, 50064 Figline e Incisa Valdarno FI",
+      "phone": "055 8335794",
+      "location": {
+        "latitudine": "43.64197785327261",
+        "longitudine": "11.451763182710287"
+      }
+    },
+    {
+      "id": 53,
+      "link": "https://maps.app.goo.gl/TaemGobnbWLNHqMC9",
+      "name": "Baccoghiotto Pinerolo",
+      "address": "Via Clemente Lequio, 24/A, 10064 Pinerolo TO",
+      "phone": "0121 70445",
+      "location": {
+        "latitudine": "44.88519301185788",
+        "longitudine": "7.330010640449954"
       }
     }
   ]

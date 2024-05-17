@@ -28,7 +28,7 @@ const Map = ({ store, activeStore }) => {
       scrollWheelZoom={true}
     >
       <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        attribution="OpenStreetMap"
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       {store.map((el) => {
@@ -36,15 +36,23 @@ const Map = ({ store, activeStore }) => {
         return (
           <Marker position={[latitudine, longitudine]} key={el.id}>
             <Popup>
-              {el.img && (
+              {/* {el.img && (
                 <img src={el.img} className="w-full h-full" alt={el.name} />
-              )}
+              )} */}
 
-              <p className="text-base font-bold ">{el.name}</p>
-              <p className="!text-main !font-medium">{el.address}</p>
-              <div className="w-full h-[0.02rem] bg-main"></div>
+              <a
+                href={el.link}
+                target="_blank"
+                className="hover:underline hover:underline-offset-2 hover:decoration-main hover:transition-all hover:ease-linear hover:duration-300"
+              >
+                <p className="text-base font-bold ">{el.name}</p>
+              </a>
+              <address className="!text-main !font-medium">
+                {el.address}
+              </address>
+              <div className="w-full h-[0.02rem] bg-main/50 mt-4"></div>
               <div className="flex justify-between w-full items-center">
-                <p className="flex items-center gap-1">
+                <p className="flex items-center gap-1 font-bold">
                   <Icon icon="ph:phone-fill" /> {el.phone}
                 </p>
                 <Link
@@ -53,7 +61,7 @@ const Map = ({ store, activeStore }) => {
                   rel="noreferrer"
                   className="!text-main !font-bold uppercase"
                 >
-                  Indicazioni
+                  <Icon icon="bxs:direction-right" className="w-7 h-7" />
                 </Link>
               </div>
             </Popup>

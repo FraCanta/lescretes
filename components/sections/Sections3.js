@@ -25,7 +25,7 @@ const Sections3 = ({ translation }) => {
           </div>
         </div>
       </div>
-      <div className="w-full lg:w-[100%] mx-auto h-[450px] md:h-[600px] lg:h-[500px] fxl:h-[650px] 3xl:h-[65vh]  degustazione"></div>
+      <div className="w-full lg:w-[100%] mx-auto h-[450px] md:h-[600px] lg:h-[650px] fxl:h-[650px] 3xl:h-[65vh]  degustazione"></div>
       <div className="w-full h-[400px] md:h-[600px] fxl:h-[800px] absolute bottom-40 left-0">
         <Image
           src={Pattern}

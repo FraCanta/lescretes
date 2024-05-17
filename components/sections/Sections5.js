@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Pattern from "@/public/assets/pattern3.png";
-import Eco from "@/public/assets/eco.png";
+import Eco from "@/public/assets/eco.jpg";
 const Sections5 = ({ translation }) => {
   return (
     <>
@@ -88,9 +88,9 @@ const Sections5 = ({ translation }) => {
             />
           </div>
         </div>
-        <div className="w-full aspect-square relative">
+        <div className="w-full aspect-square lg:aspect-auto relative">
           <Image
-            className="w-full h-full   object-cover xl:object-[-600px] 2xl:object-[-400px] fxl:object-[-450px]"
+            className="w-full h-full   object-cover object-right"
             fill
             src={Eco}
           />

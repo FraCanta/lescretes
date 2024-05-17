@@ -1,0 +1,11 @@
+{
+  "store": {
+    "heading": {
+      "title": "Where to drink or buy wines of Les Crêtes",
+      "descrizione": "On this page you can find the list of wine shops and large retailers that present <a href='/vini' class='font-bold'>our wines</a>."
+    },
+    "map": {
+      "view": "View on map"
+    }
+  }
+}

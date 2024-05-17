@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+html::-webkit-scrollbar {
+  display: none;
+}
+
 h1,
 h2,
 h3,
@@ -55,7 +59,7 @@ span {
 }
 
 .degustazione {
-  background-image: url("../public/assets/degustazioni.jpg");
+  background-image: url("../public/assets/rifugio/rifugio3.jpg");
   background-size: cover;
   background-position: center;
   z-index: 999;

@@ -1,64 +1,64 @@
 {
   "degustazioni": {
     "hero": {
-      "title": "Enter the world of Les Crêtes to taste our wines."
+      "title": "Entrez dans le monde de Les Crêtes pour déguster nos vins."
     },
     "intro": [
       {
-        "p": "The <a href='/rifugio' title='Pagina Rifugio' class='font-bold'>Rifugio del Vino</a> is a real terrace on the vineyards overlooking the city of Aosta, a place where hospitality is at home and where you can live a unique experience. The tastings are dedicated to both groups and individual wine lovers."
+        "p": "Le <a href='/rifugio' title='Pagina Rifugio' class='font-bold'>Refuge du Vin</a> est une véritable terrasse sur les vignes surplombant la ville d’Aoste, un lieu où l’accueil est à la maison et où vivre une expérience unique. Les dégustations sont dédiées à la fois aux groupes et aux amateurs de vin."
       },
       {
-        "p": "Each tasting is accompanied by a visit to the winery, available in various ways, depending on your preferences. If you have special needs for you or your group, contact us to create your personalized visit."
+        "p": "Chaque dégustation est accompagnée d’une visite à la cave, disponible en différentes modalités, selon vos préférences. Si vous avez des besoins particuliers pour vous ou votre groupe, contactez-nous pour créer votre visite personnalisée."
       }
     ],
     "cards": [
       {
         "img": "/assets/degustazioni/tre2.png",
         "title": "3 Wines Experience",
-        "descrizione": "Tasting of three wines at the Rifugio del vino and visit to the cellar and barrique",
-        "price": "€25.00 VAT included / person",
+        "descrizione": "Dégustation de trois vins au Refuge du vin et visite de la cave et barricaia",
+        "price": "€25,00 TTC / personne",
         "link": "/degustazioni/trewines"
       },
       {
         "img": "/assets/degustazioni/native.jpeg",
         "title": "Native Wines Experience",
-        "descrizione": "Tasting of 5 wines of the Territory at the wine refuge in the cellar and barrique",
-        "price": "€40.00 VAT included / person",
+        "descrizione": "Dégustation de 5 vins du Territoire au Refuge du vin en cave et barricaia",
+        "price": "€40,00 TTC / personne",
         "link": "/degustazioni/native"
       },
       {
         "img": "/assets/degustazioni/cheese.jpeg",
         "title": "Wine and Cheese Experience",
-        "descrizione": "Tasting of 5 selected wines paired with 6 local cheeses and visit to the cellar and barrique",
-        "price": "€45.00 VAT included / person",
+        "descrizione": "Dégustation de 5 vins sélectionnés avec 6 fromages locaux et visite de la cave et barricaia",
+        "price": "€45,00 TTC / personne",
         "link": "/degustazioni/cheese"
       },
       {
         "img": "/assets/degustazioni/top.jpeg",
         "title": "Top Wines Experience",
-        "descrizione": "Tasting of 5 top wines accompanied by a plate of local gastronomy and visit to the cellar and barrique",
-        "price": "€70.00 VAT included / person",
+        "descrizione": "Dégustation de 5 vins haut accompagnés de planches de la gastronomie locale et visite de la cave et barricaia",
+        "price": "€70,00 TTC / personne",
         "link": "/degustazioni/top"
       },
       {
         "img": "/assets/degustazioni/coteau3.jpg",
         "title": "Côteau la Tour Experience",
-        "descrizione": "Tasting of 5 wines accompanied by a plate of local gastronomy and visit to the cellar and barrique. Tour of the Côteau vineyard and toast in the Medieval Tower",
-        "price": "€90.00 VAT included / person",
+        "descrizione": "Dégustation de 5 vins accompagnée d’une planche à découper de la gastronomie locale et visite de la cave et barricaia. Visite du vignoble du Côteau et toast dans la tour médiévale",
+        "price": "€90,00 TTC / personne",
         "link": "/degustazioni/tour"
       },
       {
         "img": "/assets/degustazioni/winemaker.jpeg",
         "title": "Winemaker's Experience",
-        "descrizione": "Discover the world of Les Crêtes told by our winemaker Raffaele, from the vineyards to the winery",
-        "price": "€100.00 VAT included / person",
+        "descrizione": "Découvrez le monde Les Crêtes raconté par notre œnologue Raffaele, des vignes à la cave.",
+        "price": "€100,00 TTC / personne",
         "link": "/degustazioni/winemaker"
       },
       {
         "img": "/assets/degustazioni/wellness.jpeg",
         "title": "Wellness & Wine Tasting",
-        "descrizione": "Overnight stay in double room at QC Terme Spas & Resorts, with wellness path + tasting of 5 selected wines with 6 local cheeses, visit in the cellar and barrique",
-        "price": "From €346,00 VAT included ",
+        "descrizione": "Séjour d’une nuit en chambre double au QC Terme Spas & Resorts, avec parcours bien-être + dégustation de 5 vins sélectionnés avec 6 fromages locaux, visite en cave et barrique.",
+        "price": "À partir de 346,00 € TTC",
         "link": "/degustazioni/wellness"
       }
     ],
@@ -88,7 +88,7 @@
         "price": "€25,00 iva inclusa / persona",
         "priceTitle": "Prezzo",
 
-        "download": "/3-Wines-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/3wines_experience_ita.pdf"
       },
       "native": {
         "img": "/assets/degustazioni/native.jpg",
@@ -121,7 +121,7 @@
         "priceTitle": "Prezzo",
 
         "price": "€40,00 iva inclusa / persona",
-        "download": "/Native-Wines-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/native_wine_experience_ita.pdf"
       },
       "cheese": {
         "img": "/assets/degustazioni/cheese.jpeg",
@@ -153,7 +153,7 @@
         "price": "€45,00 iva inclusa / persona",
         "priceTitle": "Prezzo",
 
-        "download": "/Wine-Cheese-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/wine_and_cheese_experience_ita.pdf"
       },
       "top": {
         "img": "/assets/degustazioni/top.jpg",
@@ -187,7 +187,7 @@
         "price": "€70,00 iva inclusa / persona",
         "priceTitle": "Prezzo",
 
-        "download": "/Top-Wines-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/top_wines_experience_ita.pdf"
       },
       "tour": {
         "img": "/assets/degustazioni/coteau3.jpg",
@@ -228,7 +228,7 @@
 
         "price": "€90,00 iva inclusa / persona",
 
-        "download": "/Coteau-la-Tour-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/coteau_la_tour_experience_ita.pdf"
       },
       "winemaker": {
         "img": "/assets/degustazioni/winemaker.jpeg",
@@ -267,7 +267,7 @@
 
         "price": "€100,00 iva inclusa / persona",
 
-        "download": "/Winemaker-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/winemakers_experience_ita.pdf"
       },
       "wellness": {
         "img": "/assets/degustazioni/wellness.jpeg",
@@ -302,50 +302,51 @@
         "priceTitle": "Prezzo",
         "price": "A partire da €346,00 iva inclusa ",
 
-        "prenotaBtn": "https://www.qcterme.com/it/corporate/offerte-e-pacchetti/wellness-wine-tasting"
+        "prenotaBtn": "https://www.qcterme.com/it/corporate/offerte-e-pacchetti/wellness-wine-tasting",
+        "download": "/pdf/degustazioni/wellness_and_wine_tasting_ita.pdf"
       }
     },
     "prenota": {
-      "title": "Book now your visit or request information about tastings:",
+      "title": "Réservez dès maintenant votre visite ou demandez des informations sur les dégustations :",
       "list": [
         {
-          "name": "- by phone  <a href='callto:+390165902274'>+39 0165 / 90 22 74</a>"
+          "name": "- au téléphone  <a href='callto:+390165902274'>+39 0165 / 90 22 74</a>"
         },
         {
-          "name": "- to e-mail: <a href='mailto:info@lescretes.it'>info@lescretes.it</a>"
+          "name": "- à l’adresse électronique suivante : <a href='mailto:info@lescretes.it'>info@lescretes.it</a>"
         },
         {
-          "name": "- fill in the form on the chosen tasting page"
+          "name": "- remplissez le formulaire sur la page de dégustation choisie"
         }
       ],
-      "nota": "Wine shop, tastings and guided tours: from Mon to Fri 9.00-13.00/15.00-19.00 and Sat 10.00-13.00/15.00-19.00. <strong>CLOSED Sunday and Holidays</strong>"
+      "nota": "Wine shop, dégustations et visites guidées : du Lun au Ven 9.00-13.00/15.00-19.00 et Sam 10.00-13.00/15.00-19.00. <strong>FERMÉ Dimanche et jours fériés</strong>"
     },
     "faq": [
       {
-        "question": "Can I take my children to a wine tasting?",
+        "question": "Puis-je emmener mes enfants à une dégustation de vin ?",
         "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
       },
       {
-        "question": "If I have an unexpected event, can I change the day of the tasting?",
+        "question": "Si j’ai un imprévu, puis-je changer le jour de la dégustation?",
         "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
       },
       {
-        "question": "Are tastings also ideal for those who are vegetarian or vegan?",
+        "question": "Les dégustations sont-elles également idéales pour les végétariens ou les végétaliens ?",
         "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
       },
       {
-        "question": "Is it possible to give away a tasting?",
+        "question": "Est-il possible d’offrir une dégustation ?",
         "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
       },
       {
-        "question": "What is the maximum capacity of participants for this tasting? Do I need an advance booking?",
+        "question": "Quelle est la capacité maximale de participants pour cette dégustation ? Dois-je réserver à l’avance ?",
         "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
       }
     ],
     "banner": {
-      "title": "Rifugio del Vino: emotional tasting room",
-      "paragraph": "A place where hospitality is at home and where you can live a unique experience in the mountains of Valle d'Aosta.",
-      "btn": "Discover Il Rifugio",
+      "title": "Le Refuge du Vin : salle de dégustation émotionnelle",
+      "paragraph": "Un lieu où l’accueil est à la maison et où vivre une expérience unique dans les montagnes de la Vallée d’Aoste.",
+      "btn": "Découvrez le Refuge",
       "link": "/rifugio"
     }
   }

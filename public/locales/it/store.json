@@ -1,0 +1,11 @@
+{
+  "store": {
+    "heading": {
+      "title": "Dove bere o comprare i vini di Les Crêtes",
+      "descrizione": "In questa pagina potete trovare l’elenco delle enoteche e della grande distribuzione che presentano <a href='/vini' title='i vini di Les Cretes' class='font-bold'>i nostri vini</a>."
+    },
+    "map": {
+      "view": "Guarda sulla mappa"
+    }
+  }
+}
