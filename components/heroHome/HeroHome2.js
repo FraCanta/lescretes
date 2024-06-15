@@ -12,7 +12,7 @@ const HeroHome2 = ({ img, title }) => {
           phasellus mollis sit aliquam sit nullam neque ultrices.
         </p> */}
       </div>
-      <div className="relative aspect-square lg:h-screen  w-full lg:w-[50%] 3xl:h-full">
+      <div className="relative aspect-square lg:h-screen  w-full lg:w-[90%] 3xl:h-full">
         <Image
           src={img}
           fill

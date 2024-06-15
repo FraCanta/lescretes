@@ -6,7 +6,6 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import Rifugio from "@/public/assets/rifugio/rifugio.JPG";
-// import StoreLocator from "@/components/storeLocator/StoreLocator";
 const Contatti = () => {
   return (
     <>
@@ -56,7 +55,6 @@ const Contatti = () => {
         </div>
       </div>
       <div className="w-[90%] mx-auto py-10 flex flex-col gap-6">
-        {/* <StoreLocator /> */}
         <div className="collapse bg-second">
           <input type="checkbox" />
           <div className="collapse-title text-xl font-medium">
