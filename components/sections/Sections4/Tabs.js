@@ -43,7 +43,7 @@ const Tabs = ({ tabs }) => {
   return (
     <div className="pt-10">
       {/* Tab links */}
-      <div className="flex  gap-10  !px-5 overflow-x-auto whitespace-nowrap w-full ">
+      <div className="flex  gap-10  !px-5 lg:!px-0 overflow-x-auto whitespace-nowrap w-full ">
         {tabs.map((tab, index) => (
           <button
             key={index}
@@ -54,14 +54,14 @@ const Tabs = ({ tabs }) => {
             onClick={() => openCity(index)}
           >
             {tab.name}
-            {activeTab === index && (
+            {/* {activeTab === index && (
               <motion.div
                 className="line-below-tab"
                 variants={lineMotion}
                 initial="rest"
                 animate="active"
               />
-            )}
+            )} */}
           </button>
         ))}
       </div>

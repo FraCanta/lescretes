@@ -27,64 +27,64 @@
           {
             "img": "/assets/vinirossi/merle.png",
             "name": "Merlot Le Merle Valle D'Aosta DOP",
-            "link": "/vini/rossi/merle"
+            "link": "/i-vini/rossi/merle"
           },
           {
             "img": "/assets/vinirossi/cornalin.png",
             "name": "Cornalin Valle d’Aosta D.O.P.",
-            "link": "/vini/rossi/cornalin"
+            "link": "/i-vini/rossi/cornalin"
           },
           {
             "img": "/assets/vinirossi/fumin_lacor.png",
             "name": "Fumin La Cor Valle d’Aosta D.O.P.",
-            "link": "/vini/rossi/lacor"
+            "link": "/i-vini/rossi/lacor"
           },
 
           {
             "img": "/assets/vinirossi/nebbiolo_sommet.png",
             "name": "Nebbiolo Sommet Valle d’Aosta D.O.P.",
-            "link": "/vini/rossi/nebbiolos"
+            "link": "/i-vini/rossi/nebbiolos"
           },
           {
             "img": "/assets/vinirossi/nebbiolo.png",
             "name": "Nebbiolo Valle d’Aosta D.O.P.",
-            "link": "/vini/rossi/nebbiolo"
+            "link": "/i-vini/rossi/nebbiolo"
           },
           {
             "img": "/assets/vinirossi/pinot_nero.png",
             "name": "Pinot Noir Valle d’Aosta D.O.P.",
-            "link": "/vini/rossi/pinot"
+            "link": "/i-vini/rossi/pinot"
           },
 
           {
             "img": "/assets/vinirossi/pinot_revei.png",
             "name": "Pinot Revei",
-            "link": "/vini/rossi/revei"
+            "link": "/i-vini/rossi/revei"
           },
           {
             "img": "/assets/vinirossi/sabla.png",
             "name": "La Sabla® – Vino Rosso",
-            "link": "/vini/rossi/sabla"
+            "link": "/i-vini/rossi/sabla"
           },
           {
             "img": "/assets/vinirossi/syrah.png",
             "name": "Syrah Valle d’Aosta D.O.P.",
-            "link": "/vini/rossi/syrah"
+            "link": "/i-vini/rossi/syrah"
           },
           {
             "img": "/assets/vinirossi/torrette_sup.png",
             "name": "Torrette Superiore Valle d’Aosta D.O.P.",
-            "link": "/vini/rossi/torrettesup"
+            "link": "/i-vini/rossi/torrettesup"
           },
           {
             "img": "/assets/vinirossi/torrette.png",
             "name": "Torrette Valle d’Aosta D.O.P.",
-            "link": "/vini/rossi/torrette"
+            "link": "/i-vini/rossi/torrette"
           },
           {
             "img": "/assets/vinirossi/monrouge.png",
             "name": "Mon Rouge® – Vino Rosso",
-            "link": "/vini/rossi/monrouge"
+            "link": "/i-vini/rossi/monrouge"
           }
         ]
       },
@@ -94,38 +94,38 @@
           {
             "img": "/assets/vinibianchi/chardonnay_cb.png",
             "name": "Chardonnay Cuvée Bois Valle d’Aosta D.O.P.",
-            "link": "/vini/bianchi/chardonnaycb"
+            "link": "/i-vini/bianchi/chardonnaycb"
           },
           {
             "img": "/assets/vinibianchi/chardonnay.png",
             "name": "Chardonnay Valle d’Aosta D.O.P.",
-            "link": "/vini/bianchi/chardonnay"
+            "link": "/i-vini/bianchi/chardonnay"
           },
 
           {
             "img": "/assets/vinibianchi/neige.png",
             "name": "Neige d’Or Valle d’Aosta D.O.P.",
-            "link": "/vini/bianchi/neige"
+            "link": "/i-vini/bianchi/neige"
           },
           {
             "img": "/assets/vinibianchi/petite_arvine.png",
             "name": "Petite Arvine Valle d’Aosta D.O.P.",
-            "link": "/vini/bianchi/petitearvine"
+            "link": "/i-vini/bianchi/petitearvine"
           },
           {
             "img": "/assets/vinibianchi/petite_fleur.png",
             "name": "Fleur – Petite Arvine Valle d’Aosta D.O.P.",
-            "link": "/vini/bianchi/petitefleur"
+            "link": "/i-vini/bianchi/petitefleur"
           },
           {
             "img": "/assets/vinibianchi/pinot_grigio.png",
             "name": "Pinot Gris Brulant Valle d’Aosta D.O.P.",
-            "link": "/vini/bianchi/pinotgris"
+            "link": "/i-vini/bianchi/pinotgris"
           },
           {
             "img": "/assets/vinibianchi/mon_blanc.png",
             "name": "Mon Blanc",
-            "link": "/vini/bianchi/monblanc"
+            "link": "/i-vini/bianchi/monblanc"
           }
         ]
       },
@@ -135,7 +135,7 @@
           {
             "img": "/assets/vinirose/rose.png",
             "name": "Rosé Valle d’Aosta D.O.P.",
-            "link": "/vini/rose/rose"
+            "link": "/i-vini/rose/rose"
           }
         ]
       },
@@ -145,17 +145,17 @@
           {
             "img": "/assets/vinidessert/dorè.png",
             "name": "Doré – Vino da Uve Stramature",
-            "link": "/vini/vinidessert/dore"
+            "link": "/i-vini/vinidessert/dore"
           },
           {
             "img": "/assets/vinidessert/neblu.png",
             "name": "Neblù – Brut Nature Metodo Classico Rosé",
-            "link": "/vini/vinidessert/neblu"
+            "link": "/i-vini/vinidessert/neblu"
           },
           {
             "img": "/assets/vinidessert/reban.png",
             "name": "Rebàn Metodo Classico Pas Dosé",
-            "link": "/vini/vinidessert/reban"
+            "link": "/i-vini/vinidessert/reban"
           }
         ]
       }
