@@ -17,7 +17,7 @@ const Tabs = ({ translation }) => {
 
   return (
     <div className="pt-20 xl:pt-0">
-      <div className="flex  gap-10  !px-5 lg:!px-0 overflow-x-auto whitespace-nowrap w-full lg:w-[90%] mx-auto tabs">
+      <div className="flex gap-4  lg:gap-10  !px-5 lg:!px-0 overflow-x-auto whitespace-nowrap w-full lg:w-[90%] mx-auto tabs">
         {translation.map((tab, index) => (
           <button
             key={index}
