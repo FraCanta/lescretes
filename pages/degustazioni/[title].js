@@ -164,16 +164,19 @@ const SingleDeg = ({ deg, others }) => {
         </div>
         <div className="fixed bottom-0 left-0 z-20 flex items-center w-full lg:hidden">
           {deg.prenotaBtn ? (
-            <CtaPrimary link={deg.prenotaBtn}>
-              <div className="flex items-center gap-2">
-                Prenota ora{" "}
-                <Icon
-                  icon="mingcute:calendar-line"
-                  color="white"
-                  className="w-5 h-5"
-                />
-              </div>
-            </CtaPrimary>
+            <Link
+              href={deg.prenotaBtn}
+              target="_blank"
+              title={"prenotazione"}
+              className="flex items-center justify-center text-[20px]  gap-2 text-center capitalize font-medium py-4 px-6   text-white hover:transition-all  bg-main w-full "
+            >
+              Prenota ora{" "}
+              <Icon
+                icon="mingcute:calendar-line"
+                color="white"
+                className="w-5 h-5"
+              />
+            </Link>
           ) : (
             <button
               onClick={handleDrawerToggle}
@@ -193,13 +196,30 @@ const SingleDeg = ({ deg, others }) => {
           onClose={handleCloseDrawer}
           deg={deg.name}
         />
-        <div className="hidden p-8 lg:block">
-          <div className="p-8 text-3xl text-center bg-main">
-            <h2 className="font-bold text-white uppercase">{deg.name}</h2>
+        {deg.prenotaBtn ? (
+          <div className="w-full">
+            <CtaPrimary
+              link={deg.prenotaBtn}
+              target="_blank"
+              title={"prenotazione"}
+            >
+              Prenota ora{" "}
+              <Icon
+                icon="mingcute:calendar-line"
+                color="white"
+                className="w-5 h-5"
+              />
+            </CtaPrimary>
           </div>
+        ) : (
+          <div className="hidden p-8 lg:block">
+            <div className="p-8 text-3xl text-center bg-main">
+              <h2 className="font-bold text-white uppercase">{deg.name}</h2>
+            </div>
 
-          <FormPrenotazione deg={deg.name} />
-        </div>
+            <FormPrenotazione deg={deg.name} />
+          </div>
+        )}
       </div>
 
       <div className="w-full h-[1px] bg-second my-2"></div>
