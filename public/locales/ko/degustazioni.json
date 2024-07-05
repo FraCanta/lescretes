@@ -71,6 +71,8 @@
           "title": "Degustazione",
           "vini": "3 vini"
         },
+
+        "cardDesc": "Degustazione di tre vini al Rifugio del vino e visita in cantina e barricaia",
         "durata": { "title": "Durata", "tempo": "1 h" },
         "visita": { "title": "Visita Cantina", "cantina": "sì" },
         "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
@@ -88,12 +90,14 @@
         "price": "€25,00 iva inclusa / persona",
         "priceTitle": "Prezzo",
 
-        "download": "/3-Wines-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/3wines_experience_ita.pdf"
       },
       "native": {
         "img": "/assets/degustazioni/native.jpg",
         "name": "Native Wines Experience",
         "title": "native",
+        "cardDesc": "Degustazione di 5 vini del Territorio al Rifugio del vino in cantina e barricaia",
+
         "degustazione": {
           "title": "Degustazione",
           "vini": "5 vini"
@@ -121,12 +125,14 @@
         "priceTitle": "Prezzo",
 
         "price": "€40,00 iva inclusa / persona",
-        "download": "/Native-Wines-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/native_wine_experience_ita.pdf"
       },
       "cheese": {
         "img": "/assets/degustazioni/cheese.jpeg",
         "name": "Wine and Cheese Experience",
         "title": "cheese",
+        "cardDesc": "Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali e visita in cantina e barricaia",
+
         "degustazione": {
           "title": "Degustazione",
           "vini": "5 vini + 6 formaggi locali"
@@ -153,12 +159,14 @@
         "price": "€45,00 iva inclusa / persona",
         "priceTitle": "Prezzo",
 
-        "download": "/Wine-Cheese-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/wine_and_cheese_experience_ita.pdf"
       },
       "top": {
         "img": "/assets/degustazioni/top.jpg",
         "name": "Top Wines Experience",
         "title": "top",
+        "cardDesc": "Degustazione di 5 vini top accompagnati da tagliere della gastronomia locale e visita in cantina e barricaia",
+
         "degustazione": {
           "title": "Degustazione",
           "vini": "5 vini"
@@ -187,12 +195,14 @@
         "price": "€70,00 iva inclusa / persona",
         "priceTitle": "Prezzo",
 
-        "download": "/Top-Wines-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/top_wines_experience_ita.pdf"
       },
       "tour": {
         "img": "/assets/degustazioni/coteau3.jpg",
         "name": "Côteau la Tour Experience",
         "title": "tour",
+        "cardDesc": "Degustazione di 5 vini accompagnata da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto del Côteau e brindisi nella Torre Medievale",
+
         "degustazione": {
           "title": "Degustazione",
           "vini": "5 vini"
@@ -228,12 +238,14 @@
 
         "price": "€90,00 iva inclusa / persona",
 
-        "download": "/Coteau-la-Tour-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/coteau_la_tour_experience_ita.pdf"
       },
       "winemaker": {
         "img": "/assets/degustazioni/winemaker.jpeg",
         "name": "Winemaker's Experience",
         "title": "winemaker",
+        "cardDesc": "Scopri il mondo Les Crêtes raccontato dal nostro enologo Raffaele, a partire dalle vigne fino alla cantina.",
+
         "degustazione": {
           "title": "Degustazione",
           "vini": "5 vini + salumi e formaggi locali"
@@ -267,12 +279,14 @@
 
         "price": "€100,00 iva inclusa / persona",
 
-        "download": "/Winemaker-Experience-ITA.pdf"
+        "download": "/pdf/degustazioni/winemakers_experience_ita.pdf"
       },
       "wellness": {
         "img": "/assets/degustazioni/wellness.jpeg",
         "name": "Wellness & Wine Tasting",
         "title": "wellness",
+        "cardDesc": "Soggiorno di una notte in camera doppia presso QC Terme Spas & Resorts, con percorso benessere + degustazione di 5 vini selezionati con 6 formaggi locali, visita in cantina e barricaia.",
+
         "degustazione": {
           "title": "Degustazione",
           "vini": "5 vini + salumi e formaggi locali"
@@ -302,7 +316,8 @@
         "priceTitle": "Prezzo",
         "price": "A partire da €346,00 iva inclusa ",
 
-        "prenotaBtn": "https://www.qcterme.com/it/corporate/offerte-e-pacchetti/wellness-wine-tasting"
+        "prenotaBtn": "https://www.qcterme.com/it/corporate/offerte-e-pacchetti/wellness-wine-tasting",
+        "download": "/pdf/degustazioni/wellness_and_wine_tasting_ita.pdf"
       }
     },
     "prenota": {
