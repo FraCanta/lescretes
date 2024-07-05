@@ -15,8 +15,8 @@ import Terr from "@/public/assets/terroir2.png";
 import Image from "next/image";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
-
+import { Autoplay, EffectFade } from "swiper/modules";
+import "swiper/css/effect-fade";
 // Import Swiper styles
 import "swiper/css";
 
@@ -59,7 +59,7 @@ const Vini = ({ translation }) => {
               src="/assets/lc3.jpg"
               alt="les cretes family"
               fill
-              className="object-cover lg:object-contain"
+              className="object-cover object-[-130px] lg:object-center lg:object-contain"
             />
           </div>
           <div className="flex flex-col gap-10 lg:items-center lg:justify-center">
@@ -129,6 +129,7 @@ const Vini = ({ translation }) => {
               className="mySwiper"
               slidesPerView={3}
               spaceBetween={30}
+              effect={"fade"}
               breakpoints={{
                 360: {
                   slidesPerView: 1,
@@ -144,10 +145,10 @@ const Vini = ({ translation }) => {
                 },
               }}
               autoplay={{
-                delay: 2500,
+                delay: 3500,
                 disableOnInteraction: false,
               }}
-              modules={[Autoplay]}
+              modules={[Autoplay, EffectFade]}
             >
               <SwiperSlide>
                 <div className="relative w-full aspect-square lg:h-screen">
