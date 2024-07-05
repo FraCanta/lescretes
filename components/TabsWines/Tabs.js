@@ -17,7 +17,7 @@ const Tabs = ({ translation }) => {
 
   return (
     <div className="pt-20 xl:pt-0">
-      <div className="flex flex-wrap gap-[20px]  !pl-0">
+      <div className="flex  gap-10  !px-5 overflow-x-auto whitespace-nowrap w-full ">
         {translation.map((tab, index) => (
           <button
             key={index}
@@ -48,7 +48,7 @@ const Tabs = ({ translation }) => {
             y: activeTab === index ? 0 : 20,
             transition: { duration: 0.5 }, // Specifica la durata dell'animazione
           }}
-          className={`w-full py-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4  gap-4 ${
+          className={`w-[90%] mx-auto py-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4  gap-4 ${
             activeTab === index ? "tabcontent" : "tabcontent hidden"
           }`}
         >

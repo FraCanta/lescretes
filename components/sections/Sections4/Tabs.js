@@ -43,7 +43,7 @@ const Tabs = ({ tabs }) => {
   return (
     <div className="pt-10">
       {/* Tab links */}
-      <div className="flex flex-wrap gap-[20px] !pl-0">
+      <div className="flex  gap-10  !px-5 overflow-x-auto whitespace-nowrap w-full ">
         {tabs.map((tab, index) => (
           <button
             key={index}

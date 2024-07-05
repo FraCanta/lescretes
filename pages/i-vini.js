@@ -33,8 +33,8 @@ const Vini = ({ translation }) => {
         />
       </div>
 
-      <div className="flex flex-col items-start justify-start gap-10 w-[90%] mx-auto pb-20">
-        <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold leading-[46px] 3xl:text-7xl">
+      <div className="flex flex-col items-start justify-start gap-10 w-[90%] mx-auto lg:pb-20">
+        <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold lg:leading-[46px] 3xl:text-7xl">
           {translation.intro.title}
         </h2>
         {translation.intro.descrizione.map((para, i) => {
@@ -49,11 +49,11 @@ const Vini = ({ translation }) => {
         })}
       </div>
 
-      <div className="w-[90%] mx-auto">
+      <div className="w-full">
         <Tabs translation={translation?.tabs} />
       </div>
       <div className="w-full min-h-screen bg-[#F4F3EF] ">
-        <div className="w-[90%] mx-auto py-20 xl:p-20 lg:text-center flex flex-col gap-10 justify-center items-center">
+        <div className="w-[90%] mx-auto py-10 xl:p-20 lg:text-center flex flex-col gap-10 justify-center items-center">
           <div className="relative w-full aspect-square lg:aspect-video ">
             <Image
               src="/assets/lc3.jpg"
