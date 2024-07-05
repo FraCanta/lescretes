@@ -130,6 +130,7 @@ const Vini = ({ translation }) => {
               slidesPerView={3}
               spaceBetween={30}
               effect={"fade"}
+              loop={true}
               breakpoints={{
                 360: {
                   slidesPerView: 1,
