@@ -141,10 +141,10 @@ const Mobile = ({ translation }) => {
               </motion.li>
               <motion.li variants={variants.item} animate="visibleItem">
                 <Link
-                  href={`/degustazioni`}
+                  href={`/le-degustazioni`}
                   title="I miei articoli"
                   className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
-                    pathname === "/degustazioni" ? "font-bold" : ""
+                    pathname === "/le-degustazioni" ? "font-bold" : ""
                   }`}
                 >
                   {translation?.[locale]?.degustazioni}
