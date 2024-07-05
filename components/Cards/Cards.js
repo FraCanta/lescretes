@@ -17,7 +17,7 @@ const Cards = ({
     <>
       {link ? (
         <Link href={link}>
-          <div className="card h-full border">
+          <div className="h-full bg-white border card">
             <figure className="p-4 ">
               <Image
                 src={img}
@@ -31,8 +31,8 @@ const Cards = ({
               <h2 className="card-title !justify-center font-bold text-[20px] fxl:text-3xl">
                 {title}
               </h2>
-              <p className="text-center text-lg fxl:text-xl">{descrizione}</p>
-              <div className="card-actions justify-center border-t mt-4">
+              <p className="text-lg text-center fxl:text-xl">{descrizione}</p>
+              <div className="justify-center mt-4 border-t card-actions">
                 <p className="text-center py-4 font-bold text-[16px]">
                   {price}
                 </p>
@@ -41,7 +41,7 @@ const Cards = ({
           </div>
         </Link>
       ) : (
-        <div className="card w-full xl:w-full h-full border border-main/30">
+        <div className="w-full h-full border card xl:w-full border-main/30">
           <figure className="p-4">
             <Image
               src={img}
@@ -55,7 +55,7 @@ const Cards = ({
             <h2 className="card-title !justify-center font-bold text-[22px] fxl:text-3xl">
               {name}
             </h2>
-            <div className="card-actions justify-center  ">
+            <div className="justify-center card-actions ">
               <p className="text-center text-main/60 font-[500] text-[16px] !-py-2">
                 {details}
               </p>

@@ -95,7 +95,7 @@ const FormPrenotazione = ({ deg }) => {
   };
 
   return (
-    <div className="container mx-auto xl:my-6  bg-white">
+    <div className="container mx-auto bg-white xl:my-6">
       <div className="py-5 ">
         <form onSubmit={(e) => onSubmitForm(e)}>
           <div className="grid grid-cols-2 gap-6 xl:gap-10">
@@ -106,7 +106,7 @@ const FormPrenotazione = ({ deg }) => {
               required
               value={inputs.name}
               onChange={handleChange}
-              className="border-b  py-2 focus:outline-none focus:border-main bg-transparent col-span-2 xl:col-span-1"
+              className="col-span-2 py-2 bg-transparent border-b focus:outline-none focus:border-main xl:col-span-1"
               placeholder="First Name"
             />
             <input
@@ -115,14 +115,14 @@ const FormPrenotazione = ({ deg }) => {
               name="surname"
               value={inputs.surname}
               onChange={handleChange}
-              className="border-b  py-2 focus:outline-none focus:border-main bg-transparent col-span-2 xl:col-span-1"
+              className="col-span-2 py-2 bg-transparent border-b focus:outline-none focus:border-main xl:col-span-1"
               placeholder="Last Name"
             />
             <input
               id="email"
               data-invalid="false"
               data-filled="false"
-              className="border-b  py-2 focus:outline-none focus:border-main bg-transparent col-span-2 xl:col-span-1"
+              className="col-span-2 py-2 bg-transparent border-b focus:outline-none focus:border-main xl:col-span-1"
               name="email"
               placeholder="example@email.com*"
               type="email"
@@ -144,19 +144,14 @@ const FormPrenotazione = ({ deg }) => {
               countries={countries}
               className="!border-b  focus:outline-none focus:border-main bg-transparent !w-full col-span-2 xl:col-span-1"
             />
-            <select
-              id="underline_select"
-              className="block py-2.5 px-2.5 w-full text-md text-main bg-second border-0 border-b-2 rounded-lg border-main/20 appearance-none font-bold  focus:outline-none focus:ring-0 focus:border-main/30 peer col-span-2"
-            >
-              <option>{deg}</option>
-            </select>
+
             <textarea
               id="message"
               onChange={handleChange}
               value={inputs.message}
               cols="10"
               rows="5"
-              className="border-b py-2 focus:outline-none focus:border-main bg-transparent col-span-2"
+              className="col-span-2 py-2 bg-transparent border-b focus:outline-none focus:border-main"
               placeholder="Write your message..."
               required
             ></textarea>
@@ -167,15 +162,15 @@ const FormPrenotazione = ({ deg }) => {
                 type="checkbox"
                 checked={checkedGift}
                 onChange={() => setCheckedGift((prev) => !prev)}
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                className="w-4 h-4 text-[#F4F3EF] bg-gray-100 !border-third rounded focus:ring-third focus:ring-2 "
               />
               <label
                 htmlFor="link-checkbox"
-                className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300 flex items-center gap-2"
+                className="flex items-center gap-2 text-sm font-medium text-gray-900 ms-2 dark:text-gray-300"
               >
                 <Icon
                   icon="basil:present-solid"
-                  className="text-main/95 w-6 h-6"
+                  className="w-6 h-6 text-main/95"
                 />
                 <span className="text-main/50 text-md">
                   Voglio fare un regalo
@@ -183,7 +178,7 @@ const FormPrenotazione = ({ deg }) => {
               </label>
             </div>
           </div>
-          <div className="mt-6 flex justify-end">
+          <div className="flex justify-end mt-6">
             <input
               type="submit"
               value="Send Message"

@@ -14,8 +14,11 @@ import { FacebookShareButton, WhatsappShareButton } from "next-share";
 import Drawer from "@/components/drawer/drawer";
 import CtaPrimary from "@/components/Cta/CtaPrimary";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
+import FormPrenotazione from "@/components/formPrenotazione/formPrenotazione";
+import Cards from "@/components/Cards/Cards";
 
-const SingleDeg = ({ deg }) => {
+const SingleDeg = ({ deg, others }) => {
+  console.log(others);
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
   const handleDrawerToggle = () => {
     setIsDrawerOpen(!isDrawerOpen);
@@ -35,69 +38,131 @@ const SingleDeg = ({ deg }) => {
           content={`https://lescretes-liard.vercel.app${deg.img}`}
         />
       </Head>
-      <div className="min-h-[55vh] xl:min-h-[90vh] fxl:min-h-[90vh] w-full my-6 mx-auto flex items-center justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main before:opacity-40 before:rounded-lg">
-        <div className="p-8 w-full h-full ">
+      <div className="min-h-[55vh] xl:min-h-[90vh] fxl:min-h-[90vh] w-full  mx-auto flex items-center justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main before:opacity-40 before:rounded-lg">
+        <div className="w-full h-full p-8 ">
           <Image
             src={deg?.img}
             alt={deg.name}
             fill
             priority
-            className="object-cover  h-full"
+            className="object-cover h-full"
           />
         </div>
-        <div className=" flex flex-col xl:flex-row gap-4 xl:gap-0 justify-between w-[90%] translate-x-[6%]  absolute bottom-4 xl:bottom-0 left-0  xl:py-8 z-[999]">
-          <h1 className="text-white text-[40px] leading-[52px] xl:text-[56px] xl:leading-[66px] font-bold fxl:text-7xl">
+        <div className=" flex flex-col xl:flex-row gap-4 xl:gap-0 justify-between w-[90%] translate-x-[6%]  absolute bottom-0 left-0   z-[999]">
+          <h1 className="text-white text-[40px] leading-[40px] xl:text-8xl xl:leading-[70px] font-bold fxl:text-7xl uppercase lg:whitespace-nowrap">
             {deg?.name}
           </h1>
         </div>
       </div>
+      <div className="w-full bg-[#F4F3EF]">
+        <div className="w-[90%] mx-auto flex gap-10  py-6 text-main flex-col lg:flex-row">
+          <div className="flex h-full ">
+            <Image
+              src={Bicchiere}
+              className="w-12 h-full fxl:w-20 "
+              alt="bicchiere"
+            />
+            <div className="flex flex-col ">
+              <h2 className="font-bold text-[18px] text-main fxl:text-2xl">
+                {deg.degustazione.title}
+              </h2>
+              <p className="text-[16px]">{deg.degustazione.vini}</p>
+            </div>
+          </div>
+          <div className="flex items-center h-full">
+            <Image
+              src={Durata}
+              className="w-10 h-full xl:w-12"
+              alt="bicchiere"
+            />
+            <div className="flex flex-col justify-center h-full">
+              <h2 className="font-bold text-[18px] text-main">
+                {deg.durata?.title}
+              </h2>
+              <p className="text-[16px]">{deg.durata?.tempo}</p>
+            </div>
+          </div>
+          <div className="flex items-center h-full">
+            <Image
+              src={Cantina}
+              className="w-10 h-full xl:w-12"
+              alt="bicchiere"
+            />
+            <div className="flex flex-col justify-center h-full">
+              <h2 className="font-bold text-[18px] text-main">
+                {deg.visita?.title}
+              </h2>
+              <p className="text-[16px]">{deg.visita?.cantina}</p>
+            </div>
+          </div>
+          <div className="flex items-center h-full">
+            <Image src={Lingue} className="w-12 h-full" alt="bicchiere" />
+            <div className="flex flex-col ">
+              <h2 className="font-bold text-[18px] text-main">
+                {deg.lingua?.title}
+              </h2>
+              <p className="text-[16px]">{deg.lingua.tipo}</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-8 xl:gap-2 py-10 flex-col">
-        <div className="flex h-full ">
-          <Image
-            src={Bicchiere}
-            className="h-full w-12 fxl:w-20 "
-            alt="bicchiere"
-          />
-          <div className="flex flex-col ">
-            <h2 className="font-bold text-[18px] text-main fxl:text-2xl">
-              {deg.degustazione.title}
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto gap-6 py-8">
+        <div className="flex-col justify-start items-start gap-[34px] flex py-10">
+          <h2 className="flex items-center gap-2 text-3xl font-bold text-main xl:text-4xl">
+            {deg.descrizione.title}{" "}
+          </h2>
+          <p className="text-xl fxl:text-2xl font-normal  !leading-[33.2px] text-main">
+            {deg.descrizione.content}
+          </p>
+          <div className="flex flex-col w-full gap-6 text-main">
+            <h2 className="text-main text-3xl xl:text-4xl font-bold  leading-[46px]">
+              {deg?.descrizione?.pacchetto?.title}
             </h2>
-            <p className="text-[16px]">{deg.degustazione.vini}</p>
+            <ul className="flex flex-col gap-2">
+              {deg?.descrizione?.pacchetto?.lista?.map((l, i) => (
+                <li className="text-xl fxl:text-2xl" key={i}>
+                  {l.testo}
+                </li>
+              ))}
+            </ul>
+            {deg?.descrizione?.opzione ? (
+              <div className="bg-[#F4F3EF] flex flex-col gap-[20px] p-4">
+                <h2 className="text-3xl font-bold text-main xl:text-4xl ">
+                  {deg?.descrizione?.opzione?.title}
+                </h2>
+                <p className="text-xl fxl:text-2xl">
+                  {" "}
+                  {deg?.descrizione?.opzione?.uno}
+                </p>
+              </div>
+            ) : (
+              ""
+            )}
           </div>
-        </div>
-        <div className="flex h-full items-center">
-          <Image src={Durata} className="h-full w-10 xl:w-12" alt="bicchiere" />
-          <div className="flex flex-col h-full justify-center">
-            <h2 className="font-bold text-[18px] text-main">
-              {deg.durata?.title}
+          <div className="flex flex-col w-full gap-6 text-main">
+            <h2 className="text-main text-3xl xl:text-4xl font-bold  leading-[46px]">
+              {deg?.priceTitle}
             </h2>
-            <p className="text-[16px]">{deg.durata?.tempo}</p>
+            <p className="text-xl fxl:text-2xl text-main">{deg?.price}</p>
           </div>
+          {deg?.descrizione?.asterisco ? (
+            <p className="text-main/60">{deg?.descrizione?.asterisco}</p>
+          ) : (
+            ""
+          )}
+          {deg.download ? (
+            <CtaOutlineBrown link={deg.download}>
+              Scarica qui
+              <Icon
+                icon="material-symbols:download"
+                color="#4A4A49"
+                width={30}
+              />
+            </CtaOutlineBrown>
+          ) : null}
         </div>
-        <div className="flex h-full items-center">
-          <Image
-            src={Cantina}
-            className="h-full w-10 xl:w-12"
-            alt="bicchiere"
-          />
-          <div className="flex flex-col h-full justify-center">
-            <h2 className="font-bold text-[18px] text-main">
-              {deg.visita?.title}
-            </h2>
-            <p className="text-[16px]">{deg.visita?.cantina}</p>
-          </div>
-        </div>
-        <div className="flex h-full items-center">
-          <Image src={Lingue} className="h-full w-12" alt="bicchiere" />
-          <div className="flex flex-col ">
-            <h2 className="font-bold text-[18px] text-main">
-              {deg.lingua?.title}
-            </h2>
-            <p className="text-[16px]">{deg.lingua.tipo}</p>
-          </div>
-        </div>
-        <div className="flex items-center ">
+        <div className="fixed bottom-0 left-0 z-20 flex items-center w-full lg:hidden">
           {deg.prenotaBtn ? (
             <CtaPrimary link={deg.prenotaBtn}>
               <div className="flex items-center gap-2">
@@ -112,7 +177,7 @@ const SingleDeg = ({ deg }) => {
           ) : (
             <button
               onClick={handleDrawerToggle}
-              className="flex items-center justify-center text-[18px]  gap-2 text-center capitalize font-medium py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] text-white hover:transition-all  bg-main w-full "
+              className="flex items-center justify-center text-[20px]  gap-2 text-center capitalize font-medium py-4 px-6   text-white hover:transition-all  bg-main w-full "
             >
               Prenota ora
               <Icon
@@ -123,67 +188,23 @@ const SingleDeg = ({ deg }) => {
             </button>
           )}
         </div>
+        <Drawer
+          isOpen={isDrawerOpen}
+          onClose={handleCloseDrawer}
+          deg={deg.name}
+        />
+        <div className="hidden p-8 lg:block">
+          <div className="p-8 text-3xl text-center bg-main">
+            <h2 className="font-bold text-white uppercase">{deg.name}</h2>
+          </div>
+
+          <FormPrenotazione deg={deg.name} />
+        </div>
       </div>
 
-      <Drawer
-        isOpen={isDrawerOpen}
-        onClose={handleCloseDrawer}
-        deg={deg.name}
-      />
-
-      <div className="w-[90%] mx-auto flex-col justify-start items-start gap-[34px] flex py-10">
-        <h2 className=" text-main text-3xl xl:text-4xl font-bold  flex items-center gap-2">
-          {deg.descrizione.title}{" "}
-        </h2>
-        <p className="text-xl fxl:text-2xl font-normal  !leading-[33.2px]">
-          {deg.descrizione.content}
-        </p>
-        <div className="w-full text-main flex flex-col gap-6">
-          <h2 className="text-main text-3xl xl:text-4xl font-bold  leading-[46px]">
-            {deg?.descrizione?.pacchetto?.title}
-          </h2>
-          <ul className="flex flex-col gap-2">
-            {deg?.descrizione?.pacchetto?.lista?.map((l, i) => (
-              <li className="text-xl fxl:text-2xl" key={i}>
-                {l.testo}
-              </li>
-            ))}
-          </ul>
-          {deg?.descrizione?.opzione ? (
-            <div className="bg-[#F4F3EF] flex flex-col gap-[20px] p-4">
-              <h2 className="text-main text-3xl xl:text-4xl font-bold  ">
-                {deg?.descrizione?.opzione?.title}
-              </h2>
-              <p className="text-xl fxl:text-2xl">
-                {" "}
-                {deg?.descrizione?.opzione?.uno}
-              </p>
-            </div>
-          ) : (
-            ""
-          )}
-        </div>
-        <div className="w-full text-main flex flex-col gap-6">
-          <h2 className="text-main text-3xl xl:text-4xl font-bold  leading-[46px]">
-            {deg?.priceTitle}
-          </h2>
-          <p className="text-xl fxl:text-2xl text-main">{deg?.price}</p>
-        </div>
-        {deg?.descrizione?.asterisco ? (
-          <p className="text-main/60">{deg?.descrizione?.asterisco}</p>
-        ) : (
-          ""
-        )}
-        {deg.download ? (
-          <CtaOutlineBrown link={deg.download}>
-            Scarica qui
-            <Icon icon="material-symbols:download" color="#4A4A49" width={30} />
-          </CtaOutlineBrown>
-        ) : null}
-      </div>
       <div className="w-full h-[1px] bg-second my-2"></div>
       <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs">
-        <div className="flex gap-6 items-center ">
+        <div className="flex items-center gap-6 ">
           <p className="text-xl fxl:text-2xl">Condividi su</p>
           <ul className="flex gap-6">
             <li>
@@ -215,21 +236,40 @@ const SingleDeg = ({ deg }) => {
             </li>
           </ul>
         </div>
-        <ul className="px-6 py-2 max-w-max bg-main rounded-[30px]">
+        {/* <ul className="px-6 py-2 max-w-max bg-main rounded-[30px]">
           <li>
             <Link href="/degustazioni" title="Back to Degustazioni"></Link>
             <CtaPrimary link="/degustazioni">
               {" "}
               <Icon
                 icon="lets-icons:back"
-                className="text-white w-4 h-4 2xl:w-6 2xl:h-6 3xl:w-8 3xl:h-8 mr-2 stroke-current"
+                className="w-4 h-4 mr-2 text-white stroke-current 2xl:w-6 2xl:h-6 3xl:w-8 3xl:h-8"
               />{" "}
-              <p className="text-lg xl:text-xl 3xl:text-3xl text-white">
+              <p className="text-lg text-white xl:text-xl 3xl:text-3xl">
                 Torna alle Degustazioni
               </p>
             </CtaPrimary>
           </li>
-        </ul>
+        </ul> */}
+      </div>
+      <div className="w-full bg-second">
+        <div className="flex flex-col gap-10 py-20 text-center">
+          <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl xl:w-[65%] mx-auto">
+            Altre degustazioni in evidenza{" "}
+          </h2>
+          <div className="grid grid-cols-1 gap-6 mx-auto mt-10 md:grid-cols-3 w-[90%] ">
+            {others?.map((el, i) => (
+              <Cards
+                key={i}
+                img={el?.img}
+                title={el?.name}
+                descrizione={el?.descrizione}
+                price={el?.price}
+                link={el.link}
+              />
+            ))}
+          </div>
+        </div>
       </div>
     </>
   );
@@ -257,10 +297,23 @@ export async function getStaticProps(context) {
       break;
   }
   let targetObj = obj?.degustazioni?.singleDeg?.[params?.title];
+  const arr = Object.keys(obj?.degustazioni?.singleDeg);
 
+  const filteredOthers = arr
+    .filter((el) => el !== params?.title) // Exclude the current service
+    .map((el) => {
+      return {
+        name: obj?.degustazioni?.singleDeg?.[el]?.name,
+        img: obj?.degustazioni?.singleDeg?.[el]?.img,
+        descrizione: obj?.degustazioni?.singleDeg?.[el]?.cardDesc,
+        price: obj?.degustazioni?.singleDeg?.[el]?.price,
+        link: el,
+      };
+    });
   return {
     props: {
       deg: targetObj,
+      others: filteredOthers,
     },
   };
 }

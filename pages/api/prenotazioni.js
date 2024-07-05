@@ -18,7 +18,7 @@ export default async function mailer(req, res) {
     await transporter.sendMail({
       from: `${email}`,
       to: ["thalliondev@gmail.com"],
-      cc: ["elena@lescretes.it", "corti.giulio@gmail.com"],
+      // cc: ["elena@lescretes.it", "corti.giulio@gmail.com"],
       subject: `${name}  ${surname} ${deg} `,
 
       html: ` 
