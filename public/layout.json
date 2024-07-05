@@ -1,19 +1,61 @@
 {
   "menu": {
     "it": {
-      "home": "Home",
-      "storia": "Storia",
-      "vini": "Vini",
-      "degustazioni": "Degustazioni",
+      "storia": {
+        "name": "L'azienda",
+        "sottomenu": [
+          {
+            "name": "La famiglia Charrère",
+            "imgSrc": "/assets/lc.jpg",
+            "link": "/storia",
+            "title": "storia dell'azienda"
+          },
+          {
+            "name": "Il Rifugio del Vino",
+            "imgSrc": "/assets/rifugio.jpg",
+            "link": "/il-rifugio-del-vino",
+            "title": "il rifugio del vino"
+          },
+          {
+            "name": "Il Terroir",
+            "imgSrc": "/assets/terroir.jpg",
+            "link": "/il-terroir",
+            "title": "il terroir"
+          }
+        ]
+      },
+      "vini": "I Vini",
+      "degustazioni": "Le Degustazioni",
       "news": "Notizie",
-      "cosmesi": "Cosmesi",
+      "cosmesi": "La Cosmesi",
       "download": "Area Download",
       "store": "Dove acquistare",
-      "contatti": "Contatti"
+      "contatti": "Orari e Contatti"
     },
     "en": {
-      "home": "Home",
-      "storia": "History",
+      "storia": {
+        "name": "History",
+        "sottomenu": [
+          {
+            "name": "The Charrère family",
+            "imgSrc": "/assets/lc.jpg",
+            "link": "/storia",
+            "title": "storia dell'azienda"
+          },
+          {
+            "name": "The refuge of wine",
+            "imgSrc": "/assets/rifugio.jpg",
+            "link": "/il-rifugio-del-vino",
+            "title": "il rifugio del vino"
+          },
+          {
+            "name": "The Terroir",
+            "imgSrc": "/assets/terroir.jpg",
+            "link": "/il-terroir",
+            "title": "il terroir"
+          }
+        ]
+      },
       "vini": "Wines",
       "degustazioni": "Tastings",
       "news": "News",
@@ -23,8 +65,29 @@
       "contatti": "Contacts"
     },
     "fr": {
-      "home": "Accueil",
-      "storia": "Histoire",
+      "storia": {
+        "name": "Histoire",
+        "sottomenu": [
+          {
+            "name": "The Charrère family",
+            "imgSrc": "/assets/lc.jpg",
+            "link": "/storia",
+            "title": "storia dell'azienda"
+          },
+          {
+            "name": "The refuge of wine",
+            "imgSrc": "/assets/rifugio.jpg",
+            "link": "/il-rifugio-del-vino",
+            "title": "il rifugio del vino"
+          },
+          {
+            "name": "The Terroir",
+            "imgSrc": "/assets/terroir.jpg",
+            "link": "/il-terroir",
+            "title": "il terroir"
+          }
+        ]
+      },
       "vini": "Vins",
       "degustazioni": "Dégustations",
       "news": "Actualités",
@@ -34,8 +97,29 @@
       "contatti": "Contacts"
     },
     "de": {
-      "home": "Home",
-      "storia": "History",
+      "storia": {
+        "name": "History",
+        "sottomenu": [
+          {
+            "name": "The Charrère family",
+            "imgSrc": "/assets/lc.jpg",
+            "link": "/storia",
+            "title": "storia dell'azienda"
+          },
+          {
+            "name": "The refuge of wine",
+            "imgSrc": "/assets/rifugio.jpg",
+            "link": "/il-rifugio-del-vino",
+            "title": "il rifugio del vino"
+          },
+          {
+            "name": "The Terroir",
+            "imgSrc": "/assets/terroir.jpg",
+            "link": "/il-terroir",
+            "title": "il terroir"
+          }
+        ]
+      },
       "vini": "Wines",
       "degustazioni": "Tastings",
       "news": "News",
@@ -45,8 +129,29 @@
       "contatti": "Contacts"
     },
     "ko": {
-      "home": "Home",
-      "storia": "History",
+      "storia": {
+        "name": "History",
+        "sottomenu": [
+          {
+            "name": "The Charrère family",
+            "imgSrc": "/assets/lc.jpg",
+            "link": "/storia",
+            "title": "storia dell'azienda"
+          },
+          {
+            "name": "The refuge of wine",
+            "imgSrc": "/assets/rifugio.jpg",
+            "link": "/il-rifugio-del-vino",
+            "title": "il rifugio del vino"
+          },
+          {
+            "name": "The Terroir",
+            "imgSrc": "/assets/terroir.jpg",
+            "link": "/il-terroir",
+            "title": "il terroir"
+          }
+        ]
+      },
       "vini": "Wines",
       "degustazioni": "Tastings",
       "news": "News",
@@ -56,8 +161,29 @@
       "contatti": "Contacts"
     },
     "jp": {
-      "home": "Home",
-      "storia": "History",
+      "storia": {
+        "name": "History",
+        "sottomenu": [
+          {
+            "name": "The Charrère family",
+            "imgSrc": "/assets/lc.jpg",
+            "link": "/storia",
+            "title": "storia dell'azienda"
+          },
+          {
+            "name": "The refuge of wine",
+            "imgSrc": "/assets/rifugio.jpg",
+            "link": "/il-rifugio-del-vino",
+            "title": "il rifugio del vino"
+          },
+          {
+            "name": "The Terroir",
+            "imgSrc": "/assets/terroir.jpg",
+            "link": "/il-terroir",
+            "title": "il terroir"
+          }
+        ]
+      },
       "vini": "Wines",
       "degustazioni": "Tastings",
       "news": "News",
@@ -67,8 +193,29 @@
       "contatti": "Contacts"
     },
     "ru": {
-      "home": "Home",
-      "storia": "History",
+      "storia": {
+        "name": "History",
+        "sottomenu": [
+          {
+            "name": "The Charrère family",
+            "imgSrc": "/assets/lc.jpg",
+            "link": "/storia",
+            "title": "storia dell'azienda"
+          },
+          {
+            "name": "The refuge of wine",
+            "imgSrc": "/assets/rifugio.jpg",
+            "link": "/il-rifugio-del-vino",
+            "title": "il rifugio del vino"
+          },
+          {
+            "name": "The Terroir",
+            "imgSrc": "/assets/terroir.jpg",
+            "link": "/il-terroir",
+            "title": "il terroir"
+          }
+        ]
+      },
       "vini": "Wines",
       "degustazioni": "Tastings",
       "news": "News",
@@ -78,8 +225,29 @@
       "contatti": "Contacts"
     },
     "zh": {
-      "home": "Home",
-      "storia": "History",
+      "storia": {
+        "name": "History",
+        "sottomenu": [
+          {
+            "name": "The Charrère family",
+            "imgSrc": "/assets/lc.jpg",
+            "link": "/storia",
+            "title": "storia dell'azienda"
+          },
+          {
+            "name": "The refuge of wine",
+            "imgSrc": "/assets/rifugio.jpg",
+            "link": "/il-rifugio-del-vino",
+            "title": "il rifugio del vino"
+          },
+          {
+            "name": "The Terroir",
+            "imgSrc": "/assets/terroir.jpg",
+            "link": "/il-terroir",
+            "title": "il terroir"
+          }
+        ]
+      },
       "vini": "Wines",
       "degustazioni": "Tastings",
       "news": "News",

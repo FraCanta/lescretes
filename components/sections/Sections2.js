@@ -9,21 +9,21 @@ const Sections2 = ({ translation }) => {
   return (
     <div className="w-full min-h-screen py-[90px] 3xl:py-[10rem]  gap-[50px] flex flex-col">
       <div className="w-[90%] mx-auto flex flex-col gap-4 3xl:gap-10">
-        <h2 className="text-main text-3xl md:text-5xl 3xl:text-7xl  font-bold ">
+        <h2 className="text-3xl font-bold text-main md:text-5xl 3xl:text-7xl ">
           {translation?.title}
         </h2>
-        <p className="2xl:w-2/3 3xl:w-3/4 text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">
+        <p className="text-xl 2xl:w-2/3 3xl:w-3/4 md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/80">
           {translation?.descrizione}
         </p>
       </div>
       <div className="w-[90%] mx-auto gap-[20px] flex flex-col lg:flex-row">
         <div className="lg:w-2/3 h-[300px] md:h-[680.75px] 3xl:h-[70vh] relative ">
-          <Link href="/storia" className="">
+          <Link href="/storia" title="Storia della Famiglia Charrère">
             <Image
               src={Family}
-              alt=""
+              alt="famiglia charrere"
               fill
-              className="object-cover rounded-lg object-left-top "
+              className="object-cover object-left-top rounded-lg "
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
             />
 
@@ -48,10 +48,10 @@ const Sections2 = ({ translation }) => {
         </div>
         <div className="flex-col justify-start items-start gap-[20px] flex lg:w-1/2">
           <div className="w-full h-[321.17px] lg:h-full relative">
-            <Link href="/rifugio" className="">
+            <Link href="/il-rifugio-del-vino" title="Il rifugio del vino">
               <Image
                 src={Rifugio}
-                alt=""
+                alt="Il rifugio del vino"
                 fill
                 className="object-cover rounded-lg bg-main/20 bg-opacity-20"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -77,12 +77,12 @@ const Sections2 = ({ translation }) => {
             </Link>
           </div>
           <div className="h-[321.17px] lg:h-full w-full relative">
-            <Link href="/terroir" className="">
+            <Link href="/il-terroir" title="Il terroir">
               <Image
                 src={Terroir}
-                alt=""
+                alt="il terroir"
                 fill
-                className="object-cover rounded-lg object-top"
+                className="object-cover object-top rounded-lg"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
 

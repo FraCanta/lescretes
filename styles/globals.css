@@ -21,7 +21,8 @@ h3,
 h4,
 h5,
 h6,
-a {
+a,
+button {
   font-family: "minerva-modern", sans-serif;
   color: #4a4a49;
 }
@@ -29,7 +30,6 @@ a {
 p,
 span {
   font-family: "DM Sans", sans-serif;
-  color: #4a4a49;
   font-weight: 300;
 }
 

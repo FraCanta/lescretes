@@ -1,23 +1,23 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Swiper, SwiperSlide } from "swiper/react";
 
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+
+import { EffectCoverflow } from "swiper/modules";
+import Image from "next/image";
 const images = [
-  "https://via.placeholder.com/150",
-  "https://via.placeholder.com/151",
-  "https://via.placeholder.com/152",
-  "https://via.placeholder.com/153",
-  "https://via.placeholder.com/154",
-  "https://via.placeholder.com/155",
-  "https://via.placeholder.com/156",
-  "https://via.placeholder.com/157",
-  "https://via.placeholder.com/158",
-  "https://via.placeholder.com/159",
-  "https://via.placeholder.com/160",
-  "https://via.placeholder.com/161",
-  "https://via.placeholder.com/162",
-  "https://via.placeholder.com/163",
-  "https://via.placeholder.com/164",
-  "https://via.placeholder.com/165",
+  "/assets/rifugio/rifugio1.jpg",
+  "/assets/rifugio/rifugio2.jpg",
+  "/assets/rifugio/rifugio3.jpg",
+  "/assets/rifugio/rifugio4.jpg",
+  "/assets/rifugio/rifugio5.jpg",
+  "/assets/rifugio/rifugio6.jpg",
+  "/assets/rifugio/rifugio7.jpg",
+  "/assets/rifugio/rifugio8.jpg",
+  "/assets/rifugio/rifugio9.jpg",
+  "/assets/rifugio/rifugio10.jpg",
 ];
 
 const ImageGallery = () => {
@@ -33,11 +33,11 @@ const ImageGallery = () => {
 
   return (
     <>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 w-full  mx-auto my-8 lg:my-16">
+      {/* <div className="grid w-full grid-cols-2 gap-4 mx-auto my-8 lg:grid-cols-4 lg:my-16">
         {images.map((image, index) => (
           <motion.div
             key={index}
-            className="rounded-lg overflow-hidden"
+            className="overflow-hidden rounded-lg"
             whileHover={{ scale: 1.05 }}
             onClick={() => openModal(index)}
           >
@@ -53,7 +53,7 @@ const ImageGallery = () => {
       <AnimatePresence>
         {selectedImage !== null && (
           <motion.div
-            className="fixed top-0 left-0 right-0 bottom-0 flex items-center bg-main bg-opacity-75 justify-center z-50"
+            className="fixed top-0 bottom-0 left-0 right-0 z-50 flex items-center justify-center bg-opacity-75 bg-main"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -70,9 +70,72 @@ const ImageGallery = () => {
             />
           </motion.div>
         )}
-      </AnimatePresence>
+      </AnimatePresence> */}
+      <div className="w-full py-20 mx-auto ">
+        <Swiper
+          effect={"coverflow"}
+          grabCursor={true}
+          centeredSlides={true}
+          loop={true}
+          slidesPerView={"auto"}
+          coverflowEffect={{
+            rotate: 0,
+            stretch: 100,
+            depth: 150,
+            modifier: 1.5,
+            slideShadows: false,
+          }}
+          modules={[EffectCoverflow]}
+          className="swiper_container"
+        >
+          {images?.map((el, i) => (
+            <SwiperSlide className="relative swiper_slide" key={i}>
+              <Image src={el} fill alt={`Image ${i}`} />
+            </SwiperSlide>
+          ))}
+
+          <div className="slider-controler">
+            <div className="swiper-pagination"></div>
+          </div>
+        </Swiper>
+      </div>
     </>
   );
 };
 
 export default ImageGallery;
+
+// const Gallery3d2 = ({ imageArray }) => {
+//   return (
+//     <div className="w-full py-20 mx-auto lg:w-11/12">
+//       <Swiper
+//         effect={"coverflow"}
+//         grabCursor={true}
+//         centeredSlides={true}
+//         loop={true}
+//         slidesPerView={"auto"}
+//         coverflowEffect={{
+//           rotate: 0,
+//           stretch: 100,
+//           depth: 150,
+//           modifier: 1.5,
+//           slideShadows: false,
+//         }}
+//         modules={[EffectCoverflow]}
+//         className="swiper_container"
+//       >
+//         {imageArray?.map((el, i) => (
+//           <SwiperSlide className="relative swiper_slide" key={i}>
+//             <Image src={el.src} alt="foto" fill />
+//           </SwiperSlide>
+//         ))}
+
+//         <div className="slider-controler">
+//           <div className="swiper-pagination"></div>
+//         </div>
+//       </Swiper>
+//     </div>
+//   );
+// };
+
+// export default Gallery3d2;

@@ -14,7 +14,7 @@ const Sections1 = ({ translation }) => {
             </h2>
             {p.descrizione.map((el, i) => {
               return (
-                <div className=" text-main text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal flex flex-col gap-4">
+                <div className=" text-main/80 text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal flex flex-col gap-4">
                   <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
                 </div>
               );

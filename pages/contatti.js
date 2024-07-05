@@ -5,7 +5,7 @@ import Hero from "@/components/heroHome/Hero";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
-import Rifugio from "@/public/assets/rifugio/rifugio.JPG";
+import Rifugio from "@/public/assets/rifugio/rifugio10.jpg";
 const Contatti = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const Contatti = () => {
       <div className="w-[90%] mx-auto py-20 lg:py-10">
         <ContactForm />
       </div>
-      <div className="bg-second py-10">
+      <div className="py-10 bg-second">
         <div className="grid grid-cols-1 lg:grid-cols-4 w-[90%] mx-auto gap-8 lg:gap-2">
           <div>
             <ContactCard
@@ -57,37 +57,37 @@ const Contatti = () => {
       <div className="w-[90%] mx-auto py-10 flex flex-col gap-6">
         <div className="collapse bg-second">
           <input type="checkbox" />
-          <div className="collapse-title text-xl font-medium">
+          <div className="text-xl font-medium collapse-title">
             <h3 className="text-main text-[20px] md:text-[25px] xl:text-3xl font-bold  md:leading-[30.43px]">
               Altri contatti*
             </h3>
           </div>
           <div className="collapse-content">
-            <ul className=" flex flex-col gap-2 text-main/80 text-xl">
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
+            <ul className="flex flex-col gap-2 text-xl  text-main/80">
+              <li className="flex flex-col gap-2 lg:flex-row lg:items-center">
                 <strong>- Commerciale Estero:</strong> ordini@lescretes.it{" "}
               </li>
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
+              <li className="flex flex-col gap-2 lg:flex-row lg:items-center">
                 <strong>- Commerciale Italia:</strong> corti.giulio@gmail.com
               </li>
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
+              <li className="flex flex-col gap-2 lg:flex-row lg:items-center">
                 <strong>- Contabilità:</strong> contabilita@lescretes.it
               </li>
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
+              <li className="flex flex-col gap-2 lg:flex-row lg:items-center">
                 <strong>- Enologo:</strong> enologo@lescretes.it
               </li>
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
+              <li className="flex flex-col gap-2 lg:flex-row lg:items-center">
                 <strong>- Guide, contatti stampa e riviste:</strong>{" "}
                 elena@lescretes.it
               </li>
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
+              <li className="flex flex-col gap-2 lg:flex-row lg:items-center">
                 <strong>- Magazzino:</strong> magazzino@lescretes.it
               </li>
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
+              <li className="flex flex-col gap-2 lg:flex-row lg:items-center">
                 <strong>- Produzione, fornitori, settore agronomico:</strong>{" "}
                 eleonora@lescretes.it
               </li>
-              <li className="flex flex-col lg:flex-row lg:items-center gap-2">
+              <li className="flex flex-col gap-2 lg:flex-row lg:items-center">
                 <strong>
                   - Segreteria, ordini, spedizioni e fatturazione:
                 </strong>{" "}
@@ -96,7 +96,7 @@ const Contatti = () => {
             </ul>
           </div>
         </div>
-        <div className="font-bold text-xl flex flex-col lg:flex-row lg:items-center lg:gap-2">
+        <div className="flex flex-col text-xl font-bold lg:flex-row lg:items-center lg:gap-2">
           <p>
             <span className="font-bold">N.B:</span> Per informazioni in merito
             alla prenotazione delle degustazioni consultare le modalità nella
@@ -105,7 +105,7 @@ const Contatti = () => {
           <span>
             <Link
               href="/degustazioni"
-              className="uppercase underline"
+              className="underline uppercase"
               target="_blank"
             >
               degustazioni
@@ -113,7 +113,7 @@ const Contatti = () => {
           </span>
         </div>
       </div>
-      <div className="bg-second py-2 lg:py-6 bg-pattern">
+      <div className="py-2 bg-second lg:py-6 bg-pattern">
         <Location />
       </div>
     </>

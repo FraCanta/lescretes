@@ -14,6 +14,7 @@ import Link from "next/link";
 import Reviews from "@/components/sections/Reviews";
 import Head from "next/head";
 import CtaPrimary from "@/components/Cta/CtaPrimary";
+import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 
 export default function Storia({ translation }) {
   return (
@@ -39,12 +40,12 @@ export default function Storia({ translation }) {
               </h2>
             </div>
             <div className="flex items-end md:justify-end">
-              <CtaPrimary
+              <CtaOutlineBrown
                 link="https://g.page/r/CXZcr8aa7zgbEBM/review"
                 target="_blank"
               >
                 {translation.testimonials.button}
-              </CtaPrimary>
+              </CtaOutlineBrown>
             </div>
           </div>
 

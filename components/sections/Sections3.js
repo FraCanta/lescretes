@@ -8,19 +8,23 @@ const Sections3 = ({ translation }) => {
   return (
     <>
       <div className="w-[90%] mx-auto relative py-[50px] lg:p-[120px] z-[9999]">
-        <div className="w-full h-full  flex-col justify-start items-center gap-10 inline-flex py-10">
+        <div className="inline-flex flex-col items-center justify-start w-full h-full gap-10 py-10">
           <h2 className="w-full lg:w-[80%] 2xl:w-full  fxl:w-[65%] 3xl:text-7xl  lg:text-center text-white text-3xl md:text-5xl lg:text-5xl fxl:text-[60px] font-bold ">
             {translation?.title}
           </h2>
-          <p className="lg:w-[60%] xl:w-[95%] fxl:w-[60%] 3xl:w-[75%] lg:text-center text-white text-xl md:text-2xl 2xl:text-xl  fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-regular">
+          <p className="lg:w-[60%] xl:w-[95%] fxl:w-[60%] 3xl:w-[75%] lg:text-center text-white/80 text-xl md:text-2xl 2xl:text-xl  fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-regular">
             {translation?.descrizione}
           </p>
           <div className="justify-center items-center gap-[28.76px] flex flex-col md:flex-row w-full h-full">
-            <div className="w-full lg:w-max h-full flex justify-center">
-              <CtaWhite link="/contatti">{translation.book}</CtaWhite>
+            <div className="flex justify-center w-full h-full lg:w-max">
+              <CtaWhite link="/contatti" title="Per info e contatti">
+                {translation.book}
+              </CtaWhite>
             </div>
-            <div className="w-full lg:w-max h-full flex justify-center">
-              <CtaOutline link="/degustazioni">{translation.scopri}</CtaOutline>
+            <div className="flex justify-center w-full h-full lg:w-max">
+              <CtaOutline link="/degustazioni" title="Pagina degustazioni">
+                {translation.scopri}
+              </CtaOutline>
             </div>
           </div>
         </div>
@@ -30,7 +34,8 @@ const Sections3 = ({ translation }) => {
         <Image
           src={Pattern}
           fill
-          className="object-cover opacity-10 object-center mix-blend-luminosity"
+          alt="Il pattern"
+          className="object-cover object-center opacity-10 mix-blend-luminosity"
         />
       </div>
     </>

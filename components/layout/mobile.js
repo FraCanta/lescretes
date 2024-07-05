@@ -3,8 +3,11 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { motion, AnimatePresence } from "framer-motion";
 import { Icon } from "@iconify/react";
+import CtaOutlineBrown from "../Cta/CtaOutlineBrown";
+import Image from "next/image";
 const Mobile = ({ translation }) => {
   const { locale, pathname } = useRouter();
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const [open, setOpen] = useState(false);
   const svgVariants = {
@@ -52,62 +55,102 @@ const Mobile = ({ translation }) => {
       <AnimatePresence initial={false}>
         {open && (
           <motion.div
-            className=" absolute top-[60px] left-0 right-0 bg-white min-h-screen w-screen text-main   flex flex-col items-center justify-evenly bg-pattern2"
-            variants={variants}
-            initial="closed"
-            animate="open"
-            exit="closed"
+            className=" absolute top-[60px] left-0 right-0 bg-white min-h-screen w-screen text-main   bg-pattern2 divide-y"
+            initial={{ x: "-100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "-100%" }}
+            transition={{
+              type: "spring",
+              stiffness: 200,
+              damping: 30,
+            }}
           >
-            {/* Add your menu items here */}
-            <motion.div
-              variants={variants.item}
-              animate="visibleItem"
-              className=" "
-            >
-              <Link
-                href={`/`}
-                title="Scopri chi sono e cosa posso fare per te"
-                className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
-                  pathname === "/" ? "font-bold" : ""
-                }`}
-              >
-                {translation?.[locale]?.home}
-              </Link>
-            </motion.div>
-            <motion.div variants={variants.item} animate="visibleItem">
-              <Link
-                href={`/storia`}
-                title="Ecco tutti i miei servizi"
-                className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
-                  pathname === "/storia" ? "font-bold" : ""
-                }`}
-              >
-                {translation?.[locale]?.storia}
-              </Link>
-            </motion.div>
-            <motion.div variants={variants.item} animate="visibleItem">
-              <Link
-                href={`/vini`}
-                title="Guarda tutti i miei casi studio"
-                className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
-                  pathname === "/vini" ? "font-bold" : ""
-                }`}
-              >
-                {translation?.[locale]?.vini}
-              </Link>
-            </motion.div>
-            <motion.div variants={variants.item} animate="visibleItem">
-              <Link
-                href={`/degustazioni`}
-                title="I miei articoli"
-                className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
-                  pathname === "/degustazioni" ? "font-bold" : ""
-                }`}
-              >
-                {translation?.[locale]?.degustazioni}
-              </Link>
-            </motion.div>
-            {/* <motion.div variants={variants.item} animate="visibleItem">
+            <ul className="w-[90%] mx-auto h-full  flex flex-col gap-10">
+              {" "}
+              {/* Add your menu items here */}
+              <motion.li variants={variants.item} animate="visibleItem">
+                <Link
+                  href={`/`}
+                  title="Scopri chi sono e cosa posso fare per te"
+                  className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
+                    pathname === "/" ? "font-bold" : ""
+                  }`}
+                >
+                  {translation?.[locale]?.home}
+                </Link>
+              </motion.li>
+              <motion.li variants={variants.item} animate="visibleItem">
+                <button
+                  onClick={() => setMenuOpen(!menuOpen)}
+                  className="menu-item flex text-[25px] md:text-4xl leading-[30px] font-regular text-main items-center w-full justify-between"
+                >
+                  {translation?.[locale]?.storia.name}{" "}
+                  <Icon icon="ei:chevron-right" className="w-[30px] h-[30px]" />
+                </button>
+                <AnimatePresence>
+                  {menuOpen && (
+                    <motion.div
+                      initial={{ x: "100%" }}
+                      animate={{ x: 0 }}
+                      exit={{ x: "100%" }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 200,
+                        damping: 30,
+                      }}
+                      className="absolute top-0 left-0 right-0 w-full h-screen py-10 bg-white"
+                    >
+                      <div className="w-[90%] mx-auto divide-y divide-third/30">
+                        <div className="grid items-center grid-cols-3 pb-6 text-center">
+                          <Icon
+                            icon="ei:chevron-left"
+                            className="w-[30px] h-[30px]"
+                            onClick={() => setMenuOpen(!menuOpen)}
+                          />
+                          <h2 className="text-[25px] md:text-4xl leading-[30px] font-regular text-main">
+                            {translation?.[locale]?.storia.name}
+                          </h2>
+                          <div></div>
+                        </div>
+                        <div className="flex flex-col text-2xl divide-y divide-third/30">
+                          {translation?.[locale]?.storia.sottomenu.map(
+                            (item, index) => (
+                              <div key={index} className="py-6">
+                                <Link href={item.link} title={item.title}>
+                                  {item.name}
+                                </Link>
+                              </div>
+                            )
+                          )}
+                        </div>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </motion.li>
+              <motion.li variants={variants.item} animate="visibleItem">
+                <Link
+                  href={`/i-vini`}
+                  title="Guarda tutti i miei casi studio"
+                  className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
+                    pathname === "/i-vini" ? "font-bold" : ""
+                  }`}
+                >
+                  {translation?.[locale]?.vini}
+                </Link>
+              </motion.li>
+              <motion.li variants={variants.item} animate="visibleItem">
+                <Link
+                  href={`/degustazioni`}
+                  title="I miei articoli"
+                  className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
+                    pathname === "/degustazioni" ? "font-bold" : ""
+                  }`}
+                >
+                  {translation?.[locale]?.degustazioni}
+                </Link>
+              </motion.li>
+              {/* <motion.div variants={variants.item} animate="visibleItem">
               <Link
                 href={`/notizie`}
                 title="I miei articoli"
@@ -118,33 +161,33 @@ const Mobile = ({ translation }) => {
                 {translation?.[locale]?.news}
               </Link>
             </motion.div> */}
-            <motion.div variants={variants.item} animate="visibleItem">
-              <Link
-                href={`/store`}
-                title="I miei articoli"
-                className={`menu-item flex  text-[25px] leading-[30px] font-regular text-main items-start gap-1 ${
-                  pathname === "/store" ? "font-bold" : ""
-                }`}
-              >
-                <Icon
-                  icon="line-md:map-marker-alt-filled"
-                  className="w-6 h-6"
-                />
-                {translation?.[locale]?.store}
-              </Link>
-            </motion.div>
-            <motion.div variants={variants.item} animate="visibleItem">
-              <Link
-                href={`/cosmesi`}
-                title="I miei articoli"
-                className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
-                  pathname === "/cosmesi" ? "font-bold" : ""
-                }`}
-              >
-                {translation?.[locale]?.cosmesi}
-              </Link>
-            </motion.div>
-            <motion.div variants={variants.item} animate="visibleItem">
+              <motion.li variants={variants.item} animate="visibleItem">
+                <Link
+                  href={`/store`}
+                  title="I miei articoli"
+                  className={`menu-item flex  text-[25px] leading-[30px] font-regular text-main items-start gap-1 ${
+                    pathname === "/store" ? "font-bold" : ""
+                  }`}
+                >
+                  <Icon
+                    icon="line-md:map-marker-alt-filled"
+                    className="w-6 h-6"
+                  />
+                  {translation?.[locale]?.store}
+                </Link>
+              </motion.li>
+              <motion.li variants={variants.item} animate="visibleItem">
+                <Link
+                  href={`/cosmesi`}
+                  title="I miei articoli"
+                  className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
+                    pathname === "/cosmesi" ? "font-bold" : ""
+                  }`}
+                >
+                  {translation?.[locale]?.cosmesi}
+                </Link>
+              </motion.li>
+              {/* <motion.div variants={variants.item} animate="visibleItem">
               <Link
                 href={`/areaDownload`}
                 title="I miei articoli"
@@ -168,28 +211,25 @@ const Mobile = ({ translation }) => {
                   />
                 </svg>
               </Link>
-            </motion.div>
-            <motion.div variants={variants.item} animate="visibleItem">
-              <Link
-                href={`/contatti`}
-                title="I miei articoli"
-                className={`menu-item block mt-6 text-[25px] md:text-4xl leading-[30px] font-regular text-white font-bold py-2.5 px-8 bg-main max-w-max rounded-[32px] ${
-                  pathname === "/contatti" ? "font-bold" : ""
-                }`}
+            </motion.div> */}
+              <motion.li variants={variants.item} animate="visibleItem">
+                <CtaOutlineBrown link="/contatti">
+                  {translation?.[locale]?.contatti}
+                </CtaOutlineBrown>
+              </motion.li>
+              <motion.div
+                ariants={variants.item}
+                animate="visibleItem"
+                className="my-10 text-center md:py-4"
               >
-                {translation?.[locale]?.contatti}
-              </Link>
-            </motion.div>
-            <motion.div
-              ariants={variants.item}
-              animate="visibleItem"
-              className=" text-center my-10 md:py-4"
-            >
-              <h3 className="text-[20px] md:text-3xl font-bold">Les Crêtes</h3>
-              <p className="text-[14px] md:text-xl">
-                SR20, 5011010 Aymavilles (AO) <br /> Valle d’Aosta, Italia
-              </p>
-            </motion.div>
+                <h3 className="text-[20px] md:text-3xl font-bold">
+                  Les Crêtes
+                </h3>
+                <p className="text-[14px] md:text-xl">
+                  SR20, 5011010 Aymavilles (AO) <br /> Valle d’Aosta, Italia
+                </p>
+              </motion.div>
+            </ul>
           </motion.div>
         )}
       </AnimatePresence>

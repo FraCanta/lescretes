@@ -6,51 +6,96 @@ import Logo from "@/public/logo/logo.png";
 import Mobile from "./mobile";
 import CtaPrimary from "../Cta/CtaPrimary";
 import { Icon } from "@iconify/react";
+import CtaOutlineBrown from "../Cta/CtaOutlineBrown";
 const NavBar = ({ translation }) => {
-  const { locale } = useRouter();
+  const { locale, pathname } = useRouter();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [hoveredItem, setHoveredItem] = useState(null);
 
   return (
     <header className="relative">
       <nav className="h-[60px] md:h-[100px] lg:h-[70px] xl:h-[90px] fxl:h-[100px] 3xl:h-[180px] 4xl:h-[250px] 3xl flex w-full items-center justify-between relative z-[999999] nav-scroll ">
         <div className="grid grid-cols-2 lg:grid-cols-5 w-[90%] mx-auto justify-between items-center ">
-          <div className="flex-1">
-            <Link href={`/`} title="Home Page">
+          <div>
+            <Link href={`/`} title="Torna all'homepage di Les Crêtes">
               <Image
                 src={Logo}
-                alt="logo"
-                className="w-[85px] md:w-[150px] lg:w-[110px] xl:w-[130px] 2xl:w-[100px] fxl:w-[150px] 3xl:w-[200px] 4xl:w-[300px]"
+                alt="Logo di Les Crêtes"
+                className="w-[85px] md:w-[150px] lg:w-[110px] xl:w-[130px] 2xl:w-[120px] fxl:w-[150px] 3xl:w-[200px] 4xl:w-[300px]"
               />
             </Link>
           </div>
 
           <div className="xl:flex items-center hidden capitalize flex-1 font-black text-[#4A4A49] col-span-3">
-            <div className="w-full flex items-center justify-center">
+            <div className="flex items-center justify-center w-full">
+              <div className=" group">
+                <button
+                  onClick={() => setMenuOpen(!menuOpen)}
+                  className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
+                >
+                  {translation?.[locale]?.storia.name}{" "}
+                  <Icon icon="ei:chevron-down" className="w-6 h-6" />
+                </button>
+                {menuOpen && (
+                  <div className="absolute top-[80px] left-0 right-0  w-full h-[50vh]   mt-2 bg-white  transition-all p-6">
+                    <div className="w-[70%] mx-auto grid grid-cols-2 justify-center h-full items-center ">
+                      <div className="flex flex-col gap-6 text-2xl">
+                        {translation?.[locale]?.storia.sottomenu.map(
+                          (item, index) => (
+                            <div
+                              key={index}
+                              className="cursor-pointer"
+                              onMouseEnter={() => setHoveredItem(index)}
+                              onMouseLeave={() => setHoveredItem(null)}
+                            >
+                              <Link href={item.link} title={item.title}>
+                                {item.name}
+                              </Link>
+                            </div>
+                          )
+                        )}
+                      </div>
+                      <div className="relative flex justify-end w-full h-full py-6">
+                        {hoveredItem !== null && (
+                          <Image
+                            src={
+                              translation?.[locale]?.storia.sottomenu[
+                                hoveredItem
+                              ].imgSrc
+                            }
+                            alt={
+                              translation?.[locale]?.storia.sottomenu[
+                                hoveredItem
+                              ].name
+                            }
+                            fill
+                            className="object-cover"
+                          />
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
               <Link
-                href={`/`}
-                title="Scopri chi sono e cosa posso fare per te"
-                className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
-              >
-                {translation?.[locale]?.home}
-              </Link>
-
-              <Link
-                href={`/storia`}
-                title="Ecco tutti i miei servizi"
-                className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
-              >
-                {translation?.[locale]?.storia}
-              </Link>
-              <Link
-                href={`/vini`}
-                title="Guarda tutti i miei casi studio"
-                className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
+                href={`/i-vini`}
+                title="I nostri vini"
+                className={`mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center ${
+                  pathname === "/i-vini"
+                    ? "underline underline-offset-4 decoration-main"
+                    : ""
+                }`}
               >
                 {translation?.[locale]?.vini}
               </Link>
               <Link
-                href={`/degustazioni`}
-                title="I miei articoli"
-                className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
+                href={`/le-degustazioni`}
+                title="Le nostre degustazioni"
+                className={`mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center${
+                  pathname === "/i-vini"
+                    ? "underline underline-offset-4 decoration-main"
+                    : ""
+                }`}
               >
                 {translation?.[locale]?.degustazioni}
               </Link>
@@ -63,14 +108,14 @@ const NavBar = ({ translation }) => {
               </Link> */}
               <Link
                 href={`/cosmesi`}
-                title="I miei articoli"
+                title="La nostra cosmesi"
                 className="mr-[2.35rem] 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
               >
                 {translation?.[locale]?.cosmesi}
               </Link>
               <Link
-                href={`/store`}
-                title="I miei articoli"
+                href={`/store-locator`}
+                title="Dove poter acquistare"
                 className="gap-1 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-start"
               >
                 <Icon
@@ -81,7 +126,7 @@ const NavBar = ({ translation }) => {
               </Link>
             </div>
           </div>
-          <div className="xl:flex items-center justify-end flex-1  hidden font-black ">
+          <div className="items-center justify-end flex-1 hidden font-black xl:flex">
             {/* <Link
               href={`/areaDownload`}
               title="I miei articoli"
@@ -104,11 +149,11 @@ const NavBar = ({ translation }) => {
               </svg>
             </Link> */}
 
-            <CtaPrimary link="/contatti">
+            <CtaOutlineBrown link="/contatti" title="Pagina info e contatti">
               {translation?.[locale]?.contatti}
-            </CtaPrimary>
+            </CtaOutlineBrown>
           </div>
-          <div className="text-main flex items-center justify-end py-1 xl:hidden ">
+          <div className="flex items-center justify-end py-1 text-main xl:hidden ">
             <Mobile translation={translation} />
           </div>
         </div>

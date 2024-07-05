@@ -28,7 +28,7 @@ const Cosmesi = ({ translation }) => {
         />
       </div>
       <div className="w-[90%] min-h-screen flex-col justify-start items-center gap-[60px]  flex mx-auto py-10 ">
-        <div className="flex flex-col gap-8  text-main text-xl font-normal fxl:text-2xl">
+        <div className="flex flex-col gap-8  text-main/80 text-xl font-normal  fxl:text-2xl">
           <p>
             La linea cosmetica DeVin presenta la sua innovativa formula naturale
             con attivi biologici all’olio di vinaccioli, polifenoli dell’uva e
@@ -111,7 +111,7 @@ const Cosmesi = ({ translation }) => {
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
+                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
                   L’olio di vinaccioli, ottenuto tramite il procedimento di
                   spremitura a freddo, si estrae dai semi dell’uva,
                   rigorosamente senza l’impiego di solventi chimici. I semi di
@@ -136,7 +136,7 @@ const Cosmesi = ({ translation }) => {
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
+                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
                   Composto organico nella cui struttura sono presenti tre gruppi
                   molto affini all’acqua. Il suo ruolo è quello di mantenere una
                   corretta idratazione poiché ha la facoltà di trattenere e
@@ -154,7 +154,7 @@ const Cosmesi = ({ translation }) => {
                 </h3>
               </div>
               <div className="collapse-content">
-                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
+                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
                   Una vera ricchezza della natura, con azione lenitiva,
                   emolliente e protettiva. Offre uno scudo di difesa contro gli
                   agenti atmosferici aggressivi, per un immediato effetto di
@@ -171,7 +171,7 @@ const Cosmesi = ({ translation }) => {
                 </h3>
               </div>
               <div className="collapse-content">
-                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
+                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
                   Preziosa miscela idratante composta da sali (di Magnesio,
                   Manganese, Zinco, Calcio) legati al PCA, zuccheri, aminoacidi
                   (tra cui la prolina, amminoacido fondamentale per la sintesi
@@ -199,7 +199,7 @@ const Cosmesi = ({ translation }) => {
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
+                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
                   Alcuni microrganismi batterici vegetali auto producono dei
                   polisaccaridi ad elevato peso molecolare, per migliorare le
                   loro capacità di difesa e le loro possibilità di
@@ -221,7 +221,7 @@ const Cosmesi = ({ translation }) => {
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
+                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
                   Ricche in mucillagini (tra cui alginati), sali minerali, con
                   un’azione emolliente, idratante, ammorbidente, protettiva,
                   ideale per pelli secche.
@@ -237,7 +237,7 @@ const Cosmesi = ({ translation }) => {
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
+                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
                   Molecola idratante per eccellenza, naturalmente presente nella
                   pelle per trattenere acqua nei tessuti. Il suo compito è
                   mantenere la pelle elastica, tesa e idratata e di aumentarne
@@ -256,7 +256,7 @@ const Cosmesi = ({ translation }) => {
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
+                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
                   Proteina della bellezza, con funzione di sostegno strutturale
                   e capacità di intrappolare acqua nei tessuti. Determina
                   l’aspetto teso, elastico e compatto della pelle. Viene
@@ -275,7 +275,7 @@ const Cosmesi = ({ translation }) => {
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/60 text-lg font-normal fxl:text-2xl">
+                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
                   Altamente dermocompatibile, contrasta l’invecchiamento
                   cutaneo, idrata e potenzia la naturale rigenerazione
                   cellulare. Forma un velo di protezione che rede la pelle

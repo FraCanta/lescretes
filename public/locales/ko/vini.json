@@ -4,6 +4,17 @@
       "title": "Les Crêtes wines : Passion, Tradition and Innovation in the Mountains",
       "img": "/assets/vini.png"
     },
+    "intro": {
+      "title": "La nostra etichetta",
+      "descrizione": [
+        {
+          "text": "Immediata ed essenziale, <span class='font-bold'>esprime il nostro legame con il territorio di montagna</span>, fatto di forti pendenze, le creste alpine, che qui raggiungono le vette più elevate ( da cui il nome francese Les Crêtes ). <span class='font-bold'>La lamina in metallo colato a rilievo</span>, ad esaltare la profondità delle valli scavate dai ghiacciai. <span class='font-bold'>L’argento ed il rame riflettenti</span>, a rappresentare la luminosità del nostro sole. "
+        },
+        {
+          "text": "<span class='font-bold'>I vigneti, tratteggiati sulle vette nelle diverse esposizioni</span>, a raffigurare la ricchezza di un terroir rubato alle montagne. E ai loro piedi, <a href='/rifugio' target='_blank' title='Il Rifugio del vino'><span class='font-bold underline'>il Rifugio del Vino</span></a> con la nostra cantina, inno alla viticoltura eroica che ci permette una produzione di nicchia, cullata dalle Alpi."
+        }
+      ]
+    },
     "tabs": [
       {
         "name": "Red",
@@ -1700,11 +1711,24 @@
         "recycle": "/tabella.jpg"
       }
     },
+    "family": {
+      "title": "L'esperienza di una famiglia che, con passione, ha saputo esaltare i vini di montagna della Valle d'Aosta",
+      "descrizione": "L’azienda Les Crêtes nasce nel 1989 in Aymavilles (Valle d’Aosta), per opera di Costantino Charrère ed è oggi gestita dalla sua famiglia che, proprietaria di uno storico mulino ad acqua del ’700 e delle antiche cantine di Via Moulins, si occupa, da cinque generazioni, di produzioni agroalimentari.",
+      "cta": "Scopri la nostra storia"
+    },
     "banner": {
       "title": "Our strength is the care and passion we have for our land",
       "paragraph": "A place where hospitality is at home and where you can live a unique experience in the mountains of Valle d'Aosta.",
       "btn": "Discover The Terroir",
       "link": "/terroir"
+    },
+    "produzione": {
+      "title": "Produrre nel rispetto dell'ambiente e dell'uomo",
+      "descrizione": "La produzione annua complessiva è attualmente di <span class='font-bold'>250.000 bottiglie</span>. Le varietà coltivate sono sia autoctone (Petit Rouge, Fumin, Petite Arvine, Gros Rouge, Cornalin, Mayolet, Prëmetta) che internazionali (Pinot Noir, Chardonnay, Syrah). La <span class='italic font-bold'>“tensione”</span> aziendale è rivolta all’intera filiera produttiva, dove gli interventi vengono realizzati con <span class='font-bold'>la massima attenzione e cura</span>, nella continua ricerca della qualità."
+    },
+    "artigianalità": {
+      "title": "Maestria artigianale, amore per il lavoro e dedizione: le radici della qualità",
+      "descrizione": "Ogni attività è eseguita con estrema dedizione e attenzione, riflettendo la qualità e la passione che ci caratterizzano."
     }
   }
 }

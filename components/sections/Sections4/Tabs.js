@@ -47,6 +47,7 @@ const Tabs = ({ tabs }) => {
         {tabs.map((tab, index) => (
           <button
             key={index}
+            title={tab.name}
             className={
               activeTab === index ? "tab-bordered tab-active " : "tab-bordered "
             }
@@ -121,6 +122,7 @@ const Tabs = ({ tabs }) => {
               <SwiperSlide key={contentIndex}>
                 <Link
                   href={content.link}
+                  title={content.name}
                   key={contentIndex}
                   className="w-full h-[450px] fxl:h-full 3xl:h-[800px] relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white "
                 >
@@ -134,6 +136,7 @@ const Tabs = ({ tabs }) => {
                       src={content.img}
                       width={100}
                       height={100}
+                      alt={content.name}
                     />
                     <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[16px] fxl:text-[22px] 3xl:text-3xl font-bold  leading-snug z-10">
                       {content.name}
@@ -142,7 +145,7 @@ const Tabs = ({ tabs }) => {
                 </Link>
               </SwiperSlide>
             ))}
-            <div className="relative w-full mt-16 block md:hidden">
+            <div className="relative block w-full mt-16 md:hidden">
               <div class="swiper-pagination mt-10"></div>
             </div>
           </Swiper>

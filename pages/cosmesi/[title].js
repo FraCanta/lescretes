@@ -103,14 +103,10 @@ const SingleCosmetic = ({ cosm, others }) => {
           </div>
           <div className="w-full h-[0.02rem] bg-main my-2"></div>
 
-          <div className="flex flex-col xl:flex-row w-full xl:justify-between gap-10 mt-2">
+          <div className="flex flex-col xl:flex-row w-full xl:justify-between gap-10 mt-2 hover:text-white text-main transition-all">
             <CtaOutlineBrown link={cosm.download} download>
               {cosm.downloadTitle}
-              <Icon
-                icon="material-symbols:download"
-                color="#4A4A49"
-                width={30}
-              />
+              <Icon icon="material-symbols:download" width={30} />
             </CtaOutlineBrown>
 
             <div className="flex gap-6 items-center ">

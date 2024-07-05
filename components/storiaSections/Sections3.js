@@ -12,7 +12,7 @@ const Sections3 = ({ translation }) => {
         {translation.descrizione.map((el, i) => {
           return (
             <div
-              className="flex-col justify-start items-start gap-8 flex text-main text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal "
+              className="flex-col justify-start items-start gap-8 flex text-main/80 text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal "
               key={i}
             >
               <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
@@ -31,7 +31,7 @@ const Sections3 = ({ translation }) => {
         {translation.descrizione2.map((el, i) => {
           return (
             <div
-              className="flex-col justify-start items-start gap-8 flex text-main text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal "
+              className="flex-col justify-start items-start gap-8 flex text-main/80 text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal "
               key={i}
             >
               <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
