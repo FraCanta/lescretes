@@ -18,7 +18,7 @@ const Banner = ({ img, title, paragraph, btn1, btn2, link1, link2 }) => {
           />
         </div>
 
-        <div className="flex flex-col h-full justify-center gap-8 relative lg:w-[90%] mx-auto ">
+        <div className="flex flex-col h-full justify-center gap-8 relative lg:w-[90%] mx-auto py-10 lg:py-0">
           <div className="flex flex-col gap-6 w-[90%] mx-auto">
             <h3 className="text-white text-3xl xl:text-[40px] font-bold fxl:text-5xl xl:w-[95%] 3xl:text-6xl">
               {title}
