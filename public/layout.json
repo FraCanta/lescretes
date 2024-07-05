@@ -24,13 +24,13 @@
           }
         ]
       },
-      "vini": "I Vini",
-      "degustazioni": "Le Degustazioni",
-      "news": "Notizie",
-      "cosmesi": "La Cosmesi",
+      "vini": "Vini",
+      "degustazioni": "Degustazioni",
+      "news": "Megazine",
+      "cosmesi": "DeVin Cosmetica",
       "download": "Area Download",
-      "store": "Dove acquistare",
-      "contatti": "Orari e Contatti"
+      "store": "Store Locator",
+      "contatti": "Contatti"
     },
     "en": {
       "storia": {
@@ -59,9 +59,9 @@
       "vini": "Wines",
       "degustazioni": "Tastings",
       "news": "News",
-      "cosmesi": "Cosmetics",
+      "cosmesi": "DeVin Cosmetics",
       "download": "Download Area",
-      "store": "Where to buy",
+      "store": "Store Locator",
       "contatti": "Contacts"
     },
     "fr": {
@@ -91,9 +91,9 @@
       "vini": "Vins",
       "degustazioni": "Dégustations",
       "news": "Actualités",
-      "cosmesi": "Cosmétique",
+      "cosmesi": "DeVin Cosmétique",
       "download": "Téléchargements",
-      "store": "Où acheter",
+      "store": "Store Locator",
       "contatti": "Contacts"
     },
     "de": {
@@ -125,7 +125,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
-      "store": "Where to buy",
+      "store": "Store Locator",
       "contatti": "Contacts"
     },
     "ko": {
@@ -157,7 +157,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
-      "store": "Where to buy",
+      "store": "Store Locator",
       "contatti": "Contacts"
     },
     "jp": {
@@ -189,7 +189,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
-      "store": "Where to buy",
+      "store": "Store Locator",
       "contatti": "Contacts"
     },
     "ru": {
@@ -221,7 +221,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
-      "store": "Where to buy",
+      "store": "Store Locator",
       "contatti": "Contacts"
     },
     "zh": {
@@ -253,7 +253,7 @@
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
-      "store": "Where to buy",
+      "store": "Store Locator",
       "contatti": "Contacts"
     }
   },
