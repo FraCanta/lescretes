@@ -118,7 +118,7 @@ const FormPrenotazione = ({ deg, img }) => {
               required
               value={inputs.name}
               onChange={handleChange}
-              className="col-span-2 py-2 bg-transparent border-b focus:outline-none focus:border-main xl:col-span-1 text-main"
+              className="py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
               placeholder="First Name"
             />
             <input
@@ -128,14 +128,14 @@ const FormPrenotazione = ({ deg, img }) => {
               required
               value={inputs.surname}
               onChange={handleChange}
-              className="col-span-2 py-2 bg-transparent border-b focus:outline-none focus:border-main xl:col-span-1 text-main"
+              className="col-span-1 py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
               placeholder="Last Name"
             />
             <input
               id="email"
               data-invalid="false"
               data-filled="false"
-              className="col-span-2 py-2 bg-transparent border-b focus:outline-none focus:border-main xl:col-span-1 text-main"
+              className="col-span-1 py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
               name="email"
               placeholder="example@email.com*"
               type="email"
@@ -155,7 +155,7 @@ const FormPrenotazione = ({ deg, img }) => {
                 }))
               }
               countries={countries}
-              className="!border-b  focus:outline-none focus:border-main bg-transparent !w-full col-span-2 xl:col-span-1 text-main"
+              className="!border-b  focus:outline-none focus:border-main bg-transparent !w-full col-span-1 text-main"
             />
             <div className="flex flex-col col-span-2 gap-2 xl:col-span-1">
               <label htmlFor="adulti" className="text-main">

@@ -48,7 +48,7 @@ const SingleDeg = ({ deg, others }) => {
           />
         </div>
         <div className=" flex flex-col xl:flex-row gap-4 xl:gap-0 justify-between w-[90%] translate-x-[6%]  absolute bottom-0 left-0   z-[999]">
-          <h1 className="text-white text-[40px] leading-[40px] xl:text-8xl xl:leading-[70px] font-bold fxl:text-7xl uppercase lg:whitespace-nowrap">
+          <h1 className="text-white text-[40px] leading-[40px] md:text-5xl xl:text-7xl 2xl:text-8xl 2xl:leading-[70px] font-bold fxl:text-7xl uppercase lg:whitespace-nowrap">
             {deg?.name}
           </h1>
         </div>
@@ -224,7 +224,7 @@ const SingleDeg = ({ deg, others }) => {
           </div>
         ) : (
           <div className="hidden p-8 lg:block">
-            <div className="p-8 text-3xl text-center bg-main">
+            <div className="p-8 text-center xl:text-2xl 2xl:text-3xl bg-main">
               <h2 className="font-bold text-white uppercase">{deg.name}</h2>
             </div>
 
@@ -288,7 +288,7 @@ const SingleDeg = ({ deg, others }) => {
           <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl xl:w-[65%] mx-auto">
             Altre degustazioni in evidenza{" "}
           </h2>
-          <div className="grid grid-cols-1 gap-6 mx-auto mt-10 md:grid-cols-3 w-[90%] ">
+          <div className="grid grid-cols-1 gap-6 mx-auto mt-10 xl:grid-cols-3 w-[90%] ">
             {others?.map((el, i) => (
               <Cards
                 key={i}
