@@ -1,6 +1,7 @@
 import { render } from "@react-email/components";
 import nodemailer from "nodemailer";
 import { Email } from "../../components/contactForm/email";
+import { Thanks } from "@/components/contactForm/thanks";
 
 export default async function mailer(req, res) {
   const {
@@ -38,14 +39,35 @@ export default async function mailer(req, res) {
       language={language}
     />
   );
+
+  const thankHtml = render(
+    <Thanks
+      name={name}
+      surname={surname}
+      email={email}
+      phone={phone}
+      deg={deg}
+      gift={gift}
+      message={message}
+      adultCount={adultCount}
+      language={language}
+    />
+  );
   try {
     await transporter.sendMail({
-      from: `Les Crêtes degustazioni - ${email}`,
+      from: `Les Crêtes degustazioni <thalliondev@gmail.com>`,
       to: ["thalliondev@gmail.com"],
-      // cc: ["elena@lescretes.it", "corti.giulio@gmail.com"],
-      subject: `Prenotazione degustazione `,
-
+      subject: `Prenotazione degustazione: ${deg} `,
+      replyTo: `${email}`,
       html: emailHtml,
+    });
+
+    // Invio della mail di ringraziamento
+    await transporter.sendMail({
+      from: `Les Crêtes degustazioni <thalliondev@gmail.com>`,
+      to: email,
+      subject: "Grazie per la tua prenotazione",
+      html: thankHtml,
     });
   } catch (error) {
     return res.status(500).json({ error: error.message || error.toString() });

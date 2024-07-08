@@ -14,7 +14,7 @@ const countries = defaultCountries.filter((country) => {
   return ["it", "us", "gb", "fr", "de"].includes(iso2);
 });
 
-const FormPrenotazione = ({ deg, img }) => {
+const FormPrenotazione = ({ deg }) => {
   const [phone, setPhone] = useState("");
   const [inputs, setInputs] = useState({
     name: "",
@@ -23,7 +23,6 @@ const FormPrenotazione = ({ deg, img }) => {
     phone: "",
     message: "",
     deg: deg,
-    img: img,
   });
 
   const [adultCount, setAdultCount] = useState(1);
@@ -36,7 +35,6 @@ const FormPrenotazione = ({ deg, img }) => {
     console.log(inputs);
   }, [inputs]);
 
-  const [form, setForm] = useState("");
   const [checkedGift, setCheckedGift] = useState(false);
 
   const onSubmitForm = async (e) => {
@@ -56,7 +54,6 @@ const FormPrenotazione = ({ deg, img }) => {
           adultCount: adultCount,
           language: clickedRadio,
         };
-        console.log(formData);
 
         const res = await fetch(`/api/prenotazioni`, {
           method: "POST",
@@ -157,6 +154,7 @@ const FormPrenotazione = ({ deg, img }) => {
               countries={countries}
               className="!border-b  focus:outline-none focus:border-main bg-transparent !w-full col-span-1 text-main"
             />
+
             <div className="flex flex-col col-span-2 gap-2 xl:col-span-1">
               <label htmlFor="adulti" className="text-main">
                 Adulti

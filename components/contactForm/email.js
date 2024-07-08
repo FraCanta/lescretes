@@ -14,6 +14,8 @@ export function Email(props) {
     language,
   } = props;
 
+  console.log(props.deg);
+
   return (
     <Html lang="en">
       <Heading
@@ -35,6 +37,7 @@ export function Email(props) {
 
       <Text>Numero adulti: {adultCount}</Text>
       <Text>Lingua visita: {language}</Text>
+      <Text>Degustazione nome: {deg}</Text>
     </Html>
   );
 }

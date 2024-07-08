@@ -65,6 +65,7 @@
     "singleDeg": {
       "trewines": {
         "img": "/assets/degustazioni/tre2.jpg",
+        "seoImg": "/assets/seo/tre.png",
         "name": "3 Wines Experience",
         "title": "trewines",
         "degustazione": {
@@ -94,6 +95,8 @@
       },
       "native": {
         "img": "/assets/degustazioni/native.jpg",
+        "seoImg": "/assets/seo/native.png",
+
         "name": "Native Wines Experience",
         "title": "native",
         "cardDesc": "Degustazione di 5 vini del Territorio al Rifugio del vino in cantina e barricaia",
@@ -130,6 +133,8 @@
       "cheese": {
         "img": "/assets/degustazioni/cheese.jpeg",
         "name": "Wine and Cheese Experience",
+        "seoImg": "/assets/seo/cheese.png",
+
         "title": "cheese",
         "cardDesc": "Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali e visita in cantina e barricaia",
 
@@ -164,6 +169,8 @@
       "top": {
         "img": "/assets/degustazioni/top.jpg",
         "name": "Top Wines Experience",
+        "seoImg": "/assets/seo/top.png",
+
         "title": "top",
         "cardDesc": "Degustazione di 5 vini top accompagnati da tagliere della gastronomia locale e visita in cantina e barricaia",
 
@@ -200,6 +207,8 @@
       "tour": {
         "img": "/assets/degustazioni/coteau3.jpg",
         "name": "Côteau la Tour Experience",
+        "seoImg": "/assets/seo/tour.png",
+
         "title": "tour",
         "cardDesc": "Degustazione di 5 vini accompagnata da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto del Côteau e brindisi nella Torre Medievale",
 
@@ -243,6 +252,8 @@
       "winemaker": {
         "img": "/assets/degustazioni/winemaker.jpeg",
         "name": "Winemaker's Experience",
+        "seoImg": "/assets/seo/winemaker.png",
+
         "title": "winemaker",
         "cardDesc": "Scopri il mondo Les Crêtes raccontato dal nostro enologo Raffaele, a partire dalle vigne fino alla cantina.",
 
@@ -284,6 +295,8 @@
       "wellness": {
         "img": "/assets/degustazioni/wellness.jpeg",
         "name": "Wellness & Wine Tasting",
+        "seoImg": "/assets/seo/wellness.png",
+
         "title": "wellness",
         "cardDesc": "Soggiorno di una notte in camera doppia presso QC Terme Spas & Resorts, con percorso benessere + degustazione di 5 vini selezionati con 6 formaggi locali, visita in cantina e barricaia.",
 
