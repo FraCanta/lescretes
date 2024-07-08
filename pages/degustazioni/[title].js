@@ -18,7 +18,6 @@ import FormPrenotazione from "@/components/formPrenotazione/formPrenotazione";
 import Cards from "@/components/Cards/Cards";
 
 const SingleDeg = ({ deg, others }) => {
-  console.log(others);
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
   const handleDrawerToggle = () => {
     setIsDrawerOpen(!isDrawerOpen);
@@ -55,16 +54,16 @@ const SingleDeg = ({ deg, others }) => {
         </div>
       </div>
       <div className="w-full bg-[#F4F3EF]">
-        <div className="w-[90%] mx-auto flex gap-10  py-6 text-main flex-col lg:flex-row">
+        <div className="w-[90%] mx-auto flex gap-10  py-10 text-main flex-col lg:flex-row">
           <div className="flex h-full ">
             <Image
               src={Bicchiere}
-              className="w-12 h-full fxl:w-20 "
+              className="h-full w-9 fxl:w-20 "
               alt="bicchiere"
             />
-            <div className="flex flex-col ">
+            <div className="flex flex-wrap items-center gap-2">
               <h2 className="font-bold text-[18px] text-main fxl:text-2xl">
-                {deg.degustazione.title}
+                {deg.degustazione.title}:
               </h2>
               <p className="text-[16px]">{deg.degustazione.vini}</p>
             </div>
@@ -72,12 +71,12 @@ const SingleDeg = ({ deg, others }) => {
           <div className="flex items-center h-full">
             <Image
               src={Durata}
-              className="w-10 h-full xl:w-12"
+              className="h-full w-9 fxl:w-12"
               alt="bicchiere"
             />
-            <div className="flex flex-col justify-center h-full">
+            <div className="flex flex-wrap items-center h-full gap-2">
               <h2 className="font-bold text-[18px] text-main">
-                {deg.durata?.title}
+                {deg.durata?.title}:
               </h2>
               <p className="text-[16px]">{deg.durata?.tempo}</p>
             </div>
@@ -85,21 +84,21 @@ const SingleDeg = ({ deg, others }) => {
           <div className="flex items-center h-full">
             <Image
               src={Cantina}
-              className="w-10 h-full xl:w-12"
+              className="w-8 h-full fxl:w-12"
               alt="bicchiere"
             />
-            <div className="flex flex-col justify-center h-full">
+            <div className="flex items-center h-full gap-2">
               <h2 className="font-bold text-[18px] text-main">
-                {deg.visita?.title}
+                {deg.visita?.title}:
               </h2>
               <p className="text-[16px]">{deg.visita?.cantina}</p>
             </div>
           </div>
           <div className="flex items-center h-full">
-            <Image src={Lingue} className="w-12 h-full" alt="bicchiere" />
-            <div className="flex flex-col ">
+            <Image src={Lingue} className="h-full w-9" alt="bicchiere" />
+            <div className="flex flex-wrap items-center gap-2">
               <h2 className="font-bold text-[18px] text-main">
-                {deg.lingua?.title}
+                {deg.lingua?.title}:
               </h2>
               <p className="text-[16px]">{deg.lingua.tipo}</p>
             </div>
@@ -107,7 +106,7 @@ const SingleDeg = ({ deg, others }) => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto gap-6 py-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto gap-6 ">
         <div className="flex-col justify-start items-start gap-[34px] flex py-10">
           <h2 className="flex items-center gap-2 text-3xl font-bold text-main xl:text-4xl">
             {deg.descrizione.title}{" "}
@@ -197,11 +196,16 @@ const SingleDeg = ({ deg, others }) => {
           deg={deg.name}
         />
         {deg.prenotaBtn ? (
-          <div className="w-full">
-            <CtaPrimary
-              link={deg.prenotaBtn}
+          <div className="flex flex-col w-full gap-6">
+            <h2 className="text-2xl font-bold">
+              La prenotazione a questa degustazione con percorso benessere
+              avviene direttamente sulla piattaforma dell'hotel QC Terme.
+            </h2>
+            <Link
+              href={deg.prenotaBtn}
               target="_blank"
               title={"prenotazione"}
+              className=" items-center justify-center text-[20px]  gap-2 text-center capitalize font-medium py-4 px-6   text-white hover:transition-all  bg-main w-full hidden xl:flex"
             >
               Prenota ora{" "}
               <Icon
@@ -209,7 +213,14 @@ const SingleDeg = ({ deg, others }) => {
                 color="white"
                 className="w-5 h-5"
               />
-            </CtaPrimary>
+            </Link>
+            <div className="relative aspect-square">
+              <Image
+                src="/assets/degustazioni/wellness_form.webp"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
         ) : (
           <div className="hidden p-8 lg:block">
@@ -225,7 +236,7 @@ const SingleDeg = ({ deg, others }) => {
       <div className="w-full h-[1px] bg-second my-2"></div>
       <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs">
         <div className="flex items-center gap-6 ">
-          <p className="text-xl fxl:text-2xl">Condividi su</p>
+          <p className="text-xl fxl:text-2xl text-main">Condividi su</p>
           <ul className="flex gap-6">
             <li>
               {" "}

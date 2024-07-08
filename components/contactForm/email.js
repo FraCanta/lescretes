@@ -1,29 +1,40 @@
 import * as React from "react";
-import { Html, Button, Tailwind } from "@react-email/components";
+import { Html, Text, Heading } from "@react-email/components";
 
 export function Email(props) {
-  const { url } = props;
+  const {
+    name,
+    surname,
+    email,
+    phone,
+    message,
+    deg,
+    gift,
+    adultCount,
+    language,
+  } = props;
 
   return (
     <Html lang="en">
-      <Tailwind
-        config={{
-          theme: {
-            extend: {
-              colors: {
-                brand: "#007291",
-              },
-            },
-          },
+      <Heading
+        style={{
+          fontSize: 24,
+          fontWeight: "bold",
         }}
       >
-        <Button
-          href={url}
-          className="px-3 py-2 font-medium leading-4 text-white bg-brand"
-        >
-          Click me
-        </Button>
-      </Tailwind>
+        {deg}
+      </Heading>
+      <Text>
+        Mi chiamo {name} {surname},
+      </Text>
+      <Text>{message}</Text>
+      <Text>
+        I miei contatti: {email} - {phone}
+      </Text>
+      {gift ? <Text>Voglio regalare: sì</Text> : null}
+
+      <Text>Numero adulti: {adultCount}</Text>
+      <Text>Lingua visita: {language}</Text>
     </Html>
   );
 }

@@ -33,7 +33,7 @@ const Vini = ({ translation }) => {
       </div>
 
       <div className="flex flex-col items-start justify-start gap-10 w-[90%] mx-auto lg:pb-20">
-        <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold lg:leading-[46px] 3xl:text-7xl">
+        <h2 className="text-main text-3xl md:text-5xl xl:text-4xl 2xl:text-5xl fxl:text-6xl font-bold lg:leading-[46px] 3xl:text-7xl">
           {translation.intro.title}
         </h2>
         {translation.intro.descrizione.map((para, i) => {
@@ -62,7 +62,7 @@ const Vini = ({ translation }) => {
             />
           </div>
           <div className="flex flex-col gap-10 lg:items-center lg:justify-center">
-            <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold md:leading-[46px] 3xl:text-7xl">
+            <h2 className="text-main text-3xl md:text-5xl xl:text-4xl 2xl:text-5xl fxl:text-6xl font-bold md:leading-[46px] 3xl:text-7xl">
               {translation.family.title}
             </h2>
             <p
@@ -87,7 +87,7 @@ const Vini = ({ translation }) => {
       <div className="w-full min-h-screen bg-[#F4F3EF] ">
         <div className="flex flex-col w-full gap-20 mx-auto lg:text-center lg:items-center lg:justify-center">
           <div className="flex flex-col lg:items-center lg:justify-center gap-10 w-[90%] mx-auto pt-10 lg:pt-40">
-            <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl">
+            <h2 className="text-main text-3xl md:text-5xl xl:text-4xl 2xl:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl">
               {translation.produzione.title}
             </h2>
             <p
@@ -113,7 +113,7 @@ const Vini = ({ translation }) => {
       <div className="w-full min-h-screen bg-[#F4F3EF] ">
         <div className="flex flex-col w-full gap-20 mx-auto lg:text-center lg:items-center lg:justify-center">
           <div className="flex flex-col lg:items-center lg:justify-center gap-10 w-[90%] mx-auto pt-10 lg:pt-40">
-            <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl xl:w-[65%] mx-auto">
+            <h2 className="text-main text-3xl md:text-5xl xl:text-4xl 2xl:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl xl:w-[65%] mx-auto">
               {translation.artigianalità.title}
             </h2>
             <p

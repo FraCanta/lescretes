@@ -3,7 +3,17 @@ import nodemailer from "nodemailer";
 import { Email } from "../../components/contactForm/email";
 
 export default async function mailer(req, res) {
-  const { name, surname, email, phone, message, deg, gift } = req.body;
+  const {
+    name,
+    surname,
+    email,
+    phone,
+    message,
+    deg,
+    adultCount,
+    language,
+    gift,
+  } = req.body;
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
@@ -15,13 +25,25 @@ export default async function mailer(req, res) {
       pass: "lywb cntb nbqm uckr",
     },
   });
-  const emailHtml = render(<Email url="https://example.com" />);
+  const emailHtml = render(
+    <Email
+      name={name}
+      surname={surname}
+      email={email}
+      phone={phone}
+      deg={deg}
+      gift={gift}
+      message={message}
+      adultCount={adultCount}
+      language={language}
+    />
+  );
   try {
     await transporter.sendMail({
-      from: `${email}`,
+      from: `Les Crêtes degustazioni - ${email}`,
       to: ["thalliondev@gmail.com"],
       // cc: ["elena@lescretes.it", "corti.giulio@gmail.com"],
-      subject: `${name}  ${surname} ${deg} `,
+      subject: `Prenotazione degustazione `,
 
       html: emailHtml,
     });
