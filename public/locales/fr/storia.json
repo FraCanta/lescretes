@@ -2,7 +2,7 @@
   "storia": {
     "hero": {
       "title": "Notre histoire parle de légende et de philosophie de vie",
-      "img": "/assets/storia.jpg"
+      "img": "/assets/storia.webp"
     },
     "section1": {
       "paragrafi": [
@@ -52,7 +52,7 @@
       "title": "Notre philosophie",
       "descrizione": [
         {
-          "p": "L’entreprise Les Crêtes produit <a href='/vini' title='i vini di Les Cretes' class='underline font-bold'>ses vins</a> dans un contexte alpin, qui se développe au pied du Mont Blanc, caractérisé par des montagnes élevées, des pentes sableuses et des températures froides. Le microclimat frais, sec et ventilé se caractérise par des sols d’origine morainique, drainants et à forte composante minérale."
+          "p": "L’entreprise Les Crêtes produit <a href='/vini' title='i vini di Les Cretes' class='font-bold underline'>ses vins</a> dans un contexte alpin, qui se développe au pied du Mont Blanc, caractérisé par des montagnes élevées, des pentes sableuses et des températures froides. Le microclimat frais, sec et ventilé se caractérise par des sols d’origine morainique, drainants et à forte composante minérale."
         },
         {
           "p": "L’attention à l’environnement et les techniques de culture sont des aspects fondamentaux pour notre réalité. Celle-ci a un lien intrinsèque et focalisé avec l’habitat environnant. Chaque activité est réalisée avec le plus grand dévouement et soin, en relation à la qualité et à la passion qui nous distingue."

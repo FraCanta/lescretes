@@ -7,6 +7,7 @@ import {
   parseCountry,
 } from "react-international-phone";
 import "react-international-phone/style.css";
+import toast from "react-hot-toast";
 const countries = defaultCountries.filter((country) => {
   const { iso2 } = parseCountry(country);
   return ["it", "us", "gb", "fr", "de"].includes(iso2);
@@ -55,34 +56,37 @@ const FormPrenotazione = ({ deg }) => {
           body: JSON.stringify(formData),
         });
 
-        const { error } = await res.json();
+        // const { error } = await res.json();
 
-        if (error) {
-          setForm({
-            state: "error",
-            message: error,
+        // if (error) {
+        //   setForm({
+        //     state: "error",
+        //     message: error,
+        //   });
+        //   return;
+        // }
+
+        // setForm({
+        //   state: "Fatto",
+        //   message:
+        //     "Il tuo messaggio è stato inviato. Grazie per averci contattato!",
+        // });
+
+        if (res.status === 200) {
+          setInputs({
+            name: "",
+            surname: "",
+            email: "",
+            phone: "",
+            message: "",
           });
-          return;
+          setCheckedGift(false);
+          toast.success(
+            `Hey ${inputs.name} your message was sent successfully`
+          );
         }
-
-        setForm({
-          state: "Fatto",
-          message:
-            "Il tuo messaggio è stato inviato. Grazie per averci contattato!",
-        });
-        setInputs({
-          name: "",
-          surname: "",
-          email: "",
-          phone: "",
-          message: "",
-        });
-        setCheckedGift(false);
       } catch (error) {
-        setForm({
-          state: "Errore",
-          message: "Qualcosa è andato storto",
-        });
+        toast.error(`Hey ${inputs.name} your message wasn't sent successfully`);
       }
     }
   };

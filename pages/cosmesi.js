@@ -1,6 +1,6 @@
 import HeroHome2 from "@/components/heroHome/HeroHome2";
 import React from "react";
-import Cosmetico from "@/public/assets/cosmesi_hero.png";
+import Cosmetico from "@/public/assets/cosmesi_hero.webp";
 import Head from "next/head";
 import cosmesiIT from "../public/locales/it/cosmesi.json";
 import cosmesiEN from "../public/locales/en/cosmesi.json";
@@ -12,9 +12,9 @@ import cosmesiRU from "../public/locales/ru/cosmesi.json";
 import cosmesiZH from "../public/locales/zh/cosmesi.json";
 import Cards from "@/components/Cards/Cards";
 import Image from "next/image";
-import Nature from "@/public/assets/cosmetici/bio.jpg";
-import Notest from "@/public/assets/cosmetici/notest2.jpg";
-import Package from "@/public/assets/cosmetici/bio_pack.jpg";
+import Nature from "@/public/assets/cosmetici/natural.webp";
+import Notest from "@/public/assets/cosmetici/notest3.webp";
+import Package from "@/public/assets/cosmetici/bio_pack3.webp";
 const Cosmesi = ({ translation }) => {
   return (
     <>
@@ -28,7 +28,7 @@ const Cosmesi = ({ translation }) => {
         />
       </div>
       <div className="w-[90%] min-h-screen flex-col justify-start items-center gap-[60px]  flex mx-auto py-10 ">
-        <div className="flex flex-col gap-8  text-main/80 text-xl font-normal  fxl:text-2xl">
+        <div className="flex flex-col gap-8 text-xl font-normal text-main/80 fxl:text-2xl">
           <p>
             La linea cosmetica DeVin presenta la sua innovativa formula naturale
             con attivi biologici all’olio di vinaccioli, polifenoli dell’uva e
@@ -37,7 +37,7 @@ const Cosmesi = ({ translation }) => {
             rinunciare all’efficacia degli estratti attivi naturali del terroir
             di montagna, isolati e sviluppati con le più avanzate tecnologie.
           </p>
-          <h2 className="text-main text-3xl  md:text-5xl font-bold fxl:text-5xl">
+          <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-5xl">
             Indicazioni e benefici
           </h2>
           <p>
@@ -48,7 +48,7 @@ const Cosmesi = ({ translation }) => {
             benefici nutrienti e restituendo al viso il suo naturale splendore.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
           {translation?.cards?.map((el, i) => {
             return (
               <Cards
@@ -63,55 +63,55 @@ const Cosmesi = ({ translation }) => {
         </div>
 
         <div className="w-full flex-col   gap-[60px] flex">
-          <h2 className="text-main md:text-6xl text-3xl font-bold ">
+          <h2 className="text-3xl font-bold text-main md:text-6xl ">
             Prenditi cura di te stesso e della natura attorno
           </h2>
-          <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
-            <div className="flex-col  flex relative">
+          <div className="grid grid-cols-1 gap-8 uppercase xl:grid-cols-3">
+            <div className="relative flex flex-col">
               <Image
-                className="object-cover aspect-square rounded-md"
+                className="object-cover rounded-md aspect-square"
                 src={Nature}
               />
-              <p className="text-center text-neutral-600 text-[22.20px] font-['MinervaModern'] leading-[50.20px]">
+              <p className="text-center text-neutral-600 text-[22.20px] font-bold font-['MinervaModern'] leading-[50.20px]">
                 Ingredienti naturali
               </p>
             </div>
             <div className="flex-col justify-start items-center gap-[15px] inline-flex">
-              <div className="flex-col  flex">
+              <div className="flex flex-col">
                 <Image
-                  className="object-cover aspect-square rounded-md"
+                  className="object-cover rounded-md aspect-square"
                   src={Notest}
                 />
-                <div className="text-center text-neutral-600 text-[22.20px] font-['MinervaModern'] leading-[50.20px]">
+                <p className="text-center text-neutral-600 font-bold text-[22.20px] font-['MinervaModern'] leading-[50.20px]">
                   No test sugli animali
-                </div>
+                </p>
               </div>
             </div>
             <div className="flex-col justify-start items-center gap-[15px] inline-flex">
-              <div className="flex-col  flex">
+              <div className="flex flex-col">
                 <Image
-                  className="object-cover aspect-square rounded-md"
+                  className="object-cover rounded-md aspect-square"
                   src={Package}
                 />
-                <div className="text-center text-neutral-600 text-[22.20px] font-['MinervaModern'] leading-[50.20px]">
+                <p className="text-center text-neutral-600 font-bold text-[22.20px] font-['MinervaModern'] leading-[50.20px]">
                   Bio Packaging
-                </div>
+                </p>
               </div>
             </div>
           </div>
-          <h2 className="text-main md:text-5xl text-3xl font-bold ">
+          <h2 className="text-3xl font-bold text-main md:text-5xl ">
             Principali principi attivi della linea DeVin
           </h2>
           <div className="flex flex-col gap-4">
-            <div className="collapse collapse-plus  bg-second">
+            <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-xl font-black fxl:text-3xl">
+                <h3 className="text-xl font-black text-main fxl:text-3xl">
                   Olio di vinaccioli
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
+                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
                   L’olio di vinaccioli, ottenuto tramite il procedimento di
                   spremitura a freddo, si estrae dai semi dell’uva,
                   rigorosamente senza l’impiego di solventi chimici. I semi di
@@ -131,12 +131,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-xl font-black fxl:text-3xl">
+                <h3 className="text-xl font-black text-main fxl:text-3xl">
                   Glicerina vegetale
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
+                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
                   Composto organico nella cui struttura sono presenti tre gruppi
                   molto affini all’acqua. Il suo ruolo è quello di mantenere una
                   corretta idratazione poiché ha la facoltà di trattenere e
@@ -149,12 +149,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-xl font-black fxl:text-3xl">
+                <h3 className="text-xl font-black text-main fxl:text-3xl">
                   Estratto di camomilla biologica (fiori)
                 </h3>
               </div>
               <div className="collapse-content">
-                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
+                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
                   Una vera ricchezza della natura, con azione lenitiva,
                   emolliente e protettiva. Offre uno scudo di difesa contro gli
                   agenti atmosferici aggressivi, per un immediato effetto di
@@ -166,12 +166,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-xl font-black fxl:text-3xl">
+                <h3 className="text-xl font-black text-main fxl:text-3xl">
                   NMF ricostituito (Natural Moisturizing Factor)
                 </h3>
               </div>
               <div className="collapse-content">
-                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
+                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
                   Preziosa miscela idratante composta da sali (di Magnesio,
                   Manganese, Zinco, Calcio) legati al PCA, zuccheri, aminoacidi
                   (tra cui la prolina, amminoacido fondamentale per la sintesi
@@ -194,12 +194,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-xl font-black fxl:text-3xl">
+                <h3 className="text-xl font-black text-main fxl:text-3xl">
                   Polisaccaride, protettivo effetto barriera.{" "}
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
+                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
                   Alcuni microrganismi batterici vegetali auto producono dei
                   polisaccaridi ad elevato peso molecolare, per migliorare le
                   loro capacità di difesa e le loro possibilità di
@@ -216,12 +216,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-xl font-black fxl:text-3xl">
+                <h3 className="text-xl font-black text-main fxl:text-3xl">
                   Alghe marine{" "}
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
+                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
                   Ricche in mucillagini (tra cui alginati), sali minerali, con
                   un’azione emolliente, idratante, ammorbidente, protettiva,
                   ideale per pelli secche.
@@ -232,12 +232,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-xl font-black fxl:text-3xl">
+                <h3 className="text-xl font-black text-main fxl:text-3xl">
                   Acido ialuronico{" "}
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
+                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
                   Molecola idratante per eccellenza, naturalmente presente nella
                   pelle per trattenere acqua nei tessuti. Il suo compito è
                   mantenere la pelle elastica, tesa e idratata e di aumentarne
@@ -251,12 +251,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-xl font-black fxl:text-3xl">
+                <h3 className="text-xl font-black text-main fxl:text-3xl">
                   Collagene idrolizzato
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
+                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
                   Proteina della bellezza, con funzione di sostegno strutturale
                   e capacità di intrappolare acqua nei tessuti. Determina
                   l’aspetto teso, elastico e compatto della pelle. Viene
@@ -270,12 +270,12 @@ const Cosmesi = ({ translation }) => {
             <div className="collapse collapse-plus bg-second">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title">
-                <h3 className="text-main text-xl font-black fxl:text-3xl">
+                <h3 className="text-xl font-black text-main fxl:text-3xl">
                   Estratto di avena biologica
                 </h3>
               </div>
               <div className="collapse-content ">
-                <p className="text-main/80 text-lg font-normal fxl:text-2xl">
+                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
                   Altamente dermocompatibile, contrasta l’invecchiamento
                   cutaneo, idrata e potenzia la naturale rigenerazione
                   cellulare. Forma un velo di protezione che rede la pelle

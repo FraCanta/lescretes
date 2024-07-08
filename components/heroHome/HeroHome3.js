@@ -12,7 +12,7 @@ const HeroHome3 = ({ translation }) => {
         key="heroHome3"
         className="w-[90%] h-full flex-col justify-end items-start flex mx-auto py-10 md:py-20 "
         style={{
-          backgroundImage: 'url("/assets/coteau.webp")', // sostituisci con il percorso dell'immagine
+          backgroundImage: 'url("/assets/coteau2.webp")', // sostituisci con il percorso dell'immagine
           backgroundSize: "cover",
           width: "100%",
           height: "100vh",

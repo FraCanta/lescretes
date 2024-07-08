@@ -55,7 +55,7 @@ const Vini = ({ translation }) => {
         <div className="w-[90%] mx-auto py-10 xl:p-20 lg:text-center flex flex-col gap-10 justify-center items-center">
           <div className="relative w-full aspect-square lg:aspect-video ">
             <Image
-              src="/assets/lc3.jpg"
+              src="/assets/lc3.webp"
               alt="les cretes family"
               fill
               className="object-cover object-[-130px] lg:object-center lg:object-contain"
@@ -100,7 +100,7 @@ const Vini = ({ translation }) => {
           <div className="w-full gap-10">
             <div className="relative w-full aspect-square lg:aspect-video ">
               <Image
-                src="/assets/lc2.jpg"
+                src="/assets/lc2.webp"
                 alt="les cretes family"
                 fill
                 className="object-cover"
@@ -151,7 +151,7 @@ const Vini = ({ translation }) => {
               <SwiperSlide>
                 <div className="relative w-full aspect-square lg:h-screen">
                   <Image
-                    src="/assets/lc4.jpg"
+                    src="/assets/lc4.webp"
                     alt="les cretes family"
                     fill
                     className="object-cover object-top"
@@ -161,7 +161,7 @@ const Vini = ({ translation }) => {
               <SwiperSlide>
                 <div className="relative w-full aspect-square lg:h-screen">
                   <Image
-                    src="/assets/lc5.jpg"
+                    src="/assets/lc5.webp"
                     alt="les cretes family"
                     fill
                     className="object-cover object-right"
@@ -171,7 +171,7 @@ const Vini = ({ translation }) => {
               <SwiperSlide>
                 <div className="relative w-full aspect-square lg:h-screen">
                   <Image
-                    src="/assets/lc6.jpg"
+                    src="/assets/lc6.webp"
                     alt="les cretes family"
                     fill
                     className="object-cover"

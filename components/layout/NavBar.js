@@ -5,10 +5,8 @@ import { useRouter } from "next/router";
 import Logo from "@/public/logo/logo.png";
 import Mobile from "./mobile";
 import { motion, AnimatePresence } from "framer-motion";
-
-import CtaPrimary from "../Cta/CtaPrimary";
 import { Icon } from "@iconify/react";
-import CtaOutlineBrown from "../Cta/CtaOutlineBrown";
+
 const NavBar = ({ translation }) => {
   const { locale, pathname } = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);

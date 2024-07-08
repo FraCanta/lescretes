@@ -2,7 +2,7 @@
   "storia": {
     "hero": {
       "title": "Ours is a story about legend and philosophy of life",
-      "img": "/assets/storia.jpg"
+      "img": "/assets/storia.webp"
     },
     "section1": {
       "paragrafi": [
@@ -52,7 +52,7 @@
       "title": "Our philosophy",
       "descrizione": [
         {
-          "p": "The company Les Crêtes produces <a href='/vini' title='i vini di Les Cretes' class='underline font-bold'> its wines</a> in an alpine context, which develops at the foot of Mont Blanc, characterized by high mountains, sandy slopes and cold temperatures. The fresh, dry and ventilated microclimate is characterized by soils of morainic origin, draining and with a strong mineral component."
+          "p": "The company Les Crêtes produces <a href='/vini' title='i vini di Les Cretes' class='font-bold underline'> its wines</a> in an alpine context, which develops at the foot of Mont Blanc, characterized by high mountains, sandy slopes and cold temperatures. The fresh, dry and ventilated microclimate is characterized by soils of morainic origin, draining and with a strong mineral component."
         },
         {
           "p": "Attention to the environment and cultivation techniques are fundamental aspects for our reality. This has an intrinsic and focused link with the surrounding habitat. Every activity is carried out with the utmost dedication and care, in relation to the quality and passion that distinguishes us."

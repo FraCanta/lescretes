@@ -2,7 +2,7 @@
   "storia": {
     "hero": {
       "title": "La nostra è una storia che parla di leggenda e filosofia di vita",
-      "img": "/assets/storia.jpg"
+      "img": "/assets/storia.webp"
     },
     "section1": {
       "paragrafi": [
@@ -52,7 +52,7 @@
       "title": "La nostra filosofia",
       "descrizione": [
         {
-          "p": "L’azienda Les Crêtes produce <a href='/vini' title='i vini di Les Cretes' class='underline font-bold'>i suoi vini</a> in un contesto alpino, che si sviluppa ai piedi del Monte Bianco, caratterizzato da montagne elevate, pendenze sabbiose e temperature rigide. Il microclima fresco, secco e ventilato è caratterizzato da suoli di origine morenica, drenanti e a forte componente minerale."
+          "p": "L’azienda Les Crêtes produce <a href='/vini' title='i vini di Les Cretes' class='font-bold underline'>i suoi vini</a> in un contesto alpino, che si sviluppa ai piedi del Monte Bianco, caratterizzato da montagne elevate, pendenze sabbiose e temperature rigide. Il microclima fresco, secco e ventilato è caratterizzato da suoli di origine morenica, drenanti e a forte componente minerale."
         },
         {
           "p": "L’attenzione all’ambiente e le tecniche di coltivazione sono aspetti fondamentali per la nostra realtà. Questa ha un legame intrinseco e focalizzato con l’habitat circostante. Ogni attività viene svolta con la massima dedizione e cura, in relazione alla qualità e alla passione che ci contraddistingue."

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Pattern from "@/public/assets/pattern3.png";
-import Cosmesi from "@/public/assets/cosmesi.jpg";
+import Cosmesi from "@/public/assets/cosmesi.webp";
 import CtaWhite from "../Cta/CtaWhite";
 
 const Sections6 = ({ translation }) => {
@@ -12,8 +12,8 @@ const Sections6 = ({ translation }) => {
         <h2 className="w-full  text-white text-[40px] md:text-6xl 2xl:text-[64px] fxl:text-[80px] font-bold 3xl:text-7xl">
           {translation.title}
         </h2>
-        <div className="w-full  ">
-          <p className="text-white/80 text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal">
+        <div className="w-full ">
+          <p className="text-xl font-normal text-white/80 md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">
             {translation.descrizione}
           </p>
         </div>
@@ -24,13 +24,13 @@ const Sections6 = ({ translation }) => {
           <Image
             src={Pattern}
             fill
-            className="object-cover opacity-10  mix-blend-luminosity"
+            className="object-cover opacity-10 mix-blend-luminosity"
           />
         </div>
       </div>
-      <div className="w-full aspect-square  h-full">
+      <div className="w-full h-full aspect-square">
         <Image
-          className="w-full h-full object-cover"
+          className="object-cover w-full h-full"
           width={500}
           height={500}
           src={Cosmesi}

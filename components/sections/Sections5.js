@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Pattern from "@/public/assets/pattern3.png";
-import Eco from "@/public/assets/eco.jpg";
+import Eco from "@/public/assets/eco.webp";
 const Sections5 = ({ translation }) => {
   return (
     <>

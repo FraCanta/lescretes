@@ -1,4 +1,6 @@
+import { render } from "@react-email/components";
 import nodemailer from "nodemailer";
+import { Email } from "../../components/contactForm/email";
 
 export default async function mailer(req, res) {
   const { name, surname, email, phone, message, deg, gift } = req.body;
@@ -10,10 +12,10 @@ export default async function mailer(req, res) {
       //   user: process.env.SMTP_USER, se vogliamo inserire le credenziali su env
       //   pass: process.env.SMTP_PASSWORD,
       user: "thalliondev@gmail.com",
-      pass: "abtryarebjkirtkh",
+      pass: "lywb cntb nbqm uckr",
     },
   });
-
+  const emailHtml = render(<Email url="https://example.com" />);
   try {
     await transporter.sendMail({
       from: `${email}`,
@@ -21,32 +23,7 @@ export default async function mailer(req, res) {
       // cc: ["elena@lescretes.it", "corti.giulio@gmail.com"],
       subject: `${name}  ${surname} ${deg} `,
 
-      html: ` 
-      
-
-
-<div >
-<div style="font-size:16px; margin-top: 20px">Ho sentito parlare di te tramite ${phone}.</div>
-<div style="font-size:16px; margin-top: 20px">Sono ${name} ,</div>
-<div style="font-size:16px; padding:4px; margin-bottom:20px;">
-${message}
-</div>
-<div>
-${gift ? "🎁 Voglio fare un regalo" : ""}
-Referenze del contatto: 
-</div>
-
-<ul>
-<li>
-${email}
-</li></ul>
-
-</div>
-‍
-
-
-    </div>
-      `,
+      html: emailHtml,
     });
   } catch (error) {
     return res.status(500).json({ error: error.message || error.toString() });

@@ -71,7 +71,7 @@ const Mobile = ({ translation }) => {
               <motion.li variants={variants.item} animate="visibleItem">
                 <Link
                   href={`/`}
-                  title="Scopri chi sono e cosa posso fare per te"
+                  title="Torna alla Homepage"
                   className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
                     pathname === "/" ? "font-bold" : ""
                   }`}
@@ -131,7 +131,7 @@ const Mobile = ({ translation }) => {
               <motion.li variants={variants.item} animate="visibleItem">
                 <Link
                   href={`/i-vini`}
-                  title="Guarda tutti i miei casi studio"
+                  title="I vini di Les Crêtes"
                   className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
                     pathname === "/i-vini" ? "font-bold" : ""
                   }`}
@@ -163,23 +163,8 @@ const Mobile = ({ translation }) => {
             </motion.div> */}
               <motion.li variants={variants.item} animate="visibleItem">
                 <Link
-                  href={`/store`}
-                  title="I miei articoli"
-                  className={`menu-item flex  text-[25px] leading-[30px] font-regular text-main items-start gap-1 ${
-                    pathname === "/store" ? "font-bold" : ""
-                  }`}
-                >
-                  <Icon
-                    icon="line-md:map-marker-alt-filled"
-                    className="w-6 h-6"
-                  />
-                  {translation?.[locale]?.store}
-                </Link>
-              </motion.li>
-              <motion.li variants={variants.item} animate="visibleItem">
-                <Link
                   href={`/cosmesi`}
-                  title="I miei articoli"
+                  title="DeVin cosmesi"
                   className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
                     pathname === "/cosmesi" ? "font-bold" : ""
                   }`}
@@ -213,9 +198,30 @@ const Mobile = ({ translation }) => {
               </Link>
             </motion.div> */}
               <motion.li variants={variants.item} animate="visibleItem">
-                <CtaOutlineBrown link="/contatti">
+                <Link
+                  href="/contatti"
+                  title="Come raggiungerci e contattarci"
+                  className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
+                    pathname === "/contatti" ? "font-bold" : ""
+                  }`}
+                >
                   {translation?.[locale]?.contatti}
-                </CtaOutlineBrown>
+                </Link>
+              </motion.li>
+              <motion.li variants={variants.item} animate="visibleItem">
+                <Link
+                  href={`/store-locator`}
+                  title="Dove comprare e trovare i vini"
+                  className={`menu-item flex  text-[25px] leading-[30px] font-regular text-main items-start gap-1 ${
+                    pathname === "/store-locator" ? "font-bold" : ""
+                  }`}
+                >
+                  <Icon
+                    icon="line-md:map-marker-alt-filled"
+                    className="w-6 h-6"
+                  />
+                  {translation?.[locale]?.store}
+                </Link>
               </motion.li>
               <motion.div
                 ariants={variants.item}

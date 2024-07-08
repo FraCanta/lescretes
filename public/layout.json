@@ -12,13 +12,13 @@
           },
           {
             "name": "Il Rifugio del Vino",
-            "imgSrc": "/assets/rifugio.jpg",
+            "imgSrc": "/assets/rifugio.webp",
             "link": "/il-rifugio-del-vino",
             "title": "il rifugio del vino"
           },
           {
             "name": "Il Terroir",
-            "imgSrc": "/assets/terroir.jpg",
+            "imgSrc": "/assets/terroir.webp",
             "link": "/il-terroir",
             "title": "il terroir"
           }

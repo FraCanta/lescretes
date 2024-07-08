@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import Family from "@/public/assets/family.jpg";
-import Rifugio from "@/public/assets/rifugio.jpg";
-import Terroir from "@/public/assets/terroir.jpg";
+import Family from "@/public/assets/family.webp";
+import Rifugio from "@/public/assets/rifugio.webp";
+import Terroir from "@/public/assets/terroir.webp";
 import Link from "next/link";
 
 const Sections2 = ({ translation }) => {
