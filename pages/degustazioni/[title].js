@@ -223,7 +223,7 @@ const SingleDeg = ({ deg, others }) => {
             </div>
           </div>
         ) : (
-          <div className="hidden p-8 lg:block">
+          <div className="hidden p-8 lg:block ">
             <div className="p-8 text-center xl:text-2xl 2xl:text-3xl bg-main">
               <h2 className="font-bold text-white uppercase">{deg.name}</h2>
             </div>
