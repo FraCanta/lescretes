@@ -101,7 +101,7 @@ const Vini = ({ translation }) => {
             <div className="relative w-full aspect-square lg:aspect-video ">
               <Image
                 src="/assets/lc2.webp"
-                alt="les cretes family"
+                alt="uomo che raccoglie uva"
                 fill
                 className="object-cover"
               />
@@ -151,8 +151,8 @@ const Vini = ({ translation }) => {
               <SwiperSlide>
                 <div className="relative w-full aspect-square lg:h-screen">
                   <Image
-                    src="/assets/lc4.webp"
-                    alt="les cretes family"
+                    src="/assets/lc9.webp"
+                    alt="vendemmia"
                     fill
                     className="object-cover object-top"
                   />
@@ -161,8 +161,8 @@ const Vini = ({ translation }) => {
               <SwiperSlide>
                 <div className="relative w-full aspect-square lg:h-screen">
                   <Image
-                    src="/assets/lc5.webp"
-                    alt="les cretes family"
+                    src="/assets/lc4.webp"
+                    alt="vendemmia"
                     fill
                     className="object-cover object-right"
                   />
@@ -171,8 +171,8 @@ const Vini = ({ translation }) => {
               <SwiperSlide>
                 <div className="relative w-full aspect-square lg:h-screen">
                   <Image
-                    src="/assets/lc6.webp"
-                    alt="les cretes family"
+                    src="/assets/lc10.webp"
+                    alt="vendemmia"
                     fill
                     className="object-cover"
                   />

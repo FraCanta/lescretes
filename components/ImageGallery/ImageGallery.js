@@ -8,16 +8,16 @@ import "swiper/css/effect-coverflow";
 import { EffectCoverflow } from "swiper/modules";
 import Image from "next/image";
 const images = [
-  "/assets/rifugio/rifugio1.jpg",
-  "/assets/rifugio/rifugio2.jpg",
-  "/assets/rifugio/rifugio3.jpg",
-  "/assets/rifugio/rifugio4.jpg",
-  "/assets/rifugio/rifugio5.jpg",
-  "/assets/rifugio/rifugio6.jpg",
-  "/assets/rifugio/rifugio7.jpg",
-  "/assets/rifugio/rifugio8.jpg",
-  "/assets/rifugio/rifugio9.jpg",
-  "/assets/rifugio/rifugio10.jpg",
+  "/assets/rifugio/rifugio1.webp",
+  "/assets/rifugio/rifugio2.webp",
+  "/assets/rifugio/rifugio3.webp",
+  "/assets/rifugio/rifugio4.webp",
+  "/assets/rifugio/rifugio5.webp",
+  "/assets/rifugio/rifugio6.webp",
+  "/assets/rifugio/rifugio7.webp",
+  "/assets/rifugio/rifugio8.webp",
+  "/assets/rifugio/rifugio9.webp",
+  "/assets/rifugio/rifugio10.webp",
 ];
 
 const ImageGallery = () => {

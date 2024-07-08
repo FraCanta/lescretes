@@ -15,7 +15,7 @@ import Link from "next/link";
 import Head from "next/head";
 import FAQ from "@/components/FAQ/FAQ";
 import Banner from "@/components/Banner/Banner";
-import Rif from "@/public/assets/rifugio.jpg";
+import Rif from "@/public/assets/rifugio.webp";
 
 const Degustazioni = ({ translation }) => {
   return (
@@ -31,14 +31,14 @@ const Degustazioni = ({ translation }) => {
           return (
             <div
               key={i}
-              className="flex flex-col gap-4 xl:text-center text-main text-xl font-normal fxl:text-2xl"
+              className="flex flex-col gap-4 text-xl font-normal xl:text-center text-main fxl:text-2xl"
             >
               <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
             </div>
           );
         })}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
           {translation?.cards?.map((el, i) => {
             return (
               <Cards
@@ -55,7 +55,7 @@ const Degustazioni = ({ translation }) => {
       </div>
       <div className="w-full min-h-[80vh] md:min-h-[50vh] xl:min-h-[60vh] flex flex-col justify-center bg-second   bg-pattern">
         <div className="w-[90%] h-full  mx-auto flex flex-col gap-4 md:gap-8 justify-center ">
-          <h3 className="text-main text-3xl xl:text-4xl font-bold">
+          <h3 className="text-3xl font-bold text-main xl:text-4xl">
             {translation.prenota.title}
           </h3>{" "}
           {translation.prenota.list.map((el, i) => {
@@ -75,7 +75,7 @@ const Degustazioni = ({ translation }) => {
         </div>
       </div>
       <div className="w-[90%] mx-auto my-[50px]">
-        <h2 className="text-6xl font-bold py-6">FAQs</h2>
+        <h2 className="py-6 text-6xl font-bold">FAQs</h2>
         <FAQ translation={translation.faq} />
       </div>
 

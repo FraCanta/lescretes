@@ -20,7 +20,7 @@ import Link from "next/link";
 import { FacebookShareButton, WhatsappShareButton } from "next-share";
 import { Icon } from "@iconify/react";
 import Banner from "@/components/Banner/Banner";
-import Deg from "@/public/assets/degustazione.png";
+import Deg from "@/public/assets/degustazione.webp";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 const SingleWine = ({ wine, others }) => {
   return (
@@ -52,10 +52,10 @@ const SingleWine = ({ wine, others }) => {
             </h3> */}
             <div className="grid grid-cols-1 md:grid-cols-2 w-full h-[80%] gap-4 xl:gap-2 fxl:gap-4">
               <ul className="flex flex-col justify-between gap-4 xl:gap-0">
-                <li className="flex gap-4 items-center">
+                <li className="flex items-center gap-4">
                   <Image
                     src={Denominazione}
-                    className="text-main w-8 h-10 fxl:w-12 fxl:h-16"
+                    className="w-8 h-10 text-main fxl:w-12 fxl:h-16"
                   />
                   <div className="flex flex-col fxl:gap-2">
                     <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
@@ -66,10 +66,10 @@ const SingleWine = ({ wine, others }) => {
                     </p>
                   </div>
                 </li>
-                <li className="flex gap-4 items-center">
+                <li className="flex items-center gap-4">
                   <Image
                     src={Vitigni}
-                    className="text-main w-8 h-10 fxl:w-12 fxl:h-16"
+                    className="w-8 h-10 text-main fxl:w-12 fxl:h-16"
                   />
                   <div className="flex flex-col fxl:gap-2">
                     <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
@@ -78,10 +78,10 @@ const SingleWine = ({ wine, others }) => {
                     <p className="text-main/70 fxl:text-xl">{wine.vitigni}</p>
                   </div>
                 </li>
-                <li className="flex gap-4 items-center">
+                <li className="flex items-center gap-4">
                   <Image
                     src={Tipologia}
-                    className="text-main w-8 h-10 fxl:w-12 fxl:h-14"
+                    className="w-8 h-10 text-main fxl:w-12 fxl:h-14"
                   />
                   <div className="flex flex-col fxl:gap-2">
                     <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
@@ -90,10 +90,10 @@ const SingleWine = ({ wine, others }) => {
                     <p className="text-main/70 fxl:text-xl">{wine.tipologia}</p>
                   </div>
                 </li>
-                <li className="flex gap-4 items-center">
+                <li className="flex items-center gap-4">
                   <Image
                     src={Gradazione}
-                    className="text-main w-8 h-10 fxl:w-12 fxl:h-14"
+                    className="w-8 h-10 text-main fxl:w-12 fxl:h-14"
                   />
                   <div className="flex flex-col fxl:gap-2">
                     <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
@@ -104,10 +104,10 @@ const SingleWine = ({ wine, others }) => {
                     </p>
                   </div>
                 </li>
-                <li className="flex gap-4 items-center">
+                <li className="flex items-center gap-4">
                   <Image
                     src={Type}
-                    className="text-main w-8 h-10 fxl:w-12 fxl:h-14"
+                    className="w-8 h-10 text-main fxl:w-12 fxl:h-14"
                   />
                   <div className="flex flex-col fxl:gap-2">
                     <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
@@ -118,10 +118,10 @@ const SingleWine = ({ wine, others }) => {
                 </li>
               </ul>
               <ul className="flex flex-col justify-between gap-4">
-                <li className="flex gap-4 items-center">
+                <li className="flex items-center gap-4">
                   <Image
                     src={Formati}
-                    className="text-main w-8 h-10 fxl:w-16 fxl:h-16"
+                    className="w-8 h-10 text-main fxl:w-16 fxl:h-16"
                   />
                   <div className="flex flex-col fxl:gap-2">
                     <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
@@ -130,10 +130,10 @@ const SingleWine = ({ wine, others }) => {
                     <p className="text-main/70 fxl:text-xl"> {wine.formato}</p>
                   </div>
                 </li>
-                <li className="flex gap-4 items-center">
+                <li className="flex items-center gap-4">
                   <Image
                     src={Vinificazione}
-                    className="text-main w-8 h-10 fxl:w-12 fxl:h-16"
+                    className="w-8 h-10 text-main fxl:w-12 fxl:h-16"
                   />
                   <div className="flex flex-col fxl:gap-2">
                     <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
@@ -145,10 +145,10 @@ const SingleWine = ({ wine, others }) => {
                     </p>
                   </div>
                 </li>
-                <li className="flex gap-4 items-center">
+                <li className="flex items-center gap-4">
                   <Image
                     src={Zona}
-                    className="text-main w-8 h-10 fxl:w-12 fxl:h-16"
+                    className="w-8 h-10 text-main fxl:w-12 fxl:h-16"
                   />
                   <div className="flex flex-col fxl:gap-2">
                     <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
@@ -157,10 +157,10 @@ const SingleWine = ({ wine, others }) => {
                     <p className="text-main/70 fxl:text-xl">{wine.zona}</p>
                   </div>
                 </li>
-                <li className="flex gap-4 items-center">
+                <li className="flex items-center gap-4">
                   <Image
                     src={Affinamento}
-                    className="text-main w-8 h-10 fxl:w-12 fxl:h-16"
+                    className="w-8 h-10 text-main fxl:w-12 fxl:h-16"
                   />
                   <div className="flex flex-col fxl:gap-2">
                     <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
@@ -171,10 +171,10 @@ const SingleWine = ({ wine, others }) => {
                     </p>
                   </div>
                 </li>
-                <li className="flex gap-4 items-center">
+                <li className="flex items-center gap-4">
                   <Image
                     src={Servizio}
-                    className="text-main w-8 h-10 fxl:w-12 fxl:h-16"
+                    className="w-8 h-10 text-main fxl:w-12 fxl:h-16"
                   />
                   <div className="flex flex-col fxl:gap-2">
                     <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
@@ -192,8 +192,8 @@ const SingleWine = ({ wine, others }) => {
         <TabWine tabs={wine.tabs} />
       </div>
       <div className="w-[90%] mx-auto py-6">
-        <div className="flex flex-col xl:flex-row w-full xl:justify-between gap-10">
-          <div className="flex flex-col xl:flex-row gap-6">
+        <div className="flex flex-col w-full gap-10 xl:flex-row xl:justify-between">
+          <div className="flex flex-col gap-6 xl:flex-row">
             <CtaOutlineBrown link={wine.download} download>
               Scheda vino
               <Icon icon="material-symbols:download" width={30} />
@@ -204,7 +204,7 @@ const SingleWine = ({ wine, others }) => {
             </CtaOutlineBrown>
           </div>
 
-          <div className="flex gap-6 items-center ">
+          <div className="flex items-center gap-6 ">
             <p className="text-lg xl:text-xl fxl:text-2xl text-main/80">
               Condividi su
             </p>
@@ -246,7 +246,7 @@ const SingleWine = ({ wine, others }) => {
       <div className="w-[90%] mx-auto pb-10">
         <h2 className="text-main text-[40px] font-bold mb-10">{wine.more}</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {others.map((otherWine) => (
             <div key={otherWine.name} className="flex flex-col items-center">
               <Link
@@ -281,7 +281,7 @@ const SingleWine = ({ wine, others }) => {
         btn1="Prenota subito"
         btn2="Scopri le proposte"
         link1="/contatti"
-        link2="/degustazioni"
+        link2="/le-degustazioni"
       />
     </>
   );

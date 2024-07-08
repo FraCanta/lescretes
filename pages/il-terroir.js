@@ -1,8 +1,8 @@
 import Hero from "@/components/heroHome/Hero";
 import React from "react";
-import Ter from "@/public/assets/terroir2.png";
+import Ter from "@/public/assets/terroir2.webp";
 import Banner from "@/components/Banner/Banner";
-import Wine from "@/public/assets/vinibanner.png";
+import Wine from "@/public/assets/vinibanner.webp";
 import Head from "next/head";
 import terroirIT from "@/public/locales/it/terroir.json";
 import terroirEN from "@/public/locales/en/terroir.json";
@@ -57,12 +57,12 @@ const Terroir = ({ translation }) => {
         <Hero img={Ter} text={translation.hero.title} />
       </div>
       <div className="w-[90%]  flex-col justify-start items-start gap-[50px] flex mx-auto py-20 fxl:gap-20">
-        <div className="flex-col justify-start items-start gap-10 flex">
+        <div className="flex flex-col items-start justify-start gap-10">
           {translation.intro.map((el, i) => {
             return (
               <div
                 key={i}
-                className=" text-main text-xl md:text-2xl 2xl:text-xl font-normal fxl:text-2xl flex flex-col gap-10 fxl:gap-16 3xl:text-4xl"
+                className="flex flex-col gap-10 text-xl font-normal text-main md:text-2xl 2xl:text-xl fxl:text-2xl fxl:gap-16 3xl:text-4xl"
               >
                 <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
               </div>
@@ -73,7 +73,7 @@ const Terroir = ({ translation }) => {
           return (
             <div
               key={i}
-              className="flex-col justify-start items-start gap-10  flex"
+              className="flex flex-col items-start justify-start gap-10"
             >
               <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold leading-[46px] 3xl:text-7xl">
                 {el.title}
@@ -82,7 +82,7 @@ const Terroir = ({ translation }) => {
                 return (
                   <div
                     key={i}
-                    className=" text-main text-xl md:text-2xl 2xl:text-xl font-normal fxl:text-2xl  flex flex-col gap-10 fxl:gap-16 3xl:text-4xl"
+                    className="flex flex-col gap-10 text-xl font-normal text-main md:text-2xl 2xl:text-xl fxl:text-2xl fxl:gap-16 3xl:text-4xl"
                   >
                     <p dangerouslySetInnerHTML={{ __html: para.p }}></p>
                   </div>

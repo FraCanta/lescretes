@@ -1,10 +1,10 @@
 import React from "react";
-import Rif from "@/public/assets/rifugio.jpg";
+import Rif from "@/public/assets/rifugio.webp";
 import Hero from "@/components/heroHome/Hero";
 import Head from "next/head";
 import ImageGallery from "@/components/ImageGallery/ImageGallery";
 import Banner from "@/components/Banner/Banner";
-import Deg from "@/public/assets/degustazione.png";
+import Deg from "@/public/assets/degustazione.webp";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 import rifugioIT from "@/public/locales/it/rifugio.json";
@@ -28,17 +28,17 @@ const Rifugio = ({ translation }) => {
         {translation.section1.map((el, i) => {
           return (
             <div
-              className="flex-col justify-start items-start gap-10 flex"
+              className="flex flex-col items-start justify-start gap-10"
               key={i}
             >
-              <h2 className="text-main text-3xl md:text-5xl font-bold fxl:text-6xl 3xl:text-7xl">
+              <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
                 {el.title}
               </h2>
               {el.descrizione.map((d, i) => {
                 return (
                   <div
                     key={i}
-                    className=" text-main/80 text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal flex flex-col gap-10"
+                    className="flex flex-col gap-10 text-xl font-normal text-main/80 md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal"
                   >
                     <p dangerouslySetInnerHTML={{ __html: d.p }}></p>
                   </div>
@@ -50,10 +50,10 @@ const Rifugio = ({ translation }) => {
       </div>
       <div className="w-full min-h-[40vh] flex flex-col justify-center bg-second   bg-pattern">
         <div className="w-[90%] h-full  mx-auto flex flex-col gap-4 md:gap-8 justify-center ">
-          <h3 className="text-main text-3xl md:text-4xl font-bold fxl:text-5xl 3xl:text-6xl">
+          <h3 className="text-3xl font-bold text-main md:text-4xl fxl:text-5xl 3xl:text-6xl">
             {translation.section2.title}
           </h3>
-          <ul className="flex flex-col gap-2 text-main/80 text-xl md:text-2xl xl:text-xl 3xl:text-3xl font-normal fxl:text-2xl">
+          <ul className="flex flex-col gap-2 text-xl font-normal text-main/80 md:text-2xl xl:text-xl 3xl:text-3xl fxl:text-2xl">
             {translation.section2.links.map((el, i) => {
               return (
                 <li key={i}>
@@ -72,11 +72,11 @@ const Rifugio = ({ translation }) => {
         </div>
       </div>
       <div className="w-[90%] mx-auto mt-10">
-        <div className="flex-col justify-start items-start gap-10 flex">
-          <h2 className="text-main text-3xl md:text-5xl font-bold fxl:text-6xl 3xl:text-7xl">
+        <div className="flex flex-col items-start justify-start gap-10">
+          <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
             {translation.section3.title}
           </h2>
-          <div className=" text-main/80 text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal flex flex-col gap-10">
+          <div className="flex flex-col gap-10 text-xl font-normal text-main/80 md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">
             <p
               dangerouslySetInnerHTML={{
                 __html: translation.section3.descrizione,
@@ -95,7 +95,7 @@ const Rifugio = ({ translation }) => {
         </div>
       </div>
       <div className="flex flex-col gap-4 fxl:gap-8 xl:py-20 mx-auto mt-14  w-[90%] lg:justify-center xl:items-center">
-        <h2 className="text-main text-3xl md:text-5xl font-bold fxl:text-6xl lg:text-center 3xl:text-7xl">
+        <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-6xl lg:text-center 3xl:text-7xl">
           {translation.gallery.title}
         </h2>
 

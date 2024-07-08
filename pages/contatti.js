@@ -5,7 +5,7 @@ import Hero from "@/components/heroHome/Hero";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
-import Rifugio from "@/public/assets/rifugio/rifugio10.jpg";
+import Rifugio from "@/public/assets/rifugio/rifugio10.webp";
 const Contatti = () => {
   return (
     <>
@@ -63,7 +63,7 @@ const Contatti = () => {
             </h3>
           </div>
           <div className="collapse-content">
-            <ul className="flex flex-col gap-2 text-xl  text-main/80">
+            <ul className="flex flex-col gap-2 text-xl text-main/80">
               <li className="flex flex-col gap-2 lg:flex-row lg:items-center">
                 <strong>- Commerciale Estero:</strong> ordini@lescretes.it{" "}
               </li>

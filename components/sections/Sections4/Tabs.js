@@ -146,12 +146,12 @@ const Tabs = ({ tabs }) => {
               </SwiperSlide>
             ))}
             <div className="relative block w-full mt-16 md:hidden">
-              <div class="swiper-pagination mt-10"></div>
+              <div className="mt-10 swiper-pagination"></div>
             </div>
           </Swiper>
         </motion.div>
       ))}
-      <div class="cursor hidden lg:fixed">
+      <div className="hidden cursor lg:fixed">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40px"

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import View from "@/public/assets/coteau3.webp";
-import Link from "next/link";
 const Sections3 = ({ translation }) => {
   return (
     <div className="w-[90%]  flex-col justify-start items-start gap-10  md:gap-20 xl:gap-[50px] fxl:gap-20 flex mx-auto">
