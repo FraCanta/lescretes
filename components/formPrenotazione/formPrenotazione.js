@@ -107,7 +107,7 @@ const FormPrenotazione = ({ deg, img }) => {
   };
 
   return (
-    <div className="container mx-auto bg-white xl:my-6">
+    <div className="container max-h-screen mx-auto overflow-y-auto bg-white xl:my-6">
       <div className="py-5 ">
         <form onSubmit={(e) => onSubmitForm(e)}>
           <div className="grid grid-cols-2 gap-6 xl:gap-10">
@@ -298,13 +298,15 @@ const FormPrenotazione = ({ deg, img }) => {
                     icon="mdi:present-outline"
                     className="w-5 h-5 text-main/95"
                   />
-                  <span className="text-xl text-main">*</span>
+                  <span className="hidden text-xl text-main xl:block">*</span>
                 </div>
               </label>
             </div>
           </div>
-          <br />
-          <p className="text-sm text-main/80">* Clicca se vuoi regalarlo</p>
+          <br className="hidden xl:block" />
+          <p className="hidden text-sm text-main/80 xl:block">
+            * Clicca se vuoi regalarlo
+          </p>
           <div className="flex justify-end mt-6">
             <input
               type="submit"
