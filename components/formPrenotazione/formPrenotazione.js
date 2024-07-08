@@ -107,7 +107,7 @@ const FormPrenotazione = ({ deg, img }) => {
   };
 
   return (
-    <div className="container max-h-screen mx-auto overflow-y-auto bg-white xl:my-6">
+    <div className="container mx-auto bg-white xl:my-6">
       <div className="py-5 ">
         <form onSubmit={(e) => onSubmitForm(e)}>
           <div className="grid grid-cols-2 gap-6 xl:gap-10">
