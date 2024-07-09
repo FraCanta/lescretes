@@ -34,7 +34,7 @@ const SingleDeg = ({ deg, others }) => {
         <meta name="og:description" content={deg.descrizione.content} />
         <meta
           property="og:image"
-          content={`https://lescretes-liard.vercel.app/assets/seo/tre.png`}
+          content={`https://lescretes-liard.vercel.app${deg.seo.seoImg}`}
         />
       </Head>
       <div className="min-h-[55vh] xl:min-h-[90vh] fxl:min-h-[90vh] w-full  mx-auto flex items-center justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main before:opacity-40 before:rounded-lg">
