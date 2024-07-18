@@ -13,12 +13,6 @@ const Cards = ({
   button,
   name,
 }) => {
-  const formattedPrice = price.toLocaleString("it-IT", {
-    style: "currency",
-    currency: "EUR",
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2,
-  });
   return (
     <>
       {link ? (
@@ -40,7 +34,7 @@ const Cards = ({
               <p className="text-lg text-center fxl:text-xl">{descrizione}</p>
               <div className="justify-center mt-4 border-t card-actions">
                 <p className="text-center py-4 font-bold text-[16px]">
-                  {formattedPrice}
+                  {price}
                 </p>
               </div>
             </div>

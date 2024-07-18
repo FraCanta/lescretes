@@ -347,7 +347,7 @@ export async function getStaticProps(context) {
         name: obj?.degustazioni?.singleDeg?.[el]?.name,
         img: obj?.degustazioni?.singleDeg?.[el]?.img,
         descrizione: obj?.degustazioni?.singleDeg?.[el]?.cardDesc,
-        price: obj?.degustazioni?.singleDeg?.[el]?.price,
+        price: obj?.degustazioni?.singleDeg?.[el]?.priceCard,
         link: el,
       };
     });
