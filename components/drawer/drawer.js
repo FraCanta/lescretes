@@ -72,11 +72,12 @@ const Drawer = ({ isOpen, onClose, deg, link, price, durata }) => {
           acquistabile solo online .
         </p> */}
         {/* <FormPrenotazione deg={deg} link={link} price={price} durata={durata} /> */}
-        <FormPrenotazione2
-          deg={deg}
-          link={link}
-          price={price}
-          durata={durata}
+        <FormPrenotazione
+          deg={deg.name}
+          link={deg.title}
+          price={deg.price}
+          durata={deg.durata?.tempo}
+          tipo={deg.degustazione.vini}
         />
       </motion.div>
     </>
