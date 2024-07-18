@@ -21,6 +21,12 @@
             "imgSrc": "/assets/terroir.webp",
             "link": "/il-terroir",
             "title": "il terroir"
+          },
+          {
+            "name": "La sostenibilità di Les Crêtes",
+            "imgSrc": "/assets/lc2.webp",
+            "link": "/sostenibilita",
+            "title": "la sostenibilità di Les Crêtes"
           }
         ]
       },

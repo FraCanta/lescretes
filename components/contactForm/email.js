@@ -16,6 +16,7 @@ import {
   Heading,
 } from "@react-email/components";
 import { Icon } from "@iconify/react";
+import { Span } from "next/dist/trace";
 
 export function Email(props) {
   const {
@@ -71,53 +72,103 @@ export function Email(props) {
             <Section>
               <Row>
                 <Column className="w-1/2">
-                  <Text>Nome della degustazione: {deg}</Text>
+                  <Text>
+                    <Span className="font-bold">Nome della degustazione:</Span>{" "}
+                    <Span>{deg}</Span>
+                  </Text>
                 </Column>
                 <Column>
-                  <Text>Data: {date}</Text>
-                  <Text>Orario scelto: {timeSlot}</Text>
+                  <Text>
+                    <Span className="font-bold">Data:</Span>
+                    <Span>{date}</Span>{" "}
+                  </Text>
+                  <Text>
+                    <Span className="font-bold">Orario scelto:</Span>
+                    <Span>{timeSlot}</Span>{" "}
+                  </Text>
                 </Column>
               </Row>
               <Hr className="border border-solid  my-[10px] mx-0 w-full" />
               <Row>
                 <Column>
-                  <Text>Lingua : {language}</Text>
-                  <Text>Adulti: {adultCount}</Text>
+                  <Text>
+                    <Span className="font-bold">Lingua :</Span>
+                    <Span>{language}</Span>
+                  </Text>
+                  <Text>
+                    <Span className="font-bold">Adulti:</Span>
+                    <Span>{adultCount}</Span>
+                  </Text>
                 </Column>
                 <Column>
-                  <Text>Tipologia: {tipo}</Text>
-                  <Text>Durata: {durata}</Text>
+                  <Text>
+                    <Span className="font-bold">Tipologia:</Span>{" "}
+                    <Span>{tipo}</Span>
+                  </Text>
+                  <Text>
+                    <Span className="font-bold">Durata:</Span>
+                    <Span>{durata}</Span>
+                  </Text>
+                </Column>
+              </Row>
+              <Hr className="border border-solid  my-[10px] mx-0 w-full" />
+
+              <Row>
+                <Column>
+                  <Text>
+                    <Span className="font-bold">Nome :</Span>
+                    <Span>{name}</Span>
+                  </Text>
+                  <Text>
+                    <Span className="font-bold">Email:</Span>{" "}
+                    <Span>{email}</Span>
+                  </Text>
+                </Column>
+                <Column>
+                  <Text>
+                    <Span className="font-bold">Cognome:</Span>
+                    <Span>{surname}</Span>
+                  </Text>
+                  <Text>
+                    <Span className="font-bold">Bambini:</Span>{" "}
+                    <Span>{numeroMinori ? numeroMinori : "0"}</Span>
+                  </Text>
                 </Column>
               </Row>
               <Hr className="border border-solid  my-[10px] mx-0 w-full" />
 
               <Row>
                 <Column>
-                  <Text>Nome : {name}</Text>
-                  <Text>Email: {email}</Text>
+                  <Text>
+                    <Span className="font-bold">Telefono :</Span>
+                    <Span>{phone}</Span>
+                  </Text>
+                  <Text>
+                    <Span className="font-bold">Cap:</Span> <Span>{cap}</Span>
+                  </Text>
                 </Column>
                 <Column>
-                  <Text>Cognome: {surname}</Text>
-                  <Text>Bambini: {numeroMinori ? numeroMinori : "0"}</Text>
+                  <Text>
+                    <Span className="font-bold">Nazione:</Span>
+                    <Span>{nation}</Span>
+                  </Text>
+                  <Text>
+                    <Span className="font-bold">Città:</Span>
+                    <Span>{city}</Span>
+                  </Text>
                 </Column>
               </Row>
               <Hr className="border border-solid  my-[10px] mx-0 w-full" />
 
               <Row>
-                <Column>
-                  <Text>Telefono : {phone}</Text>
-                  <Text>Cap: {cap}</Text>
-                </Column>
-                <Column>
-                  <Text>Nazione: {nation}</Text>
-                  <Text>Città: {city}</Text>
-                </Column>
-              </Row>
-              <Hr className="border border-solid  my-[10px] mx-0 w-full" />
-
-              <Row>
-                <Text>Regalo: {gift ? "Sì" : "No"}</Text>
-                <Text>Prezzo totale: {formattedPrice}</Text>
+                <Text>
+                  <Span className="font-bold">Regalo:</Span>{" "}
+                  <Span>{gift ? "Sì" : "No"}</Span>
+                </Text>
+                <Text>
+                  <Span className="font-bold">Prezzo totale:</Span>{" "}
+                  <Span>{formattedPrice}</Span>
+                </Text>
               </Row>
               <Row>
                 <Heading as="h2" className="font-bold">

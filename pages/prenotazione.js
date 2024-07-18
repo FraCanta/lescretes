@@ -62,8 +62,8 @@ const Prenotazione = () => {
   if (!formData) {
     return (
       <div className="relative flex items-center justify-center h-screen bg-pattern2">
-        <div className="w-[60%] mx-auto h-2/3 p-4 rounded shadow-lg ring ring-third/60 ">
-          <div className="flex flex-col items-center justify-center h-full space-y-6">
+        <div className="w-[90%] xl:w-[60%] mx-auto h-2/3 p-4 rounded shadow-lg ring ring-third/60 ">
+          <div className="flex flex-col items-center justify-center h-full space-y-6 text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="text-green-600 w-28 h-28"
@@ -78,12 +78,15 @@ const Prenotazione = () => {
                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>
-            <h1 className="text-6xl font-bold">Thank You !</h1>
+            <h1 className="text-4xl font-bold xl:text-6xl">Thank You !</h1>
             <p className="text-main">
               Grazie per la tua richiesta di prenotazione. Controlla tua email
               per il link di guida.
             </p>
-            <CtaPrimary link="/" title="Torna alla Home Page">
+            <CtaPrimary
+              link="/le-degustazioni"
+              title="Torna alla Pagina Degustazione"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-5 h-5 "
@@ -98,7 +101,7 @@ const Prenotazione = () => {
                   d="M7 16l-4-4m0 0l4-4m-4 4h18"
                 />
               </svg>
-              <span className="text-xl font-medium">Home</span>
+              <span className="text-xl font-medium">Torna indietro</span>
             </CtaPrimary>
           </div>
         </div>

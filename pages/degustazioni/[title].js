@@ -164,18 +164,13 @@ const SingleDeg = ({ deg, others }) => {
               ""
             )}
           </div>
-          {/* <div className="flex flex-col w-full gap-6 text-main">
-            <h2 className="text-main text-3xl xl:text-4xl font-bold  leading-[46px]">
-              {deg?.priceTitle}
-            </h2>
-            <p className="text-xl fxl:text-2xl text-main">{deg?.price}</p>
-          </div> */}
+
           {deg?.descrizione?.asterisco ? (
             <p className="text-main/60">{deg?.descrizione?.asterisco}</p>
           ) : (
             ""
           )}
-          <div className="flex justify-between w-full">
+          <div className="flex flex-wrap justify-between w-full gap-y-6">
             {deg.download ? (
               <CtaOutlineBrown link={deg.download}>
                 Scarica qui
@@ -225,9 +220,9 @@ const SingleDeg = ({ deg, others }) => {
               href={deg.prenotaBtn}
               target="_blank"
               title={"prenotazione"}
-              className="flex items-center justify-center text-[20px]  gap-2 text-center capitalize font-medium py-4 px-6   text-white hover:transition-all  bg-main w-full "
+              className="flex items-center justify-center text-[25px]  gap-2 text-center capitalize font-medium py-4 px-6   text-white hover:transition-all  bg-main w-full "
             >
-              Invia richiesta
+              Prenota ora
               <Icon
                 icon="mingcute:calendar-line"
                 color="white"
@@ -237,10 +232,9 @@ const SingleDeg = ({ deg, others }) => {
           ) : (
             <button
               onClick={handleDrawerToggle}
-              className="flex items-center justify-center text-[20px]  gap-2 text-center capitalize font-medium py-4 px-6   text-white hover:transition-all  bg-main w-full "
+              className="flex items-center justify-center text-[25px]  gap-2 text-center  font-medium py-4 px-6   text-white hover:transition-all  bg-main w-full "
             >
-              Invia richiesta
-              <Icon icon="icons8:buy" className="w-6 h-full" />
+              Prenota ora <Icon icon="oui:arrow-down" />
             </button>
           )}
         </div>
@@ -285,12 +279,6 @@ const SingleDeg = ({ deg, others }) => {
             <div className="p-4 text-center xl:text-2xl bg-main">
               <h2 className="font-bold text-white uppercase">{deg.name}</h2>
             </div>
-            {/* <div className="pt-6 ">
-              <p className="flex items-center gap-2 text-main/80">
-                <Icon icon="raphael:info" />
-                acquistabile solo online .
-              </p>
-            </div> */}
 
             <FormPrenotazione
               deg={deg.name}
@@ -299,67 +287,12 @@ const SingleDeg = ({ deg, others }) => {
               durata={deg.durata?.tempo}
               tipo={deg.degustazione.vini}
             />
-            {/* <FormPrenotazione2
-              deg={deg.name}
-              link={deg.title}
-              price={deg.price}
-              durata={deg.durata?.tempo}
-              tipo={deg.degustazione.vini}
-            /> */}
           </div>
         )}
       </div>
 
       <div className="w-full h-[1px] bg-second my-2"></div>
-      <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs">
-        {/* <div className="flex items-center gap-6 ">
-          <p className="text-xl fxl:text-2xl text-main">Condividi su</p>
-          <ul className="flex gap-6">
-            <li>
-              {" "}
-              <FacebookShareButton
-                url={`https://lescretes-liard.vercel.app/degustazioni/${deg?.title}`}
-                hashtag={"#lescretes"}
-              >
-                
-                <Icon
-                  icon="entypo-social:facebook"
-                  width={25}
-                  color="#4A4A49"
-                />
-              </FacebookShareButton>
-            </li>
-            <li className="text-[#757575]">
-              {" "}
-              <WhatsappShareButton
-                url={`https://lescretes-liard.vercel.app/degustazioni/${deg?.title}`}
-                separator="- "
-              >
-                <Icon
-                  icon="mingcute:whatsapp-fill"
-                  color="#4A4A49"
-                  width="25"
-                />
-              </WhatsappShareButton>
-            </li>
-          </ul>
-        </div> */}
-        {/* <ul className="px-6 py-2 max-w-max bg-main rounded-[30px]">
-          <li>
-            <Link href="/degustazioni" title="Back to Degustazioni"></Link>
-            <CtaPrimary link="/degustazioni">
-              {" "}
-              <Icon
-                icon="lets-icons:back"
-                className="w-4 h-4 mr-2 text-white stroke-current 2xl:w-6 2xl:h-6 3xl:w-8 3xl:h-8"
-              />{" "}
-              <p className="text-lg text-white xl:text-xl 3xl:text-3xl">
-                Torna alle Degustazioni
-              </p>
-            </CtaPrimary>
-          </li>
-        </ul> */}
-      </div>
+      <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs"></div>
       <div className="w-full bg-second">
         <div className="flex flex-col gap-10 py-20 text-center">
           <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl xl:w-[65%] mx-auto">

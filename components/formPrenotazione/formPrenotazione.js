@@ -306,7 +306,7 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo }) => {
               </div>
             </div>
 
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col col-span-2 gap-2 xl:col-span-1">
               <label className="font-bold text-main">Lingua Visita</label>
               <div className="grid grid-cols-3 gap-2">
                 <div className="flex items-center">
@@ -385,8 +385,8 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo }) => {
                 </div>
               </div>
             </div>
-            <span className="hidden text-lg text-main xl:block">
-              Vuoi regalarla?
+            <span className="text-lg text-main xl:block">
+              Vuoi fare un regalo?
             </span>
             <div className="flex items-center">
               <input

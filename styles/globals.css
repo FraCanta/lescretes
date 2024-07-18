@@ -46,6 +46,12 @@ span {
     background-repeat: no-repeat;
     background-position: bottom left;
   }
+  .bg-pattern3 {
+    background-image: url("../public/assets/pattern2.png");
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
 
   @media screen and (max-width: 640px) {
     .bg-pattern {

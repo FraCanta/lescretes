@@ -27,13 +27,8 @@ const Banner = ({ img, title, paragraph, btn1, btn2, link1, link2 }) => {
               {paragraph}
             </p>
             <div className="items-center gap-[28.76px] flex flex-col md:flex-row w-full h-full z-40">
-              <div className="flex justify-center w-full h-full lg:w-max">
-                <CtaWhite link={`${link1}`}>{btn1}</CtaWhite>
-              </div>
               <div className="flex justify-start w-full h-full lg:w-max">
-                {link2 ? (
-                  <CtaOutline link={`${link2}`}>{btn2}</CtaOutline>
-                ) : null}
+                <CtaOutline link={`${link2}`}>{btn2}</CtaOutline>
               </div>
             </div>
           </div>

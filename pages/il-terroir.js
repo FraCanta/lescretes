@@ -12,6 +12,7 @@ import terroirJP from "@/public/locales/jp/terroir.json";
 import terroirKO from "@/public/locales/ko/terroir.json";
 import terroirRU from "@/public/locales/ru/terroir.json";
 import terroirZH from "@/public/locales/zh/terroir.json";
+import Image from "next/image";
 const Terroir = ({ translation }) => {
   return (
     <>
@@ -96,8 +97,8 @@ const Terroir = ({ translation }) => {
       <Banner
         img={Wine}
         title={translation.banner.title}
-        btn1={translation.banner.btn}
-        link1={translation.banner.link}
+        btn2={translation.banner.btn2}
+        link2={translation.banner.link2}
       />
     </>
   );

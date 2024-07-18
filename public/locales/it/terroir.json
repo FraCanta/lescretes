@@ -63,8 +63,8 @@
     ],
     "banner": {
       "title": "Scopri la nostra selezione di vini. Potrai assaporare tutta la nostra esperienza.",
-      "btn": "Scopri di più",
-      "link": "/i-vini"
+      "btn2": "La nostra selezione di vini",
+      "link2": "/i-vini"
     }
   }
 }

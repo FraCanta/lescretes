@@ -57,7 +57,7 @@ const Drawer = ({ isOpen, onClose, deg, link, price, durata, tipo }) => {
         style={{
           zIndex: 999999,
         }}
-        className="fixed right-0 bottom-0 p-8 bg-white h-screen w-screen xl:w-[50vw] overflow-auto"
+        className="fixed right-0 bottom-0 p-4 xl:p-8 bg-white h-[90vh] w-screen xl:w-[50vw] overflow-auto"
       >
         {/* Contenuto del drawer, incluso il form */}
 

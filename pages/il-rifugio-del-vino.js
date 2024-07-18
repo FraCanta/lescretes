@@ -15,11 +15,12 @@ import rifugioJP from "@/public/locales/jp/rifugio.json";
 import rifugioKO from "@/public/locales/ko/rifugio.json";
 import rifugioRU from "@/public/locales/ru/rifugio.json";
 import rifugioZH from "@/public/locales/zh/rifugio.json";
+import Image from "next/image";
 const Rifugio = ({ translation }) => {
   return (
     <>
       <Head>
-        <title key="title">Il Rifugio del vino</title>
+        <title>{translation?.hero.title}</title>
       </Head>
       <div className="flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(80vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
         <Hero img={Rif} text={translation?.hero.title} />
@@ -48,6 +49,7 @@ const Rifugio = ({ translation }) => {
           );
         })}
       </div>
+
       <div className="w-full min-h-[40vh] flex flex-col justify-center bg-second   bg-pattern">
         <div className="w-[90%] h-full  mx-auto flex flex-col gap-4 md:gap-8 justify-center ">
           <h3 className="text-3xl font-bold text-main md:text-4xl fxl:text-5xl 3xl:text-6xl">
@@ -94,6 +96,7 @@ const Rifugio = ({ translation }) => {
           </div>
         </div>
       </div>
+
       <div className="flex flex-col gap-4 fxl:gap-8 xl:py-20 mx-auto mt-14  w-[90%] lg:justify-center xl:items-center">
         <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-6xl lg:text-center 3xl:text-7xl">
           {translation.gallery.title}
@@ -105,7 +108,6 @@ const Rifugio = ({ translation }) => {
         img={Deg}
         title={translation.banner.title}
         paragraph={translation.banner.paragraph}
-        btn1={translation.banner.btn1}
         btn2={translation.banner.btn2}
         link1={translation.banner.link1}
         link2={translation.banner.link2}

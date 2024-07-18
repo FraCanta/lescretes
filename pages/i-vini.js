@@ -23,7 +23,7 @@ const Vini = ({ translation }) => {
   return (
     <>
       <Head>
-        <title>Les Crêtes - vini</title>
+        <title>{translation?.hero?.title}</title>
       </Head>
       <div className="flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
         <HeroHome2

@@ -8,7 +8,7 @@ export const Layout = (props) => {
   return (
     <>
       <Toaster
-        position="bottom-right"
+        position="top-right"
         toastOptions={{
           duration: 3000,
           success: {
