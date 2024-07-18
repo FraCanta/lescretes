@@ -11,10 +11,22 @@ export default async function mailer(req, res) {
     phone,
     message,
     deg,
+    city,
+    cap,
+    dob,
+    nation,
     adultCount,
     language,
     gift,
+    numeroMinori,
+    timeSlot,
+    date,
+    tipo,
+    totalNumber,
+    durata,
   } = req.body;
+
+  console.log(req.body.timeSlot);
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
@@ -37,6 +49,16 @@ export default async function mailer(req, res) {
       message={message}
       adultCount={adultCount}
       language={language}
+      city={city}
+      cap={cap}
+      dob={dob}
+      nation={nation}
+      numeroMinori={numeroMinori}
+      timeSlot={timeSlot}
+      date={date}
+      tipo={tipo}
+      totalNumber={totalNumber}
+      durata={durata}
     />
   );
 
@@ -53,11 +75,12 @@ export default async function mailer(req, res) {
       language={language}
     />
   );
+
   try {
     await transporter.sendMail({
       from: `Les Crêtes degustazioni <thalliondev@gmail.com>`,
       to: ["thalliondev@gmail.com"],
-      subject: `Prenotazione degustazione: ${deg} `,
+      subject: `Richiesta prenotazione degustazione: ${deg} `,
       replyTo: `${email}`,
       html: emailHtml,
     });

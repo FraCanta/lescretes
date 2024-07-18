@@ -17,11 +17,12 @@ const NavBar = ({ translation }) => {
       <nav className="h-[60px] md:h-[100px] lg:h-[70px] xl:h-[90px] fxl:h-[100px] 3xl:h-[180px] 4xl:h-[250px] 3xl flex w-full items-center justify-between relative z-[999999] nav-scroll ">
         <div className="flex w-[90%] mx-auto justify-between items-center">
           <div>
-            <Link href={`/`} title="Torna all'homepage di Les Crêtes">
+            <Link href={`/`} title="Torna all'homepage di Les Crêtes" as="/">
               <Image
                 src={Logo}
                 alt="Logo di Les Crêtes"
                 className="w-[85px] md:w-[150px] lg:w-[110px] xl:w-[130px] 2xl:w-[120px] fxl:w-[150px] 3xl:w-[200px] 4xl:w-[300px]"
+                priority
               />
             </Link>
           </div>

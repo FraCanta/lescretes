@@ -3,10 +3,12 @@ import degustazioniIT from "../../public/locales/it/degustazioni.json";
 import degustazioniEN from "../../public/locales/en/degustazioni.json";
 import degustazioniFR from "../../public/locales/fr/degustazioni.json";
 import Image from "next/image";
-import Bicchiere from "@/public/assets/iconeperdegustazioni/bicchiere.svg";
-import Durata from "@/public/assets/iconeperdegustazioni/durata.svg";
-import Cantina from "@/public/assets/iconeperdegustazioni/cantina.svg";
-import Lingue from "@/public/assets/iconeperdegustazioni/lingue.svg";
+import Bicchiere from "@/public/assets/iconeperdegustazioni/bicchiere.png";
+import Durata from "@/public/assets/iconeperdegustazioni/durata.png";
+import Cantina from "@/public/assets/iconeperdegustazioni/visita.png";
+import Lingue from "@/public/assets/iconeperdegustazioni/lingua.png";
+import Gradi from "@/public/assets/iconeperdegustazioni/gradi.png";
+
 import Link from "next/link";
 import Head from "next/head";
 import { Icon } from "@iconify/react";
@@ -16,6 +18,7 @@ import CtaPrimary from "@/components/Cta/CtaPrimary";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 import FormPrenotazione from "@/components/formPrenotazione/formPrenotazione";
 import Cards from "@/components/Cards/Cards";
+import FormPrenotazione2 from "@/components/formPrenotazione/formPrenotazione2";
 
 const SingleDeg = ({ deg, others }) => {
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
@@ -26,6 +29,7 @@ const SingleDeg = ({ deg, others }) => {
   const handleCloseDrawer = () => {
     setIsDrawerOpen(false);
   };
+
   return (
     <>
       <Head>
@@ -48,24 +52,26 @@ const SingleDeg = ({ deg, others }) => {
           />
         </div>
         <div className=" flex flex-col xl:flex-row gap-4 xl:gap-0 justify-between w-[90%] translate-x-[6%]  absolute bottom-0 left-0   z-[999]">
-          <h1 className="text-white text-[40px] leading-[40px] md:text-5xl xl:text-7xl 2xl:text-8xl 2xl:leading-[70px] font-bold fxl:text-7xl uppercase lg:whitespace-nowrap">
+          <h1 className="text-white text-[40px]  leading-[40px] md:text-5xl xl:text-7xl 2xl:text-8xl 2xl:leading-[70px] font-bold fxl:text-7xl uppercase lg:whitespace-nowrap">
             {deg?.name}
           </h1>
         </div>
       </div>
-      <div className="w-full bg-[#F4F3EF]">
-        <div className="w-[90%] mx-auto flex gap-10  py-10 text-main flex-col lg:flex-row">
-          <div className="flex h-full ">
+      <div className="w-full bg-[#F4F3EF] ">
+        <div className="w-[90%] mx-auto flex gap-6 xl:gap-10  py-7 text-main flex-col lg:flex-row ">
+          <div className="flex items-center h-full">
             <Image
               src={Bicchiere}
               className="h-full w-9 fxl:w-20 "
               alt="bicchiere"
             />
-            <div className="flex flex-wrap items-center gap-2">
-              <h2 className="font-bold text-[18px] text-main fxl:text-2xl">
-                {deg.degustazione.title}:
+            <div className="flex flex-wrap items-center justify-center gap-2">
+              <h2 className="font-bold text-[18px] text-main fxl:text-2xl ">
+                {deg.degustazione.title}:{" "}
+                <span className="text-base font-regular">
+                  {deg.degustazione.vini}
+                </span>
               </h2>
-              <p className="text-[16px]">{deg.degustazione.vini}</p>
             </div>
           </div>
           <div className="flex items-center h-full">
@@ -76,37 +82,56 @@ const SingleDeg = ({ deg, others }) => {
             />
             <div className="flex flex-wrap items-center h-full gap-2">
               <h2 className="font-bold text-[18px] text-main">
-                {deg.durata?.title}:
+                {deg.durata?.title}:{" "}
+                <span className="text-base font-regular">
+                  {deg.durata?.tempo}
+                </span>
               </h2>
-              <p className="text-[16px]">{deg.durata?.tempo}</p>
             </div>
           </div>
           <div className="flex items-center h-full">
             <Image
               src={Cantina}
-              className="w-8 h-full fxl:w-12"
+              className="h-full w-9 fxl:w-12"
               alt="bicchiere"
             />
             <div className="flex items-center h-full gap-2">
               <h2 className="font-bold text-[18px] text-main">
-                {deg.visita?.title}:
+                {deg.visita?.title}:{" "}
+                <span className="text-base font-regular">
+                  {deg.visita?.cantina}
+                </span>
               </h2>
-              <p className="text-[16px]">{deg.visita?.cantina}</p>
             </div>
           </div>
-          <div className="flex items-center h-full">
+          <div className="flex items-center h-full gap-1">
             <Image src={Lingue} className="h-full w-9" alt="bicchiere" />
             <div className="flex flex-wrap items-center gap-2">
               <h2 className="font-bold text-[18px] text-main">
-                {deg.lingua?.title}:
+                {deg.lingua?.title}:{" "}
+                <span className="text-base font-regular">
+                  {deg.lingua.tipo}
+                </span>
               </h2>
-              <p className="text-[16px]">{deg.lingua.tipo}</p>
+            </div>
+          </div>
+          <div className="flex items-center h-full">
+            <Image
+              src={Gradi}
+              className="h-full w-9 fxl:w-12"
+              alt="bicchiere"
+            />
+            <div className="flex flex-wrap items-center gap-2">
+              <h2 className="font-bold text-[18px] text-main">
+                {deg.gradi?.title}:{" "}
+                <span className="text-base font-regular">{deg.gradi.tipo}</span>
+              </h2>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto gap-6 ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto gap-6 py-6">
         <div className="flex-col justify-start items-start gap-[34px] flex py-10">
           <h2 className="flex items-center gap-2 text-3xl font-bold text-main xl:text-4xl">
             {deg.descrizione.title}{" "}
@@ -139,27 +164,60 @@ const SingleDeg = ({ deg, others }) => {
               ""
             )}
           </div>
-          <div className="flex flex-col w-full gap-6 text-main">
+          {/* <div className="flex flex-col w-full gap-6 text-main">
             <h2 className="text-main text-3xl xl:text-4xl font-bold  leading-[46px]">
               {deg?.priceTitle}
             </h2>
             <p className="text-xl fxl:text-2xl text-main">{deg?.price}</p>
-          </div>
+          </div> */}
           {deg?.descrizione?.asterisco ? (
             <p className="text-main/60">{deg?.descrizione?.asterisco}</p>
           ) : (
             ""
           )}
-          {deg.download ? (
-            <CtaOutlineBrown link={deg.download}>
-              Scarica qui
-              <Icon
-                icon="material-symbols:download"
-                color="#4A4A49"
-                width={30}
-              />
-            </CtaOutlineBrown>
-          ) : null}
+          <div className="flex justify-between w-full">
+            {deg.download ? (
+              <CtaOutlineBrown link={deg.download}>
+                Scarica qui
+                <Icon
+                  icon="material-symbols:download"
+                  color="#4A4A49"
+                  width={30}
+                />
+              </CtaOutlineBrown>
+            ) : null}
+            <div className="flex items-center gap-6 ">
+              <p className="text-xl fxl:text-2xl text-main">Condividi su</p>
+              <ul className="flex gap-6">
+                <li>
+                  {" "}
+                  <FacebookShareButton
+                    url={`https://lescretes-liard.vercel.app/degustazioni/${deg?.title}`}
+                    hashtag={"#lescretes"}
+                  >
+                    <Icon
+                      icon="entypo-social:facebook"
+                      width={25}
+                      color="#4A4A49"
+                    />
+                  </FacebookShareButton>
+                </li>
+                <li className="text-[#757575]">
+                  {" "}
+                  <WhatsappShareButton
+                    url={`https://lescretes-liard.vercel.app/degustazioni/${deg?.title}`}
+                    separator="- "
+                  >
+                    <Icon
+                      icon="mingcute:whatsapp-fill"
+                      color="#4A4A49"
+                      width="25"
+                    />
+                  </WhatsappShareButton>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div className="fixed bottom-0 left-0 z-20 flex items-center w-full lg:hidden">
           {deg.prenotaBtn ? (
@@ -169,7 +227,7 @@ const SingleDeg = ({ deg, others }) => {
               title={"prenotazione"}
               className="flex items-center justify-center text-[20px]  gap-2 text-center capitalize font-medium py-4 px-6   text-white hover:transition-all  bg-main w-full "
             >
-              Prenota ora{" "}
+              Invia richiesta
               <Icon
                 icon="mingcute:calendar-line"
                 color="white"
@@ -181,12 +239,8 @@ const SingleDeg = ({ deg, others }) => {
               onClick={handleDrawerToggle}
               className="flex items-center justify-center text-[20px]  gap-2 text-center capitalize font-medium py-4 px-6   text-white hover:transition-all  bg-main w-full "
             >
-              Prenota ora
-              <Icon
-                icon="mingcute:calendar-line"
-                color="white"
-                className="w-5 h-5"
-              />
+              Invia richiesta
+              <Icon icon="icons8:buy" className="w-6 h-full" />
             </button>
           )}
         </div>
@@ -194,10 +248,14 @@ const SingleDeg = ({ deg, others }) => {
           isOpen={isDrawerOpen}
           onClose={handleCloseDrawer}
           deg={deg.name}
+          link={deg.title}
+          price={deg.price}
+          durata={deg.durata?.tempo}
+          tipo={deg.degustazione.vini}
         />
         {deg.prenotaBtn ? (
           <div className="flex flex-col w-full gap-6">
-            <h2 className="text-2xl font-bold">
+            <h2 className="py-6 text-2xl font-bold">
               La prenotazione a questa degustazione con percorso benessere
               avviene direttamente sulla piattaforma dell'hotel QC Terme.
             </h2>
@@ -223,19 +281,38 @@ const SingleDeg = ({ deg, others }) => {
             </div>
           </div>
         ) : (
-          <div className="hidden p-8 lg:block ">
-            <div className="p-8 text-center xl:text-2xl 2xl:text-3xl bg-main">
+          <div className="hidden p-4 lg:block w-[80%] mx-auto">
+            <div className="p-4 text-center xl:text-2xl bg-main">
               <h2 className="font-bold text-white uppercase">{deg.name}</h2>
             </div>
+            {/* <div className="pt-6 ">
+              <p className="flex items-center gap-2 text-main/80">
+                <Icon icon="raphael:info" />
+                acquistabile solo online .
+              </p>
+            </div> */}
 
-            <FormPrenotazione deg={deg.name} />
+            <FormPrenotazione
+              deg={deg.name}
+              link={deg.title}
+              price={deg.price}
+              durata={deg.durata?.tempo}
+              tipo={deg.degustazione.vini}
+            />
+            {/* <FormPrenotazione2
+              deg={deg.name}
+              link={deg.title}
+              price={deg.price}
+              durata={deg.durata?.tempo}
+              tipo={deg.degustazione.vini}
+            /> */}
           </div>
         )}
       </div>
 
       <div className="w-full h-[1px] bg-second my-2"></div>
       <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs">
-        <div className="flex items-center gap-6 ">
+        {/* <div className="flex items-center gap-6 ">
           <p className="text-xl fxl:text-2xl text-main">Condividi su</p>
           <ul className="flex gap-6">
             <li>
@@ -244,7 +321,7 @@ const SingleDeg = ({ deg, others }) => {
                 url={`https://lescretes-liard.vercel.app/degustazioni/${deg?.title}`}
                 hashtag={"#lescretes"}
               >
-                {/* <FacebookIcon size={32} round /> */}
+                
                 <Icon
                   icon="entypo-social:facebook"
                   width={25}
@@ -266,7 +343,7 @@ const SingleDeg = ({ deg, others }) => {
               </WhatsappShareButton>
             </li>
           </ul>
-        </div>
+        </div> */}
         {/* <ul className="px-6 py-2 max-w-max bg-main rounded-[30px]">
           <li>
             <Link href="/degustazioni" title="Back to Degustazioni"></Link>

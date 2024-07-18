@@ -170,46 +170,135 @@
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
-        "vitigni": "rosso, Merlot 100% ",
+        "vitigni": "Merlot 100% ",
         "tipologiaTitle": "Tipologia:",
-        "tipologia": "Merlot 100%",
+        "tipologia": "Rossi",
         "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "xx°",
+        "gradazione": "Alcol 14.5 % vol., 5.5 acidità totale g/l, 3.4 pH ",
         "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "grand ballon",
+        "bicchiere": "Grand Ballon",
         "formatoTitle": "Formati:",
         "formato": "75cl",
         "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "diraspatura delle uve refrigerate, fermentazione a bacca intera di 12 giorni a temperatura controllata (25 °C), con rimontaggi quotidiani. ",
+        "vinificazione": "Diraspatura delle uve refrigerate, fermentazione a bacca intera di 12 giorni a temperatura controllata (25 °C), con rimontaggi quotidiani. Affinamento di 18 mesi in barrique di rovere francese da 300L al 50% nuove e al 50% di secondo passaggio. Affinamento in bottiglia di 12 mesi.",
         "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Aymavilles",
+        "zona": "Aymavilles.  Età anni 25. Superficie 0,50 ha circa, controspalliera a Guyot; impianto di 7.500 piedi per ettaro. Resa 6.500 kg/ha. ",
         "affinamentoTitle": "Affinamento:",
         "affinamento": "Affinamento di 18 mesi in barrique di rovere francese da 300L al 50% nuove e  al 50% di secondo passaggio. Affinamento in bottiglia di 12 mesi.",
         "servizioTitle": "Servire a:",
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello  "
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
@@ -235,46 +324,87 @@
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
-        "vitigni": "rosso Cornalin 100% (varietà autoctona) ",
+        "vitigni": "Cornalin 100%",
         "tipologiaTitle": "Tipologia:",
-        "tipologia": "Cornalin 100%",
+        "tipologia": "Rossi",
         "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "xx°",
+        "gradazione": "Alcol 13.5% vol., 5.5 acidità totale g/l, pH 3.4",
         "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": " ballon piccolo",
+        "bicchiere": " Ballon piccolo",
         "formatoTitle": "Formati:",
         "formato": "75cl",
         "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": " pigiadiraspatura, 10 giorni di fermentazione in acciaio inox a temperatura controllata (23°C)",
+        "vinificazione": "Pigiadiraspatura, 10 giorni di fermentazione in acciaio inox a temperatura controllata (23°C)",
         "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Les Crêtes di Aymavilles",
+        "zona": "Les Crêtes di Aymavilles. Superficie 1 ettaro, sistema a Guyot, 7.000 piedi per ettaro, filari a ciglione e ritocchino. Resa 7000 kg/ha",
         "affinamentoTitle": "Affinamento:",
         "affinamento": "3 mesi in barriques di rovere di secondo passaggio da 300L, 3 mesi di affinamento in bottiglia",
         "servizioTitle": "Servire a:",
         "servizio": "16 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": " Jean Nicollier, viticoltore elvetico, riprese la produzione di questo antico vitigno valdostano sotto il sinonimo Humagne Rouge. Fu poi l’Institut Agricole Régional di Aosta che, negli anni ottanta, una volta individuate, identificate e moltiplicate alcune varietà autoctone, consolidò le virtù e la coltivazione del vitigno."
-            }
+            "content": [
+              {
+                "text": "Profumato, particolare ed armonico, il Cornalin è una varietà autoctona di origini antiche. Detta anche Corniola o Humagne Rouge, arrivò in Valle dalla Borgogna Iar, ne consolidò le virtù e la coltivazione."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2021",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2022",
+                "text": "L’annata 2022 è stata caratterizzata da un lungo periodo di caldo e siccità anomalo, che dagli inizi di Maggio si è protratto fino ad Ottobre inoltrato; questo clima particolare ha portato un anticipo di vendemmia di circa 20 giorni, per cui l’inizio è stato il 16 Agosto, con le basi spumanti. La vendemmia si è conclusa negli ultimi giorni di Ottobre con i rossi a maturazione tardiva Fumin e Nebbiolo. I vini di quest’annata sono dotati di grande concentrazione ed aromaticità, nelle vigne più antiche e con radici profonde, c’è stata una tenuta di acidità abbondante, che ha portato ad una grande complessità nelle riserve."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "Saltimbocca alla valdostana ai profumi alpini, robiola di capra, Duché d’Aoste, tagliatelle all’uovo al ragù di lepre"
-            }
+            "content": [
+              {
+                "text": "Saltimbocca alla valdostana ai profumi alpini, robiola di capra, Duché d’Aoste, tagliatelle all’uovo al ragù di lepre. "
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    [
+                      "Vini Buoni d’Italia – Touring Club Italiano",
+                      "2024",
+                      "3 stelle",
+                      "2022"
+                    ],
+                    [
+                      "Vini Buoni d’Italia – Touring Club Italiano",
+                      "2023",
+                      "3 stelle",
+                      "2021"
+                    ]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
@@ -300,46 +430,81 @@
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
-        "vitigni": "rosso, Fumin 100% (varietà autoctona)",
+        "vitigni": "Fumin 100%",
         "tipologiaTitle": "Tipologia:",
-        "tipologia": "Fumin 100%",
+        "tipologia": "Rossi",
         "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "xx°",
+        "gradazione": "Alcol 13.5% vol., 6 acidità totale g/l, 3.3 pH",
         "bicchiereTitle": "Tipologia di bicchiere:",
         "bicchiere": "grand ballon",
         "formatoTitle": "Formati:",
         "formato": "75cl",
         "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "diraspatura delle uve, fermentazione di 8/10 giorni in acciaio inox a temperatura controllata (22°C), con rimontaggi giornalieri",
+        "vinificazione": "Diraspatura delle uve, fermentazione di 8/10 giorni in acciaio inox a temperatura controllata (22°c), con rimontaggi giornalieri. ",
         "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "La Tour e Les Crêtes di Aymavilles. Età anni 34",
+        "zona": "La Tour e Les Crêtes di Aymavilles. Età anni 34. Sistema di allevamento Guyot; impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino.",
         "affinamentoTitle": "Affinamento:",
-        "affinamento": " Affinamento di 12 mesi in rovere francese da 300 L usate. Affinamento in bottiglia di 36 mesi.",
+        "affinamento": "Affinamento di 12 mesi in rovere francese da 300 l. usate. affinamento in bottiglia di 36 mesi. ",
         "servizioTitle": "Servire a:",
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "Questa riserva che nasce dal lungo affinamento del nostro autoctono Fumin, è dedicata al mulino storico di famiglia di Via Moulins che con le sue cantine ospita, dal 1700, anche La Cor. La Cor nell’architettura locale, era il cortile interno di un edificio, riservato alla produzione ed allo scambio alimentare. Questo spazio ricopriva un ruolo di grande importanza nell’economia locale dell’epoca, che non prevedeva molti scambi mercantili di tipo monetario, perché permetteva il commercio di diversi generi tramite il baratto. Il Mulino, oltre alle cantine, ricomprende due grandi macine in pietra per la spremitura dell’olio di noce, quelle per le farine e diversi attrezzi per la produzione di sidro e vino, ad oggi in ottimo stato di conservazione"
-            }
+            "content": [
+              {
+                "text": "Questa riserva nasce dal lungo affinamento del nostro autoctono Fumin. È dedicata al Mulino storico di famiglia di Via Moulins che con le sue cantine ospita, dal 1700, anche La Cor. La Cor nell'architettura locale, era il cortile interno di un edificio, riservato alla produzione ed allo scambio alimentare. Questo spazio ricopriva un ruolo di grande importanza nell'economia locale dell'epoca, che non prevedeva molti scambi mercatili di tipo monetario, permettendo il commercio dei diversi generi tramite il baratto. Il Mulino, oltre alle cantine, ricomprende due grandi macine in pietra per la spremitura dell'olio di noce, quelle per le farine e gli attrezzi per la produzione di sidro e vino, ad oggi in ottimo stato di conservazione."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "Cacciagione, carni frollate, Ivre de Fumin"
-            }
+            "content": [
+              {
+                "text": "Cacciagione, carni frollate, Ivre de Fumin."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    [
+                      "I vini di Veronelli  ",
+                      "2023",
+                      "Grande Esordio 94/100",
+                      "2018"
+                    ]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
@@ -365,46 +530,385 @@
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
-        "vitigni": "rosso, Fumin 100% (varietà autoctona)",
+        "vitigni": "Fumin 100%",
         "tipologiaTitle": "Tipologia:",
-        "tipologia": "Fumin 100%",
+        "tipologia": "Rossi",
         "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "xx°",
+        "gradazione": "Alcol 13% vol., acidità totale 6 g/l, pH 3.3",
         "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "grand ballon",
+        "bicchiere": "Grand ballon",
         "formatoTitle": "Formati:",
         "formato": "75cl",
         "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "diraspatura  delle  uve,  fermentazione  di  12  giorni  in  acciaio inox a temperatura controllata (24°C), con rimontaggi giornalieri.",
+        "vinificazione": "Diraspatura delle uve, fermentazione di 12 giorni in acciaio inox a temperatura controllata (24°C), con rimontaggi giornalieri.",
         "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "La Tour e Les Crêtes di Aymavilles. Età anni 30",
+        "zona": "La Tour di Aymavilles. Età anni 30. Superficie 2 ha, sistema Guyot; impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino. Resa 8.000 kg/ha. ",
         "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento di 12 mesi in rovere francese da 300 L. Affinamento in bottiglia di 6 mesi",
+        "affinamento": "Affinamento di 12 mesi in rovere francese da 300 L. Affinamento in bottiglia di 6 mesi.",
         "servizioTitle": "Servire a:",
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": " il nome Fumin deriva dal color grigio fumo dei suoi acini, ricchi di pruina. Tradizionalmente utilizzato nei tagli per l’intenso colore, rischia l’estinzione negli anni ‘70 quando, salvato dai vignerons locali, entra a far parte della Doc Valle d’Aosta. È vinificato per la prima volta in purezza da LesCretes nel 1993, rivelandosi un vino di grande eleganza, adatto al lungo affinamento in bottiglia "
-            }
+            "content": [
+              {
+                "text": "Intenso ed austero questo autoctono è il rosso più strutturato che ci regala la nostra terra. Il suo nome deriva dal color grigio fumo degli acini, ricchi di pruina. Tradizionalmente utilizzato nei tagli per l'intenso colore, rischia l'estinzione negli anni '70 quando, salvato dai Vignerons locali, entra a far parte della Doc Valle d'Aosta. Nel 1993, è vinificato per la prima volta in purezza da Les Crêtes, rivelandosi un vino di grande eleganza, adatto al lungo affinamento in bottiglia. "
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 1994",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2022",
+                "text": "L’annata 2022 è stata caratterizzata da un lungo periodo di caldo e siccità anomalo, che dagli inizi di maggio si è protratto fino ad ottobre inoltrato; questo clima particolare ha portato un anticipo di vendemmia di circa 20 giorni, per cui l’inizio è stato il 16 Agosto, con le basi spumanti. La vendemmia si è conclusa negli ultimi giorni di ottobre con i rossi a maturazione tardiva Fumin e Nebbiolo. I vini di quest’annata sono dotati di grande concentrazione ed aromaticità, nelle vigne più antiche e con radici profonde, c’è stata una tenuta di acidità abbondante, che ha portato ad una grande complessità nelle riserve."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "carbonada con polenta, mocetta di cervo, brasati di selvaggina"
-            }
+            "content": [
+              {
+                "text": "Carbonada con polenta, mocetta di cervo, brasati di selvaggina."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["James Suckling  ", "2023", "92 pts ", "2021"],
+                    [
+                      "Annuario dei migliori vini italiani - Luca Maroni",
+                      "2024",
+                      "95/100",
+                      "2021"
+                    ],
+                    [
+                      "Vini buoni d’Italia - Touring club Italiano",
+                      "2024",
+                      "4 stelle",
+                      "2021"
+                    ],
+                    [
+                      "Vini buoni d’Italia - Touring club Italiano",
+                      "2023",
+                      "CORONA",
+                      "2020 "
+                    ],
+                    [
+                      "Annuario dei migliori vini italiani - Luca Maroni ",
+                      "2023",
+                      "95/100",
+                      "2020"
+                    ],
+                    ["I Vini di Veronelli ", "2023", "92/100 ", "2020"],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2020 "
+                    ],
+                    [
+                      "The Wine Journal- Eros Teboni ",
+                      "2022",
+                      "93/100",
+                      "2018"
+                    ],
+                    [
+                      "Vini buoni d’Italia - Touring club Italiano",
+                      "2022",
+                      "4 stelle",
+                      "2019"
+                    ],
+                    ["Autochtona Award", "2021", "Premio Tannico ", "2019"],
+                    [
+                      "The Wine Hunter Award Merano Wine festival",
+                      "2021",
+                      "93/100 Red stamp",
+                      "2018 "
+                    ],
+                    ["The Wine Advocate R. Parker", "2021", "92/100", "2018"],
+                    [
+                      "Annuario dei migliori vini italiani - Luca Maroni ",
+                      "2021",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["I Vini di Veronelli ", "2021", "92/100 ", "2018 "],
+                    [
+                      "AIS Vitae- La guida dei Vini ",
+                      "2021",
+                      "88/100 ",
+                      "2018 "
+                    ],
+                    [
+                      "Vini buoni d’Italia - Touring club Italiano ",
+                      "2021",
+                      "4 stelle ",
+                      "2018 "
+                    ],
+                    [
+                      "Gambero Rosso- Vini d’Italia ",
+                      "2021",
+                      "2 bicchieri",
+                      "2018 "
+                    ],
+                    [
+                      "DiWineTaste ",
+                      "2020",
+                      "4 Diamanti/Ottimo +1 stella x eccellenza nella sua categoria ",
+                      "2018 "
+                    ],
+                    [
+                      "Annuario dei migliori vini italiani - Luca Maroni ",
+                      "2020",
+                      "95/100",
+                      "2017"
+                    ],
+                    [
+                      "WOW The italian wine competition- Civiltà del Bere-Alessandro Torcoli",
+                      "2020",
+                      "MEDAGLIA D’ARGENTO",
+                      "2018"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia -        DoctorWine by Daniele Cernili ",
+                      "2020",
+                      "92/100",
+                      "2017"
+                    ],
+                    [
+                      "Vini buoni d’Italia edizione Touring Club ",
+                      "2020",
+                      "4 stelle",
+                      "2017"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "92/100", "2017"],
+                    [
+                      "Annuario dei migliori vini italiani - Luca Maroni ",
+                      "2020",
+                      "95/100",
+                      "2017"
+                    ],
+                    [
+                      "AIS Vitae - la guida dei vini",
+                      "2019",
+                      " 88/100 3 viti",
+                      "2016"
+                    ],
+                    [
+                      "Annuario dei migliori vini italiani - Luca Maroni ",
+                      "2019",
+                      " 91/100",
+                      "2016"
+                    ],
+                    [
+                      "Vini buoni d’Italia - Touring club Italiano – sezione vini autoctoni ",
+                      "2019",
+                      "4 stelle",
+                      "2016"
+                    ],
+                    ["James Suckling ", "2019", "93/100 ", "2017"],
+                    [
+                      "AIS Vitae - la guida dei vini ",
+                      "2018",
+                      "2 viti",
+                      "2016"
+                    ],
+                    [
+                      "Vini buoni d’Italia edizione Touring Club ",
+                      "2018",
+                      "2 stelle",
+                      "2015"
+                    ],
+
+                    ["James Suckling", "2018", "92/100", "2016"],
+                    [
+                      "Annuario dei migliori vini italiani ",
+                      "2017",
+                      "90/100",
+                      "2014"
+                    ],
+                    [
+                      "Vini buoni d’Italia edizione Touring Club ",
+                      "2017",
+                      "2 stelle",
+                      "2014"
+                    ],
+                    ["James Suckling ", "2016", "90/100", "2014"],
+                    [
+                      "TASTED 100% BLIND Andreas Larsson",
+                      "2016",
+                      "86/100",
+                      "2014"
+                    ],
+                    ["Robert Parker’s Wine Advocate", "2016", "90/100", "2013"],
+                    [
+                      "Vini d’Italia - Ed. Gambero Rosso ",
+                      "2016",
+                      "2 bicchieri",
+                      "2012"
+                    ],
+                    [
+                      "Vinibuoni d’Italia - Touring Club  Italiano ",
+                      "2016",
+                      "Corona",
+                      "2012"
+                    ],
+                    ["I Vini di Veronelli", "2016", "92/100", "2012"],
+                    [
+                      "AIS Vitae - la guida dei vini ",
+                      "2016",
+                      "3 viti",
+                      "2012"
+                    ],
+                    [
+                      "Decanter World Wine Awards ",
+                      "2015",
+                      "Medaglia di Bronzo ",
+                      "2011"
+                    ],
+                    ["James Suckling ", "2015", "92/100", "2010"],
+                    ["Wine Spectator", "2015", "91 punti", "2011"],
+                    [
+                      "AIS Vitae - la guida dei vini ",
+                      "2015",
+                      "89 punti",
+                      "2011"
+                    ],
+                    [
+                      "Vini d’Italia - Ed. Gambero Rosso ",
+                      "2015",
+                      "2 bicchieri",
+                      "2011"
+                    ],
+                    [
+                      "I Vini di Veronelli ",
+                      "2015",
+                      "3 stelle/91 punti ",
+                      "2011"
+                    ],
+                    ["Tasted 100% Blind", "2014", "86 punti", "2009"],
+                    [
+                      "Concorso Internazionale Vini di montagna CERVIM ",
+                      "2014",
+                      "Medaglia d’Argento ",
+                      "2011"
+                    ],
+                    [
+                      "Decanter World Wine Awards ",
+                      "2014",
+                      "Medaglia di Bronzo ",
+                      "2010"
+                    ],
+                    [
+                      "I Vini di Veronelli ",
+                      "2014",
+                      "3 stelle/92 punti ",
+                      "2010"
+                    ],
+                    [
+                      "AIS Bibenda - Vini e Ristoranti d’Italia ",
+                      "2014",
+                      "3 stelle/924 grappoli",
+                      "2010"
+                    ],
+                    [
+                      "Enoteca Regionale della Serra ",
+                      "2013",
+                      "Ottimo",
+                      "2009"
+                    ],
+                    [
+                      "I Vini di Veronelli Guida Oro",
+                      "2013",
+                      "3 super stelle ",
+                      "2009"
+                    ],
+                    [
+                      "Gambero Rosso - Vini d’Italia ",
+                      "2013",
+                      "2 bicchieri rossi ",
+                      "2009"
+                    ],
+                    [
+                      "D’Agata e Comparini - Guida ai Migliori vini d’Italia",
+                      "2012",
+                      "88/100 ",
+                      "2009"
+                    ],
+                    [
+                      "Decanter World Wine Award ",
+                      "2012",
+                      "Gold Medal  ",
+                      "2008"
+                    ],
+                    [
+                      "Robert Parker’s Wine Advocate ",
+                      "2012",
+                      "92 punti",
+                      "2008"
+                    ],
+                    [
+                      "Duemilavini AIS - Il libro guida ai vini d’Italia",
+                      "2011",
+                      "4 grappoli",
+                      "2008"
+                    ],
+                    ["I Vini di Veronelli ", "2011", "super 3 stelle", "2008"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2011",
+                      "90 punti ",
+                      "2008"
+                    ],
+                    [
+                      "Miglior Autoctono Italiano Autochtona ",
+                      "2011",
+                      "Miglior Autoctono Italiano ",
+                      "2007"
+                    ],
+                    [
+                      "Gambero Rosso - Vini d'Italia ",
+                      "2010",
+                      "2 bicchieri rossi ",
+                      "2007"
+                    ],
+                    [
+                      "Duemilavini AIS - IL libro guida ai vini d’Italia",
+                      "2010",
+                      "4 grappoli ",
+                      "2007"
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2010",
+                      "83/100",
+                      "2007"
+                    ]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
@@ -450,18 +954,125 @@
         "servizio": "15/17 °C",
         "tabs": [
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
+          {
+            "name": "Annate di raccolta",
 
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
+          },
           {
             "name": "Abbinamenti gastronomici",
 
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
+          },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
+          {
+            "name": "Gallery",
+
             "content": {
-              "text": "affettati e salumi, pasta al ragù di carne, zuppe, formaggi di media stagionatura, carni rosse"
+              "images": [
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
+              ]
             }
           }
         ],
@@ -478,54 +1089,65 @@
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
-        "vitigni": " rosso, Nebbiolo 100%",
+        "vitigni": "Nebbiolo 100%",
         "tipologiaTitle": "Tipologia:",
-        "tipologia": "Nebbiolo 100%",
+        "tipologia": "Rossi",
         "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "xx°",
+        "gradazione": "Alcol  13.5% vol., acidità totale  5.5   g/l, pH 3.4°",
         "bicchiereTitle": "Tipologia di bicchiere:",
         "bicchiere": " Grand ballon",
         "formatoTitle": "Formati:",
         "formato": "75cl",
         "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "diraspatura delle uve refrigerate, fermentazione a bacca intera di 10 giorni a temperatura controllata (23 °C), con follature quotidiane",
+        "vinificazione": "Diraspatura delle uve, fermentazione a bacca intera di 10 giorni a temperatura controllata (23 °C), con follature quotidiane. ",
         "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Arnad e Issogne",
+        "zona": "Arnad e Issogne. Età anni 30. Superficie 1,5 ha, controspalliera a   Guyot; impianto di 7.500 piedi per ettaro. Resa 5.500 kg/ha.",
         "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento di 12 mesi in rovere francese da 25Hl. Affinamento in bottiglia di 1 anno. ",
+        "affinamento": "Affinamento di 12 mesi in acciaio inox. Affinamento in bottiglia di 3 mesi.",
         "servizioTitle": "Servire a:",
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Il Nebbiolo, tipico del Piemonte, è da sempre presente anche in Valle d'Aosta, dov'è tradizionalmente coltivato col nome del Picotendro, nel fondovalle alluvionale di origine glaciale delle zone vocate di Arnad e Issogne. Ci dedichiamo alla vinificazione di questa varietà storiaca, per valorizzarne l'identità di montagna."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2021",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2021",
+                "text": "L’annata 2021 ha avuto uno sviluppo particolare, con un inverno fresco e una primavera con temperature decisamente sotto la media in particolare nei mesi di maggio e giugno al punto da rendere difficile le fioriture e lo sviluppo del grappolo. Da lì in poi asciutto e secco fino a metà settembre con alcuni giorni molto caldi ma nella norma. La vendemmia è iniziata con un ritardo di una decina di giorni e con quantitativi molto ridotti ma con ottima qualità. Lo sviluppo climatico e di maturazione delle uve ha portato a vini più freschi e aromatici con gradazioni più basse ed equilibrate e sensazioni molto tipiche dei vini di montagna. I vini 2021 presentano una grande struttura tannica che sicuramente sarà un fattore fondamentale per garantire longevità e potenza per molti anni."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Bollito misto, rognone di vitello, ravioli al sugo d’arrosto."
+              }
+            ]
           },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/nebbiolosommet1.webp",
-                "/assets/galleryWines/nebbiolosommet2.webp",
-                "/assets/galleryWines/nebbiolosommet3.webp"
+                "/assets/galleryWines/nebbiolo1.webp",
+                "/assets/galleryWines/nebbiolo2.webp",
+                "/assets/galleryWines/nebbiolo3.webp"
               ]
             }
           }
@@ -543,54 +1165,152 @@
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni:",
-        "vitigni": " rosso, Nebbiolo 100%",
+        "vitigni": "Nebbiolo 100%",
         "tipologiaTitle": "Tipologia:",
-        "tipologia": "Nebbiolo 100%",
+        "tipologia": "Rossi",
         "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "xx°",
+        "gradazione": "Alcol 13.5% vol., acidità totale 5.5 g/l, pH 3.4",
         "bicchiereTitle": "Tipologia di bicchiere:",
         "bicchiere": " Grand ballon",
         "formatoTitle": "Formati:",
         "formato": "75cl",
         "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "diraspatura delle uve refrigerate, fermentazione a bacca intera di 10 giorni a temperatura controllata (23 °C), con follature quotidiane",
+        "vinificazione": "Diraspatura delle uve refrigerate, fermentazione a bacca intera di 10 giorni a temperatura controllata (23 °C), con follature quotidiane.",
         "zonaTitle": "Zona di coltivazione/vigneti:",
         "zona": "Arnad e Issogne",
         "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento di 12 mesi in rovere francese da 25Hl. Affinamento in bottiglia di 1 anno. ",
+        "affinamento": "Affinamento di 12 mesi in rovere francese da 25Hl. Affinamento in bottiglia di 1 anno.",
         "servizioTitle": "Servire a:",
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Il Nebbiolo, tipico del Piemonte, è da sempre presente anche in Valle d'Aosta, dov'è tradizionalmente coltivato col nome di Picotendro, nel fondovalle alluvionale di origine glaciale delle zone vocate di Arnad e Issogne. Ci dedichiamo alla vinificazione di questa varietà storica, per valorizzare l'identità di montagna, prende così vita il nostro Nebbiolo 'Sommet', che in francese significa 'cima', in onore delle montagne che ne cullano i vigneti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Bollito misto, rognone di vitello, ravioli al sugo d’arrosto."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["FALSTAFF Trophy", "2024", "93", "2019"],
+                    ["UNTOLD Tre Cavatappi", "2023", "3 Cavatappi ", "2019"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    ["Wine Spectator ", "2023", "90/100", "2019 "],
+                    [
+                      "Vini Buoni d’Italia – Touring Club Italiano ",
+                      "2024",
+                      "4 Stelle",
+                      "2020 "
+                    ],
+                    [
+                      "The Wine Journal- Eros Teboni",
+                      "2023",
+                      "92/100",
+                      "2020 "
+                    ],
+                    ["I Vini di Veronelli ", "2023", "91/100 ", "2019 "],
+                    [
+                      "Guida Essenziale ai Vini d’Italia-Daniele Cernilli Doctor Wine ",
+                      "2023",
+                      "90/100",
+                      "2019 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "92/100",
+                      "2019"
+                    ],
+                    [
+                      "The Wine Journal- Eros Teboni ",
+                      "2022",
+                      "91/100",
+                      "2019"
+                    ],
+                    [
+                      "The Wine Hunter Award Merano Wine Festival ",
+                      "2021",
+                      "96/100 Gold stamp",
+                      "2017"
+                    ],
+                    ["The Wine Advocate R. Parker", "2021", "91/100 ", "2017 "],
+                    ["Wine Spectator ", "2021", "90/100", "2017"],
+                    ["James Suckling", "2021", "92 punti", "2017"],
+                    [
+                      "Gambero rosso Vini d’Italia",
+                      "2021",
+                      "2 bicchieri",
+                      "2017 "
+                    ],
+
+                    [
+                      "Vitae – la guida dei vini ",
+                      "2019",
+                      "88/100, 3 viti",
+                      "2016 "
+                    ],
+                    [
+                      "Gambero rosso Vini d’Italia",
+                      "2019",
+                      "2 bicchieri",
+                      "2016 "
+                    ],
+                    ["I vini di Veronelli  ", "2021", "2 bicchieri", "2017 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/nebbiolosommet1.webp",
-                "/assets/galleryWines/nebbiolosommet2.webp",
-                "/assets/galleryWines/nebbiolosommet3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -627,35 +1347,124 @@
         "servizio": "14/16 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "Les Crêtes , con la lavorazione del suo Pinot Nero in solo acciaio, ottiene un Pinot di montagna elegante, che si contraddistingue per il colore luminoso ed un frutto complesso e croccante "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "battuta di carne di manzo, rollè di coniglio alle olive, crespelle alla valdostana"
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/noir1.webp",
-                "/assets/galleryWines/noir2.webp",
-                "/assets/galleryWines/noir3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -692,35 +1501,124 @@
         "servizio": "14/16 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "Il Pinot Nero Revei, che in patois significa orologio, è legato alla storia della torre medievale, che domina il nostro vigneto di Aymavilles e da cui nasce. La torre fu dimora di un eremita orologiaio, che con il suo mestiere, ci ha riportato al tema del tempo e del suo valore, in natura e per l’uomo. Da qui nasce il Revei, figlio di grande esperienza e lunga attesa. Nella sua creazione, il tempo gioca un ruolo fondamentale dalla maturazione, all’affinamento. Qui il tempo si dilata per ottenere, dalle uve portate a maturazione ottimale, il potenziale espressivo migliore del Pinot nero di montagna, affinato con maestria, riposa ancora a lungo nelle nostre cantine.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "guancia brasata di vitello, toma di Gressoney stagionata, crostini ai fegatini, risotto allo zafferano con midollo di ossobuco"
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/revei1.webp",
-                "/assets/galleryWines/revei2.webp",
-                "/assets/galleryWines/revei3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -757,35 +1655,124 @@
         "servizio": "14/16 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": " prodotto  dalla famiglia  Charrère  sin dal  1971, è  il  vino storico della cantina ed è oggi come allora un sapiente blend di varietà a bacca rossa, coltivate nelle vecchie vigne. La Sabla significa sabbia nel dialetto locale, proprio per  la composizione sabbiosa dei terreni."
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "salame d’asino, carne alla griglia, trippa in umido, arista di maialino al latte"
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/lasabla1.webp",
-                "/assets/galleryWines/lasabla2.webp",
-                "/assets/galleryWines/lasabla3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -822,35 +1809,124 @@
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "Les Crêtes  cominciò a produrre il suo Syrah nel 1995 come vino da tavola perché in Valle d’Aosta non era riconosciuto come D.O.P. Nel 2007 la legislazione cambiò e da allora Les Cretes continua a produrre il suo Syrah D.O.P., rinomato per mineralità e freschezza, legate al suo carattere di montagna"
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "petto d’anatra all’arancio, escargot alla Parigina, tagliatelle al ragù di cinghiale"
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/syrah1.webp",
-                "/assets/galleryWines/syrah2.webp",
-                "/assets/galleryWines/syrah3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -888,35 +1964,124 @@
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/torrettesup1.jpg",
-                "/assets/galleryWines/torrettesup2.jpg",
-                "/assets/galleryWines/torrettesup3.jpg"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -953,35 +2118,124 @@
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/torrettesup1.webp",
-                "/assets/galleryWines/torrettesup1.webp",
-                "/assets/galleryWines/torrettesup1.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -1019,35 +2273,124 @@
         "servizio": "13/15 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/chardonnay_cb1.webp",
-                "/assets/galleryWines/chardonnay_cb2.webp",
-                "/assets/galleryWines/chardonnay_cb3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -1084,35 +2427,124 @@
         "servizio": "10/12 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/chardonnay1.webp",
-                "/assets/galleryWines/chardonnay2.webp",
-                "/assets/galleryWines/chardonnay3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -1149,35 +2581,124 @@
         "servizio": "8/10 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/chardonnay1.webp",
-                "/assets/galleryWines/chardonnay2.webp",
-                "/assets/galleryWines/chardonnay3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -1214,35 +2735,124 @@
         "servizio": "8/10 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/neige1.webp",
-                "/assets/galleryWines/neige2.webp",
-                "/assets/galleryWines/neige3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -1280,35 +2890,124 @@
         "servizio": "8/10 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/arvine1.webp",
-                "/assets/galleryWines/arvine2.webp",
-                "/assets/galleryWines/arvine3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -1346,35 +3045,124 @@
         "servizio": "10/12 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/fleur1.webp",
-                "/assets/galleryWines/fleur2.webp",
-                "/assets/galleryWines/fleur3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -1412,35 +3200,124 @@
         "servizio": "8/10 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/gris1.webp",
-                "/assets/galleryWines/gris2.webp",
-                "/assets/galleryWines/gris3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -1477,35 +3354,124 @@
         "servizio": "10/12 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/rose1.webp",
-                "/assets/galleryWines/rose2.webp",
-                "/assets/galleryWines/rose3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -1541,35 +3507,124 @@
         "servizio": "10/12 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/dore1.webp",
-                "/assets/galleryWines/dore2.webp",
-                "/assets/galleryWines/dore3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -1607,35 +3662,124 @@
         "servizio": " 6/8 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/neblu1.webp",
-                "/assets/galleryWines/neblu2.webp",
-                "/assets/galleryWines/neblu3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }
@@ -1673,35 +3817,124 @@
         "servizio": " 4/6 °C",
         "tabs": [
           {
-            "name": "Curiosità",
+            "name": "Descrizione",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+              }
+            ]
           },
-
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Annate di raccolta",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "title": "ANNATA 2015",
+                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+              },
+              {
+                "title": "ANNATA 2020",
+                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+              }
+            ]
           },
           {
             "name": "Abbinamenti gastronomici",
 
-            "content": {
-              "text": "il Merlot Le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Cretes sfida, con una varietà internazionale, la vocazionalità del terroir valdostano, per ricavarne un Merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, in francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti.  "
-            }
+            "content": [
+              {
+                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+              }
+            ]
           },
+          {
+            "name": "Premi e riconoscimenti",
+
+            "content": [
+              {
+                "table": {
+                  "headers": [
+                    "Guida - Pubblicazione",
+                    "Edizione",
+                    "Riconoscimento",
+                    "Annata"
+                  ],
+                  "rows": [
+                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
+                    ["James Suckling  ", "2023", "91 pts ", "2020"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2024",
+                      "95/100",
+                      "2020"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2024",
+                      "93/100",
+                      "2020 "
+                    ],
+                    [
+                      "Gilbert & Gaillard ",
+                      "2023",
+                      "90/100-Doble Gold Medal ",
+                      "2020 "
+                    ],
+                    [
+                      "Mondial du Merlot Sierre-Switzerland ",
+                      "2023",
+                      "Medaglia d’Oro ",
+                      "2019 "
+                    ],
+                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
+                    [
+                      "Gambero Rosso - vini d'Italia",
+                      "2023",
+                      "2 bicchieri ",
+                      "2018 "
+                    ],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2023",
+                      "94/100",
+                      "2018"
+                    ],
+                    ["James Suckling", "2021", "90", "2017 "],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2021",
+                      "92 punti",
+                      "2017"
+                    ],
+                    [
+                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
+                      "2021",
+                      "92 punti",
+                      "2017 "
+                    ],
+                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
+                    [
+                      "Luca Maroni - Annuario dei migliori vini Italiani ",
+                      "2020",
+                      "93 punti",
+                      "2016"
+                    ],
+                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
+                  ]
+                }
+              }
+            ]
+          },
+
           {
             "name": "Gallery",
 
             "content": {
               "images": [
-                "/assets/galleryWines/reban1.webp",
-                "/assets/galleryWines/reban2.webp",
-                "/assets/galleryWines/reban3.webp"
+                "/assets/galleryWines/cornalin1.webp",
+                "/assets/galleryWines/cornalin2.webp",
+                "/assets/galleryWines/cornalin3.webp"
               ]
             }
           }

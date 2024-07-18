@@ -2,8 +2,10 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import Table from "./Table";
 
 const TabWine = ({ tabs }) => {
+  console.log(tabs.content);
   const [activeTab, setActiveTab] = useState(0);
   const [lightboxImageIndex, setLightboxImageIndex] = useState(null);
   const changeTab = (index) => {
@@ -27,7 +29,7 @@ const TabWine = ({ tabs }) => {
   return (
     <div className="pt-8 md:pt-20 w-full  min-h-[60vh]">
       <div
-        className="flex flex-wrap gap-[40px]  !pl-0"
+        className="flex gap-4  lg:gap-10  !px-5 lg:!px-0 overflow-x-auto whitespace-nowrap w-full  tabs"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
@@ -67,13 +69,19 @@ const TabWine = ({ tabs }) => {
             activeTab === index ? "tabcontent" : "tabcontent hidden"
           }`}
         >
-          {!tab.content.name ? (
-            <div className="text-main/70 !text-base md:!text-lg md:w-[75%] fxl:!text-2xl">
-              {tab.content.text ? tab.content.text : ""}
-            </div>
-          ) : (
-            ""
-          )}
+          <div className="text-main/70 !text-base md:!text-lg md:w-[90%] fxl:!text-2xl flex flex-col gap-6">
+            {tab.content && Array.isArray(tab.content)
+              ? tab.content.map((el, i) => (
+                  <div key={i}>
+                    {el.title && <h3 className="font-bold">{el.title}</h3>}
+                    {el.text && <p>{el.text}</p>}
+                    {el.table && (
+                      <Table headers={el.table.headers} rows={el.table.rows} />
+                    )}
+                  </div>
+                ))
+              : ""}
+          </div>
 
           {tab.content.images && tab.content.images.length > 0 ? (
             <div className="image-gallery grid grid-cols-1 md:grid-cols-3 gap-4 md:w-[75%]">
@@ -98,7 +106,6 @@ const TabWine = ({ tabs }) => {
           ) : (
             ""
           )}
-
           {/* Lightbox */}
           <AnimatePresence>
             {lightboxImageIndex !== null &&

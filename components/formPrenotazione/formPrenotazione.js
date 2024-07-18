@@ -1,86 +1,105 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 import { Icon } from "@iconify/react";
-import { useState, useEffect } from "react";
-import {
-  PhoneInput,
-  defaultCountries,
-  parseCountry,
-} from "react-international-phone";
-import "react-international-phone/style.css";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 import toast from "react-hot-toast";
 
-const countries = defaultCountries.filter((country) => {
-  const { iso2 } = parseCountry(country);
-  return ["it", "us", "gb", "fr", "de"].includes(iso2);
-});
-
-const FormPrenotazione = ({ deg }) => {
-  const [phone, setPhone] = useState("");
+const FormPrenotazione = ({ deg, link, price, durata, tipo }) => {
+  const [startDate, setStartDate] = useState();
   const [inputs, setInputs] = useState({
-    name: "",
-    surname: "",
-    email: "",
-    phone: "",
-    message: "",
     deg: deg,
   });
-
+  console.log(link);
   const [adultCount, setAdultCount] = useState(1);
   const [clickedRadio, setClickedRadio] = useState(null);
-
-  function handleClickedRadioChange(radioValue) {
-    setClickedRadio(radioValue);
-  }
-  useEffect(() => {
-    console.log(inputs);
-  }, [inputs]);
-
+  const [timeSlot, setTimeSlot] = useState(null);
+  const router = useRouter();
   const [checkedGift, setCheckedGift] = useState(false);
 
-  const onSubmitForm = async (e) => {
+  const startNumber = parseInt(price);
+  const totalNumber = startNumber * adultCount;
+  const availableTimeSlots = [
+    "9:30 AM",
+    "10:00 AM",
+    "10:30 AM",
+    "11:00 AM",
+    "11:30 AM",
+    "12:00 PM",
+
+    "02:30 PM",
+    "03:00 PM",
+    "03:30 PM",
+    "04:00 PM",
+    "04:30 PM",
+    "05:00 PM",
+    "05:30 PM",
+    "06:00 PM",
+    "06:30 PM",
+  ];
+
+  const saturdayTimeSlots = [
+    "9:30 AM",
+    "10:00 AM",
+    "10:30 AM",
+    "11:00 AM",
+    "11:30 AM",
+    "12:00 PM",
+    "12:30 PM",
+    "01:00 PM",
+    "01:30 PM",
+    "02:00 PM",
+    "02:30 PM",
+    "03:00 PM",
+    "03:30 PM",
+    "04:00 PM",
+    "04:30 PM",
+    "05:00 PM",
+    "05:30 PM",
+    "06:00 PM",
+    "06:30 PM",
+  ];
+
+  useEffect(() => {
+    if (router.query.formData) {
+      const formData = JSON.parse(router.query.formData);
+      setInputs(formData);
+      setStartDate(new Date(formData.date));
+      setAdultCount(formData.adultCount);
+      setClickedRadio(formData.language);
+      setTimeSlot(formData.timeSlot);
+      setCheckedGift(formData.gift);
+    }
+  }, [router.query.formData]);
+
+  const handleClickedRadioChange = (radioValue) => {
+    setClickedRadio(radioValue);
+  };
+
+  const onSubmitForm = (e) => {
     e.preventDefault();
 
-    if (
-      inputs.name &&
-      inputs.surname &&
-      inputs.email &&
-      inputs.message &&
-      inputs.phone
-    ) {
-      try {
-        const formData = {
-          ...inputs,
-          gift: checkedGift,
-          adultCount: adultCount,
-          language: clickedRadio,
-        };
+    if (startDate && timeSlot && clickedRadio) {
+      const formData = {
+        ...inputs,
+        gift: checkedGift,
+        adultCount: adultCount,
+        language: clickedRadio,
+        date: startDate,
+        timeSlot: timeSlot,
+        totalNumber: totalNumber,
+        link: link,
+        durata: durata,
+        tipo: tipo,
+      };
 
-        const res = await fetch(`/api/prenotazioni`, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        });
-
-        if (res.status === 200) {
-          setInputs({
-            name: "",
-            surname: "",
-            email: "",
-            phone: "",
-            message: "",
-          });
-          setCheckedGift(false);
-          setClickedRadio(null);
-          setAdultCount(1);
-          toast.success(
-            `Hey ${inputs.name} your message was sent successfully`
-          );
-        }
-      } catch (error) {
-        toast.error(`Hey ${inputs.name} your message wasn't sent successfully`);
-      }
+      // Reindirizza alla pagina di riepilogo con i dati del form
+      router.push({
+        pathname: "/prenotazione",
+        query: { formData: JSON.stringify(formData) },
+      });
+    } else {
+      toast.error("Per favore, compila tutti i campi richiesti.");
     }
   };
 
@@ -99,119 +118,217 @@ const FormPrenotazione = ({ deg }) => {
     setAdultCount((prev) => (prev > 1 ? prev - 1 : 1));
   };
 
-  const handleLanguageChange = (language) => {
-    setSelectedLanguage(language);
+  const handleTimeSlotChange = (timeSlot) => {
+    setTimeSlot(timeSlot);
   };
 
+  const filterDatePicker = (date) => {
+    // Disabilita la selezione della Domenica (giorno 0) nel DatePicker
+    return date.getDay() !== 0;
+  };
+
+  const handleDatePickerChange = (date) => {
+    setStartDate(date);
+    // Deseleziona la fascia oraria
+    setTimeSlot(null);
+  };
+
+  const today = new Date();
+  const tomorrow = new Date(today);
+  tomorrow.setDate(tomorrow.getDate() + 1); // Set tomorrow's date
+
   return (
-    <div className="container mx-auto bg-white xl:my-6">
-      <div className="py-5 ">
-        <form onSubmit={(e) => onSubmitForm(e)}>
+    <div className="w-full mx-auto bg-white">
+      <div className="py-5">
+        <form onSubmit={onSubmitForm}>
           <div className="grid grid-cols-2 gap-6 xl:gap-10">
-            <input
-              id="name"
-              type="text"
-              name="name"
-              required
-              value={inputs.name}
-              onChange={handleChange}
-              className="py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
-              placeholder="First Name"
-            />
-            <input
-              id="surname"
-              type="text"
-              name="surname"
-              required
-              value={inputs.surname}
-              onChange={handleChange}
-              className="col-span-1 py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
-              placeholder="Last Name"
-            />
-            <input
-              id="email"
-              data-invalid="false"
-              data-filled="false"
-              className="col-span-1 py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
-              name="email"
-              placeholder="example@email.com*"
-              type="email"
-              value={inputs.email}
-              onChange={handleChange}
-              required
-            />
-            <PhoneInput
-              id="phone"
-              name="phone"
-              defaultCountry="it"
-              value={inputs.phone}
-              onChange={(phone) =>
-                setInputs((prev) => ({
-                  ...prev,
-                  phone: phone,
-                }))
-              }
-              countries={countries}
-              className="!border-b  focus:outline-none focus:border-main bg-transparent !w-full col-span-1 text-main"
-            />
+            <div className="w-full col-span-2">
+              <DatePicker
+                showIcon
+                isClearable
+                selected={startDate}
+                dateFormat="dd/MM/yyyy"
+                onChange={handleDatePickerChange}
+                filterDate={filterDatePicker}
+                className="!outline-none"
+                minDate={tomorrow}
+                calendarClassName={startDate ? "hidden" : ""}
+                icon={
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 512 512"
+                    className={startDate ? "hidden" : ""}
+                  >
+                    <rect
+                      width="416"
+                      height="384"
+                      x="48"
+                      y="80"
+                      fill="none"
+                      stroke="#4a4a49"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                      rx="48"
+                    />
+                    <circle cx="296" cy="232" r="24" fill="#4a4a49" />
+                    <circle cx="376" cy="232" r="24" fill="#4a4a49" />
+                    <circle cx="296" cy="312" r="24" fill="#4a4a49" />
+                    <circle cx="376" cy="312" r="24" fill="#4a4a49" />
+                    <circle cx="136" cy="312" r="24" fill="#4a4a49" />
+                    <circle cx="216" cy="312" r="24" fill="#4a4a49" />
+                    <circle cx="136" cy="392" r="24" fill="#4a4a49" />
+                    <circle cx="216" cy="392" r="24" fill="#4a4a49" />
+                    <circle cx="296" cy="392" r="24" fill="#4a4a49" />
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                      d="M128 48v32m256-32v32"
+                    />
+                    <path
+                      fill="none"
+                      stroke="#4a4a49"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                      d="M464 160H48"
+                    />
+                  </svg>
+                }
+              />
+            </div>
+            {startDate && (
+              <div className="col-span-2">
+                <h3 className="mb-2 font-bold text-main">
+                  Seleziona una fascia oraria:
+                </h3>
+                <div className="grid grid-cols-3 gap-2">
+                  {startDate.getDay() === 6 // Sabato
+                    ? saturdayTimeSlots.map((slot) => (
+                        <div key={slot} className="flex items-center">
+                          <input
+                            type="radio"
+                            id={slot}
+                            value={slot}
+                            name="timeSlot"
+                            onChange={() => handleTimeSlotChange(slot)}
+                            className="hidden"
+                          />
+                          <label
+                            for={slot}
+                            onClick={() => handleTimeSlotChange(slot)}
+                            className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
+                              timeSlot === slot
+                                ? "bg-main text-white"
+                                : "bg-white text-main"
+                            }`}
+                          >
+                            {timeSlot === slot && (
+                              <Icon
+                                icon="material-symbols:check"
+                                className="w-4 h-4"
+                              />
+                            )}
+                            {slot}
+                          </label>
+                        </div>
+                      ))
+                    : availableTimeSlots.map((slot) => (
+                        <div key={slot} className="flex items-center">
+                          <input
+                            type="radio"
+                            id={slot}
+                            value={slot}
+                            name="timeSlot"
+                            onChange={() => handleTimeSlotChange(slot)}
+                            className="hidden"
+                          />
+                          <label
+                            for={slot}
+                            onClick={() => handleTimeSlotChange(slot)}
+                            className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
+                              timeSlot === slot
+                                ? "bg-main text-white"
+                                : "bg-white text-main"
+                            }`}
+                          >
+                            {timeSlot === slot && (
+                              <Icon
+                                icon="material-symbols:check"
+                                className="w-4 h-4"
+                              />
+                            )}
+                            {slot}
+                          </label>
+                        </div>
+                      ))}
+                </div>
+              </div>
+            )}
 
             <div className="flex flex-col col-span-2 gap-2 xl:col-span-1">
-              <label htmlFor="adulti" className="text-main">
+              <label for="adulti" className="font-bold text-main">
                 Adulti
               </label>
-              <div className="flex items-center text-center">
-                <span className="input-group-btn">
+              <div className="flex items-center h-full">
+                <div className="flex items-center h-full">
                   <button
                     type="button"
-                    className="p-2.5 bg-white border text-main border-main hover:bg-main hover:text-white"
+                    className="flex items-center justify-center w-full h-full p-2 bg-white border rounded-tl rounded-bl cursor-pointer text-main hover:bg-main hover:text-white"
                     onClick={decrementAdultCount}
                   >
                     <Icon icon="ic:twotone-minus" />
                   </button>
-                </span>
-                <input
-                  type="number"
-                  className="py-1.5 text-center bg-white border-t border-b text-main border-t-main border-b-main"
-                  min="1"
-                  readOnly
-                  name="adulti"
-                  id="adulti"
-                  value={adultCount}
-                />
-                <span className="input-group-btn">
+                </div>
+                <div className="flex items-center justify-center w-full h-full">
+                  <input
+                    type="number"
+                    className="w-full h-full text-center bg-white border text-main"
+                    min="1"
+                    readOnly
+                    name="adulti"
+                    id="adulti"
+                    value={adultCount}
+                  />
+                </div>
+                <div className="flex items-center h-full">
                   <button
                     type="button"
-                    className="p-2.5 bg-white border text-main border-main hover:bg-main hover:text-white"
+                    className="flex items-center justify-center w-full h-full p-2 bg-white border rounded-tr rounded-br cursor-pointer text-main hover:bg-main hover:text-white"
                     onClick={incrementAdultCount}
                   >
                     <Icon icon="ic:twotone-plus" />
                   </button>
-                </span>
+                </div>
               </div>
             </div>
+
             <div className="flex flex-col gap-2">
-              <label className="text-main">Lingua Visita</label>
-              <div className="flex gap-4">
+              <label className="font-bold text-main">Lingua Visita</label>
+              <div className="grid grid-cols-3 gap-2">
                 <div className="flex items-center">
                   <input
                     type="radio"
-                    id="ita"
-                    value="ita"
+                    id="italiano"
+                    value="italiano"
                     name="language"
-                    onChange={() => handleClickedRadioChange("ita")}
+                    onChange={() => handleClickedRadioChange("italiano")}
                     className="hidden"
                   />
                   <label
-                    htmlFor="ita"
-                    onClick={() => handleClickedRadioChange("ita")}
-                    className={`flex items-center justify-center w-12 h-12 border-2 border-main rounded-full cursor-pointer ${
-                      clickedRadio === "ita"
+                    for="italiano"
+                    onClick={() => handleClickedRadioChange("italiano")}
+                    className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
+                      clickedRadio === "italiano"
                         ? "bg-main text-white"
                         : "bg-white text-main"
                     }`}
                   >
-                    {clickedRadio === "ita" && (
-                      <Icon icon="material-symbols:check" className="w-6 h-6" />
+                    {clickedRadio === "italiano" && (
+                      <Icon icon="material-symbols:check" className="w-4 h-4" />
                     )}
                     IT
                   </label>
@@ -220,23 +337,23 @@ const FormPrenotazione = ({ deg }) => {
                 <div className="flex items-center">
                   <input
                     type="radio"
-                    id="en"
-                    value="en"
+                    id="inglese"
+                    value="inglese"
                     name="language"
-                    onChange={() => handleClickedRadioChange("en")}
+                    onChange={() => handleClickedRadioChange("inglese")}
                     className="hidden"
                   />
                   <label
-                    htmlFor="en"
-                    onClick={() => handleClickedRadioChange("en")}
-                    className={`flex items-center justify-center w-12 h-12 border-2 border-main rounded-full cursor-pointer ${
-                      clickedRadio === "en"
+                    for="inglese"
+                    onClick={() => handleClickedRadioChange("inglese")}
+                    className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
+                      clickedRadio === "inglese"
                         ? "bg-main text-white"
                         : "bg-white text-main"
                     }`}
                   >
-                    {clickedRadio === "en" && (
-                      <Icon icon="material-symbols:check" className="w-6 h-6" />
+                    {clickedRadio === "inglese" && (
+                      <Icon icon="material-symbols:check" className="w-4 h-4" />
                     )}
                     EN
                   </label>
@@ -245,50 +362,42 @@ const FormPrenotazione = ({ deg }) => {
                 <div className="flex items-center">
                   <input
                     type="radio"
-                    id="fr"
-                    value="fr"
+                    id="francese"
+                    value="francese"
                     name="language"
-                    checked={clickedRadio === "fr"}
-                    onChange={() => handleClickedRadioChange("fr")}
+                    onChange={() => handleClickedRadioChange("francese")}
                     className="hidden"
                   />
                   <label
-                    htmlFor="fr"
-                    onClick={() => handleClickedRadioChange("fr")}
-                    className={`flex items-center justify-center w-12 h-12 border-2 border-main rounded-full cursor-pointer ${
-                      clickedRadio === "fr"
+                    for="francese"
+                    onClick={() => handleClickedRadioChange("francese")}
+                    className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
+                      clickedRadio === "francese"
                         ? "bg-main text-white"
                         : "bg-white text-main"
                     }`}
                   >
-                    {clickedRadio === "fr" && (
-                      <Icon icon="material-symbols:check" className="w-6 h-6" />
+                    {clickedRadio === "francese" && (
+                      <Icon icon="material-symbols:check" className="w-4 h-4" />
                     )}
                     FR
                   </label>
                 </div>
               </div>
             </div>
-            <textarea
-              id="message"
-              onChange={handleChange}
-              value={inputs.message}
-              cols="10"
-              rows="5"
-              className="col-span-2 py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
-              placeholder="Write your message..."
-              required
-            ></textarea>
+            <span className="hidden text-lg text-main xl:block">
+              Vuoi regalarla?
+            </span>
             <div className="flex items-center">
               <input
                 id="link-checkbox"
                 type="checkbox"
                 checked={checkedGift}
                 onChange={() => setCheckedGift((prev) => !prev)}
-                className="w-4 h-4 text-[#F4F3EF] bg-gray-100 !border-third rounded focus:ring-third focus:ring-2 "
+                className="w-4 h-4 text-[#F4F3EF] bg-gray-100 !border-third rounded focus:ring-third focus:ring-2"
               />
               <label
-                htmlFor="link-checkbox"
+                for="link-checkbox"
                 className="flex items-center gap-2 text-sm font-medium text-gray-900 ms-2 dark:text-gray-300"
               >
                 <div className="flex items-center">
@@ -296,21 +405,29 @@ const FormPrenotazione = ({ deg }) => {
                     icon="mdi:present-outline"
                     className="w-5 h-5 text-main/95"
                   />
-                  <span className="hidden text-xl text-main xl:block">*</span>
                 </div>
               </label>
             </div>
           </div>
-          <br className="hidden xl:block" />
-          <p className="hidden text-sm text-main/80 xl:block">
-            * Clicca se vuoi regalarlo
-          </p>
+
+          <div className="w-full h-[0.05rem] bg-main/50 my-6"></div>
+          <div className="flex items-center justify-between gap-4 text-xl">
+            <p className="font-bold text-main">Totale da pagare:</p>
+            <p className="font-bold text-main">€{totalNumber}</p>
+          </div>
           <div className="flex justify-end mt-6">
-            <input
+            {/* <button
               type="submit"
-              value="Prenota ora"
               className="cursor-pointer flex items-center text-lg xl:text-xl gap-2 text-main w-full max-w-max text-center lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 border-main"
-            />
+            >
+              Acquista <Icon icon="icons8:buy" className="w-6 h-full" />
+            </button> */}
+            <button
+              type="submit"
+              className="cursor-pointer flex items-center text-lg xl:text-xl gap-2 text-main w-full max-w-max text-center lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 border-main"
+            >
+              Prosegui con la richiesta
+            </button>
           </div>
         </form>
       </div>

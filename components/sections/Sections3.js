@@ -16,15 +16,15 @@ const Sections3 = ({ translation }) => {
             {translation?.descrizione}
           </p>
           <div className="justify-center items-center gap-[28.76px] flex flex-col md:flex-row w-full h-full">
-            <div className="flex justify-center w-full h-full lg:w-max">
+            {/* <div className="flex justify-center w-full h-full lg:w-max">
               <CtaWhite link="/contatti" title="Per info e contatti">
                 {translation.book}
               </CtaWhite>
-            </div>
+            </div> */}
             <div className="flex justify-center w-full h-full lg:w-max">
-              <CtaOutline link="/degustazioni" title="Pagina degustazioni">
+              <CtaWhite link="/le-degustazioni" title="Pagina degustazioni">
                 {translation.scopri}
-              </CtaOutline>
+              </CtaWhite>
             </div>
           </div>
         </div>

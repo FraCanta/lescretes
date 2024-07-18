@@ -96,7 +96,7 @@ const Contatti = () => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col text-xl font-bold lg:flex-row lg:items-center lg:gap-2 text-main">
+        {/* <div className="flex flex-col text-xl font-bold lg:flex-row lg:items-center lg:gap-2 text-main">
           <p>
             <span className="font-bold">N.B:</span> Per informazioni in merito
             alla prenotazione delle degustazioni consultare le modalità nella
@@ -111,7 +111,7 @@ const Contatti = () => {
               degustazioni
             </Link>
           </span>
-        </div>
+        </div> */}
       </div>
       <div className="py-2 bg-second lg:py-6 bg-pattern">
         <Location />

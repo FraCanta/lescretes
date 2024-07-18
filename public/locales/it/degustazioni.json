@@ -77,6 +77,8 @@
         "durata": { "title": "Durata", "tempo": "1 h" },
         "visita": { "title": "Visita Cantina", "cantina": "sì" },
         "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
+        "gradi": { "title": "Temperatura Cantina", "tipo": "14°" },
+
         "descrizione": {
           "title": "Descrizione",
           "content": " Fai un primo passo nel mondo Les Crêtes per scoprirne la storia, il territorio, i suoi vitigni ed i vini. Nella suggestiva cornice del Rifugio del Vino, potrai degustare tre vini con vista sui vigneti, dopo aver visitato la cantina e la barricaia.",
@@ -88,7 +90,7 @@
             ]
           }
         },
-        "price": "€25,00 iva inclusa / persona",
+        "price": "25",
         "priceTitle": "Prezzo",
 
         "download": "/pdf/degustazioni/3wines_experience_ita.pdf"
@@ -109,6 +111,7 @@
 
         "visita": { "title": "Visita Cantina", "cantina": "sì" },
         "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
+        "gradi": { "title": "Temperatura Cantina", "tipo": "14°" },
         "descrizione": {
           "title": "Descrizione",
           "content": " Vivi un percorso nel mondo del vino Les Crêtes che dai vini nativi risale alla storia, al territorio, ai suoi vitigni ancestrali. Nella cornice del Rifugio del Vino, dopo la visita di cantina e barricaia, degusterai i vini autoctoni con vista sui vigneti e potrai eventualmente scegliere l'abbinamento con la nostra selezione di charcuterie e formaggi della gastronomia locale.",
@@ -127,7 +130,7 @@
         },
         "priceTitle": "Prezzo",
 
-        "price": "€40,00 iva inclusa / persona",
+        "price": "40",
         "download": "/pdf/degustazioni/native_wine_experience_ita.pdf"
       },
       "cheese": {
@@ -145,6 +148,8 @@
         "durata": { "title": "Durata", "tempo": "1 h 30" },
         "visita": { "title": "Visita Cantina", "cantina": "sì" },
         "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
+        "gradi": { "title": "Temperatura Cantina", "tipo": "14°" },
+
         "descrizione": {
           "title": "Descrizione",
           "content": " Entra nel mondo Les Crêtes per scoprirne la storia, il territorio e i suoi vitigni, in un percorso gastronomico che vede protagonisti il vino ed i formaggi. Nella suggestiva cornice del Rifugio del Vino potrai degustare una selezione dei nostri vini, ciascuno in abbinamento ad un pregiato formaggio locale, accompagnato da miele di montagna.",
@@ -161,7 +166,7 @@
 
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
         },
-        "price": "€45,00 iva inclusa / persona",
+        "price": "45 ",
         "priceTitle": "Prezzo",
 
         "download": "/pdf/degustazioni/wine_and_cheese_experience_ita.pdf"
@@ -181,6 +186,8 @@
         "durata": { "title": "Durata", "tempo": "1 h 45" },
         "visita": { "title": "Visita Cantina", "cantina": "sì" },
         "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
+        "gradi": { "title": "Temperatura Cantina", "tipo": "14°" },
+
         "descrizione": {
           "title": "Descrizione",
           "content": " Per wine lovers ed esperti, 5 prestigiose etichette Les Crêtes da degustare nella cornice del Rifugio del Vino, assaporando, con vista sui vigneti, l'abbinamento di una selezione di charcuterie e formaggi pregiati della gastronomia locale, dopo la visita guidata dedicata.",
@@ -199,7 +206,7 @@
 
           "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
         },
-        "price": "€70,00 iva inclusa / persona",
+        "price": "70",
         "priceTitle": "Prezzo",
 
         "download": "/pdf/degustazioni/top_wines_experience_ita.pdf"
@@ -222,6 +229,8 @@
           "cantina": "sì + visita alle vigne del Côteau la Tour"
         },
         "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
+        "gradi": { "title": "Temperatura Cantina", "tipo": "14°" },
+
         "descrizione": {
           "title": "Descrizione",
           "content": "Percorri un viaggio nel mondo Les Crêtes, immergendoti tra i colori, i profumi e la storia del vigneto del Côteau la Tour, custodito dalla sua torre medievale che domina il paesaggio, svelando un panorama mozzafiato. Nella suggestiva cornice del Rifugio del Vino, potrai inoltre degustare i vini in abbinamento lla nostra selezione di salumi e formaggi della gastronomia locale.",
@@ -245,7 +254,7 @@
         },
         "priceTitle": "Prezzo",
 
-        "price": "€90,00 iva inclusa / persona",
+        "price": "90",
 
         "download": "/pdf/degustazioni/coteau_la_tour_experience_ita.pdf"
       },
@@ -267,6 +276,8 @@
           "cantina": "sì + visita al vigneto"
         },
         "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
+        "gradi": { "title": "Temperatura Cantina", "tipo": "14°" },
+
         "descrizione": {
           "title": "Descrizione",
           "content": "Scopri il mondo Les Crêtes raccontato dal nostro enologo Raffaele, a partire dalle vigne, per arrivare alla cantina seguendo il percorso che porta le nostre uve alla bottiglia. Nella suggestiva cornice del Rifugio del Vino, degusterai i vini scelti con l'enologo, in abbinamento ad una selezione di salumi e formaggi della gastronomia locale.",
@@ -288,7 +299,7 @@
         },
         "priceTitle": "Prezzo",
 
-        "price": "€100,00 iva inclusa / persona",
+        "price": "100",
 
         "download": "/pdf/degustazioni/winemakers_experience_ita.pdf"
       },
@@ -308,6 +319,8 @@
 
         "visita": { "title": "Visita Cantina", "cantina": "sì" },
         "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
+        "gradi": { "title": "Temperatura Cantina", "tipo": "14°" },
+
         "descrizione": {
           "title": "Descrizione",
           "content": "Immergiti nell'incanto di una tradizione culinaria autentica, dove i sapori genuini sono protagonisti indiscussi. La Valle d'Aosta è un vero paradiso per gli amanti del buon cibo e del vino, con la possibilità di degustare eccellenti vini locali. E per rendere il tuo soggiorno ancora più memorabile, concediti un suggestivo percorso benessere, circondato da vasche panoramiche e accoglienti sale relax.",
@@ -327,7 +340,7 @@
           }
         },
         "priceTitle": "Prezzo",
-        "price": "A partire da €346,00 iva inclusa ",
+        "price": " €346,00 iva inclusa ",
 
         "prenotaBtn": "https://www.qcterme.com/it/corporate/offerte-e-pacchetti/wellness-wine-tasting",
         "download": "/pdf/degustazioni/wellness_and_wine_tasting_ita.pdf"

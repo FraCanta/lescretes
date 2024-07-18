@@ -20,7 +20,7 @@ export const Layout = (props) => {
           error: {
             iconTheme: {
               primary: "red",
-              secondary: "black",
+              secondary: "white",
             },
           },
         }}

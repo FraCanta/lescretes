@@ -260,15 +260,11 @@
   "footer": {
     "it": {
       "col1": {
-        "title": "Orari di ufficio",
+        "title": "Orari Wine Shop & Degustazioni",
         "days": "Da Lunedì a Venerdì",
         "close": "Sabato, domenica e festivi chiuso"
       },
-      "col2": {
-        "title": "Orari magazzino",
-        "days": "Da Lunedì a Venerdì",
-        "close": "Sabato, domenica e festivi chiuso"
-      },
+
       "col3": {
         "title": "Quick Links",
 

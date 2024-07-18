@@ -3,8 +3,9 @@ import { motion, useAnimation } from "framer-motion";
 import { useState, useEffect } from "react";
 import FormPrenotazione from "../formPrenotazione/formPrenotazione";
 import { Icon } from "@iconify/react";
+import FormPrenotazione2 from "../formPrenotazione/formPrenotazione2";
 
-const Drawer = ({ isOpen, onClose, deg }) => {
+const Drawer = ({ isOpen, onClose, deg, link, price, durata }) => {
   const controls = useAnimation();
 
   // Configurazioni per le animazioni
@@ -56,18 +57,27 @@ const Drawer = ({ isOpen, onClose, deg }) => {
         style={{
           zIndex: 999999,
         }}
-        className="fixed right-0 bottom-0 p-8 bg-white h-[90vh] xl:h-screen w-screen xl:w-[50vw]"
+        className="fixed right-0 bottom-0 p-8 bg-white h-screen w-screen xl:w-[50vw] overflow-auto"
       >
         {/* Contenuto del drawer, incluso il form */}
 
         {/* Bottone per chiudere il drawer */}
         <div className="flex justify-end">
           <button onClick={onClose}>
-            <Icon icon="carbon:close-filled" className="text-main w-6 h-6 " />{" "}
+            <Icon icon="carbon:close-filled" className="w-6 h-6 text-main " />{" "}
           </button>
         </div>
-
-        <FormPrenotazione deg={deg} />
+        {/* <p className="flex items-center gap-2 text-main/80">
+          <Icon icon="raphael:info" />
+          acquistabile solo online .
+        </p> */}
+        {/* <FormPrenotazione deg={deg} link={link} price={price} durata={durata} /> */}
+        <FormPrenotazione2
+          deg={deg}
+          link={link}
+          price={price}
+          durata={durata}
+        />
       </motion.div>
     </>
   );

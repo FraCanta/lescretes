@@ -33,7 +33,7 @@ const Footer = ({ translation }) => {
             {translation?.[locale]?.col1.close}
           </p>
         </nav>
-        <nav className="grid grid-cols-1 gap-2">
+        {/* <nav className="grid grid-cols-1 gap-2">
           <header className="uppercase font-bold !text-main">
             {translation?.[locale]?.col2.title}
           </header>
@@ -44,7 +44,7 @@ const Footer = ({ translation }) => {
           <p className="font-bold text-main/90">
             {translation?.[locale]?.col2.close}
           </p>
-        </nav>
+        </nav> */}
         <nav className="grid grid-cols-1 gap-2">
           <header className="uppercase font-bold !text-main">
             {translation?.[locale]?.col3.title}
