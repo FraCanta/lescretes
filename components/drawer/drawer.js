@@ -5,7 +5,7 @@ import FormPrenotazione from "../formPrenotazione/formPrenotazione";
 import { Icon } from "@iconify/react";
 import FormPrenotazione2 from "../formPrenotazione/formPrenotazione2";
 
-const Drawer = ({ isOpen, onClose, deg, link, price, durata }) => {
+const Drawer = ({ isOpen, onClose, deg, link, price, durata, tipo }) => {
   const controls = useAnimation();
 
   // Configurazioni per le animazioni
@@ -73,11 +73,11 @@ const Drawer = ({ isOpen, onClose, deg, link, price, durata }) => {
         </p> */}
         {/* <FormPrenotazione deg={deg} link={link} price={price} durata={durata} /> */}
         <FormPrenotazione
-          deg={deg.name}
-          link={deg.title}
-          price={deg.price}
-          durata={deg.durata?.tempo}
-          tipo={deg.degustazione.vini}
+          deg={deg}
+          link={link}
+          price={price}
+          durata={durata}
+          tipo={tipo}
         />
       </motion.div>
     </>
