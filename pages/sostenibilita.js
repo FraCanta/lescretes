@@ -172,7 +172,7 @@ function Sostenibilita() {
           <div className="flex flex-col gap-6 ">
             <div className="relative w-full h-full aspect-square">
               <Image
-                src="/assets/galleryWines/torrettesup1.webp"
+                src="/assets/elena.webp"
                 fill
                 className="object-cover w-full h-full"
                 alt="bottiglie Les Crêtes"
