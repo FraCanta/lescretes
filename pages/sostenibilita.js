@@ -84,7 +84,7 @@ function Sostenibilita() {
             <h2 className="text-4xl font-bold text-main">
               Impianti fotovoltaici
             </h2>
-            <p className="text-xl text-main lg: w-[70%]">
+            <p className="text-xl text-main lg:w-[70%]">
               Dal 2007 ci impegniamo nella produzione di energia pulita grazie a
               due impianti fotovoltaici. Un percorso che Les Crêtes prende a
               cuore per ridurre ulteriormente il nostro impatto ambientale.
