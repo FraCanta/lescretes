@@ -15,6 +15,7 @@ function Sostenibilita() {
         <Hero
           img={Sost}
           text="Sostenibilità: Un Valore Intrinseco alla Nostra Identità"
+          alt="Immagine della sostenibilità"
         />
       </div>
       <div className="flex flex-col items-center justify-center gap-10 pb-24 ">
@@ -42,14 +43,14 @@ function Sostenibilita() {
           rispettosi dell’ambiente e della salute dell’uomo.
         </p>
       </div>
-      <div className="bg-[#bfab25] flex flex-col items-center justify-center relative  lg:p-6 bg-pattern3">
+      <div className="bg-[#77966d]/30 flex flex-col items-center justify-center relative  lg:p-6 bg-pattern3">
         <div className="flex flex-col gap-6 py-10 lg:p-10">
           {" "}
-          <h2 className="text-3xl lg:text-5xl font-bold lg:text-center text-white w-[90%] lg:w-[70%] mx-auto">
+          <h2 className="text-3xl lg:text-5xl font-bold lg:text-center text-main w-[90%] lg:w-[70%] mx-auto">
             Perché consumare meno è verde, ma utilizzare impianti efficienti è
             verde dentro!
           </h2>
-          <p className="text-xl lg:text-center text-white w-[90%] lg:w-[80%] mx-auto">
+          <p className="text-xl lg:text-center text-main w-[90%] lg:w-[80%] mx-auto">
             Il nostro impegno è differenziarci con comportamenti responsabili a
             favore del territorio e del contesto sociale e ambientale. Les
             Crêtes è orgogliosa di essere ancora e sempre verde dentro! Ma
@@ -80,21 +81,27 @@ function Sostenibilita() {
                 height={80}
               />
             </div> */}
-            <h2 className="text-4xl font-bold text-white">
+            <h2 className="text-4xl font-bold text-main">
               Impianti fotovoltaici
             </h2>
-            <p className="text-xl text-white lg:w-[70%]">
+            <p className="text-xl text-main lg: w-[70%]">
               Dal 2007 ci impegniamo nella produzione di energia pulita grazie a
               due impianti fotovoltaici. Un percorso che Les Crêtes prende a
               cuore per ridurre ulteriormente il nostro impatto ambientale.
             </p>
             <div className="flex flex-col gap-6 max-w-max">
-              <CtaOutline link="/pdf/certificato-TUV-impianto-idrico-di-colombaro-to.pdf">
+              <CtaOutlineBrown
+                link="/pdf/certificato-TUV-impianto-idrico-di-colombaro-to.pdf"
+                title="Certificato TUV pdf"
+              >
                 Certificato TUV
-              </CtaOutline>
-              <CtaOutline link="/pdf/Certificato-di-provenienza-ITA.pdf">
+              </CtaOutlineBrown>
+              <CtaOutlineBrown
+                link="/pdf/Certificato-di-provenienza-ITA.pdf"
+                title="Certificato di provenienza pdf"
+              >
                 Certificato di provenienza
-              </CtaOutline>
+              </CtaOutlineBrown>
             </div>
           </div>
         </div>
@@ -116,7 +123,7 @@ function Sostenibilita() {
           <div className="flex flex-col gap-6">
             <div className="relative w-full h-full aspect-square">
               <Image
-                src="/assets/b_Aziende.png"
+                src="/assets/tappo.webp"
                 fill
                 className="object-cover w-full h-full"
                 alt="nomacorc"
@@ -125,18 +132,10 @@ function Sostenibilita() {
           </div>
 
           <div className="flex flex-col gap-6 ">
-            {/* <div className="bg-white h-[100px] w-[100px] rounded-full flex items-center justify-center">
-              <Image
-                src="/assets/ASE.png"
-                alt="sqnpi logo"
-                width={80}
-                height={80}
-              />
-            </div> */}
             <h2 className="text-3xl font-bold lg:text-4xl text-main">
               Il primo tappo da vino al mondo senza impronta di carbonio
             </h2>
-            <p className="text-xl text-main lg:w-[70%]">
+            <p className="text-xl text-main">
               Scegliamo tappi Select Bio 0% Carbon Footprint, 100% organic
               biodegradabili, rinnovabili di origine vegetale 100% riciclabili.
               Adatti per aziende vinicole che, come noi, ricercano una
@@ -144,7 +143,10 @@ function Sostenibilita() {
               gestione straordinaria dell'ossigeno.
             </p>
             <div className="flex flex-col gap-6 max-w-max">
-              <CtaOutlineBrown link="/pdf/Nomacorc.pdf">
+              <CtaOutlineBrown
+                link="/pdf/Nomacorc.pdf"
+                title="Pdf sulla Linea Select Bio di Nomacorc"
+              >
                 Nomacorc - Linea Select Bio
               </CtaOutlineBrown>
             </div>
@@ -155,7 +157,7 @@ function Sostenibilita() {
             <h2 className="text-4xl font-bold text-main">
               Bottiglie leggere che aiutano l'ambiente
             </h2>
-            <p className="text-xl text-main lg:w-[70%] ">
+            <p className="text-xl text-main ">
               Per contribuire alla riduzione delle nostre emissioni di CO2,
               adottiamo bottiglie sempre più leggere. Questa scelta non solo
               diminuisce il peso e, di conseguenza, il consumo di energia
@@ -173,7 +175,7 @@ function Sostenibilita() {
                 src="/assets/galleryWines/torrettesup1.webp"
                 fill
                 className="object-cover w-full h-full"
-                alt="nomacorc"
+                alt="bottiglie Les Crêtes"
               />
             </div>
           </div>

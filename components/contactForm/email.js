@@ -16,7 +16,6 @@ import {
   Heading,
 } from "@react-email/components";
 import { Icon } from "@iconify/react";
-import { Span } from "next/dist/trace";
 
 export function Email(props) {
   const {
@@ -71,43 +70,45 @@ export function Email(props) {
             </Section>
             <Section>
               <Row>
-                <Column className="w-1/2">
-                  <Text>
-                    <Span className="font-bold">Nome della degustazione:</Span>{" "}
-                    <Span>{deg}</Span>
-                  </Text>
-                </Column>
-                <Column>
-                  <Text>
-                    <Span className="font-bold">Data:</Span>
-                    <Span>{date}</Span>{" "}
-                  </Text>
-                  <Text>
-                    <Span className="font-bold">Orario scelto:</Span>
-                    <Span>{timeSlot}</Span>{" "}
-                  </Text>
-                </Column>
+                <Text className="font-bold">Nome della degustazione:</Text>
+                <Text>{deg}</Text>
               </Row>
               <Hr className="border border-solid  my-[10px] mx-0 w-full" />
               <Row>
                 <Column>
                   <Text>
-                    <Span className="font-bold">Lingua :</Span>
-                    <Span>{language}</Span>
-                  </Text>
-                  <Text>
-                    <Span className="font-bold">Adulti:</Span>
-                    <Span>{adultCount}</Span>
+                    <span className="font-bold">Data: </span>
+                    <span>{date}</span>{" "}
                   </Text>
                 </Column>
                 <Column>
                   <Text>
-                    <Span className="font-bold">Tipologia:</Span>{" "}
-                    <Span>{tipo}</Span>
+                    <span className="font-bold">Orario scelto: </span>
+                    <span>{timeSlot}</span>{" "}
+                  </Text>
+                </Column>
+              </Row>
+
+              <Hr className="border border-solid  my-[10px] mx-0 w-full" />
+              <Row>
+                <Column>
+                  <Text>
+                    <span className="font-bold">Lingua: </span>
+                    <span>{language}</span>
                   </Text>
                   <Text>
-                    <Span className="font-bold">Durata:</Span>
-                    <Span>{durata}</Span>
+                    <span className="font-bold">Adulti: </span>
+                    <span>{adultCount}</span>
+                  </Text>
+                </Column>
+                <Column>
+                  <Text>
+                    <span className="font-bold">Tipologia: </span>{" "}
+                    <span>{tipo}</span>
+                  </Text>
+                  <Text>
+                    <span className="font-bold">Durata: </span>
+                    <span>{durata}</span>
                   </Text>
                 </Column>
               </Row>
@@ -116,22 +117,22 @@ export function Email(props) {
               <Row>
                 <Column>
                   <Text>
-                    <Span className="font-bold">Nome :</Span>
-                    <Span>{name}</Span>
+                    <span className="font-bold">Nome: </span>
+                    <span>{name}</span>
                   </Text>
                   <Text>
-                    <Span className="font-bold">Email:</Span>{" "}
-                    <Span>{email}</Span>
+                    <span className="font-bold">Email: </span>{" "}
+                    <span>{email}</span>
                   </Text>
                 </Column>
                 <Column>
                   <Text>
-                    <Span className="font-bold">Cognome:</Span>
-                    <Span>{surname}</Span>
+                    <span className="font-bold">Cognome: </span>
+                    <span>{surname}</span>
                   </Text>
                   <Text>
-                    <Span className="font-bold">Bambini:</Span>{" "}
-                    <Span>{numeroMinori ? numeroMinori : "0"}</Span>
+                    <span className="font-bold">Bambini: </span>{" "}
+                    <span>{numeroMinori ? numeroMinori : "0"}</span>
                   </Text>
                 </Column>
               </Row>
@@ -140,21 +141,21 @@ export function Email(props) {
               <Row>
                 <Column>
                   <Text>
-                    <Span className="font-bold">Telefono :</Span>
-                    <Span>{phone}</Span>
+                    <span className="font-bold">Telefono: </span>
+                    <span>{phone}</span>
                   </Text>
                   <Text>
-                    <Span className="font-bold">Cap:</Span> <Span>{cap}</Span>
+                    <span className="font-bold">Cap: </span> <span>{cap}</span>
                   </Text>
                 </Column>
                 <Column>
                   <Text>
-                    <Span className="font-bold">Nazione:</Span>
-                    <Span>{nation}</Span>
+                    <span className="font-bold">Nazione: </span>
+                    <span>{nation}</span>
                   </Text>
                   <Text>
-                    <Span className="font-bold">Città:</Span>
-                    <Span>{city}</Span>
+                    <span className="font-bold">Città: </span>
+                    <span>{city}</span>
                   </Text>
                 </Column>
               </Row>
@@ -162,12 +163,12 @@ export function Email(props) {
 
               <Row>
                 <Text>
-                  <Span className="font-bold">Regalo:</Span>{" "}
-                  <Span>{gift ? "Sì" : "No"}</Span>
+                  <span className="font-bold">Regalo: </span>{" "}
+                  <span>{gift ? "Sì" : "No"}</span>
                 </Text>
                 <Text>
-                  <Span className="font-bold">Prezzo totale:</Span>{" "}
-                  <Span>{formattedPrice}</Span>
+                  <span className="font-bold">Prezzo totale: </span>{" "}
+                  <span>{formattedPrice}</span>
                 </Text>
               </Row>
               <Row>

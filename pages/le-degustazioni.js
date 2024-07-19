@@ -82,8 +82,8 @@ const Degustazioni = ({ translation }) => {
         img={Rif}
         title={translation.banner.title}
         paragraph={translation.banner.paragraph}
-        btn1={translation.banner.btn}
-        link1={translation.banner.link}
+        btn2={translation.banner.btn}
+        link2={translation.banner.link}
       />
     </>
   );

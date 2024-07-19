@@ -81,8 +81,8 @@ const Vini = ({ translation }) => {
         img={Terr}
         title={translation.banner.title}
         paragraph={translation.banner.paragraph}
-        btn1={translation.banner.btn}
-        link1={translation.banner.link}
+        btn2={translation.banner.btn}
+        link2={translation.banner.link}
       />
       <div className="w-full min-h-screen bg-[#F4F3EF] ">
         <div className="flex flex-col w-full gap-20 mx-auto lg:text-center lg:items-center lg:justify-center">
@@ -96,6 +96,9 @@ const Vini = ({ translation }) => {
                 __html: translation.produzione.descrizione,
               }}
             ></p>
+            <CtaOutlineBrown link="/sostenibilita" title="storia">
+              Scopri di più sul nostro impegno
+            </CtaOutlineBrown>
           </div>
           <div className="w-full gap-10">
             <div className="relative w-full aspect-square lg:aspect-video ">
