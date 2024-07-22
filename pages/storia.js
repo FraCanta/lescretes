@@ -15,6 +15,7 @@ import Reviews from "@/components/sections/Reviews";
 import Head from "next/head";
 import CtaPrimary from "@/components/Cta/CtaPrimary";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
+import VideoPlayer from "@/components/VideoPlayer/VideoPlayer";
 
 export default function Storia({ translation }) {
   return (
@@ -31,9 +32,12 @@ export default function Storia({ translation }) {
       <Sections1 translation={translation.section1} />
       <Sections2 />
       <Sections3 translation={translation.section3} />
+      <div>
+        <VideoPlayer video="/video/video3.mp4" poster="/assets/poster.png" />
+      </div>
       <div className="min-h-[60vh] md:min-h-[50vh] xl:min-h-[80vh] flex flex-col justify-center items-center relative ">
         <div className="w-[90%] mx-auto flex flex-col gap-8 md:gap-20 ">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <div className="flex flex-col gap-4">
               <h2 className="text-main text-3xl md:text-5xl lg:text-[43.12px] fxl:text-6xl font-bold  lg:leading-[55.10px]">
                 {translation.testimonials.title}
