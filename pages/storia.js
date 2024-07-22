@@ -31,10 +31,11 @@ export default function Storia({ translation }) {
       </div>
       <Sections1 translation={translation.section1} />
       <Sections2 />
-      <Sections3 translation={translation.section3} />
-      <div>
+      <div className="w-[90%] mx-auto py-10 lg:py-20">
         <VideoPlayer video="/video/video3.mp4" poster="/assets/poster.png" />
       </div>
+      <Sections3 translation={translation.section3} />
+
       <div className="min-h-[60vh] md:min-h-[50vh] xl:min-h-[80vh] flex flex-col justify-center items-center relative ">
         <div className="w-[90%] mx-auto flex flex-col gap-8 md:gap-20 ">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">

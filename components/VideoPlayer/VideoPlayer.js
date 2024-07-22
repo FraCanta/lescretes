@@ -22,7 +22,7 @@ const VideoPlayer = ({ video, poster }) => {
   };
 
   return (
-    <div className="relative w-full aspect-video">
+    <div className="relative w-full aspect-square lg:aspect-video">
       <video
         id="videoPlayer2"
         className="object-cover w-full h-full rounded-lg"
@@ -35,12 +35,12 @@ const VideoPlayer = ({ video, poster }) => {
       </video>
       {!isPlaying && (
         <div
-          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#FAB02C] rounded-full p-6 lg:p-8"
+          className="absolute p-6 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-full top-1/2 left-1/2 lg:p-8"
           onClick={togglePlay}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-8 h-8 text-white transition-opacity opacity-75 cursor-pointer lg:h-16 lg:w-16 hover:opacity-100"
+            className="w-8 h-8 cursor-pointer text-main lg:h-16 lg:w-16"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
