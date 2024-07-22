@@ -32,7 +32,7 @@ function Sostenibilita() {
           Italia
         </h2>
         <p className="text-xl lg:text-center text-main w-[90%] lg:w-[70%] lg:mx-auto">
-          il Sistema di Qualità Nazionale di Produzione Integrata (SQNPI)
+          Il Sistema di Qualità Nazionale di Produzione Integrata (SQNPI)
           interessa la categoria Prodotto Agroalimentare e si applica a tutte le
           aziende del territorio nazionale italiano che utilizzano tecniche di
           produzione agricola integrata. Si pone l’obiettivo di valorizzare ed

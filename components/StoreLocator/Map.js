@@ -1,8 +1,6 @@
 import { useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import iconMarker2x from "leaflet/dist/images/marker-icon-2x.png";
-import iconMarker from "leaflet/dist/images/marker-icon.png";
 import iconMarkerShadow from "leaflet/dist/images/marker-shadow.png";
 import { Icon } from "@iconify/react";
 import Link from "next/link";
@@ -22,7 +20,7 @@ const Map = ({ store, activeStore }) => {
 
   return (
     <MapContainer
-      className="h-full w-full"
+      className="w-full h-full"
       center={position}
       zoom={initialZoom}
       scrollWheelZoom={true}
@@ -51,7 +49,7 @@ const Map = ({ store, activeStore }) => {
                 {el.address}
               </address>
               <div className="w-full h-[0.02rem] bg-main/50 mt-4"></div>
-              <div className="flex justify-between w-full items-center">
+              <div className="flex items-center justify-between w-full">
                 <p className="flex items-center gap-1 font-bold">
                   <Icon icon="ph:phone-fill" /> {el.phone}
                 </p>

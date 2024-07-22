@@ -7,11 +7,12 @@ import storeIT from "../public/locales/it/store.json";
 import storeEN from "../public/locales/en/store.json";
 import storeFR from "../public/locales/fr/store.json";
 import storeDE from "@/public/locales/de/store.json";
-import storeJP from "@/public/locales/jp/store.json";
-import storeKO from "@/public/locales/ko/store.json";
-import storeRU from "@/public/locales/ru/store.json";
-import storeZH from "@/public/locales/zh/store.json";
+import storeJP from "../public/locales/jp/store.json";
+import storeKO from "../public/locales/ko/store.json";
+import storeRU from "../public/locales/ru/store.json";
+import storeZH from "../public/locales/zh/store.json";
 import { useRouter } from "next/router";
+
 const Map = dynamic(() => import("../components/StoreLocator/Map"), {
   ssr: false,
 });
@@ -41,13 +42,9 @@ const Store = ({ translation }) => {
     <>
       <Head>
         <>
-          <title>Stores Locator - Les Crêtes</title>
+          <title>{translation.heading.title}</title>
           <meta name="author" content="Les Crêtes" />
           <meta name="description" content={translation.heading.descrizione} />
-          {/* <meta
-            name="keywords"
-            content="Mi chiamo Francesca Cantale, aka thallion dev, e sono una web designer specializzata nella UX/UI design e in Next.js. Mi occupo di consulenza e realizzazione Siti Web e E-Commerce."
-          /> */}
           <meta
             property="og:url"
             content={`https://www.lescretes.it/${locale}/store-locator`}
@@ -59,10 +56,6 @@ const Store = ({ translation }) => {
             property="og:description"
             content={translation.heading.descrizione}
           />
-          {/* <meta
-            property="og:image"
-            content="https://www.thallion-dev.it/assets/cover_web.jpg"
-          /> */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta property="twitter:domain" content="lescretes.it" />
           <meta
@@ -74,10 +67,6 @@ const Store = ({ translation }) => {
             name="twitter:description"
             content={translation.heading.descrizione}
           />
-          {/* <meta
-            name="twitter:image"
-            content="https://www.thallion-dev.it/assets/cover_web.jpg"
-          /> */}
         </>
       </Head>
       <div className="w-[90%] mx-auto min-h-screen py-10 text-main">
@@ -96,6 +85,10 @@ const Store = ({ translation }) => {
               {currentLocations.map((el) => {
                 function handleOnClick() {
                   setActiveStore(el.id);
+                  // Scorri la pagina verso la mappa
+                  document
+                    .getElementById("map-container")
+                    .scrollIntoView({ behavior: "smooth" });
                 }
 
                 return (
@@ -148,7 +141,10 @@ const Store = ({ translation }) => {
               )}
             </div>
           </div>
-          <div className="aspect-[900/1000] lg:aspect-square lg:col-span-2">
+          <div
+            id="map-container"
+            className="aspect-[900/1000] lg:aspect-square lg:col-span-2"
+          >
             <Map store={data.storelocations} activeStore={activeStore} />
           </div>
         </div>
@@ -165,7 +161,6 @@ export async function getStaticProps(locale, context) {
     case "it":
       obj = storeIT;
       break;
-
     case "en":
       obj = storeEN;
       break;

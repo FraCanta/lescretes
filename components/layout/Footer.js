@@ -8,7 +8,7 @@ const Footer = ({ translation }) => {
   const { locale } = useRouter();
   return (
     <>
-      <footer className="grid grid-cols-1 gap-6 p-10 xl:grid-cols-5 text-main xl:gap-0">
+      <footer className="grid grid-cols-1 gap-6 p-10 xl:grid-cols-4 text-main xl:gap-0">
         <aside className="grid grid-cols-1 gap-2">
           <Link href="/" title="Torna all'homepage di Les Crêtes">
             <Image

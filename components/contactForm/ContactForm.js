@@ -1,59 +1,290 @@
+import React, { useState } from "react";
 import { Icon } from "@iconify/react";
-import React from "react";
+import {
+  PhoneInput,
+  defaultCountries,
+  parseCountry,
+} from "react-international-phone";
+import "react-international-phone/style.css";
+import Select, { components } from "react-select";
+import countryList from "react-select-country-list";
+import Link from "next/link";
+import toast from "react-hot-toast";
+
+const countries = defaultCountries.filter((country) => {
+  const { iso2 } = parseCountry(country);
+  return ["it", "us", "gb", "fr", "de"].includes(iso2);
+});
 
 const ContactForm = () => {
+  const [phone, setPhone] = useState("");
+  const contactReasons = [
+    { value: "tour", label: "Tour della cantina" },
+    { value: "degustazione", label: "Degustazione vini" },
+    { value: "informazioni", label: "Richiesta informazioni" },
+    { value: "altro", label: "Altro" },
+  ];
+  const [privacyChecked, setPrivacyChecked] = useState(false);
+  const [inputs, setInputs] = useState({
+    name: "",
+    surname: "",
+    email: "",
+    phone: "",
+    message: "",
+    reason: "",
+    nation: "",
+  });
+
+  const options = countryList().getData();
+
+  const handleChange = (e) => {
+    setInputs((prev) => ({
+      ...prev,
+      [e.target.id]: e.target.value,
+    }));
+  };
+
+  const onSubmitForm = async (e) => {
+    e.preventDefault();
+    if (
+      inputs.name &&
+      inputs.surname &&
+      inputs.email &&
+      inputs.message &&
+      inputs.phone &&
+      inputs.reason &&
+      inputs.nation
+    ) {
+      try {
+        const formDataMail = {
+          ...inputs,
+        };
+
+        const res = await fetch(`/api/contatti`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formDataMail),
+        });
+
+        if (res.status === 200) {
+          setInputs({
+            name: "",
+            surname: "",
+            email: "",
+            phone: "",
+            message: "",
+            reason: "",
+            nation: "",
+          });
+          toast.success(
+            `Hey ${inputs.name}, your message was sent successfully`
+          );
+        } else {
+          throw new Error("Failed to send data");
+        }
+      } catch (error) {
+        toast.error(
+          `Hey ${inputs.name}, your message wasn't sent successfully`
+        );
+      }
+    } else {
+      toast.error("Please fill in all required fields");
+    }
+  };
+
+  const handleNationChange = (selectedOption) => {
+    setInputs((prev) => ({
+      ...prev,
+      nation: selectedOption ? selectedOption.label : "",
+    }));
+  };
+
+  const handleReasonChange = (selectedOption) => {
+    setInputs((prev) => ({
+      ...prev,
+      reason: selectedOption ? selectedOption.label : "",
+    }));
+  };
+
+  const ClearIndicator = (props) => {
+    return (
+      <components.ClearIndicator {...props}>
+        <Icon icon="ic:baseline-clear" />
+      </components.ClearIndicator>
+    );
+  };
+
+  const customStyles = {
+    control: (provided, state) => ({
+      ...provided,
+      backgroundColor: "transparent",
+      borderColor: "transparent",
+      borderBottomColor: state.isFocused ? "#4A4A49" : "#4A4A49",
+      boxShadow: state.isFocused ? `0 0 0 1px #4A4A49` : provided.boxShadow,
+      "&:hover": {
+        borderColor: state.isFocused ? "#4A4A49" : "#4A4A49",
+      },
+      color: state.isFocused ? "#FFFFFF" : "#4A4A49",
+    }),
+    option: (provided, state) => ({
+      ...provided,
+      backgroundColor: state.isSelected
+        ? "#4A4A49"
+        : state.isFocused
+        ? "#4A4A49"
+        : provided.backgroundColor,
+      color: state.isSelected || state.isFocused ? "#FFFFFF" : "#4A4A49",
+      "&:hover": {
+        backgroundColor: "#4A4A49",
+        color: "#FFFFFF",
+      },
+    }),
+    singleValue: (provided) => ({
+      ...provided,
+      color: "#4A4A49",
+    }),
+  };
+
   return (
-    <form className="w-full ">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <div>
-          {" "}
-          <span className=" text-sm text-main font-bold">Nome</span>
-          <input
-            className="w-full bg-second text-main mt-2 p-3 rounded-md focus:outline-none focus:shadow-outline"
-            type="text"
-            placeholder="Mario"
-          />
+    <form className="container mx-auto bg-white" onSubmit={onSubmitForm}>
+      <div>
+        <div className="grid grid-cols-2 gap-6 xl:gap-8">
+          <div className="flex flex-col col-span-2 gap-2 lg:col-span-1">
+            <label className="font-bold text-main">Nome*</label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              required
+              value={inputs.name}
+              onChange={handleChange}
+              className="py-2 bg-transparent border-b lg:col-span-1 focus:outline-none focus:border-main text-main"
+              placeholder=""
+            />
+          </div>
+          <div className="flex flex-col col-span-2 gap-2 lg:col-span-1">
+            <label className="font-bold text-main">Cognome*</label>
+            <input
+              id="surname"
+              type="text"
+              name="surname"
+              required
+              value={inputs.surname}
+              onChange={handleChange}
+              className="py-2 bg-transparent border-b lg:col-span-1 focus:outline-none focus:border-main text-main"
+              placeholder=""
+            />
+          </div>
+          <div className="flex flex-col col-span-2 gap-2 lg:col-span-1">
+            <label className="font-bold text-main">Email*</label>
+            <input
+              id="email"
+              data-invalid="false"
+              data-filled="false"
+              className="py-2 bg-transparent border-b lg:col-span-1 focus:outline-none focus:border-main text-main"
+              name="email"
+              placeholder="example@email.com"
+              type="email"
+              value={inputs.email}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="flex flex-col col-span-2 gap-2 lg:col-span-1">
+            <label className="font-bold text-main">Numero*</label>
+            <PhoneInput
+              id="phone"
+              name="phone"
+              defaultCountry="it"
+              value={inputs.phone}
+              required
+              onChange={(phone) =>
+                setInputs((prev) => ({
+                  ...prev,
+                  phone: phone,
+                }))
+              }
+              countries={countries}
+              className="!border-b focus:outline-none focus:border-main bg-transparent !w-full col-span-2 lg:col-span-1  text-main"
+            />
+          </div>
+          <div className="flex flex-col col-span-2 gap-2 lg:col-span-1">
+            <label className="font-bold text-main">Motivo del contatto*</label>
+            <Select
+              options={contactReasons}
+              value={contactReasons.find(
+                (option) => option.label === inputs.reason
+              )}
+              onChange={handleReasonChange}
+              components={{ ClearIndicator }}
+              isClearable
+              className=" !border-none"
+              placeholder=""
+              styles={customStyles}
+              required
+            />
+          </div>
+          <div className="flex flex-col col-span-2 gap-2 lg:col-span-1">
+            <label className="font-bold text-main">Nazionalità*</label>
+
+            <Select
+              options={options}
+              value={options.find((option) => option.label === inputs.nation)}
+              onChange={handleNationChange}
+              components={{ ClearIndicator }}
+              isClearable
+              className="!border-none"
+              placeholder=""
+              styles={customStyles}
+              required
+            />
+          </div>
+          <div className="flex flex-col col-span-2 gap-2">
+            <label className="font-bold text-main">Messaggio*</label>
+            <textarea
+              id="message"
+              onChange={handleChange}
+              value={inputs.message}
+              cols="10"
+              rows="5"
+              className="w-full py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
+              placeholder="Scrivi il tuo messaggio..."
+              required
+            ></textarea>
+          </div>
         </div>
-        <div>
-          <span className=" text-sm text-main font-bold">Cognome</span>
+        <div className="flex items-center gap-4 mt-6 text-main">
           <input
-            className="w-full bg-second text-main mt-2 p-3 rounded-md focus:outline-none focus:shadow-outline"
-            type="text"
-            placeholder="Rossi"
+            type="checkbox"
+            id="privacy"
+            name="privacy"
+            value="SI"
+            required
+            onChange={() => setPrivacyChecked(!privacyChecked)}
+            checked={privacyChecked}
           />
+          <label htmlFor="privacy">
+            <span className="opacity-75">
+              * Dichiaro di aver letto e compreso la{" "}
+            </span>{" "}
+            <strong>
+              <Link target="_blank" href="/privacy">
+                politica sulla privacy*
+              </Link>{" "}
+            </strong>{" "}
+          </label>
         </div>
-      </div>
-      <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <div>
-          {" "}
-          <span className=" text-sm text-main font-bold">Email</span>
-          <input
-            className="w-full bg-second text-main mt-2 p-3 rounded-md focus:outline-none focus:shadow-outline"
-            type="text"
-            placeholder="mariorossi@gmail.com"
-          />
+
+        <div className="flex mt-6">
+          <button
+            type="submit"
+            className="cursor-pointer flex items-center text-lg xl:text-xl gap-2 text-main w-full max-w-max text-center lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 "
+          >
+            Invia richiesta <Icon icon="ri:mail-send-line" />
+          </button>
         </div>
-        <div>
-          {" "}
-          <span className=" text-sm text-main font-bold">Telefono</span>
-          <input
-            className="w-full bg-second text-main mt-2 p-3 rounded-md focus:outline-none focus:shadow-outline"
-            type="text"
-            placeholder="+39 XXXXXXXXX"
-          />
-        </div>
-      </div>
-      <div className="mt-8">
-        <span className="text-sm text-main font-bold">Message</span>
-        <textarea
-          placeholder="scrivi qui"
-          className="w-full h-32 bg-second text-main mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-        ></textarea>
-      </div>
-      <div className="mt-8">
-        <button className="flex items-center justify-center gap-2 capitalize font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 xl:text-[1rem] 2xl:text-[1.2rem]  fxl:text-2xl 3xl:text-3xl rounded-[32px] shadow  text-white hover:transition-all  bg-[#4A4A49]">
-          Send Message <Icon icon="gg:arrow-right-o" />
-        </button>
       </div>
     </form>
   );

@@ -113,7 +113,6 @@ const Prenotazione = () => {
   const canProceed = () => {
     return privacyChecked && termsChecked;
   };
-  console.log(formData.timeSlot);
   const onSubmitForm = async () => {
     if (
       inputs.name &&
