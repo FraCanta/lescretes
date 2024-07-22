@@ -97,7 +97,7 @@ const Vini = ({ translation }) => {
               }}
             ></p>
             <CtaOutlineBrown link="/sostenibilita" title="storia">
-              Scopri di più sul nostro impegno
+              Scopri il nostro impegno
             </CtaOutlineBrown>
           </div>
           <div className="w-full gap-10">

@@ -81,7 +81,7 @@ function Sostenibilita() {
                 height={80}
               />
             </div> */}
-            <h2 className="text-4xl font-bold text-main">
+            <h2 className="text-3xl font-bold text-main">
               Impianti fotovoltaici
             </h2>
             <p className="text-xl text-main lg:w-[70%]">
@@ -132,7 +132,7 @@ function Sostenibilita() {
           </div>
 
           <div className="flex flex-col gap-6 ">
-            <h2 className="text-3xl font-bold lg:text-4xl text-main">
+            <h2 className="text-3xl font-bold text-main">
               Il primo tappo da vino al mondo senza impronta di carbonio
             </h2>
             <p className="text-xl text-main">
@@ -154,7 +154,7 @@ function Sostenibilita() {
         </div>
         <div className="w-[90%] mx-auto  grid items-center grid-cols-1 lg:grid-cols-2 gap-10 my-10">
           <div className="flex flex-col gap-6">
-            <h2 className="text-4xl font-bold text-main">
+            <h2 className="text-3xl font-bold text-main">
               Bottiglie leggere che aiutano l'ambiente
             </h2>
             <p className="text-xl text-main ">

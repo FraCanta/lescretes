@@ -87,7 +87,7 @@ const Sections5 = ({ translation }) => {
               link="/sostenibilita"
               title="link alla pagina di sostenibilità"
             >
-              Scopri di più sul nostro impegno
+              Scopri il nostro impegno
             </CtaOutlineBrown>
           </div>
           <div className="w-full h-[150px] md:h-[350px] absolute bottom-0 left-0">
