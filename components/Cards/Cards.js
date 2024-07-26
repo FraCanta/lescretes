@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Tre from "@/public/assets/degustazioni/tre.jpeg";
 import Link from "next/link";
+import { Icon } from "@iconify/react";
 
 const Cards = ({
   img,
@@ -27,23 +28,20 @@ const Cards = ({
                 height={600}
               />
             </figure>
-            <div className="card-body !p-2">
-              <h2 className="card-title !justify-center font-bold text-[20px] fxl:text-3xl">
+            <div className="card-body !py-2 !px-4">
+              <h2 className="card-title  font-bold text-[20px] fxl:text-3xl">
                 {title}
               </h2>
-              <p className="text-lg text-center fxl:text-xl text-main">
-                {descrizione}
-              </p>
-              <div className="justify-center mt-4 border-t card-actions">
-                <p className="text-center py-4 font-bold text-[16px]">
-                  {price}
-                </p>
+              <p className="text-lg fxl:text-xl text-main">{descrizione}</p>
+              <div className="items-center justify-between mt-4 border-t card-actions">
+                <p className="py-4 font-bold text-[16px]">{price}</p>
+                <Icon icon="teenyicons:arrow-right-solid" />
               </div>
             </div>
           </div>
         </Link>
       ) : (
-        <div className="h-full overflow-hidden transition-all duration-500 ease-out bg-white border shadow-lg shadow-main/10 card hover:shadow-xl">
+        <div className="w-full h-full border card xl:w-full border-main/30">
           <figure className="p-4">
             <Image
               src={img}
