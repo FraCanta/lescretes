@@ -69,7 +69,7 @@ const TabWine = ({ tabs }) => {
             activeTab === index ? "tabcontent" : "tabcontent hidden"
           }`}
         >
-          <div className="text-main/70 !text-base md:!text-lg md:w-[90%] fxl:!text-2xl flex flex-col gap-6">
+          <div className="text-main !text-base md:!text-lg md:w-[90%] fxl:!text-2xl flex flex-col gap-6">
             {tab.content && Array.isArray(tab.content)
               ? tab.content.map((el, i) => (
                   <div key={i}>

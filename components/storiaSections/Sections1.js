@@ -6,15 +6,18 @@ const Sections1 = ({ translation }) => {
       {translation.paragrafi.map((p, i) => {
         return (
           <div
-            className="flex-col justify-start items-start gap-8 flex"
+            className="flex flex-col items-start justify-start gap-8"
             key={i}
           >
-            <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold 3xl:text-7xl">
+            <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
               {p.title}
             </h2>
-            {p.descrizione.map((el, i) => {
+            {p.descrizione.map((el, j) => {
               return (
-                <div className=" text-main/80 text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal flex flex-col gap-4">
+                <div
+                  className="flex flex-col gap-4 text-xl font-normal text-main md:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal"
+                  key={j} // Aggiunta della key per l'elemento interno
+                >
                   <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
                 </div>
               );

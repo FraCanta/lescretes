@@ -9,10 +9,10 @@ const Sections3 = ({ translation }) => {
     <>
       <div className="w-[90%] mx-auto relative py-[50px] lg:p-[120px] z-[9999]">
         <div className="inline-flex flex-col items-center justify-start w-full h-full gap-10 py-10">
-          <h2 className="w-full lg:w-[80%] 2xl:w-full  fxl:w-[65%] 3xl:text-7xl  lg:text-center text-white text-3xl md:text-5xl lg:text-5xl fxl:text-[60px] font-bold ">
+          <h2 className="w-full  2xl:w-full  fxl:w-[65%] 3xl:text-7xl  lg:text-center text-white text-3xl md:text-5xl lg:text-5xl fxl:text-[60px] font-bold ">
             {translation?.title}
           </h2>
-          <p className="lg:w-[60%] xl:w-[95%] fxl:w-[60%] 3xl:w-[75%] lg:text-center text-white/80 text-xl md:text-2xl 2xl:text-xl  fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-regular">
+          <p className="lg:w-[60%] xl:w-[80%] fxl:w-[60%] 3xl:w-[75%] lg:text-center text-white text-xl md:text-xl  fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-regular">
             {translation?.descrizione}
           </p>
           <div className="justify-center items-center gap-[28.76px] flex flex-col md:flex-row w-full h-full">

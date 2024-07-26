@@ -12,7 +12,7 @@ const Sections2 = ({ translation }) => {
         <h2 className="text-3xl font-bold text-main md:text-5xl 3xl:text-7xl ">
           {translation?.title}
         </h2>
-        <p className="text-xl 2xl:w-2/3 3xl:w-3/4 md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/80">
+        <p className="text-xl 2xl:w-2/3 3xl:w-3/4 md:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main">
           {translation?.descrizione}
         </p>
       </div>

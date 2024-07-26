@@ -39,7 +39,7 @@ const Rifugio = ({ translation }) => {
                 return (
                   <div
                     key={i}
-                    className="flex flex-col gap-10 text-xl font-normal text-main/80 md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal"
+                    className="flex flex-col gap-10 text-xl font-normal text-main fxl:text-2xl 3xl:text-4xl 3xl:leading-normal"
                   >
                     <p dangerouslySetInnerHTML={{ __html: d.p }}></p>
                   </div>
@@ -78,13 +78,13 @@ const Rifugio = ({ translation }) => {
           <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
             {translation.section3.title}
           </h2>
-          <div className="flex flex-col gap-10 text-xl font-normal text-main/80 md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">
+          <div className="flex flex-col gap-10 text-xl font-normal text-main/80 fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">
             <p
               dangerouslySetInnerHTML={{
                 __html: translation.section3.descrizione,
               }}
             ></p>
-            <ul className="flex flex-col gap-4 fxl:gap-8  text-main/main text-[20px] md:text-2xl 2xl:text-xl font-normal fxl:text-2xl 3xl:text-4xl">
+            <ul className="flex flex-col gap-4 fxl:gap-8  text-main/main text-[20px] font-normal fxl:text-2xl 3xl:text-4xl">
               {translation.section3.list.map((el, i) => {
                 return (
                   <li key={i}>

@@ -16,6 +16,7 @@ import Head from "next/head";
 import CtaPrimary from "@/components/Cta/CtaPrimary";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 import VideoPlayer from "@/components/VideoPlayer/VideoPlayer";
+import Image from "next/image";
 
 export default function Storia({ translation }) {
   return (
@@ -32,11 +33,45 @@ export default function Storia({ translation }) {
       <Sections1 translation={translation.section1} />
       <Sections2 />
       <div className="w-[90%] mx-auto py-10 lg:py-20">
-        <VideoPlayer video="/video/video3.mp4" poster="/assets/poster.png" />
+        <VideoPlayer
+          video="/video/video_storia_2.mp4"
+          poster="/assets/poster2.png"
+        />
       </div>
       <Sections3 translation={translation.section3} />
+      <div className="w-[90%] mx-auto py-10 lg:py-20 lg:text-center flex flex-col gap-6">
+        <div className="flex flex-col gap-4 py-10 mx-auto lg:w-2/3 xl:w-[90%] 2xl:w-2/3">
+          <h2 className="text-3xl font-bold text-main lg:text-5xl">
+            {translation.section4.title}
+          </h2>
+          <p className="text-xl xl:text-lg 2xl:text-xl text-main">
+            {translation.section4.descrizione}
+          </p>
+        </div>
 
-      <div className="min-h-[60vh] md:min-h-[50vh] xl:min-h-[80vh] flex flex-col justify-center items-center relative ">
+        <div className="grid gap-y-16 xl:gap-4 lg:grid-cols-4">
+          {translation.section4.team.map((t, i) => (
+            <div className="flex flex-col gap-4" key={i}>
+              <div className="relative w-full aspect-square">
+                <Image
+                  src={t.img}
+                  alt={`Foto di ${t.name}`}
+                  fill
+                  className="object-cover object-right"
+                />
+              </div>
+              <div className="px-3">
+                <h3 className="text-2xl font-bold text-main">{t.name}</h3>
+                <p className="text-lg xl:text-base 2xl:text-lg text-main">
+                  {t.role}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="relative flex flex-col items-center justify-center py-20">
         <div className="w-[90%] mx-auto flex flex-col gap-8 md:gap-20 ">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <div className="flex flex-col gap-4">

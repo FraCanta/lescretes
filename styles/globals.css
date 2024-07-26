@@ -53,6 +53,12 @@ span {
     background-position: bottom right;
   }
 
+  .bg-404 {
+    background-image: url("../public/assets/4042.jpg");
+    background-size: cover;
+    /* background-position: bottom; */
+  }
+
   @media screen and (max-width: 640px) {
     .bg-pattern {
       background-size: 500px;

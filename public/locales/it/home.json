@@ -163,7 +163,8 @@
       "title1": "Sostenibilità",
       "descrizione": "Ci impegniamo per la sostenibilità ambientale e seguiamo le linee guida europee per i trattamenti fitosanitari, privilegiando un uso limitato di fitofarmaci. La nostra dedizione alla qualità e alla passione per il territorio circostante sono al centro della nostra filosofia.",
       "title2": "Impegno",
-      "descrizione2": "Il principio cardine della nostra filosofia è continuare a seguire i valori delle generazioni passate, valorizzando il 'Terroir' con fedeltà e rispetto delle tradizioni. Tuttavia, il nostro sguardo è sempre rivolto al futuro dell'innovazione che ci consente di esprimere appieno le potenzialità del territorio vitivinicolo di montagna della Valle d'Aosta."
+      "descrizione2": "Il principio cardine della nostra filosofia è continuare a seguire i valori delle generazioni passate, valorizzando il 'Terroir' con fedeltà e rispetto delle tradizioni. Tuttavia, il nostro sguardo è sempre rivolto al futuro dell'innovazione che ci consente di esprimere appieno le potenzialità del territorio vitivinicolo di montagna della Valle d'Aosta.",
+      "cta": "Scopri il nostro impegno"
     },
     "testimonials": {
       "title": "Dicono di noi",
@@ -172,7 +173,7 @@
     "section6": {
       "title": "Non solo Vino",
       "descrizione": "DeVin propone una formula cosmetica innovativa, naturale e efficace, derivata da estratti biologici delle montagne, per soddisfare le esigenze di chi cerca prodotti naturali ad alte prestazioni.",
-      "button": "scopri la nostra cosmesi"
+      "button": "Scopri la nostra cosmesi"
     }
   }
 }

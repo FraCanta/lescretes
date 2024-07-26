@@ -58,10 +58,10 @@ const SingleWine = ({ wine, others }) => {
                     className="w-8 h-10 text-main fxl:w-12 fxl:h-16"
                   />
                   <div className="flex flex-col fxl:gap-2">
-                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
+                    <h2 className="text-[20px] font-black text-main fxl:text-3xl">
                       {wine.denominazioneTitle}
                     </h2>
-                    <p className="text-main/70 fxl:text-xl">
+                    <p className="text-main fxl:text-xl">
                       {wine.denominazione}
                     </p>
                   </div>
@@ -72,10 +72,10 @@ const SingleWine = ({ wine, others }) => {
                     className="w-8 h-10 text-main fxl:w-12 fxl:h-16"
                   />
                   <div className="flex flex-col fxl:gap-2">
-                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
+                    <h2 className="text-[20px] font-black text-main fxl:text-3xl">
                       {wine.vitigniTitle}
                     </h2>
-                    <p className="text-main/70 fxl:text-xl">{wine.vitigni}</p>
+                    <p className="text-main fxl:text-xl">{wine.vitigni}</p>
                   </div>
                 </li>
                 <li className="flex items-center gap-4">
@@ -84,10 +84,10 @@ const SingleWine = ({ wine, others }) => {
                     className="w-8 h-10 text-main fxl:w-12 fxl:h-14"
                   />
                   <div className="flex flex-col fxl:gap-2">
-                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
+                    <h2 className="text-[20px] font-black text-main fxl:text-3xl">
                       {wine.tipologiaTitle}
                     </h2>
-                    <p className="text-main/70 fxl:text-xl">{wine.tipologia}</p>
+                    <p className="text-main fxl:text-xl">{wine.tipologia}</p>
                   </div>
                 </li>
                 <li className="flex items-center gap-4">
@@ -96,12 +96,10 @@ const SingleWine = ({ wine, others }) => {
                     className="w-8 h-10 text-main fxl:w-12 fxl:h-14"
                   />
                   <div className="flex flex-col fxl:gap-2">
-                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
+                    <h2 className="text-[20px] font-black text-main fxl:text-3xl">
                       {wine.gradazioneTitle}
                     </h2>
-                    <p className="text-main/70 fxl:text-xl">
-                      {wine.gradazione}
-                    </p>
+                    <p className="text-main fxl:text-xl">{wine.gradazione}</p>
                   </div>
                 </li>
                 <li className="flex items-center gap-4">
@@ -110,10 +108,10 @@ const SingleWine = ({ wine, others }) => {
                     className="w-8 h-10 text-main fxl:w-12 fxl:h-14"
                   />
                   <div className="flex flex-col fxl:gap-2">
-                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
+                    <h2 className="text-[20px] font-black text-main fxl:text-3xl">
                       {wine.bicchiereTitle}
                     </h2>
-                    <p className="text-main/70 fxl:text-xl">{wine.bicchiere}</p>
+                    <p className="text-main fxl:text-xl">{wine.bicchiere}</p>
                   </div>
                 </li>
               </ul>
@@ -124,10 +122,10 @@ const SingleWine = ({ wine, others }) => {
                     className="w-8 h-10 text-main fxl:w-16 fxl:h-16"
                   />
                   <div className="flex flex-col fxl:gap-2">
-                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
+                    <h2 className="text-[20px] font-black text-main fxl:text-3xl">
                       {wine.formatoTitle}
                     </h2>
-                    <p className="text-main/70 fxl:text-xl"> {wine.formato}</p>
+                    <p className="text-main fxl:text-xl"> {wine.formato}</p>
                   </div>
                 </li>
                 <li className="flex items-center gap-4">
@@ -136,10 +134,10 @@ const SingleWine = ({ wine, others }) => {
                     className="w-8 h-10 text-main fxl:w-12 fxl:h-16"
                   />
                   <div className="flex flex-col fxl:gap-2">
-                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
+                    <h2 className="text-[20px] font-black text-main fxl:text-3xl">
                       {wine.vinificazioneTitle}
                     </h2>
-                    <p className="text-main/70 fxl:text-xl">
+                    <p className="text-main fxl:text-xl">
                       {" "}
                       {wine.vinificazione}
                     </p>
@@ -151,10 +149,10 @@ const SingleWine = ({ wine, others }) => {
                     className="w-8 h-10 text-main fxl:w-12 fxl:h-16"
                   />
                   <div className="flex flex-col fxl:gap-2">
-                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
+                    <h2 className="text-[20px] font-black text-main fxl:text-3xl">
                       {wine.zonaTitle}
                     </h2>
-                    <p className="text-main/70 fxl:text-xl">{wine.zona}</p>
+                    <p className="text-main fxl:text-xl">{wine.zona}</p>
                   </div>
                 </li>
                 <li className="flex items-center gap-4">
@@ -163,12 +161,10 @@ const SingleWine = ({ wine, others }) => {
                     className="w-8 h-10 text-main fxl:w-12 fxl:h-16"
                   />
                   <div className="flex flex-col fxl:gap-2">
-                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
+                    <h2 className="text-[20px] font-black text-main fxl:text-3xl">
                       {wine.affinamentoTitle}
                     </h2>
-                    <p className="text-main/70 fxl:text-xl">
-                      {wine.affinamento}
-                    </p>
+                    <p className="text-main fxl:text-xl">{wine.affinamento}</p>
                   </div>
                 </li>
                 <li className="flex items-center gap-4">
@@ -177,10 +173,10 @@ const SingleWine = ({ wine, others }) => {
                     className="w-8 h-10 text-main fxl:w-12 fxl:h-16"
                   />
                   <div className="flex flex-col fxl:gap-2">
-                    <h2 className="text-[20px] font-black text-main/90 fxl:text-3xl">
+                    <h2 className="text-[20px] font-black text-main fxl:text-3xl">
                       {wine.servizioTitle}
                     </h2>
-                    <p className="text-main/70 fxl:text-xl">{wine.servizio}</p>
+                    <p className="text-main fxl:text-xl">{wine.servizio}</p>
                   </div>
                 </li>
               </ul>
@@ -205,7 +201,7 @@ const SingleWine = ({ wine, others }) => {
           </div>
 
           <div className="flex items-center gap-6 ">
-            <p className="text-lg xl:text-xl fxl:text-2xl text-main/80">
+            <p className="text-lg xl:text-xl fxl:text-2xl text-main">
               Condividi su
             </p>
             <ul className="flex gap-6">

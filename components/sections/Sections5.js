@@ -55,7 +55,7 @@ const Sections5 = ({ translation }) => {
               <h3 className="text-[30px] md:text-[40px] fxl:text-[50px] 3xl:text-6xl text-main font-black">
                 {translation.title1}
               </h3>
-              <p className="text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/80 font-medium w-full lg:w-[80%] fxl:w-[90%]">
+              <p className="text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/80 font-medium w-full lg:w-[80%] fxl:w-[90%]">
                 {translation.descrizione}
               </p>
             </div>
@@ -79,7 +79,7 @@ const Sections5 = ({ translation }) => {
               <h3 className="text-[30px] md:text-[40px] fxl:text-[50px] 3xl:text-6xl text-main font-black">
                 {translation.title2}
               </h3>
-              <p className="text-xl md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/80 font-medium w-full lg:w-[80%] fxl:w-[90%] z-10">
+              <p className="text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/80 font-medium w-full lg:w-[80%] fxl:w-[90%] z-10">
                 {translation.descrizione2}
               </p>
             </div>{" "}
@@ -87,7 +87,7 @@ const Sections5 = ({ translation }) => {
               link="/sostenibilita"
               title="link alla pagina di sostenibilità"
             >
-              Scopri il nostro impegno
+              {translation.cta}
             </CtaOutlineBrown>
           </div>
           <div className="w-full h-[150px] md:h-[350px] absolute bottom-0 left-0">

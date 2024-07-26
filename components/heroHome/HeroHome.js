@@ -12,7 +12,6 @@ const HeroHome = ({ title }) => {
           <Image
             src={Degustazioni}
             fill
-            priority="true"
             alt="degustazione image"
             className="object-cover object-right-[20px] xl:object-contain"
           />

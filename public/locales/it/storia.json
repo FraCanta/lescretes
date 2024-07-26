@@ -52,7 +52,7 @@
       "title": "La nostra filosofia",
       "descrizione": [
         {
-          "p": "L’azienda Les Crêtes produce <a href='/vini' title='i vini di Les Cretes' class='font-bold underline'>i suoi vini</a> in un contesto alpino, che si sviluppa ai piedi del Monte Bianco, caratterizzato da montagne elevate, pendenze sabbiose e temperature rigide. Il microclima fresco, secco e ventilato è caratterizzato da suoli di origine morenica, drenanti e a forte componente minerale."
+          "p": "L’azienda Les Crêtes produce <a href='/i-vini' title='i vini di Les Cretes' class='font-bold underline'>i suoi vini</a> in un contesto alpino, che si sviluppa ai piedi del Monte Bianco, caratterizzato da montagne elevate, pendenze sabbiose e temperature rigide. Il microclima fresco, secco e ventilato è caratterizzato da suoli di origine morenica, drenanti e a forte componente minerale."
         },
         {
           "p": "L’attenzione all’ambiente e le tecniche di coltivazione sono aspetti fondamentali per la nostra realtà. Questa ha un legame intrinseco e focalizzato con l’habitat circostante. Ogni attività viene svolta con la massima dedizione e cura, in relazione alla qualità e alla passione che ci contraddistingue."
@@ -64,13 +64,39 @@
       "title2": "Dare valore al territorio significa tutelarne l’identità",
       "descrizione2": [
         {
-          "p": "Il principio cardine della filosofia dell’azienda è continuare a seguire i valori delle generazioni passate valorizzando il <a href='/terroir' title='Pagina Terroir' class='font-bold underline'> “Terroir” </a> con fedeltà e rispetto delle tradizioni. Lo sguardo, però, è sempre rivolto a quel futuro di innovazione che permette di esprimere appieno le potenzialità di un territorio vitivinicolo di montagna come quello valdostano. Una realtà unica ed irripetibile."
+          "p": "Il principio cardine della filosofia dell’azienda è continuare a seguire i valori delle generazioni passate valorizzando il <a href='/il-terroir' title='Pagina Terroir' class='font-bold underline'> “Terroir” </a> con fedeltà e rispetto delle tradizioni. Lo sguardo, però, è sempre rivolto a quel futuro di innovazione che permette di esprimere appieno le potenzialità di un territorio vitivinicolo di montagna come quello valdostano. Una realtà unica ed irripetibile."
         },
         {
           "p": "La gestione agronomica, in prevalenza manuale, segue le pratiche della lotta integrata a tutela dell’ambiente e a salvaguardia del territorio. Le condizioni climatiche favoriscono inoltre una coltivazione a basso impatto ambientale."
         },
         {
           "p": "Le uve, raccolte a mano, sono disposte in piccole casse, per proteggerne l’integrità e vengono trasformate con grande attenzione. I vini, sapidi freschi ed eleganti, esprimono questa filosofia e l’essenza del ”terroir” di montagna. Sono figli di una cantina a conduzione famigliare, di piccoli appezzamenti coltivati a mano e curati nei dettagli, per ottenere uve sane, con basse rese, seguendo sia in campo che in cantina, le pratiche tradizionali ed eco-sostenibili, a tutela dell’ambiente e del territorio."
+        }
+      ]
+    },
+    "section4": {
+      "title": "Da 6 generazioni nel vino di qualità",
+      "descrizione": "L'azienda Les Crêtes nasce nel 1989 in Aymavilles (Valle d'Aosta), per opera di Costantino Charrère ed è oggi gestita dalla sua famiglia che, proprietaria di un storico mulino ad acqua del '700 e delle antiche cantine di Via Moulins, si occupa, da sei generazioni, di produzioni agroalimentari",
+      "team": [
+        {
+          "img": "/assets/charrere_foto.webp",
+          "name": "Costantino Charrère",
+          "role": "Imprenditore visionario, winemaker, pioniere della viticoltura in Valle d'Aosta. Socio fondatore di Les Crêtes"
+        },
+        {
+          "img": "/assets/elena2.webp",
+          "name": "Elena Charrère",
+          "role": "Socia di Les Crêtes. Appassionata di storia, architettura e arte. Gestisce personale, marketing e comunicazione."
+        },
+        {
+          "img": "/assets/eleonora.webp",
+          "name": "Eleonora Charrère",
+          "role": "Socia di Les Crêtes. Agronoma, specializzata nella gestione di vigneto e cantina."
+        },
+        {
+          "img": "/assets/giulio2.webp",
+          "name": "Giulio Corti",
+          "role": "Socio di Les Crêtes, compagno di Elena. Profondo conoscitore della montagna e del mondo vitivinicolo. Gestisce commerciale, economia ed investimenti."
         }
       ]
     },

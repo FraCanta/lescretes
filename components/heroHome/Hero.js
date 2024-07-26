@@ -12,7 +12,6 @@ const Hero = ({ img, text, alt }) => {
           <Image
             src={img}
             fill
-            priority="true"
             alt={alt}
             className="object-cover w-auto h-auto"
           />

@@ -2,7 +2,7 @@
   "menu": {
     "it": {
       "storia": {
-        "name": "L'azienda",
+        "name": "Identità",
         "sottomenu": [
           {
             "name": "La famiglia Charrère",
@@ -34,31 +34,37 @@
       "degustazioni": "Degustazioni",
       "news": "Megazine",
       "cosmesi": "DeVin Cosmetica",
-      "download": "Area Download",
+      "download": "Press Kit",
       "store": "Store Locator",
       "contatti": "Contatti"
     },
     "en": {
       "storia": {
-        "name": "History",
+        "name": "Identity",
         "sottomenu": [
           {
             "name": "The Charrère family",
             "imgSrc": "/assets/lc.jpg",
             "link": "/storia",
-            "title": "storia dell'azienda"
+            "title": "The Charrère family"
           },
           {
-            "name": "The refuge of wine",
-            "imgSrc": "/assets/rifugio.jpg",
+            "name": "The Refuge of wine",
+            "imgSrc": "/assets/rifugio.webp",
             "link": "/il-rifugio-del-vino",
-            "title": "il rifugio del vino"
+            "title": "The Refuge of wine"
           },
           {
             "name": "The Terroir",
-            "imgSrc": "/assets/terroir.jpg",
+            "imgSrc": "/assets/terroir.webp",
             "link": "/il-terroir",
-            "title": "il terroir"
+            "title": "The Terroir"
+          },
+          {
+            "name": "The sustainability of Les Crêtes",
+            "imgSrc": "/assets/lc2.webp",
+            "link": "/sostenibilita",
+            "title": "The sustainability of Les Crêtes"
           }
         ]
       },
@@ -72,7 +78,7 @@
     },
     "fr": {
       "storia": {
-        "name": "Histoire",
+        "name": "Identité",
         "sottomenu": [
           {
             "name": "The Charrère family",
@@ -82,15 +88,21 @@
           },
           {
             "name": "The refuge of wine",
-            "imgSrc": "/assets/rifugio.jpg",
+            "imgSrc": "/assets/rifugio.webp",
             "link": "/il-rifugio-del-vino",
             "title": "il rifugio del vino"
           },
           {
             "name": "The Terroir",
-            "imgSrc": "/assets/terroir.jpg",
+            "imgSrc": "/assets/terroir.webp",
             "link": "/il-terroir",
             "title": "il terroir"
+          },
+          {
+            "name": "La sostenibilità di Les Crêtes",
+            "imgSrc": "/assets/lc2.webp",
+            "link": "/sostenibilita",
+            "title": "la sostenibilità di Les Crêtes"
           }
         ]
       },

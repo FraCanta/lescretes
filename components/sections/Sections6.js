@@ -13,7 +13,7 @@ const Sections6 = ({ translation }) => {
           {translation.title}
         </h2>
         <div className="w-full ">
-          <p className="text-xl font-normal text-white/80 md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">
+          <p className="text-xl font-normal text-white fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">
             {translation.descrizione}
           </p>
         </div>

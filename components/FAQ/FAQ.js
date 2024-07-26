@@ -11,11 +11,11 @@ const FAQItem = ({ question, answer }) => {
   return (
     <div className="mb-4">
       <div
-        className="flex justify-between items-center cursor-pointer w-full border-t border-neutral-600"
+        className="flex items-center justify-between w-full border-t cursor-pointer border-neutral-600"
         onClick={toggleOpen}
       >
-        <div className="font-bold text-main text-lg py-10">{question}</div>
-        <div className="ml-2 text-main text-lg">
+        <div className="py-5 text-lg font-bold text-main">{question}</div>
+        <div className="ml-2 text-lg text-main">
           <Icon
             icon={isOpen ? "mdi:minus-circle" : "mdi:plus-circle"}
             color="#4a4a49"

@@ -74,6 +74,32 @@
         }
       ]
     },
+    "section4": {
+      "title": "From 6 generations in quality wine",
+      "descrizione": "The company Les Crêtes was founded in 1989 in Aymavilles (Aosta Valley), by Costantino Charrère and is now managed by his family who, owner of a historic water mill from the 18th century and the old wineries in Via Moulins, she has been producing food for six generations",
+      "team": [
+        {
+          "img": "/assets/charrere_foto.webp",
+          "name": "Costantino Charrère",
+          "role": "Visionary entrepreneur, winemaker, pioneer of viticulture in the Aosta Valley. Founding member of Les Crêtes"
+        },
+        {
+          "img": "/assets/elena2.webp",
+          "name": "Elena Charrère",
+          "role": "Partner of Les Crêtes. Passionate about history, architecture and art. She manages personnel, marketing and communication."
+        },
+        {
+          "img": "/assets/eleonora.webp",
+          "name": "Eleonora Charrère",
+          "role": "Partner in Les Crêtes. Agronomist, specialized in vineyard and winery management."
+        },
+        {
+          "img": "/assets/giulio2.webp",
+          "name": "Giulio Corti",
+          "role": "Member of Les Crêtes, companion of Elena. Deep connoisseur of the mountain and wine world. He manages commercial, economic and investment."
+        }
+      ]
+    },
     "testimonials": {
       "title": "Testimonials",
       "button": "Submit Review"

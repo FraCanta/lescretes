@@ -1,7 +1,7 @@
 {
   "degustazioni": {
     "hero": {
-      "title": "Entra nel mondo Les Crêtes per degustare i nostri vini e visitare la nostra cantina."
+      "title": "Enter the world of Les Crêtes to taste our wines and visit our cellar."
     },
     "intro": [
       {
@@ -15,50 +15,50 @@
       {
         "img": "/assets/degustazioni/tre2.png",
         "title": "3 Wines Experience",
-        "descrizione": "Degustazione di tre vini al Rifugio del vino e visita in cantina e barricaia",
-        "price": "€25,00 iva inclusa / persona",
+        "descrizione": "Tasting of three wines at the Wine Refuge and visit to the cellar and the wine cellar",
+        "price": "€25.00 VAT included/ person",
         "link": "/degustazioni/trewines"
       },
       {
         "img": "/assets/degustazioni/native.jpeg",
         "title": "Native Wines Experience",
-        "descrizione": "Degustazione di 5 vini del Territorio al Rifugio del vino in cantina e barricaia",
-        "price": "€40,00 iva inclusa / persona",
+        "descrizione": "Tasting of 5 wines from the territory at the wine refuge in the cellar and barricaia",
+        "price": "€40,00 VAT included/ person",
         "link": "/degustazioni/native"
       },
       {
         "img": "/assets/degustazioni/cheese.jpeg",
         "title": "Wine and Cheese Experience",
-        "descrizione": "Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali e visita in cantina e barricaia",
-        "price": "€45,00 iva inclusa / persona",
+        "descrizione": "Tasting of 5 selected wines in combination with 6 local cheeses and visit to the cellar and barricaia",
+        "price": "€45.00 VAT included/ person",
         "link": "/degustazioni/cheese"
       },
       {
         "img": "/assets/degustazioni/top.jpeg",
         "title": "Top Wines Experience",
-        "descrizione": "Degustazione di 5 vini top accompagnati da tagliere della gastronomia locale e visita in cantina e barricaia",
-        "price": "€70,00 iva inclusa / persona",
+        "descrizione": "Tasting of 5 top wines accompanied by a cutting board of the local gastronomy and visit to the cellar and barricaia",
+        "price": "€70,00 VAT included/ person",
         "link": "/degustazioni/top"
       },
       {
         "img": "/assets/degustazioni/coteau3.jpg",
         "title": "Côteau la Tour Experience",
-        "descrizione": "Degustazione di 5 vini accompagnata da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto del Côteau e brindisi nella Torre Medievale",
-        "price": "€90,00 iva inclusa / persona",
+        "descrizione": "Tasting of 5 wines accompanied by a cutting board of the local gastronomy and visit in the cellar and barricaia. Tour of the Côteau vineyard and toast in the Medieval Tower",
+        "price": "€90.00 VAT included/ person",
         "link": "/degustazioni/tour"
       },
       {
         "img": "/assets/degustazioni/winemaker.jpeg",
         "title": "Winemaker's Experience",
-        "descrizione": "Scopri il mondo Les Crêtes raccontato dal nostro enologo Raffaele, a partire dalle vigne fino alla cantina.",
-        "price": "€100,00 iva inclusa / persona",
+        "descrizione": "Discover the world of Les Crêtes, told by our wine maker Raffaele, from the vineyards to the cellar.",
+        "price": "€100.00 VAT included/ person",
         "link": "/degustazioni/winemaker"
       },
       {
         "img": "/assets/degustazioni/wellness.jpeg",
         "title": "Wellness & Wine Tasting",
-        "descrizione": "Soggiorno di una notte in camera doppia presso QC Terme Spas & Resorts, con percorso benessere + degustazione di 5 vini selezionati con 6 formaggi locali, visita in cantina e barricaia.",
-        "price": "A partire da €346,00 iva inclusa ",
+        "descrizione": "One night stay in a double room at QC Terme Spas & Resorts, with wellness path + tasting of 5 selected wines with 6 local cheeses, visit to the cellar and barricaia.",
+        "price": "From €346,00 including VAT ",
         "link": "/degustazioni/wellness"
       }
     ],
@@ -371,24 +371,64 @@
     },
     "faq": [
       {
-        "question": "Posso portare i miei bambini a una degustazione di vino?",
-        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+        "question": "Sono intollerante al glutine, posso chiedere un piatto/tagliere dedicato",
+        "answer": "Per le intolleranze / allergie Vi preghiamo di comunicare il tutto in fase di prenotazione al ché provvederemo a creare un assortimento a Voi dedicato."
+      },
+      {
+        "question": "Posso portare il mio cane alla degustazione?",
+        "answer": "I cani sono i benvenuti presso il Rifugio del Vino e potranno accompagnarVi durante le degustazioni. Tuttavia non potranno accedere alle cantine per la visita aziendale."
+      },
+      {
+        "question": "C’è disponibilità di parcheggio davanti alla struttura?",
+        "answer": "Offriamo un ampio piazzale di fronte al Rifugio del Vino in cui poter parcheggiare i veicoli."
+      },
+      {
+        "question": "Posso raggiungervi con i mezzi pubblici?",
+        "answer": "L’azienda è raggiungibile grazie alla linea 5 con partenza da Aosta. I pullman partono dal piazzale di fronte alla stazione dei treni, stesso discorso per i taxi da contattare al numero +39 0165 262010."
+      },
+      {
+        "question": "Avete un’area di sosta per il Camper?",
+        "answer": "L’azienda non disciplina questo servizio. L’area di sosta per i Camper sorge nel piazzale di fronte alle poste di Aymavilles (Frazione Chef Lieu, 24, 11010 Aymavilles - AO)."
+      },
+      {
+        "question": "La struttura è accessibile ai disabili?",
+        "answer": "La struttura offre rampe di accesso per persone diversamente abili. Gli stessi potranno visitare le cantine con l’utilizzo di un ascensore."
+      },
+      {
+        "question": "I gruppi sono ammessi?",
+        "answer": "Sono ammessi previa disponibilità della struttura. La prenotazione è da effettuare con largo anticipo (almeno due settimane prima della data selezionata)."
+      },
+      {
+        "question": "Esiste un’area bimbi?",
+        "answer": "Proponiamo uno spazio bimbi all’interno della struttura per concedere ai più piccini un momento di svago e gioco durante i percorsi di degustazione."
+      },
+      {
+        "question": "Posso portare i bambini a una degustazione di vino?",
+        "answer": "I bambini possono accedere alla struttura e garantiamo proposte analcoliche oltre allo spazio bimbi a loro dedicato."
       },
       {
         "question": "Se ho un imprevisto, posso cambiare il giorno della degustazione?",
-        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+        "answer": "E’ possibile modificare il giorno della degustazione previo avviso di due giorni – non oltre – dalla data selezionata."
       },
       {
-        "question": "Le degustazioni sono ideali anche per chi è vegetariano o vegano?",
-        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+        "question": "Le degustazioni sono adatte anche per chi è vegetariano o vegano?",
+        "answer": "L’assaggio di vini è libero e dedicato a chiunque benché al posto del tagliere offriremo gallette come accompagnamento."
       },
       {
         "question": "E' possibile regalare una degustazione?",
-        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+        "answer": "Tramite il voucher (buono regalo) è possibile regalare un’esperienza a Les Crêtes. Vi preghiamo di contattarci all’indirizzo mail preposto (ordini@lescretes.it) per disciplinare l’erogazione del buono previo saldo dell’esperienza tramite bonifico bancario."
       },
       {
-        "question": "Qual è la capacità massima di partecipanti per questa degustazione? È necessaria una prenotazione anticipata?",
-        "answer": "Siamo Family Friendly! Offriamo ai bambini una selezione di giochi con cui divertirsi mentre i ‘grandi’ assaggiano i nostri vini e da bere, sempre offerto ai i più piccoli, succo d’uva biologico! *I vini sono selezionati dalla cantina in relazione alla stagionalità e disponibilità della produzione. Durante il periodo vendemmiale la visita in cantina non è garantita per motivi di sicurezza legati alla fermentazione dei mosti."
+        "question": "Qual è la capacità massima di partecipanti per una degustazione? E' necessaria una prenotazione anticipata?",
+        "answer": "La nostra struttura può ospitare sino a 50 persone ed è necessaria una prenotazione con almeno due settimane di anticipo dalla data selezionata."
+      },
+      {
+        "question": "E' possibile spedire i vini?",
+        "answer": "E’ possibile predisporre una spedizione inviando la richiesta all’indirizzo mail ordini@lescretes.it."
+      },
+      {
+        "question": "E' una struttura che propone pranzi e cene?",
+        "answer": "Il Rifugio del Vino non prevede la disciplina dei pasti bensì offre esperienze emozionali di degustazione a cui integrare, previa richiesta, assortimenti di formaggi e affettati. "
       }
     ],
     "banner": {

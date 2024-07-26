@@ -14,13 +14,12 @@ import Head from "next/head";
 import { Icon } from "@iconify/react";
 import { FacebookShareButton, WhatsappShareButton } from "next-share";
 import Drawer from "@/components/drawer/drawer";
-import CtaPrimary from "@/components/Cta/CtaPrimary";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 import FormPrenotazione from "@/components/formPrenotazione/formPrenotazione";
 import Cards from "@/components/Cards/Cards";
-import FormPrenotazione2 from "@/components/formPrenotazione/formPrenotazione2";
 
-const SingleDeg = ({ deg, others }) => {
+const SingleDeg = ({ deg, others, reviews }) => {
+  console.log(reviews);
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
   const handleDrawerToggle = () => {
     setIsDrawerOpen(!isDrawerOpen);
@@ -47,18 +46,17 @@ const SingleDeg = ({ deg, others }) => {
             src={deg?.img}
             alt={deg.name}
             fill
-            priority
             className="object-cover h-full"
           />
         </div>
-        <div className=" flex flex-col xl:flex-row gap-4 xl:gap-0 justify-between w-[90%] translate-x-[6%]  absolute bottom-0 left-0   z-[999]">
+        <div className=" flex flex-col xl:flex-row gap-4 xl:gap-0 justify-between w-[90%] translate-x-[3%]  absolute bottom-0 left-0 mx-auto   z-[999]">
           <h1 className="text-white text-[40px]  leading-[40px] md:text-5xl xl:text-7xl 2xl:text-8xl 2xl:leading-[70px] font-bold fxl:text-7xl uppercase lg:whitespace-nowrap">
             {deg?.name}
           </h1>
         </div>
       </div>
       <div className="w-full bg-[#F4F3EF] ">
-        <div className="w-[90%] mx-auto flex gap-6 xl:gap-10  py-7 text-main flex-col lg:flex-row ">
+        <div className="w-[94%] mx-auto flex gap-6 xl:gap-10  py-7 text-main flex-col lg:flex-row">
           <div className="flex items-center h-full">
             <Image
               src={Bicchiere}
@@ -131,8 +129,8 @@ const SingleDeg = ({ deg, others }) => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto gap-6 py-6">
-        <div className="flex-col justify-start items-start gap-[34px] flex py-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-[94%] mx-auto gap-6 py-14">
+        <div className="flex-col justify-start items-start gap-[34px] flex">
           <h2 className="flex items-center gap-2 text-3xl font-bold text-main xl:text-4xl">
             {deg.descrizione.title}{" "}
           </h2>
@@ -275,7 +273,7 @@ const SingleDeg = ({ deg, others }) => {
             </div>
           </div>
         ) : (
-          <div className="hidden p-4 lg:block w-[80%] mx-auto">
+          <div className="hidden lg:block w-[80%] mx-auto">
             <div className="p-4 text-center xl:text-2xl bg-main">
               <h2 className="font-bold text-white uppercase">{deg.name}</h2>
             </div>
@@ -294,8 +292,8 @@ const SingleDeg = ({ deg, others }) => {
       <div className="w-full h-[1px] bg-second my-2"></div>
       <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs"></div>
       <div className="w-full bg-second">
-        <div className="flex flex-col gap-10 py-20 text-center">
-          <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl xl:w-[65%] mx-auto">
+        <div className="flex flex-col gap-10 py-20 ">
+          <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl xl:w-[65%] mx-auto text-center">
             Altre degustazioni in evidenza{" "}
           </h2>
           <div className="grid grid-cols-1 gap-6 mx-auto mt-10 xl:grid-cols-3 w-[90%] ">
@@ -351,6 +349,7 @@ export async function getStaticProps(context) {
         link: el,
       };
     });
+
   return {
     props: {
       deg: targetObj,

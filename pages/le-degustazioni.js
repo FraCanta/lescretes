@@ -26,6 +26,16 @@ const Degustazioni = ({ translation }) => {
       <div className="flex flex-col justify-center lg:flex-row items-center xl:w-[90%] mx-auto min-h-[calc(50vh_-_70px)] md:min-h-[calc(60vh_-_70px)] fxl:min-h-[calc(80vh_-_100px)]">
         <HeroHome title={translation.hero.title} />
       </div>
+      {/* {translation.intro.map((el, i) => {
+        return (
+          <div
+            key={i}
+            className="flex flex-col gap-4 text-xl font-normal xl:text-center text-main fxl:text-2xl w-[90%]"
+          >
+            <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
+          </div>
+        );
+      })} */}
       <div className="w-[90%] min-h-screen flex-col justify-start items-center gap-[60px] flex mx-auto pb-10 xl:py-10">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
           {translation?.cards?.map((el, i) => {
@@ -41,16 +51,6 @@ const Degustazioni = ({ translation }) => {
             );
           })}
         </div>
-        {/* {translation.intro.map((el, i) => {
-          return (
-            <div
-              key={i}
-              className="flex flex-col gap-4 text-xl font-normal xl:text-center text-main fxl:text-2xl"
-            >
-              <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
-            </div>
-          );
-        })} */}
       </div>
       <div className="w-full min-h-[80vh] md:min-h-[50vh] xl:min-h-[60vh] flex flex-col justify-center bg-second   bg-pattern">
         <div className="w-[90%] h-full  mx-auto flex flex-col gap-4 md:gap-8 justify-center ">

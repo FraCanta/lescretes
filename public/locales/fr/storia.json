@@ -1,33 +1,33 @@
 {
   "storia": {
     "hero": {
-      "title": "Notre histoire parle de légende et de philosophie de vie",
+      "title": "La nostra è una storia che parla di leggenda e filosofia di vita",
       "img": "/assets/storia.webp"
     },
     "section1": {
       "paragrafi": [
         {
-          "title": "La légende",
+          "title": "La leggenda",
           "descrizione": [
             {
-              "p": "Les filles, Elena et Eleonora, de 1977 et 1980, avaient pour mission de rechercher dans les prés d’Ozein les coccinelles pour l’entreprise. Ces coccinelles étaient ensuite transportées avec soin et libérées dans les vignes, car elles étaient utiles pour lutter contre les acariens nocifs. Cette activité était plus qu’un jeu pour les filles, et elles aimaient les observer."
+              "p": "Le figlie, Elena ed Eleonora, del 1977 e del 1980, avevano il compito di ricercare nei prati di Ozein le coccinelle per l'azienda. Queste coccinelle venivano poi trasportate con cura e rilasciate in vigna, poiché utili a combattere gli acari nocivi. Questa attività era più di un gioco per le bambine, ed erano divertite a osservarle."
             },
             {
-              "p": "Ce choix de la famille Charrère n’était pas un conte de fées, mais une pratique concrète qui reflète l’approche durable que la famille a toujours eu dans son histoire."
+              "p": "Questa scelta della famiglia Charrère non era una fiaba, ma una pratica concreta che riflette l'approccio sostenibile che la famiglia ha sempre avuto nella sua storia."
             }
           ]
         },
         {
-          "title": "Le début",
+          "title": "L’inizio",
           "descrizione": [
             {
-              "p": "L’arrière-grand-père Bernardin Charrère émigre de la Haute-Savoie à Aymavilles vers 1750, construisant le bâtiment existant avec des caves et un moulin à noix."
+              "p": "Il trisnonno Bernardin Charrère emigrò dall’ Alta Savoia ad Aymavilles intorno al 1750, costruendo l'edificio attualmente esistente con cantine e un frantoio per le noci."
             },
             {
-              "p": "L’arrière-grand-père Etienne élargit l’activité en incluant la production de cidre en réponse aux exigences du marché et de l’économie de l’époque. Il ajouta aussi un moulin pour moudre les produits locaux. Le grand-père Louis s’adapta de nouveau aux exigences du marché en construisant un nouveau moulin."
+              "p": "Il bisnonno Etienne ampliò l'attività, includendo la produzione di sidro in risposta alle esigenze del mercato e dell'economia dell'epoca. Aggiunse anche un mulino per macinare i creali locali. Il nonno Louis si adattò nuovamente alle esigenze del mercato costruendo un nuovo mulino."
             },
             {
-              "p": "Antoine, le père de Constantin, a dirigé l’entreprise jusqu’en 1955 lorsque l’huile d’olive a commencé à venir d’autres régions. Il a donc fallu changer de production et le choix a été de produire des vins de haute qualité. L’attention fut portée sur le public et pour mieux se distinguer, un processus de personnalisation au niveau cultural (vinification séparée des crus), commercial (indication des localités géographiques de chaque vignoble) et historique (préservation des cépages autochtones) fut lancé qui auraient contribué à valoriser la Vallée d’Aoste."
+              "p": "Antoine, padre di Costantino, gestì l'attività fino al 1955 quando l'olio d'oliva iniziò ad arrivare da altre regioni. Fu quindi necessario cambiare produzione e la scelta fu quella di produrre vini di alta qualità. L'attenzione fu posta sul pubblico e per distinguersi meglio si avviò un processo di personalizzazione a livello colturale (vinificazione separata dei crus), commerciale (indicazione delle località geografiche di ciascun vigneto) e storico (preservazione dei vitigni autoctoni) che avrebbero contribuito a valorizzare la Valle d'Aosta."
             }
           ]
         },
@@ -35,13 +35,13 @@
           "title": "Costantino Charrère",
           "descrizione": [
             {
-              "p": "Constantin, athlète professeur de gymnastique, comme sa femme d’ailleurs, et maître de ski, a poursuivi l’œuvre de son père Antoine et de sa mère Ida, se consacrant avec passion à la viticulture. D’abord en sélectionnant des cépages qui autrement se seraient perdus dans les montagnes valdôtaines : le Premetta (Prié Rouge), cépage rare en voie de disparition, dont les raisins sont maintenant vinifiés en pureté selon un protocole innovant en mousseux méthode classique et le Fumin, une autre souche 'autochtone', sauvé de l’extinction et vinifié avec des résultats éclatants, au point de mériter déjà en 1999 l’attention de la critique nationale avec 'Il sole di Luigi Veronelli'."
+              "p": "Costantino, atletico professore di ginnastica, come la moglie peraltro, e maestro di sci, ha continuato l’opera del papà Antoine e della mamma Ida, dedicandosi con passione alla viticoltura. Dapprima selezionando vitigni che altrimenti si sarebbero persi nelle montagne valdostane: la Premetta (Prié Rouge), rarissimo vitigno in via di estinzione, le cui uve sono ora vinificate in purezza secondo un protocollo innovativo in spumante metodo classico e il Fumin, altro ceppo “autoctono”, salvato dall’estinzione e vinificato con risultati eclatanti, tanto da meritarsi già nel 1999 l’attenzione della critica Nazionale con “Il sole di Luigi Veronelli”."
             },
             {
-              "p": "Ensuite, après avoir quitté l’enseignement, Constantin est poussé par le désir de se consacrer entièrement à sa passion pour le vin et de réaliser ce qui est maintenant Les Crêtes, toujours à Aymavilles, en plantant de nouveaux vignobles dans d’autres communes du Val d’Aoste."
+              "p": "In Seguito, lasciato l’insegnamento, Costantino è spinto dal desiderio di dedicarsi completamente alla sua passione per il vino e realizzando quella che è ora Les Crêtes, sempre in Aymavilles, impiantando nuovi vigneti anche in altri comuni della Valle d’Aosta."
             },
             {
-              "p": "Aujourd’hui, l’entreprise, propriété de la Famille Charrère, gère 35 hectares de vignobles répartis dans six communes valdôtaines. Avec sa production annuelle de 250000 bouteilles, c’est la plus grande entreprise privée opérant sur le territoire régional."
+              "p": "Oggi, l’azienda, di proprietà della Famiglia Charrère, gestisce 35 ettari di vigneto distribuiti in sei comuni valdostani. Con la sua produzione annua di 250.000 bottiglie è la più grande azienda privata operativa sul territorio regionale."
             }
           ]
         }
@@ -49,34 +49,60 @@
     },
 
     "section3": {
-      "title": "Notre philosophie",
+      "title": "La nostra filosofia",
       "descrizione": [
         {
-          "p": "L’entreprise Les Crêtes produit <a href='/vini' title='i vini di Les Cretes' class='font-bold underline'>ses vins</a> dans un contexte alpin, qui se développe au pied du Mont Blanc, caractérisé par des montagnes élevées, des pentes sableuses et des températures froides. Le microclimat frais, sec et ventilé se caractérise par des sols d’origine morainique, drainants et à forte composante minérale."
+          "p": "L’azienda Les Crêtes produce <a href='/i-vini' title='i vini di Les Cretes' class='font-bold underline'>i suoi vini</a> in un contesto alpino, che si sviluppa ai piedi del Monte Bianco, caratterizzato da montagne elevate, pendenze sabbiose e temperature rigide. Il microclima fresco, secco e ventilato è caratterizzato da suoli di origine morenica, drenanti e a forte componente minerale."
         },
         {
-          "p": "L’attention à l’environnement et les techniques de culture sont des aspects fondamentaux pour notre réalité. Celle-ci a un lien intrinsèque et focalisé avec l’habitat environnant. Chaque activité est réalisée avec le plus grand dévouement et soin, en relation à la qualité et à la passion qui nous distingue."
+          "p": "L’attenzione all’ambiente e le tecniche di coltivazione sono aspetti fondamentali per la nostra realtà. Questa ha un legame intrinseco e focalizzato con l’habitat circostante. Ogni attività viene svolta con la massima dedizione e cura, in relazione alla qualità e alla passione che ci contraddistingue."
         },
         {
-          "p": "Les Crêtes suit également les lignes directrices des programmes européens du secteur en ce qui concerne les traitements phytosanitaires, en choisissant de faire une utilisation réduite de produits phytopharmaceutiques. Telle est notre philosophie."
+          "p": "Les Crêtes inoltre segue le linee guida dei programmi europei di settore per quanto concerne i trattamenti fitosanitari, scegliendo di fare un utilizzo ridotto di fitofarmaci. Questa è la nostra filosofia."
         }
       ],
-      "title2": "Donner de la valeur au territoire signifie en protéger l’identité",
+      "title2": "Dare valore al territorio significa tutelarne l’identità",
       "descrizione2": [
         {
-          "p": "ILe principe de base de la philosophie de l’entreprise est de continuer à suivre les valeurs des générations passées en valorisant le <a href='/terroir' title='Pagina Terroir' class='font-bold underline'> “Terroir” </a> avec fidélité et respect des traditions. Le regard, cependant, est toujours tourné vers cet avenir d’innovation qui permet d’exprimer pleinement les potentialités d’un territoire vitivinicole de montagne comme celui valdôtain. Une réalité unique et unique."
+          "p": "Il principio cardine della filosofia dell’azienda è continuare a seguire i valori delle generazioni passate valorizzando il <a href='/il-terroir' title='Pagina Terroir' class='font-bold underline'> “Terroir” </a> con fedeltà e rispetto delle tradizioni. Lo sguardo, però, è sempre rivolto a quel futuro di innovazione che permette di esprimere appieno le potenzialità di un territorio vitivinicolo di montagna come quello valdostano. Una realtà unica ed irripetibile."
         },
         {
-          "p": "La gestion agronomique, en majorité manuelle, suit les pratiques de la lutte intégrée pour la protection de l’environnement et la sauvegarde du territoire. Les conditions climatiques favorisent également une culture à faible impact environnemental."
+          "p": "La gestione agronomica, in prevalenza manuale, segue le pratiche della lotta integrata a tutela dell’ambiente e a salvaguardia del territorio. Le condizioni climatiche favoriscono inoltre una coltivazione a basso impatto ambientale."
         },
         {
-          "p": "Les raisins, récoltés à la main, sont disposés dans de petites caisses, afin de protéger leur intégrité et sont transformés avec une grande attention. Les vins, frais et élégants, expriment cette philosophie et l’essence du 'terroir' de montagne. Ils sont les fils d’une cave familiale, de petites parcelles cultivées à la main et soignées dans les détails, pour obtenir des raisins sains, à faibles rendements, en suivant à la fois dans le champ et dans la cave, les pratiques traditionnelles et éco-durables, pour protéger l’environnement et le territoire."
+          "p": "Le uve, raccolte a mano, sono disposte in piccole casse, per proteggerne l’integrità e vengono trasformate con grande attenzione. I vini, sapidi freschi ed eleganti, esprimono questa filosofia e l’essenza del ”terroir” di montagna. Sono figli di una cantina a conduzione famigliare, di piccoli appezzamenti coltivati a mano e curati nei dettagli, per ottenere uve sane, con basse rese, seguendo sia in campo che in cantina, le pratiche tradizionali ed eco-sostenibili, a tutela dell’ambiente e del territorio."
+        }
+      ]
+    },
+    "section4": {
+      "title": "Da 6 generazioni nel vino di qualità",
+      "descrizione": "L'azienda Les Crêtes nasce nel 1989 in Aymavilles (Valle d'Aosta), per opera di Costantino Charrère ed è oggi gestita dalla sua famiglia che, proprietaria di un storico mulino ad acqua del '700 e delle antiche cantine di Via Moulins, si occupa, da sei generazioni, di produzioni agroalimentari",
+      "team": [
+        {
+          "img": "/assets/charrere_foto.webp",
+          "name": "Costantino Charrère",
+          "role": "Imprenditore visionario, winemaker, pioniere della viticoltura in Valle d'Aosta. Socio fondatore di Les Crêtes"
+        },
+        {
+          "img": "/assets/elena2.webp",
+          "name": "Elena Charrère",
+          "role": "Socia di Les Crêtes. Appassionata di storia, architettura e arte. Gestisce personale, marketing e comunicazione."
+        },
+        {
+          "img": "/assets/eleonora.webp",
+          "name": "Eleonora Charrère",
+          "role": "Socia di Les Crêtes. Agronoma, specializzata nella gestione di vigneto e cantina."
+        },
+        {
+          "img": "/assets/giulio2.webp",
+          "name": "Giulio Corti",
+          "role": "Socio di Les Crêtes, compagno di Elena. Profondo conoscitore della montagna e del mondo vitivinicolo. Gestisce commerciale, economia ed investimenti."
         }
       ]
     },
     "testimonials": {
-      "title": "Disent de nous",
-      "button": "Écrire un avis"
+      "title": "Dicono di noi",
+      "button": "Scrivi Recensione"
     }
   }
 }

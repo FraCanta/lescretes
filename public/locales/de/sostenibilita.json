@@ -1,0 +1,33 @@
+{
+  "sostenibilita": {
+    "hero": {
+      "title": "Sustainability: A Value Intrinsic to Our Identity",
+      "img": "/assets/lc2.webp"
+    },
+    "garanzia": {
+      "title": "Quality Assurance and Traceability for Integrated Agriculture in Italy",
+      "descrizione": "The National Quality System for Integrated Production (SQNPI) concerns the category Agri-food and applies to all farms in the national territory of Italy that use integrated agricultural production techniques. The aim is to enhance and identify plant products, obtained in accordance with the regional integrated agricultural production specifications adding value to the product vis-à-vis the GDO and the consumer as regards safety, Quality and cultivation processes that are respectful of the environment and human health."
+    },
+    "verde": {
+      "title": "Because consuming less is green, but using efficient plants is green inside!",
+      "descrizione": "Our commitment is to differentiate ourselves with responsible behavior in favor of the territory and the social and environmental context. Les Crêtes is proud to be still and always green inside! But using green energy is a start. But knowing also the renewable plant from which it comes and the source used to produce it between wind, water and sun, then you can say with certainty that you use only 100% renewable energy.",
+      "title2": "Impianti fotovoltaici",
+      "descrizione2": "Since 2007 we have been producing clean energy with two photovoltaic systems. A path that Les Crêtes takes to heart in order to further reduce our environmental impact.",
+      "tuv": "TUV certificate",
+      "provenienza": "Certificate of origin"
+    },
+    "packaging": {
+      "title": "Sustainable packaging",
+      "descrizione": "Sustainability is reflected in the selection of the most environmentally friendly packaging for our high-quality products. The choice of cap and bottle is crucial not only to maintain the excellence of our wine, but also to protect the environment.",
+      "tappo": {
+        "title": "The world’s first carbon-free wine stopper",
+        "descrizione": "We choose caps Select Bio 0% Carbon Footprint, 100% biodegradable organic, renewable of vegetable origin 100% recyclable. Suitable for wineries that, like us, are looking for cutting-edge technology, environmental awareness and extraordinary oxygen management.",
+        "cta": "Nomacorc - Select Bio Line"
+      },
+      "bottiglie": {
+        "title": "Lightweight bottles that help the environment",
+        "descrizione": "To help reduce our CO2 emissions, we are adopting increasingly lightweight bottles. This choice not only reduces the weight and, consequently, the energy consumption during transport, but also reduces the quantity of materials used, The overall environmental impact is thus limited. Each light bottle represents a step towards a more sustainable future, helping to preserve natural resources and minimize the ecological footprint of our productions."
+      }
+    }
+  }
+}

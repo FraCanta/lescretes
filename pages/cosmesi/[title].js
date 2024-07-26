@@ -46,12 +46,12 @@ const SingleCosmetic = ({ cosm, others }) => {
       </Head>
 
       <div className="min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)] grid grid-cols-1 xl:grid-cols-2 gap-8">
-        <div className="w-full aspect-square 2xl:min-h-screen relative">
+        <div className="relative w-full aspect-square 2xl:min-h-screen">
           <Image src={cosm?.img} fill className="object-cover" />
         </div>
         <div className=" flex flex-col gap-[30px] fxl:gap-[50px] w-[90%] mx-auto xl:mx-0 py-4 fxl:py-8">
           <div className="flex flex-col">
-            <div className="flex flex-col xl:flex-row xl:justify-between w-full xl:items-center">
+            <div className="flex flex-col w-full xl:flex-row xl:justify-between xl:items-center">
               <h1 className="text-main text-[30px] leading-[40px] xl:text-[40px] xl:leading-[50px] fxl:text-[60px] font-bold">
                 {cosm?.name}
               </h1>
@@ -59,13 +59,13 @@ const SingleCosmetic = ({ cosm, others }) => {
                 {cosm?.ml}
               </p>
             </div>
-            <p className="text-main/60 font-[500] text-[16px] fxl:text-[25px] !-py-2">
+            <p className="text-main font-[500] text-[16px] fxl:text-[25px] !-py-2">
               {cosm.details}
             </p>
           </div>
           {cosm?.descrizione?.map((el, i) => (
             <p
-              className="text-xl xl:text-lg fxl:text-2xl"
+              className="text-xl xl:text-lg fxl:text-2xl text-main"
               key={i}
               dangerouslySetInnerHTML={{ __html: el.testo }}
             ></p>
@@ -73,24 +73,26 @@ const SingleCosmetic = ({ cosm, others }) => {
 
           <div className="collapse collapse-arrow bg-second">
             <input type="radio" name="my-accordion-2" />
-            <div className="collapse-title font-medium ">
+            <div className="font-medium collapse-title ">
               <h2 className="text-2xl font-bold ">{cosm.ingredientiTitle}</h2>
             </div>
             <div className="collapse-content">
-              <p className="text-lg fxl:text-xl">{cosm.ingredienti}</p>
+              <p className="text-lg fxl:text-xl text-main">
+                {cosm.ingredienti}
+              </p>
             </div>
           </div>
           <div className="collapse collapse-arrow bg-second">
             <input type="radio" name="my-accordion-2" />
-            <div className="collapse-title text-xl font-medium ">
-              <h2 className="font-bold text-2xl">{cosm.istruzioniTitle}</h2>
+            <div className="text-xl font-medium collapse-title ">
+              <h2 className="text-2xl font-bold">{cosm.istruzioniTitle}</h2>
             </div>
             <div className="collapse-content">
-              <p className="text-lg fxl:text-xl">{cosm.istruzioni}</p>
+              <p className="text-lg fxl:text-xl text-main">{cosm.istruzioni}</p>
             </div>
           </div>
 
-          <div className="w-full text-main flex flex-col gap-2 ">
+          <div className="flex flex-col w-full gap-2 text-main ">
             <h2 className="text-main text-2xl font-bold  leading-[46px]">
               {cosm?.priceTitle}
             </h2>
@@ -103,14 +105,14 @@ const SingleCosmetic = ({ cosm, others }) => {
           </div>
           <div className="w-full h-[0.02rem] bg-main my-2"></div>
 
-          <div className="flex flex-col xl:flex-row w-full xl:justify-between gap-10 mt-2 hover:text-white text-main transition-all">
+          <div className="flex flex-col w-full gap-10 mt-2 xl:flex-row xl:justify-between hover:text-white text-main">
             <CtaOutlineBrown link={cosm.download} download>
               {cosm.downloadTitle}
               <Icon icon="material-symbols:download" width={30} />
             </CtaOutlineBrown>
 
-            <div className="flex gap-6 items-center ">
-              <p className="text-lg xl:text-xl">Condividi su</p>
+            <div className="flex items-center gap-6 ">
+              <p className="text-lg xl:text-xl text-main">Condividi su</p>
               <ul className="flex gap-6">
                 <li>
                   {" "}
@@ -145,7 +147,7 @@ const SingleCosmetic = ({ cosm, others }) => {
         </div>
       </div>
       <div className="w-[90%] mx-auto my-[50px]">
-        <h2 className="text-6xl font-bold py-6">FAQs</h2>
+        <h2 className="py-6 text-6xl font-bold">FAQs</h2>
         {/* <FAQ /> */}
       </div>
       <div className="flex flex-col w-[90%] mx-auto py-10 gap-[30px] fxl:gap-[50px] fxl:py-20">
@@ -153,7 +155,7 @@ const SingleCosmetic = ({ cosm, others }) => {
           Ti potrebbero anche interessare
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 ">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4 ">
           {others.map((el, i) => (
             <Cards img={el.img} name={el.name} button={el.button} />
           ))}

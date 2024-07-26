@@ -22,7 +22,6 @@ const NavBar = ({ translation }) => {
                 src={Logo}
                 alt="Logo di Les Crêtes"
                 className="w-[85px] md:w-[150px] lg:w-[110px] xl:w-[130px] 2xl:w-[120px] fxl:w-[150px] 3xl:w-[200px] 4xl:w-[300px]"
-                priority
               />
             </Link>
           </div>
@@ -117,8 +116,16 @@ const NavBar = ({ translation }) => {
               </Link>
             </div>
           </div>
-
-          <div className="items-center justify-end hidden gap-8 font-black xl:flex">
+          {/* <div className="w-[33%] mx-auto flex justify-center">
+            <Link href={`/`} title="Torna all'homepage di Les Crêtes" as="/">
+              <Image
+                src={Logo}
+                alt="Logo di Les Crêtes"
+                className="w-[85px] md:w-[150px] lg:w-[110px] xl:w-[130px] 2xl:w-[140px] fxl:w-[150px] 3xl:w-[200px] 4xl:w-[300px]"
+              />
+            </Link>
+          </div> */}
+          <div className="items-center justify-end hidden gap-8 font-black xl:flex ">
             {/* <Link
               href={`/notizie`}
               title="I miei articoli"

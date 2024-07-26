@@ -40,7 +40,7 @@ const Vini = ({ translation }) => {
           return (
             <div
               key={i}
-              className="flex flex-col gap-2 text-xl font-normal text-main md:text-2xl 2xl:text-xl fxl:text-2xl fxl:gap-16 3xl:text-4xl"
+              className="flex flex-col gap-2 text-xl font-normal text-main fxl:text-2xl fxl:gap-16 3xl:text-4xl"
             >
               <p dangerouslySetInnerHTML={{ __html: para.text }}></p>
             </div>
@@ -55,7 +55,7 @@ const Vini = ({ translation }) => {
         <div className="w-[90%] mx-auto py-10 xl:p-20 lg:text-center flex flex-col gap-10 justify-center items-center">
           <div className="relative w-full aspect-square lg:aspect-video ">
             <Image
-              src="/assets/lc3.webp"
+              src="/assets/lc3a.webp"
               alt="les cretes family"
               fill
               className="object-cover object-[-130px] lg:object-center lg:object-contain"
@@ -66,13 +66,13 @@ const Vini = ({ translation }) => {
               {translation.family.title}
             </h2>
             <p
-              className="flex flex-col gap-10 text-xl font-normal text-main md:text-2xl 2xl:text-xl fxl:text-2xl fxl:gap-16 3xl:text-4xl"
+              className="flex flex-col gap-10 text-xl font-normal text-main fxl:text-2xl fxl:gap-16 3xl:text-4xl"
               dangerouslySetInnerHTML={{
                 __html: translation.family.descrizione,
               }}
             ></p>
             <CtaOutlineBrown link="/storia" title="storia">
-              Scopri la nostra storia
+              {translation.family.cta}
             </CtaOutlineBrown>
           </div>
         </div>
@@ -91,13 +91,13 @@ const Vini = ({ translation }) => {
               {translation.produzione.title}
             </h2>
             <p
-              className="text-xl font-normal text-main md:text-2xl 2xl:text-xl fxl:text-2xl fxl:gap-16 3xl:text-4xl"
+              className="text-xl font-normal text-main fxl:text-2xl fxl:gap-16 3xl:text-4xl"
               dangerouslySetInnerHTML={{
                 __html: translation.produzione.descrizione,
               }}
             ></p>
             <CtaOutlineBrown link="/sostenibilita" title="storia">
-              Scopri il nostro impegno
+              {translation.produzione.cta}
             </CtaOutlineBrown>
           </div>
           <div className="w-full gap-10">
@@ -120,7 +120,7 @@ const Vini = ({ translation }) => {
               {translation.artigianalità.title}
             </h2>
             <p
-              className="text-xl font-normal text-main md:text-2xl 2xl:text-xl fxl:text-2xl fxl:gap-16 3xl:text-4xl"
+              className="mx-auto text-xl font-normal lg:w-2/3 text-main fxl:text-2xl fxl:gap-16 3xl:text-4xl"
               dangerouslySetInnerHTML={{
                 __html: translation.artigianalità.descrizione,
               }}

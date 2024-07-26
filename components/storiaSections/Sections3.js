@@ -11,7 +11,7 @@ const Sections3 = ({ translation }) => {
         {translation.descrizione.map((el, i) => {
           return (
             <div
-              className="flex flex-col items-start justify-start gap-8 text-xl font-normal text-main/80 md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal "
+              className="flex flex-col items-start justify-start gap-8 text-xl font-normal text-main md:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal "
               key={i}
             >
               <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
@@ -25,12 +25,17 @@ const Sections3 = ({ translation }) => {
           {translation.title2}
         </h3>
         <div className="relative aspect-square xl:h-[70vh] w-full">
-          <Image className="object-cover w-full rounded-lg " fill src={View} />
+          <Image
+            className="object-cover w-full rounded-lg "
+            fill
+            src={View}
+            alt="vista"
+          />
         </div>
         {translation.descrizione2.map((el, i) => {
           return (
             <div
-              className="flex flex-col items-start justify-start gap-8 text-xl font-normal text-main/80 md:text-2xl 2xl:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal "
+              className="flex flex-col items-start justify-start gap-8 text-xl font-normal text-main md:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal "
               key={i}
             >
               <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
