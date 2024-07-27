@@ -79,27 +79,8 @@ export default function Home({ translation }) {
       <div className="fxl:min-h-[80vh] bg-[#77966d]/30 flex flex-col justify-center items-center relative ">
         <Sections5 translation={translation.section5} />
       </div>
-      <div className="min-h-[60vh] xl:min-h-[80vh] 3xl:min-h-[60vh]  flex flex-col justify-center items-center relative ">
-        <div className="w-[90%] mx-auto flex flex-col gap-8 lg:gap-20 ">
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 ">
-            <div className="flex flex-col gap-4">
-              <h2 className="text-main text-3xl md:text-5xl lg:text-[43.12px] fxl:text-6xl font-bold  lg:leading-[55.10px]">
-                {translation.testimonials.title}
-              </h2>
-            </div>
-            <div className="flex items-end md:justify-end">
-              <CtaOutlineBrown link="https://g.page/r/CXZcr8aa7zgbEBM/review">
-                {translation.testimonials.button}
-              </CtaOutlineBrown>
-            </div>
-          </div>
 
-          <div>
-            <Reviews />
-          </div>
-        </div>
-      </div>
-      <div className="relative flex flex-col items-center justify-center w-full bg-main ">
+      <div className="relative flex flex-col items-center justify-center w-[90%] mx-auto py-10 ">
         <Sections6 translation={translation.section6} />
       </div>
     </>

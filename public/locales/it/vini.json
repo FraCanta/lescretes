@@ -318,7 +318,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "cornalin": {
         "img": "/assets/vinirossi/cornalin.png",
@@ -424,7 +425,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Cornalin-Valle-dAosta-DOP-LES-CRETES.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "lacor": {
         "img": "/assets/vinirossi/fumin_lacor.png",
@@ -524,7 +526,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Fumin-LA-COR-Valle-dAosta-DOP-LES-CRETES.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "fumin": {
         "img": "/assets/vinirossi/fumin.png",
@@ -928,7 +931,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Fumin-Valle-dAosta-DOP-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "monrouge": {
         "img": "/assets/vinirossi/monrouge.png",
@@ -1083,7 +1087,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Mon-Rouge-Valle-dAosta-DOP-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "nebbiolo": {
         "img": "/assets/vinirossi/nebbiolo.png",
@@ -1159,7 +1164,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Nebbiolo-sommet-Valle-dAosta-DOP-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "nebbiolos": {
         "img": "/assets/vinirossi/nebbiolo_sommet.png",
@@ -1322,7 +1328,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Nebbiolo-sommet-Valle-dAosta-DOP-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "pinot": {
         "img": "/assets/vinirossi/pinot_nero.png",
@@ -1535,7 +1542,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Pinot-nero-Valle-dAosta-DOP-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "revei": {
         "img": "/assets/vinirossi/pinot_revei.png",
@@ -1714,7 +1722,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Pinot-Nero-REVEI-Valle-dAosta-DOP-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "sabla": {
         "img": "/assets/vinirossi/sabla.png",
@@ -1790,7 +1799,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "sabla50": {
         "img": "/assets/vinirossi/lasabla_50.webp",
@@ -1866,7 +1876,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "syrah": {
         "img": "/assets/vinirossi/syrah.png",
@@ -2114,7 +2125,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
 
       "torrettesup": {
@@ -2276,7 +2288,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "torrette": {
         "img": "/assets/vinirossi/torrette.png",
@@ -2422,7 +2435,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "chardonnaycb": {
         "img": "/assets/vinibianchi/chardonnay_cb.png",
@@ -2913,7 +2927,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Chardonnay-CUVEE-BOIS-Valle-dAosta-DOP-LES-CRETES.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "chardonnay": {
         "img": "/assets/vinibianchi/chardonnay.png",
@@ -3158,7 +3173,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Chardonnay-Valle-dAosta-DOP-LES-CRETES.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "monblanc": {
         "img": "/assets/vinibianchi/mon_blanc.png",
@@ -3222,7 +3238,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Mon-Blanc-Vino-bianco-LES-CRETES.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "neige": {
         "img": "/assets/vinibianchi/neige.png",
@@ -3423,7 +3440,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Neige-dOr-Valle-dAosta-DOP-LES-CRETES.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "petitearvine": {
         "img": "/assets/vinibianchi/petite_arvine.png",
@@ -3750,7 +3768,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Petite-arvine-Valle-dAosta-DOP-LES-CRETES.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "petitefleur": {
         "img": "/assets/vinibianchi/petite_fleur.png",
@@ -3955,7 +3974,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Petite-arvine-FLEUR-Valle-dAosta-DOP-LES-CRETES.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "pinotgris": {
         "img": "/assets/vinibianchi/pinot_grigio.png",
@@ -4065,7 +4085,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Pinot-Gris-Brulant-Valle-dAosta-DOP-LES-CRETES-2.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": true
       },
       "rose": {
         "img": "/assets/vinirose/rose.png",
@@ -4217,7 +4238,8 @@
           }
         ],
         "download": "/Rose-Valle-dAosta-DOP-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": false
       },
       "dore": {
         "img": "/assets/vinidessert/dorè.png",
@@ -4374,7 +4396,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Dore-Vino-da-uve-stramature-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": false
       },
       "neblu": {
         "img": "/assets/vinidessert/neblu.png",
@@ -4451,7 +4474,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Metodo-classico-Neblu-Brut-Nature-Rose-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": false
       },
       "reban": {
         "img": "/assets/vinidessert/reban.png",
@@ -4528,7 +4552,8 @@
         ],
         "more": "Ti potrebbe anche interessare",
         "download": "/Metodo-classico-Reban-pas-dose-Valle-dAosta-DOP-LES-CRETES-1.pdf",
-        "recycle": "/tabella.jpg"
+        "recycle": "/tabella.jpg",
+        "showButtons": false
       }
     },
     "family": {

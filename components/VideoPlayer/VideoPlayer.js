@@ -68,7 +68,7 @@ const VideoPlayer = ({ video, poster }) => {
   }, []);
 
   return (
-    <div className="relative w-full aspect-square lg:aspect-video">
+    <div className="relative w-full h-full aspect-square lg:aspect-video">
       <video
         id="videoPlayer2"
         className="object-cover w-full h-full rounded-lg"

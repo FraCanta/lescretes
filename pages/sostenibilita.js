@@ -15,7 +15,6 @@ import sostenibilitaZH from "@/public/locales/zh/sostenibilita.json";
 import { traceGlobals } from "next/dist/trace/shared";
 
 function Sostenibilita({ translation }) {
-  console.log(translation);
   return (
     <>
       <Head>

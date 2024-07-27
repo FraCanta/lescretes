@@ -5,7 +5,6 @@ import Image from "next/image";
 import Table from "./Table";
 
 const TabWine = ({ tabs }) => {
-  console.log(tabs.content);
   const [activeTab, setActiveTab] = useState(0);
   const [lightboxImageIndex, setLightboxImageIndex] = useState(null);
   const changeTab = (index) => {

@@ -32,14 +32,17 @@ export default function Storia({ translation }) {
       </div>
       <Sections1 translation={translation.section1} />
       <Sections2 />
-      <div className="w-[90%] mx-auto py-10 lg:py-20">
+
+      <Sections3 translation={translation.section3} />
+      <div className="w-[90%] mx-auto h-[0.08rem] bg-main/20 my-10"></div>
+
+      <div className="w-[90%] mx-auto py-10">
         <VideoPlayer
           video="/video/video_storia_2.mp4"
           poster="/assets/poster2.png"
         />
       </div>
-      <Sections3 translation={translation.section3} />
-      <div className="w-[90%] mx-auto py-10 lg:py-20 lg:text-center flex flex-col gap-6">
+      <div className="w-[90%] mx-auto py-10 lg:text-center flex flex-col gap-6">
         <div className="flex flex-col gap-4 py-10 mx-auto lg:w-2/3 xl:w-[90%] 2xl:w-2/3">
           <h2 className="text-3xl font-bold text-main lg:text-5xl">
             {translation.section4.title}
@@ -68,30 +71,6 @@ export default function Storia({ translation }) {
               </div>
             </div>
           ))}
-        </div>
-      </div>
-
-      <div className="relative flex flex-col items-center justify-center py-20">
-        <div className="w-[90%] mx-auto flex flex-col gap-8 md:gap-20 ">
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-            <div className="flex flex-col gap-4">
-              <h2 className="text-main text-3xl md:text-5xl lg:text-[43.12px] fxl:text-6xl font-bold  lg:leading-[55.10px]">
-                {translation.testimonials.title}
-              </h2>
-            </div>
-            <div className="flex items-end md:justify-end">
-              <CtaOutlineBrown
-                link="https://g.page/r/CXZcr8aa7zgbEBM/review"
-                target="_blank"
-              >
-                {translation.testimonials.button}
-              </CtaOutlineBrown>
-            </div>
-          </div>
-
-          <div className="w-full overflow-x-hidden">
-            <Reviews />
-          </div>
         </div>
       </div>
     </>

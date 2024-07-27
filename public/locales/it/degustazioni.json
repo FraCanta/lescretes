@@ -1,7 +1,7 @@
 {
   "degustazioni": {
     "hero": {
-      "title": "Entra nel mondo Les Crêtes per degustare i nostri vini e visitare la nostra cantina."
+      "title": "Enter the world of Les Crêtes to taste our wines and visit our cellar."
     },
     "intro": [
       {
@@ -15,50 +15,50 @@
       {
         "img": "/assets/degustazioni/tre2.png",
         "title": "3 Wines Experience",
-        "descrizione": "Degustazione di tre vini al Rifugio del vino e visita in cantina e barricaia",
-        "price": "€25,00 iva inclusa / persona",
+        "descrizione": "Tasting of three wines at the Wine Refuge and visit to the cellar and the wine cellar",
+        "price": "€25.00 VAT included/ person",
         "link": "/degustazioni/trewines"
       },
       {
         "img": "/assets/degustazioni/native.jpeg",
         "title": "Native Wines Experience",
-        "descrizione": "Degustazione di 5 vini del Territorio al Rifugio del vino in cantina e barricaia",
-        "price": "€40,00 iva inclusa / persona",
+        "descrizione": "Tasting of 5 wines from the territory at the wine refuge in the cellar and barricaia",
+        "price": "€40,00 VAT included/ person",
         "link": "/degustazioni/native"
       },
       {
         "img": "/assets/degustazioni/cheese.jpeg",
         "title": "Wine and Cheese Experience",
-        "descrizione": "Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali e visita in cantina e barricaia",
-        "price": "€45,00 iva inclusa / persona",
+        "descrizione": "Tasting of 5 selected wines in combination with 6 local cheeses and visit to the cellar and barricaia",
+        "price": "€45.00 VAT included/ person",
         "link": "/degustazioni/cheese"
       },
       {
         "img": "/assets/degustazioni/top.jpeg",
         "title": "Top Wines Experience",
-        "descrizione": "Degustazione di 5 vini top accompagnati da tagliere della gastronomia locale e visita in cantina e barricaia",
-        "price": "€70,00 iva inclusa / persona",
+        "descrizione": "Tasting of 5 top wines accompanied by a cutting board of the local gastronomy and visit to the cellar and barricaia",
+        "price": "€70,00 VAT included/ person",
         "link": "/degustazioni/top"
       },
       {
         "img": "/assets/degustazioni/coteau3.jpg",
         "title": "Côteau la Tour Experience",
-        "descrizione": "Degustazione di 5 vini accompagnata da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto del Côteau e brindisi nella Torre Medievale",
-        "price": "€90,00 iva inclusa / persona",
+        "descrizione": "Tasting of 5 wines accompanied by a cutting board of the local gastronomy and visit in the cellar and barricaia. Tour of the Côteau vineyard and toast in the Medieval Tower",
+        "price": "€90.00 VAT included/ person",
         "link": "/degustazioni/tour"
       },
       {
         "img": "/assets/degustazioni/winemaker.jpeg",
         "title": "Winemaker's Experience",
-        "descrizione": "Scopri il mondo Les Crêtes raccontato dal nostro enologo Raffaele, a partire dalle vigne fino alla cantina.",
-        "price": "€100,00 iva inclusa / persona",
+        "descrizione": "Discover the world of Les Crêtes, told by our wine maker Raffaele, from the vineyards to the cellar.",
+        "price": "€100.00 VAT included/ person",
         "link": "/degustazioni/winemaker"
       },
       {
         "img": "/assets/degustazioni/wellness.jpeg",
         "title": "Wellness & Wine Tasting",
-        "descrizione": "Soggiorno di una notte in camera doppia presso QC Terme Spas & Resorts, con percorso benessere + degustazione di 5 vini selezionati con 6 formaggi locali, visita in cantina e barricaia.",
-        "price": "A partire da €346,00 iva inclusa ",
+        "descrizione": "One night stay in a double room at QC Terme Spas & Resorts, with wellness path + tasting of 5 selected wines with 6 local cheeses, visit to the cellar and barricaia.",
+        "price": "From €346,00 including VAT ",
         "link": "/degustazioni/wellness"
       }
     ],
@@ -69,32 +69,53 @@
         "name": "3 Wines Experience",
         "title": "trewines",
         "degustazione": {
-          "title": "Degustazione",
-          "vini": "3 vini"
+          "title": "Tasting",
+          "vini": "3 wines"
         },
 
-        "cardDesc": "Degustazione di tre vini al Rifugio del vino e visita in cantina e barricaia",
-        "durata": { "title": "Durata", "tempo": "1 h" },
-        "visita": { "title": "Visita Cantina", "cantina": "sì" },
-        "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
-        "gradi": { "title": "Temperatura Cantina", "tipo": "14°" },
+        "cardDesc": "Tasting of three wines at the Wine Refuge and visit to the cellar and the wine cellar",
+        "durata": { "title": "Time", "tempo": "1 h" },
+        "visita": { "title": "Winery tour", "cantina": "yes" },
+        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+        "gradi": { "title": "Cellar temperature", "tipo": "14°" },
+        "reviewlink": "read our reviews",
 
         "descrizione": {
-          "title": "Descrizione",
-          "content": " Fai un primo passo nel mondo Les Crêtes per scoprirne la storia, il territorio, i suoi vitigni ed i vini. Nella suggestiva cornice del Rifugio del Vino, potrai degustare tre vini con vista sui vigneti, dopo aver visitato la cantina e la barricaia.",
+          "title": "Description",
+          "content": "Take a first step into the world of Les Crêtes to discover its history, territory, vines and wines. In the suggestive setting of the Rifugio del Vino, you can taste three wines with a view over the vineyards, after visiting the cellar and the wine cellar.",
           "pacchetto": {
-            "title": "Cosa comprende:",
+            "title": "Includes:",
             "lista": [
-              { "testo": "- Degustazione di 3 vini" },
-              { "testo": "- Visita della cantina e barricaia" }
+              { "testo": "- Tasting of 3 wines" },
+              { "testo": "- Visit of the cellar and barricaia" }
             ]
           }
         },
         "price": "25",
-        "priceCard": "€25,00 iva inclusa / persona",
-        "priceTitle": "Prezzo",
-
-        "download": "/pdf/degustazioni/3wines_experience_ita.pdf"
+        "priceCard": "€25.00 VAT included/ person",
+        "priceTitle": "Price",
+        "downloadCta": "Download",
+        "download": "/pdf/degustazioni/3wines_experience_ita.pdf",
+        "shareTitle": "Share on",
+        "bookNow": "Book now",
+        "testimonials": {
+          "title": "Last reviews",
+          "button": "Write a review"
+        },
+        "othersTitle": "Other highlights of tastings",
+        "form": {
+          "slots": "Select a time slot:",
+          "adults": "adults",
+          "language": "visit language",
+          "gift": "You want to give a gift?",
+          "total": "total amount",
+          "cta": "Continue with request",
+          "langValue": {
+            "ita": "italian",
+            "eng": "english",
+            "fr": "french"
+          }
+        }
       },
       "native": {
         "img": "/assets/degustazioni/native.jpg",
@@ -102,39 +123,60 @@
 
         "name": "Native Wines Experience",
         "title": "native",
-        "cardDesc": "Degustazione di 5 vini del Territorio al Rifugio del vino in cantina e barricaia",
+        "cardDesc": "Tasting of 5 wines from the territory at the wine refuge in the cellar and barricaia",
 
         "degustazione": {
-          "title": "Degustazione",
-          "vini": "5 vini"
+          "title": "Tasting",
+          "vini": "5 wines"
         },
-        "durata": { "title": "Durata", "tempo": "1 h 30" },
+        "durata": { "title": "Time", "tempo": "1 h 30" },
 
-        "visita": { "title": "Visita Cantina", "cantina": "sì" },
-        "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
-        "gradi": { "title": "Temperatura Cantina", "tipo": "14°" },
+        "visita": { "title": "Winery tour", "cantina": "yes" },
+        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+        "gradi": { "title": "Cellar temperature", "tipo": "14°" },
+        "reviewlink": "read our reviews",
         "descrizione": {
-          "title": "Descrizione",
-          "content": " Vivi un percorso nel mondo del vino Les Crêtes che dai vini nativi risale alla storia, al territorio, ai suoi vitigni ancestrali. Nella cornice del Rifugio del Vino, dopo la visita di cantina e barricaia, degusterai i vini autoctoni con vista sui vigneti e potrai eventualmente scegliere l'abbinamento con la nostra selezione di charcuterie e formaggi della gastronomia locale.",
+          "title": "Description",
+          "content": " Experience a journey in the world of wine Les Crêtes that from native wines goes back to history, to the territory, to its ancestral vines. In the setting of the Wine Refuge, after visiting the cellar and the barricaia, You will taste the local wines with a view of the vineyards and you can choose to combine them with our selection of charcuterie and cheeses from the local gastronomy.",
           "pacchetto": {
-            "title": "Cosa comprende:",
+            "title": "Includes:",
             "lista": [
-              { "testo": "- Degustazione di 5 vini" },
-              { "testo": "- Visita della cantina e barricaia" }
+              { "testo": "- Tasting of 5 wines" },
+              { "testo": "- Visit of the cellar and barricaia" }
             ]
           },
 
           "opzione": {
-            "title": "In opzione con questa degustazione:",
-            "uno": "La nostra selezione di salumi e formaggi della gastronomia locale al costo aggiuntivo di € 14.00 pax IVA incl."
+            "title": "As an option with this tasting:",
+            "uno": "Our selection of cold cuts and cheeses from the local gastronomy at an additional cost of € 14.00 pax incl."
           }
         },
-        "priceTitle": "Prezzo",
+        "priceTitle": "Price",
 
         "price": "40",
-        "priceCard": "€40,00 iva inclusa / persona",
-
-        "download": "/pdf/degustazioni/native_wine_experience_ita.pdf"
+        "priceCard": "€40,00 VAT included/ person",
+        "downloadCta": "Download",
+        "download": "/pdf/degustazioni/native_wine_experience_ita.pdf",
+        "shareTitle": "Share on",
+        "bookNow": "Book now",
+        "testimonials": {
+          "title": "Last reviews",
+          "button": "Write a review"
+        },
+        "othersTitle": "Other highlights of tastings",
+        "form": {
+          "slots": "Select a time slot:",
+          "adults": "adults",
+          "language": "visit language",
+          "gift": "You want to give a gift?",
+          "total": "total amount",
+          "cta": "Continue with request",
+          "langValue": {
+            "ita": "italian",
+            "eng": "english",
+            "fr": "french"
+          }
+        }
       },
       "cheese": {
         "img": "/assets/degustazioni/cheese.jpeg",
@@ -142,38 +184,60 @@
         "seoImg": "/assets/seo/cheese.png",
 
         "title": "cheese",
-        "cardDesc": "Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali e visita in cantina e barricaia",
+        "cardDesc": "Tasting of 5 selected wines in combination with 6 local cheeses and visit to the cellar and barricaia",
 
         "degustazione": {
-          "title": "Degustazione",
-          "vini": "5 vini + 6 formaggi locali"
+          "title": "Tasting",
+          "vini": "5 wines + 6 local cheeses"
         },
-        "durata": { "title": "Durata", "tempo": "1 h 30" },
-        "visita": { "title": "Visita Cantina", "cantina": "sì" },
-        "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
-        "gradi": { "title": "Temperatura Cantina", "tipo": "14°" },
+        "durata": { "title": "Time", "tempo": "1 h 30" },
+        "visita": { "title": "Winery tour", "cantina": "yes" },
+        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+        "gradi": { "title": "Cellar temperature", "tipo": "14°" },
+        "reviewlink": "read our reviews",
 
         "descrizione": {
-          "title": "Descrizione",
-          "content": " Entra nel mondo Les Crêtes per scoprirne la storia, il territorio e i suoi vitigni, in un percorso gastronomico che vede protagonisti il vino ed i formaggi. Nella suggestiva cornice del Rifugio del Vino potrai degustare una selezione dei nostri vini, ciascuno in abbinamento ad un pregiato formaggio locale, accompagnato da miele di montagna.",
+          "title": "Description",
+          "content": "Enter the world of Les Crêtes to discover its history, the territory and its vines in a gastronomic journey that sees wine and cheese as protagonists. In the suggestive setting of the Rifugio del Vino you can taste a selection of our wines, each in combination with a fine local cheese, accompanied by mountain honey.",
           "pacchetto": {
-            "title": "Cosa comprende:",
+            "title": "Includes:",
 
             "lista": [
               {
-                "testo": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali * "
+                "testo": "- Tasting of 5 selected wines with 6 local cheeses * "
               },
-              { "testo": "- Visita della cantina e barricaia" }
+              { "testo": "- Visit of the cellar and barricaia" }
             ]
           },
 
-          "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
+          "asterisco": "*The wines indicated are subject to change according to availability"
         },
         "price": "45 ",
-        "priceTitle": "Prezzo",
-        "priceCard": "€45,00 iva inclusa / persona",
+        "priceTitle": "Price",
+        "priceCard": "€45.00 VAT included/ person",
+        "downloadCta": "Download",
 
-        "download": "/pdf/degustazioni/wine_and_cheese_experience_ita.pdf"
+        "download": "/pdf/degustazioni/wine_and_cheese_experience_ita.pdf",
+        "shareTitle": "Share on",
+        "bookNow": "Book now",
+        "testimonials": {
+          "title": "Last reviews",
+          "button": "Write a review"
+        },
+        "othersTitle": "Other highlights of tastings",
+        "form": {
+          "slots": "Select a time slot:",
+          "adults": "adults",
+          "language": "visit language",
+          "gift": "You want to give a gift?",
+          "total": "total amount",
+          "cta": "Continue with request",
+          "langValue": {
+            "ita": "italian",
+            "eng": "english",
+            "fr": "french"
+          }
+        }
       },
       "top": {
         "img": "/assets/degustazioni/top.jpg",
@@ -181,40 +245,62 @@
         "seoImg": "/assets/seo/top.png",
 
         "title": "top",
-        "cardDesc": "Degustazione di 5 vini top accompagnati da tagliere della gastronomia locale e visita in cantina e barricaia",
+        "cardDesc": "Tasting of 5 top wines accompanied by a cutting board of the local gastronomy and visit to the cellar and barricaia",
 
         "degustazione": {
-          "title": "Degustazione",
-          "vini": "5 vini"
+          "title": "Tasting",
+          "vini": "5 wines"
         },
-        "durata": { "title": "Durata", "tempo": "1 h 45" },
-        "visita": { "title": "Visita Cantina", "cantina": "sì" },
-        "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
-        "gradi": { "title": "Temperatura Cantina", "tipo": "14°" },
+        "durata": { "title": "Time", "tempo": "1 h 45" },
+        "visita": { "title": "Winery tour", "cantina": "yes" },
+        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+        "gradi": { "title": "Cellar temperature", "tipo": "14°" },
 
         "descrizione": {
-          "title": "Descrizione",
-          "content": " Per wine lovers ed esperti, 5 prestigiose etichette Les Crêtes da degustare nella cornice del Rifugio del Vino, assaporando, con vista sui vigneti, l'abbinamento di una selezione di charcuterie e formaggi pregiati della gastronomia locale, dopo la visita guidata dedicata.",
+          "title": "Description",
+          "content": "For wine lovers and experts, 5 prestigious Les Crêtes labels to taste in the setting of the Rifugio del Vino, enjoying, with a view over the vineyards, The pairing of a selection of charcuterie and fine cheeses from local gastronomy, after the dedicated guided tour.",
           "pacchetto": {
-            "title": "Cosa comprende:",
+            "title": "Includes:",
             "lista": [
               {
-                "testo": "- Degustazione di 5 vini top concordati con il nostro Sommelier * "
+                "testo": "- Tasting of 5 top wines agreed with our Sommelier * "
               },
-              { "testo": "- Visita della cantina e barricaia" },
+              { "testo": "- Visit of the cellar and barricaia" },
               {
-                "testo": "- La nostra selezione di salumi e formaggi della gastronomia locale"
+                "testo": "- Our selection of local delicacies and cheeses"
               }
             ]
           },
 
-          "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
+          "asterisco": "*The wines indicated are subject to change according to availability"
         },
         "price": "70",
-        "priceTitle": "Prezzo",
-        "priceCard": "€70,00 iva inclusa / persona",
+        "priceTitle": "Price",
+        "priceCard": "€70,00 VAT included/ person",
 
-        "download": "/pdf/degustazioni/top_wines_experience_ita.pdf"
+        "download": "/pdf/degustazioni/top_wines_experience_ita.pdf",
+        "reviewlink": "read our reviews",
+        "downloadCta": "Download",
+        "shareTitle": "Share on",
+        "bookNow": "Book now",
+        "testimonials": {
+          "title": "Last reviews",
+          "button": "Write a review"
+        },
+        "othersTitle": "Other highlights of tastings",
+        "form": {
+          "slots": "Select a time slot:",
+          "adults": "adults",
+          "language": "visit language",
+          "gift": "You want to give a gift?",
+          "total": "total amount",
+          "cta": "Continue with request",
+          "langValue": {
+            "ita": "italian",
+            "eng": "english",
+            "fr": "french"
+          }
+        }
       },
       "tour": {
         "img": "/assets/degustazioni/coteau3.jpg",
@@ -222,47 +308,69 @@
         "seoImg": "/assets/seo/tour.png",
 
         "title": "tour",
-        "cardDesc": "Degustazione di 5 vini accompagnata da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto del Côteau e brindisi nella Torre Medievale",
+        "cardDesc": "Tasting of 5 wines accompanied by a cutting board of the local gastronomy and visit in the cellar and barricaia. Tour of the Côteau vineyard and toast in the Medieval Tower",
 
         "degustazione": {
-          "title": "Degustazione",
-          "vini": "5 vini"
+          "title": "Tasting",
+          "vini": "5 wines"
         },
-        "durata": { "title": "Durata", "tempo": "2 h" },
+        "durata": { "title": "Time", "tempo": "2 h" },
         "visita": {
-          "title": "Visita Cantina",
-          "cantina": "sì + visita alle vigne del Côteau la Tour"
+          "title": "Winery tour",
+          "cantina": "yes + visit to the vineyards of Côteau la Tour"
         },
-        "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
-        "gradi": { "title": "Temperatura Cantina", "tipo": "14°" },
+        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+        "gradi": { "title": "Cellar temperature", "tipo": "14°" },
 
         "descrizione": {
-          "title": "Descrizione",
-          "content": "Percorri un viaggio nel mondo Les Crêtes, immergendoti tra i colori, i profumi e la storia del vigneto del Côteau la Tour, custodito dalla sua torre medievale che domina il paesaggio, svelando un panorama mozzafiato. Nella suggestiva cornice del Rifugio del Vino, potrai inoltre degustare i vini in abbinamento lla nostra selezione di salumi e formaggi della gastronomia locale.",
+          "title": "Description",
+          "content": "Travel through the world of Les Crêtes, immersing yourself in the colours, scents and history of the Côteau la Tour vineyard, guarded by its medieval tower that dominates the landscape, Unveiling a breathtaking view. In the suggestive setting of the Rifugio del Vino, you can also taste wines paired with our selection of local salami and cheese.",
           "pacchetto": {
-            "title": "Cosa comprende:",
+            "title": "Includes:",
             "lista": [
               {
-                "testo": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali * "
+                "testo": "- Tasting of 5 selected wines with 6 local cheeses * "
               },
-              { "testo": "- Visita della cantina e barricaia" },
+              { "testo": "- Visit of the cellar and barricaia" },
               {
-                "testo": "-  Visita alle vigne del Côteau la Tour con brindisi nella Torre Medievale (consigliato l'utilizzo di scarpe comode)"
+                "testo": "- Visit to the vineyards of Côteau la Tour with toast in the Medieval Tower (recommended the use of comfortable shoes)"
               },
               {
-                "testo": "-  Tagliere di salumi e formaggi della gastronomia locale"
+                "testo": "- Board of cold cuts and cheeses from the local gastronomy"
               }
             ]
           },
 
-          "asterisco": " *I vini indicati sono soggetti a variazione a seconda della disponibilità"
+          "asterisco": "*The wines indicated are subject to change according to availability"
         },
-        "priceTitle": "Prezzo",
+        "priceTitle": "Price",
 
         "price": "90",
-        "priceCard": "€90,00 iva inclusa / persona",
+        "priceCard": "€90.00 VAT included/ person",
 
-        "download": "/pdf/degustazioni/coteau_la_tour_experience_ita.pdf"
+        "download": "/pdf/degustazioni/coteau_la_tour_experience_ita.pdf",
+        "reviewlink": "read our reviews",
+        "downloadCta": "Download",
+        "shareTitle": "Share on",
+        "bookNow": "Book now",
+        "testimonials": {
+          "title": "Last reviews",
+          "button": "Write a review"
+        },
+        "othersTitle": "Other highlights of tastings",
+        "form": {
+          "slots": "Select a time slot:",
+          "adults": "adults",
+          "language": "visit language",
+          "gift": "You want to give a gift?",
+          "total": "total amount",
+          "cta": "Continue with request",
+          "langValue": {
+            "ita": "italian",
+            "eng": "english",
+            "fr": "french"
+          }
+        }
       },
       "winemaker": {
         "img": "/assets/degustazioni/winemaker.jpeg",
@@ -270,45 +378,67 @@
         "seoImg": "/assets/seo/winemaker.png",
 
         "title": "winemaker",
-        "cardDesc": "Scopri il mondo Les Crêtes raccontato dal nostro enologo Raffaele, a partire dalle vigne fino alla cantina.",
+        "cardDesc": "Discover the world of Les Crêtes, told by our wine maker Raffaele, from the vineyards to the cellar.",
 
         "degustazione": {
-          "title": "Degustazione",
-          "vini": "5 vini + salumi e formaggi locali"
+          "title": "Tasting",
+          "vini": "5 wines + local cold cuts and cheeses"
         },
-        "durata": { "title": "Durata", "tempo": "2 h" },
+        "durata": { "title": "Time", "tempo": "2 h" },
         "visita": {
-          "title": "Visita Cantina",
-          "cantina": "sì + visita al vigneto"
+          "title": "Winery tour",
+          "cantina": "yes + visit to the vineyard"
         },
-        "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
-        "gradi": { "title": "Temperatura Cantina", "tipo": "14°" },
+        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+        "gradi": { "title": "Cellar temperature", "tipo": "14°" },
 
         "descrizione": {
-          "title": "Descrizione",
-          "content": "Scopri il mondo Les Crêtes raccontato dal nostro enologo Raffaele, a partire dalle vigne, per arrivare alla cantina seguendo il percorso che porta le nostre uve alla bottiglia. Nella suggestiva cornice del Rifugio del Vino, degusterai i vini scelti con l'enologo, in abbinamento ad una selezione di salumi e formaggi della gastronomia locale.",
+          "title": "Description",
+          "content": "Discover the world of Les Crêtes, told by our wine maker Raffaele, from the vineyards to the cellar following the path that leads our grapes to the bottle. In the suggestive setting of the Rifugio del Vino, you will taste wines chosen with the winemaker, combined with a selection of cold cuts and cheeses from local gastronomy.",
           "pacchetto": {
-            "title": "Cosa comprende:",
+            "title": "Includes:",
             "lista": [
               {
-                "testo": "- Degustazione di 5 vini scelti con l'enologo "
+                "testo": "- Tasting of 5 wines chosen with the winemaker "
               },
-              { "testo": "- Visita in cantina e barricaia con barrel tasting" },
+              { "testo": "- Visit to the cellar and barrel tasting" },
               {
-                "testo": "- Visita al vigneto (consigliato l'utilizzo di scarpe comode)"
+                "testo": "- Visit to the vineyard (recommended wearing comfortable shoes)"
               },
               {
-                "testo": "- Selezione di salumi e formaggi della gastronomia locale"
+                "testo": "- Selection of local salami and cheese"
               }
             ]
           }
         },
-        "priceTitle": "Prezzo",
+        "priceTitle": "Price",
 
         "price": "100",
-        "priceCard": "€100,00 iva inclusa / persona",
+        "priceCard": "€100.00 VAT included/ person",
 
-        "download": "/pdf/degustazioni/winemakers_experience_ita.pdf"
+        "download": "/pdf/degustazioni/winemakers_experience_ita.pdf",
+        "reviewlink": "read our reviews",
+        "downloadCta": "Download",
+        "shareTitle": "Share on",
+        "bookNow": "Book now",
+        "testimonials": {
+          "title": "Last reviews",
+          "button": "Write a review"
+        },
+        "othersTitle": "Other highlights of tastings",
+        "form": {
+          "slots": "Select a time slot:",
+          "adults": "Adults",
+          "language": "Visit Language",
+          "gift": "You want to give a gift?",
+          "total": "Total amount",
+          "cta": "Continue with request",
+          "langValue": {
+            "ita": "italian",
+            "eng": "english",
+            "fr": "french"
+          }
+        }
       },
       "wellness": {
         "img": "/assets/degustazioni/wellness.jpeg",
@@ -316,125 +446,135 @@
         "seoImg": "/assets/seo/wellness.png",
 
         "title": "wellness",
-        "cardDesc": "Soggiorno di una notte in camera doppia presso QC Terme Spas & Resorts, con percorso benessere + degustazione di 5 vini selezionati con 6 formaggi locali, visita in cantina e barricaia.",
+        "cardDesc": "One night stay in a double room at QC Terme Spas & Resorts, with wellness path + tasting of 5 selected wines with 6 local cheeses, visit to the cellar and barricaia.",
 
         "degustazione": {
-          "title": "Degustazione",
-          "vini": "5 vini + salumi e formaggi locali"
+          "title": "Tasting",
+          "vini": "5 wines + local cold cuts and cheeses"
         },
-        "durata": { "title": "Durata", "tempo": "1 h 30" },
+        "durata": { "title": "Time", "tempo": "1 h 30" },
 
-        "visita": { "title": "Visita Cantina", "cantina": "sì" },
-        "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
-        "gradi": { "title": "Temperatura Cantina", "tipo": "14°" },
+        "visita": { "title": "Winery tour", "cantina": "yes" },
+        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+        "gradi": { "title": "Cellar temperature", "tipo": "14°" },
 
         "descrizione": {
-          "title": "Descrizione",
-          "content": "Immergiti nell'incanto di una tradizione culinaria autentica, dove i sapori genuini sono protagonisti indiscussi. La Valle d'Aosta è un vero paradiso per gli amanti del buon cibo e del vino, con la possibilità di degustare eccellenti vini locali. E per rendere il tuo soggiorno ancora più memorabile, concediti un suggestivo percorso benessere, circondato da vasche panoramiche e accoglienti sale relax.",
+          "title": "Description",
+          "content": "Immerse yourself in the charm of an authentic culinary tradition, where genuine flavors are the undisputed protagonists. The Aosta Valley is a true paradise for lovers of good food and wine, with the possibility to taste excellent local wines. And to make your stay even more memorable, treat yourself to a suggestive wellness path, surrounded by panoramic baths and cozy relaxation rooms.",
           "pacchetto": {
-            "title": "Cosa comprende:",
+            "title": "Includes:",
             "lista": [
               {
-                "testo": "- Soggiorno in camera matrimoniale e ricca colazione "
+                "testo": "- Stay in double room and rich breakfast "
               },
               {
-                "testo": "- Ingresso al percorso benessere dell'hotel direttamente dalla camera in accappatoio"
+                "testo": "- Entrance to the hotel wellness path directly from your room in a bathrobe"
               },
               {
-                "testo": "- Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali presso la cantina Les Crêtes"
+                "testo": "- Tasting of 5 selected wines paired with 6 local cheeses at the Les Crêtes winery"
               }
             ]
           }
         },
-        "priceTitle": "Prezzo",
-        "price": " €346,00 iva inclusa ",
-        "priceCard": "A partire da €346,00 iva inclusa",
-
+        "priceTitle": "Price",
+        "price": "€346,00 VAT included ",
+        "priceCard": "From €346,00 including VAT",
+        "prenotaTitle": "The booking for this tasting with wellness path is made directly on the platform of the QC Terme hotel.",
         "prenotaBtn": "https://www.qcterme.com/it/corporate/offerte-e-pacchetti/wellness-wine-tasting",
-        "download": "/pdf/degustazioni/wellness_and_wine_tasting_ita.pdf"
+        "download": "/pdf/degustazioni/wellness_and_wine_tasting_ita.pdf",
+        "reviewlink": "read our reviews",
+        "downloadCta": "Download",
+        "shareTitle": "Share on",
+        "bookNow": "Book now",
+        "testimonials": {
+          "title": "Last reviews",
+          "button": "Write a review"
+        },
+        "othersTitle": "Other highlights of tastings",
+        "bookWell": "Book now"
       }
     },
     "prenota": {
-      "title": "Prenota ora la tua visita o richiedi informazioni in merito alle degustazioni:",
+      "title": "Book your visit now or ask for information about the tastings:",
       "list": [
         {
-          "name": "- al telefono  <a href='callto:+390165902274'>+39 0165 / 90 22 74</a>"
+          "name": "- phone  <a href='callto:+390165902274'>+39 0165 / 90 22 74</a>"
         },
         {
-          "name": "- all’indirizzo mail: <a href='mailto:info@lescretes.it'>info@lescretes.it</a>"
+          "name": "- to the e-mail address: <a href='mailto:info@lescretes.it'>info@lescretes.it</a>"
         },
         {
-          "name": "- compila il form sulla pagina della degustazione scelta"
+          "name": "- Fill in the form on the page of the chosen tasting"
         }
       ],
-      "nota": "Wine shop, degustazioni e visite guidate: dal Lun al Ven 9.00-13.00/15.00-19.00 e Sab 10.00-13.00/15.00-19.00. <strong>CHIUSO Domenica e Festivi</strong>"
+      "nota": "Wine shop, tastings and guided tours: from Mon to Fri 9.00-13.00/15.00-19.00 and Sat 10.00-13.00/15.00-19.00. <strong>CLOSED Sundays and Holidays</strong>"
     },
     "faq": [
       {
-        "question": "Sono intollerante al glutine, posso chiedere un piatto/tagliere dedicato",
-        "answer": "Per le intolleranze / allergie Vi preghiamo di comunicare il tutto in fase di prenotazione al ché provvederemo a creare un assortimento a Voi dedicato."
+        "question": "I am gluten intolerant, can I ask for a dedicated plate/cutting board?",
+        "answer": "For intolerances/allergies please inform us at the time of booking and we will create a special assortment for you."
       },
       {
-        "question": "Posso portare il mio cane alla degustazione?",
-        "answer": "I cani sono i benvenuti presso il Rifugio del Vino e potranno accompagnarVi durante le degustazioni. Tuttavia non potranno accedere alle cantine per la visita aziendale."
+        "question": "Can I take my dog to the tasting?",
+        "answer": "Dogs are welcome at the Wine Refuge and can accompany you during the tastings. However, they will not be able to access the cellars for the company visit."
       },
       {
-        "question": "C’è disponibilità di parcheggio davanti alla struttura?",
-        "answer": "Offriamo un ampio piazzale di fronte al Rifugio del Vino in cui poter parcheggiare i veicoli."
+        "question": "Is there parking available in front of the hotel?",
+        "answer": "We offer a large square in front of the Wine Hut where you can park your vehicles."
       },
       {
-        "question": "Posso raggiungervi con i mezzi pubblici?",
-        "answer": "L’azienda è raggiungibile grazie alla linea 5 con partenza da Aosta. I pullman partono dal piazzale di fronte alla stazione dei treni, stesso discorso per i taxi da contattare al numero +39 0165 262010."
+        "question": "Can I reach you by public transport?",
+        "answer": "The farm can be reached on line 5 from Aosta. Buses leave from the square in front of the train station, same for taxis to contact on +39 0165 262010."
       },
       {
-        "question": "Avete un’area di sosta per il Camper?",
-        "answer": "L’azienda non disciplina questo servizio. L’area di sosta per i Camper sorge nel piazzale di fronte alle poste di Aymavilles (Frazione Chef Lieu, 24, 11010 Aymavilles - AO)."
+        "question": "Do you have a parking area for your camper?",
+        "answer": "The company does not regulate this service. The parking area for campers is located in front of the post office of Aymavilles (Frazione Chef Lieu, 24, 11010 Aymavilles - AO)."
       },
       {
-        "question": "La struttura è accessibile ai disabili?",
-        "answer": "La struttura offre rampe di accesso per persone diversamente abili. Gli stessi potranno visitare le cantine con l’utilizzo di un ascensore."
+        "question": "Is the property accessible to disabled people?",
+        "answer": "The property offers ramps for disabled people. They can visit the cellars with a lift."
       },
       {
-        "question": "I gruppi sono ammessi?",
-        "answer": "Sono ammessi previa disponibilità della struttura. La prenotazione è da effettuare con largo anticipo (almeno due settimane prima della data selezionata)."
+        "question": "Are groups allowed in?",
+        "answer": "They are admitted upon availability of the structure. The reservation must be made well in advance (at least two weeks before the selected date)."
       },
       {
-        "question": "Esiste un’area bimbi?",
-        "answer": "Proponiamo uno spazio bimbi all’interno della struttura per concedere ai più piccini un momento di svago e gioco durante i percorsi di degustazione."
+        "question": "Is there a children’s area?",
+        "answer": "We propose a children’s space within the structure to give the little ones a moment of leisure and play during the tasting routes."
       },
       {
-        "question": "Posso portare i bambini a una degustazione di vino?",
-        "answer": "I bambini possono accedere alla struttura e garantiamo proposte analcoliche oltre allo spazio bimbi a loro dedicato."
+        "question": "Can I take the kids to a wine tasting?",
+        "answer": "Children can access the structure and we guarantee non-alcoholic proposals as well as the space for children."
       },
       {
-        "question": "Se ho un imprevisto, posso cambiare il giorno della degustazione?",
-        "answer": "E’ possibile modificare il giorno della degustazione previo avviso di due giorni – non oltre – dalla data selezionata."
+        "question": "If I have an unexpected event, can I change the day of the tasting?",
+        "answer": "It is possible to change the day of the tasting by giving two days - no later than - notice from the selected date."
       },
       {
-        "question": "Le degustazioni sono adatte anche per chi è vegetariano o vegano?",
-        "answer": "L’assaggio di vini è libero e dedicato a chiunque benché al posto del tagliere offriremo gallette come accompagnamento."
+        "question": "Are the tastings also suitable for vegetarians or vegans?",
+        "answer": "The tasting of wines is free and dedicated to anyone although instead of the cutting board we will offer galettes as an accompaniment."
       },
       {
-        "question": "E' possibile regalare una degustazione?",
-        "answer": "Tramite il voucher (buono regalo) è possibile regalare un’esperienza a Les Crêtes. Vi preghiamo di contattarci all’indirizzo mail preposto (ordini@lescretes.it) per disciplinare l’erogazione del buono previo saldo dell’esperienza tramite bonifico bancario."
+        "question": "Is it possible to give away a tasting?",
+        "answer": "You can give an experience to Les Crêtes with your voucher (gift certificate). Please contact us at the email address (ordini@lescretes.it) to regulate the payment of the voucher after the balance of the experience by bank transfer."
       },
       {
-        "question": "Qual è la capacità massima di partecipanti per una degustazione? E' necessaria una prenotazione anticipata?",
-        "answer": "La nostra struttura può ospitare sino a 50 persone ed è necessaria una prenotazione con almeno due settimane di anticipo dalla data selezionata."
+        "question": "What is the maximum capacity for a tasting? Is advance booking required?",
+        "answer": "Our structure can accommodate up to 50 people and a reservation is necessary at least two weeks in advance from the selected date."
       },
       {
-        "question": "E' possibile spedire i vini?",
-        "answer": "E’ possibile predisporre una spedizione inviando la richiesta all’indirizzo mail ordini@lescretes.it."
+        "question": "Is it possible to ship the wines?",
+        "answer": "It is possible to arrange a shipment by sending the request to the mail address ordini@lescretes.it."
       },
       {
-        "question": "E' una struttura che propone pranzi e cene?",
-        "answer": "Il Rifugio del Vino non prevede la disciplina dei pasti bensì offre esperienze emozionali di degustazione a cui integrare, previa richiesta, assortimenti di formaggi e affettati. "
+        "question": "Is it a structure that offers lunches and dinners?",
+        "answer": "The Rifugio del Vino does not provide for the discipline of meals but offers emotional tasting experiences to which, upon request, assortments of cheeses and cold cuts can be added. "
       }
     ],
     "banner": {
-      "title": "Il Rifugio del Vino: sala di degustazione emozionale",
-      "paragraph": "Un luogo dove l’accoglienza è di casa e dove vivere un’esperienza unica tra le montagne della Valle d'Aosta.",
-      "btn": "Scopri il Rifugio",
+      "title": "Il Rifugio del Vino: emotional tasting room",
+      "paragraph": "A place where hospitality is at home and where you can live a unique experience in the mountains of Valle d'Aosta.",
+      "btn": "Discover the Refuge",
       "link": "/il-rifugio-del-vino"
     }
   }

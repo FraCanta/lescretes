@@ -1,4 +1,4 @@
-import React from "react";
+import { useRef } from "react";
 import cosmesiIT from "../../public/locales/it/cosmesi.json";
 import cosmesiEN from "../../public/locales/en/cosmesi.json";
 import cosmesiFR from "../../public/locales/fr/cosmesi.json";
@@ -18,12 +18,20 @@ import { FacebookShareButton, WhatsappShareButton } from "next-share";
 import FAQ from "@/components/FAQ/FAQ";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 import { parse } from "dom-parser-react";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+
+import { Navigation } from "swiper/modules";
+import SwiperButtons from "@/components/SwiperButtons/SwiperButtons";
 
 const SingleCosmetic = ({ cosm, others }) => {
   const contents = parse(cosm.name, {
     createElement: React.createElement,
     Fragment: React.Fragment,
   });
+
   return (
     <>
       <Head>
@@ -150,15 +158,54 @@ const SingleCosmetic = ({ cosm, others }) => {
         <h2 className="py-6 text-6xl font-bold">FAQs</h2>
         {/* <FAQ /> */}
       </div>
-      <div className="flex flex-col w-[90%] mx-auto py-10 gap-[30px] fxl:gap-[50px] fxl:py-20">
-        <h2 className="text-3xl font-bold fxl:text-5xl">
-          Ti potrebbero anche interessare
-        </h2>
+      <div className="relative flex flex-col w-full bg-second  py-10 gap-[30px] fxl:gap-[50px] fxl:py-20">
+        <div className="w-[90%] mx-auto">
+          <h2 className="mb-4 text-5xl font-bold fxl:text-5xl">
+            Ti potrebbero anche interessare
+          </h2>
+        </div>
 
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4 ">
-          {others.map((el, i) => (
-            <Cards img={el.img} name={el.name} button={el.button} />
-          ))}
+        <div className="flex flex-col items-center w-[90%] mx-auto">
+          <div className="relative w-full py-10">
+            <Swiper
+              slidesPerView={4}
+              spaceBetween={6}
+              modules={[Navigation]}
+              navigation={{
+                prevEl: ".prev",
+                nextEl: ".next",
+              }}
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                768: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 30,
+                },
+              }}
+            >
+              {others.map((el, i) => (
+                <SwiperSlide key={i}>
+                  <div className="pb-8">
+                    <Cards
+                      img={el.img}
+                      name={el.name}
+                      details={el.details}
+                      button={el.button}
+                      price={el.price}
+                    />
+                  </div>
+                </SwiperSlide>
+              ))}
+              <SwiperButtons />
+            </Swiper>
+          </div>
         </div>
       </div>
     </>
@@ -211,6 +258,9 @@ export async function getStaticProps(context) {
       return {
         name: obj?.cosmesi?.singleCosmetic?.[el]?.name,
         img: obj?.cosmesi?.singleCosmetic?.[el]?.img,
+        details: obj?.cosmesi?.singleCosmetic?.[el]?.details,
+        price: obj?.cosmesi?.singleCosmetic?.[el]?.price,
+
         button: obj?.cosmesi?.singleCosmetic?.[el]?.button,
       };
     });

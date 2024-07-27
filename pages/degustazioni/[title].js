@@ -17,9 +17,15 @@ import Drawer from "@/components/drawer/drawer";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 import FormPrenotazione from "@/components/formPrenotazione/formPrenotazione";
 import Cards from "@/components/Cards/Cards";
+import Reviews from "@/components/sections/Reviews";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+
+import { Navigation } from "swiper/modules";
+import SwiperButtons from "@/components/SwiperButtons/SwiperButtons";
 
 const SingleDeg = ({ deg, others, reviews }) => {
-  console.log(reviews);
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
   const handleDrawerToggle = () => {
     setIsDrawerOpen(!isDrawerOpen);
@@ -131,6 +137,16 @@ const SingleDeg = ({ deg, others, reviews }) => {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 w-[94%] mx-auto gap-6 py-14">
         <div className="flex-col justify-start items-start gap-[34px] flex">
+          <div className="flex items-center gap-2">
+            <div
+              className="elfsight-app-2b4b1507-2bea-400a-ad8d-c5532847a4ea"
+              data-elfsight-app-lazy
+            ></div>{" "}
+            <Link href="#recensioni" className="underline lowercase">
+              {deg.reviewlink}
+            </Link>
+          </div>
+
           <h2 className="flex items-center gap-2 text-3xl font-bold text-main xl:text-4xl">
             {deg.descrizione.title}{" "}
           </h2>
@@ -162,7 +178,6 @@ const SingleDeg = ({ deg, others, reviews }) => {
               ""
             )}
           </div>
-
           {deg?.descrizione?.asterisco ? (
             <p className="text-main/60">{deg?.descrizione?.asterisco}</p>
           ) : (
@@ -171,7 +186,7 @@ const SingleDeg = ({ deg, others, reviews }) => {
           <div className="flex flex-wrap justify-between w-full gap-y-6">
             {deg.download ? (
               <CtaOutlineBrown link={deg.download}>
-                Scarica qui
+                {deg.downloadCta}
                 <Icon
                   icon="material-symbols:download"
                   color="#4A4A49"
@@ -180,7 +195,7 @@ const SingleDeg = ({ deg, others, reviews }) => {
               </CtaOutlineBrown>
             ) : null}
             <div className="flex items-center gap-6 ">
-              <p className="text-xl fxl:text-2xl text-main">Condividi su</p>
+              <p className="text-xl fxl:text-2xl text-main">{deg.shareTitle}</p>
               <ul className="flex gap-6">
                 <li>
                   {" "}
@@ -220,7 +235,7 @@ const SingleDeg = ({ deg, others, reviews }) => {
               title={"prenotazione"}
               className="flex items-center justify-center text-[25px]  gap-2 text-center capitalize font-medium py-4 px-6   text-white hover:transition-all  bg-main w-full "
             >
-              Prenota ora
+              {deg.bookNow}
               <Icon
                 icon="mingcute:calendar-line"
                 color="white"
@@ -232,10 +247,11 @@ const SingleDeg = ({ deg, others, reviews }) => {
               onClick={handleDrawerToggle}
               className="flex items-center justify-center text-[25px]  gap-2 text-center  font-medium py-4 px-6   text-white hover:transition-all  bg-main w-full "
             >
-              Prenota ora <Icon icon="oui:arrow-down" />
+              {deg.bookNow} <Icon icon="oui:arrow-down" />
             </button>
           )}
         </div>
+
         <Drawer
           isOpen={isDrawerOpen}
           onClose={handleCloseDrawer}
@@ -244,20 +260,19 @@ const SingleDeg = ({ deg, others, reviews }) => {
           price={deg.price}
           durata={deg.durata?.tempo}
           tipo={deg.degustazione.vini}
+          form={deg.form}
         />
+
         {deg.prenotaBtn ? (
           <div className="flex flex-col w-full gap-6">
-            <h2 className="py-6 text-2xl font-bold">
-              La prenotazione a questa degustazione con percorso benessere
-              avviene direttamente sulla piattaforma dell'hotel QC Terme.
-            </h2>
+            <h2 className="py-6 text-2xl font-bold">{deg.prenotaTitle}</h2>
             <Link
               href={deg.prenotaBtn}
               target="_blank"
               title={"prenotazione"}
               className=" items-center justify-center text-[20px]  gap-2 text-center capitalize font-medium py-4 px-6   text-white hover:transition-all  bg-main w-full hidden xl:flex"
             >
-              Prenota ora{" "}
+              {deg.bookWell}{" "}
               <Icon
                 icon="mingcute:calendar-line"
                 color="white"
@@ -277,36 +292,87 @@ const SingleDeg = ({ deg, others, reviews }) => {
             <div className="p-4 text-center xl:text-2xl bg-main">
               <h2 className="font-bold text-white uppercase">{deg.name}</h2>
             </div>
-
             <FormPrenotazione
               deg={deg.name}
               link={deg.title}
               price={deg.price}
               durata={deg.durata?.tempo}
               tipo={deg.degustazione.vini}
+              form={deg.form}
             />
           </div>
         )}
       </div>
 
-      <div className="w-full h-[1px] bg-second my-2"></div>
+      <div className="w-full h-[1px] bg-second my-10"></div>
+      <div
+        className="relative flex flex-col items-center justify-center py-10 lg:py-20"
+        id="recensioni"
+      >
+        <div className="w-[90%] mx-auto flex flex-col gap-8 lg:gap-20 ">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 ">
+            <div className="flex flex-col gap-4">
+              <h2 className="text-3xl font-bold text-main md:text-5xl lg:text-5xl fxl:text-6xl ">
+                {deg.testimonials.title}
+              </h2>
+            </div>
+            <div className="flex items-end md:justify-end">
+              <CtaOutlineBrown link="https://g.page/r/CXZcr8aa7zgbEBM/review">
+                {deg.testimonials.button} <Icon icon="jam:write" />
+              </CtaOutlineBrown>
+            </div>
+          </div>
+
+          <div>
+            <Reviews />
+          </div>
+        </div>
+      </div>
       <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs"></div>
       <div className="w-full bg-second">
-        <div className="flex flex-col gap-10 py-20 ">
+        <div className="flex flex-col gap-10 py-20 w-[90%] mx-auto">
           <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl xl:w-[65%] mx-auto text-center">
-            Altre degustazioni in evidenza{" "}
+            {deg.othersTitle}
           </h2>
-          <div className="grid grid-cols-1 gap-6 mx-auto mt-10 xl:grid-cols-3 w-[90%] ">
-            {others?.map((el, i) => (
-              <Cards
-                key={i}
-                img={el?.img}
-                title={el?.name}
-                descrizione={el?.descrizione}
-                price={el?.price}
-                link={el.link}
-              />
-            ))}
+          <div className="relative w-full ">
+            <Swiper
+              slidesPerView={3}
+              spaceBetween={6}
+              modules={[Navigation]}
+              navigation={{
+                prevEl: ".prev",
+                nextEl: ".next",
+              }}
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                768: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 30,
+                },
+              }}
+            >
+              {others.map((el, i) => (
+                <SwiperSlide key={i}>
+                  <div>
+                    <Cards
+                      img={el?.img}
+                      title={el?.name}
+                      descrizione={el?.descrizione}
+                      price={el?.price}
+                      link={el.link}
+                    />
+                  </div>
+                </SwiperSlide>
+              ))}
+              <SwiperButtons />
+            </Swiper>
           </div>
         </div>
       </div>
@@ -346,6 +412,7 @@ export async function getStaticProps(context) {
         img: obj?.degustazioni?.singleDeg?.[el]?.img,
         descrizione: obj?.degustazioni?.singleDeg?.[el]?.cardDesc,
         price: obj?.degustazioni?.singleDeg?.[el]?.priceCard,
+
         link: el,
       };
     });

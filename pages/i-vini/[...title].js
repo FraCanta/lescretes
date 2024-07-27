@@ -1,4 +1,5 @@
 import React from "react";
+
 import Image from "next/image";
 import viniIT from "../../public/locales/it/vini.json";
 import viniEN from "../../public/locales/en/vini.json";
@@ -14,7 +15,6 @@ import Vinificazione from "@/public/assets/iconewine/vinificazione.svg";
 import Zona from "@/public/assets/iconewine/zona.svg";
 import Affinamento from "@/public/assets/iconewine/affinamento.svg";
 import Servizio from "@/public/assets/iconewine/servizio.svg";
-import { motion } from "framer-motion";
 import TabWine from "@/components/TabWine/TabWine";
 import Link from "next/link";
 import { FacebookShareButton, WhatsappShareButton } from "next-share";
@@ -22,6 +22,12 @@ import { Icon } from "@iconify/react";
 import Banner from "@/components/Banner/Banner";
 import Deg from "@/public/assets/degustazione.webp";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+
+import { Navigation } from "swiper/modules";
+import SwiperButtons from "@/components/SwiperButtons/SwiperButtons";
 const SingleWine = ({ wine, others }) => {
   return (
     <>
@@ -239,34 +245,65 @@ const SingleWine = ({ wine, others }) => {
         </div>
       </div>
 
-      <div className="w-[90%] mx-auto pb-10">
+      <div className="w-[90%] mx-auto py-10">
         <h2 className="text-main text-[40px] font-bold mb-10">{wine.more}</h2>
 
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-          {others.map((otherWine) => (
-            <div key={otherWine.name} className="flex flex-col items-center">
-              <Link
-                href={otherWine.link}
-                key={otherWine.name}
-                className="w-full h-[450px] fxl:h-[450px] relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white"
-              >
-                <div className="w-full h-[450px] fxl:h-[450px]  relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white">
-                  <Image
-                    className="object-contain inset-0 absolute w-full h-[80%] mt-8"
-                    src={otherWine.img}
-                    alt={otherWine.name}
-                    width={100}
-                    height={100}
-                  />
-                  <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[15.5px] font-bold  leading-snug fxl:text-xl">
-                    {otherWine.name}{" "}
-                  </p>
-                </div>
-              </Link>
-            </div>
-          ))}
-        </div>
+        <Swiper
+          slidesPerView={5}
+          spaceBetween={6}
+          modules={[Navigation]}
+          navigation={{
+            prevEl: ".prev",
+            nextEl: ".next",
+          }}
+          breakpoints={{
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            768: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+          }}
+        >
+          <div className="flex w-full gap-4 overflow-x-auto whitespace-nowrap scrollbar-hide">
+            {others.map((otherWine, i) => (
+              <SwiperSlide key={i}>
+                <Link
+                  href={otherWine.link}
+                  title={otherWine.name}
+                  key={i}
+                  className="w-full h-[450px] fxl:h-full 3xl:h-[800px] relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white "
+                >
+                  <div // Usa motion.div anziché div
+                    className="w-full h-[450px] fxl:h-[500px] 3xl:h-[800px] relative"
+                  >
+                    <div className="w-full h-[450px] fxl:h-[500px] 3xl:h-[800px] left-0 top-0 absolute bg-[#F4F3EF] rounded-lg hover:bg-main" />
+
+                    <Image
+                      className="object-contain left-0 top-[1.5rem] absolute w-full h-[80%]"
+                      src={otherWine.img}
+                      width={100}
+                      height={100}
+                      alt={otherWine.name}
+                    />
+                    <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[16px] fxl:text-[22px] 3xl:text-3xl font-bold  leading-snug z-10">
+                      {otherWine.name}
+                    </p>
+                  </div>
+                </Link>
+              </SwiperSlide>
+            ))}
+          </div>
+          {wine.showButtons && <SwiperButtons />}
+        </Swiper>
       </div>
+
       <Banner
         img={Deg}
         title="Fai o regala a chi vuoi una degustazione a Les Crêtes"

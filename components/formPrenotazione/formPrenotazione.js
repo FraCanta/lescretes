@@ -5,12 +5,11 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import toast from "react-hot-toast";
 
-const FormPrenotazione = ({ deg, link, price, durata, tipo }) => {
+const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
   const [startDate, setStartDate] = useState();
   const [inputs, setInputs] = useState({
     deg: deg,
   });
-  console.log(link);
   const [adultCount, setAdultCount] = useState(1);
   const [clickedRadio, setClickedRadio] = useState(null);
   const [timeSlot, setTimeSlot] = useState(null);
@@ -202,9 +201,7 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo }) => {
             </div>
             {startDate && (
               <div className="col-span-2">
-                <h3 className="mb-2 font-bold text-main">
-                  Seleziona una fascia oraria:
-                </h3>
+                <h3 className="mb-2 font-bold text-main">{form.slots}</h3>
                 <div className="grid grid-cols-3 gap-2">
                   {startDate.getDay() === 6 // Sabato
                     ? saturdayTimeSlots.map((slot) => (
@@ -270,8 +267,8 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo }) => {
             )}
 
             <div className="flex flex-col col-span-2 gap-2 xl:col-span-1">
-              <label for="adulti" className="font-bold text-main">
-                Adulti
+              <label for="adulti" className="font-bold capitalize text-main">
+                {form.adults}
               </label>
               <div className="flex items-center h-full">
                 <div className="flex items-center h-full">
@@ -307,27 +304,33 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo }) => {
             </div>
 
             <div className="flex flex-col col-span-2 gap-2 xl:col-span-1">
-              <label className="font-bold text-main">Lingua Visita</label>
+              <label className="font-bold capitalize text-main">
+                {form.language}
+              </label>
               <div className="grid grid-cols-3 gap-2">
                 <div className="flex items-center">
                   <input
                     type="radio"
                     id="italiano"
-                    value="italiano"
+                    value={`${form.langValue.ita}`}
                     name="language"
-                    onChange={() => handleClickedRadioChange("italiano")}
+                    onChange={() =>
+                      handleClickedRadioChange(`${form.langValue.ita}`)
+                    }
                     className="hidden"
                   />
                   <label
                     for="italiano"
-                    onClick={() => handleClickedRadioChange("italiano")}
+                    onClick={() =>
+                      handleClickedRadioChange(`${form.langValue.ita}`)
+                    }
                     className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
-                      clickedRadio === "italiano"
+                      clickedRadio === `${form.langValue.ita}`
                         ? "bg-main text-white"
                         : "bg-white text-main"
                     }`}
                   >
-                    {clickedRadio === "italiano" && (
+                    {clickedRadio === `${form.langValue.ita}` && (
                       <Icon icon="material-symbols:check" className="w-4 h-4" />
                     )}
                     IT
@@ -338,21 +341,25 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo }) => {
                   <input
                     type="radio"
                     id="inglese"
-                    value="inglese"
+                    value={`${form.langValue.eng}`}
                     name="language"
-                    onChange={() => handleClickedRadioChange("inglese")}
+                    onChange={() =>
+                      handleClickedRadioChange(`${form.langValue.eng}`)
+                    }
                     className="hidden"
                   />
                   <label
                     for="inglese"
-                    onClick={() => handleClickedRadioChange("inglese")}
+                    onClick={() =>
+                      handleClickedRadioChange(`${form.langValue.eng}`)
+                    }
                     className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
-                      clickedRadio === "inglese"
+                      clickedRadio === `${form.langValue.eng}`
                         ? "bg-main text-white"
                         : "bg-white text-main"
                     }`}
                   >
-                    {clickedRadio === "inglese" && (
+                    {clickedRadio === `${form.langValue.eng}` && (
                       <Icon icon="material-symbols:check" className="w-4 h-4" />
                     )}
                     EN
@@ -363,21 +370,25 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo }) => {
                   <input
                     type="radio"
                     id="francese"
-                    value="francese"
+                    value={`${form.langValue.fr}`}
                     name="language"
-                    onChange={() => handleClickedRadioChange("francese")}
+                    onChange={() =>
+                      handleClickedRadioChange(`${form.langValue.fr}`)
+                    }
                     className="hidden"
                   />
                   <label
                     for="francese"
-                    onClick={() => handleClickedRadioChange("francese")}
+                    onClick={() =>
+                      handleClickedRadioChange(`${form.langValue.fr}`)
+                    }
                     className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
-                      clickedRadio === "francese"
+                      clickedRadio === `${form.langValue.fr}`
                         ? "bg-main text-white"
                         : "bg-white text-main"
                     }`}
                   >
-                    {clickedRadio === "francese" && (
+                    {clickedRadio === `${form.langValue.fr}` && (
                       <Icon icon="material-symbols:check" className="w-4 h-4" />
                     )}
                     FR
@@ -385,9 +396,7 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo }) => {
                 </div>
               </div>
             </div>
-            <span className="text-lg text-main xl:block">
-              Vuoi fare un regalo?
-            </span>
+            <span className="text-lg text-main xl:block">{form.gift}</span>
             <div className="flex items-center">
               <input
                 id="link-checkbox"
@@ -412,7 +421,7 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo }) => {
 
           <div className="w-full h-[0.05rem] bg-main/50 my-6"></div>
           <div className="flex items-center justify-between gap-4 text-xl">
-            <p className="font-bold text-main">Totale da pagare:</p>
+            <p className="font-bold capitalize text-main">{form.total}</p>
             <p className="font-bold text-main">€{totalNumber}</p>
           </div>
           <div className="flex justify-end mt-6">
@@ -426,7 +435,7 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo }) => {
               type="submit"
               className="cursor-pointer flex items-center text-lg xl:text-xl gap-2 text-main w-full max-w-max text-center lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 border-main"
             >
-              Prosegui con la richiesta
+              {form.cta}
             </button>
           </div>
         </form>

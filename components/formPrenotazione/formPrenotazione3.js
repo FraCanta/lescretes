@@ -17,9 +17,8 @@ const countries = defaultCountries.filter((country) => {
   return ["it", "us", "gb", "fr", "de"].includes(iso2);
 });
 
-const FormPrenotazione3 = ({ inputs, setInputs }) => {
+const FormPrenotazione3 = ({ inputs, setInputs, data }) => {
   const [phone, setPhone] = useState("");
-  console.log(inputs);
   const options = countryList().getData();
 
   const handleChange = (e) => {
@@ -95,7 +94,7 @@ const FormPrenotazione3 = ({ inputs, setInputs }) => {
             value={inputs.name}
             onChange={handleChange}
             className="py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
-            placeholder="Nome*"
+            placeholder={data.nome}
           />
           <input
             id="surname"
@@ -105,7 +104,7 @@ const FormPrenotazione3 = ({ inputs, setInputs }) => {
             value={inputs.surname}
             onChange={handleChange}
             className="col-span-1 py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
-            placeholder="Cognome*"
+            placeholder={data.cognome}
           />
           <div className="grid grid-cols-2 col-span-2 gap-6">
             <input
@@ -114,7 +113,7 @@ const FormPrenotazione3 = ({ inputs, setInputs }) => {
               data-filled="false"
               className="col-span-1 py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
               name="email"
-              placeholder="example@email.com*"
+              placeholder={data.email}
               type="email"
               value={inputs.email}
               onChange={handleChange}
@@ -128,7 +127,7 @@ const FormPrenotazione3 = ({ inputs, setInputs }) => {
               dateFormat="dd/MM/yyyy"
               isClearable
               className="py-2 bg-transparent text-main focus:outline-none"
-              placeholderText="Data di nascita*"
+              placeholderText={data.birth}
               showYearDropdown
               scrollableYearDropdown
               yearDropdownItemNumber={100}
@@ -206,7 +205,7 @@ const FormPrenotazione3 = ({ inputs, setInputs }) => {
             value={inputs.city}
             onChange={handleChange}
             className="col-span-1 py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
-            placeholder="Città"
+            placeholder={data.city}
           />
           <input
             id="cap"
@@ -216,7 +215,7 @@ const FormPrenotazione3 = ({ inputs, setInputs }) => {
             value={inputs.cap}
             onChange={handleChange}
             className="col-span-1 py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
-            placeholder="CAP"
+            placeholder={data.cap}
           />
 
           <Select
@@ -226,7 +225,7 @@ const FormPrenotazione3 = ({ inputs, setInputs }) => {
             components={{ ClearIndicator }}
             isClearable
             className="col-span-1 !border-none"
-            placeholder="Nazione*"
+            placeholder={data.nation}
             styles={customStyles}
           />
         </div>

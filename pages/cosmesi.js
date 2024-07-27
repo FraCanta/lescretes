@@ -57,6 +57,7 @@ const Cosmesi = ({ translation }) => {
                 name={el?.name}
                 details={el?.details}
                 button={el.button}
+                price={el.price}
               />
             );
           })}

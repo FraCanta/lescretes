@@ -26,7 +26,6 @@ export default async function mailer(req, res) {
     durata,
   } = req.body;
 
-  console.log(req.body.timeSlot);
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,

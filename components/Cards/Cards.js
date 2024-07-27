@@ -32,7 +32,9 @@ const Cards = ({
               <h2 className="card-title  font-bold text-[20px] fxl:text-3xl">
                 {title}
               </h2>
-              <p className="text-lg fxl:text-xl text-main">{descrizione}</p>
+              <p className="text-lg whitespace-normal fxl:text-xl text-main">
+                {descrizione}
+              </p>
               <div className="items-center justify-between mt-4 border-t card-actions">
                 <p className="py-4 font-bold text-[16px]">{price}</p>
                 <Icon icon="teenyicons:arrow-right-solid" />
@@ -41,24 +43,26 @@ const Cards = ({
           </div>
         </Link>
       ) : (
-        <div className="w-full h-full border card xl:w-full border-main/30">
-          <figure className="p-4">
+        <div className="w-full h-full transition-all duration-500 ease-out bg-white border shadow-lg shadow-main/10 card hover:shadow-xl">
+          <figure className="p-2">
             <Image
               src={img}
-              alt={`${title} degustazione img`}
+              alt={`${name} cosmesi img`}
               className="rounded-lg h-[35vh] object-cover"
               width={500}
               height={600}
             />
           </figure>
-          <Link href={button} className="card-body !p-0 !py-4">
-            <h2 className="card-title !justify-center font-bold text-[22px] fxl:text-3xl">
-              {name}
-            </h2>
-            <div className="justify-center card-actions ">
-              <p className="text-center text-main/60 font-[500] text-[16px] !-py-2">
-                {details}
-              </p>
+          <Link href={button} className="flex flex-col !px-4 !p-0 !py-4 gap-2">
+            <div>
+              <h2 className="!justify-center font-bold text-[22px] fxl:text-3xl">
+                {name}
+              </h2>
+              <p className="text-main/60 font-[500] text-[16px]">{details}</p>
+            </div>
+            <div className="items-center justify-between mt-4 border-t card-actions">
+              <p className="py-4 font-bold text-[16px]">{price}</p>
+              <Icon icon="teenyicons:arrow-right-solid" />
             </div>
           </Link>
         </div>

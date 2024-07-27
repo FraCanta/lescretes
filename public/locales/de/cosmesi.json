@@ -5,44 +5,51 @@
         "img": "/assets/cosmetici/mani.webp",
         "name": " Fleurs DeVin Soin Mains  ",
         "details": "Crema mani fiorita delicata",
-        "button": "/cosmesi/soinmain"
+        "button": "/cosmesi/soinmain",
+        "price": "€ 18,00 iva inclusa"
       },
       {
         "img": "/assets/cosmetici/visage.webp",
         "name": "Fleurs DeVin Soin Visage",
         "details": "Crema viso fiorita delicata",
-        "button": "/cosmesi/soinvisage"
+        "button": "/cosmesi/soinvisage",
+        "price": "€ 40,00 iva inclusa"
       },
       {
         "img": "/assets/cosmetici/gommage.webp",
         "name": "Visage DeVin Gommage Doux",
         "details": "Scrub delicato",
-        "button": "/cosmesi/gommage"
+        "button": "/cosmesi/gommage",
+        "price": "€ 30,00 iva inclusa"
       },
       {
         "img": "/assets/cosmetici/tonico.webp",
         "name": "Visage DeVin Lotion Tonique ",
         "details": "Tonico delicato",
-        "button": "/cosmesi/lotion"
+        "button": "/cosmesi/lotion",
+        "price": "€ 25,00 iva inclusa"
       },
 
       {
         "img": "/assets/cosmetici/acqua3.webp",
         "name": "Cristal DeVin ",
         "details": " Eau Parfumee Fraiche",
-        "button": "/cosmesi/parfumee"
+        "button": "/cosmesi/parfumee",
+        "price": "€ 24,00 iva inclusa"
       },
       {
         "img": "/assets/cosmetici/diffusore.webp",
         "name": "Thé DeVin",
         "details": "Diffuseur de parfum",
-        "button": "/cosmesi/diffuseur"
+        "button": "/cosmesi/diffuseur",
+        "price": "€ 37,00 iva inclusa"
       },
       {
         "img": "/assets/cosmetici/corpo.webp",
         "name": "Fleurs DeVin Soin Corps",
         "details": "Crema corpo fiorita delicata",
-        "button": "/cosmesi/pepin"
+        "button": "/cosmesi/pepin",
+        "price": "€ 30,00 iva inclusa"
       }
     ],
     "singleCosmetic": {

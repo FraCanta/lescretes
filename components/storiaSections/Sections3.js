@@ -20,6 +20,8 @@ const Sections3 = ({ translation }) => {
         })}
       </div>
 
+      <div className="w-full h-[0.08rem] bg-main/20"></div>
+
       <div className="flex-col justify-start items-start gap-[50px] md:gap-10 flex fxl:gap-20">
         <h3 className="text-3xl font-bold text-main md:text-5xl xl:text-5xl fxl:text-6xl 3xl:text-7xl">
           {translation.title2}

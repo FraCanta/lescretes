@@ -7,41 +7,45 @@
     "section1": {
       "paragrafi": [
         {
-          "title": "The legend",
+          "title": "Legend",
           "descrizione": [
             {
-              "p": "The daughters, Elena and Eleonora, in 1977 and 1980, had the task of searching in the meadows of Ozein the ladybirds for the company. These ladybirds were then carefully transported and released into the vineyard, as they were useful to fight the harmful mites. This activity was more than a game for the girls, and they were amused to observe them."
+              "p": "The daughters, Elena and Eleonora, from 1977 and 1980, were responsible for searching the fields of Ozein for ladybugs for the company. These ladybugs were then transported with care and released in the vineyard, as they were useful to combat harmful mites. This activity was more than a game for the girls, and they were amused to watch them."
             },
             {
               "p": "This choice of the Charrère family was not a fairy tale, but a concrete practice that reflects the sustainable approach that the family has always had in its history."
             }
           ]
-        },
+        }
+      ],
+      "paragrafi2": [
         {
-          "title": "The beginning",
+          "title": "Beginning",
           "descrizione": [
             {
-              "p": "His great-great-grandfather Bernardin Charrère emigrated from Haute-Savoie to Aymavilles around 1750, building the existing building with cellars and a walnut mill."
+              "p": "The great-grandfather Bernardin Charrère emigrated from Haute Savoie to Aymavilles around 1750, building the present-day building with cellars and a nut mill."
             },
             {
-              "p": "His great-grandfather Etienne expanded the business, including cider production in response to the needs of the market and economy of the time. He also added a mill to grind the local creali. Grandfather Louis again adapted to the needs of the market by building a new mill."
+              "p": "Great-grandfather Etienne expanded the business, including cider production in response to the needs of the market and the economy of the time. He also added a mill to grind local creali. Grandfather Louis adapted again to the needs of the market by building a new mill."
             },
             {
-              "p": "Antoine, father of Constantine, ran the business until 1955 when olive oil began to arrive from other regions. It was therefore necessary to change production and the choice was to produce high quality wines. The attention was placed on the public and to stand out better started a process of customization at cultural level (separate vinification of crus), commercial (indication of geographical locations of each vineyard) and historical (preservation of native vines) that would have contributed to enhancing the Valle d'Aosta."
+              "p": "Antoine, Constantine’s father, managed the business until 1955 when olive oil began to arrive from other regions. It was therefore necessary to change production and the choice was to produce high quality wines. The focus was on the public and to better distinguish it began a process of customization at the cultural level (separate vinification of the crus), commercial (indication of the geographical locations of each vineyard) and historical (preservation of native vines) that would have contributed to enhance the Aosta Valley."
             }
           ]
-        },
+        }
+      ],
+      "paragrafi3": [
         {
           "title": "Costantino Charrère",
           "descrizione": [
             {
-              "p": "Constantino, athletic professor of gymnastics, like his wife, and ski instructor, continued the work of his father Antoine and his mother Ida, devoting himself with passion to viticulture. First by selecting vines that would otherwise have been lost in the mountains of the Aosta Valley: the Premetta (Prié Rouge), a rare endangered grape, whose grapes are now vinified in purity according to an innovative protocol in classic method sparkling wine and Fumin, another strain 'autochthonous', saved from extinction and vinified with striking results, so much so as to deserve already in 1999 the attention of the National critics with 'The sun of Luigi Veronelli'."
+              "p": "Costantino, atletico professore di ginnastica, come la moglie peraltro, e maestro di sci, ha continuato l’opera del papà Antoine e della mamma Ida, dedicandosi con passione alla viticoltura. Dapprima selezionando vitigni che altrimenti si sarebbero persi nelle montagne valdostane: la Premetta (Prié Rouge), rarissimo vitigno in via di estinzione, le cui uve sono ora vinificate in purezza secondo un protocollo innovativo in spumante metodo classico e il Fumin, altro ceppo “autoctono”, salvato dall’estinzione e vinificato con risultati eclatanti, tanto da meritarsi già nel 1999 l’attenzione della critica Nazionale con “Il sole di Luigi Veronelli”."
             },
             {
-              "p": "Later, leaving the teaching, Constantine is driven by the desire to devote himself completely to his passion for wine and realizing what is now Les Crêtes, always in Aymavilles, planting new vineyards in other municipalities of the Valle d'Aosta."
+              "p": "In Seguito, lasciato l’insegnamento, Costantino è spinto dal desiderio di dedicarsi completamente alla sua passione per il vino e realizzando quella che è ora Les Crêtes, sempre in Aymavilles, impiantando nuovi vigneti anche in altri comuni della Valle d’Aosta."
             },
             {
-              "p": "Today, the company, owned by the Charrère family, manages 35 hectares of vineyards distributed in six municipalities of the Aosta Valley. With its annual production of 250,000 bottles is the largest private company operating in the region."
+              "p": "Oggi, l’azienda, di proprietà della Famiglia Charrère, gestisce 35 ettari di vigneto distribuiti in sei comuni valdostani. Con la sua produzione annua di 250.000 bottiglie è la più grande azienda privata operativa sul territorio regionale."
             }
           ]
         }
