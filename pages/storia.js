@@ -37,10 +37,7 @@ export default function Storia({ translation }) {
       <div className="w-[90%] mx-auto h-[0.08rem] bg-main/20 my-10"></div>
 
       <div className="w-[90%] mx-auto py-10">
-        <VideoPlayer
-          video="/video/spot_lescretes.mp4"
-          poster="/assets/poster2.png"
-        />
+        <VideoPlayer video="/video/video.mp4" poster="/video/cover.jpg" />
       </div>
       <div className="w-[90%] mx-auto py-10 lg:text-center flex flex-col gap-6 3xl:gap-10 3xl:py-32">
         <div className="flex flex-col gap-4 py-10 mx-auto lg:w-2/3 xl:w-[90%] 2xl:w-2/3 3xl:gap-10 3xl:w-11/12">
