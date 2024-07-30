@@ -26,14 +26,17 @@ const NavBar = ({ translation }) => {
             </Link>
           </div>
           <div className="xl:flex items-center hidden font-black text-[#4A4A49] ">
-            <div className="flex items-center gap-8">
+            <div className="flex items-center gap-8 3xl:gap-14">
               <div className="group">
                 <button
                   onClick={() => setMenuOpen(!menuOpen)}
                   className=" text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular flex items-center"
                 >
                   {translation?.[locale]?.storia.name}{" "}
-                  <Icon icon="ei:chevron-down" className="w-6 h-6" />
+                  <Icon
+                    icon="ei:chevron-down"
+                    className="w-6 h-6 3xl:w-10 3xl:h-10"
+                  />
                 </button>
                 <AnimatePresence>
                   {menuOpen && (
@@ -46,10 +49,10 @@ const NavBar = ({ translation }) => {
                         stiffness: 300,
                         damping: 30,
                       }}
-                      className="absolute top-0 left-0 right-0 mt-[80px] w-full h-[50vh]  bg-white  transition-all p-6"
+                      className="absolute top-0 left-0 right-0 mt-[80px] w-full h-[50vh] 3xl:mt-[150px]  bg-white  transition-all p-6"
                     >
                       <div className="w-[90%] mx-auto grid grid-cols-2 justify-center h-full items-center ">
-                        <div className="flex flex-col gap-6 text-2xl">
+                        <div className="flex flex-col gap-6 text-2xl 3xl:text-4xl 3xl:gap-10">
                           {translation?.[locale]?.storia.sottomenu.map(
                             (item, index) => (
                               <div
@@ -165,9 +168,12 @@ const NavBar = ({ translation }) => {
             <Link
               href={`/store-locator`}
               title="Dove poter acquistare"
-              className="gap-1 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-start"
+              className="gap-1 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
             >
-              <Icon icon="line-md:map-marker-alt-filled" className="w-6 h-6" />
+              <Icon
+                icon="line-md:map-marker-alt-filled"
+                className="w-6 h-6 3xl:w-10 3xl:h-10"
+              />
               {translation?.[locale]?.store}
             </Link>
           </div>

@@ -31,7 +31,7 @@ const Sections1 = ({ translation }) => {
           src="/assets/ele_ele.webp"
           alt="nonno"
           fill
-          className="object-cover"
+          className="object-cover rounded-sm"
         />
       </div>
       <div className="w-full h-[0.08rem] bg-main/20"></div>
@@ -63,7 +63,7 @@ const Sections1 = ({ translation }) => {
             src="/assets/nonno.webp"
             alt="nonno"
             fill
-            className="object-cover object-top"
+            className="object-cover object-top rounded-sm"
           />
         </div>
       </div>

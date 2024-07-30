@@ -25,7 +25,8 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import SwiperButtons from "@/components/SwiperButtons/SwiperButtons";
 
-const SingleDeg = ({ deg, others, reviews }) => {
+const SingleDeg = ({ deg, others }) => {
+  console.log(others);
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
   const handleDrawerToggle = () => {
     setIsDrawerOpen(!isDrawerOpen);
@@ -153,7 +154,7 @@ const SingleDeg = ({ deg, others, reviews }) => {
           <p className="text-xl fxl:text-2xl font-normal  !leading-[33.2px] text-main">
             {deg.descrizione.content}
           </p>
-          <div className="flex flex-col w-full gap-6 text-main">
+          <div className="flex flex-col w-full h-full gap-6 text-main">
             <h2 className="text-main text-3xl xl:text-4xl font-bold  leading-[46px]">
               {deg?.descrizione?.pacchetto?.title}
             </h2>
@@ -164,26 +165,13 @@ const SingleDeg = ({ deg, others, reviews }) => {
                 </li>
               ))}
             </ul>
-            {deg?.descrizione?.opzione ? (
-              <div className="bg-[#F4F3EF] flex flex-col gap-[20px] p-4">
-                <h2 className="text-3xl font-bold text-main xl:text-4xl ">
-                  {deg?.descrizione?.opzione?.title}
-                </h2>
-                <p className="text-xl fxl:text-2xl">
-                  {" "}
-                  {deg?.descrizione?.opzione?.uno}
-                </p>
-              </div>
-            ) : (
-              ""
-            )}
           </div>
           {deg?.descrizione?.asterisco ? (
             <p className="text-main/60">{deg?.descrizione?.asterisco}</p>
           ) : (
             ""
           )}
-          <div className="flex flex-wrap justify-between w-full gap-y-6">
+          <div className="flex flex-wrap justify-between w-full mt-10 gap-y-6">
             {deg.download ? (
               <CtaOutlineBrown link={deg.download}>
                 {deg.downloadCta}
@@ -288,7 +276,7 @@ const SingleDeg = ({ deg, others, reviews }) => {
             </div>
           </div>
         ) : (
-          <div className="hidden lg:block w-[80%] mx-auto">
+          <div className="hidden lg:flex flex-col w-[80%] mx-auto h-full">
             <div className="p-4 text-center xl:text-2xl bg-main">
               <h2 className="font-bold text-white uppercase">{deg.name}</h2>
             </div>
@@ -367,6 +355,10 @@ const SingleDeg = ({ deg, others, reviews }) => {
                       descrizione={el?.descrizione}
                       price={el?.price}
                       link={el.link}
+                      tempo={el.tempo}
+                      bed={el.bed}
+                      wine={el.wine}
+                      fork={el.fork}
                     />
                   </div>
                 </SwiperSlide>
@@ -386,6 +378,7 @@ export async function getStaticProps(context) {
   const { params, locale } = context;
   let obj;
 
+  // Selezioniamo l'oggetto di degustazione basato sulla lingua
   switch (locale) {
     case "it":
       obj = degustazioniIT;
@@ -394,26 +387,37 @@ export async function getStaticProps(context) {
     case "en":
       obj = degustazioniEN;
       break;
+
     case "fr":
       obj = degustazioniFR;
       break;
+
     default:
       obj = degustazioniIT;
       break;
   }
+
+  // Otteniamo l'oggetto target per il titolo specificato
   let targetObj = obj?.degustazioni?.singleDeg?.[params?.title];
+
+  // Creiamo un array con tutti i titoli delle degustazioni
   const arr = Object.keys(obj?.degustazioni?.singleDeg);
 
+  // Filtriamo le degustazioni basandoci sui nuovi campi
   const filteredOthers = arr
-    .filter((el) => el !== params?.title) // Exclude the current service
+    .filter((el) => el !== params?.title) // Escludiamo il servizio corrente
     .map((el) => {
+      const degustazione = obj?.degustazioni?.singleDeg?.[el];
       return {
-        name: obj?.degustazioni?.singleDeg?.[el]?.name,
-        img: obj?.degustazioni?.singleDeg?.[el]?.img,
-        descrizione: obj?.degustazioni?.singleDeg?.[el]?.cardDesc,
-        price: obj?.degustazioni?.singleDeg?.[el]?.priceCard,
-
+        name: degustazione?.name,
+        img: degustazione?.img,
+        descrizione: degustazione?.cardDesc,
+        price: degustazione?.priceCard,
+        tempo: degustazione?.durata?.tempo,
         link: el,
+        bed: degustazione?.bed, // Nuovo campo
+        wine: degustazione?.wine, // Nuovo campo
+        fork: degustazione?.fork, // Nuovo campo
       };
     });
 

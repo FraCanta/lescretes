@@ -8,14 +8,14 @@ const HeroHome = ({ title }) => {
         <h1 className="w-[90%] xl:w-[80%] mx-auto text-center text-main text-[35px] leading-[45px] md:text-[56px] font-bold md:leading-[66px]">
           {title}
         </h1>
-        {/* <div className="w-full h-[40vh] xl:h-[80vh] relative">
+        <div className="w-full h-[40vh] xl:h-[80vh] relative">
           <Image
             src={Degustazioni}
             fill
             alt="degustazione image"
             className="object-cover object-right-[20px] xl:object-contain"
           />
-        </div> */}
+        </div>
       </div>
     </>
   );

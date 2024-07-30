@@ -1,5 +1,73 @@
 {
   "cosmesi": {
+    "hero": {
+      "title": "Les Crêtes DeVin Cosmetica: dall’uva per la cura naturale della pelle"
+    },
+    "intro": {
+      "text": "La linea cosmetica DeVin presenta la sua innovativa formula naturale con attivi biologici all’olio di vinaccioli, polifenoli dell’uva e fiori di vigna realizzata dai nostri laboratori per rispondere alle esigenze di chi, ricercando un cosmetico naturale, non vuole rinunciare all’efficacia degli estratti attivi naturali del terroir di montagna, isolati e sviluppati con le più avanzate tecnologie."
+    },
+    "section": {
+      "title": "Indicazioni e benefici",
+      "text": "Ideale per tutti i tipi di pelle, contribuisce a prevenire e rallentare in modo naturale i segni dell’invecchiamento. Dona alla pelle vitalità ed un aspetto tonico e definito, conferendole una corretta idratazione. Sostiene la rigenerazione cutanea, apportando benefici nutrienti e restituendo al viso il suo naturale splendore."
+    },
+    "well": {
+      "title": "Prenditi cura di te stesso e della natura attorno",
+      "imgWell": [
+        {
+          "img": "/assets/cosmetici/natural.webp",
+          "text": "INGREDIENTI NATURALI"
+        },
+        {
+          "img": "/assets/cosmetici/notest3.webp",
+          "text": "NO TEST SUGLI ANIMALI"
+        },
+        {
+          "img": "/assets/cosmetici/bio_pack3.webp",
+          "text": "BIO PACKAGING"
+        }
+      ],
+      "ingredients": {
+        "title": "Principali ingredienti attivi della linea DeVin"
+      },
+      "listIngredients": [
+        {
+          "name": "Olio di vinaccioli",
+          "text": "L’olio di vinaccioli, ottenuto tramite il procedimento di spremitura a freddo, si estrae dai semi dell’uva, rigorosamente senza l’impiego di solventi chimici. I semi di vinacciolo racchiudono un concentrato di sostanze antiossidanti (quali acido linoleico e vitamina E) in grado di contrastare l’invecchiamento cutaneo e proteggere la pelle dall’attacco dei radicali liberi. i semi sono inoltre ricchi di sostanze attive che svolgono un’azione idratante, levigante e schiarente. Questo pool di sostanze contribuisce, a mantenere l’epidermide elastica e luminosa, rallentando la formazione delle rughe e riparando i segni dell’invecchiamento cutaneo."
+        },
+        {
+          "name": "Glicerina vegetale",
+          "text": "Composto organico nella cui struttura sono presenti tre gruppi molto affini all’acqua. Il suo ruolo è quello di mantenere una corretta idratazione poiché ha la facoltà di trattenere e legare l’acqua. Svolge una marcata azione umettante, prevenendo desquamazioni e secchezza cutanea."
+        },
+        {
+          "name": "Estratto di camomilla biologica (fiori)",
+          "text": "Una vera ricchezza della natura, con azione lenitiva, emolliente e protettiva. Offre uno scudo di difesa contro gli agenti atmosferici aggressivi, per un immediato effetto di benessere e confort."
+        },
+        {
+          "name": "NMF ricostituito (Natural Moisturizing Factor",
+          "text": "Preziosa miscela idratante composta da sali (di Magnesio, Manganese, Zinco, Calcio) legati al PCA, zuccheri, aminoacidi (tra cui la prolina, amminoacido fondamentale per la sintesi del collagene), urea, allantoina che garantisce un’idratazione profonda e duratura per una pelle uniforme, idratata e luminosa. E’ un fattore di idro-regolazione cutanea, naturalmente presente nel film idrolipidico dell’epidermide che impedisce una eccessiva disidratazione e consente di mantenere integra, elastica e flessibile la superficie cutanea. E’ composto da sostanze idrosolubili e igroscopiche. E’ abbondantemente presente nei corneociti dove svolge funzioni umettanti. Essendo però idrosolubile è facilmente asportabile con solventi, detergenti, acqua e sudore. I suoi livelli diminuiscono anche a causa dell’invecchiamento fisiologico e per l’eccessiva esposizione alla luce solare."
+        },
+        {
+          "name": "Polisaccaride",
+          "text": "Alcuni microrganismi batterici vegetali auto producono dei polisaccaridi ad elevato peso molecolare, per migliorare le loro capacità di difesa e le loro possibilità di sopravvivenza. Tali polisaccaridi formano una matrice protettiva contro le aggressioni ambientali. Questo film sottile interagisce con la superficie cutanea e favorisce l’eliminazione di sostanze esogene nocive ed aggressive per l’organismo come polveri sottili, metalli pesanti, radicali liberi, tossine."
+        },
+        {
+          "name": "Alghe marine",
+          "text": "Ricche in mucillagini (tra cui alginati), sali minerali, con un’azione emolliente, idratante, ammorbidente, protettiva, ideale per pelli secche."
+        },
+        {
+          "name": "Acido ialurico",
+          "text": "Molecola idratante per eccellenza, naturalmente presente nella pelle per trattenere acqua nei tessuti. Il suo compito è mantenere la pelle elastica, tesa e idratata e di aumentarne la plasticità. In forma sia a basso che ad alto peso molecolare, ricavato per bio-fermentazione di materiale vegetale."
+        },
+        {
+          "name": "Collagene idrolizzato",
+          "text": "Proteina della bellezza, con funzione di sostegno strutturale e capacità di intrappolare acqua nei tessuti. Determina l’aspetto teso, elastico e compatto della pelle. Viene utilizzato in forma idrolizzata perché direttamente biodisponibile per contrastare atonie e prevenire la formazione di rughe."
+        },
+        {
+          "name": "Estratto di avena biologica",
+          "text": "Altamente dermocompatibile, contrasta l’invecchiamento cutaneo, idrata e potenzia la naturale rigenerazione cellulare. Forma un velo di protezione che rede la pelle morbida e vellutata."
+        }
+      ]
+    },
     "cards": [
       {
         "img": "/assets/cosmetici/mani.webp",
@@ -72,7 +140,17 @@
         "downloadTitle": "Scarica qui",
         "download": "/pdf/cosmesi/soins_main_ita.pdf",
         "priceTitle": "Prezzo",
-        "price": "€ 18,00 iva inclusa"
+        "price": "€ 18,00 iva inclusa",
+        "share": "Condividi su",
+        "highlights": {
+          "title": "Ti potrebbe anche interessare"
+        },
+        "faq": [
+          {
+            "question": "Dove posso acquistare i cosmetici?",
+            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+          }
+        ]
       },
       "soinvisage": {
         "img": "/assets/cosmetici/visage.webp",
@@ -93,7 +171,17 @@
         "downloadTitle": "Scarica qui",
         "download": "/pdf/cosmesi/soins_visage_ita.pdf",
         "priceTitle": "Prezzo",
-        "price": "€ 40,00 iva inclusa"
+        "price": "€ 40,00 iva inclusa",
+        "share": "Condividi su",
+        "highlights": {
+          "title": "Ti potrebbe anche interessare"
+        },
+        "faq": [
+          {
+            "question": "Dove posso acquistare i cosmetici?",
+            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+          }
+        ]
       },
       "gommage": {
         "img": "/assets/cosmetici/gommage.webp",
@@ -115,7 +203,17 @@
         "downloadTitle": "Scarica qui",
         "download": "/pdf/cosmesi/gommage_ita.pdf",
         "priceTitle": "Prezzo",
-        "price": "€ 30,00 iva inclusa"
+        "price": "€ 30,00 iva inclusa",
+        "share": "Condividi su",
+        "highlights": {
+          "title": "Ti potrebbe anche interessare"
+        },
+        "faq": [
+          {
+            "question": "Dove posso acquistare i cosmetici?",
+            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+          }
+        ]
       },
       "lotion": {
         "img": "/assets/cosmetici/tonico.webp",
@@ -137,7 +235,17 @@
         "downloadTitle": "Scarica qui",
         "download": "/pdf/cosmesi/tonico_ita.pdf",
         "priceTitle": "Prezzo",
-        "price": "€ 25,00 iva inclusa"
+        "price": "€ 25,00 iva inclusa",
+        "share": "Condividi su",
+        "highlights": {
+          "title": "Ti potrebbe anche interessare"
+        },
+        "faq": [
+          {
+            "question": "Dove posso acquistare i cosmetici?",
+            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+          }
+        ]
       },
 
       "parfumee": {
@@ -163,7 +271,17 @@
         "downloadTitle": "Scarica qui",
         "download": "/pdf/cosmesi/cristal_ita.pdf",
         "priceTitle": "Prezzo",
-        "price": "€ 24,00 iva inclusa"
+        "price": "€ 24,00 iva inclusa",
+        "share": "Condividi su",
+        "highlights": {
+          "title": "Ti potrebbe anche interessare"
+        },
+        "faq": [
+          {
+            "question": "Dove posso acquistare i cosmetici?",
+            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+          }
+        ]
       },
       "diffuseur": {
         "img": "/assets/cosmetici/diffusore.webp",
@@ -188,7 +306,17 @@
         "downloadTitle": "Scarica qui",
         "download": "/pdf/cosmesi/diffusore_ita.pdf",
         "priceTitle": "Prezzo",
-        "price": "€ 37,00 iva inclusa"
+        "price": "€ 37,00 iva inclusa",
+        "share": "Condividi su",
+        "highlights": {
+          "title": "Ti potrebbe anche interessare"
+        },
+        "faq": [
+          {
+            "question": "Dove posso acquistare i cosmetici?",
+            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+          }
+        ]
       },
       "pepin": {
         "img": "/assets/cosmetici/corpo.webp",
@@ -213,7 +341,17 @@
         "downloadTitle": "Scarica qui",
         "download": "/pdf/cosmesi/soins_corp_ita.pdf",
         "priceTitle": "Prezzo",
-        "price": "€ 30,00 iva inclusa"
+        "price": "€ 30,00 iva inclusa",
+        "share": "Condividi su",
+        "highlights": {
+          "title": "Ti potrebbe anche interessare"
+        },
+        "faq": [
+          {
+            "question": "Dove posso acquistare i cosmetici?",
+            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+          }
+        ]
       }
     }
   }

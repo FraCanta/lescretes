@@ -11,7 +11,7 @@ const Sections6 = ({ translation }) => {
     <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
       <div className="w-full h-full lg:p-6 aspect-square">
         <Image
-          className="object-cover w-full h-full"
+          className="object-cover w-full h-full rounded-sm"
           width={500}
           height={500}
           src={Cosmesi}

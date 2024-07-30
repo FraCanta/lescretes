@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/router";
 import { Icon } from "@iconify/react";
 import DatePicker from "react-datepicker";
@@ -24,7 +24,6 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
     "10:30 AM",
     "11:00 AM",
     "11:30 AM",
-    "12:00 PM",
 
     "02:30 PM",
     "03:00 PM",
@@ -34,7 +33,6 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
     "05:00 PM",
     "05:30 PM",
     "06:00 PM",
-    "06:30 PM",
   ];
 
   const saturdayTimeSlots = [
@@ -56,7 +54,6 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
     "05:00 PM",
     "05:30 PM",
     "06:00 PM",
-    "06:30 PM",
   ];
 
   useEffect(() => {
@@ -121,15 +118,16 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
     setTimeSlot(timeSlot);
   };
 
-  const filterDatePicker = (date) => {
-    // Disabilita la selezione della Domenica (giorno 0) nel DatePicker
-    return date.getDay() !== 0;
-  };
-
   const handleDatePickerChange = (date) => {
     setStartDate(date);
     // Deseleziona la fascia oraria
     setTimeSlot(null);
+  };
+
+  const datePickerRef = useRef();
+
+  const openDatePicker = () => {
+    datePickerRef.current.setFocus();
   };
 
   const today = new Date();
@@ -137,71 +135,78 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
   tomorrow.setDate(tomorrow.getDate() + 1); // Set tomorrow's date
 
   return (
-    <div className="w-full mx-auto bg-white">
-      <div className="py-5">
+    <div className="w-full h-full mx-auto bg-white">
+      <div className="mt-10">
         <form onSubmit={onSubmitForm}>
           <div className="grid grid-cols-2 gap-6 xl:gap-10">
-            <div className="w-full col-span-2">
-              <DatePicker
-                showIcon
-                isClearable
-                selected={startDate}
-                dateFormat="dd/MM/yyyy"
-                onChange={handleDatePickerChange}
-                filterDate={filterDatePicker}
-                className="!outline-none"
-                minDate={tomorrow}
-                calendarClassName={startDate ? "hidden" : ""}
-                icon={
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
-                    viewBox="0 0 512 512"
-                    className={startDate ? "hidden" : ""}
-                  >
-                    <rect
-                      width="416"
-                      height="384"
-                      x="48"
-                      y="80"
-                      fill="none"
-                      stroke="#4a4a49"
-                      stroke-linejoin="round"
-                      stroke-width="32"
-                      rx="48"
-                    />
-                    <circle cx="296" cy="232" r="24" fill="#4a4a49" />
-                    <circle cx="376" cy="232" r="24" fill="#4a4a49" />
-                    <circle cx="296" cy="312" r="24" fill="#4a4a49" />
-                    <circle cx="376" cy="312" r="24" fill="#4a4a49" />
-                    <circle cx="136" cy="312" r="24" fill="#4a4a49" />
-                    <circle cx="216" cy="312" r="24" fill="#4a4a49" />
-                    <circle cx="136" cy="392" r="24" fill="#4a4a49" />
-                    <circle cx="216" cy="392" r="24" fill="#4a4a49" />
-                    <circle cx="296" cy="392" r="24" fill="#4a4a49" />
-                    <path
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="32"
-                      d="M128 48v32m256-32v32"
-                    />
-                    <path
-                      fill="none"
-                      stroke="#4a4a49"
-                      stroke-linejoin="round"
-                      stroke-width="32"
-                      d="M464 160H48"
-                    />
-                  </svg>
-                }
-              />
+            <div className="flex flex-col w-full col-span-2 gap-4">
+              <label className="font-bold capitalize text-main">
+                {form.day}
+              </label>
+              <div onClick={openDatePicker} className="cursor-pointer">
+                <DatePicker
+                  ref={datePickerRef}
+                  showIcon
+                  isClearable
+                  selected={startDate}
+                  dateFormat="dd/MM/yyyy"
+                  onChange={handleDatePickerChange}
+                  className="!outline-none"
+                  minDate={tomorrow}
+                  calendarClassName={startDate ? "hidden" : ""}
+                  icon={
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 512 512"
+                      className={startDate ? "hidden" : ""}
+                    >
+                      <rect
+                        width="416"
+                        height="384"
+                        x="48"
+                        y="80"
+                        fill="none"
+                        stroke="#4a4a49"
+                        stroke-linejoin="round"
+                        stroke-width="32"
+                        rx="48"
+                      />
+                      <circle cx="296" cy="232" r="24" fill="#4a4a49" />
+                      <circle cx="376" cy="232" r="24" fill="#4a4a49" />
+                      <circle cx="296" cy="312" r="24" fill="#4a4a49" />
+                      <circle cx="376" cy="312" r="24" fill="#4a4a49" />
+                      <circle cx="136" cy="312" r="24" fill="#4a4a49" />
+                      <circle cx="216" cy="312" r="24" fill="#4a4a49" />
+                      <circle cx="136" cy="392" r="24" fill="#4a4a49" />
+                      <circle cx="216" cy="392" r="24" fill="#4a4a49" />
+                      <circle cx="296" cy="392" r="24" fill="#4a4a49" />
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="32"
+                        d="M128 48v32m256-32v32"
+                      />
+                      <path
+                        fill="none"
+                        stroke="#4a4a49"
+                        stroke-linejoin="round"
+                        stroke-width="32"
+                        d="M464 160H48"
+                      />
+                    </svg>
+                  }
+                />
+              </div>
             </div>
             {startDate && (
-              <div className="col-span-2">
-                <h3 className="mb-2 font-bold text-main">{form.slots}</h3>
+              <div className="flex flex-col col-span-2 gap-4">
+                <label className="font-bold capitalize text-main">
+                  {form.slots}
+                </label>
                 <div className="grid grid-cols-3 gap-2">
                   {startDate.getDay() === 6 // Sabato
                     ? saturdayTimeSlots.map((slot) => (

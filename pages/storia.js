@@ -38,34 +38,36 @@ export default function Storia({ translation }) {
 
       <div className="w-[90%] mx-auto py-10">
         <VideoPlayer
-          video="/video/video_storia_2.mp4"
+          video="/video/video_spot.mp4"
           poster="/assets/poster2.png"
         />
       </div>
-      <div className="w-[90%] mx-auto py-10 lg:text-center flex flex-col gap-6">
-        <div className="flex flex-col gap-4 py-10 mx-auto lg:w-2/3 xl:w-[90%] 2xl:w-2/3">
-          <h2 className="text-3xl font-bold text-main lg:text-5xl">
+      <div className="w-[90%] mx-auto py-10 lg:text-center flex flex-col gap-6 3xl:gap-10 3xl:py-32">
+        <div className="flex flex-col gap-4 py-10 mx-auto lg:w-2/3 xl:w-[90%] 2xl:w-2/3 3xl:gap-10 3xl:w-11/12">
+          <h2 className="text-3xl font-bold text-main lg:text-5xl 3xl:text-7xl">
             {translation.section4.title}
           </h2>
-          <p className="text-xl xl:text-lg 2xl:text-xl text-main">
+          <p className="text-xl xl:text-lg 2xl:text-xl text-main 3xl:text-4xl 3xl:leading-normal ">
             {translation.section4.descrizione}
           </p>
         </div>
 
         <div className="grid gap-y-16 xl:gap-4 lg:grid-cols-4">
           {translation.section4.team.map((t, i) => (
-            <div className="flex flex-col gap-4" key={i}>
+            <div className="flex flex-col gap-4 3xl:gap-8" key={i}>
               <div className="relative w-full aspect-square">
                 <Image
                   src={t.img}
                   alt={`Foto di ${t.name}`}
                   fill
-                  className="object-cover object-right"
+                  className="object-cover object-right rounded-sm"
                 />
               </div>
-              <div className="px-3">
-                <h3 className="text-2xl font-bold text-main">{t.name}</h3>
-                <p className="text-lg xl:text-base 2xl:text-lg text-main">
+              <div className="flex flex-col px-3 3xl:gap-4">
+                <h3 className="text-2xl font-bold text-main 3xl:text-3xl">
+                  {t.name}
+                </h3>
+                <p className="text-lg xl:text-base 2xl:text-md text-main 3xl:text-2xl">
                   {t.role}
                 </p>
               </div>

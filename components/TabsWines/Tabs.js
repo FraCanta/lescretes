@@ -59,11 +59,11 @@ const Tabs = ({ translation }) => {
               className="w-full h-[450px] fxl:h-[450px] 3xl:h-full relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white"
             >
               <div
-                className="w-full h-[450px] fxl:h-[450px] 3xl:h-[800px] left-0 top-0 relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white"
+                className="w-full h-[450px] fxl:h-[450px] 3xl:h-[800px] left-0 top-0 relative bg-[#F4F3EF] rounded-sm hover:bg-main hover:text-white"
                 key={contentIndex}
               >
                 <Image
-                  className="object-contain absolute inset-0 mt-6  w-full h-[80%]"
+                  className="object-contain absolute inset-0 mt-6  w-full h-[80%] "
                   src={content.img}
                   width={100}
                   height={100}

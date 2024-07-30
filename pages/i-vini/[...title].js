@@ -25,8 +25,9 @@ import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 
-import { Navigation } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import SwiperButtons from "@/components/SwiperButtons/SwiperButtons";
 const SingleWine = ({ wine, others }) => {
   return (
@@ -249,25 +250,32 @@ const SingleWine = ({ wine, others }) => {
         <h2 className="text-main text-[40px] font-bold mb-10">{wine.more}</h2>
 
         <Swiper
-          slidesPerView={5}
-          spaceBetween={6}
-          modules={[Navigation]}
+          modules={[Navigation, Pagination]}
           navigation={{
             prevEl: ".prev",
             nextEl: ".next",
           }}
+          pagination={{
+            clickable: true,
+            el: ".swiper-pagination",
+          }}
+          className="carousel-wrapper"
           breakpoints={{
-            640: {
-              slidesPerView: 1,
+            360: {
+              slidesPerView: 1.2,
               spaceBetween: 10,
             },
             768: {
-              slidesPerView: 1,
+              slidesPerView: 2.5,
               spaceBetween: 20,
             },
             1024: {
-              slidesPerView: 3,
-              spaceBetween: 30,
+              slidesPerView: 4,
+              spaceBetween: 10,
+            },
+            1500: {
+              slidesPerView: 4.5,
+              spaceBetween: 10,
             },
           }}
         >
@@ -278,12 +286,12 @@ const SingleWine = ({ wine, others }) => {
                   href={otherWine.link}
                   title={otherWine.name}
                   key={i}
-                  className="w-full h-[450px] fxl:h-full 3xl:h-[800px] relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white "
+                  className="w-full h-[450px] fxl:h-full 3xl:h-[800px] relative bg-[#F4F3EF] rounded-sm hover:bg-main hover:text-white "
                 >
                   <div // Usa motion.div anziché div
                     className="w-full h-[450px] fxl:h-[500px] 3xl:h-[800px] relative"
                   >
-                    <div className="w-full h-[450px] fxl:h-[500px] 3xl:h-[800px] left-0 top-0 absolute bg-[#F4F3EF] rounded-lg hover:bg-main" />
+                    <div className="w-full h-[450px] fxl:h-[500px] 3xl:h-[800px] left-0 top-0 absolute bg-[#F4F3EF]  hover:bg-main" />
 
                     <Image
                       className="object-contain left-0 top-[1.5rem] absolute w-full h-[80%]"
@@ -301,6 +309,9 @@ const SingleWine = ({ wine, others }) => {
             ))}
           </div>
           {wine.showButtons && <SwiperButtons />}
+          <div className="relative flex w-full mt-16 md:hidden">
+            <div className="mt-10 swiper-pagination"></div>
+          </div>
         </Swiper>
       </div>
 

@@ -12,9 +12,6 @@ import cosmesiRU from "../public/locales/ru/cosmesi.json";
 import cosmesiZH from "../public/locales/zh/cosmesi.json";
 import Cards from "@/components/Cards/Cards";
 import Image from "next/image";
-import Nature from "@/public/assets/cosmetici/natural.webp";
-import Notest from "@/public/assets/cosmetici/notest3.webp";
-import Package from "@/public/assets/cosmetici/bio_pack3.webp";
 const Cosmesi = ({ translation }) => {
   return (
     <>
@@ -22,31 +19,15 @@ const Cosmesi = ({ translation }) => {
         <title>Les Crêtes - DeVin Cosmetica</title>
       </Head>
       <div className="flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
-        <HeroHome2
-          title="Les Crêtes DeVin Cosmetica: dall’uva per la cura naturale della pelle"
-          img={Cosmetico}
-        />
+        <HeroHome2 title={translation.hero.title} img={Cosmetico} />
       </div>
       <div className="w-[90%] min-h-screen flex-col justify-start items-center gap-[60px]  flex mx-auto py-10 ">
         <div className="flex flex-col gap-8 text-xl font-normal text-main/80 fxl:text-2xl">
-          <p>
-            La linea cosmetica DeVin presenta la sua innovativa formula naturale
-            con attivi biologici all’olio di vinaccioli, polifenoli dell’uva e
-            fiori di vigna realizzata dai nostri laboratori per rispondere alle
-            esigenze di chi, ricercando un cosmetico naturale, non vuole
-            rinunciare all’efficacia degli estratti attivi naturali del terroir
-            di montagna, isolati e sviluppati con le più avanzate tecnologie.
-          </p>
+          <p>{translation.intro.text}</p>
           <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-5xl">
-            Indicazioni e benefici
+            {translation.section.title}
           </h2>
-          <p>
-            Ideale per tutti i tipi di pelle, contribuisce a prevenire e
-            rallentare in modo naturale i segni dell’invecchiamento. Dona alla
-            pelle vitalità ed un aspetto tonico e definito, conferendole una
-            corretta idratazione. Sostiene la rigenerazione cutanea, apportando
-            benefici nutrienti e restituendo al viso il suo naturale splendore.
-          </p>
+          <p>{translation.section.text}</p>
         </div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
           {translation?.cards?.map((el, i) => {
@@ -65,225 +46,51 @@ const Cosmesi = ({ translation }) => {
 
         <div className="w-full flex-col   gap-[60px] flex">
           <h2 className="text-3xl font-bold text-main md:text-6xl ">
-            Prenditi cura di te stesso e della natura attorno
+            {translation.well.title}
           </h2>
           <div className="grid grid-cols-1 gap-8 uppercase xl:grid-cols-3">
-            <div className="relative flex flex-col">
-              <Image
-                className="object-cover rounded-md aspect-square"
-                src={Nature}
-              />
-              <p className="text-center text-neutral-600 text-[22.20px] font-bold font-['MinervaModern'] leading-[50.20px]">
-                Ingredienti naturali
-              </p>
-            </div>
-            <div className="flex-col justify-start items-center gap-[15px] inline-flex">
-              <div className="flex flex-col">
-                <Image
-                  className="object-cover rounded-md aspect-square"
-                  src={Notest}
-                />
-                <p className="text-center text-neutral-600 font-bold text-[22.20px] font-['MinervaModern'] leading-[50.20px]">
-                  No test sugli animali
-                </p>
-              </div>
-            </div>
-            <div className="flex-col justify-start items-center gap-[15px] inline-flex">
-              <div className="flex flex-col">
-                <Image
-                  className="object-cover rounded-md aspect-square"
-                  src={Package}
-                />
-                <p className="text-center text-neutral-600 font-bold text-[22.20px] font-['MinervaModern'] leading-[50.20px]">
-                  Bio Packaging
-                </p>
-              </div>
-            </div>
+            {translation.well.imgWell.map((el, i) => {
+              return (
+                <div className="flex flex-col" key={i}>
+                  <div className="relative aspect-square">
+                    <Image
+                      className="object-cover w-full h-full rounded-sm "
+                      src={el.img}
+                      fill
+                    />
+                  </div>
+
+                  <p className="text-center text-neutral-600 text-[22.20px] font-bold font-['MinervaModern'] leading-[50.20px]">
+                    {el.text}
+                  </p>
+                </div>
+              );
+            })}
           </div>
           <h2 className="text-3xl font-bold text-main md:text-5xl ">
-            Principali principi attivi della linea DeVin
+            {translation.well.ingredients.title}
           </h2>
           <div className="flex flex-col gap-4">
-            <div className="collapse collapse-plus bg-second">
-              <input type="radio" name="my-accordion-3" />
-              <div className="collapse-title">
-                <h3 className="text-xl font-black text-main fxl:text-3xl">
-                  Olio di vinaccioli
-                </h3>
-              </div>
-              <div className="collapse-content ">
-                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
-                  L’olio di vinaccioli, ottenuto tramite il procedimento di
-                  spremitura a freddo, si estrae dai semi dell’uva,
-                  rigorosamente senza l’impiego di solventi chimici. I semi di
-                  vinacciolo racchiudono un concentrato di sostanze
-                  antiossidanti (quali acido linoleico e vitamina E) in grado di
-                  contrastare l’invecchiamento cutaneo e proteggere la pelle
-                  dall’attacco dei radicali liberi. i semi sono inoltre ricchi
-                  di sostanze attive che svolgono un’azione idratante, levigante
-                  e schiarente. Questo pool di sostanze contribuisce, a
-                  mantenere l’epidermide elastica e luminosa, rallentando la
-                  formazione delle rughe e riparando i segni dell’invecchiamento
-                  cutaneo.
-                </p>
-              </div>
-            </div>
-
-            <div className="collapse collapse-plus bg-second">
-              <input type="radio" name="my-accordion-3" />
-              <div className="collapse-title">
-                <h3 className="text-xl font-black text-main fxl:text-3xl">
-                  Glicerina vegetale
-                </h3>
-              </div>
-              <div className="collapse-content ">
-                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
-                  Composto organico nella cui struttura sono presenti tre gruppi
-                  molto affini all’acqua. Il suo ruolo è quello di mantenere una
-                  corretta idratazione poiché ha la facoltà di trattenere e
-                  legare l’acqua. Svolge una marcata azione umettante,
-                  prevenendo desquamazioni e secchezza cutanea.
-                </p>
-              </div>
-            </div>
-
-            <div className="collapse collapse-plus bg-second">
-              <input type="radio" name="my-accordion-3" />
-              <div className="collapse-title">
-                <h3 className="text-xl font-black text-main fxl:text-3xl">
-                  Estratto di camomilla biologica (fiori)
-                </h3>
-              </div>
-              <div className="collapse-content">
-                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
-                  Una vera ricchezza della natura, con azione lenitiva,
-                  emolliente e protettiva. Offre uno scudo di difesa contro gli
-                  agenti atmosferici aggressivi, per un immediato effetto di
-                  benessere e confort.
-                </p>
-              </div>
-            </div>
-
-            <div className="collapse collapse-plus bg-second">
-              <input type="radio" name="my-accordion-3" />
-              <div className="collapse-title">
-                <h3 className="text-xl font-black text-main fxl:text-3xl">
-                  NMF ricostituito (Natural Moisturizing Factor)
-                </h3>
-              </div>
-              <div className="collapse-content">
-                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
-                  Preziosa miscela idratante composta da sali (di Magnesio,
-                  Manganese, Zinco, Calcio) legati al PCA, zuccheri, aminoacidi
-                  (tra cui la prolina, amminoacido fondamentale per la sintesi
-                  del collagene), urea, allantoina che garantisce un’idratazione
-                  profonda e duratura per una pelle uniforme, idratata e
-                  luminosa. E’ un fattore di idro-regolazione cutanea,
-                  naturalmente presente nel film idrolipidico dell’epidermide
-                  che impedisce una eccessiva disidratazione e consente di
-                  mantenere integra, elastica e flessibile la superficie
-                  cutanea. E’ composto da sostanze idrosolubili e igroscopiche.
-                  E’ abbondantemente presente nei corneociti dove svolge
-                  funzioni umettanti. Essendo però idrosolubile è facilmente
-                  asportabile con solventi, detergenti, acqua e sudore. I suoi
-                  livelli diminuiscono anche a causa dell’invecchiamento
-                  fisiologico e per l’eccessiva esposizione alla luce solare.
-                </p>
-              </div>
-            </div>
-
-            <div className="collapse collapse-plus bg-second">
-              <input type="radio" name="my-accordion-3" />
-              <div className="collapse-title">
-                <h3 className="text-xl font-black text-main fxl:text-3xl">
-                  Polisaccaride, protettivo effetto barriera.{" "}
-                </h3>
-              </div>
-              <div className="collapse-content ">
-                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
-                  Alcuni microrganismi batterici vegetali auto producono dei
-                  polisaccaridi ad elevato peso molecolare, per migliorare le
-                  loro capacità di difesa e le loro possibilità di
-                  sopravvivenza. Tali polisaccaridi formano una matrice
-                  protettiva contro le aggressioni ambientali. Questo film
-                  sottile interagisce con la superficie cutanea e favorisce
-                  l’eliminazione di sostanze esogene nocive ed aggressive per
-                  l’organismo come polveri sottili, metalli pesanti, radicali
-                  liberi, tossine.
-                </p>
-              </div>
-            </div>
-
-            <div className="collapse collapse-plus bg-second">
-              <input type="radio" name="my-accordion-3" />
-              <div className="collapse-title">
-                <h3 className="text-xl font-black text-main fxl:text-3xl">
-                  Alghe marine{" "}
-                </h3>
-              </div>
-              <div className="collapse-content ">
-                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
-                  Ricche in mucillagini (tra cui alginati), sali minerali, con
-                  un’azione emolliente, idratante, ammorbidente, protettiva,
-                  ideale per pelli secche.
-                </p>
-              </div>
-            </div>
-
-            <div className="collapse collapse-plus bg-second">
-              <input type="radio" name="my-accordion-3" />
-              <div className="collapse-title">
-                <h3 className="text-xl font-black text-main fxl:text-3xl">
-                  Acido ialuronico{" "}
-                </h3>
-              </div>
-              <div className="collapse-content ">
-                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
-                  Molecola idratante per eccellenza, naturalmente presente nella
-                  pelle per trattenere acqua nei tessuti. Il suo compito è
-                  mantenere la pelle elastica, tesa e idratata e di aumentarne
-                  la plasticità. In forma sia a basso che ad alto peso
-                  molecolare, ricavato per bio-fermentazione di materiale
-                  vegetale.
-                </p>
-              </div>
-            </div>
-
-            <div className="collapse collapse-plus bg-second">
-              <input type="radio" name="my-accordion-3" />
-              <div className="collapse-title">
-                <h3 className="text-xl font-black text-main fxl:text-3xl">
-                  Collagene idrolizzato
-                </h3>
-              </div>
-              <div className="collapse-content ">
-                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
-                  Proteina della bellezza, con funzione di sostegno strutturale
-                  e capacità di intrappolare acqua nei tessuti. Determina
-                  l’aspetto teso, elastico e compatto della pelle. Viene
-                  utilizzato in forma idrolizzata perché direttamente
-                  biodisponibile per contrastare atonie e prevenire la
-                  formazione di rughe.
-                </p>
-              </div>
-            </div>
-
-            <div className="collapse collapse-plus bg-second">
-              <input type="radio" name="my-accordion-3" />
-              <div className="collapse-title">
-                <h3 className="text-xl font-black text-main fxl:text-3xl">
-                  Estratto di avena biologica
-                </h3>
-              </div>
-              <div className="collapse-content ">
-                <p className="text-lg font-normal text-main/80 fxl:text-2xl">
-                  Altamente dermocompatibile, contrasta l’invecchiamento
-                  cutaneo, idrata e potenzia la naturale rigenerazione
-                  cellulare. Forma un velo di protezione che rede la pelle
-                  morbida e vellutata.
-                </p>
-              </div>
-            </div>
+            {translation.well.listIngredients.map((l, i) => {
+              return (
+                <div
+                  className="collapse collapse-plus !rounded-sm bg-second"
+                  key={i}
+                >
+                  <input type="radio" name="my-accordion-3" />
+                  <div className="collapse-title">
+                    <h3 className="text-xl font-black text-main fxl:text-3xl">
+                      {l.name}
+                    </h3>
+                  </div>
+                  <div className="collapse-content ">
+                    <p className="text-lg font-normal text-main/80 fxl:text-2xl">
+                      {l.text}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>

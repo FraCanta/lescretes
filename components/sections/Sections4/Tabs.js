@@ -14,11 +14,6 @@ const Tabs = ({ tabs }) => {
     setActiveTab(index);
   };
 
-  const lineMotion = {
-    rest: { width: "0%", transition: { duration: 0.1 } },
-    active: { width: "100%", transition: { duration: 0.1 } },
-  };
-
   useEffect(() => {
     const cursor = document.querySelector(".cursor");
     const body = document.body;
@@ -54,14 +49,6 @@ const Tabs = ({ tabs }) => {
             onClick={() => openCity(index)}
           >
             {tab.name}
-            {/* {activeTab === index && (
-              <motion.div
-                className="line-below-tab"
-                variants={lineMotion}
-                initial="rest"
-                animate="active"
-              />
-            )} */}
           </button>
         ))}
       </div>
@@ -83,8 +70,6 @@ const Tabs = ({ tabs }) => {
           }`}
         >
           <Swiper
-            slidesPerView={4}
-            spaceBetween={20}
             pagination={{
               clickable: true,
               el: ".swiper-pagination",
@@ -108,13 +93,18 @@ const Tabs = ({ tabs }) => {
                 slidesPerView: 4,
                 spaceBetween: 20,
               },
+
               1280: {
                 slidesPerView: 3.6,
                 spaceBetween: 20,
               },
+              1500: {
+                slidesPerView: 4.5,
+                spaceBetween: 20,
+              },
               2500: {
-                slidesPerView: 3.5,
-                spaceBetween: 50,
+                slidesPerView: 4,
+                spaceBetween: 20,
               },
             }}
           >
@@ -124,12 +114,12 @@ const Tabs = ({ tabs }) => {
                   href={content.link}
                   title={content.name}
                   key={contentIndex}
-                  className="w-full h-[450px] fxl:h-full 3xl:h-[800px] relative bg-[#F4F3EF] rounded-3xl hover:bg-main hover:text-white "
+                  className="w-full h-[450px] fxl:h-full 3xl:h-[800px] relative bg-[#F4F3EF]  hover:bg-main hover:text-white "
                 >
                   <motion.div // Usa motion.div anziché div
                     className="w-full h-[450px] fxl:h-[500px] 3xl:h-[800px] relative"
                   >
-                    <div className="w-full h-[450px] fxl:h-[500px] 3xl:h-[800px] left-0 top-0 absolute bg-[#F4F3EF] rounded-lg hover:bg-main" />
+                    <div className="w-full h-[450px] fxl:h-[500px] 3xl:h-[800px] left-0 top-0 absolute bg-[#F4F3EF] rounded-sm hover:bg-main" />
 
                     <Image
                       className="object-contain left-0 top-[1.5rem] absolute w-full h-[80%]"

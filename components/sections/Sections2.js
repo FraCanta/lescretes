@@ -23,7 +23,7 @@ const Sections2 = ({ translation }) => {
               src={Family}
               alt="famiglia charrere"
               fill
-              className="object-cover object-left-top rounded-lg "
+              className="object-cover object-left-top rounded-sm "
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
             />
 
@@ -53,7 +53,7 @@ const Sections2 = ({ translation }) => {
                 src={Rifugio}
                 alt="Il rifugio del vino"
                 fill
-                className="object-cover rounded-lg bg-main/20 bg-opacity-20"
+                className="object-cover rounded-sm bg-main/20 bg-opacity-20"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
 
@@ -82,7 +82,7 @@ const Sections2 = ({ translation }) => {
                 src={Terroir}
                 alt="il terroir"
                 fill
-                className="object-cover object-top rounded-lg"
+                className="object-cover object-top rounded-sm"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
 

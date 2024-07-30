@@ -58,7 +58,7 @@ const Vini = ({ translation }) => {
               src="/assets/lc3a.webp"
               alt="les cretes family"
               fill
-              className="object-cover object-[-130px] lg:object-center lg:object-contain"
+              className="object-cover object-[-130px] lg:object-center lg:object-contain rounded-sm"
             />
           </div>
           <div className="flex flex-col gap-10 lg:items-center lg:justify-center">
@@ -157,7 +157,7 @@ const Vini = ({ translation }) => {
                     src="/assets/lc9.webp"
                     alt="vendemmia"
                     fill
-                    className="object-cover object-top"
+                    className="object-cover object-top rounded-sm"
                   />
                 </div>
               </SwiperSlide>
@@ -167,7 +167,7 @@ const Vini = ({ translation }) => {
                     src="/assets/lc4.webp"
                     alt="vendemmia"
                     fill
-                    className="object-cover object-right"
+                    className="object-cover object-right rounded-sm"
                   />
                 </div>
               </SwiperSlide>
@@ -177,7 +177,7 @@ const Vini = ({ translation }) => {
                     src="/assets/lc10.webp"
                     alt="vendemmia"
                     fill
-                    className="object-cover"
+                    className="object-cover rounded-sm"
                   />
                 </div>
               </SwiperSlide>

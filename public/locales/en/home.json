@@ -24,7 +24,7 @@
         "name": "Reds",
         "content": [
           {
-            "img": "/assets/vinirossi/merle.webp",
+            "img": "/assets/vinirossi/merle.png",
             "name": "Merlot Le Merle Valle D'Aosta DOP",
             "link": "/i-vini/rossi/merle"
           },
@@ -50,19 +50,24 @@
             "link": "/i-vini/rossi/nebbiolo"
           },
           {
-            "img": "/assets/vinirossi/pinot_nero.webp",
+            "img": "/assets/vinirossi/pinot_nero.png",
             "name": "Pinot Nero",
             "link": "/i-vini/rossi/pinot"
           },
           {
-            "img": "/assets/vinirossi/pinot_revei.webp",
+            "img": "/assets/vinirossi/pinot_revei.png",
             "name": "Pinot Revei",
             "link": "/i-vini/rossi/revei"
           },
           {
-            "img": "/assets/vinirossi/sabla.webp",
+            "img": "/assets/vinirossi/sabla.png",
             "name": "Sabla",
             "link": "/i-vini/rossi/sabla"
+          },
+          {
+            "img": "/assets/vinirossi/lasabla_50.webp",
+            "name": "La Sabla® 50 anni",
+            "link": "/i-vini/rossi/sabla50"
           },
           {
             "img": "/assets/vinirossi/syrah.webp",
@@ -70,7 +75,7 @@
             "link": "/i-vini/rossi/syrah"
           },
           {
-            "img": "/assets/vinirossi/torrette_sup.webp",
+            "img": "/assets/vinirossi/torrette_sup.png",
             "name": "Torrette Superiore",
             "link": "/i-vini/rossi/torrettesup"
           },
@@ -101,7 +106,7 @@
           },
 
           {
-            "img": "/assets/vinibianchi/neige.webp",
+            "img": "/assets/vinibianchi/neige.png",
             "name": "Neige D'Or",
             "link": "/i-vini/bianchi/neige"
           },
@@ -111,7 +116,7 @@
             "link": "/i-vini/bianchi/petitearvine"
           },
           {
-            "img": "/assets/vinibianchi/petite_fleur.webp",
+            "img": "/assets/vinibianchi/petite_fleur.png",
             "name": "Petite Arvine Fleur",
             "link": "/i-vini/bianchi/petitefleur"
           },
@@ -131,7 +136,7 @@
         "name": "Rosès",
         "content": [
           {
-            "img": "/assets/vinirose/rose.webp",
+            "img": "/assets/vinirose/rose.png",
             "name": "Rosè",
             "link": "/i-vini/rose/rose"
           }
@@ -141,17 +146,17 @@
         "name": "Desserts and sparkles",
         "content": [
           {
-            "img": "/assets/vinidessert/dorè.webp",
+            "img": "/assets/vinidessert/dorè.png",
             "name": "Dorè",
             "link": "/i-vini/vinidessert/dore"
           },
           {
-            "img": "/assets/vinidessert/neblu.webp",
+            "img": "/assets/vinidessert/neblu.png",
             "name": "Neblu Brut Nature Rose",
             "link": "/i-vini/vinidessert/neblu"
           },
           {
-            "img": "/assets/vinidessert/reban.webp",
+            "img": "/assets/vinidessert/reban.png",
             "name": "Reban Pas Dosè",
             "link": "/i-vini/vinidessert/reban"
           }

@@ -5,10 +5,10 @@
     },
     "intro": [
       {
-        "p": "Il <a href='/rifugio' title='Pagina Rifugio' class='font-bold'>Rifugio del Vino</a> è una vera terrazza sulla vigne che sovrastano la città di Aosta, un luogo dove l’accoglienza è di casa e dove vivere un’esperienza unica. Le degustazioni sono dedicate sia a gruppi che a singoli eno-appassionati."
+        "p": "The <a href='/rifugio' title='Pagina Rifugio' class='font-bold'>Rifugio del Vino</a>  is a real terrace on the vineyards overlooking the city of Aosta, a place where hospitality is at home and where you can live a unique experience. The tastings are dedicated to both groups and individual eno-fans."
       },
       {
-        "p": "Ogni degustazione è accompagnata da una visita in cantina, disponibile in varie modalità, a seconda delle preferenze. Se hai esigenze particolari per te o per il tuo gruppo contattaci per creare la tua visita personalizzata."
+        "p": "Each tasting is accompanied by a visit to the cellar, available in various ways, depending on your preferences. If you have special needs for yourself or your group, contact us to create your personalized visit."
       }
     ],
     "cards": [
@@ -17,49 +17,77 @@
         "title": "3 Wines Experience",
         "descrizione": "Tasting of three wines at the Wine Refuge and visit to the cellar and the wine cellar",
         "price": "€25.00 VAT included/ person",
-        "link": "/degustazioni/trewines"
+        "link": "/degustazioni/trewines",
+        "wine": true,
+        "fork": false,
+        "bed": false,
+        "tempo": "60'"
       },
       {
         "img": "/assets/degustazioni/native.jpeg",
         "title": "Native Wines Experience",
         "descrizione": "Tasting of 5 wines from the territory at the wine refuge in the cellar and barricaia",
         "price": "€40,00 VAT included/ person",
-        "link": "/degustazioni/native"
+        "link": "/degustazioni/native",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "90'"
       },
       {
         "img": "/assets/degustazioni/cheese.jpeg",
         "title": "Wine and Cheese Experience",
         "descrizione": "Tasting of 5 selected wines in combination with 6 local cheeses and visit to the cellar and barricaia",
         "price": "€45.00 VAT included/ person",
-        "link": "/degustazioni/cheese"
+        "link": "/degustazioni/cheese",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "90'"
       },
       {
         "img": "/assets/degustazioni/top.jpeg",
         "title": "Top Wines Experience",
         "descrizione": "Tasting of 5 top wines accompanied by a cutting board of the local gastronomy and visit to the cellar and barricaia",
         "price": "€70,00 VAT included/ person",
-        "link": "/degustazioni/top"
+        "link": "/degustazioni/top",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "105'"
       },
       {
         "img": "/assets/degustazioni/coteau3.jpg",
         "title": "Côteau la Tour Experience",
         "descrizione": "Tasting of 5 wines accompanied by a cutting board of the local gastronomy and visit in the cellar and barricaia. Tour of the Côteau vineyard and toast in the Medieval Tower",
         "price": "€90.00 VAT included/ person",
-        "link": "/degustazioni/tour"
+        "link": "/degustazioni/tour",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "120'"
       },
       {
         "img": "/assets/degustazioni/winemaker.jpeg",
         "title": "Winemaker's Experience",
         "descrizione": "Discover the world of Les Crêtes, told by our wine maker Raffaele, from the vineyards to the cellar.",
         "price": "€100.00 VAT included/ person",
-        "link": "/degustazioni/winemaker"
+        "link": "/degustazioni/winemaker",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "120'"
       },
       {
         "img": "/assets/degustazioni/wellness.jpeg",
         "title": "Wellness & Wine Tasting",
         "descrizione": "One night stay in a double room at QC Terme Spas & Resorts, with wellness path + tasting of 5 selected wines with 6 local cheeses, visit to the cellar and barricaia.",
         "price": "From €346,00 including VAT ",
-        "link": "/degustazioni/wellness"
+        "link": "/degustazioni/wellness",
+        "wine": true,
+        "fork": true,
+        "bed": true,
+        "tempo": "90'"
       }
     ],
     "singleDeg": {
@@ -104,6 +132,7 @@
         },
         "othersTitle": "Other highlights of tastings",
         "form": {
+          "day": "Select a date",
           "slots": "Select a time slot:",
           "adults": "adults",
           "language": "visit language",
@@ -115,7 +144,10 @@
             "eng": "english",
             "fr": "french"
           }
-        }
+        },
+        "wine": true,
+        "fork": true,
+        "bed": false
       },
       "native": {
         "img": "/assets/degustazioni/native.jpg",
@@ -165,6 +197,8 @@
         },
         "othersTitle": "Other highlights of tastings",
         "form": {
+          "day": "Select a date",
+
           "slots": "Select a time slot:",
           "adults": "adults",
           "language": "visit language",
@@ -176,7 +210,10 @@
             "eng": "english",
             "fr": "french"
           }
-        }
+        },
+        "wine": true,
+        "fork": true,
+        "bed": false
       },
       "cheese": {
         "img": "/assets/degustazioni/cheese.jpeg",
@@ -226,6 +263,8 @@
         },
         "othersTitle": "Other highlights of tastings",
         "form": {
+          "day": "Select a date",
+
           "slots": "Select a time slot:",
           "adults": "adults",
           "language": "visit language",
@@ -237,7 +276,10 @@
             "eng": "english",
             "fr": "french"
           }
-        }
+        },
+        "wine": true,
+        "fork": true,
+        "bed": false
       },
       "top": {
         "img": "/assets/degustazioni/top.jpg",
@@ -289,6 +331,8 @@
         },
         "othersTitle": "Other highlights of tastings",
         "form": {
+          "day": "Select a date",
+
           "slots": "Select a time slot:",
           "adults": "adults",
           "language": "visit language",
@@ -300,7 +344,10 @@
             "eng": "english",
             "fr": "french"
           }
-        }
+        },
+        "wine": true,
+        "fork": true,
+        "bed": false
       },
       "tour": {
         "img": "/assets/degustazioni/coteau3.jpg",
@@ -359,6 +406,8 @@
         },
         "othersTitle": "Other highlights of tastings",
         "form": {
+          "day": "Select a date",
+
           "slots": "Select a time slot:",
           "adults": "adults",
           "language": "visit language",
@@ -370,7 +419,10 @@
             "eng": "english",
             "fr": "french"
           }
-        }
+        },
+        "wine": true,
+        "fork": true,
+        "bed": false
       },
       "winemaker": {
         "img": "/assets/degustazioni/winemaker.jpeg",
@@ -409,7 +461,10 @@
                 "testo": "- Selection of local salami and cheese"
               }
             ]
-          }
+          },
+          "wine": true,
+          "fork": true,
+          "bed": false
         },
         "priceTitle": "Price",
 
@@ -427,6 +482,8 @@
         },
         "othersTitle": "Other highlights of tastings",
         "form": {
+          "day": "Select a date",
+
           "slots": "Select a time slot:",
           "adults": "Adults",
           "language": "Visit Language",
@@ -438,7 +495,10 @@
             "eng": "english",
             "fr": "french"
           }
-        }
+        },
+        "wine": true,
+        "fork": true,
+        "bed": false
       },
       "wellness": {
         "img": "/assets/degustazioni/wellness.jpeg",
@@ -491,7 +551,10 @@
           "button": "Write a review"
         },
         "othersTitle": "Other highlights of tastings",
-        "bookWell": "Book now"
+        "bookWell": "Book now",
+        "wine": true,
+        "fork": true,
+        "bed": true
       }
     },
     "prenota": {
@@ -506,8 +569,7 @@
         {
           "name": "- Fill in the form on the page of the chosen tasting"
         }
-      ],
-      "nota": "Wine shop, tastings and guided tours: from Mon to Fri 9.00-13.00/15.00-19.00 and Sat 10.00-13.00/15.00-19.00. <strong>CLOSED Sundays and Holidays</strong>"
+      ]
     },
     "faq": [
       {

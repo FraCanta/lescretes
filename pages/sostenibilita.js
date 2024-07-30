@@ -59,7 +59,7 @@ function Sostenibilita({ translation }) {
               <Image
                 src="/assets/rifugio/rifugio1.webp"
                 fill
-                className="object-cover w-full h-full"
+                className="object-cover w-full h-full rounded-sm"
                 alt="Dentro Verde"
               />
             </div>
@@ -105,7 +105,7 @@ function Sostenibilita({ translation }) {
               <Image
                 src="/assets/tappo.webp"
                 fill
-                className="object-cover w-full h-full"
+                className="object-cover w-full h-full rounded-sm"
                 alt="nomacorc"
               />
             </div>
@@ -143,7 +143,7 @@ function Sostenibilita({ translation }) {
               <Image
                 src="/assets/elena.webp"
                 fill
-                className="object-cover w-full h-full"
+                className="object-cover w-full h-full rounded-sm"
                 alt="bottiglie Les Crêtes"
               />
             </div>

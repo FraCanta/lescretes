@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import cosmesiIT from "../../public/locales/it/cosmesi.json";
 import cosmesiEN from "../../public/locales/en/cosmesi.json";
 import cosmesiFR from "../../public/locales/fr/cosmesi.json";
@@ -22,11 +21,13 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 
-import { Navigation } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import SwiperButtons from "@/components/SwiperButtons/SwiperButtons";
 
 const SingleCosmetic = ({ cosm, others }) => {
+  console.log(cosm);
   const contents = parse(cosm.name, {
     createElement: React.createElement,
     Fragment: React.Fragment,
@@ -79,7 +80,7 @@ const SingleCosmetic = ({ cosm, others }) => {
             ></p>
           ))}
 
-          <div className="collapse collapse-arrow bg-second">
+          <div className="collapse collapse-arrow bg-second !rounded-sm">
             <input type="radio" name="my-accordion-2" />
             <div className="font-medium collapse-title ">
               <h2 className="text-2xl font-bold ">{cosm.ingredientiTitle}</h2>
@@ -90,7 +91,7 @@ const SingleCosmetic = ({ cosm, others }) => {
               </p>
             </div>
           </div>
-          <div className="collapse collapse-arrow bg-second">
+          <div className="collapse collapse-arrow bg-second !rounded-sm">
             <input type="radio" name="my-accordion-2" />
             <div className="text-xl font-medium collapse-title ">
               <h2 className="text-2xl font-bold">{cosm.istruzioniTitle}</h2>
@@ -111,7 +112,7 @@ const SingleCosmetic = ({ cosm, others }) => {
             <Image src={IconaUno} width={90} height={90} />
             <Image src={IconaDue} width={90} height={90} />
           </div>
-          <div className="w-full h-[0.02rem] bg-main my-2"></div>
+          <div className="w-full h-[0.02rem] bg-main/30 my-2"></div>
 
           <div className="flex flex-col w-full gap-10 mt-2 xl:flex-row xl:justify-between hover:text-white text-main">
             <CtaOutlineBrown link={cosm.download} download>
@@ -120,7 +121,7 @@ const SingleCosmetic = ({ cosm, others }) => {
             </CtaOutlineBrown>
 
             <div className="flex items-center gap-6 ">
-              <p className="text-lg xl:text-xl text-main">Condividi su</p>
+              <p className="text-lg xl:text-xl text-main">{cosm.share}</p>
               <ul className="flex gap-6">
                 <li>
                   {" "}
@@ -156,37 +157,43 @@ const SingleCosmetic = ({ cosm, others }) => {
       </div>
       <div className="w-[90%] mx-auto my-[50px]">
         <h2 className="py-6 text-6xl font-bold">FAQs</h2>
-        {/* <FAQ /> */}
+        <FAQ translation={cosm.faq} />
       </div>
       <div className="relative flex flex-col w-full bg-second  py-10 gap-[30px] fxl:gap-[50px] fxl:py-20">
         <div className="w-[90%] mx-auto">
           <h2 className="mb-4 text-5xl font-bold fxl:text-5xl">
-            Ti potrebbero anche interessare
+            {cosm.highlights.title}
           </h2>
         </div>
 
         <div className="flex flex-col items-center w-[90%] mx-auto">
           <div className="relative w-full py-10">
             <Swiper
-              slidesPerView={4}
-              spaceBetween={6}
-              modules={[Navigation]}
+              modules={[Navigation, Pagination]}
               navigation={{
                 prevEl: ".prev",
                 nextEl: ".next",
               }}
+              pagination={{
+                clickable: true,
+                el: ".swiper-pagination",
+              }}
               breakpoints={{
-                640: {
+                360: {
                   slidesPerView: 1,
                   spaceBetween: 10,
                 },
                 768: {
-                  slidesPerView: 1,
+                  slidesPerView: 2.5,
                   spaceBetween: 20,
                 },
                 1024: {
-                  slidesPerView: 3,
-                  spaceBetween: 30,
+                  slidesPerView: 3.5,
+                  spaceBetween: 10,
+                },
+                1500: {
+                  slidesPerView: 4,
+                  spaceBetween: 10,
                 },
               }}
             >
@@ -205,6 +212,9 @@ const SingleCosmetic = ({ cosm, others }) => {
               ))}
               <SwiperButtons />
             </Swiper>
+            <div className="relative flex w-full mt-16 md:hidden">
+              <div className="mt-10 swiper-pagination"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -219,7 +229,7 @@ export async function getStaticProps(context) {
   const { params, locale } = context;
   let obj;
 
-  switch (locale.locale) {
+  switch (locale) {
     case "it":
       obj = cosmesiIT;
       break;

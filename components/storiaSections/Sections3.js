@@ -28,7 +28,7 @@ const Sections3 = ({ translation }) => {
         </h3>
         <div className="relative aspect-square xl:h-[70vh] w-full">
           <Image
-            className="object-cover w-full rounded-lg "
+            className="object-cover w-full rounded-sm "
             fill
             src={View}
             alt="vista"

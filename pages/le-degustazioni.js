@@ -8,10 +8,7 @@ import degustazioniJP from "@/public/locales/jp/degustazioni.json";
 import degustazioniKO from "@/public/locales/ko/degustazioni.json";
 import degustazioniRU from "@/public/locales/ru/degustazioni.json";
 import degustazioniZH from "@/public/locales/zh/degustazioni.json";
-import View from "@/public/assets/cotoView.jpg";
 import Cards from "@/components/Cards/Cards";
-import Image from "next/image";
-import Link from "next/link";
 import Head from "next/head";
 import FAQ from "@/components/FAQ/FAQ";
 import Banner from "@/components/Banner/Banner";
@@ -23,21 +20,24 @@ const Degustazioni = ({ translation }) => {
       <Head>
         <title>{translation.hero.title}</title>
       </Head>
-      <div className="flex flex-col justify-center lg:flex-row items-center xl:w-[90%] mx-auto min-h-[calc(50vh_-_70px)] md:min-h-[calc(60vh_-_70px)] fxl:min-h-[calc(80vh_-_100px)]">
+      <div className="flex flex-col justify-center lg:flex-row items-center xl:w-[90%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(90vh_-_70px)] fxl:min-h-[calc(80vh_-_100px)]">
         <HeroHome title={translation.hero.title} />
       </div>
-      {/* {translation.intro.map((el, i) => {
-        return (
-          <div
-            key={i}
-            className="flex flex-col gap-4 text-xl font-normal xl:text-center text-main fxl:text-2xl w-[90%]"
-          >
-            <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
-          </div>
-        );
-      })} */}
-      <div className="w-[90%] min-h-screen flex-col justify-start items-center gap-[60px] flex mx-auto pb-10 xl:py-10">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
+      <div className="lg:w-[90%] mx-auto py-6 flex flex-col gap-6 justify-center items-center">
+        {translation.intro.map((el, i) => {
+          return (
+            <div
+              key={i}
+              className="text-xl font-normal xl:text-center text-main fxl:text-2xl w-[90%]"
+            >
+              <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
+            </div>
+          );
+        })}
+      </div>
+
+      <div className="w-[90%] flex-col justify-start items-center gap-[60px] flex mx-auto py-20 xl:py-10">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3">
           {translation?.cards?.map((el, i) => {
             return (
               <Cards
@@ -47,6 +47,10 @@ const Degustazioni = ({ translation }) => {
                 descrizione={el?.descrizione}
                 price={el?.price}
                 link={el.link}
+                bed={el.bed}
+                wine={el.wine}
+                fork={el.fork}
+                tempo={el.tempo}
               />
             );
           })}

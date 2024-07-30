@@ -165,7 +165,7 @@ const Terroir = ({ translation }) => {
                 src="/assets/terroir/1.webp"
                 alt="vendemmia"
                 fill
-                className="object-cover object-top"
+                className="object-cover object-top rounded-sm"
               />
             </div>
           </SwiperSlide>
@@ -175,7 +175,7 @@ const Terroir = ({ translation }) => {
                 src="/assets/terroir/2.jpg"
                 alt="vendemmia"
                 fill
-                className="object-cover object-right"
+                className="object-cover object-right rounded-sm"
               />
             </div>
           </SwiperSlide>
@@ -185,7 +185,7 @@ const Terroir = ({ translation }) => {
                 src="/assets/terroir/3.jpg"
                 alt="vendemmia"
                 fill
-                className="object-cover"
+                className="object-cover rounded-sm"
               />
             </div>
           </SwiperSlide>
@@ -195,7 +195,7 @@ const Terroir = ({ translation }) => {
                 src="/assets/terroir/4.JPG"
                 alt="vendemmia"
                 fill
-                className="object-cover"
+                className="object-cover rounded-sm"
               />
             </div>
           </SwiperSlide>
@@ -205,7 +205,7 @@ const Terroir = ({ translation }) => {
                 src="/assets/terroir/5.jpg"
                 alt="vendemmia"
                 fill
-                className="object-cover"
+                className="object-cover rounded-sm"
               />
             </div>
           </SwiperSlide>
@@ -215,7 +215,7 @@ const Terroir = ({ translation }) => {
                 src="/assets/terroir/6.jpg"
                 alt="vendemmia"
                 fill
-                className="object-cover"
+                className="object-cover rounded-sm"
               />
             </div>
           </SwiperSlide>
@@ -225,7 +225,7 @@ const Terroir = ({ translation }) => {
                 src="/assets/terroir/7.jpg"
                 alt="vendemmia"
                 fill
-                className="object-cover"
+                className="object-cover rounded-sm"
               />
             </div>
           </SwiperSlide>
@@ -250,7 +250,7 @@ const Terroir = ({ translation }) => {
                     src={m.img}
                     alt="vendemmia"
                     fill
-                    className="object-cover"
+                    className="object-cover rounded-sm"
                   />
                 </div>
                 <p className="text-2xl text-main">{m.name}</p>
