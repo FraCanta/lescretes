@@ -38,7 +38,7 @@ export default function Storia({ translation }) {
 
       <div className="w-[90%] mx-auto py-10">
         <VideoPlayer
-          video="/video/video_spot.mp4"
+          video="/video/spot_lescretes.mp4"
           poster="/assets/poster2.png"
         />
       </div>
