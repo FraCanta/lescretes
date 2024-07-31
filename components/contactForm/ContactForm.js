@@ -16,24 +16,9 @@ const countries = defaultCountries.filter((country) => {
   return ["it", "us", "gb", "fr", "de"].includes(iso2);
 });
 
-const ContactForm = () => {
+const ContactForm = ({ translation, inputs, setInputs }) => {
   const [phone, setPhone] = useState("");
-  const contactReasons = [
-    { value: "tour", label: "Tour della cantina" },
-    { value: "degustazione", label: "Degustazione vini" },
-    { value: "informazioni", label: "Richiesta informazioni" },
-    { value: "altro", label: "Altro" },
-  ];
   const [privacyChecked, setPrivacyChecked] = useState(false);
-  const [inputs, setInputs] = useState({
-    name: "",
-    surname: "",
-    email: "",
-    phone: "",
-    message: "",
-    reason: "",
-    nation: "",
-  });
 
   const options = countryList().getData();
 
@@ -104,7 +89,7 @@ const ContactForm = () => {
   const handleReasonChange = (selectedOption) => {
     setInputs((prev) => ({
       ...prev,
-      reason: selectedOption ? selectedOption.label : "",
+      reason: selectedOption ? selectedOption.value : "",
     }));
   };
 
@@ -152,7 +137,7 @@ const ContactForm = () => {
       <div>
         <div className="grid grid-cols-2 gap-6 xl:gap-8">
           <div className="flex flex-col col-span-2 gap-2 lg:col-span-1">
-            <label className="font-bold text-main">Nome*</label>
+            <label className="font-bold text-main">{translation.name}</label>
             <input
               id="name"
               type="text"
@@ -165,7 +150,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="flex flex-col col-span-2 gap-2 lg:col-span-1">
-            <label className="font-bold text-main">Cognome*</label>
+            <label className="font-bold text-main">{translation.surname}</label>
             <input
               id="surname"
               type="text"
@@ -193,7 +178,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="flex flex-col col-span-2 gap-2 lg:col-span-1">
-            <label className="font-bold text-main">Numero*</label>
+            <label className="font-bold text-main">{translation.numero}</label>
             <PhoneInput
               id="phone"
               name="phone"
@@ -211,23 +196,28 @@ const ContactForm = () => {
             />
           </div>
           <div className="flex flex-col col-span-2 gap-2 lg:col-span-1">
-            <label className="font-bold text-main">Motivo del contatto*</label>
+            <label className="font-bold text-main">
+              {translation.reason.reasonTitle}
+            </label>
             <Select
-              options={contactReasons}
-              value={contactReasons.find(
-                (option) => option.label === inputs.reason
+              options={translation.reason.reasonList.map((option) => ({
+                value: option.value,
+                label: option.name,
+              }))}
+              value={translation.reason.reasonList.find(
+                (option) => option.value === inputs.reason
               )}
               onChange={handleReasonChange}
               components={{ ClearIndicator }}
               isClearable
-              className=" !border-none"
+              className="!border-none"
               placeholder=""
               styles={customStyles}
               required
             />
           </div>
           <div className="flex flex-col col-span-2 gap-2 lg:col-span-1">
-            <label className="font-bold text-main">Nazionalità*</label>
+            <label className="font-bold text-main">{translation.nation}</label>
 
             <Select
               options={options}
@@ -242,7 +232,9 @@ const ContactForm = () => {
             />
           </div>
           <div className="flex flex-col col-span-2 gap-2">
-            <label className="font-bold text-main">Messaggio*</label>
+            <label className="font-bold text-main">
+              {translation.messaggio.name}
+            </label>
             <textarea
               id="message"
               onChange={handleChange}
@@ -250,7 +242,7 @@ const ContactForm = () => {
               cols="10"
               rows="5"
               className="w-full py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
-              placeholder="Scrivi il tuo messaggio..."
+              placeholder={translation.messaggio.placeholder}
               required
             ></textarea>
           </div>
@@ -266,14 +258,11 @@ const ContactForm = () => {
             checked={privacyChecked}
           />
           <label htmlFor="privacy">
-            <span className="opacity-75">
-              * Dichiaro di aver letto e compreso la{" "}
-            </span>{" "}
-            <strong>
-              <Link target="_blank" href="/privacy">
-                politica sulla privacy*
-              </Link>{" "}
-            </strong>{" "}
+            <span
+              dangerouslySetInnerHTML={{
+                __html: translation.check,
+              }}
+            ></span>{" "}
           </label>
         </div>
 
@@ -282,7 +271,7 @@ const ContactForm = () => {
             type="submit"
             className="cursor-pointer flex items-center text-lg xl:text-xl gap-2 text-main w-full max-w-max text-center lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 "
           >
-            Invia richiesta <Icon icon="ri:mail-send-line" />
+            {translation.submit} <Icon icon="ri:mail-send-line" />
           </button>
         </div>
       </div>

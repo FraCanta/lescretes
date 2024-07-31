@@ -1,0 +1,105 @@
+{
+  "contatti": {
+    "hero": {
+      "title": "Come contattarci e raggiungerci"
+    },
+    "references": {
+      "title": "Contattaci",
+      "phone": "Telefono",
+      "address": "Indirizzo",
+      "mapdirect": "Indicazioni stradali",
+      "listRef": {
+        "title": "Altri contatti*",
+        "list": [
+          {
+            "name": "- Commerciale Estero:",
+            "value": "ordini@lescretes.it"
+          },
+          {
+            "name": "- Commerciale Italia:",
+            "value": "corti.giulio@gmail.com"
+          },
+          {
+            "name": "- Contabilità:",
+            "value": "contabilita@lescretes.it"
+          },
+          {
+            "name": "- Enologo:",
+            "value": "enologo@lescretes.it"
+          },
+          {
+            "name": "- Guide, contatti stampa e riviste:",
+            "value": "elena@lescretes.it"
+          },
+          {
+            "name": "- Magazzino:",
+            "value": "magazzino@lescretes.it"
+          },
+          {
+            "name": "- Produzione, fornitori, settore agronomico:",
+            "value": "eleonora@lescretes.it"
+          },
+          {
+            "name": "- Segreteria, ordini, spedizioni e fatturazione:",
+            "value": "ordini@lescretes.it"
+          }
+        ]
+      }
+    },
+    "formContact": {
+      "title": "Preferisci mandarci un messaggio?",
+      "name": "Nome*",
+      "surname": "Cognome*",
+      "numero": "Numero*",
+      "reason": {
+        "reasonTitle": "Motivo del contatto*",
+        "reasonList": [
+          {
+            "name": "Commerciale estero",
+            "value": "commerciale estero"
+          },
+          {
+            "name": "Commerciale Italia",
+            "value": "commerciale italia"
+          },
+          {
+            "name": "Amministrativo",
+            "value": "amministrativo"
+          },
+          {
+            "name": "Informazioni enologiche",
+            "value": "informazioni enologiche"
+          },
+          {
+            "name": "Guide, contatti stampa e riviste",
+            "value": "guide, contatti stampa e riviste"
+          },
+          {
+            "name": "Ordini, spedizioni e fatturazione",
+            "value": "ordini, spedizioni e fatturazione"
+          },
+          {
+            "name": "Magazzino",
+            "value": "magazzino"
+          },
+
+          {
+            "name": "Richiesta informazioni",
+            "value": "richiesta informazioni"
+          },
+          {
+            "name": "Altro",
+            "value": "altro"
+          }
+        ]
+      },
+      "nation": "Nazionalità*",
+      "messaggio": {
+        "name": "Messaggio*",
+        "placeholder": "Scrivi il tuo messaggio..."
+      },
+      "check": "* Dichiaro di aver letto e compreso la <a class='font-bold' target='_blank'>politica sulla privacy*</a>",
+      "submit": "Invia richiesta"
+    }
+  }
+}
