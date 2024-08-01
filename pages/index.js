@@ -22,6 +22,52 @@ export default function Home({ translation, locale }) {
           <title>{translation.seo.title}</title>
           <meta name="author" content="Les Crêtes" />
           <meta name="description" content={translation.seo.description} />
+          <meta name="robots" content="index, follow" />
+
+          <link
+            rel="canonical"
+            href={`https://www.lescretes.it/${locale.locale}`}
+          />
+          <link
+            rel="alternate"
+            hrefLang="it"
+            href="https://www.lescretes.it/it"
+          />
+          <link
+            rel="alternate"
+            hrefLang="en"
+            href="https://www.lescretes.it/en"
+          />
+          <link
+            rel="alternate"
+            hrefLang="de"
+            href="https://www.lescretes.it/de"
+          />
+          <link
+            rel="alternate"
+            hrefLang="fr"
+            href="https://www.lescretes.it/fr"
+          />
+          <link
+            rel="alternate"
+            hrefLang="jp"
+            href="https://www.lescretes.it/jp"
+          />
+          <link
+            rel="alternate"
+            hrefLang="ko"
+            href="https://www.lescretes.it/ko"
+          />
+          <link
+            rel="alternate"
+            hrefLang="ru"
+            href="https://www.lescretes.it/ru"
+          />
+          <link
+            rel="alternate"
+            hrefLang="zh"
+            href="https://www.lescretes.it/zh"
+          />
 
           <meta
             property="og:url"
@@ -39,6 +85,10 @@ export default function Home({ translation, locale }) {
             property="og:image"
             content="https://lescretes-liard.vercel.app/assets/seo/cover_home.png"
           />
+          <meta property="og:image:alt" content="Les Crêtes cover image" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
+
           <meta name="twitter:card" content="summary_large_image" />
           <meta property="twitter:domain" content="lescretes.it" />
           <meta property="twitter:url" content="https://www.lescretes.it/" />
@@ -51,6 +101,7 @@ export default function Home({ translation, locale }) {
             name="twitter:image"
             content="https://lescretes-liard.vercel.app/assets/seo/cover_home.png"
           />
+          <meta name="twitter:image:alt" content="Les Crêtes cover image" />
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
