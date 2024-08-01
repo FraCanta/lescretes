@@ -102,7 +102,7 @@
         },
 
         "cardDesc": "Tasting of three wines at the Wine Refuge and visit to the cellar and the wine cellar",
-        "durata": { "title": "Time", "tempo": "1 h" },
+        "durata": { "title": "Time", "tempo": "60'" },
         "visita": { "title": "Winery tour", "cantina": "yes" },
         "lingua": { "title": "Language", "tipo": " italian, english, french" },
         "gradi": { "title": "Cellar temperature", "tipo": "14°" },
@@ -161,7 +161,7 @@
           "title": "Tasting",
           "vini": "5 wines"
         },
-        "durata": { "title": "Time", "tempo": "1 h 30" },
+        "durata": { "title": "Time", "tempo": "90'" },
 
         "visita": { "title": "Winery tour", "cantina": "yes" },
         "lingua": { "title": "Language", "tipo": " italian, english, french" },
@@ -227,7 +227,7 @@
           "title": "Tasting",
           "vini": "5 wines + 6 local cheeses"
         },
-        "durata": { "title": "Time", "tempo": "1 h 30" },
+        "durata": { "title": "Time", "tempo": "90'" },
         "visita": { "title": "Winery tour", "cantina": "yes" },
         "lingua": { "title": "Language", "tipo": " italian, english, french" },
         "gradi": { "title": "Cellar temperature", "tipo": "14°" },
@@ -293,7 +293,7 @@
           "title": "Tasting",
           "vini": "5 wines"
         },
-        "durata": { "title": "Time", "tempo": "1 h 45" },
+        "durata": { "title": "Time", "tempo": "105'" },
         "visita": { "title": "Winery tour", "cantina": "yes" },
         "lingua": { "title": "Language", "tipo": " italian, english, french" },
         "gradi": { "title": "Cellar temperature", "tipo": "14°" },
@@ -361,7 +361,7 @@
           "title": "Tasting",
           "vini": "5 wines"
         },
-        "durata": { "title": "Time", "tempo": "2 h" },
+        "durata": { "title": "Time", "tempo": "120'" },
         "visita": {
           "title": "Winery tour",
           "cantina": "yes + visit to the vineyards of Côteau la Tour"
@@ -436,7 +436,7 @@
           "title": "Tasting",
           "vini": "5 wines + local cold cuts and cheeses"
         },
-        "durata": { "title": "Time", "tempo": "2 h" },
+        "durata": { "title": "Time", "tempo": "120'" },
         "visita": {
           "title": "Winery tour",
           "cantina": "yes + visit to the vineyard"
@@ -512,7 +512,7 @@
           "title": "Tasting",
           "vini": "5 wines + local cold cuts and cheeses"
         },
-        "durata": { "title": "Time", "tempo": "1 h 30" },
+        "durata": { "title": "Time", "tempo": "90'" },
 
         "visita": { "title": "Winery tour", "cantina": "yes" },
         "lingua": { "title": "Language", "tipo": " italian, english, french" },
