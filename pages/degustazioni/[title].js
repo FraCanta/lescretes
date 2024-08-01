@@ -165,6 +165,15 @@ const SingleDeg = ({ deg, others }) => {
                 </li>
               ))}
             </ul>
+            <div className="flex flex-col gap-4 p-4 my-10 bg-second">
+              <h2 className="text-main text-3xl xl:text-2xl font-bold  leading-[46px]">
+                In opzione con questa degustazione
+              </h2>
+              <p className="text-lg fxl:text-2xl font-normal  !leading-[33.2px] text-main">
+                La nostra selezione di salumi e formaggi della gastronomia
+                locale al costo aggiuntivo di €14.00 iva inclusa / persona
+              </p>
+            </div>
           </div>
           {deg?.descrizione?.asterisco ? (
             <p className="text-main/60">{deg?.descrizione?.asterisco}</p>
