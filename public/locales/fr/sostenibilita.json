@@ -1,32 +1,32 @@
 {
   "sostenibilita": {
     "hero": {
-      "title": "Sostenibilità: Un Valore Intrinseco alla Nostra Identità",
+      "title": "Sustainability: A Value Intrinsic to Our Identity",
       "img": "/assets/lc2.webp"
     },
     "garanzia": {
-      "title": "Garanzia di Qualità e Tracciabilità per l'Agricoltura Integrata in Italia",
-      "descrizione": "Il Sistema di Qualità Nazionale di Produzione Integrata (SQNPI) interessa la categoria Prodotto Agroalimentare e si applica a tutte le aziende del territorio nazionale italiano che utilizzano tecniche di produzione agricola integrata. Si pone l’obiettivo di valorizzare ed identificare le produzioni vegetali, ottenute in conformità ai disciplinari regionali di produzione agricola integrata aggiungendo valore al prodotto nei confronti della GDO e del consumatore per quanto riguarda sicurezza, qualità e processi di coltivazione rispettosi dell’ambiente e della salute dell’uomo."
+      "title": "Quality Assurance and Traceability for Integrated Agriculture in Italy",
+      "descrizione": "The National Quality System for Integrated Production (SQNPI) concerns the category Agri-food and applies to all farms in the national territory of Italy that use integrated agricultural production techniques. The aim is to enhance and identify plant products, obtained in accordance with the regional integrated agricultural production specifications adding value to the product vis-à-vis the GDO and the consumer as regards safety, Quality and cultivation processes that are respectful of the environment and human health."
     },
     "verde": {
-      "title": "Perché consumare meno è verde, ma utilizzare impianti efficienti è verde dentro!",
-      "descrizione": "Il nostro impegno è differenziarci con comportamenti responsabili a favore del territorio e del contesto sociale e ambientale. Les Crêtes è orgogliosa di essere ancora e sempre verde dentro! Ma utilizzare energia verde è un inizio. Ma conoscere anche l’impianto rinnovabile da cui proviene e la fonte usata per produrla tra vento, acqua e sole, allora si può dire con certezza di utilizzare solo energia rinnovabile al 100%.",
-      "title2": "Impianti fotovoltaici",
-      "descrizione2": "Dal 2007 ci impegniamo nella produzione di energia pulita grazie a due impianti fotovoltaici. Un percorso che Les Crêtes prende a cuore per ridurre ulteriormente il nostro impatto ambientale.",
-      "tuv": "Certificato TUV",
-      "provenienza": "Certificato di provenienza"
+      "title": "Because consuming less is green, but using efficient plants is green inside!",
+      "descrizione": "Our commitment is to differentiate ourselves with responsible behavior in favor of the territory and the social and environmental context. Les Crêtes is proud to be still and always green inside! But using green energy is a start. But knowing also the renewable plant from which it comes and the source used to produce it between wind, water and sun, then you can say with certainty that you use only 100% renewable energy.",
+      "title2": "Photovoltaic systems",
+      "descrizione2": "Since 2007 we have been producing clean energy with two photovoltaic systems. A path that Les Crêtes takes to heart in order to further reduce our environmental impact.",
+      "tuv": "TUV certificate",
+      "provenienza": "Certificate of origin"
     },
     "packaging": {
-      "title": "Packaging sostenibile",
-      "descrizione": "La sostenibilità si riflette nella selezione dei packaging più ecologici per le nostre produzioni di alta qualità. La scelta del tappo e della bottiglia è cruciale non solo per mantenere l'eccellenza del nostro vino, ma anche per proteggere l'ambiente.",
+      "title": "Sustainable packaging",
+      "descrizione": "Sustainability is reflected in the selection of the most environmentally friendly packaging for our high-quality products. The choice of cap and bottle is crucial not only to maintain the excellence of our wine, but also to protect the environment.",
       "tappo": {
-        "title": "Il primo tappo da vino al mondo senza impronta di carbonio",
-        "descrizione": "Scegliamo tappi Select Bio 0% Carbon Footprint, 100% organic biodegradabili, rinnovabili di origine vegetale 100% riciclabili. Adatti per aziende vinicole che, come noi, ricercano una tecnologia all'avanguardia, consapevolezza ambientale e una gestione straordinaria dell'ossigeno.",
-        "cta": "Nomacorc - Linea Select Bio"
+        "title": "The world’s first carbon-free wine stopper",
+        "descrizione": "We choose caps Select Bio 0% Carbon Footprint, 100% biodegradable organic, renewable of vegetable origin 100% recyclable. Suitable for wineries that, like us, are looking for cutting-edge technology, environmental awareness and extraordinary oxygen management.",
+        "cta": "Nomacorc - Select Bio Line"
       },
       "bottiglie": {
-        "title": "Bottiglie leggere che aiutano l'ambiente",
-        "descrizione": "Per contribuire alla riduzione delle nostre emissioni di CO2, adottiamo bottiglie sempre più leggere. Questa scelta non solo diminuisce il peso e, di conseguenza, il consumo di energia durante il trasporto, ma riduce anche il quantitativo di materiali utilizzati, limitando così l'impatto ambientale complessivo. Ogni bottiglia leggera rappresenta un passo verso un futuro più sostenibile, contribuendo a preservare le risorse naturali e a minimizzare l'impronta ecologica delle nostre produzioni."
+        "title": "Lightweight bottles that help the environment",
+        "descrizione": "To help reduce our CO2 emissions, we are adopting increasingly lightweight bottles. This choice not only reduces the weight and, consequently, the energy consumption during transport, but also reduces the quantity of materials used, The overall environmental impact is thus limited. Each light bottle represents a step towards a more sustainable future, helping to preserve natural resources and minimize the ecological footprint of our productions."
       }
     }
   }

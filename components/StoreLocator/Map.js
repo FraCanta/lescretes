@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import iconMarkerShadow from "leaflet/dist/images/marker-shadow.png";
@@ -7,14 +7,14 @@ import Link from "next/link";
 const Map = ({ store, activeStore }) => {
   const initialZoom = window.innerWidth <= 768 ? 5 : 6;
   const position = [41.87194, 12.56738];
-
+  const [streetView, setStreetView] = useState(null);
   useEffect(() => {
     delete L.Icon.Default.prototype._getIconUrl;
     L.Icon.Default.mergeOptions({
       iconRetinaUrl: "/assets/puntatore.svg",
       iconUrl: "/assets/puntatore.svg",
       shadowUrl: iconMarkerShadow.src,
-      iconSize: [38, 95],
+      iconSize: [33, 90],
     });
   }, []);
 

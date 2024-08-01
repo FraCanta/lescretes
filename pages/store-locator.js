@@ -181,7 +181,7 @@ const Store = ({ translation }) => {
                 onChange={handleSearch}
                 onFocus={handleFocus}
                 onBlur={handleBlur}
-                placeholder="Cerca per città"
+                placeholder={translation.search}
                 className={`p-2 pl-12 pr-10 w-full bg-transparent border rounded border-main text-main transition-all duration-300 ${
                   inputFocus || searchQuery ? "border-main" : "border-main/50"
                 }`}
@@ -291,13 +291,13 @@ const Store = ({ translation }) => {
 
 export default Store;
 
-export async function getStaticProps(context, locale) {
+export async function getStaticProps(locale, context) {
   let obj;
-
-  switch (locale) {
+  switch (locale.locale) {
     case "it":
       obj = storeIT;
       break;
+
     case "en":
       obj = storeEN;
       break;

@@ -1,25 +1,25 @@
 {
   "terroir": {
     "hero": {
-      "title": "Il Terroir: Un Tesoro Protetto tra le Grandi Alpi e le Vigne Rigogliose"
+      "title": "The Terroir: A Protected Treasure between the Great Alps and the Lush Vineyards"
     },
     "section1": {
-      "title": "Valle d'Aosta: La Gemma delle Alpi",
+      "title": "Valle d'Aosta: The Jewel of the Alps",
       "intro": [
         {
-          "p": "Nel cuore delle Alpi, tra maestose montagne come il Monte Bianco, il Cervino, il Monte Rosa e il Gran Paradiso, si trova la Valle d'Aosta, la più piccola regione d'Italia."
+          "p": "Located in the heart of the Alps and set between 'four large' as the Mont Blanc, the Matterhorn, the Monte Rosa and the Gran Paradiso, Valle d'Aosta is the smallest of the regions of Italy."
         },
         {
-          "p": "La Valle d’Aosta è la regione europea con la maggior concentrazione di aree protette. Il 13% della superficie totale è occupata da parchi, riserve naturali e oasi. La maggiore estensione protetta è quella del Parco Nazionale Gran Paradiso, seguita dal Parco Regionale Mont Avic. Orograficamente è divisa in due dalla Dora Baltea che scorre nella valle centrale in direzione ovest-est, ed evidenzia due versanti, uno ombroso esposto a nord detto envers nel dialetto locale, e uno assolato e arido esposto a sud detto adret. Nella Valle centrale confluiscono una ventina di valli laterali orientate lungo l’asse nord-sud."
+          "p": "Valle d'Aosta is the European region with the greatest concentration of protected areas. 13% of the total area is occupied by parks, nature reserves and oases. The largest protected area is the Gran Paradiso National Park, followed by the Mont Avic Regional Park. Orographically it is divided in two by the Dora Baltea that flows in the central valley in a west-east direction, and highlights two sides, one shady exposed to the north called envers in the local dialect, and one sunny and arid facing south called adret. In the central Valley converge about twenty lateral valleys oriented along the north-south axis."
         },
         {
-          "p": "In questo affascinante territorio, la vite prospera sui terrazzamenti ventilati che si snodano lungo la valle centrale e si arrampicano sui pendii montuosi, trovando un habitat ideale per crescere e dare vita a vini pregiati."
+          "p": "The vine in this territory finds its ideal habitat on the ventilated terraces that extend along the central valley and climb up close to the mountain."
         }
       ]
     },
     "section2": {
-      "title": "La denominazione di origine Valle d'Aosta: zone di produzione",
-      "paragrafo": "La cantina Les Crêtes si trova ad Aymavilles, ai piedi del Monte Bianco, con la sua sala degustazione iRifugio del Vino' ed il suo vigneto più esteso dominato da una torre medievale."
+      "title": "The Aosta Valley: production areas",
+      "paragrafo": "Les Crêtes winery is located in Aymavilles, at the foot of Mont Blanc, with its tasting room iRifugio del Vino and its largest vineyard dominated by a medieval tower."
     },
     "section3": [
       {
@@ -40,30 +40,30 @@
       }
     ],
     "section4": {
-      "title": "Ciò che conta in campo",
-      "descrizione": "Rispetto del territorio e dell'ambiente: vigneti integrati nell'ecosistema alpino con interventi minimi. Pratiche viticole naturali che proteggono l'habitat originario del vigneto (gestione agronomica basata sul rispetto per la vigna, il terroir e la natura a tutela dell'ambiente).",
-      "cta": "Scopri il nostro impegno"
+      "title": "What matters in the field",
+      "descrizione": "Respect for the territory and the environment: vineyards integrated into the alpine ecosystem with minimal interventions. Natural viticultural practices that protect the original habitat of the vineyard (agronomic management based on respect for the vineyard, the terroir and nature to protect the environment).",
+      "cta": "Discover our commitment"
     },
     "section5": {
-      "title": "Comincia la tua esperienza con Les Crêtes",
+      "title": "Start your experience with Les Crêtes",
       "menupage": [
         {
           "img": "/assets/degustazione.webp",
-          "name": "Le degustazioni",
-          "cta": "Scopri di più",
+          "name": "Tasting",
+          "cta": "Discover more",
           "link": "/le-degustazioni"
         },
         {
           "img": "/assets/vini.webp",
-          "name": "I nostri vini",
+          "name": "Our wines",
 
-          "cta": "Scopri di più",
+          "cta": "Discover more",
           "link": "/i-vini"
         },
         {
           "img": "/assets/tonicomenu.webp",
-          "name": "DeVin Cosmetica",
-          "cta": "Scopri di più",
+          "name": "DeVin Cosmetic",
+          "cta": "Discover more",
           "link": "/cosmesi"
         }
       ]

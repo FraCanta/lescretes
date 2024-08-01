@@ -1,78 +1,78 @@
 {
   "rifugio": {
     "hero": {
-      "title": "Le Refuge du Vin : salle de dégustation émotionnelle"
+      "title": "The Wine Haven: A Sanctuary for Emotional Tasting"
     },
     "section1": [
       {
-        "title": "Le bâtiment",
+        "title": "The building",
         "descrizione": [
           {
-            "p": "Le Rifugio del Vino est un bâtiment d’environ 170 mètres carrés, construit à côté de la cave historique de l’entreprise. Un projet ambitieux : union du vin, de la culture de la montagne et de l’architecture. Le projet, de l’architecte Domenico Mazza de Courmayeur, a reçu une mention spéciale dans le concours international 'Les cathédrales du vin' de la revue Il Gambero Rosso, événement collatéral de la biennale de Venise."
+            "p": "The Rifugio del Vino is a building of about 170 square meters, built next to the historic winery of the company. An ambitious project: the union of wine, mountain culture and architecture. The project, by the architect Domenico Mazza of Courmayeur, had a special mention in the international competition 'Le cattedrali del Vino' of the magazine Il Gambero Rosso, collateral event of the biennial in Venice."
           },
           {
-            "p": "L’impact est impressionnant, avec un toit qui rappelle les montagnes et une structure dans laquelle les vitraux dominent. En entrant, vous pourrez vivre une expérience sensorielle, avec une zone dédiée aux essences et une bibliothèque avec des livres de la Vallée d’Aoste et du vin, tout cela dans un endroit où vous pouvez vous asseoir, lire, boire un verre et observer la vue."
+            "p": "The impact is impressive, with a roof that resembles the mountains in shape and with a structure dominated by the windows. Entering you can live a sensory experience, with an area dedicated to essences and a library with books of the Aosta Valley and wine, all this in a place where you can sit, read, drink a glass and observe the view."
           },
           {
-            "p": "Le choix de l’architecture et du nom <a href='/rifugio' title='Pagina rifugio' class='underline font-bold'>'Rifugio'</a> a une double signification : un rappel aux montagnes, constituant ainsi un refuge alpin à l’architecture typique de haute montagne. Et puis aussi le concept de refuge entendu comme accueil."
+            "p": "The choice of architecture and the name <a href='/rifugio' class='font-bold underline' title='Pagina del Rifugio'>'Rifugio'</a> has a double meaning: a reference to the mountains, thus constituting an alpine refuge with typical high mountain architecture. And then also the concept of refuge as a welcome."
           }
         ]
       },
       {
-        "title": "Le style architectural",
+        "title": "The architectural style",
         "descrizione": [
           {
-            "p": "L’architecte a réalisé un bâtiment à l’aspect contemporain, qui naît de la transformation d’un précédent projet d’agrandissement déjà initié par la propriété puis révisé. L’architecte Mazza a donc dû penser au bâtiment à partir de quelques structures en béton armé déjà présentes qui ont fortement influencé l’installation. La cave ressemble à un grand auvent en bois lamellé-collé, recouvert de tôle et avec des tampons verticaux presque exclusivement vitrés."
+            "p": "The architect has created a building with a contemporary look, born from the transformation of a previous expansion project already started by the property and then revised. The architect Mazza therefore had to think about the building starting from some reinforced concrete structures already present that have strongly influenced the plant. The cellar appears as a large laminated wood canopy, covered in sheet metal and with vertical infills almost exclusively glazed."
           },
           {
-            "p": "Le profil complexe de la construction - qui de loin rappelle presque celui d’un massif montagneux - naît de l’interpénétration de plusieurs volumes simples inclinés entre eux. Lorsque la nuit tombe, l’utilisation judicieuse de la transparence et de l’éclairage ne fait qu’accroître le caractère déconstructioniste de cette œuvre. Sous cette grande cour couverte se trouvent les différents milieux de la production, de la vente et même du loisir maintenus ensemble par un intéressant parcours de visite."
+            "p": "The complex profile of the building - which from a distance almost resembles that of a mountain massif - comes from the interpenetration of several simple volumes inclined to each other. When evening falls, the wise use of transparencies and lighting only increases the deconstructivist character of this work. Under this large covered courtyard there are the different environments of production, sales and even loisir held together by an interesting tour."
           }
         ]
       }
     ],
     "section2": {
-      "title": "Informations",
+      "title": "Insights",
       "links": [
         {
-          "name": "Une révérence au château",
+          "name": "A bow to the castle",
           "link": "/pdf/Inchino_al_castello.pdf"
         },
         {
-          "name": "Vivre les Alpes",
+          "name": "Living the Alps",
           "link": "/pdf/Vivere-Le-Alpi-Art.-Domenico.pdf"
         },
         {
-          "name": "Article sur 'Images'",
+          "name": "Article on 'Images'",
           "link": "/pdf/Articolo_Images.pdf"
         }
       ]
     },
     "section3": {
       "title": "Business meetings",
-      "descrizione": "Les caves Les Crêtes deviennent le cadre idéal pour vos réunions d’entreprise, congrès, conférences de presse et bien plus encore. Notre nouvelle salle équipée est à la disposition de ceux qui souhaitent donner une touche d’originalité aux réunions de travail, conférences, cours, séminaires ou autres moments moins formels. Sur demande, nous organisons des pauses-café, déjeuners ou dîners, en utilisant la collaboration de professionnels de confiance.",
+      "descrizione": "Les Crêtes wineries become the ideal setting for business meetings, conferences, press conferences and much more. Our new equipped room is available to those who want to give a touch of originality to business meetings, conferences, courses, seminars or other less formal moments. Upon request we organize coffee breaks, lunches or dinners, making use of the collaboration of trusted professionals.",
       "list": [
         {
-          "name": "Infos et Coûts:",
+          "name": "Info and Costs:",
           "span": "0165 902274 – info@lescretes.it"
         },
         {
-          "name": "Restauration:",
-          "span": "60 places assises"
+          "name": "Catering:",
+          "span": "60 seats"
         },
         {
-          "name": "Équipement pour cours/conférences/presse:",
-          "span": "80 places assises"
+          "name": "Equipment for front-facing lessons/conferences/press:",
+          "span": "80 seats"
         }
       ]
     },
     "gallery": {
-      "title": "Un regard sur le Refuge"
+      "title": "A look at the Rifugio"
     },
     "banner": {
-      "title": "Faites ou offrez une dégustation aux Les Crêtes",
-      "paragraph": "Offrez une expérience unique et originale en choisissant une dégustation parmi celles disponibles sur notre site ou, si vous avez des besoins particuliers, contactez-nous pour créer votre cadeau personnalisé.",
-      "btn1": "Réservez maintenant",
-      "btn2": "En savoir plus",
+      "title": "Don’t miss a unique experience at Les Crêtes",
+      "paragraph": "Give a unique and original experience by choosing a tasting among those available on our site or, if you have special needs, contact us to create your personalized gift.",
+      "btn1": "Book Now",
+      "btn2": "Learn more",
       "link1": "/contatti",
       "link2": "/degustazioni"
     }

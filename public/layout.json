@@ -78,39 +78,39 @@
     },
     "fr": {
       "storia": {
-        "name": "Identité",
+        "name": "Identity",
         "sottomenu": [
           {
             "name": "The Charrère family",
             "imgSrc": "/assets/lc.jpg",
             "link": "/storia",
-            "title": "storia dell'azienda"
+            "title": "The Charrère family"
           },
           {
-            "name": "The refuge of wine",
+            "name": "The Refuge of wine",
             "imgSrc": "/assets/rifugio.webp",
             "link": "/il-rifugio-del-vino",
-            "title": "il rifugio del vino"
+            "title": "The Refuge of wine"
           },
           {
             "name": "The Terroir",
             "imgSrc": "/assets/terroir.webp",
             "link": "/il-terroir",
-            "title": "il terroir"
+            "title": "The Terroir"
           },
           {
-            "name": "La sostenibilità di Les Crêtes",
+            "name": "The sustainability of Les Crêtes",
             "imgSrc": "/assets/lc2.webp",
             "link": "/sostenibilita",
-            "title": "la sostenibilità di Les Crêtes"
+            "title": "The sustainability of Les Crêtes"
           }
         ]
       },
-      "vini": "Vins",
-      "degustazioni": "Dégustations",
-      "news": "Actualités",
-      "cosmesi": "DeVin Cosmétique",
-      "download": "Téléchargements",
+      "vini": "Wines",
+      "degustazioni": "Tastings",
+      "news": "News",
+      "cosmesi": "DeVin Cosmetics",
+      "download": "Download Area",
       "store": "Store Locator",
       "contatti": "Contacts"
     },

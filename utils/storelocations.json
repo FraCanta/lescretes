@@ -1680,6 +1680,30 @@
         "longitudine": "10.343004739262293"
       },
       "provinceCode": "BS"
+    },
+    {
+      "id": 141,
+      "link": "https://maps.app.goo.gl/7CSC64NFQ8mcq6uX8",
+      "name": "L'Angolo Nascosto",
+      "address": "Via Giovanni Battista Monteggia, 2, 20132 Milano MI",
+      "phone": "02 26301354",
+      "location": {
+        "latitudine": "45.500156589489684",
+        "longitudine": "9.244544781597952"
+      },
+      "provinceCode": "MI"
+    },
+    {
+      "id": 142,
+      "link": "https://maps.app.goo.gl/7CSC64NFQ8mcq6uX8",
+      "name": "L'Angolo Nascosto",
+      "address": "Via Giovanni Battista Monteggia, 2, 20132 Milano MI",
+      "phone": "02 26301354",
+      "location": {
+        "latitudine": "45.500156589489684",
+        "longitudine": "9.244544781597952"
+      },
+      "provinceCode": "MI"
     }
   ]
 }

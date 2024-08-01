@@ -262,7 +262,7 @@ const SingleWine = ({ wine, others }) => {
           className="carousel-wrapper"
           breakpoints={{
             360: {
-              slidesPerView: 1.2,
+              slidesPerView: 1,
               spaceBetween: 10,
             },
             768: {

@@ -1,105 +1,106 @@
 {
   "prenotazione": {
     "riepilogo": {
-      "data": "Data",
-      "people": "Partecipanti",
-      "lingua": "Lingua",
-      "tipo": "Tipo",
-      "luogo": "Luogo",
-      "orario": "Orario",
+      "title": "Summary Request for Reservation",
+      "subTitle": "Check your choice before confirming the reservation",
+      "data": "Date:",
+      "people": "Partecipants:",
+      "lingua": "Language:",
+      "tipo": "Type:",
+      "luogo": "Location:",
+      "orario": "Schedule:",
       "gift": {
-        "name": "Regalo",
-        "yes": "Sì",
-        "no": "No"
+        "name": "Gift:",
+        "yes": "yes",
+        "no": "no"
       },
-      "durata": "Durata",
-      "totale": "Totale",
-      "edit": "Modifica"
+      "durata": "Duration:",
+      "totale": "Total:",
+      "edit": "Edit"
     },
     "form": {
-      "title": "Inserisci i dati",
-      "subTitle": "Compila la scheda sottostante per cofermare la tua richiesta di prenotazione",
-      "nome": "Nome*",
-      "cognome": "Cognome*",
+      "title": "Enter data",
+      "subTitle": "Fill in the form below to confirm your booking request",
+      "nome": "Name*",
+      "cognome": "Surname*",
       "email": "example@email.com*",
-      "birth": "Data di nascita*",
-      "city": "Città",
-      "cap": "CAP",
-      "nation": "Nazione",
+      "birth": "Date of birth*",
+      "city": "City",
+      "cap": "ZIP CODE",
+      "nation": "Nation",
       "minori": {
-        "title": "Accompagnati da minori di 18 anni:",
+        "title": "Accompanied by children under 18:",
         "yes": {
-          "accept": "Sì",
-          "subTitle": "Numero di minori:"
+          "accept": "Yes",
+          "subTitle": "Number of children:"
         },
         "no": "No"
       },
       "note": {
-        "title": "Note",
-        "span": "(segnalazioni, intolleranze alimentari ed altre comunicazioni)",
-        "text": "Il tuo messaggio..."
+        "title": "Notes",
+        "span": "(reports, food intolerances and other communications)",
+        "text": "Your message..."
       },
       "termini": {
-        "title": "Termini e condizioni generali",
-
+        "title": "General terms and conditions",
         "sections": [
           {
-            "title": "Condizioni generali di prenotazione di una visita guidata:",
+            "title": "General Booking Conditions for a Guided Tour:",
             "content": [
-              "Tutti i <span class=\"font-bold\">prezzi</span> si intendono <span class=\"font-bold\">IVA inclusa</span>; per gli acquisti online le somme versate in anticipo sono da considerarsi a titolo cauzionale.",
-              "La prenotazione è da considerarsi <span class=\"font-bold\">confermata</span> solo dopo comunicazione <span class=\"font-bold\">scritta</span> (tramite e-mail) da parte di Les Crêtes.",
-              "Si prega di <span class=\"font-bold\">segnalare in anticipo</span> eventuali <span class=\"font-bold\">allergie</span> ed <span class=\"font-bold\">intolleranze</span> <span class=\"font-bold\">alimentari</span>, o particolari esigenze. Se non segnalato in precedenza, si declina qualsiasi responsabilità.",
-              "Le degustazioni sono dedicate a persone di maggiore età, in quanto non è consentito servire alcolici ai <span class=\"font-bold\">minori di 18 anni</span>."
+              "All <span class=\"font-bold\">prices</span> are inclusive of <span class=\"font-bold\">VAT</span>; for online purchases, the amounts paid in advance are considered as a deposit.",
+              "The booking is considered <span class=\"font-bold\">confirmed</span> only after written <span class=\"font-bold\">communication</span> (via email) from Les Crêtes.",
+              "Please <span class=\"font-bold\">notify in advance</span> any <span class=\"font-bold\">allergies</span> and <span class=\"font-bold\">intolerances</span> <span class=\"font-bold\">food</span> or special needs. If not notified in advance, any responsibility is declined.",
+              "Tastings are dedicated to adults, as it is not allowed to serve alcohol to <span class=\"font-bold\">minors under 18</span>."
             ]
           },
           {
-            "title": "Condizioni generali di modifica o cancellazione di prenotazione di una visita guidata:",
+            "title": "General Conditions for Modifying or Canceling a Guided Tour Booking:",
             "content": [
-              "Le <span class=\"font-bold\">modifiche</span> devono essere comunicate per <span class=\"font-bold\">iscritto</span> (tramite e-mail) <span class=\"font-bold\">entro 2 giorni (feriali)</span> dalla data della visita, fornendo <span class=\"font-bold\">nome</span>, <span class=\"font-bold\">cognome</span> e <span class=\"font-bold\">codice di prenotazione</span>:",
+              "Modifications must be communicated in <span class=\"font-bold\">writing</span> (via email) <span class=\"font-bold\">within 2 working days</span> from the date of the visit, providing <span class=\"font-bold\">first name</span>, <span class=\"font-bold\">last name</span>, and <span class=\"font-bold\">booking code</span>:",
               {
                 "subcontent": [
-                  "1 - <span class=\"font-bold\">in caso di diminuzione</span> del numero dei prenotati e di <span class=\"font-bold\">modifica</span> del tipo di degustazione, se comunicato entro il suddetto termine, l’importo corrispondente verrà riaccreditato direttamente sulla <span class=\"font-bold\">carta di credito</span> utilizzata, altrimenti Les Crêtes tratterrà l’importo dovuto.",
-                  "2 - <span class=\"font-bold\">in caso di aumento</span> del numero di prenotati e di <span class=\"font-bold\">modifica</span> del tipo di degustazione, la prenotazione dev’essere confermata da Les Crêtes."
+                  "1 - <span class=\"font-bold\">in case of reduction</span> in the number of booked participants and <span class=\"font-bold\">modification</span> of the type of tasting, if communicated within the mentioned period, the corresponding amount will be credited back directly to the <span class=\"font-bold\">credit card</span> used, otherwise Les Crêtes will retain the due amount.",
+                  "2 - <span class=\"font-bold\">in case of increase</span> in the number of booked participants and <span class=\"font-bold\">modification</span> of the type of tasting, the booking must be confirmed by Les Crêtes."
                 ]
               },
-              "Ogni <span class=\"font-bold\">cancellazione di prenotazione</span> deve essere comunicata per <span class=\"font-bold\">iscritto</span> (tramite e-mail).",
-              "La <span class=\"font-bold\">cancellazione della prenotazione</span> deve pervenire <span class=\"font-bold\">entro 2 giorni</span> (feriali) dalla data della visita, fornendo <span class=\"font-bold\">nome</span>, <span class=\"font-bold\">cognome</span> e <span class=\"font-bold\">codice di prenotazione</span>. Se comunicato entro il suddetto termine, l’importo corrispondente verrà riaccreditato direttamente sulla <span class=\"font-bold\">carta di credito</span> utilizzata, altrimenti Les Crêtes tratterrà l’importo totale.",
-              "Les Crêtes <span class=\"font-bold\">si riserva il diritto di modificare il luogo dell’evento</span> o di <span class=\"font-bold\">cancellare l’evento</span>, in qualsiasi momento, per causa di forza maggiore e/o impossibilità (ivi inclusi i casi, a titolo esemplificativo e non esaustivo, di eventi meteorologici che rendano impossibile l’organizzazione dell’evento, impedimenti causati dall’emergenza Covid-19, ecc.). Ai partecipanti è assicurato il rimborso totale del ticket, tramite il medesimo mezzo di pagamento utilizzato ai fini dell’acquisto, sia che l’evento venga cancellato, sia che la modifica del luogo non permetta all'acquirente di prendere parte alla visita con degustazione."
+              "Any <span class=\"font-bold\">cancellation of booking</span> must be communicated in <span class=\"font-bold\">writing</span> (via email).",
+              "The <span class=\"font-bold\">cancellation of the booking</span> must be received <span class=\"font-bold\">within 2 working days</span> from the date of the visit, providing <span class=\"font-bold\">first name</span>, <span class=\"font-bold\">last name</span>, and <span class=\"font-bold\">booking code</span>. If communicated within the mentioned period, the corresponding amount will be credited back directly to the <span class=\"font-bold\">credit card</span> used, otherwise Les Crêtes will retain the total amount.",
+              "Les Crêtes <span class=\"font-bold\">reserves the right to change the event location</span> or <span class=\"font-bold\">cancel the event</span> at any time, due to force majeure and/or impossibility (including, but not limited to, weather events that make it impossible to organize the event, impediments caused by the Covid-19 emergency, etc.). Participants are guaranteed a full refund of the ticket, using the same payment method used for purchase, whether the event is canceled or the location change prevents the attendee from participating in the tasting tour."
             ]
           },
           {
-            "title": "Norme generali di comportamento per i visitatori:",
+            "title": "General Behavior Rules for Visitors:",
             "content": [
-              "I visitatori sono pregati di presentarsi <span class=\"font-bold\">20 minuti prima</span> dell’inizio della visita, per effettuare il <span class=\"font-bold\">check-in</span>.",
-              "<span class=\"font-bold\">L’orario della visita è prestabilito e non modificabile</span>, nel rispetto della prenotazione del resto del gruppo partecipante.",
-              "L'ingresso ai locali dello stabilimento è consentito solo se <span class=\"font-bold\">accompagnati da personale autorizzato</span>.",
-              "Tutti i visitatori sono pregati di <span class=\"font-bold\">seguire sempre le indicazioni</span> dei propri accompagnatori. In particolare è necessario:",
+              "Visitors are requested to arrive <span class=\"font-bold\">20 minutes before</span> the start of the visit to check-in.",
+              "<span class=\"font-bold\">The visit time is fixed and non-changeable</span>, respecting the reservation of the rest of the participating group.",
+              "Entry to the establishment's premises is allowed only if <span class=\"font-bold\">accompanied by authorized personnel</span>.",
+              "All visitors are requested to <span class=\"font-bold\">always follow the instructions</span> of their guides. In particular, it is necessary to:",
               {
                 "subcontent": [
-                  "Prestare la massima <span class=\"font-bold\">attenzione ai mezzi in movimento</span> (es. carrelli elevatori);",
-                  "<span class=\"font-bold\">In caso di emergenza</span> (incendio, calamità naturale) mantenere la calma, non allontanarsi dall'accompagnatore, seguire le indicazioni fornite dalla guida ed utilizzare le vie di fuga indicate dall'apposita segnaletica."
+                  "Pay maximum <span class=\"font-bold\">attention to moving vehicles</span> (e.g., forklifts);",
+                  "<span class=\"font-bold\">In case of emergency</span> (fire, natural disaster) stay calm, do not leave the guide, follow the guide's instructions and use the escape routes indicated by the appropriate signage."
                 ]
               },
-              "<span class=\"font-bold\">Animali domestici</span>: gli amici a quattro zampe di piccola taglia sono i benvenuti, se all’interno dell’apposito trasportino, per ulteriori informazioni vi preghiamo di contattarci."
+              "<span class=\"font-bold\">Pets</span>: small pets are welcome, if inside the appropriate carrier, for more information please contact us."
             ]
           }
         ],
         "newsletter": {
-          "text": "Acconsento al trattamento dei miei dati personali per finalità di marketing e profilazione da parte di Les Crêtes."
+          "text": "I consent to the processing of my personal data for marketing and profiling purposes by Les Crêtes."
         },
         "condition": {
-          "text": "* Dichiaro di aver letto e compreso i <a href='/termini-e-condizioni-generali' target='_blank'><strong>Termini e le condizioni generali</strong></a>"
+          "text": "* I have read and understand the <a href='/termini-e-condizioni-generali' target='_blank'><strong>General Terms and Conditions</strong></a>"
         },
         "privacy": {
-          "text": "* Dichiaro di aver letto e compreso la <a href='/privacy' target='_blank'><strong>Politica sulla privacy</strong></a> e sui <a href='/informativa-cookie' target='_blank'><strong>cookies</strong></a>"
+          "text": "* I have read and understand the <a href='/privacy' target='_blank'><strong>Privacy Policy</strong></a> and the <a href='/informativa-cookie' target='_blank'><strong>cookies</strong></a>"
         }
       },
-      "sendCta": "Invia richiesta"
+      "sendCta": "Send request"
     },
     "thank": {
-      "title": "Grazie!",
-      "text": "Grazie per la tua richiesta di prenotazione. Controlla tua email per il link di guida.",
-      "cta": "Torna indietro"
+      "title": "Thank You!",
+      "text": "Thank you for your booking request. Check your email for the guide link.",
+      "cta": "Go Back"
     }
   }
 }

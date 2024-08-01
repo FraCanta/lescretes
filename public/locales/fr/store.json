@@ -1,11 +1,12 @@
 {
   "store": {
     "heading": {
-      "title": "Où boire ou acheter des vins de Les Crêtes",
-      "descrizione": "Sur cette page vous pouvez trouver la liste des bars à vin et de la grande distribution qui présentent <a href='/vini' class='font-bold'>nos vins</a>."
+      "title": "Where to drink or buy wines of Les Crêtes",
+      "descrizione": "On this page you can find the list of wine shops and large retailers that present <a href='/vini' class='font-bold'>our wines</a>."
     },
     "map": {
-      "view": "Voir sur la carte"
-    }
+      "view": "View on map"
+    },
+    "search": "Search"
   }
 }

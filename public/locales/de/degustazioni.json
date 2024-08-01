@@ -25,10 +25,10 @@
       },
       {
         "img": "/assets/degustazioni/native.jpeg",
-        "title": "Native Wines Experience",
+        "title": "5 Wines Experience",
         "descrizione": "Tasting of 5 wines from the territory at the wine refuge in the cellar and barricaia",
         "price": "€40,00 VAT included/ person",
-        "link": "/degustazioni/native",
+        "link": "/degustazioni/fivewines",
         "wine": true,
         "fork": true,
         "bed": false,
@@ -149,11 +149,11 @@
         "fork": true,
         "bed": false
       },
-      "native": {
+      "fivewines": {
         "img": "/assets/degustazioni/native.jpg",
         "seoImg": "/assets/seo/native.png",
 
-        "name": "Native Wines Experience",
+        "name": "5 Wines Experience",
         "title": "native",
         "cardDesc": "Tasting of 5 wines from the territory at the wine refuge in the cellar and barricaia",
 

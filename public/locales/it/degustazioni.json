@@ -25,10 +25,10 @@
       },
       {
         "img": "/assets/degustazioni/native.jpeg",
-        "title": "Native Wines Experience",
+        "title": "5 Wines Experience",
         "descrizione": "Degustazione di 5 vini del territorio presso il rifugio dei vini in cantina e barricaia",
         "price": "€40,00 iva inclusa / persona",
-        "link": "/degustazioni/native",
+        "link": "/degustazioni/fivewines",
         "wine": true,
         "fork": true,
         "bed": false,
@@ -150,11 +150,11 @@
         "wine": true,
         "fork": false
       },
-      "native": {
+      "fivewines": {
         "img": "/assets/degustazioni/native.jpg",
         "seoImg": "/assets/seo/native.png",
 
-        "name": "Native Wines Experience",
+        "name": "5 Wines Experience",
         "title": "native",
         "cardDesc": "Degustazione di 5 vini del territorio presso il rifugio dei vini in cantina e barricaia",
 

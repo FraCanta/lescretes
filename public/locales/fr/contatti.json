@@ -1,96 +1,105 @@
 {
   "contatti": {
     "hero": {
-      "title": "Come contattarci e raggiungerci"
+      "title": "How to contact us and reach us"
     },
     "references": {
-      "title": "Contattaci",
-      "phone": "Telefono",
-      "address": "Indirizzo",
-      "mapdirect": "Indicazioni stradali",
+      "title": "Contact",
+      "phone": "Phone",
+      "address": "Address",
+      "mapdirect": "Directions",
       "listRef": {
-        "title": "Altri contatti*",
+        "title": "More contacts*",
         "list": [
           {
-            "name": "- Commerciale Estero:",
+            "name": "- Foreign Trade:",
             "value": "ordini@lescretes.it"
           },
           {
-            "name": "- Commerciale Italia:",
+            "name": "- Commercial Italy:",
             "value": "corti.giulio@gmail.com"
           },
           {
-            "name": "- Contabilità:",
+            "name": "- Accounting:",
             "value": "contabilita@lescretes.it"
           },
           {
-            "name": "- Enologo:",
+            "name": "- Winemaker:",
             "value": "enologo@lescretes.it"
           },
           {
-            "name": "- Guide, contatti stampa e riviste:",
+            "name": "- Guides, press contacts and magazines:",
             "value": "elena@lescretes.it"
           },
           {
-            "name": "- Magazzino:",
+            "name": "- Warehouse:",
             "value": "magazzino@lescretes.it"
           },
           {
-            "name": "- Produzione, fornitori, settore agronomico:",
+            "name": "- Production, suppliers, agronomy:",
             "value": "eleonora@lescretes.it"
           },
           {
-            "name": "- Segreteria, ordini, spedizioni e fatturazione:",
+            "name": "- Secretariat, orders, shipments and invoicing:",
             "value": "ordini@lescretes.it"
           }
         ]
       }
     },
     "formContact": {
-      "title": "Preferisci mandarci un messaggio?",
-      "name": "Nome*",
-      "surname": "Cognome*",
-      "numero": "Numero*",
+      "title": "Would you rather send us a message?",
+      "name": "Name*",
+      "surname": "Surname*",
+      "numero": "Phone*",
       "reason": {
-        "reasonTitle": "Motivo del contatto*",
+        "reasonTitle": "Contact reason*",
         "reasonList": [
           {
-            "name": "Commerciale estero"
+            "name": "Foreign Trade",
+            "value": "foreign trade"
           },
           {
-            "name": "Commerciale Italia"
+            "name": "Commercial Italy",
+            "value": "commercial italy"
           },
           {
-            "name": "Amministrativo"
+            "name": "Administrative",
+            "value": "administrative"
           },
           {
-            "name": "Informazioni enologiche"
+            "name": "Oenological information",
+            "value": "oenological information"
           },
           {
-            "name": "Guide, contatti stampa e riviste"
+            "name": "Guides, press contacts and magazines",
+            "value": "guides, press and magazines"
           },
           {
-            "name": "Ordini, spedizioni e fatturazione"
+            "name": "Orders, shipping and billing",
+            "value": "orders, shipping and billing"
           },
           {
-            "name": "Magazzino"
+            "name": "Warehouse",
+            "value": "warehouse"
           },
 
           {
-            "name": "Richiesta informazioni"
+            "name": "Information request",
+            "value": "information request"
           },
           {
-            "name": "Altro"
+            "name": "Other",
+            "value": "other"
           }
         ]
       },
-      "nation": "Nazionalità*",
+      "nation": "Nationality*",
       "messaggio": {
-        "name": "Messaggio*",
-        "placeholder": "Scrivi il tuo messaggio..."
+        "name": "Message*",
+        "placeholder": "Write your message..."
       },
-      "check": "* Dichiaro di aver letto e compreso la <a class='font-bold' target='_blank'>politica sulla privacy*</a>",
-      "submit": "Invia richiesta"
+      "check": "<span class='opacity-75'>* I declare that I have read and understood the</span> <a class='font-bold text-main' href='/privacy' target='_blank'>privacy policy*</a>",
+      "submit": "Send request"
     }
   }
 }

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Degustazioni from "@/public/assets/degustazioni.webp";
+import Degustazioni from "@/public/assets/degustazioni/deg_hero.webp";
 const HeroHome = ({ title }) => {
   return (
     <>

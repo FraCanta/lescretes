@@ -31,6 +31,7 @@
     "react-hot-toast": "^2.4.1",
     "react-international-phone": "^4.0.4",
     "react-leaflet": "^4.2.1",
+    "react-leaflet-street-view": "^1.0.9",
     "react-select": "^5.8.0",
     "react-select-country-list": "^2.2.3",
     "react-stars": "^2.2.5",

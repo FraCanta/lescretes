@@ -5,19 +5,19 @@
     },
     "section2": {
       "title": "Passion and innovation for over 200 years",
-      "descrizione": "The history of the Charrère family begins in 1750 and still thrives today with great respect for the traditions and values passed down through generations. Attention to innovation and care for the land are the driving forces of a company that puts its soul and heart into winemaking.",
+      "descrizione": "The history of the Charrère family begins in 1750 and still thrives today with loyalty and respect for traditions and values passed down through generations. Attention to innovation and care for the land are the driving forces of a company that puts its soul and heart into winemaking.",
       "family": "The Charrère family",
       "rifugio": "The refuge",
       "terroir": "The Terroir"
     },
     "section3": {
       "title": "Taste our wines immersed in relaxation",
-      "descrizione": "Entering you can live a sensory experience, with an area dedicated to essences and a library with books of the Valle d'Aosta and wine, all this in a place where you can sit, read, drink a glass and observe the view.",
+      "descrizione": "Entering you can live a sensory experience, with an area dedicated to essences and a library with books of the Valle d'Aosta and wine, all this in a place where you can sit, read, drink a glass and take in the view.",
       "scopri": "Book your experience"
     },
     "section4": {
       "title": "Mountain Wines: Authentic Expression of the Valle d'Aosta",
-      "descrizione": "Our savory, fresh and elegant wines express the essence of Valle d'Aosta’s <strong> Terroir</strong> mountain. erroir</strong> mountain. They are created with passion and dedicated to amateurs and experts. The Alpine climate strongly influences the organoleptic characterics of <strong>the wines produced in Valle d'Aosta</strong>. They are children of a family-run winery, with small plots cultivated by hand and cared for in detail."
+      "descrizione": "Our fresh and elegant wines, that are full of flavour, express the essence of Valle d'Aosta’s mountain <strong> Terroir</strong>. They are created with passion and dedicated to novices and connoisseurs. The Alpine climate strongly influences the organoleptic characterics of <strong>the wines produced in Valle d'Aosta</strong>."
     },
     "tabs": [
       {
@@ -143,7 +143,7 @@
         ]
       },
       {
-        "name": "Desserts and sparkles",
+        "name": "Dessert wines and bubbles",
         "content": [
           {
             "img": "/assets/vinidessert/dorè.png",

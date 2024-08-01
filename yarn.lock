@@ -2102,6 +2102,11 @@ react-is@^16.13.1, react-is@^16.7.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-leaflet-street-view@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/react-leaflet-street-view/-/react-leaflet-street-view-1.0.9.tgz#cfed3f2f756d5ba62ece80c2b291abdd3ce365da"
+  integrity sha512-pE4ZCFwGTyyuwh3nhHsHP/ODNsK8NIxLbhJN0stx88xaiM/Mh6AbmJ1t/r0a4xgyC2/0KD1DxBksr9d2gKT/PQ==
+
 react-leaflet@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/react-leaflet/-/react-leaflet-4.2.1.tgz#c300e9eccaf15cb40757552e181200aa10b94780"

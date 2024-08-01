@@ -1,25 +1,25 @@
 {
   "cosmesi": {
     "hero": {
-      "title": "Les Crêtes DeVin Cosmetica: dall’uva per la cura naturale della pelle"
+      "title": "Les Crêtes DeVin Cosmetics: from grapes to natural skin care"
     },
     "intro": {
-      "text": "La linea cosmetica DeVin presenta la sua innovativa formula naturale con attivi biologici all’olio di vinaccioli, polifenoli dell’uva e fiori di vigna realizzata dai nostri laboratori per rispondere alle esigenze di chi, ricercando un cosmetico naturale, non vuole rinunciare all’efficacia degli estratti attivi naturali del terroir di montagna, isolati e sviluppati con le più avanzate tecnologie."
+      "text": "The DeVin cosmetic line presents its innovative natural formula with biological active ingredients of grape seed oil, polyphenols of the grape and flowers of vineyard made by our laboratories to meet the needs of those, seeking a natural cosmetic, does not want to give up the effectiveness of natural active extracts from mountain terroir, isolated and developed with the most advanced technologies."
     },
     "section": {
-      "title": "Indicazioni e benefici",
-      "text": "Ideale per tutti i tipi di pelle, contribuisce a prevenire e rallentare in modo naturale i segni dell’invecchiamento. Dona alla pelle vitalità ed un aspetto tonico e definito, conferendole una corretta idratazione. Sostiene la rigenerazione cutanea, apportando benefici nutrienti e restituendo al viso il suo naturale splendore."
+      "title": "Indications and benefits",
+      "text": "Ideal for all skin types, it helps to prevent and slow down the signs of aging naturally. It gives the skin vitality and a tonic and defined appearance, giving it proper hydration. It supports skin regeneration, providing nourishing benefits and restoring the face to its natural radiance."
     },
     "well": {
-      "title": "Prenditi cura di te stesso e della natura attorno",
+      "title": "Take care of yourself and the surrounding nature",
       "imgWell": [
         {
           "img": "/assets/cosmetici/natural.webp",
-          "text": "INGREDIENTI NATURALI"
+          "text": "NATURAL INGREDIENTS"
         },
         {
           "img": "/assets/cosmetici/notest3.webp",
-          "text": "NO TEST SUGLI ANIMALI"
+          "text": "NO ANIMAL TESTING"
         },
         {
           "img": "/assets/cosmetici/bio_pack3.webp",
@@ -27,44 +27,44 @@
         }
       ],
       "ingredients": {
-        "title": "Principali ingredienti attivi della linea DeVin"
+        "title": "Main active ingredients of the DeVin line"
       },
       "listIngredients": [
         {
-          "name": "Olio di vinaccioli",
-          "text": "L’olio di vinaccioli, ottenuto tramite il procedimento di spremitura a freddo, si estrae dai semi dell’uva, rigorosamente senza l’impiego di solventi chimici. I semi di vinacciolo racchiudono un concentrato di sostanze antiossidanti (quali acido linoleico e vitamina E) in grado di contrastare l’invecchiamento cutaneo e proteggere la pelle dall’attacco dei radicali liberi. i semi sono inoltre ricchi di sostanze attive che svolgono un’azione idratante, levigante e schiarente. Questo pool di sostanze contribuisce, a mantenere l’epidermide elastica e luminosa, rallentando la formazione delle rughe e riparando i segni dell’invecchiamento cutaneo."
+          "name": "Grape seed oil",
+          "text": "The oil of grape seeds, obtained by cold pressing process, is extracted from the seeds of the grapes, strictly without the use of chemical solvents. The seeds of grape seed contain a concentrate of antioxidant substances (such as linoleic acid and vitamin E) It can counteract the aging of the skin and protect the skin from free radicals. The seeds are also rich in active substances that have a moisturizing, smoothing and lightening action. This pool of substances helps to keep the epidermis elastic and luminous, slowing down the formation of wrinkles and repairing the signs of skin aging."
         },
         {
-          "name": "Glicerina vegetale",
-          "text": "Composto organico nella cui struttura sono presenti tre gruppi molto affini all’acqua. Il suo ruolo è quello di mantenere una corretta idratazione poiché ha la facoltà di trattenere e legare l’acqua. Svolge una marcata azione umettante, prevenendo desquamazioni e secchezza cutanea."
+          "name": "Vegetable glycerine",
+          "text": "Organic compound in whose structure there are three groups very similar to water. Its role is to maintain proper hydration since it has the ability to retain and bind water. It has a marked wetting action, preventing peeling and skin dryness."
         },
         {
-          "name": "Estratto di camomilla biologica (fiori)",
-          "text": "Una vera ricchezza della natura, con azione lenitiva, emolliente e protettiva. Offre uno scudo di difesa contro gli agenti atmosferici aggressivi, per un immediato effetto di benessere e confort."
+          "name": "Organic chamomile extract (flowers)",
+          "text": "A true wealth of nature, with soothing, emollient and protective action. It offers a shield against aggressive weather agents, for an immediate effect of well-being and comfort."
         },
         {
-          "name": "NMF ricostituito (Natural Moisturizing Factor",
-          "text": "Preziosa miscela idratante composta da sali (di Magnesio, Manganese, Zinco, Calcio) legati al PCA, zuccheri, aminoacidi (tra cui la prolina, amminoacido fondamentale per la sintesi del collagene), urea, allantoina che garantisce un’idratazione profonda e duratura per una pelle uniforme, idratata e luminosa. E’ un fattore di idro-regolazione cutanea, naturalmente presente nel film idrolipidico dell’epidermide che impedisce una eccessiva disidratazione e consente di mantenere integra, elastica e flessibile la superficie cutanea. E’ composto da sostanze idrosolubili e igroscopiche. E’ abbondantemente presente nei corneociti dove svolge funzioni umettanti. Essendo però idrosolubile è facilmente asportabile con solventi, detergenti, acqua e sudore. I suoi livelli diminuiscono anche a causa dell’invecchiamento fisiologico e per l’eccessiva esposizione alla luce solare."
+          "name": "Reconstituted NMF (Natural Moisturizing Factor)",
+          "text": "Precious moisturizing mixture composed of salts (of Magnesium, Manganese, Zinc, Calcium) linked to PCA, sugars, amino acids (including proline, amino acid fundamental for the synthesis of collagen), urea, allantoin that ensures deep and lasting hydration for even, hydrated and luminous skin. It is a skin hydro-regulation factor, naturally present in the epidermis hydrolipidic film that prevents excessive dehydration and allows to keep intact, The skin surface is elastic and flexible. It is composed of water-soluble and hygroscopic substances. It is abundantly present in the corneocytes where it performs wetting functions. However, being water soluble it is easily removable with solvents, detergents, water and sweat. Its levels also decrease due to physiological aging and excessive exposure to sunlight."
         },
         {
-          "name": "Polisaccaride",
-          "text": "Alcuni microrganismi batterici vegetali auto producono dei polisaccaridi ad elevato peso molecolare, per migliorare le loro capacità di difesa e le loro possibilità di sopravvivenza. Tali polisaccaridi formano una matrice protettiva contro le aggressioni ambientali. Questo film sottile interagisce con la superficie cutanea e favorisce l’eliminazione di sostanze esogene nocive ed aggressive per l’organismo come polveri sottili, metalli pesanti, radicali liberi, tossine."
+          "name": "Polysaccharide",
+          "text": "Some bacterial plant micro-organisms produce high molecular weight polysaccharides to improve their defence capacity and survival. These polysaccharides form a protective matrix against environmental aggressions. This thin film interacts with the skin surface and promotes the elimination of exogenous substances harmful and aggressive to the body such as fine dust, heavy metals, free radicals, toxins."
         },
         {
-          "name": "Alghe marine",
-          "text": "Ricche in mucillagini (tra cui alginati), sali minerali, con un’azione emolliente, idratante, ammorbidente, protettiva, ideale per pelli secche."
+          "name": "Seaweed",
+          "text": "Rich in mucilages (including alginates), mineral salts, with a emollient action, moisturizing, softening, protective, ideal for dry skin."
         },
         {
-          "name": "Acido ialurico",
-          "text": "Molecola idratante per eccellenza, naturalmente presente nella pelle per trattenere acqua nei tessuti. Il suo compito è mantenere la pelle elastica, tesa e idratata e di aumentarne la plasticità. In forma sia a basso che ad alto peso molecolare, ricavato per bio-fermentazione di materiale vegetale."
+          "name": "Hyaluronic acid",
+          "text": "The ultimate moisturizing molecule, naturally present in the skin to retain water in the tissues. Its task is to keep the skin elastic, tight and hydrated and increase its plasticity. In both low and high molecular weight form, obtained by bio-fermentation of plant material."
         },
         {
-          "name": "Collagene idrolizzato",
-          "text": "Proteina della bellezza, con funzione di sostegno strutturale e capacità di intrappolare acqua nei tessuti. Determina l’aspetto teso, elastico e compatto della pelle. Viene utilizzato in forma idrolizzata perché direttamente biodisponibile per contrastare atonie e prevenire la formazione di rughe."
+          "name": "Hydrolyzed collagen",
+          "text": "Protein of beauty, with structural support function and ability to trap water in tissues. It determines the taut, elastic and compact appearance of the skin. It is used in hydrolyzed form because directly bioavailable to counter atonie and prevent the formation of wrinkles."
         },
         {
-          "name": "Estratto di avena biologica",
-          "text": "Altamente dermocompatibile, contrasta l’invecchiamento cutaneo, idrata e potenzia la naturale rigenerazione cellulare. Forma un velo di protezione che rede la pelle morbida e vellutata."
+          "name": "Organic oat extract",
+          "text": "Highly dermo-compatible, it counteracts skin aging, moisturizes and enhances natural cell regeneration. It forms a protective veil that nourishes the skin soft and velvety."
         }
       ]
     },
@@ -72,83 +72,83 @@
       {
         "img": "/assets/cosmetici/mani.webp",
         "name": " Fleurs DeVin Soin Mains  ",
-        "details": "Crema mani fiorita delicata",
+        "details": "Delicate floral hand cream",
         "button": "/cosmesi/soinmain",
-        "price": "€ 18,00 iva inclusa"
+        "price": "€ 18,00 VAT included"
       },
       {
         "img": "/assets/cosmetici/visage.webp",
         "name": "Fleurs DeVin Soin Visage",
-        "details": "Crema viso fiorita delicata",
+        "details": "Delicate floral face cream",
         "button": "/cosmesi/soinvisage",
-        "price": "€ 40,00 iva inclusa"
+        "price": "€ 40,00 VAT included"
       },
       {
         "img": "/assets/cosmetici/gommage.webp",
         "name": "Visage DeVin Gommage Doux",
-        "details": "Scrub delicato",
+        "details": "Delicate scrub",
         "button": "/cosmesi/gommage",
-        "price": "€ 30,00 iva inclusa"
+        "price": "€ 30,00 VAT included"
       },
       {
         "img": "/assets/cosmetici/tonico.webp",
         "name": "Visage DeVin Lotion Tonique ",
-        "details": "Tonico delicato",
+        "details": "Gentle tonic",
         "button": "/cosmesi/lotion",
-        "price": "€ 25,00 iva inclusa"
+        "price": "€ 25,00 VAT included"
       },
 
       {
         "img": "/assets/cosmetici/acqua3.webp",
         "name": "Cristal DeVin ",
-        "details": " Eau Parfumee Fraiche",
+        "details": "Eau Parfumee Fraiche",
         "button": "/cosmesi/parfumee",
-        "price": "€ 24,00 iva inclusa"
+        "price": "€ 24,00 VAT included"
       },
       {
         "img": "/assets/cosmetici/diffusore.webp",
         "name": "Thé DeVin",
-        "details": "Diffuseur de parfum",
+        "details": "Fragrance diffuser",
         "button": "/cosmesi/diffuseur",
-        "price": "€ 37,00 iva inclusa"
+        "price": "€ 37,00 VAT included"
       },
       {
         "img": "/assets/cosmetici/corpo.webp",
         "name": "Fleurs DeVin Soin Corps",
-        "details": "Crema corpo fiorita delicata",
+        "details": "Delicate body cream florita",
         "button": "/cosmesi/pepin",
-        "price": "€ 30,00 iva inclusa"
+        "price": "€ 30,00 VAT included"
       }
     ],
     "singleCosmetic": {
       "soinmain": {
         "img": "/assets/cosmetici/mani.webp",
-        "name": " Fleurs DeVin Soin Mains  ",
+        "name": "Fleurs DeVin Soin Mains",
         "ml": "50ml",
         "descrizione": [
           {
-            "testo": "Autentico trattamento di bellezza per le mani, ad azione nutriente e lenitiva contro aridità, disidratazione, screpolature e arrossamenti"
+            "testo": "Authentic beauty treatment for the hands, with nourishing and soothing action against dryness, dehydration, cracking and redness"
           }
         ],
-        "ingredientiTitle": "Ingredienti",
-        "ingredienti": "Contiene olio di vinaccioli, ricco in polifenoli dell'uva, dalle proprietà antiossidanti e protettive. Arricchita con estratti biologici di fiori di elicriso, camomilla. Contiene inoltre glicerina vegetale, allantoina, urea, prolina, alghe",
-        "istruzioniTitle": "Istruzioni d'uso",
-        "istruzioni": "Applicare con massaggio dopo ogni detersione, per mani sempre morbide e setose",
-        "details": "Crema mani fiorita delicata",
+        "ingredientiTitle": "Ingredients",
+        "ingredienti": "It contains grapeseed oil, rich in grape polyphenols, with antioxidant and protective properties. Enriched with organic extracts of elicriso flowers, chamomile. Also contains vegetable glycerin, allantoin, urea, proline, algae",
+        "istruzioniTitle": "Instructions for use",
+        "istruzioni": "Apply with massage after each cleansing, for hands always soft and silky",
+        "details": "Delicate floral hand cream",
         "title": "soinmain",
         "button": "/cosmesi/soinmain",
-        "downloadTitle": "Scarica qui",
+        "downloadTitle": "Download",
         "download": "/pdf/cosmesi/soins_main_ita.pdf",
-        "priceTitle": "Prezzo",
-        "price": "€ 18,00 iva inclusa",
-        "share": "Condividi su",
+        "priceTitle": "Price",
+        "price": "€ 18,00 VAT included",
+        "share": "Share on",
         "highlights": {
-          "title": "Ti potrebbe anche interessare"
+          "title": "You may also like"
         },
         "faq": [
           {
-            "question": "Dove posso acquistare i cosmetici?",
-            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+            "question": "Where can I buy cosmetics?",
+            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (info@lescretes.it) to arrange a shipment."
           }
         ]
       },
@@ -158,28 +158,28 @@
         "ml": "50ml",
         "descrizione": [
           {
-            "testo": "La sua formula ricca e cremosa costituisce una fonte preziosa di energia e nutrimento per prevenire l'invecchiamento cutaneo."
+            "testo": "Its rich and creamy formula is a valuable source of energy and nourishment to prevent skin aging."
           }
         ],
-        "ingredientiTitle": "Ingredienti",
-        "ingredienti": "Contiene olio di vinaccioli, ricco in polifenoli d'uva, dalle proprietà antiossidanti, protettive. Arricchito con gli estratti biologici di fiori di rosa damascena e ibisco; contiene inoltre glicerinavegetale, urea, squalene, elastina, collagene, allantoina, prolina, alghe, acido ialuronico, glicosaminoglicani per una pelle distesa, luminosa e rigenerata.",
-        "istruzioniTitle": "Istruzioni d'uso",
-        "istruzioni": "Applicare sia al mattino che alla sera dopo la detersione.",
-        "details": "Crema viso fiorita delicata",
+        "ingredientiTitle": "Ingredients",
+        "ingredienti": "Contains grapeseed oil, rich in grape polyphenols, with antioxidant properties, protective. Enriched with organic extracts of rose flowers and hibiscus; also contains glycerinavegetale, urea, squalene, elastin, collagen, allantoin, proline, algae, hyaluronic acid, glycosaminoglycans for a relaxed, luminous and regenerated skin.",
+        "istruzioniTitle": "Instructions for use",
+        "istruzioni": "Apply both in the morning and evening after cleansing.",
+        "details": "Delicate floral face cream",
         "title": "soinvisage",
         "button": "/cosmesi/soinvisage",
-        "downloadTitle": "Scarica qui",
+        "downloadTitle": "Download",
         "download": "/pdf/cosmesi/soins_visage_ita.pdf",
-        "priceTitle": "Prezzo",
-        "price": "€ 40,00 iva inclusa",
-        "share": "Condividi su",
+        "priceTitle": "Price",
+        "price": "€ 40,00 VAT included",
+        "share": "Share on",
         "highlights": {
-          "title": "Ti potrebbe anche interessare"
+          "title": "You may also like"
         },
         "faq": [
           {
-            "question": "Dove posso acquistare i cosmetici?",
-            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+            "question": "Where can I buy cosmetics?",
+            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (info@lescretes.it) to arrange a shipment."
           }
         ]
       },
@@ -189,29 +189,29 @@
         "ml": "50ml",
         "descrizione": [
           {
-            "testo": "Scrub in crema per il viso con microsferule di vinaccioli che svolgono un’efficace e delicata azione levigante restituendo alla pelle la sua naturale luminosità. Gli oli di vinaccioli, di oliva e mandorle sono formulati insieme agli estratti di ibisco ed elicriso per una maggior azione emolliente. Fragranza pesca di vigna."
+            "testo": "Scrub cream for the face with microferule of grape seeds that perform an effective and gentle smoothing action returning to the skin its natural brightness. The oils of grapevines, olive and almonds are formulated together with extracts of hibiscus and elicriso for a greater emollient action. Fragrance of vineyard peach."
           }
         ],
-        "ingredientiTitle": "Ingredienti",
-        "ingredienti": "Contiene olio di vinaccioli, microsferule di vinaccioli o vitis vinifera seed powder (azione scrub meccanica delicata), olio di mandorle dolci biologiche, estratto di Hibiscus biologico, acqua attiva di elicriso biologico (fiori), olio di oliva biologico",
-        "istruzioniTitle": "Istruzioni d'uso",
-        "istruzioni": "Si consiglia il suo utilizzo una volta a settimana su viso inumidito, sciacquare con acqua tiepida.",
+        "ingredientiTitle": "Ingredients",
+        "ingredienti": "Contains grapeseed oil, grapefruit microspores or vitis vinifera seed powder (gentle mechanical scrub action), organic sweet almond oil, extract of Hibiscus biologico, active water of organic elixir (flowers), organic olive oil",
+        "istruzioniTitle": "Instructions for use",
+        "istruzioni": "We recommend its use once a week on moistened face, rinse with warm water.",
 
-        "details": "Scrub delicato",
+        "details": "Gentle scrub",
         "title": "gommage",
         "button": "/cosmesi/gommage",
-        "downloadTitle": "Scarica qui",
+        "downloadTitle": "Download",
         "download": "/pdf/cosmesi/gommage_ita.pdf",
-        "priceTitle": "Prezzo",
-        "price": "€ 30,00 iva inclusa",
-        "share": "Condividi su",
+        "priceTitle": "Price",
+        "price": "€ 30,00 VAT included",
+        "share": "Share on",
         "highlights": {
-          "title": "Ti potrebbe anche interessare"
+          "title": "You may also like"
         },
         "faq": [
           {
-            "question": "Dove posso acquistare i cosmetici?",
-            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+            "question": "Where can I buy cosmetics?",
+            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (info@lescretes.it) to arrange a shipment."
           }
         ]
       },
@@ -236,14 +236,14 @@
         "download": "/pdf/cosmesi/tonico_ita.pdf",
         "priceTitle": "Prezzo",
         "price": "€ 25,00 iva inclusa",
-        "share": "Condividi su",
+        "share": "Share on",
         "highlights": {
-          "title": "Ti potrebbe anche interessare"
+          "title": "You may also like"
         },
         "faq": [
           {
-            "question": "Dove posso acquistare i cosmetici?",
-            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+            "question": "Where can I buy cosmetics?",
+            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (info@lescretes.it) to arrange a shipment."
           }
         ]
       },
@@ -272,14 +272,14 @@
         "download": "/pdf/cosmesi/cristal_ita.pdf",
         "priceTitle": "Prezzo",
         "price": "€ 24,00 iva inclusa",
-        "share": "Condividi su",
+        "share": "Share on",
         "highlights": {
-          "title": "Ti potrebbe anche interessare"
+          "title": "You may also like"
         },
         "faq": [
           {
-            "question": "Dove posso acquistare i cosmetici?",
-            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+            "question": "Where can I buy cosmetics?",
+            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (info@lescretes.it) to arrange a shipment."
           }
         ]
       },
@@ -307,14 +307,14 @@
         "download": "/pdf/cosmesi/diffusore_ita.pdf",
         "priceTitle": "Prezzo",
         "price": "€ 37,00 iva inclusa",
-        "share": "Condividi su",
+        "share": "Share on",
         "highlights": {
-          "title": "Ti potrebbe anche interessare"
+          "title": "You may also like"
         },
         "faq": [
           {
-            "question": "Dove posso acquistare i cosmetici?",
-            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+            "question": "Where can I buy cosmetics?",
+            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (info@lescretes.it) to arrange a shipment."
           }
         ]
       },
@@ -342,14 +342,14 @@
         "download": "/pdf/cosmesi/soins_corp_ita.pdf",
         "priceTitle": "Prezzo",
         "price": "€ 30,00 iva inclusa",
-        "share": "Condividi su",
+        "share": "Share on",
         "highlights": {
-          "title": "Ti potrebbe anche interessare"
+          "title": "You may also like"
         },
         "faq": [
           {
-            "question": "Dove posso acquistare i cosmetici?",
-            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+            "question": "Where can I buy cosmetics?",
+            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (info@lescretes.it) to arrange a shipment."
           }
         ]
       }

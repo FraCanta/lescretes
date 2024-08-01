@@ -1,23 +1,23 @@
 {
   "vini": {
     "hero": {
-      "title": "I vini di Les Crêtes : Passione, Tradizione e Innovazione sulle Montagne",
+      "title": "The wines of Les Crêtes: Passion, Tradition and Innovation in the Mountains",
       "img": "/assets/vini.webp"
     },
     "intro": {
-      "title": "La nostra etichetta: espressione eroica delle Alpi nella bottiglia",
+      "title": "Our label: the heroic expression of the Alps in the bottle",
       "descrizione": [
         {
-          "text": "Immediata ed essenziale, <span class='font-bold'>esprime il nostro legame con il territorio di montagna</span>, fatto di forti pendenze, le creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). <span class='font-bold'>La lamina in metallo colato a rilievo</span>, ad esaltare la profondità delle valli scavate dai ghiacciai. <span class='font-bold'>L’argento ed il rame riflettenti</span>, a rappresentare la luminosità del nostro sole. "
+          "text": "Immediate and essential, <span class='font-bold'>it expresses our connection with the mountain territory</span>, made of steep slopes, the alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes).  <span class='font-bold'>The metal foil cast in relief</span>, to enhance the depth of the valleys carved by glaciers. <span class='font-bold'>ilver and copper reflecting</span>, representing the brightness of our sun."
         },
         {
-          "text": "<span class='font-bold'>I vigneti, tratteggiati sulle vette nelle diverse esposizioni</span>, a raffigurare la ricchezza di un terroir rubato alle montagne. E ai loro piedi, <a href='/il-rifugio' target='_blank' title='Il Rifugio del vino'><span class='font-bold underline'>il Rifugio del Vino</span></a> con la nostra cantina, inno alla viticoltura eroica che ci permette una produzione di nicchia, cullata dalle Alpi."
+          "text": "<span class='font-bold'>The vineyards, outlined on the peaks in the various exhibitions</span>, represent the richness of a terroir stolen from the mountains. And at their feet, <a href='/IL-rifugio' target='_blank' title='Il Rifugio del vino'><span class='font-bold underline'>the Wine Refuge</span></a> with our cellar, an ode to heroic viticulture that allows us a niche production, cradled by the Alps."
         }
       ]
     },
     "tabs": [
       {
-        "name": "Rossi",
+        "name": "Reds",
         "content": [
           {
             "img": "/assets/vinirossi/merle.png",
@@ -63,12 +63,12 @@
 
           {
             "img": "/assets/vinirossi/sabla.png",
-            "name": "La Sabla® – Vino Rosso",
+            "name": "La Sabla® – Red Wine",
             "link": "/i-vini/rossi/sabla"
           },
           {
             "img": "/assets/vinirossi/lasabla_50.webp",
-            "name": "La Sabla® 50 anni",
+            "name": "La Sabla® 50 years",
             "link": "/i-vini/rossi/sabla50"
           },
           {
@@ -88,13 +88,13 @@
           },
           {
             "img": "/assets/vinirossi/monrouge.png",
-            "name": "Mon Rouge®",
+            "name": "Torrette Valle d’Aosta D.O.P.",
             "link": "/i-vini/rossi/monrouge"
           }
         ]
       },
       {
-        "name": "Bianchi",
+        "name": "Whites",
         "content": [
           {
             "img": "/assets/vinibianchi/chardonnay_cb.png",
@@ -135,7 +135,7 @@
         ]
       },
       {
-        "name": "Rosè",
+        "name": "Rosès",
         "content": [
           {
             "img": "/assets/vinirose/rose.png",
@@ -145,7 +145,7 @@
         ]
       },
       {
-        "name": "Dessert e Bollicine",
+        "name": "Dessert wines and bubbles",
         "content": [
           {
             "img": "/assets/vinidessert/dorè.png",
@@ -172,70 +172,70 @@
         "link": "/i-vini/rossi/merle",
         "title": "merle",
         "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
-        "vitigni": "Merlot 100% ",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Rossi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 14.5 % vol., 5.5 acidità totale g/l, 3.4 pH ",
-        "bicchiereTitle": "Tipologia di bicchiere:",
+        "vitigniTitle": "Grape Variety:",
+        "vitigni": "100% Merlot",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Red Wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "14.5% vol., 5.5 g/l total acidity, 3.4 pH",
+        "bicchiereTitle": "Glass Type:",
         "bicchiere": "Grand Ballon",
-        "formatoTitle": "Formati:",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Diraspatura delle uve refrigerate, fermentazione a bacca intera di 12 giorni a temperatura controllata (25 °C), con rimontaggi quotidiani. Affinamento di 18 mesi in barrique di rovere francese da 300L al 50% nuove e al 50% di secondo passaggio. Affinamento in bottiglia di 12 mesi.",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Aymavilles.  Età anni 25. Superficie 0,50 ha circa, controspalliera a Guyot; impianto di 7.500 piedi per ettaro. Resa 6.500 kg/ha. ",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento di 18 mesi in barrique di rovere francese da 300L al 50% nuove e  al 50% di secondo passaggio. Affinamento in bottiglia di 12 mesi.",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Destemming of refrigerated grapes, whole cluster fermentation for 12 days at controlled temperature (25°C), with daily pump-overs. Aging for 18 months in 300L French oak barrels, with 50% new and 50% second use. Bottle aging for 12 months.",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Aymavilles. Age: 25 years. Area: approximately 0.50 ha, Guyot training system; 7,500 vines per hectare. Yield: 6,500 kg/ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging for 18 months in 300L French oak barrels, with 50% new and 50% second use. Bottle aging for 12 months.",
+        "servizioTitle": "Serve at:",
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+                "text": "Fine and soft, le Merle was born from the desire of Elena and Eleonora to experiment and innovate. With this international variety, Les Crêtes challenges the vocation of the Valdostano terroir to produce a mountain merlot, of great consistency and elegance. It is called Le Merle, from the French Merle, because the vineyard during the harvest is crowded with blackbirds, which are greedy."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2015",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2015",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and alpine ridges, which reach here the highest peaks (hence the French name Les Crêtes). The metal foil cast in relief, bright as our sun, to enhance the depth of the valleys carved by glaciers. The vineyards, drawn on the peaks in the different exhibitions, to represent the wealth of a land stolen from the mountains. And at their feet, the Wine Refuge with our cellar, an ode to heroic viticulture and terroir, which allow us a niche production, cradled by the Alps."
               },
               {
-                "title": "ANNATA 2020",
-                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+                "title": "YEAR 2020",
+                "text": "The year 2020 was characterized by a very hot and dry spring, followed by the months of May and June with temperatures below average; the summer course was regular, As well as the harvest season, which began in the first days of September. The harvest ended at the beginning of November with the cutting of late varieties, Petite Arvine and Fumin; in general the vines had an abundant and very balanced production, aspects that are reflected on wines, which are endowed with great elegance and verticality."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
+                "text": "Donkey’s crook, Florentine, veal ossobuco, lamb rack."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
@@ -316,7 +316,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -327,70 +327,70 @@
         "link": "/i-vini/rossi/cornalin",
         "title": "cornalin",
         "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
-        "vitigni": "Cornalin 100%",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Rossi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 13.5% vol., 5.5 acidità totale g/l, pH 3.4",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": " Ballon piccolo",
-        "formatoTitle": "Formati:",
+        "vitigniTitle": "Grape Variety:",
+        "vitigni": "100% Cornalin",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Red Wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "13.5% vol., 5.5 g/l total acidity , 3.4 pH",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Small Balloon",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Pigiadiraspatura, 10 giorni di fermentazione in acciaio inox a temperatura controllata (23°C)",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Les Crêtes di Aymavilles. Superficie 1 ettaro, sistema a Guyot, 7.000 piedi per ettaro, filari a ciglione e ritocchino. Resa 7000 kg/ha",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "3 mesi in barriques di rovere di secondo passaggio da 300L, 3 mesi di affinamento in bottiglia",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Pressing, 10 days of temperature controlled stainless steel fermentation (23°C)",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Les Crêtes of Aymavilles. Area 1 hectare, system a Guyot, 7.000 feet per hectare, filari a ciglione e ritocchino. Yield 7000 kg/ha",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "3 months in oak barriques of second passage from 300L, 3 months aging in bottle",
+        "servizioTitle": "Serve at:",
         "servizio": "16 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Profumato, particolare ed armonico, il Cornalin è una varietà autoctona di origini antiche. Detta anche Corniola o Humagne Rouge, arrivò in Valle dalla Borgogna Iar, ne consolidò le virtù e la coltivazione."
+                "text": "Fragrant, particular and harmonious, the Cornalin is an autochthonous variety of ancient origins. Also called Corniola or Humagne Rouge, he arrived in the Valley from Burgundy Iar, consolidated its virtues and cultivation."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2021",
+                "title": "YEAR 2021",
                 "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
               },
               {
-                "title": "ANNATA 2022",
-                "text": "L’annata 2022 è stata caratterizzata da un lungo periodo di caldo e siccità anomalo, che dagli inizi di Maggio si è protratto fino ad Ottobre inoltrato; questo clima particolare ha portato un anticipo di vendemmia di circa 20 giorni, per cui l’inizio è stato il 16 Agosto, con le basi spumanti. La vendemmia si è conclusa negli ultimi giorni di Ottobre con i rossi a maturazione tardiva Fumin e Nebbiolo. I vini di quest’annata sono dotati di grande concentrazione ed aromaticità, nelle vigne più antiche e con radici profonde, c’è stata una tenuta di acidità abbondante, che ha portato ad una grande complessità nelle riserve."
+                "title": "YEAR 2022",
+                "text": "L’Year 2022 è stata caratterizzata da un lungo periodo di caldo e siccità anomalo, che dagli inizi di Maggio si è protratto fino ad Ottobre inoltrato; questo clima particolare ha portato un anticipo di vendemmia di circa 20 giorni, per cui l’inizio è stato il 16 Agosto, con le basi spumanti. La vendemmia si è conclusa negli ultimi giorni di Ottobre con i rossi a maturazione tardiva Fumin e Nebbiolo. I vini di quest’Year sono dotati di grande concentrazione ed aromaticità, nelle vigne più antiche e con radici profonde, c’è stata una tenuta di acidità abbondante, che ha portato ad una grande complessità nelle riserve."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Saltimbocca alla valdostana ai profumi alpini, robiola di capra, Duché d’Aoste, tagliatelle all’uovo al ragù di lepre. "
+                "text": "Saltimbocca alla Valdostana with the alpine scents, robiola di capra, Duché d'Aoste, tagliatelle with egg and rabbit sauce. "
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     [
@@ -423,7 +423,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Cornalin-Valle-dAosta-DOP-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -434,70 +434,70 @@
         "link": "/i-vini/rossi/lacor",
         "title": "lacor",
         "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
+        "vitigniTitle": "Grape Variety:",
         "vitigni": "Fumin 100%",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Rossi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 13.5% vol., 6 acidità totale g/l, 3.3 pH",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "grand ballon",
-        "formatoTitle": "Formati:",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Red Wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "13.5% vol., 6 g/l total acidity , 3.3 pH",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Grand Ballon",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Diraspatura delle uve, fermentazione di 8/10 giorni in acciaio inox a temperatura controllata (22°c), con rimontaggi giornalieri. ",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "La Tour e Les Crêtes di Aymavilles. Età anni 34. Sistema di allevamento Guyot; impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento di 12 mesi in rovere francese da 300 l. usate. affinamento in bottiglia di 36 mesi. ",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Destemming of the grapes, fermentation of 8/10 days in stainless steel at controlled temperature (22°c), with daily remixing. ",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "La Tour and Les Crêtes of Aymavilles. Age 34. Guyot system of breeding; plant of 7.500 feet per hectare, rows to ciglione and retouching.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging of 12 months in French oak from 300 l. used. aging in bottle of 36 months. ",
+        "servizioTitle": "Serve at:",
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Questa riserva nasce dal lungo affinamento del nostro autoctono Fumin. È dedicata al Mulino storico di famiglia di Via Moulins che con le sue cantine ospita, dal 1700, anche La Cor. La Cor nell'architettura locale, era il cortile interno di un edificio, riservato alla produzione ed allo scambio alimentare. Questo spazio ricopriva un ruolo di grande importanza nell'economia locale dell'epoca, che non prevedeva molti scambi mercatili di tipo monetario, permettendo il commercio dei diversi generi tramite il baratto. Il Mulino, oltre alle cantine, ricomprende due grandi macine in pietra per la spremitura dell'olio di noce, quelle per le farine e gli attrezzi per la produzione di sidro e vino, ad oggi in ottimo stato di conservazione."
+                "text": "This reserve is the result of the long refinement of our autochthonous Fumin. It is dedicated to the family’s historic mill in Via Moulins, which with its cellars has also been home to La Cor since 1700. The Cor in local architecture was the inner courtyard of a building, reserved for production and food exchange. This area played a major role in the local economy of the time, which did not include many monetary-type commercial exchanges, The European Commission has recently published a report on the situation in the United States. The Mill, in addition to the cellars, includes two large stone mills for the pressing of walnut oil, those for flour and tools for the production of cider and wine, to date in excellent condition."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2015",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2015",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and alpine ridges, which reach here the highest peaks (hence the French name Les Crêtes). The metal foil cast in relief, bright as our sun, to enhance the depth of the valleys carved by glaciers. The vineyards, drawn on the peaks in the different exhibitions, to represent the wealth of a land stolen from the mountains. And at their feet, the Wine Refuge with our cellar, an ode to heroic viticulture and terroir, which allow us a niche production, cradled by the Alps."
               },
               {
-                "title": "ANNATA 2020",
-                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+                "title": "YEAR 2020",
+                "text": "The year 2020 was characterized by a very hot and dry spring, followed by the months of May and June with temperatures below average; the summer course was regular, As well as the harvest season, which began in the first days of September. The harvest ended at the beginning of November with the cutting of late varieties, Petite Arvine and Fumin; in general the vines had an abundant and very balanced production, aspects that are reflected on wines, which are endowed with great elegance and verticality."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Cacciagione, carni frollate, Ivre de Fumin."
+                "text": "Game, matured meats, Ivre de Fumin."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     [
@@ -524,7 +524,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Fumin-LA-COR-Valle-dAosta-DOP-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -535,70 +535,70 @@
         "link": "/i-vini/rossi/fumin",
         "title": "fumin",
         "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
-        "vitigni": "Fumin 100%",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Rossi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 13% vol., acidità totale 6 g/l, pH 3.3",
-        "bicchiereTitle": "Tipologia di bicchiere:",
+        "vitigniTitle": "Grape Variety:",
+        "vitigni": "100% Fumin",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Red Wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "13% vol., 6 g/l total acidity, 3.3 pH ",
+        "bicchiereTitle": "Glass Type:",
         "bicchiere": "Grand ballon",
-        "formatoTitle": "Formati:",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Diraspatura delle uve, fermentazione di 12 giorni in acciaio inox a temperatura controllata (24°C), con rimontaggi giornalieri.",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "La Tour di Aymavilles. Età anni 30. Superficie 2 ha, sistema Guyot; impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino. Resa 8.000 kg/ha. ",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento di 12 mesi in rovere francese da 300 L. Affinamento in bottiglia di 6 mesi.",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Destemming of the grapes, fermentation of 12 days in stainless steel at controlled temperature (24°C), with daily remixing.",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "The Tour of Aymavilles. Age 30. Surface 2 ha, Guyot system; plant 7,500 feet per hectare, rows to ciglione and retouching. Yield 8,000 kg/ha. ",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging of 12 months in French oak from 300 L. Aging in bottle of 6 months.",
+        "servizioTitle": "Serve at:",
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Intenso ed austero questo autoctono è il rosso più strutturato che ci regala la nostra terra. Il suo nome deriva dal color grigio fumo degli acini, ricchi di pruina. Tradizionalmente utilizzato nei tagli per l'intenso colore, rischia l'estinzione negli anni '70 quando, salvato dai Vignerons locali, entra a far parte della Doc Valle d'Aosta. Nel 1993, è vinificato per la prima volta in purezza da Les Crêtes, rivelandosi un vino di grande eleganza, adatto al lungo affinamento in bottiglia. "
+                "text": "Intense and austere this autochthonous is the most structured red that gives us our land. Its name comes from the smoke-grey color of the berries, rich in pruine. Traditionally used in cuts for the intense color, it is threatened with extinction in the 70s when, saved by local Vignerons, it becomes part of the Aosta Valley DOC. In 1993, is vinified for the first time in purity by Les Crêtes, proving to be a wine of great elegance, suitable for long aging in bottle. "
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 1994",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 1994",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and alpine ridges, which reach here the highest peaks (hence the French name Les Crêtes). The metal foil cast in relief, bright as our sun, to enhance the depth of the valleys carved by glaciers. The vineyards, drawn on the peaks in the different exhibitions, to represent the wealth of a land stolen from the mountains. And at their feet, the Wine Refuge with our cellar, an ode to heroic viticulture and terroir, which allow us a niche production, cradled by the Alps."
               },
               {
-                "title": "ANNATA 2022",
-                "text": "L’annata 2022 è stata caratterizzata da un lungo periodo di caldo e siccità anomalo, che dagli inizi di maggio si è protratto fino ad ottobre inoltrato; questo clima particolare ha portato un anticipo di vendemmia di circa 20 giorni, per cui l’inizio è stato il 16 Agosto, con le basi spumanti. La vendemmia si è conclusa negli ultimi giorni di ottobre con i rossi a maturazione tardiva Fumin e Nebbiolo. I vini di quest’annata sono dotati di grande concentrazione ed aromaticità, nelle vigne più antiche e con radici profonde, c’è stata una tenuta di acidità abbondante, che ha portato ad una grande complessità nelle riserve."
+                "title": "YEAR 2022",
+                "text": "The 2022 vintage was characterized by a long period of heat and unusual drought, which lasted from the beginning of May until late October; this particular climate has brought a harvest advance of about 20 days, so the beginning was on August 16, with the bases sparkling. The harvest ended in the last days of October with the late-ripening reds Fumin and Nebbiolo. The wines of this vintage are endowed with great concentration and aromaticity, in the oldest vineyards and with deep roots, there has been a holding of abundant acidity, which has led to a great deal of complexity in the reserves."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Carbonada con polenta, mocetta di cervo, brasati di selvaggina."
+                "text": "Carbonada with polenta, venison mocetta, game braised."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     ["James Suckling  ", "2023", "92 pts ", "2021"],
@@ -703,7 +703,7 @@
                       "2017"
                     ],
                     [
-                      "Vini buoni d’Italia edizione Touring Club ",
+                      "Vini buoni d’Italia Edition Touring Club ",
                       "2020",
                       "4 stelle",
                       "2017"
@@ -741,7 +741,7 @@
                       "2016"
                     ],
                     [
-                      "Vini buoni d’Italia edizione Touring Club ",
+                      "Vini buoni d’Italia Edition Touring Club ",
                       "2018",
                       "2 stelle",
                       "2015"
@@ -755,7 +755,7 @@
                       "2014"
                     ],
                     [
-                      "Vini buoni d’Italia edizione Touring Club ",
+                      "Vini buoni d’Italia Edition Touring Club ",
                       "2017",
                       "2 stelle",
                       "2014"
@@ -929,7 +929,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Fumin-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -940,135 +940,57 @@
         "link": "/i-vini/rossi/monrouge",
         "title": "monrouge",
         "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
+        "vitigniTitle": "Grape Variety:",
         "vitigni": "Cornalin, Fumin, Vuillermin, Gamay, Petit Rouge",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": " blend di varietà locali a bacca nera",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "xx°",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "ballon piccolo",
-        "formatoTitle": "Formati:",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Blend of local black berry varieties: Cornalin, Fumin, Vuillermin, Gamay, Petit Rouge.",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "14 % vol., 5 g/l total acidity, 3.4 pH .",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Small Balloon",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "diraspatura delle uve refrigerate, fermentazione di 7 giorni in acciaio inox a temperatura controllata (26°C), con rimontaggi giornalieri",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Destemming of the refrigerated grapes, 7-day fermentation in stainless steel at controlled temperature (26°C), with daily replacements. con rimontaggi giornalieri",
 
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "La Tour e Les Crêtes di Aymavilles. Età anni 30",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento di 6 mesi in acciaio inox",
-        "servizioTitle": "Servire a:",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Various vineyards owned by the company located in the municipalities of Aymavilles, St. Pierre, Gressan and St. Christophe. Age years 15. Area 1.5 ha approximately, system at Guyot; plant of 7,500 feet per hectare, rows with ciglione and retouching. Yield 8,000 kg/ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging of 6 months in stainless steel.",
+        "servizioTitle": "Serve at:",
         "servizio": "15/17 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Fine e morbido, le Merle nasce dal desiderio di Elena ed Eleonora di sperimentare ed innovare. Les Crêtes sfida, con questa varietà internazionale, la vocazionalità del Terroir Valdostano, per ricavarne un merlot di montagna, di grande consistenza ed eleganza. Si chiama Le Merle, dal francese il Merlo, perché il vigneto, durante la vendemmia si affolla di merli, che ne sono ghiotti."
+                "text": "This fresh and pleasant red is a blend of native varieties, dedicated to those who love. The simplicity and hook for a wine easy to drink."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2015",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 1995",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2020",
-                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+                "title": "YEAR 2023",
+                "text": "The 2023 vintage was undoubtedly very important from all points of view, from May to June The temperature and precipitation were average after two years of heat and drought, and because of this the grape development was optimal. The month of August was characterized by waves of hot wind that have brought forward the harvest of the base sparkling to August 28, then proceed in good years spent for the collection of other varieties. The harvest ended at the end of October with the cutting of the Petite Arvine for whites and reds in early November, with the Fumin. The peculiarity of the vintage is that to have very savory and fresh wines, in general the varietal characteristics are accentuated and the reserves promise a great longevity."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Stracotto d’asino, fiorentina, ossobuco di vitello, carré d’agnello."
-              }
-            ]
-          },
-          {
-            "name": "Premi e riconoscimenti",
-
-            "content": [
-              {
-                "table": {
-                  "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
-                  ],
-                  "rows": [
-                    ["Robert Parker Wine Advocate ", "2024", "91/100", "2020"],
-                    ["James Suckling  ", "2023", "91 pts ", "2020"],
-                    [
-                      "Luca Maroni - Annuario dei migliori vini Italiani ",
-                      "2024",
-                      "95/100",
-                      "2020"
-                    ],
-                    [
-                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
-                      "2024",
-                      "93/100",
-                      "2020 "
-                    ],
-                    [
-                      "Gilbert & Gaillard ",
-                      "2023",
-                      "90/100-Doble Gold Medal ",
-                      "2020 "
-                    ],
-                    [
-                      "Mondial du Merlot Sierre-Switzerland ",
-                      "2023",
-                      "Medaglia d’Oro ",
-                      "2019 "
-                    ],
-                    ["I Vini di Veronelli ", "", "92/100 ", "2018 "],
-                    [
-                      "Gambero Rosso - vini d'Italia",
-                      "2023",
-                      "2 bicchieri ",
-                      "2018 "
-                    ],
-                    [
-                      "Luca Maroni - Annuario dei migliori vini Italiani ",
-                      "2023",
-                      "94/100",
-                      "2018"
-                    ],
-                    ["James Suckling", "2021", "90", "2017 "],
-                    [
-                      "Luca Maroni - Annuario dei migliori vini Italiani ",
-                      "2021",
-                      "92 punti",
-                      "2017"
-                    ],
-                    [
-                      "Guida Essenziale ai vini d’Italia - DoctorWine by Daniele Cernili",
-                      "2021",
-                      "92 punti",
-                      "2017 "
-                    ],
-                    ["AIS Vitae-La Guida dei Vini", "2021", "88/100", "2017"],
-                    [
-                      "Luca Maroni - Annuario dei migliori vini Italiani ",
-                      "2020",
-                      "93 punti",
-                      "2016"
-                    ],
-                    ["I Vini di Veronelli ", "2020", "90/100 ", "2016 "]
-                  ]
-                }
+                "text": "Cold cuts and salami, pasta with meat sauce, soups, cheeses of medium maturation, red meats."
               }
             ]
           },
@@ -1096,56 +1018,56 @@
         "link": "/i-vini/rossi/nebbiolo",
         "title": "nebbiolo",
         "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
-        "vitigni": "Nebbiolo 100%",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Rossi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol  13.5% vol., acidità totale  5.5   g/l, pH 3.4°",
-        "bicchiereTitle": "Tipologia di bicchiere:",
+        "vitigniTitle": "Grape Variety:",
+        "vitigni": " 100% Nebbiolo",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Red Wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "13.5% vol., 5.5 g/l total acidity, 3.4 pH",
+        "bicchiereTitle": "Glass Type:",
         "bicchiere": " Grand ballon",
-        "formatoTitle": "Formati:",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Diraspatura delle uve, fermentazione a bacca intera di 10 giorni a temperatura controllata (23 °C), con follature quotidiane. ",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Arnad e Issogne. Età anni 30. Superficie 1,5 ha, controspalliera a   Guyot; impianto di 7.500 piedi per ettaro. Resa 5.500 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento di 12 mesi in acciaio inox. Affinamento in bottiglia di 3 mesi.",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Destemming of the grapes, fermentation in whole berries for 10 days at controlled temperature (23 °C), with daily follatures.",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Arnad and Issogne. Age 30. Surface 1,5 ha, Guyot wall; 7.500 feet plant per hectare. Yield 5.500 kg/ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging of 12 months in stainless steel. Aging in bottle for 3 months.",
+        "servizioTitle": "Serve at:",
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Il Nebbiolo, tipico del Piemonte, è da sempre presente anche in Valle d'Aosta, dov'è tradizionalmente coltivato col nome del Picotendro, nel fondovalle alluvionale di origine glaciale delle zone vocate di Arnad e Issogne. Ci dedichiamo alla vinificazione di questa varietà storiaca, per valorizzarne l'identità di montagna."
+                "text": "The Nebbiolo, typical of Piedmont, has always been present in Valle d'Aosta, where it is traditionally grown under the name of Picotendro, in the alluvial valley of glacial origin of the Arnad and Issogne catchment areas. We dedicate ourselves to the vinification of this historical variety, to enhance its mountain identity."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2021",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2021",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2021",
-                "text": "L’annata 2021 ha avuto uno sviluppo particolare, con un inverno fresco e una primavera con temperature decisamente sotto la media in particolare nei mesi di maggio e giugno al punto da rendere difficile le fioriture e lo sviluppo del grappolo. Da lì in poi asciutto e secco fino a metà settembre con alcuni giorni molto caldi ma nella norma. La vendemmia è iniziata con un ritardo di una decina di giorni e con quantitativi molto ridotti ma con ottima qualità. Lo sviluppo climatico e di maturazione delle uve ha portato a vini più freschi e aromatici con gradazioni più basse ed equilibrate e sensazioni molto tipiche dei vini di montagna. I vini 2021 presentano una grande struttura tannica che sicuramente sarà un fattore fondamentale per garantire longevità e potenza per molti anni."
+                "title": "YEAR 2021",
+                "text": "The 2021 vintage had a particular development, with a cool winter and a spring with temperatures decidedly below average in particular during the months of May and June to the point of making it difficult for the flowers and the development of the bunch. From then on dry and dry until mid-September with some very hot days but in the norm. The harvest started with a delay of about ten days and with very small quantities but with excellent quality. The climatic development and the maturation of the grapes led to more fresh and aromatic wines with lower and balanced gradations and sensations very typical of mountain wines. The 2021 wines have a great tannic structure that will surely be a key factor to ensure longevity and power for many years."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Bollito misto, rognone di vitello, ravioli al sugo d’arrosto."
+                "text": "Mixed boiled, veal kidney, ravioli with roast sauce."
               }
             ]
           },
@@ -1162,7 +1084,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Nebbiolo-sommet-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -1173,70 +1095,70 @@
         "link": "/i-vini/rossi/nebbiolos",
         "title": "nebbiolos",
         "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
-        "vitigni": "Nebbiolo 100%",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Rossi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 13.5% vol., acidità totale 5.5 g/l, pH 3.4",
-        "bicchiereTitle": "Tipologia di bicchiere:",
+        "vitigniTitle": "Grape Variety:",
+        "vitigni": "100% Nebbiolo ",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Red Wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "13.5% vol., 5.5 g/l total acidity , 3.4 pH",
+        "bicchiereTitle": "Glass Type:",
         "bicchiere": " Grand ballon",
-        "formatoTitle": "Formati:",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Diraspatura delle uve refrigerate, fermentazione a bacca intera di 10 giorni a temperatura controllata (23°C), con follature quotidiane.",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Arnad e Issogne. Età anni 30 Superficie 1,5 ha circa, controspalliera a Guyot; impianto di 7.500 piedi per ettaro. Resa 5.500 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento di 12 mesi in rovere francese da 25Hl. Affinamento in bottiglia di 1 anno.",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Destemming of the refrigerated grapes, fermentation with whole berries for 10 days at controlled temperature (23°C), with daily follatures.",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Arnad and Issogne. Age 30 Surface 1.5 ha approx, slab at Guyot; plant of 7,500 feet per hectare. Yield 5,500 kg/ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging of 12 months in French oak from 25Hl. Aging in bottle of 1 year.",
+        "servizioTitle": "Serve at:",
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Il Nebbiolo, tipico del Piemonte, è da sempre presente anche in Valle d'Aosta, dov'è tradizionalmente coltivato col nome di Picotendro, nel fondovalle alluvionale di origine glaciale delle zone vocate di Arnad e Issogne. Ci dedichiamo alla vinificazione di questa varietà storica, per valorizzare l'identità di montagna, prende così vita il nostro Nebbiolo 'Sommet', che in francese significa 'cima', in onore delle montagne che ne cullano i vigneti."
+                "text": "The Nebbiolo, typical of Piedmont, has always been present in Valle d'Aosta, where it is traditionally cultivated under the name of Picotendro, in the alluvial valley of glacial origin of the Arnad and Issogne catchment areas. We dedicate ourselves to the vinification of this historical variety, to enhance the mountain identity, so our Nebbiolo 'Sommet', which in French means 'top', In honor of the mountains that rock their vineyards."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2015",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2015",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and alpine ridges, which reach here the highest peaks (hence the French name Les Crêtes). The metal foil cast in relief, bright as our sun, to enhance the depth of the valleys carved by glaciers. The vineyards, drawn on the peaks in the different exhibitions, to represent the wealth of a land stolen from the mountains. And at their feet, the Wine Refuge with our cellar, an ode to heroic viticulture and terroir, which allow us a niche production, cradled by the Alps."
               },
               {
-                "title": "ANNATA 2020",
-                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+                "title": "YEAR 2020",
+                "text": "The year 2020 was characterized by a very hot and dry spring, followed by the months of May and June with temperatures below average; the summer course was regular, As well as the harvest season, which began in the first days of September. The harvest ended at the beginning of November with the cutting of late varieties, Petite Arvine and Fumin; in general the vines had an abundant and very balanced production, aspects that are reflected on wines, which are endowed with great elegance and verticality."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Bollito misto, rognone di vitello, ravioli al sugo d’arrosto."
+                "text": "Mixed boiled, veal kidney, ravioli with roast sauce."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     ["FALSTAFF Trophy", "2024", "93", "2019"],
@@ -1326,7 +1248,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Nebbiolo-sommet-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -1337,70 +1259,70 @@
         "link": "/i-vini/rossi/pinot",
         "title": "pinot",
         "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
-        "vitigni": "Pinot Nero 100% (selezione di Borgogna)",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Rossi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 14% vol., acidità totale 6g/l, pH 3.3.",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "Borgogna",
-        "formatoTitle": "Formati:",
+        "vitigniTitle": "Grape Variety:",
+        "vitigni": "Pinot Noir 100% (selection of Burgundy)",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Red Wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "14% vol., 6g/l total acidity, 3.3 pH",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Burgundy",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Diraspatura delle uve refrigerate, criomacerazione ad acino intero di 2 giorni, fermentazione di 8 giorni in acciaio inox a temperatura controllata (22 °C), con rimontaggi giornalieri.",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "La Tour di Aymavilles. Età 20 anni. Superficie 3,0 ha circa, sistema a Guyot; impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino. Resa 9.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento in acciaio inox di 6 mesi.",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Chilled grape destemming, 2-day whole-grain cryo-fermentation, 8-day temperature controlled (22 °C) stainless steel fermentation with daily rebuilds.",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "The Tour of Aymavilles. Age 20 years. Surface 3,0 ha approximately, system to Guyot; plant of 7.500 feet per hectare, rows to ciglione and retouching. Yield 9,000 kg/ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging in stainless steel of 6 months.",
+        "servizioTitle": "Serve at:",
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Les Crêtes, con la lavorazione del suo Pinot Nero in solo acciaio, ottiene un pinot di montagna elegante, che si contraddistingue per il colore luminoso ed un frutto complesso e croccante."
+                "text": "Les Crêtes, with the processing of its Pinot Noir in steel only, gets an elegant mountain pinot, which is distinguished by bright color and a complex and crunchy fruit."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 1995",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 1995",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and alpine ridges, which reach here the highest peaks (hence the French name Les Crêtes). The metal foil cast in relief, bright as our sun, to enhance the depth of the valleys carved by glaciers. The vineyards, drawn on the peaks in the different exhibitions, to represent the wealth of a land stolen from the mountains. And at their feet, the Wine Refuge with our cellar, an ode to heroic viticulture and terroir, which allow us a niche production, cradled by the Alps."
               },
               {
-                "title": "ANNATA 2023",
-                "text": "L’annata 2023 è stata senza dubbio molto importante sotto ogni punto di vista, da maggio a giugno temperature e precipitazioni sono state nella media, dopo due anni di caldo e siccità, e per questo lo sviluppo dell’uva è stato ottimale. Il mese di agosto è stato caratterizzato da ondate di vento caldo che hanno anticipato la vendemmia della base spumante al 28 di agosto, per poi procedere in regola con gli anni passati per la raccolta delle altre varietà. La vendemmia si è conclusa a fine ottobre con il taglio della Petite Arvine per i bianchi e per i rossi ad inizio novembre, con il Fumin. La peculiarità dell’annata è quella di avere dei vini molto sapidi e freschi, in generale le caratteristiche varietali sono accentuate e le riserve promettono una grande longevità."
+                "title": "YEAR 2023",
+                "text": "The 2023 vintage was undoubtedly very important from every point of view, from May to June temperatures and precipitation were average, after two years of heat and drought, and for this the development of the grapes was optimal. The month of August was characterized by waves of hot wind that have anticipated the harvest of the sparkling base on August 28, and then proceed in accordance with the years passed for the collection of other varieties. The harvest ended at the end of October with the cutting of the Petite Arvine for the whites and for the reds in early November, with the Fumin. The peculiarity of this vintage is that it has very sapid and fresh wines, in general the varietal characteristics are accentuated and the reserves promise a great longevity."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Battuta di carne di manzo, rollè di coniglio alle olive, crespelle alla valdostana."
+                "text": "Beef meat, rabbit roll with olives, crepes with Valdostana."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     ["James Suckling", "2023", "91 pts", "2022"],
@@ -1540,7 +1462,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Pinot-nero-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -1551,70 +1473,70 @@
         "link": "/i-vini/rossi/revei",
         "title": "revei",
         "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
-        "vitigni": "Pinot Nero 100% (varietà tradizionale)",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Rossi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol % 14.5 ,acidità totale 6.5 g/l, pH 3.3.",
-        "bicchiereTitle": "Tipologia di bicchiere:",
+        "vitigniTitle": "Grape Variety:",
+        "vitigni": "Pinot Nero 100% (traditional variety)",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Red Wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "14.5% ,6.5 g/l total acidity, 3.3 pH",
+        "bicchiereTitle": "Glass Type:",
         "bicchiere": " Grand ballon",
-        "formatoTitle": "Formati:",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Selezione e diraspatura delle uve refrigerate, criomacerazione a bacca intera di 2 giorni, 12 giorni di fermentazione in acciaio inox a temperatura controllata (23 C°), svinatura a precedere la fine fermentazione.",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Les Cretes di Aymavilles. 0,60 ha circa, sistema a Guyot; impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino. Resa 4.000 kg/ha.",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Selection and destemming of the refrigerated grapes, 2-day whole berry cryofermentation, 12 days of fermentation in stainless steel at controlled temperature (23 C°), Svinatura to precede the end of fermentation.",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Les Cretes of Aymavilles. 0.60 ha approximately, system to Guyot; plant of 7,500 feet per hectare, rows to ciglione and retouching. Yield 4,000 kg/ha.",
         "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento di 18 mesi in tonneaux da 700 L usati. Imbottigliamento senza filtrazione e stabilizzazione. Affina in bottiglia di 18 mesi.",
-        "servizioTitle": "Servire a:",
+        "affinamento": "Aging for 18 months in barrels of 700 L used. Bottling without filtration and stabilization. Refining in bottle for 18 months.",
+        "servizioTitle": "Serve at:",
         "servizio": "14/16 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Il Pinot Nero Revei, che in Patois significa orgoglio, é legato alla storia della torre medievale, che domina il nostro vigneto di Aymavilles e da cui nasce. La torre fu dimora di un eremita orologiaio, che con il suo mestiere, ci ha riportato al tema del tempo e del suo valore, in natura e per l'uomo. Da qui nasce il Revei, figlio di grande esperienza e lunga attesa. Nella sua creazione, il tempo gioca un ruolo fondamentale dalla maturazione, all'affinamento. Qui il tempo si dilata per ottenere, dalle uve portate a maturazione ottimale, il potenziale espressivo migliore del Pinot Nero di montagna, affinato con maestria, riposa ancora a lungo nelle nostre cantine."
+                "text": "Revei Pinot Noir, which in Patois means pride, is linked to the history of the medieval tower, which dominates our vineyard of Aymavilles and from which it comes. The tower was the home of a hermit watchmaker, who with his craft, brought us to the theme of time and its value, in nature and for man. From here the Revei is born, son of great experience and long waiting. In its creation, time plays a fundamental role from maturation to refinement. Here time is extended to obtain, from the grapes brought to optimal ripening, the best expressive potential of the mountain Pinot Noir, refined with skill, It still rests in our cellars for a long time."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2017",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2017",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2021",
-                "text": "L’annata 2021 ha avuto uno sviluppo particolare, con un inverno fresco e una primavera con temperature decisamente sotto la media in particolare nei mesi di maggio e giugno al punto da rendere difficile le fioriture e lo sviluppo del grappolo. Da lì in poi asciutto e secco fino a metà settembre con alcuni giorni molto caldi ma nella norma. La vendemmia è iniziata con un ritardo di una decina di giorni e con quantitativi molto ridotti ma con ottima qualità. Lo sviluppo climatico e di maturazione delle uve ha portato a vini più freschi e aromatici con gradazioni più basse ed equilibrate e sensazioni molto tipiche dei vini di montagna. I vini 2021 presentano una grande struttura tannica che sicuramente sarà un fattore fondamentale per garantire longevità e potenza per molti anni."
+                "title": "YEAR 2021",
+                "text": "The 2021 vintage had a particular development, with a cool winter and a spring with temperatures decidedly below average in particular during the months of May and June to the point of making it difficult for the flowers and the development of the bunch. From then on dry and dry until mid-September with some very hot days but in the norm. The harvest started with a delay of about ten days and with very small quantities but with excellent quality. The climatic development and the maturation of the grapes led to more fresh and aromatic wines with lower and balanced gradations and sensations very typical of mountain wines. The 2021 wines have a great tannic structure that will surely be a key factor to ensure longevity and power for many years."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Guancia brasata di vitello, toma di Gressoney stagionata, crostini ai fegatini, risotto allo zafferano con midollo di ossobuco."
+                "text": "Braised calf’s cheek, aged Gressoney toma, liver crostini, saffron risotto with bone marrow."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     ["5 Stars Wines & Without Walls", "2024", "90", "2021"],
@@ -1720,7 +1642,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Pinot-Nero-REVEI-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -1731,56 +1653,56 @@
         "link": "/i-vini/rossi/sabla",
         "title": "sabla",
         "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
-        "vitigni": "Blend di varietà a bacca nera",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Rossi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 14.5 % vol., acidità totale 6 g/l, pH 3.4",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "Borgogna",
-        "formatoTitle": "Formati:",
+        "vitigniTitle": "Grape Variety:",
+        "vitigni": "Blend of black berry varieties",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Red Wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "14.5% vol., 6 g/l total acidity, 3.4 pH",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Burgundy",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Diraspatura delle uve refrigerate, fermentazione di 10 giorni in acciaio inox a temperatura controllata (26°C) con rimontaggi giornalieri.",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Località La Sabla, Bufferia e Sazzé di Aymavilles. Età anni dai 20 ai 70. Superficie 4,0 Ha circa; sistema a Guyot; impianto di 8.000 piedi per ettaro, filari a ciglione e ritocchino. Resa 8.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento in acciaio inox di 8 mesi. Affinamento in bottiglia di 5mesi.",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Destemming of the refrigerated grapes, 10-day fermentation in stainless steel at controlled temperature (26°C) with daily remixing.",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Localities La Sabla, Bufferia and Sazzé di Aymavilles. Age from 20 to 70. Surface area 4,0 ha approx. Guyot system; 8,000 feet per hectare, row of ciglione and retouching.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging in stainless steel of 8 months. Aging in bottle of 5 months.",
+        "servizioTitle": "Serve at:",
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Fruttato ed avvolgente la Sabla è prodotto dalla famiglia Charrère sin dal 1971. É il vino storico della cantina, oggi come allora, costituito da un sapiente blend di varietà a bacca rossa, coltivate nelle vecchie vigne. La Sabla significa sabbia nel dialetto locale, proprio per la composizione sabbiosa dei terreni."
+                "text": "Fruity and enveloping the Sabla is produced by the Charrère family since 1971. It is the historic wine of the winery, today as then, made from a skilful blend of red berried varieties, grown in old vineyards. Sabla means sand in the local dialect, due to the sandy composition of the soil."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 1971",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 1971",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2022",
-                "text": "L’annata 2022 è stata caratterizzata da un lungo periodo di caldo e siccità anomalo, che dagli inizi di Maggio si è protratto fino ad Ottobre inoltrato; questo clima particolare ha portato un anticipo di vendemmia di circa 20 giorni, per cui l’inizio è stato il 16 Agosto, con le basi spumanti. La vendemmia si è conclusa negli ultimi giorni di Ottobre con i rossi a maturazione tardiva Fumin e Nebbiolo. I vini di quest’annata sono dotati di grande concentrazione ed aromaticità, nelle vigne più antiche e con radici profonde, c’è stata una tenuta di acidità abbondante, che ha portato ad una grande complessità nelle riserve."
+                "title": "YEAR 2022",
+                "text": "The 2022 vintage was characterized by a long period of heat and unusual drought, which from the beginning of May lasted until late October; this particular climate has brought a harvest advance of about 20 days, so the beginning was on August 16, with the bases sparkling. The harvest ended in the last days of October with the late maturing reds Fumin and Nebbiolo. The wines of this vintage are endowed with great concentration and aromaticity, in the oldest vineyards and with deep roots, there has been a holding of abundant acidity, which has led to a great deal of complexity in the reserves."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Salame d’asino, carne alla griglia, trippa in umido, arista di maialino al latte."
+                "text": "Donkey salami, grilled meat, stewed tripe, milk pig’s edge."
               }
             ]
           },
@@ -1797,67 +1719,67 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
       },
       "sabla50": {
         "img": "/assets/vinirossi/lasabla_50.webp",
-        "name": "La Sabla® 50 anni",
+        "name": "La Sabla® 50 years",
         "link": "/i-vini/rossi/sabla50",
         "title": "sabla50",
         "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
+        "vitigniTitle": "Grape Variety:",
         "vitigni": "20% Syrah 20% Petit Rouge 20%Merlot 20%Fumin 20% Fumin appassito",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Rossi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 15% vol., acidità 6 g/l, pH 3.3.",
-        "bicchiereTitle": "Tipologia di bicchiere:",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Red Wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "15% vol., 6 g/l total acidity, 3.3 pH ",
+        "bicchiereTitle": "Glass Type:",
         "bicchiere": "Grand Ballon",
-        "formatoTitle": "Formati:",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Diraspatura e fermentazione delle uve separatamente per 13 giorni a temperatura controllata, per il fumin passito fermentazione in legno.",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Aymavilles. Superficie 1,5 ha circa, sistema a Guyot; impianto di 7.500 piedi per ettaro, filari a ritocchino. Resa 60.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento di 1 anno in botti di rovere. Ulteriore affinamento di 1 anno dopo il blend in botti di rovere. 1 anno di affinamento in acciaio. 2 anni di affinamento in bottiglia.",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Destemming and fermentation of the grapes separately for 13 days at controlled temperature, for the fumin passito wood fermentation.",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Aymavilles. Surface area of 1.5 ha, system at Guyot; plant 7,500 feet per hectare, rows to retouch. Yield 60,000 kg/ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging of 1 year in oak barrels. Further aging of 1 year after the blend in oak barrels. 1 year of aging in steel. 2 years of aging in bottle.",
+        "servizioTitle": "Serve at:",
         "servizio": "15°C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Con la Sabla 50 anni rendiamo omaggio al primo vino prodotto nelle cantine storiche di casa Charrère, dal papà di Costantino e poi primo tra tutti vinificato nel 1970 da Costantino, proprio in omaggio a suo padre. Nasceva come rosso tipico, vinificato con il meglio di ciò che la vigna poteva dare. Per celebrarne l’anniversario, proprio dalle nostre migliori vigne, nasce oggi una produzione limitata di La Sabla 50 anni, che vede l’incontro di Petit Rouge, Fumin, Syrah e Merlot e di una parte di Fumin appassito vinificato in legno. Il suo lungo affinamento (2 anni in legno e 2 in acciaio) permette la piena espressione del potenziale di questo blend, estremamente versatile."
+                "text": "With the Sabla 50 years we pay tribute to the first wine produced in the historic cellars of the house Charrère, by Constantine’s father and then first of all vinified in 1970 by Costantino, Just in homage to his father. It was born as a typical red wine, made with the best of what the vineyard could give. To celebrate the anniversary, from our best vineyards, today a limited production of La Sabla 50 years, which sees the meeting of Petit Rouge, Fumin, Syrah and Merlot and a part of Fumin decayed vinified in wood. Its long aging (2 years in wood and 2 years in steel) allows the full expression of the potential of this extremely versatile blend."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2020",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2020",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2020",
-                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+                "title": "YEAR 2020",
+                "text": "The year 2020 was characterized by a very hot and dry spring, followed by the months of May and June with temperatures below average; the summer course was regular, As well as the harvest season, which began in the first days of September. The harvest ended at the beginning of November with the cutting of late varieties, Petite Arvine and Fumin; in general the vines had an abundant and very balanced production, aspects that are reflected on wines, which are endowed with great elegance and verticality."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Cinghiale al ginepro con riduzione al mirtillo, salame di cervo, risotto al Bleu d’Aoste con zest speck croccante."
+                "text": "Juniper boar with cranberry reduction, venison salami, Bleu d'Aoste risotto with crispy bacon zest."
               }
             ]
           },
@@ -1874,7 +1796,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -1885,70 +1807,70 @@
         "link": "/i-vini/rossi/syrah",
         "title": "syrah",
         "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
+        "vitigniTitle": "Grape Variety:",
         "vitigni": "Syrah 100%",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Rossi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 14% vol., acidità totale 6 g/l, pH 3.3.",
-        "bicchiereTitle": "Tipologia di bicchiere:",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Red Wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "14% vol., 6 g/l total acidity, 3.3 pH",
+        "bicchiereTitle": "Glass Type:",
         "bicchiere": "Grand Ballon",
-        "formatoTitle": "Formati:",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Diraspatura delle uve refrigerate, fermentazione di 12 giorni in acciaio inox a temperatura controllata (24 °C), con rimontaggi giornalieri.",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "La Tour di Aymavilles. Età 16 anni. Superficie 1,5 ha circa, sistema a Guyot; impianto di 8.000 piedi per ettaro, filari a ciglione e ritocchino. Resa 8.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento di 12 mesi in barriques di rovere francese da 300 l. Affinamento in bottiglia di 6 mesi",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Destemming of the refrigerated grapes, fermentation for 12 days in stainless steel at controlled temperature (24 °C), with daily remixing.",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "The Tour of Aymavilles. Age 16 years. Surface 1.5 ha approximately, system to Guyot; plant of 8,000 feet per hectare, rows to ciglione and retouching. Yield 8,000 kg/ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging of 12 months in French oak barrels from 300 l. Aging in bottle for 6 months",
+        "servizioTitle": "Serve at:",
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Les Crêtes cominciò a produrre il suo Syrah nel 1995 come vino da tavola perché in Valle d'Aosta non era riconosciuto come D.O.P. Nel 2007 la legislazione cambiò e da allora Les Crêtes continua a produrre il suo Syrah D.O.P., rinominato per la mineralità e freschezza, legate al suo carattere di montagna."
+                "text": "Les Crêtes began to produce its Syrah in 1995 as a table wine because it was not recognized as D.O.P. in the Aosta Valley.In 2007 the legislation changed and since then Les Crêtes continues to produce its Syrah D.O.P., Renowned for its minerality and freshness, linked to its mountain character."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2004",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2004",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2020",
-                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+                "title": "YEAR 2020",
+                "text": "The year 2020 was characterized by a very hot and dry spring, followed by the months of May and June with temperatures below average; the summer course was regular, As well as the harvest season, which began in the first days of September. The harvest ended at the beginning of November with the cutting of late varieties, Petite Arvine and Fumin; in general the vines had an abundant and very balanced production, aspects that are reflected on wines, which are endowed with great elegance and verticality."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Petto d’anatra all’arancio, escargot alla Parigina, tagliatelle al ragù di cinghiale."
+                "text": "Orange duck breast, Parisian escargot, wild boar tagliatelle."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     [
@@ -2123,7 +2045,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -2135,25 +2057,25 @@
         "link": "/i-vini/rossi/torrettesup",
         "title": "torrettesup",
         "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
+        "vitigniTitle": "Grape Variety:",
         "vitigni": "Petit Rouge 100%",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Rossi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 13.5, acidità totale 6 g/l, pH 3.4.",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "Ballon piccolo",
-        "formatoTitle": "Formati:",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Red Wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "13.5% vol., 6 g/l total acidity , 3.3 pH",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Small Balloon",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Diraspatura delle uve refrigerate, fermentazione di 8 giorni in acciaio inox a temperatura controllata (26 °C), con rimontaggi giornalieri.",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Vigne Les Toules di Sarre, zona vocazionale storica del Torrette. Superficie 2.5 ha circa, sistema a Guyot; impianto di 7.500 piedi per ettaro, filari a ritocchino. Resa 8.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento in acciaio inox di 8 mesi. Affinamento in bottiglia di 6 mesi.",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Destemming of the refrigerated grapes, fermentation for 8 days in stainless steel at a controlled temperature (26 °C), with daily remixing.",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Vineyards Les Toules of Sarre, historical vocation area of the Torrette. Surface area 2.5 ha approximately, system to Guyot; plant of 7,500 feet per hectare, rows to retouch. Yield 8,000 kg/ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging in stainless steel of 8 months. Aging in bottle of 6 months.",
+        "servizioTitle": "Serve at:",
         "servizio": "16/18 °C",
         "tabs": [
           {
@@ -2161,44 +2083,44 @@
 
             "content": [
               {
-                "text": "Il Torrette è la D.O.C. di zona più estesa della Valle d'Aosta, da cui nasce il vino omonimo. Vinificato con una base prevalente di Petit Rouge (varietà autoctona), è il vino autoctono più diffuso e tradizionalmente consumato nella regione. Il Torrette acquisisce la qualifica Superiore, per il lungo affinamento che richiede."
+                "text": "Torrette is the D.O.C. of the most extensive area of the Aosta Valley, from which the wine of the same name is born. Vinified with a predominant base of Petit Rouge (autochthonous variety), it is the most widespread and traditionally consumed autochthonous wine in the region. The Torrette acquires the Superior qualification, for the long refinement that it requires."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2014",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2014",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2023",
-                "text": "L’annata 2023 è stata senza dubbio molto importante sotto ogni punto di vista, da maggio a Giugno temperature e precipitazioni sono state nella media, dopo due anni di caldo e siccità, e per questo lo sviluppo dell’uva è stato ottimale. Il mese di agosto è stato caratterizzato da ondate di vento caldo che hanno anticipato la vendemmia della base spumante al 28 di agosto, per poi procedere in regola con gli anni passati per la raccolta delle altre varietà. La vendemmia si è conclusa a fine ottobre con il taglio della Petite Arvine per i bianchi e per i rossi ad inizio novembre, con il Fumin. La peculiarità dell’annata è quella di avere dei vini molto sapidi e freschi, in generale le caratteristiche varietali sono accentuate e le riserve promettono una grande longevità."
+                "title": "YEAR 2023",
+                "text": "The 2023 vintage was undoubtedly very important from every point of view, from May to June temperatures and precipitation were average, after two years of heat and drought, and for this the development of the grapes was optimal. The month of August was characterized by waves of hot wind that have anticipated the harvest of the sparkling base on August 28, and then proceed in accordance with the years passed for the collection of other varieties. The harvest ended at the end of October with the cutting of the Petite Arvine for the whites and for the reds in early November, with the Fumin. The peculiarity of this vintage is that it has very sapid and fresh wines, in general the varietal characteristics are accentuated and the reserves promise a great longevity."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Mocetta, fontina d’alpeggio, Favò valdostana, zuppa Valpellinenze."
+                "text": "Mocetta, fontina d'alpeggio, Favò valdostana, Valpellinenze soup."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     ["James Suckling", "2023", "91 pts ", "2022"],
@@ -2286,7 +2208,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -2297,70 +2219,70 @@
         "link": "/i-vini/rossi/torrette",
         "title": "torrette",
         "cat": "rossi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
+        "vitigniTitle": "Grape Variety:",
         "vitigni": "Petit Rouge 70%, Varietà Autoctone 30% (Mayolet, Cornalin, Fumin)",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Rossi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 14% vol., acidità totale 5.5 g/l, pH 3.4",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "Ballon piccolo",
-        "formatoTitle": "Formati:",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Red Wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "14% vol., 5.5 g/l total acidity, 3.4 pH",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Small Balloon",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Diraspatura delle uve refrigerate, fermentazione di 12 giorni in acciaio inox a temperatura controllata (26°C), con rimontaggi giornalieri.",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Vigneti ubicati nei comuni di Aymavilles, St. Pierre, Gressan e St. Christophe. Superficie 2,0 ha circa, sistema a Guyot; impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino. Resa 8.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento in acciaio inox di 6 mesi. Affinamento in bottiglia di 2 mesi.",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Destemming of the refrigerated grapes, fermentation of 12 days in stainless steel at controlled temperature (26°C), with daily reassembling.",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Vineyards located in the municipalities of Aymavilles, St. Pierre, Gressan and St. Christophe. Surface area 2.0 ha approximately, system in Guyot; plant of 7,500 feet per hectare, rows to ciglione and retocchino. Yield 8,000 kg/ ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging in stainless steel of 6 months. Aging in bottle of 2 months.",
+        "servizioTitle": "Serve at:",
         "servizio": "16/18 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Il Torrette è la D.O.C. di zona più estesa della Valle d'Aosta, da cui nasce il vino omonimo. Vinificato con una base prevalentemente di Petit Rouge (varietà autoctona), è il vino autoctono più diffuso e tradizionalmente consumato nella regione."
+                "text": "Torrette is the D.O.C. of the most extensive area of the Aosta Valley, from which the wine of the same name is born. Vinified with a predominantly Petit Rouge base (autochthonous variety), it is the most widespread and traditionally consumed autochthonous wine in the region."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 1991",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 1991",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2023",
-                "text": "L’annata 2023 è stata senza dubbio molto importante sotto ogni punto di vista, da maggio a giugno temperature e precipitazioni sono state nella media, dopo due anni di caldo e siccità, e per questo lo sviluppo dell’uva è stato ottimale. Il mese di agosto è stato caratterizzato da ondate di vento caldo che hanno anticipato la vendemmia della base spumante al 28 di agosto, per poi procedere in regola con gli anni passati per la raccolta delle altre varietà. La vendemmia si è conclusa a fine ottobre con il taglio della Petite Arvine per i bianchi e per i rossi ad inizio novembre, con il Fumin. La peculiarità dell’annata è quella di avere dei vini molto sapidi e freschi, in generale le caratteristiche varietali sono accentuate e le riserve promettono una grande longevità."
+                "title": "YEAR 2023",
+                "text": "The 2023 vintage was undoubtedly very important from every point of view, from May to June temperatures and precipitation were average, after two years of heat and drought, and for this the development of the grapes was optimal. The month of August was characterized by waves of hot wind that have anticipated the harvest of the sparkling base on August 28, and then proceed in accordance with the years passed for the collection of other varieties. The harvest ended at the end of October with the cutting of the Petite Arvine for the whites and for the reds in early November, with the Fumin. The peculiarity of this vintage is that it has very sapid and fresh wines, in general the varietal characteristics are accentuated and the reserves promise a great longevity."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Affettati e salumi, polenta ai funghi, carni arrosto e grigliate. Tradizionalmente consumato in Valle d'Aosta a tutto pasto."
+                "text": "Cold cuts and salami, polenta with mushrooms, roast meats and grilled meats. Traditionally eaten in the Valle d'Aosta at all times."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     [
@@ -2433,7 +2355,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -2445,70 +2367,70 @@
 
         "title": "chardonnaycb",
         "cat": "bianchi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
+        "vitigniTitle": "Grape Variety:",
         "vitigni": "Chardonnay 100%",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Bianchi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 14.5% vol., acidità totale 6 g/l, pH 3.2.",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "Renano ampio",
-        "formatoTitle": "Formati:",
+        "tipologiaTitle": "Type:",
+        "tipologia": "White wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "14.5% vol., 6 g/l total acidity, pH 3.2.",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Renano wide",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Selezione delle uve, refrigerazione e pressatura soffice a grappolo intero di 7 crus, fermentazione in barriques di rovere francese da 300 L.",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "7 crus dislocati in diversi comuni del centro valle. Età anni 20. Superficie 4 ha circa, sistema a Guyot; densità di impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino. Resa 8.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento “sur lies” di 12 mesi, con bâtonnages settimanali. Barriques utilizzate al 50% nuove e al 50% di secondo passaggio. Affinamento in bottiglia di 12 mesi.",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Selection of grapes, refrigeration and soft pressing of whole cluster of 7 crus, fermentation in French oak barrels from 300 L.",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "7 crus located in different municipalities of the center valley. Age 20 years. Surface area 4 ha approximately, system to Guyot; density of plant of 7.500 feet per hectare, rows to ciglione and retocchino. Yield 8.000 kg/ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging 'sur lies' of 12 months, with weekly bâtonnages. Barriques used at 50% new and 50% second pass. Aging in bottle for 12 months.",
+        "servizioTitle": "Serve at:",
         "servizio": "13/15 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Chardonnay ampio e strutturato, riconosciuto per eleganza e stile. I tannini nobili derivanti dai legni pregiati, l'affinamento sur lies e i ripetuti bâtonnages gli conferiscono straordinaria complessità e notevole equilibrio. Il nome Cuvèe Bois nasce dal suo metodo di affinamento in barriques 'cuves' di rovere francese 'bois'"
+                "text": "Chardonnay large and structured, recognized for elegance and style. The noble tannins derived from precious woods, the sur lies refinement and the repeated bâtonnages give it extraordinary complexity and remarkable balance. The name Cuvèe Bois comes from its method of aging in 'cuves' barriques of French oak 'bois'"
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 1995",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 1995",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2022",
-                "text": "L’annata 2022 è stata caratterizzata da un lungo periodo di caldo e siccità anomalo, che dagli inizi di maggio si è protratto fino ad ottobre inoltrato; questo clima particolare ha portato un anticipo di vendemmia di circa 20 giorni, per cui l’inizio è stato il 16 Agosto, con le basi spumanti. La vendemmia si è conclusa negli ultimi giorni di ottobre con i rossi a maturazione tardiva Fumin e Nebbiolo. I vini di quest’annata sono dotati di grande concentrazione ed aromaticità, nelle vigne più antiche e con radici profonde, c’è stata una tenuta di acidità abbondante, che ha portato ad una grande complessità nelle riserve."
+                "title": "YEAR 2022",
+                "text": "The 2022 vintage was characterized by a long period of heat and unusual drought, which lasted from the beginning of May until late October; this particular climate has brought a harvest advance of about 20 days, so the beginning was on August 16, with the bases sparkling. The harvest ended in the last days of October with the late-ripening reds Fumin and Nebbiolo. The wines of this vintage are endowed with great concentration and aromaticity, in the oldest vineyards and with deep roots, there has been a holding of abundant acidity, which has led to a great deal of complexity in the reserves."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Foie gras, tagliolini al tartufo, filetto in crosta di nocciole, fonduta valdostana."
+                "text": "Foie gras, truffle noodles, fillet in hazelnut crust, fondue valdostana."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     ["5 Star Wines & Without Walls", "2024", "91/100", "2022"],
@@ -2936,70 +2858,70 @@
         "title": "chardonnay",
         "link": "/i-vini/bianchi/chardonnay",
         "cat": "bianchi",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
+        "vitigniTitle": "Grape Variety:",
         "vitigni": "Chardonnay 100%",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Bianchi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 13.5% vol., acidità totale 6 g/l, pH 3.3.",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "Tulipano ampio.",
-        "formatoTitle": "Formati:",
+        "tipologiaTitle": "Type:",
+        "tipologia": "White wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "13.5% vol., 6 g/l total acidity , 3.3 pH",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Tulip wide",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Refrigerazione e pressatura soffice a grappolo intero delle uve, fermentazione di 12 giorni in acciaio inox a temperatura controllata (14°c).",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Les Crêtes di Aymavilles, Frissonnière di Saint Christophe. Età anni 20. Superficie di 6 ha, sistema a Guyot; impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino. Resa 9.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento “sur lies” di 3 mesi",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Soft cooling and pressing of whole bunches of grapes, fermentation for 12 days in stainless steel at controlled temperature (14°c).",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Les Crêtes di Aymavilles, Frissonnière di Saint Christophe. Età anni 20. Area of 6 ha, system a Guyot; plant 7,500 feet per hectare, filari a ciglione e ritocchino. Yield 9,000 kg/ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "3 months 'sur lies' ageing",
+        "servizioTitle": "Serve at:",
         "servizio": "10/12 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Chardonnay minerale e varietale. Il suo carattere di montagna acquisito dal Terroir di coltivazione, lo rende inconfondibile per la spiccata freschezza."
+                "text": "Mineral and varietal Chardonnay. Its mountain character acquired from the cultivation terroir, makes it unmistakable for the pronounced freshness."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 1991",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 1991",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2023",
-                "text": "L’annata 2023 è stata senza dubbio molto importante sotto ogni punto di vista, da Maggio a Giugno temperature e precipitazioni sono state nella media, dopo due anni di caldo e siccità, e per questo lo sviluppo dell’uva è stato ottimale. Il mese di Agosto è stato caratterizzato da ondate di vento caldo che hanno anticipato la vendemmia della base spumante al 28 di agosto, per poi procedere in regola con gli anni passati per la raccolta delle altre varietà. La vendemmia si è conclusa a fine Ottobre con il taglio della Petite Arvine per i bianchi e per i rossi ad inizio Novembre, con il Fumin. La peculiarità dell’annata è quella di avere dei vini molto sapidi e freschi, in generale le caratteristiche varietali sono accentuate e le riserve promettono una grande longevità."
+                "title": "YEAR 2023",
+                "text": "The 2023 vintage was undoubtedly very important from every point of view, from May to June temperatures and precipitation were average, after two years of heat and drought, and for this the development of the grapes was optimal. The month of August was characterized by waves of hot wind that have anticipated the harvest of the sparkling base on August 28, and then proceed in accordance with the years passed for the collection of other varieties. The harvest ended at the end of October with the cutting of the Petite Arvine for the whites and the reds in early November, with the Fumin. The peculiarity of this vintage is that it has very sapid and fresh wines, in general the varietal characteristics are accentuated and the reserves promise a great longevity."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Salumi e formaggi, primi piatti elaborati, coniglio alla ligure, gnocchi alla bava. Adatto anche come aperitivo."
+                "text": "Cold cuts and cheeses, elaborate pasta dishes, rabbit with the Ligurian sauce, gnocchi with the bava. Also suitable as an aperitif."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     [
@@ -3171,7 +3093,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Chardonnay-Valle-dAosta-DOP-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -3182,61 +3104,61 @@
         "title": "monblanc",
         "cat": "bianchi",
         "link": "/i-vini/bianchi/monblanc",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
-        "vitigni": "Blend di varietà autoctone ed internazionali a bacca bianca.",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Bianchi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 12.5 % vol., acidità totale 6 g/l, pH 3.3",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "Tulipano",
-        "formatoTitle": "Formati:",
+        "vitigniTitle": "Grape Variety:",
+        "vitigni": "Blend of native and international white berry varieties.",
+        "tipologiaTitle": "Type:",
+        "tipologia": "White wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "12.5 % vol., 6 g/l total acidity, 3.3 pH",
+        "bicchiereTitle": "G",
+        "bicchiere": "Tulip",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Refrigerazione e pressatura soffice a grappolo intero delle uve, fermentazione di 12 giorni in acciaio inox a temperatura di 14°C.",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Vigneti vari. Età anni 15. Superficie 2,50 ha, sistema a Guyot; impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino. Resa 8.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento “sur lies” di 3 mesi",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Soft refrigeration and pressing of whole grapes, fermentation of 12 days in stainless steel at a temperature of 14°C.",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Various vineyards. Age 15 years. Surface 2.50 ha, system in Guyot; plant 7,500 feet per hectare, rows of ciglione and retouching. Yield 8,000 kg/ ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "3 months 'sur lies' ageing",
+        "servizioTitle": "Serve at:",
         "servizio": "8/10 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Delicato e fruttato, Il Mon Blanc è un blend delle varietà autoctone ed internazionali di vari vigneti. È dedicato a chi vuole un vino piacevole di facile bevuta. Il suo nome nasce da un gioco di parole (in francese Mon Blanc e Mont Blanc significano Mio bianco e Monte Bianco)"
+                "text": "Delicate and fruity, Mon Blanc is a blend of native and international varieties from various vineyards. It is dedicated to those who want a pleasant wine that is easy to drink. Its name comes from a play on words (in French Mon Blanc and Mont Blanc mean Mio white and Mont Blanc)"
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 1995",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 1995",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2020",
-                "text": "L’annata 2023 è stata senza dubbio molto importante sotto ogni punto di vista, da maggio a giugno temperature e precipitazioni sono state nella media, dopo due anni di caldo e siccità, e per questo lo sviluppo dell’uva è stato ottimale. Il mese di agosto è stato caratterizzato da ondate di vento caldo che hanno anticipato la vendemmia della base spumante al 28 di agosto, per poi procedere in regola con gli anni passati per la raccolta delle altre varietà. La vendemmia si è conclusa a fine ottobre con il taglio della Petite Arvine per i bianchi e per i rossi ad inizio novembre, con il Fumin. La peculiarità dell’annata è quella di avere dei vini molto sapidi e freschi, in generale le caratteristiche varietali sono accentuate e le riserve promettono una grande longevità."
+                "title": "YEAR 2020",
+                "text": "The 2023 vintage was undoubtedly very important from every point of view, from May to June temperatures and precipitation were average, after two years of heat and drought, and for this the development of the grapes was optimal. The month of August was characterized by waves of hot wind that have anticipated the harvest of the sparkling base on August 28, and then proceed in accordance with the years passed for the collection of other varieties. The harvest ended at the end of October with the cutting of the Petite Arvine for the whites and for the reds in early November, with the Fumin. The peculiarity of this vintage is that it has very sapid and fresh wines, in general the varietal characteristics are accentuated and the reserves promise a great longevity."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Antipasti di pesce, carni bianche, formaggi freschi, pesce al vapore, frittate, torte salate."
+                "text": "Fish appetizers, white meats, fresh cheeses, steamed fish, omelettes, savoury cakes."
               }
             ]
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Mon-Blanc-Vino-bianco-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -3247,70 +3169,70 @@
         "title": "neige",
         "cat": "bianchi",
         "link": "/i-vini/bianchi/neige",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
+        "vitigniTitle": "Grape Variety:",
         "vitigni": "Petite Arvine 60%, Pinot Gris 40%",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Bianchi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 14 % vol., acidità totale 7 g/l, pH 3.1",
-        "bicchiereTitle": "Tipologia di bicchiere:",
+        "tipologiaTitle": "Type:",
+        "tipologia": "White wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "14 % vol., 7 g/l total acidity, 3.1 pH",
+        "bicchiereTitle": "Glass Type:",
         "bicchiere": "Grand ballon",
-        "formatoTitle": "Formati:",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Selezione, refrigerazione e pressatura soffice a grappolo intero delle uve; fermentazione parte in tini di rovere francese da 30 hl e parte in barriques di rovere francese da 300 L.",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Diversi vigneti in Valle d’Aosta. Età anni 30. Superficie 0,80 ha circa, controspalliera a Guyot; impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino. Resa 6.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento “sur lies” di 12 mesi e affinamento in bottiglia di 18 mesi.",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Selection, refrigeration and soft pressing of the whole bunch of grapes; fermentation in French oak barrels of 30 hl and in French oak barrels of 300 L.",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Several vineyards in Valle d'Aosta. Age 30 years. Surface area of about 0.80 ha, wall slatted in Guyot; plant 7,500 feet per hectare, rows with garter and retouching. Yield 6,000 kg/ ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging 'sur lies' of 12 months and aging in bottle of 18 months.",
+        "servizioTitle": "Serve at:",
         "servizio": "13/15 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Importante e verticale il Neige D'Or è un ricco blend di uve a bacca bianca, selezionate e vinificate con l'esperienza di oltre 40 anni, su diverse varietà con diversi tipi di affinamento. È il risultato di una combinazione che unisce le specifiche caratteristiche della Petite Arvine, affinata in botte grande e del Pinot Grigio, affinato in barrique. Il nome Neige d'Or (in italiano Neve d'oro), trae ispirazione dalla preziosità e dalla mineralità della Cuvèe."
+                "text": "Neige D'Or is an important and vertical blend of white berried grapes, selected and vinified with the experience of over 40 years, on different varieties with different types of aging. It is the result of a combination that combines the specific characteristics of the Petite Arvine, aged in large cask and the Pinot Grigio, aged in barrique. The name Neige d'Or (in Italian Neve d'oro), draws inspiration from the preciousness and minerality of the Cuvèe."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2015",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2015",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2020",
-                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+                "title": "YEAR 2020",
+                "text": "The year 2020 was characterized by a very hot and dry spring, followed by the months of May and June with temperatures below average; the summer course was regular, As well as the harvest season, which began in the first days of September. The harvest ended at the beginning of November with the cutting of late varieties, Petite Arvine and Fumin; in general the vines had an abundant and very balanced production, aspects that are reflected on wines, which are endowed with great elegance and verticality."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Crostini burro chiarificato e acciughe, anguilla fritta, coda di rospo in guazzetto, astice alla catalana, fontina d’alpeggio."
+                "text": "Clarified butter and anchovies, fried eel, frog tail in a guazzetto, Catalan lobster, fontina d'alpeggio."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     ["Robert Parker Wine Advocate ", "2024", "91/100", "2018"],
@@ -3438,7 +3360,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Neige-dOr-Valle-dAosta-DOP-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -3449,70 +3371,70 @@
         "title": "petitearvine",
         "cat": "bianchi",
         "link": "/i-vini/bianchi/petitearvine",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
+        "vitigniTitle": "Grape Variety:",
         "vitigni": "Petite Arvine 100%",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Bianchi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "ALCOL 15% vol., acidità totale 6,5 G/l, pH 3.2.",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "Tulipano",
-        "formatoTitle": "Formati:",
+        "tipologiaTitle": "Type:",
+        "tipologia": "White wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "15% vol., 6,5 G/l total acidity, 3.2 pH.",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Tulip",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Refrigerazione e pressatura soffice a grappolo intero delle uve, fermentazione di 12 giorni in acciaio inox a temperatura controllata (14 °C).",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Champorette e Bufferia di Aymavilles, Frissonnière di Saint Christophe. Età 30 anni. Superficie 6,50 ha circa, sistema a Guyot; impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino. Resa 10.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento “sur lies” di 2 mesi",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Soft cooling and pressing of whole grapes, fermentation for 12 days in stainless steel at controlled temperature (14 °C).",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Champorette and Bufferia of Aymavilles, Frissonnière of Saint Christophe. Age 30 years. Surface 6.50 ha approximately, system to Guyot; plant of 7,500 feet per hectare, rows to ciglione and retocchino. Yield 10.000 kg/ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "2 months 'sur lies' ageing",
+        "servizioTitle": "Serve at:",
         "servizio": "8/10 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Le Petite Arvine è un vitigno tradizionale a maturazione tardiva. Il suo nome deriva dalla varietà - Arvine - e dalla piccola taglia (Petite in francese) dei suoi acini. Questo vino, emblema del territorio valdostano, è caratterizzato da un'intensa mineralità, accentuata salinità ed un caratterizzante profilo aromatico."
+                "text": "Le Petite Arvine is a traditional late-ripening grape. Its name comes from the variety - Arvine - and from the small size (Petite in French) of its berries. This wine, emblem of the Valle d'Aosta territory, is characterized by an intense minerality, accentuated salinity and a characterizing aromatic profile."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 1992",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 1992",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2023",
-                "text": "L’annata 2023 è stata senza dubbio molto importante sotto ogni punto di vista, da maggio a giugno temperature e precipitazioni sono state nella media, dopo due anni di caldo e siccità, e per questo lo sviluppo dell’uva è stato ottimale. Il mese di agosto è stato caratterizzato da ondate di vento caldo che hanno anticipato la vendemmia della base spumante al 28 di agosto, per poi procedere in regola con gli anni passati per la raccolta delle altre varietà. La vendemmia si è conclusa a fine ottobre con il taglio della Petite Arvine per i bianchi e per i rossi ad inizio novembre, con il Fumin. La peculiarità dell’annata è quella di avere dei vini molto sapidi e freschi, in generale le caratteristiche varietali sono accentuate e le riserve promettono una grande longevità."
+                "title": "YEAR 2023",
+                "text": "The 2023 vintage was undoubtedly very important from every point of view, from May to June temperatures and precipitation were average, after two years of heat and drought, and for this the development of the grapes was optimal. The month of August was characterized by waves of hot wind that have anticipated the harvest of the sparkling base on August 28, and then proceed in accordance with the years passed for the collection of other varieties. The harvest ended at the end of October with the cutting of the Petite Arvine for the whites and for the reds in early November, with the Fumin. The peculiarity of this vintage is that it has very sapid and fresh wines, in general the varietal characteristics are accentuated and the reserves promise a great longevity."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Carpaccio di tonno marinato, linguine al pesto, orata sotto sale, trota salmonata alle erbe, adatto anche come aperitivo."
+                "text": "Marinated tuna carpaccio, linguine with pesto, salted bream, salmon trout with herbs, also suitable as an aperitif."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     ["UNTOLD Tre Cavatappi", "2024", "3 Cavatappi", "2023"],
@@ -3766,7 +3688,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Petite-arvine-Valle-dAosta-DOP-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -3777,70 +3699,70 @@
         "title": "petitefleur",
         "cat": "bianchi",
         "link": "/i-vini/bianchi/petitefleur",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
+        "vitigniTitle": "Grape Variety:",
         "vitigni": "Petite Arvine 100%",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Bianchi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 14.5% vol., acidità totale 7.5 g/l, pH 3.1.",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "Tulipano",
-        "formatoTitle": "Formati:",
+        "tipologiaTitle": "Type:",
+        "tipologia": "White wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "14.5% vol., 7.5 g/l total acidity, 3.1 pH",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Tulip",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Selezione delle uve, refrigerazione e pressatura soffice a grappolo intero delle uve, fermentazione di 12 giorni in acciaio inox a temperatura controllata (13 °C).",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Montjovet (AO). 1,50 ha circa, sistema a Guyot; impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino. Resa 8.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento “sur lies” di 9 mesi.",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Selection of grapes, cooling and soft pressing of the whole bunch of grapes, fermentation for 12 days in stainless steel at a controlled temperature (13 °C).",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Montjovet (AO). 1.50 ha approximately, system to Guyot; plant of 7,500 feet per hectare, rows to ciglione and retocchino. Yield 8,000 kg/ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging 'sur lies' of 9 months.",
+        "servizioTitle": "Serve at:",
         "servizio": "10/12 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "La Petite Arvine Fleur cresce in un solo vigneto nella zona vocata di Montjovet in bassa valle, storicamente riconosciuta per la qualità della produzione. Da qui prende vita una Petite Arvine concentrata e ricca di aromi."
+                "text": "The Petite Arvine Fleur grows in a single vineyard in the Montjovet valley, historically recognized for its quality of production. From here comes to life a concentrated and rich aroma Petite Arvine."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2014",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2014",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2023",
-                "text": "L’annata 2023 è stata senza dubbio molto importante sotto ogni punto di vista, da maggio a giugno temperature e precipitazioni sono state nella media, dopo due anni di caldo e siccità, e per questo lo sviluppo dell’uva è stato ottimale. Il mese di agosto è stato caratterizzato da ondate di vento caldo che hanno anticipato la vendemmia della base spumante al 28 di agosto, per poi procedere in regola con gli anni passati per la raccolta delle altre varietà. La vendemmia si è conclusa a fine ottobre con il taglio della Petite Arvine per i bianchi e per i rossi ad inizio novembre, con il Fumin. La peculiarità dell’annata è quella di avere dei vini molto sapidi e freschi, in generale le caratteristiche varietali sono accentuate e le riserve promettono una grande longevità."
+                "title": "YEAR 2023",
+                "text": "The 2023 vintage was undoubtedly very important from every point of view, from May to June temperatures and precipitation were average, after two years of heat and drought, and for this the development of the grapes was optimal. The month of August was characterized by waves of hot wind that have anticipated the harvest of the sparkling base on August 28, and then proceed in accordance with the years passed for the collection of other varieties. The harvest ended at the end of October with the cutting of the Petite Arvine for the whites and for the reds in early November, with the Fumin. The peculiarity of this vintage is that it has very sapid and fresh wines, in general the varietal characteristics are accentuated and the reserves promise a great longevity."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Tataki di salmone, ravioli al vapore, tomino di capra fresco, risotto ai funghi."
+                "text": "Tataki salmon, steamed dumplings, fresh goat’s milk, mushroom risotto."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     ["Robert Parker Wine Advocate ", "2024", "92/100", "2019"],
@@ -3972,7 +3894,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Petite-arvine-FLEUR-Valle-dAosta-DOP-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": true
@@ -3984,70 +3906,70 @@
         "cat": "bianchi",
         "link": "/i-vini/bianchi/pinotgris",
 
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
+        "vitigniTitle": "Grape Variety:",
         "vitigni": "Pinot Gris 100%",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Bianchi",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 13.5% vol., acidità totale 6.5 g/l, pH 3.2",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "Tulipano",
-        "formatoTitle": "Formati:",
+        "tipologiaTitle": "Type:",
+        "tipologia": "White wines",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "13.5% vol., 6.5 g/l total acidity, 3.2 pH",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Tulip",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Refrigerazione e pressatura soffice a grappolo intero delle uve, fermentazione di 15 giorni in acciaio inox a temperatura controllata (13°C).",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Les Crêtes di Aymavilles, Saint Nicolas. Superficie 0,60 ha circa, sistema a Guyot; impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino. Resa 3.500 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affina “sur lies” di 9  mesi con bâtonnages giornalieri, 4 mesi di affinamento in bottiglia",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Soft refrigeration and pressing of whole grapes, 15-day fermentation in stainless steel at controlled temperature (13°C).",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Les Crêtes of Aymavilles, Saint Nicolas. Surface area about 0.60 ha, system in Guyot; plant of 7,500 feet per hectare, rows to ciglione and retocchino. Yield 3,500 kg/ ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "It refines 'sur lies' of 9 months with daily bâtonnages, 4 months of aging in bottle",
+        "servizioTitle": "Serve at:",
         "servizio": "8/10 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Questo Pinot Gris è frutto del nostro Terroir Alpino di chiara identità varietale: le sue uve sono raccolte a completa maturazione e, dopo una notte di raffreddamento sono pressate intere, per preservarne il prezioso e delicato corredo aromatico. La resa è bassa perchè si tratta di vigneti nuovi, ai primi anni di produzione, che sono andati a sostituire le vecchie vigne che davano per vita nel 1994 al nostro storico Pinot Grigio Brulant."
+                "text": "This Pinot Gris is the result of our Alpine Terroir with a clear varietal identity: its grapes are harvested at full maturity and, after one night of cooling, they are pressed whole, to preserve the precious and delicate aromatic. The yield is low because it is new vineyards, in the first years of production, which have replaced the old vines that gave life to our historic Pinot Grigio Brulant in 1994."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2018",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2018",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2023",
-                "text": "L’annata 2023 è stata senza dubbio molto importante sotto ogni punto di vista, da maggio a giugno temperature e precipitazioni sono state nella media, dopo due anni di caldo e siccità, e per questo lo sviluppo dell’uva è stato ottimale. Il mese di agosto è stato caratterizzato da ondate di vento caldo che hanno anticipato la vendemmia della base spumante al 28 di agosto, per poi procedere in regola con gli anni passati per la raccolta delle altre varietà. La vendemmia si è conclusa a fine ottobre con il taglio della Petite Arvine per i bianchi e per i rossi ad inizio novembre, con il Fumin. La peculiarità dell’annata è quella di avere dei vini molto sapidi e freschi, in generale le caratteristiche varietali sono accentuate e le riserve promettono una grande longevità."
+                "title": "YEAR 2023",
+                "text": "The 2023 vintage was undoubtedly very important from every point of view, from May to June temperatures and precipitation were average, after two years of heat and drought, and for this the development of the grapes was optimal. The month of August was characterized by waves of hot wind that have anticipated the harvest of the sparkling base on August 28, and then proceed in accordance with the years passed for the collection of other varieties. The harvest ended at the end of October with the cutting of the Petite Arvine for the whites and for the reds in early November, with the Fumin. The peculiarity of this vintage is that it has very sapid and fresh wines, in general the varietal characteristics are accentuated and the reserves promise a great longevity."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Antipasti di mare, capesante gratinate, paella, trota di montagna alle erbe."
+                "text": "Seafood appetizers, scallops gratinate, paella, mountain trout with herbs."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     ["James Suckling", "2023", "92 pts", "2022"],
@@ -4094,70 +4016,70 @@
         "title": "rose",
         "cat": "rose",
         "link": "/i-vini/rose/rose",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
+        "vitigniTitle": "Grape Variety:",
         "vitigni": "Petit Rouge",
-        "tipologiaTitle": "Tipologia:",
+        "tipologiaTitle": "Type:",
         "tipologia": "Rosè",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 12.5% vol., acidità totale 6,5 g/l, pH 3.2.",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "Tulipano",
-        "formatoTitle": "Formati:",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "12.5% vol., 6,5 g/l total acidity, 3.2 pH.",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Tulip",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "3 ore di macerazione pellicolare di uva a grappolo intero refrigerata in pressa. Fermentazione di 12 giorni in acciaio inox a temperatura controllata (14 °C).",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "1 ha circa, sistema a Guyot; impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino. Resa 8.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Affinamento “sur lies” di 2 mesi.",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "3 hours of film maceration of grapes in whole bunch refrigerated in press. 12-day fermentation in stainless steel at controlled temperature (14 °C).",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "About 1 ha, system in Guyot; plant of 7,500 feet per hectare, rows with ciglione and retouching. Yield 8,000 kg/ ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging 'sur lies' of 2 months.",
+        "servizioTitle": "Serve at:",
         "servizio": "10/12 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Le uve in composizione del nostro rosè, provengono da diversi cloni della varietà autoctona Petit Rouge e da vecchie vigne, che contribuiscono alla sua notevole complessità organolettica. Con la vinificazione in rosè, abbiamo voluto dare a questa varietà una veste nuova, uscendo dagli schemi tradizionali, che ne vedono la vinificazione in rosso con il Torrette, la denominazione più estesa ed antica della Valle d'Aosta."
+                "text": "The grapes in composition of our rose come from different clones of the autochthonous variety Petit Rouge and from old vines, which contribute to its remarkable organoleptic complexity. With the vinification in rose, we wanted to give this variety a new look, going out of the traditional schemes, which see the vinification in red with the Torrette, the most extensive and oldest name of Valle d'Aosta."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2019",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2019",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2023",
-                "text": "L’annata 2023 è stata senza dubbio molto importante sotto ogni punto di vista, da Maggio a Giugno temperature e precipitazioni sono state nella media, dopo due anni di caldo e siccità, e per questo lo sviluppo dell’uva è stato ottimale. Il mese di Agosto è stato caratterizzato da ondate di vento caldo che hanno anticipato la vendemmia della base spumante al 28 di agosto, per poi procedere in regola con gli anni passati per la raccolta delle altre varietà. La vendemmia si è conclusa a fine Ottobre con il taglio della Petite Arvine per i bianchi e per i rossi ad inizio Novembre, con il Fumin. La peculiarità dell’annata è quella di avere dei vini molto sapidi e freschi, in generale le caratteristiche varietali sono accentuate e le riserve promettono una grande longevità."
+                "title": "YEAR 2023",
+                "text": "The 2023 vintage was undoubtedly very important from every point of view, from May to June temperatures and precipitation were average, after two years of heat and drought, and for this the development of the grapes was optimal. The month of August was characterized by waves of hot wind that have anticipated the harvest of the sparkling base on August 28, and then proceed in accordance with the years passed for the collection of other varieties. The harvest ended at the end of October with the cutting of the Petite Arvine for the whites and the reds in early November, with the Fumin. The peculiarity of this vintage is that it has very sapid and fresh wines, in general the varietal characteristics are accentuated and the reserves promise a great longevity."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Fritto di mare, crudités, pesce azzurro, pizza cotta al forno a legna, adatto anche come aperitivo."
+                "text": "Fried seafood, crudités, blue fish, pizza cooked in a wood oven, also suitable as an aperitif."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     ["James Suckling", "2023", "91 pts ", "2022"],
@@ -4243,74 +4165,74 @@
       },
       "dore": {
         "img": "/assets/vinidessert/dorè.png",
-        "name": "Doré – Vino da Uve Stramature",
+        "name": "Doré – Wine from Uva Stramature",
         "title": "dore",
         "cat": "vinidessert",
         "link": "/i-vini/vinidessert/dore",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
-        "vitigni": "Varietà aromatica a bacca bianca 100%.",
-        "tipologiaTitle": "Tipologia:",
+        "vitigniTitle": "Grape Variety:",
+        "vitigni": "Aromatic variety of white berries 100%.",
+        "tipologiaTitle": "Type:",
         "tipologia": "Desserts",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 14 % vol., acidità totale 6.5 g/l, pH 3.3",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "Tulipano",
-        "formatoTitle": "Formati:",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "14 % vol.,6.5 g/l total acidity, 3.3 pH",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Tulip",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Appassimento delle uve in pianta, pressatura soffice a grappolo intero, fermentazione di 25 giorni a temperatura controllata (13 °C)",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Vigne con diverse esposizioni e giacitureti vari. Superficie 0,5 ha circa, sistema a Guyot e Gobelet; impianto di 8.000/10.000 piedi per ettaro. Filari a ciglione e ritocchino e a forma libera. Resa 2.500 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": " Affinamento “sur lies” di 6 mesi. Affinamento in bottiglia di 6 mesi",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Wine-growing in the plant, soft pressing of whole grapes, fermentation for 25 days at controlled temperature (13 °C)",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Vineyards with different exposures and various laying. Surface 0.5 ha approximately, system to Guyot and Gobelet; plant of 8,000/10,000 feet per hectare. Rows of eyelet and retouching and free form. Yield 2,500 kg/ ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Aging 'sur lies' of 6 months. Aging in bottle of 6 months",
+        "servizioTitle": "Serve at:",
         "servizio": "10/12 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "I grappoli di Dorè sono vendemmiati, in epoca tardiva, a precedere la prima nevicata dell'anno. Dall'intenso colore dorato (dorè in francese) nasce il suo nome."
+                "text": "The grapes of Dorè are harvested late in the year, before the first snowfall of the year. Its name comes from the intense golden color (dorè in French)."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2000",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2000",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2022",
-                "text": "L’annata 2022 è stata caratterizzata da un lungo periodo di caldo e siccità anomalo, che dagli inizi di Maggio si è protratto fino ad Ottobre inoltrato; questo clima particolare ha portato un anticipo di vendemmia di circa 20 giorni, per cui l’inizio è stato il 16 Agosto, con le basi spumanti. La vendemmia si è conclusa negli ultimi giorni di Ottobre con i rossi a maturazione tardiva Fumin e Nebbiolo. I vini di quest’annata sono dotati di grande concentrazione ed aromaticità, nelle vigne più antiche e con radici profonde, c’è stata una tenuta di acidità abbondante, che ha portato ad una grande complessità nelle riserve."
+                "title": "YEAR 2022",
+                "text": "The 2022 vintage was characterized by a long period of heat and unusual drought, which from the beginning of May lasted until late October; this particular climate has brought a harvest advance of about 20 days, so the beginning was on August 16, with the bases sparkling. The harvest ended in the last days of October with the late maturing reds Fumin and Nebbiolo. The wines of this vintage are endowed with great concentration and aromaticity, in the oldest vineyards and with deep roots, there has been a holding of abundant acidity, which has led to a great deal of complexity in the reserves."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Strudel, frutta secca, cioccolato extra fondente, tegole Valdostane foie gras, bleu d’aoste, trota affumicata. Indicato anche come vino da meditazione, per accompagnare momenti di svago e piacere."
+                "text": "Strudel, dried fruit, extra dark chocolate, Valdostane tiles foie gras, bleu d'aoste, smoked trout. Also indicated as a meditation wine, to accompany moments of leisure and pleasure."
               }
             ]
           },
           {
-            "name": "Premi e riconoscimenti",
+            "name": "Awards and honors",
 
             "content": [
               {
                 "table": {
                   "headers": [
-                    "Guida - Pubblicazione",
-                    "Edizione",
-                    "Riconoscimento",
-                    "Annata"
+                    "Guide - Publication",
+                    "Edition",
+                    "Recognition",
+                    "Year"
                   ],
                   "rows": [
                     [
@@ -4394,7 +4316,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Dore-Vino-da-uve-stramature-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": false
@@ -4404,58 +4326,58 @@
         "name": "Neblù – Brut Nature Metodo Classico Rosé",
         "title": "neblu",
         "cat": "vinidessert",
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "link": "/i-vini/vinidessert/neblu",
 
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
-        "vitigni": "Rosé, varietà internazionale a bacca nera 60%, Neblu 40% (varietà autoctona a bacca nera)",
+        "vitigniTitle": "Grape Variety:",
+        "vitigni": "Rosé, international black berry 60%, Neblu 40% (native black berry variety)",
         "tipologiaTitle": "Tipologia:",
-        "tipologia": "Bollicine",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 12.5 % vol., acidità totale 8.5 g/l, pH 2.9",
+        "tipologia": "Sparkles",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "12.5 % vol., 8.5 g/l total acidity, 2.9 pH",
         "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "Tulipano",
-        "formatoTitle": "Formati:",
+        "bicchiere": "Tulip",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Criomacerazione in pressa delle uve a grappolo intero di 5 ore e successiva pressatura soffice, fermentazione di 12 giorni a temperatura controllata (14 °C)",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Les Crêtes di Aymavilles. Superficie 1,5 ha circa, sistema a Guyot; impianto di 7.500 piedi per ettaro, filari a ritocchino. Resa 10.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": " Spumantizzazione con Metodo Classico e affinamento “sur lies” di 30 mesi",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Criomaceration in the press of grapes in whole bunch of 5 hours and subsequent soft pressing, fermentation for 12 days at controlled temperature (14 °C)",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Les Crêtes of Aymavilles. Surface 1,5 ha approximately, system to Guyot; plant of 7.500 feet per hectare, rows to retouch. Yield 10.000 kg/ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Sparkling wine by the Classic Method and 'sur lies' aging of 30 months",
+        "servizioTitle": "Serve at:",
         "servizio": " 6/8 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Il Neblù è un vitigno autoctono valdostano a bacca nera, tradizionalmente vinificato in vino rosso, secondo il disciplinare valdostano. Dal 2005 Les Crêtes ne ha avviato la vinificazione in spumante, dando vita ad un metodo classico unico nel suo genere."
+                "text": "The Neblù is an autochthonous grape variety from the Aosta Valley, traditionally vinified in red wine according to the Aosta Valley regulations. Since 2005, Les Crêtes has started the vinification in sparkling wine, giving birth to a unique classic method."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2005",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2005",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2020",
-                "text": "L’annata 2020 si è caratterizzata per una primavera molto calda ed asciutta, a cui hanno fatto seguito i mesi di maggio e giugno con temperature sotto la media; il decorso estivo è stato regolare, cosi come l’epoca di vendemmia, che è iniziata nei primi giorni di settembre. La vendemmia si è conclusa all’inizio di novembre con il taglio delle varietà tardive, Petite Arvine e Fumin; in generale le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+                "title": "Year 2020",
+                "text": "The year 2020 was characterized by a very hot and dry spring, followed by the months of May and June with temperatures below average; the summer course was regular, As well as the harvest season, which began in the first days of September. The harvest ended at the beginning of November with the cutting of late varieties, Petite Arvine and Fumin; in general the vines had an abundant and very balanced production, aspects that are reflected on wines, which are endowed with great elegance and verticality."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Crudités di pesce e crostacei, guazzetto di aragoste, pesce azzurro in tempura; tartare di cervo, salumi, formaggi di breve stagionatura."
+                "text": "Crudités of fish and crustaceans, lobster mixture, blue fish in tempura; tatar of deer, salami, cheeses of short maturation."
               }
             ]
           },
@@ -4472,7 +4394,7 @@
             }
           }
         ],
-        "more": "Ti potrebbe anche interessare",
+        "more": "You may also be interested",
         "download": "/Metodo-classico-Neblu-Brut-Nature-Rose-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
         "showButtons": false
@@ -4484,56 +4406,56 @@
         "cat": "vinidessert",
         "link": "/i-vini/vinidessert/reban",
 
-        "denominazioneTitle": "Denominazione:",
+        "denominazioneTitle": "Denomination:",
         "denominazione": "Valle d'Aosta",
-        "vitigniTitle": "Vitigni:",
-        "vitigni": "Bianco, 100% varietà tradizionale",
-        "tipologiaTitle": "Tipologia:",
-        "tipologia": "Bollicine",
-        "gradazioneTitle": "Gradazione alcolica:",
-        "gradazione": "Alcol 12.5 % vol., acidità totale 9 g/l, pH 3°",
-        "bicchiereTitle": "Tipologia di bicchiere:",
-        "bicchiere": "Tulipano",
-        "formatoTitle": "Formati:",
+        "vitigniTitle": "Grape Variety:",
+        "vitigni": "White, 100% traditional variety",
+        "tipologiaTitle": "Type:",
+        "tipologia": "Sparkles",
+        "gradazioneTitle": "Alcohol Content:",
+        "gradazione": "12.5 % vol., 9 g/l total acidity, 3 pH",
+        "bicchiereTitle": "Glass Type:",
+        "bicchiere": "Tulip",
+        "formatoTitle": "Formats:",
         "formato": "75cl",
-        "vinificazioneTitle": "Vinificazione:",
-        "vinificazione": "Pressatura soffice a grappolo intero, fermentazione di 8-10 giorni in acciaio a temperatura controllata. Il 40% del totale è destinato ad una fermentazione malolattica",
-        "zonaTitle": "Zona di coltivazione/vigneti:",
-        "zona": "Les Crêtes e Coteau di Aymavilles, Pompiod. Età anni. Superficie 1 ha, sistema a Guyot; densità di impianto di 7.500 piedi per ettaro, filari a ciglione e ritocchino. Resa 7.000 kg/ha.",
-        "affinamentoTitle": "Affinamento:",
-        "affinamento": "Spumantizzazione con Metodo classico, 9 mesi in acciaio “sur lies”. Sosta 42 mesi sui lieviti, prodotto millesimato e non dosato",
-        "servizioTitle": "Servire a:",
+        "vinificazioneTitle": "Vinification:",
+        "vinificazione": "Soft pressing of whole clusters, fermentation of 8-10 days in steel at controlled temperature. 40% of the total is destined for malolactic fermentation",
+        "zonaTitle": "Cultivation Area/Vineyards:",
+        "zona": "Les Crêtes and Coteau of Aymavilles, Pompiod. Age years. Surface area 1 ha, system in Guyot; planting density of 7,500 feet per hectare, rows with ciglione and retocchino. Yield 7,000 kg/ha.",
+        "affinamentoTitle": "Aging:",
+        "affinamento": "Sparkling wine with the classic method, 9 months in steel 'sur lies'. 42 months on the yeasts, milled and not dosed product",
+        "servizioTitle": "Serve at:",
         "servizio": " 4/6 °C",
         "tabs": [
           {
-            "name": "Descrizione",
+            "name": "Description",
 
             "content": [
               {
-                "text": "Bollicina inedita del vitigno tradizionale Petite Arvine, vinificata in purezza, a tiratura limitata, che sposa il suo quadro acido importante con una grande eleganza. Rebàn (in dialetto valdostano 'Nastro'), nasce per sigillare un momento speciale. È un metodo classico di grande espressione del territorio di montagna."
+                "text": "This is a unique wine from the traditional Petite Arvine grape, vinified in purity, limited edition, which combines its important acid frame with great elegance. Rebàn (in the dialect of Valle d'Aosta, 'Nastro'), was created to seal a special moment. It is a classic method of great expression of the mountain territory."
               }
             ]
           },
           {
-            "name": "Annate di raccolta",
+            "name": "Vintages",
 
             "content": [
               {
-                "title": "ANNATA 2018",
-                "text": "La nostra etichetta esprime il legame essenziale con il territorio di montagna, fatto di forti pendenze e di creste alpine, che qui raggiungono le vette più elevate (da cui il nome francese Les Crêtes). La lamina in metallo colato a rilievo, luminosa come il nostro sole, ad esaltare la profondità delle valli scavate dai ghiacciai. I vigneti, tratteggiati sulle vette nelle diverse esposizioni, a raffigurare la ricchezza di una terra rubata alle montagne. E ai loro piedi, il Rifugio del Vino con la nostra cantina, inno alla viticoltura eroica e al terroir, che ci permettono una produzione di nicchia, cullata dalle Alpi."
+                "title": "YEAR 2018",
+                "text": "Our label expresses the essential link with the mountain territory, made of steep slopes and Alpine ridges, which here reach the highest peaks (hence the French name Les Crêtes). The Metal cast in relief, bright as our sun, to exalt the depth of the valleys dug by glaciers. The vineyards, outlined on the peaks in the various exhibitions, to represent the wealth of a And at their feet, the Wine Hut with our cellar, a tribute to heroic viticulture and to the St. John’s The terroir, which allows us a niche production, cultured by the Alps."
               },
               {
-                "title": "ANNATA 2020",
-                "text": "L’annata 2019 può essere considerata una delle migliori dell’ultimo decennio in Valle d’Aosta e in particolare l’evolversi climatico dell’estate, calda ma non siccitosa, e un settembre con notti fresche e giornate soleggiate e ventose. Le vigne hanno avuto una produzione abbondante e molto equilibrata, aspetti che si rispecchiano sui vini, che sono dotati di grande eleganza e verticalità."
+                "title": "YEAR 2020",
+                "text": "The 2019 vintage can be considered one of the best of the last decade in Valle d'Aosta and in particular the climatic evolution of the summer, hot but not dry, and a September with cool nights and sunny, windy days. The vines have had an abundant and very balanced production, aspects that are reflected in the wines, which are endowed with great elegance and verticality."
               }
             ]
           },
           {
-            "name": "Abbinamenti gastronomici",
+            "name": "Serving suggestions",
 
             "content": [
               {
-                "text": "Gnocchetti con trota salmonata ai profumi di timo al limone."
+                "text": "Gnocchetti with salmon trout and lemon thyme."
               }
             ]
           },
@@ -4557,24 +4479,24 @@
       }
     },
     "family": {
-      "title": "L'esperienza di una famiglia che, con passione, ha saputo esaltare i vini di montagna della Valle d'Aosta",
-      "descrizione": "L’azienda Les Crêtes nasce nel 1989 in Aymavilles (Valle d’Aosta), per opera di Costantino Charrère ed è oggi gestita dalla sua famiglia che, proprietaria di uno storico mulino ad acqua del ’700 e delle antiche cantine di Via Moulins, si occupa, da cinque generazioni, di produzioni agroalimentari.",
-      "cta": "Scopri la nostra storia"
+      "title": "The experience of a family that, with passion, has been able to enhance the mountain wines of the Aosta Valley",
+      "descrizione": "The company Les Crêtes was founded in 1989 in Aymavilles (Aosta Valley), by Costantino Charrère and is now managed by his family who, owner of a historic water mill from the 18th century and the old wineries in Via Moulins, has been producing food for five generations.",
+      "cta": "Discover our history"
     },
     "banner": {
-      "title": "La nostra forza è la cura e la passione che abbiamo per la nostra terra",
-      "paragraph": "Un luogo dove l’accoglienza è di casa e dove vivere un’esperienza unica tra le montagne della Valle d'Aosta.",
-      "btn": "Scopri il Terroir",
+      "title": "Our strength is the care and passion we have for our land",
+      "paragraph": "A place where hospitality is at home and where you can live a unique experience in the mountains of Valle d'Aosta.",
+      "btn": "Discover The Terroir",
       "link": "/il-terroir"
     },
     "produzione": {
-      "title": "Produrre nel rispetto dell'ambiente e dell'uomo",
-      "descrizione": "Da oltre un secolo la nostra cantina produce vini (attualmente si raggiungono le 250mila bottiglie all'anno) nel rispetto dell'ambiente e dell'uomo. Dalle buone pratiche in campo alla biodiversità, dal risparmio energetico alla produzione di energia pulita, dalla tutela del paesaggio al sostegno del territorio.",
-      "cta": "Scopri il nostro impegno"
+      "title": "Produce in respect of the environment and man",
+      "descrizione": "The total annual production is currently <span class='font-bold'>250,000 bottles</span>. The varieties grown are both indigenous (Petit Rouge, Fumin, Petite Arvine, Gros Rouge, Cornalin, Mayolet, Prëmetta) and international (Pinot Noir, Chardonnay, Syrah). The <span class='italic font-bold'>“tension”</span> of the company is directed to the entire production chain, where interventions are carried out with <span class='font-bold'>he utmost attention and care</span>, in the continuous search for quality.",
+      "cta": "Discover our commitment"
     },
     "artigianalità": {
-      "title": "Maestria artigianale, amore per il lavoro e dedizione: le radici della qualità",
-      "descrizione": "Ogni attività è eseguita con estrema dedizione e attenzione, riflettendo la qualità e la passione che ci caratterizzano."
+      "title": "Craftsmanship, love for work and dEdition: the roots of quality",
+      "descrizione": "Each activity is performed with extreme dEdition and attention, reflecting the quality and passion that characterize us."
     }
   }
 }
