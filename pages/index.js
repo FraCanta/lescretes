@@ -29,10 +29,7 @@ export default function Home({ translation }) {
             name="description"
             content="Les Crêtes - Viticoltori dal 1800 in Aymavilles (Aosta) - Produzione ed imbottigliamento - Visitaci e degusta i nostri vini - Scopri il Rifugio del Vino"
           />
-          {/* <meta
-            name="keywords"
-            content="Mi chiamo Francesca Cantale, aka thallion dev, e sono una web designer specializzata nella UX/UI design e in Next.js. Mi occupo di consulenza e realizzazione Siti Web e E-Commerce."
-          /> */}
+
           <meta property="og:url" content="https://www.lescretes.it/" />
           <meta property="og:type" content="website" />
           <meta
@@ -43,10 +40,10 @@ export default function Home({ translation }) {
             property="og:description"
             content="Les Crêtes - Viticoltori dal 1800 in Aymavilles (Aosta) - Produzione ed imbottigliamento - Visitaci e degusta i nostri vini - Scopri il Rifugio del Vino"
           />
-          {/* <meta
+          <meta
             property="og:image"
-            content="https://www.thallion-dev.it/assets/cover_web.jpg"
-          /> */}
+            content="https://lescretes-liard.vercel.app/assets/seo/cover_home.png"
+          />
           <meta name="twitter:card" content="summary_large_image" />
           <meta property="twitter:domain" content="lescretes.it" />
           <meta property="twitter:url" content="https://www.lescretes.it/" />
