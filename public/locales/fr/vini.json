@@ -167,6 +167,8 @@
     ],
     "singleWine": {
       "merle": {
+        "seoimg": "/assets/seo/seovini/merle_seo.png",
+
         "img": "/assets/vinirossi/merle.png",
         "name": "Merlot Le Merle Valle D'Aosta DOP",
         "link": "/i-vini/rossi/merle",
@@ -322,6 +324,8 @@
         "showButtons": true
       },
       "cornalin": {
+        "seoimg": "/assets/seo/seovini/cornalin_seo.png",
+
         "img": "/assets/vinirossi/cornalin.png",
         "name": "Cornalin Valle d’Aosta D.O.P.",
         "link": "/i-vini/rossi/cornalin",
@@ -429,6 +433,8 @@
         "showButtons": true
       },
       "lacor": {
+        "seoimg": "/assets/seo/seovini/lacor_seo.png",
+
         "img": "/assets/vinirossi/fumin_lacor.png",
         "name": "Fumin La Cor Valle d’Aosta D.O.P.",
         "link": "/i-vini/rossi/lacor",
@@ -530,6 +536,8 @@
         "showButtons": true
       },
       "fumin": {
+        "seoimg": "/assets/seo/seovini/fumin_seo.png",
+
         "img": "/assets/vinirossi/fumin.png",
         "name": "Fumin Valle d’Aosta D.O.P. ",
         "link": "/i-vini/rossi/fumin",
@@ -935,6 +943,8 @@
         "showButtons": true
       },
       "monrouge": {
+        "seoimg": "/assets/seo/seovini/monrouge_seo.png",
+
         "img": "/assets/vinirossi/monrouge.png",
         "name": "Mon Rouge®",
         "link": "/i-vini/rossi/monrouge",
@@ -1013,6 +1023,8 @@
         "showButtons": true
       },
       "nebbiolo": {
+        "seoimg": "/assets/seo/seovini/nebbiolo_seo.png",
+
         "img": "/assets/vinirossi/nebbiolo.png",
         "name": "Nebbiolo Valle d’Aosta D.O.P.",
         "link": "/i-vini/rossi/nebbiolo",
@@ -1090,6 +1102,8 @@
         "showButtons": true
       },
       "nebbiolos": {
+        "seoimg": "/assets/seo/seovini/nebbiolosom_seo.png",
+
         "img": "/assets/vinirossi/nebbiolo_sommet.png",
         "name": "Nebbiolo Sommet Valle d’Aosta D.O.P.",
         "link": "/i-vini/rossi/nebbiolos",
@@ -1254,6 +1268,8 @@
         "showButtons": true
       },
       "pinot": {
+        "seoimg": "/assets/seo/seovini/pinot_seo.png",
+
         "img": "/assets/vinirossi/pinot_nero.png",
         "name": "Pinot Noir Valle d’Aosta D.O.P.",
         "link": "/i-vini/rossi/pinot",
@@ -1468,6 +1484,8 @@
         "showButtons": true
       },
       "revei": {
+        "seoimg": "/assets/seo/seovini/revei_seo.png",
+
         "img": "/assets/vinirossi/pinot_revei.png",
         "name": "Pinot Nero Revei Valle d’Aosta D.O.P.",
         "link": "/i-vini/rossi/revei",
@@ -1648,6 +1666,8 @@
         "showButtons": true
       },
       "sabla": {
+        "seoimg": "/assets/seo/seovini/sabla_seo.png",
+
         "img": "/assets/vinirossi/sabla.png",
         "name": "La Sabla® – Vino Rosso",
         "link": "/i-vini/rossi/sabla",
@@ -1725,6 +1745,8 @@
         "showButtons": true
       },
       "sabla50": {
+        "seoimg": "/assets/seo/seovini/sabla50_seo.png",
+
         "img": "/assets/vinirossi/lasabla_50.webp",
         "name": "La Sabla® 50 years",
         "link": "/i-vini/rossi/sabla50",
@@ -1802,6 +1824,8 @@
         "showButtons": true
       },
       "syrah": {
+        "seoimg": "/assets/seo/seovini/syrah_seo.png",
+
         "img": "/assets/vinirossi/syrah.png",
         "name": "Syrah Valle d’Aosta D.O.P.",
         "link": "/i-vini/rossi/syrah",
@@ -2052,6 +2076,8 @@
       },
 
       "torrettesup": {
+        "seoimg": "/assets/seo/seovini/torrettesup_seo.png",
+
         "img": "/assets/vinirossi/torrette_sup.png",
         "name": "Torrette Superiore Valle d’Aosta D.O.P.",
         "link": "/i-vini/rossi/torrettesup",
@@ -2214,6 +2240,8 @@
         "showButtons": true
       },
       "torrette": {
+        "seoimg": "/assets/seo/seovini/torrette_seo.png",
+
         "img": "/assets/vinirossi/torrette.png",
         "name": "Torrette Valle d’Aosta D.O.P.",
         "link": "/i-vini/rossi/torrette",
@@ -2361,6 +2389,8 @@
         "showButtons": true
       },
       "chardonnaycb": {
+        "seoimg": "/assets/seo/seovini/chardonnaycb_seo.png",
+
         "img": "/assets/vinibianchi/chardonnay_cb.png",
         "name": "Chardonnay Cuvée Bois Valle d’Aosta D.O.P.",
         "link": "/i-vini/bianchi/chardonnaycb",
@@ -2853,6 +2883,8 @@
         "showButtons": true
       },
       "chardonnay": {
+        "seoimg": "/assets/seo/seovini/chardonnay_seo.png",
+
         "img": "/assets/vinibianchi/chardonnay.png",
         "name": "Chardonnay Valle d’Aosta D.O.P.",
         "title": "chardonnay",
@@ -3099,6 +3131,8 @@
         "showButtons": true
       },
       "monblanc": {
+        "seoimg": "/assets/seo/seovini/monblanc_seo.png",
+
         "img": "/assets/vinibianchi/mon_blanc.png",
         "name": "Mon Blanc – Vino bianco",
         "title": "monblanc",
@@ -3164,6 +3198,8 @@
         "showButtons": true
       },
       "neige": {
+        "seoimg": "/assets/seo/seovini/neige_seo.png",
+
         "img": "/assets/vinibianchi/neige.png",
         "name": "Neige d’Or Valle d’Aosta D.O.P.",
         "title": "neige",
@@ -3366,6 +3402,8 @@
         "showButtons": true
       },
       "petitearvine": {
+        "seoimg": "/assets/seo/seovini/petite_seo.png",
+
         "img": "/assets/vinibianchi/petite_arvine.png",
         "name": "Petite Arvine Valle d’Aosta D.O.P.",
         "title": "petitearvine",
@@ -3694,6 +3732,8 @@
         "showButtons": true
       },
       "petitefleur": {
+        "seoimg": "/assets/seo/seovini/petitefleur_seo.png",
+
         "img": "/assets/vinibianchi/petite_fleur.png",
         "name": "Fleur – Petite Arvine Valle d’Aosta D.O.P.",
         "title": "petitefleur",
@@ -3900,6 +3940,8 @@
         "showButtons": true
       },
       "pinotgris": {
+        "seoimg": "/assets/seo/seovini/pinotgris_seo.png",
+
         "img": "/assets/vinibianchi/pinot_grigio.png",
         "name": "Pinot Gris Brulant Valle d’Aosta D.O.P.",
         "title": "pinotgris",
@@ -4011,6 +4053,8 @@
         "showButtons": true
       },
       "rose": {
+        "seoimg": "/assets/seo/seovini/rose_seo.png",
+
         "img": "/assets/vinirose/rose.png",
         "name": "Rosé Valle d’Aosta D.O.P.",
         "title": "rose",
@@ -4164,6 +4208,8 @@
         "showButtons": false
       },
       "dore": {
+        "seoimg": "/assets/seo/seovini/dore_seo.png",
+
         "img": "/assets/vinidessert/dorè.png",
         "name": "Doré – Wine from Uva Stramature",
         "title": "dore",
@@ -4322,6 +4368,8 @@
         "showButtons": false
       },
       "neblu": {
+        "seoimg": "/assets/seo/seovini/neblu_seo.png",
+
         "img": "/assets/vinidessert/neblu.png",
         "name": "Neblù – Brut Nature Metodo Classico Rosé",
         "title": "neblu",
@@ -4400,6 +4448,8 @@
         "showButtons": false
       },
       "reban": {
+        "seoimg": "/assets/seo/seovini/reban_seo.png",
+
         "img": "/assets/vinidessert/reban.png",
         "name": "Rebàn Metodo Classico Pas Dosé",
         "title": "reban",

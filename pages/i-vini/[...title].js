@@ -30,16 +30,17 @@ import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 import SwiperButtons from "@/components/SwiperButtons/SwiperButtons";
 const SingleWine = ({ wine, others }) => {
+  console.log(wine);
   return (
     <>
       <Head>
-        <title>{`Les Crêtes  -  ${wine?.name}`}</title>
+        <title>{`${wine?.name} - Les Crêtes`}</title>
 
         <meta
           property="og:image"
-          // content={`https://lescretes-liard.vercel.app${wine.img}`}
-          content="https://lescretes-liard.vercel.app/assets/seo/seovini/neblu_seo.png"
+          content={`https://lescretes-liard.vercel.app${wine.seoimg}`}
         />
+        <meta name="description" content={wine.tabs[0]?.content[0]?.text} />
       </Head>
 
       <div className="min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_60px)] fxl:min-h-[calc(100vh_-_100px)] w-full h-full relative grid grid-cols-1 xl:grid-cols-2">
@@ -51,12 +52,7 @@ const SingleWine = ({ wine, others }) => {
             <h1 className="text-main text-[35px] md:text-[42.08px] font-black  md:leading-[53.77px] fxl:text-5xl">
               {wine.name}
             </h1>
-            {/* <p className="text-[18px] leading-[32px] text-main">
-              {wine.descrizione}{" "}
-            </p> */}
-            {/* <h3 className="text-main text-[30px] font-bold  leading-normal">
-              Caratteristiche:
-            </h3> */}
+
             <div className="grid grid-cols-1 md:grid-cols-2 w-full h-[80%] gap-4 xl:gap-2 fxl:gap-4">
               <ul className="flex flex-col justify-between gap-4 xl:gap-0">
                 <li className="flex items-center gap-4">
