@@ -211,7 +211,7 @@ const SingleWine = ({ wine, others }) => {
               <li>
                 {" "}
                 <FacebookShareButton
-                  url={`https://lescretes-liard.vercel.app/vini/${wine?.cat}/${wine?.title}`}
+                  url={`https://lescretes-liard.vercel.app/i-vini/${wine?.cat}/${wine?.title}`}
                   hashtag={"#lescretes"}
                 >
                   {/* <FacebookIcon size={32} round /> */}
@@ -226,7 +226,7 @@ const SingleWine = ({ wine, others }) => {
               <li className="text-[#757575]">
                 {" "}
                 <WhatsappShareButton
-                  url={`https://lescretes-liard.vercel.app/vini/${wine?.cat}/${wine?.title}`}
+                  url={`https://lescretes-liard.vercel.app/i-vini/${wine?.cat}/${wine?.title}`}
                   separator="- "
                 >
                   <Icon
