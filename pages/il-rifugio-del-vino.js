@@ -1,5 +1,5 @@
 import React from "react";
-import Rif from "@/public/assets/rifugio.webp";
+import Rif from "@/public/assets/rifugio/rifugio6.webp";
 import Hero from "@/components/heroHome/Hero";
 import Head from "next/head";
 import ImageGallery from "@/components/ImageGallery/ImageGallery";
@@ -16,11 +16,113 @@ import rifugioKO from "@/public/locales/ko/rifugio.json";
 import rifugioRU from "@/public/locales/ru/rifugio.json";
 import rifugioZH from "@/public/locales/zh/rifugio.json";
 import Image from "next/image";
-const Rifugio = ({ translation }) => {
+const Rifugio = ({ translation, locale }) => {
   return (
     <>
       <Head>
-        <title>{translation?.hero.title}</title>
+        <>
+          <title>{translation.seo.title}</title>
+          <meta name="author" content="Les Crêtes" />
+          <meta name="description" content={translation.seo.description} />
+          <meta name="robots" content="index, follow" />
+
+          <link
+            rel="canonical"
+            href={`https://www.lescretes.it/${locale.locale}/il-rifugio-del-vino`}
+          />
+          <link
+            rel="alternate"
+            hrefLang="it"
+            href="https://www.lescretes.it/it/il-rifugio-del-vino"
+          />
+          <link
+            rel="alternate"
+            hrefLang="en"
+            href="https://www.lescretes.it/en/il-rifugio-del-vino"
+          />
+          <link
+            rel="alternate"
+            hrefLang="de"
+            href="https://www.lescretes.it/de/il-rifugio-del-vino"
+          />
+          <link
+            rel="alternate"
+            hrefLang="fr"
+            href="https://www.lescretes.it/fr/il-rifugio-del-vino"
+          />
+          <link
+            rel="alternate"
+            hrefLang="jp"
+            href="https://www.lescretes.it/jp/il-rifugio-del-vino"
+          />
+          <link
+            rel="alternate"
+            hrefLang="ko"
+            href="https://www.lescretes.it/ko/il-rifugio-del-vino"
+          />
+          <link
+            rel="alternate"
+            hrefLang="ru"
+            href="https://www.lescretes.it/ru/il-rifugio-del-vino"
+          />
+          <link
+            rel="alternate"
+            hrefLang="zh"
+            href="https://www.lescretes.it/zh/il-rifugio-del-vino"
+          />
+
+          <meta
+            property="og:url"
+            content={`https://www.lescretes.it/${locale.locale}/il-rifugio-del-vino`}
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content={translation.seo.title} />
+          <meta property="og:locale" content={locale.locale} />
+          <meta
+            property="og:description"
+            content={translation.seo.description}
+          />
+          <meta property="og:site_name" content="Les Crêtes" />
+          <meta
+            property="og:image"
+            content="https://lescretes-liard.vercel.app/assets/seo/rifugio_cover.png"
+          />
+          <meta property="og:image:alt" content="Les Crêtes cover image" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta property="twitter:domain" content="lescretes.it" />
+          <meta
+            property="twitter:url"
+            content={`https://www.lescretes.it/${locale.locale}/il-rifugio-del-vino`}
+          />
+          <meta name="twitter:title" content={translation.seo.title} />
+          <meta
+            name="twitter:description"
+            content={translation.seo.description}
+          />
+          <meta
+            name="twitter:image"
+            content="https://lescretes-liard.vercel.app/assets/seo/rifugio_cover.png"
+          />
+          <meta name="twitter:image:alt" content="Les Crêtes cover image" />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "${translation.seo.title}",
+            "description": "${translation.seo.description}",
+            "url": "https://www.lescretes.it/${locale.locale}/il-rifugio-del-vino",
+            "logo": "https://www.lescretes.it/favicon.ico"
+          }
+        `,
+            }}
+          />
+        </>
       </Head>
       <div className="flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(80vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
         <Hero img={Rif} text={translation?.hero.title} />
@@ -153,6 +255,7 @@ export async function getStaticProps(locale, context) {
   return {
     props: {
       translation: obj?.rifugio,
+      locale: locale,
     },
     revalidate: 60,
   };

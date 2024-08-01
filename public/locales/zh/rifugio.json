@@ -3,6 +3,10 @@
     "hero": {
       "title": "The Wine Haven: A Sanctuary for Emotional Tasting"
     },
+    "seo": {
+      "title": "The Wine Haven: A Sanctuary for Emotional Tasting | Les Crêtes | Valle d'Aosta - Italy",
+      "description": "Discover the Rifugio del Vino, an award-winning architectural work that combines wine, mountain culture and contemporary design. Designed by architect Domenico Mazza, it offers a unique sensory experience with a library, breathtaking views and an ideal setting for business meetings and relaxing moments. Visit the heart of the Les Crêtes winery and experience a modern alpine refuge."
+    },
     "section1": [
       {
         "title": "The building",
@@ -14,7 +18,7 @@
             "p": "The impact is impressive, with a roof that resembles the mountains in shape and with a structure dominated by the windows. Entering you can live a sensory experience, with an area dedicated to essences and a library with books of the Aosta Valley and wine, all this in a place where you can sit, read, drink a glass and observe the view."
           },
           {
-            "p": "The choice of architecture and the name <a href='/rifugio' class='underline font-bold' title='Pagina del Rifugio'>'Rifugio'</a> has a double meaning: a reference to the mountains, thus constituting an alpine refuge with typical high mountain architecture. And then also the concept of refuge as a welcome."
+            "p": "The choice of architecture and the name <a href='/rifugio' class='font-bold underline' title='Pagina del Rifugio'>'Rifugio'</a> has a double meaning: a reference to the mountains, thus constituting an alpine refuge with typical high mountain architecture. And then also the concept of refuge as a welcome."
           }
         ]
       },

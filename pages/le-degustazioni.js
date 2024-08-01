@@ -12,7 +12,7 @@ import Cards from "@/components/Cards/Cards";
 import Head from "next/head";
 import FAQ from "@/components/FAQ/FAQ";
 import Banner from "@/components/Banner/Banner";
-import Rif from "@/public/assets/rifugio.webp";
+import Rif from "@/public/assets/rifugio/rifugio6.webp";
 import Hero from "@/components/heroHome/Hero";
 import Deg from "@/public/assets/degustazioni/deg_hero2.webp";
 
