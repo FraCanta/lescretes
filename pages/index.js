@@ -12,34 +12,29 @@ import Sections3 from "@/components/sections/Sections3";
 import Sections4 from "@/components/sections/Sections4/Sections4";
 import Sections5 from "@/components/sections/Sections5";
 import Sections6 from "@/components/sections/Sections6";
-import Reviews from "@/components/sections/Reviews";
 import Head from "next/head";
-import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 
-export default function Home({ translation }) {
+export default function Home({ translation, locale }) {
   return (
     <>
       <Head>
         <>
-          <title>
-            Les Crêtes | Viticoltori dal 1750 | Valle d'Aosta - Italia
-          </title>
-          <meta name="author" content=" Les Crêtes" />
-          <meta
-            name="description"
-            content="Les Crêtes - Viticoltori dal 1800 in Aymavilles (Aosta) - Produzione ed imbottigliamento - Visitaci e degusta i nostri vini - Scopri il Rifugio del Vino"
-          />
+          <title>{translation.seo.title}</title>
+          <meta name="author" content="Les Crêtes" />
+          <meta name="description" content={translation.seo.description} />
 
-          <meta property="og:url" content="https://www.lescretes.it/" />
-          <meta property="og:type" content="website" />
           <meta
-            property="og:title"
-            content=" Les Crêtes | Viticoltori dal 1750 | Valle d'Aosta - Italia"
+            property="og:url"
+            content={`https://www.lescretes.it/${locale.locale}`}
           />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content={translation.seo.title} />
+          <meta property="og:locale" content={locale.locale} />
           <meta
             property="og:description"
-            content="Les Crêtes - Viticoltori dal 1800 in Aymavilles (Aosta) - Produzione ed imbottigliamento - Visitaci e degusta i nostri vini - Scopri il Rifugio del Vino"
+            content={translation.seo.description}
           />
+          <meta property="og:site_name" content="Les Crêtes" />
           <meta
             property="og:image"
             content="https://lescretes-liard.vercel.app/assets/seo/cover_home.png"
@@ -47,18 +42,30 @@ export default function Home({ translation }) {
           <meta name="twitter:card" content="summary_large_image" />
           <meta property="twitter:domain" content="lescretes.it" />
           <meta property="twitter:url" content="https://www.lescretes.it/" />
-          <meta
-            name="twitter:title"
-            content=" Les Crêtes | Viticoltori dal 1750 | Valle d'Aosta - Italia"
-          />
+          <meta name="twitter:title" content={translation.seo.title} />
           <meta
             name="twitter:description"
-            content="Les Crêtes - Viticoltori dal 1800 in Aymavilles (Aosta) - Produzione ed imbottigliamento - Visitaci e degusta i nostri vini - Scopri il Rifugio del Vino"
+            content={translation.seo.description}
           />
-          {/* <meta
+          <meta
             name="twitter:image"
-            content="https://www.thallion-dev.it/assets/cover_web.jpg"
-          /> */}
+            content="https://lescretes-liard.vercel.app/assets/seo/cover_home.png"
+          />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "${translation.seo.title}",
+            "description": "${translation.seo.description}",
+            "url": "https://www.lescretes.it/${locale.locale}",
+            "logo": "https://www.lescretes.it/favicon.ico"
+          }
+        `,
+            }}
+          />
         </>
       </Head>
       <div className="h-[calc(100vh_-_60px)] md:h-[calc(100vh_-_70px)] overflow-hidden fxl:min-h-[calc(100vh_-_100px)] 3xl:min-h-[calc(100vh_-_180px)] w-full hero  relative flex text-end items-end">
@@ -120,6 +127,7 @@ export async function getStaticProps(locale, context) {
   return {
     props: {
       translation: obj?.home,
+      locale: locale,
     },
     revalidate: 60,
   };

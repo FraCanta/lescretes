@@ -6,7 +6,7 @@ import "@/styles/wordpress.css";
 import "@/styles/gallery3d.css";
 
 import Script from "next/script";
-import { AnimatePresence, motion, Spring } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 export default function App({ Component, pageProps, router }) {
   const transitionSpringPhysics = {
     type: "spring",
