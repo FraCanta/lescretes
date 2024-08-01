@@ -18,11 +18,113 @@ import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 import VideoPlayer from "@/components/VideoPlayer/VideoPlayer";
 import Image from "next/image";
 
-export default function Storia({ translation }) {
+export default function Storia({ translation, locale }) {
   return (
     <>
       <Head>
-        <title>Les Crêtes - storia</title>
+        <>
+          <title>{translation.seo.title}</title>
+          <meta name="author" content="Les Crêtes" />
+          <meta name="description" content={translation.seo.description} />
+          <meta name="robots" content="index, follow" />
+
+          <link
+            rel="canonical"
+            href={`https://www.lescretes.it/${locale.locale}/storia`}
+          />
+          <link
+            rel="alternate"
+            hrefLang="it"
+            href="https://www.lescretes.it/it/storia"
+          />
+          <link
+            rel="alternate"
+            hrefLang="en"
+            href="https://www.lescretes.it/en/storia"
+          />
+          <link
+            rel="alternate"
+            hrefLang="de"
+            href="https://www.lescretes.it/de/storia"
+          />
+          <link
+            rel="alternate"
+            hrefLang="fr"
+            href="https://www.lescretes.it/fr/storia"
+          />
+          <link
+            rel="alternate"
+            hrefLang="jp"
+            href="https://www.lescretes.it/jp/storia"
+          />
+          <link
+            rel="alternate"
+            hrefLang="ko"
+            href="https://www.lescretes.it/ko/storia"
+          />
+          <link
+            rel="alternate"
+            hrefLang="ru"
+            href="https://www.lescretes.it/ru/storia"
+          />
+          <link
+            rel="alternate"
+            hrefLang="zh"
+            href="https://www.lescretes.it/zh/storia"
+          />
+
+          <meta
+            property="og:url"
+            content={`https://www.lescretes.it/${locale.locale}/storia`}
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content={translation.seo.title} />
+          <meta property="og:locale" content={locale.locale} />
+          <meta
+            property="og:description"
+            content={translation.seo.description}
+          />
+          <meta property="og:site_name" content="Les Crêtes" />
+          <meta
+            property="og:image"
+            content="https://lescretes-liard.vercel.app/assets/seo/cover_storia.png"
+          />
+          <meta property="og:image:alt" content="Les Crêtes cover image" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta property="twitter:domain" content="lescretes.it" />
+          <meta
+            property="twitter:url"
+            content={`https://www.lescretes.it/${locale.locale}/storia`}
+          />
+          <meta name="twitter:title" content={translation.seo.title} />
+          <meta
+            name="twitter:description"
+            content={translation.seo.description}
+          />
+          <meta
+            name="twitter:image"
+            content="https://lescretes-liard.vercel.app/assets/seo/cover_storia.png"
+          />
+          <meta name="twitter:image:alt" content="Les Crêtes cover image" />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "${translation.seo.title}",
+            "description": "${translation.seo.description}",
+            "url": "https://www.lescretes.it/${locale.locale}/storia",
+            "logo": "https://www.lescretes.it/favicon.ico"
+          }
+        `,
+            }}
+          />
+        </>
       </Head>
       <div className="flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)] 3xl:h-[calc(80vh_-_180px)]">
         <HeroHome2
@@ -112,6 +214,7 @@ export async function getStaticProps(locale, context) {
   return {
     props: {
       translation: obj?.storia,
+      locale: locale,
     },
     revalidate: 60,
   };
