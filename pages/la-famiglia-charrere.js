@@ -6,18 +6,12 @@ import storiaJP from "@/public/locales/jp/storia.json";
 import storiaKO from "@/public/locales/ko/storia.json";
 import storiaRU from "@/public/locales/ru/storia.json";
 import storiaZH from "@/public/locales/zh/storia.json";
-import HeroHome2 from "@/components/heroHome/HeroHome2";
 import Sections1 from "@/components/storiaSections/Sections1";
 import Sections2 from "@/components/storiaSections/Sections2";
 import Sections3 from "@/components/storiaSections/Sections3";
-import Link from "next/link";
-import Reviews from "@/components/sections/Reviews";
 import Head from "next/head";
-import CtaPrimary from "@/components/Cta/CtaPrimary";
-import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 import VideoPlayer from "@/components/VideoPlayer/VideoPlayer";
 import Image from "next/image";
-import HeroHome3 from "@/components/heroHome/HeroHome3";
 import HeroHome4 from "@/components/heroHome/HeroHome4";
 
 export default function Storia({ translation, locale }) {
@@ -141,19 +135,7 @@ export default function Storia({ translation, locale }) {
       <div className="w-[90%] mx-auto h-[0.08rem] bg-main/20 my-10"></div>
 
       <div className="w-[90%] mx-auto py-10">
-        {/* <VideoPlayer
-          video="https://www.youtube.com/watch?v=chNpSOWD8T8"
-          poster="/video/cover.jpg"
-        /> */}
-        <iframe
-          src="https://www.youtube.com/embed/chNpSOWD8T8?controls=1&modestbranding=1&rel=0&playsinline=1&autoplay=0"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-          className="w-full h-full rounded-sm aspect-square lg:aspect-video"
-        />
+        <VideoPlayer video="/video/video2.mp4" poster="/video/cover.jpg" />
       </div>
       <div className="w-[90%] mx-auto py-10 lg:text-center flex flex-col gap-6 3xl:gap-10 3xl:py-32">
         <div className="flex flex-col gap-4 py-10 mx-auto lg:w-2/3 xl:w-[90%] 2xl:w-2/3 3xl:gap-10 3xl:w-11/12">

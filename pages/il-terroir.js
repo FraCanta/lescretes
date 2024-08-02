@@ -17,6 +17,7 @@ import { Autoplay } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
+import HeroHome2 from "@/components/heroHome/HeroHome2";
 
 const Terroir = ({ translation, locale }) => {
   return (

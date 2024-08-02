@@ -26,7 +26,7 @@ const Degustazioni = ({ translation }) => {
       <div className="relative bg-second bg-pattern2 flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(90vh_-_70px)] fxl:min-h-[calc(80vh_-_100px)]">
         <HeroHome2 img={Deg} title={translation.hero.title} />
       </div>
-      <div className="lg:w-[90%] mx-auto py-6 flex flex-col gap-6 justify-center items-center">
+      <div className="lg:w-[90%] mx-auto py-20 flex flex-col gap-6 justify-center items-center">
         {translation.intro.map((el, i) => {
           return (
             <div
