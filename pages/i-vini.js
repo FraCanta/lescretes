@@ -25,12 +25,12 @@ const Vini = ({ translation }) => {
       <Head>
         <title>{translation?.hero?.title}</title>
       </Head>
-      <div className="flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
-        <HeroHome2
-          title={translation?.hero?.title}
-          img={translation?.hero?.img}
-        />
-      </div>
+      {/* <div className="flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]"> */}
+      <HeroHome2
+        title={translation?.hero?.title}
+        img={translation?.hero?.img}
+      />
+      {/* </div> */}
 
       <div className="flex flex-col items-start justify-start gap-10 w-[90%] mx-auto lg:pb-20">
         <h2 className="text-main text-3xl md:text-5xl xl:text-4xl 2xl:text-5xl fxl:text-6xl font-bold lg:leading-[46px] 3xl:text-7xl">

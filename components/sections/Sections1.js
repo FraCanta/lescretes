@@ -11,7 +11,7 @@ const Sections1 = () => {
         </h1>
       </div>
       <div className="flex flex-wrap w-[90%] mx-auto gap-6">
-        <div className="relative flex items-center flex-col md:flex-row justify-between gap-6">
+        <div className="relative flex flex-col items-center justify-between gap-6 md:flex-row">
           <Image
             alt=""
             width={500}
@@ -52,7 +52,7 @@ const Sections1 = () => {
             </div>
             <div className="px-6 py-4  border-2 border-[#4A4A49] rounded-[48px] justify-start items-center gap-[9.60px] flex">
               <Link
-                href="/storia"
+                href="/la-famiglia-charrere"
                 className="text-center text-sm md:text-[21.60px] font-bold leading-snug "
               >
                 La nostra storia

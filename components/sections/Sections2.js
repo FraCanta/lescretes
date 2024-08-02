@@ -18,7 +18,10 @@ const Sections2 = ({ translation }) => {
       </div>
       <div className="w-[90%] mx-auto gap-[20px] flex flex-col lg:flex-row">
         <div className="lg:w-2/3 h-[300px] md:h-[680.75px] 3xl:h-[70vh] relative ">
-          <Link href="/storia" title="Storia della Famiglia Charrère">
+          <Link
+            href="/la-famiglia-charrere"
+            title="Storia della Famiglia Charrère"
+          >
             <Image
               src={Family}
               alt="famiglia charrere"

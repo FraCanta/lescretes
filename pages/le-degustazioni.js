@@ -15,6 +15,7 @@ import Banner from "@/components/Banner/Banner";
 import Rif from "@/public/assets/rifugio/rifugio6.webp";
 import Hero from "@/components/heroHome/Hero";
 import Deg from "@/public/assets/degustazioni/deg_hero2.webp";
+import HeroHome2 from "@/components/heroHome/HeroHome2";
 
 const Degustazioni = ({ translation }) => {
   return (
@@ -22,15 +23,18 @@ const Degustazioni = ({ translation }) => {
       <Head>
         <title>{translation.hero.title}</title>
       </Head>
-      <div className="flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(90vh_-_70px)] fxl:min-h-[calc(80vh_-_100px)]">
-        <Hero img={Deg} text={translation.hero.title} />
-      </div>
-      <div className="lg:w-[90%] mx-auto py-6 flex flex-col gap-6 justify-center items-center">
+      {/* <div className="flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(90vh_-_70px)] fxl:min-h-[calc(80vh_-_100px)]"> */}
+      <HeroHome2 img={Deg} title={translation.hero.title} />
+      {/* </div> */}
+      <div className="lg:w-[90%] mx-auto py-6 flex flex-col gap-10">
+        <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-5xl">
+          {translation.introTitle}
+        </h2>
         {translation.intro.map((el, i) => {
           return (
             <div
               key={i}
-              className="text-xl font-normal xl:text-center text-main fxl:text-2xl w-[90%]"
+              className="text-xl font-normal  text-main fxl:text-2xl w-[90%]"
             >
               <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
             </div>

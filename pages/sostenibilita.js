@@ -13,6 +13,7 @@ import sostenibilitaKO from "@/public/locales/ko/sostenibilita.json";
 import sostenibilitaRU from "@/public/locales/ru/sostenibilita.json";
 import sostenibilitaZH from "@/public/locales/zh/sostenibilita.json";
 import { traceGlobals } from "next/dist/trace/shared";
+import HeroHome2 from "@/components/heroHome/HeroHome2";
 
 function Sostenibilita({ translation, locale }) {
   return (
@@ -122,13 +123,13 @@ function Sostenibilita({ translation, locale }) {
           />
         </>
       </Head>
-      <div className="flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(80vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
-        <Hero
-          img={translation.hero.img}
-          text={translation.hero.title}
-          alt="Immagine della sostenibilità"
-        />
-      </div>
+      {/* <div className="flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(80vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]"> */}
+      <HeroHome2
+        img={translation.hero.img}
+        title={translation.hero.title}
+        alt="Immagine della sostenibilità"
+      />
+      {/* </div> */}
       <div className="flex flex-col items-center justify-center gap-10 pb-24 ">
         <div className="flex gap-6 ">
           <Image

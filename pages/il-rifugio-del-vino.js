@@ -16,6 +16,7 @@ import rifugioKO from "@/public/locales/ko/rifugio.json";
 import rifugioRU from "@/public/locales/ru/rifugio.json";
 import rifugioZH from "@/public/locales/zh/rifugio.json";
 import Image from "next/image";
+import HeroHome2 from "@/components/heroHome/HeroHome2";
 const Rifugio = ({ translation, locale }) => {
   return (
     <>
@@ -124,9 +125,9 @@ const Rifugio = ({ translation, locale }) => {
           />
         </>
       </Head>
-      <div className="flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(80vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
-        <Hero img={Rif} text={translation?.hero.title} />
-      </div>
+      {/* <div className="flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(80vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]"> */}
+      <HeroHome2 img={Rif} title={translation?.hero.title} />
+      {/* </div> */}
       <div className="w-[90%]  flex-col justify-start items-start gap-[50px] flex mx-auto py-10 lg:py-20 fxl:gap-20 ">
         {translation.section1.map((el, i) => {
           return (
