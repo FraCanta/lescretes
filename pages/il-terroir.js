@@ -21,46 +21,113 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 
-const Terroir = ({ translation }) => {
+const Terroir = ({ translation, locale }) => {
   return (
     <>
       <Head>
-        <title>Les Crêtes - Il Terroir</title>
-        <meta
-          name="description"
-          content="Immersa tra i giganti delle Alpi, la Valle d'Aosta è la più piccola regione italiana ma vanta la più alta concentrazione di aree protette d'Europa, con parchi come il Gran Paradiso. Divisa dalla Dora Baltea, offre paesaggi diversificati e ospita una ricca viticoltura sui suoi terrazzamenti ventilati. Esplora le sue valli laterali e assapora i suoi vini unici."
-        />
+        <>
+          <title>{translation.seo.title}</title>
+          <meta name="author" content="Les Crêtes" />
+          <meta name="description" content={translation.seo.description} />
+          <meta name="robots" content="index, follow" />
 
-        <meta
-          property="og:url"
-          content="https://lescretes-liard.vercel.app/terroir"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Les Crêtes - Il Terroir" />
-        <meta
-          property="og:description"
-          content="Immersa tra i giganti delle Alpi, la Valle d'Aosta è la più piccola regione italiana ma vanta la più alta concentrazione di aree protette d'Europa, con parchi come il Gran Paradiso. Divisa dalla Dora Baltea, offre paesaggi diversificati e ospita una ricca viticoltura sui suoi terrazzamenti ventilati. Esplora le sue valli laterali e assapora i suoi vini unici."
-        />
-        <meta
-          property="og:image"
-          content="https://lescretes-liard.vercel.app/assets/terroir2.png"
-        />
+          <link
+            rel="canonical"
+            href={`https://www.lescretes.it/${locale.locale}/il-terroir`}
+          />
+          <link
+            rel="alternate"
+            hrefLang="it"
+            href="https://www.lescretes.it/it/il-terroir"
+          />
+          <link
+            rel="alternate"
+            hrefLang="en"
+            href="https://www.lescretes.it/en/il-terroir"
+          />
+          <link
+            rel="alternate"
+            hrefLang="de"
+            href="https://www.lescretes.it/de/il-terroir"
+          />
+          <link
+            rel="alternate"
+            hrefLang="fr"
+            href="https://www.lescretes.it/fr/il-terroir"
+          />
+          <link
+            rel="alternate"
+            hrefLang="jp"
+            href="https://www.lescretes.it/jp/il-terroir"
+          />
+          <link
+            rel="alternate"
+            hrefLang="ko"
+            href="https://www.lescretes.it/ko/il-terroir"
+          />
+          <link
+            rel="alternate"
+            hrefLang="ru"
+            href="https://www.lescretes.it/ru/il-terroir"
+          />
+          <link
+            rel="alternate"
+            hrefLang="zh"
+            href="https://www.lescretes.it/zh/il-terroir"
+          />
 
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="lescretes-liard.vercel.app" />
-        <meta
-          property="twitter:url"
-          content="https://lescretes-liard.vercel.app/terroir"
-        />
-        <meta name="twitter:title" content="Les Crêtes - Il Terroir" />
-        <meta
-          name="twitter:description"
-          content="Immersa tra i giganti delle Alpi, la Valle d'Aosta è la più piccola regione italiana ma vanta la più alta concentrazione di aree protette d'Europa, con parchi come il Gran Paradiso. Divisa dalla Dora Baltea, offre paesaggi diversificati e ospita una ricca viticoltura sui suoi terrazzamenti ventilati. Esplora le sue valli laterali e assapora i suoi vini unici."
-        />
-        <meta
-          name="twitter:image"
-          content="https://lescretes-liard.vercel.app/assets/terroir2.png"
-        />
+          <meta
+            property="og:url"
+            content={`https://www.lescretes.it/${locale.locale}/il-terroir`}
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content={translation.seo.title} />
+          <meta property="og:locale" content={locale.locale} />
+          <meta
+            property="og:description"
+            content={translation.seo.description}
+          />
+          <meta property="og:site_name" content="Les Crêtes" />
+          <meta
+            property="og:image"
+            content="https://lescretes-liard.vercel.app/assets/seo/cover_terroir.png"
+          />
+          <meta property="og:image:alt" content="Les Crêtes cover image" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta property="twitter:domain" content="lescretes.it" />
+          <meta
+            property="twitter:url"
+            content={`https://www.lescretes.it/${locale.locale}/il-terroir`}
+          />
+          <meta name="twitter:title" content={translation.seo.title} />
+          <meta
+            name="twitter:description"
+            content={translation.seo.description}
+          />
+          <meta
+            name="twitter:image"
+            content="https://lescretes-liard.vercel.app/assets/seo/cover_terroir.png"
+          />
+          <meta name="twitter:image:alt" content="Les Crêtes cover image" />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "${translation.seo.title}",
+            "description": "${translation.seo.description}",
+            "url": "https://www.lescretes.it/${locale.locale}/il-terroir",
+            "logo": "https://www.lescretes.it/favicon.ico"
+          }
+        `,
+            }}
+          />
+        </>
       </Head>
       <div className="flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(80vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
         <Hero img={Ter} text={translation.hero.title} />
@@ -304,6 +371,7 @@ export async function getStaticProps(locale, context) {
   return {
     props: {
       translation: obj?.terroir,
+      locale: locale,
     },
     revalidate: 60,
   };
