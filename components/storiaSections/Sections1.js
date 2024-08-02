@@ -3,7 +3,7 @@ import React from "react";
 
 const Sections1 = ({ translation }) => {
   return (
-    <div className="w-[90%] flex-col justify-start items-start gap-[50px] md:gap-20 fxl:gap-20 flex mx-auto mt-20 xl:mt-0 ">
+    <div className="w-[90%] flex-col justify-start items-start gap-[50px] md:gap-20 fxl:gap-20 flex mx-auto lg:my-20 ">
       {translation.paragrafi.map((p, i) => {
         return (
           <div

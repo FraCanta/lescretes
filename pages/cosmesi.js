@@ -18,7 +18,7 @@ const Cosmesi = ({ translation }) => {
       <Head>
         <title>Les Crêtes - DeVin Cosmetica</title>
       </Head>
-      <div className="relative bg-pattern3 flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto h-[calc(100vh_-_70px)] md:h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)] bg-second">
+      <div className="relative bg-second/25 bg-pattern2a flex flex-col justify-center lg:flex-row items-center  h-[calc(100vh_-_70px)] md:min-h-[calc(90vh_-_70px)] fxl:min-h-[calc(80vh_-_100px)]">
         <HeroHome2 title={translation.hero.title} img={Cosmetico} />
       </div>
       <div className="w-[90%] min-h-screen flex-col justify-start items-center gap-[60px]  flex mx-auto py-10 ">

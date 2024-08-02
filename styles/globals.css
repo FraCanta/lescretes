@@ -46,6 +46,12 @@ span {
     background-repeat: no-repeat;
     background-position: bottom left;
   }
+  .bg-pattern2a {
+    background-image: url("../public/assets/pattern2.png");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 350px) calc(100% - 0px);
+  }
   .bg-pattern3 {
     background-image: url("../public/assets/pattern2.png");
     background-size: 1300px;

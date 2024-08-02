@@ -26,14 +26,14 @@ const Vini = ({ translation }) => {
       <Head>
         <title>{translation?.hero?.title}</title>
       </Head>
-      <div className="flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
+      <div className="relative bg-second/25 bg-pattern2a flex flex-col justify-center lg:flex-row items-center  h-[calc(100vh_-_70px)] md:h-[calc(100vh_-_70px)] fxl:h-[calc(100vh_-_100px)]">
         <HeroHome2
           title={translation?.hero?.title}
           img={translation?.hero?.img}
         />
       </div>
 
-      <div className="flex flex-col items-start justify-start gap-10 w-[90%] mx-auto lg:my-20">
+      <div className="flex flex-col items-start justify-start gap-10 w-[90%] mx-auto my-10 lg:my-20">
         <h2 className="text-main text-3xl md:text-5xl xl:text-4xl 2xl:text-5xl fxl:text-6xl font-bold lg:leading-[46px] 3xl:text-7xl">
           {translation.intro.title}
         </h2>
@@ -59,7 +59,7 @@ const Vini = ({ translation }) => {
               src="/assets/lc3a.webp"
               alt="les cretes family"
               fill
-              className="object-cover object-[-130px] lg:object-center lg:object-contain rounded-sm"
+              className="object-cover rounded-sm lg:object-center lg:object-contain"
             />
           </div>
           <div className="flex flex-col gap-10 lg:items-center lg:justify-center">
@@ -72,7 +72,7 @@ const Vini = ({ translation }) => {
                 __html: translation.family.descrizione,
               }}
             ></p>
-            <CtaOutlineBrown link="/storia" title="storia">
+            <CtaOutlineBrown link="/la-famiglia-charrere" title="storia">
               {translation.family.cta}
             </CtaOutlineBrown>
           </div>
