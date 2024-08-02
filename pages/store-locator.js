@@ -253,19 +253,61 @@ const Store = ({ translation }) => {
                     <Icon icon="fluent:previous-32-filled" />
                   </button>
                 )}
-                {[...Array(totalPages)].map((_, index) => (
+
+                {/* Prima pagina */}
+                <button
+                  onClick={() => handlePageChange(1)}
+                  className={`px-1 py-1 mx-1 ${
+                    currentPage === 1
+                      ? "font-bold text-main transition-all ease-linear duration-300"
+                      : "text-main/50"
+                  }`}
+                >
+                  1
+                </button>
+
+                {/* Pagine intermedie */}
+                {currentPage > 3 && <span className="px-1 py-1 mx-1">...</span>}
+
+                {[...Array(totalPages)].map((_, index) => {
+                  const page = index + 1;
+                  if (page === 1 || page === totalPages) return null; // Ignora la prima e ultima pagina
+                  if (page >= currentPage - 1 && page <= currentPage + 1) {
+                    return (
+                      <button
+                        key={page}
+                        onClick={() => handlePageChange(page)}
+                        className={`px-1 py-1 mx-1 ${
+                          currentPage === page
+                            ? "font-bold text-main transition-all ease-linear duration-300"
+                            : "text-main/50"
+                        }`}
+                      >
+                        {page}
+                      </button>
+                    );
+                  }
+                  return null;
+                })}
+
+                {currentPage < totalPages - 2 && (
+                  <span className="px-1 py-1 mx-1">...</span>
+                )}
+
+                {/* Ultima pagina */}
+                {totalPages > 1 && (
                   <button
-                    key={index}
-                    onClick={() => handlePageChange(index + 1)}
+                    onClick={() => handlePageChange(totalPages)}
                     className={`px-1 py-1 mx-1 ${
-                      currentPage === index + 1
+                      currentPage === totalPages
                         ? "font-bold text-main transition-all ease-linear duration-300"
                         : "text-main/50"
                     }`}
                   >
-                    {index + 1}
+                    {totalPages}
                   </button>
-                ))}
+                )}
+
                 {currentPage < totalPages && (
                   <button
                     onClick={() => handlePageChange(currentPage + 1)}
