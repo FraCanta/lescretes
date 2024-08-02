@@ -13,6 +13,7 @@ import contattiJP from "@/public/locales/jp/contatti.json";
 import contattiKO from "@/public/locales/ko/contatti.json";
 import contattiRU from "@/public/locales/ru/contatti.json";
 import contattiZH from "@/public/locales/zh/contatti.json";
+import HeroHome2 from "@/components/heroHome/HeroHome2";
 
 const Contatti = ({ translation }) => {
   const [inputs, setInputs] = useState({
@@ -31,7 +32,7 @@ const Contatti = ({ translation }) => {
       <Head>
         <title>Les Crêtes - contatti</title>
       </Head>
-      <Hero text={translation.hero.title} img={Rifugio} />
+      <HeroHome2 title={translation.hero.title} img={Rifugio} />
       <div className="w-[90%] mx-auto py-20 lg:py-10 grid grid-cols-1 lg:grid-cols-2 gap-y-20 lg:gap-10">
         <div className="flex flex-col gap-10">
           <h2 className="text-3xl font-bold">{translation.references.title}</h2>

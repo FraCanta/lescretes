@@ -16,6 +16,7 @@ import rifugioKO from "@/public/locales/ko/rifugio.json";
 import rifugioRU from "@/public/locales/ru/rifugio.json";
 import rifugioZH from "@/public/locales/zh/rifugio.json";
 import Image from "next/image";
+import HeroHome2 from "@/components/heroHome/HeroHome2";
 const Rifugio = ({ translation, locale }) => {
   return (
     <>

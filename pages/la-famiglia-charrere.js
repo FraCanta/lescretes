@@ -17,6 +17,8 @@ import CtaPrimary from "@/components/Cta/CtaPrimary";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 import VideoPlayer from "@/components/VideoPlayer/VideoPlayer";
 import Image from "next/image";
+import HeroHome3 from "@/components/heroHome/HeroHome3";
+import HeroHome4 from "@/components/heroHome/HeroHome4";
 
 export default function Storia({ translation, locale }) {
   return (
@@ -127,7 +129,7 @@ export default function Storia({ translation, locale }) {
         </>
       </Head>
       <div className="flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)] 3xl:h-[calc(80vh_-_180px)]">
-        <HeroHome2
+        <HeroHome4
           title={translation?.hero?.title}
           img={translation?.hero?.img}
         />
@@ -139,7 +141,19 @@ export default function Storia({ translation, locale }) {
       <div className="w-[90%] mx-auto h-[0.08rem] bg-main/20 my-10"></div>
 
       <div className="w-[90%] mx-auto py-10">
-        <VideoPlayer video="/video/video2.mp4" poster="/video/cover.jpg" />
+        {/* <VideoPlayer
+          video="https://www.youtube.com/watch?v=chNpSOWD8T8"
+          poster="/video/cover.jpg"
+        /> */}
+        <iframe
+          src="https://www.youtube.com/embed/chNpSOWD8T8?controls=1&modestbranding=1&rel=0&playsinline=1&autoplay=0"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+          className="w-full h-full rounded-sm aspect-square lg:aspect-video"
+        />
       </div>
       <div className="w-[90%] mx-auto py-10 lg:text-center flex flex-col gap-6 3xl:gap-10 3xl:py-32">
         <div className="flex flex-col gap-4 py-10 mx-auto lg:w-2/3 xl:w-[90%] 2xl:w-2/3 3xl:gap-10 3xl:w-11/12">

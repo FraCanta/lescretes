@@ -13,114 +13,13 @@ import sostenibilitaKO from "@/public/locales/ko/sostenibilita.json";
 import sostenibilitaRU from "@/public/locales/ru/sostenibilita.json";
 import sostenibilitaZH from "@/public/locales/zh/sostenibilita.json";
 import { traceGlobals } from "next/dist/trace/shared";
+import HeroHome2 from "@/components/heroHome/HeroHome2";
 
-function Sostenibilita({ translation, locale }) {
+function Sostenibilita({ translation }) {
   return (
     <>
       <Head>
-        <>
-          <title>{translation.seo.title}</title>
-          <meta name="author" content="Les Crêtes" />
-          <meta name="description" content={translation.seo.description} />
-          <meta name="robots" content="index, follow" />
-
-          <link
-            rel="canonical"
-            href={`https://www.lescretes.it/${locale.locale}/sostenibilita`}
-          />
-          <link
-            rel="alternate"
-            hrefLang="it"
-            href="https://www.lescretes.it/it/sostenibilita"
-          />
-          <link
-            rel="alternate"
-            hrefLang="en"
-            href="https://www.lescretes.it/en/sostenibilita"
-          />
-          <link
-            rel="alternate"
-            hrefLang="de"
-            href="https://www.lescretes.it/de/sostenibilita"
-          />
-          <link
-            rel="alternate"
-            hrefLang="fr"
-            href="https://www.lescretes.it/fr/sostenibilita"
-          />
-          <link
-            rel="alternate"
-            hrefLang="jp"
-            href="https://www.lescretes.it/jp/sostenibilita"
-          />
-          <link
-            rel="alternate"
-            hrefLang="ko"
-            href="https://www.lescretes.it/ko/sostenibilita"
-          />
-          <link
-            rel="alternate"
-            hrefLang="ru"
-            href="https://www.lescretes.it/ru/sostenibilita"
-          />
-          <link
-            rel="alternate"
-            hrefLang="zh"
-            href="https://www.lescretes.it/zh/sostenibilita"
-          />
-
-          <meta
-            property="og:url"
-            content={`https://www.lescretes.it/${locale.locale}/sostenibilita`}
-          />
-          <meta property="og:type" content="article" />
-          <meta property="og:title" content={translation.seo.title} />
-          <meta property="og:locale" content={locale.locale} />
-          <meta
-            property="og:description"
-            content={translation.seo.description}
-          />
-          <meta property="og:site_name" content="Les Crêtes" />
-          <meta
-            property="og:image"
-            content="https://lescretes-liard.vercel.app/assets/seo/cover_sostenibilita.png"
-          />
-          <meta property="og:image:alt" content="Les Crêtes cover image" />
-          <meta property="og:image:width" content="1200" />
-          <meta property="og:image:height" content="630" />
-
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta property="twitter:domain" content="lescretes.it" />
-          <meta
-            property="twitter:url"
-            content="https://www.lescretes.it/sostenibilita"
-          />
-          <meta name="twitter:title" content={translation.seo.title} />
-          <meta
-            name="twitter:description"
-            content={translation.seo.description}
-          />
-          <meta
-            name="twitter:image"
-            content="https://lescretes-liard.vercel.app/assets/seo/cover_sostenibilita.png"
-          />
-          <meta name="twitter:image:alt" content="Les Crêtes cover image" />
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: `
-          {
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "${translation.seo.title}",
-            "description": "${translation.seo.description}",
-            "url": "https://www.lescretes.it/${locale.locale}/sostenibilita",
-            "logo": "https://www.lescretes.it/favicon.ico"
-          }
-        `,
-            }}
-          />
-        </>
+        <title>Sostenibilità: Un Valore Intrinseco alla Nostra Identità</title>
       </Head>
       <div className="flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(80vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
         <Hero
@@ -294,7 +193,6 @@ export async function getStaticProps(locale, context) {
   return {
     props: {
       translation: obj?.sostenibilita,
-      locale: locale,
     },
     revalidate: 60,
   };

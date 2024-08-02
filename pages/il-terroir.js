@@ -1,8 +1,5 @@
 import Hero from "@/components/heroHome/Hero";
 import React from "react";
-import Ter from "@/public/assets/terroir2.webp";
-import Banner from "@/components/Banner/Banner";
-import Wine from "@/public/assets/vinibanner.webp";
 import Head from "next/head";
 import terroirIT from "@/public/locales/it/terroir.json";
 import terroirEN from "@/public/locales/en/terroir.json";
@@ -130,7 +127,7 @@ const Terroir = ({ translation, locale }) => {
         </>
       </Head>
       <div className="flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(80vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
-        <Hero img={Ter} text={translation.hero.title} />
+        <Hero img="/assets/terroir2.webp" text={translation.hero.title} />
       </div>
       <div className="w-[90%]  flex-col justify-start items-start gap-[50px] flex mx-auto py-20 fxl:gap-20">
         <div className="flex flex-col gap-10">
