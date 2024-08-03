@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Family from "@/public/assets/family.webp";
 import Rifugio from "@/public/assets/rifugio.webp";
-import Terroir from "@/public/assets/terroir.webp";
+import Terroir from "@/public/assets/coteau2.webp";
 import Link from "next/link";
 
 const Sections2 = ({ translation }) => {

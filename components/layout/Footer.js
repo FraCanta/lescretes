@@ -18,20 +18,22 @@ const Footer = ({ translation }) => {
             />
           </Link>
           <p className="text-main/80">
-            SR20, 5011010 Aymavilles (AO) <br /> Valle d’Aosta, Italia
+            SR20, 11010 Aymavilles (AO) <br /> Valle d’Aosta, Italia
           </p>
         </aside>
-        <nav className="grid grid-cols-1 gap-2">
+        <nav className="grid grid-cols-1 gap-1">
           <header className="uppercase font-bold !text-main">
             {translation?.[locale]?.col1.title}
           </header>
           <p className="font-bold text-main/90">
             {translation?.[locale]?.col1.days}
           </p>
-          <p className="text-main/80">8.30 – 13.00 / 14.30 – 18.00</p>
+          <p className="text-main/80">8.30 – 13.00 / 14.30 – 19.20</p>
+          <p className="text-main/80">9.30 – 13.00 / 14.30 – 19.20</p>
           <p className="font-bold text-main/90">
             {translation?.[locale]?.col1.close}
           </p>
+          <p className="text-main/80">9.30 – 19.20</p>
         </nav>
         {/* <nav className="grid grid-cols-1 gap-2">
           <header className="uppercase font-bold !text-main">
@@ -45,7 +47,7 @@ const Footer = ({ translation }) => {
             {translation?.[locale]?.col2.close}
           </p>
         </nav> */}
-        <nav className="grid grid-cols-1 gap-2">
+        <nav className="grid grid-cols-1 gap-1">
           <header className="uppercase font-bold !text-main">
             {translation?.[locale]?.col3.title}
           </header>
@@ -61,7 +63,7 @@ const Footer = ({ translation }) => {
             );
           })}
         </nav>
-        <nav className="grid grid-cols-1 gap-2">
+        <nav className="grid grid-cols-1 gap-1">
           <header className="uppercase font-bold !text-main">
             {translation?.[locale]?.col4.title}
           </header>
@@ -82,7 +84,14 @@ const Footer = ({ translation }) => {
         <aside>
           <p>
             Copyright © 2024 Les Crêtes - P.iva 00520450073 | All Rights
-            Reserved | Privacy Policy
+            Reserved |{" "}
+            <Link
+              href="/privacy"
+              title="Pagina privacy policy"
+              className="underline"
+            >
+              Privacy Policy
+            </Link>
           </p>
         </aside>
       </footer>

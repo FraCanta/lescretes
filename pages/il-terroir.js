@@ -128,7 +128,7 @@ const Terroir = ({ translation, locale }) => {
         </>
       </Head>
       <div className="flex flex-col justify-center lg:flex-row items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(80vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)]">
-        <Hero img="/assets/terroir2.webp" text={translation.hero.title} />
+        <Hero img="/assets/coteau2.webp" text={translation.hero.title} />
       </div>
       <div className="w-[90%]  flex-col justify-start items-start gap-[50px] flex mx-auto py-20 fxl:gap-20">
         <div className="flex flex-col gap-10">

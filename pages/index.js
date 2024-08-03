@@ -119,7 +119,7 @@ export default function Home({ translation, locale }) {
           />
         </>
       </Head>
-      <div className="h-[calc(100vh_-_60px)] md:h-[calc(100vh_-_70px)] overflow-hidden fxl:min-h-[calc(100vh_-_100px)] 3xl:min-h-[calc(100vh_-_180px)] w-full hero  relative flex text-end items-end">
+      <div className=" h-[calc(100vh_-_60px)] md:h-[calc(100vh_-_70px)] overflow-hidden fxl:min-h-[calc(100vh_-_100px)] 3xl:min-h-[calc(100vh_-_180px)] w-full hero  relative flex text-end items-end">
         <HeroHome3 translation={translation?.hero} />
       </div>
       <div className="min-h-screen">

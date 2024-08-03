@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/router";
 import Logo from "@/public/logo/logo.png";
 import Mobile from "./mobile";
@@ -11,6 +11,24 @@ const NavBar = ({ translation }) => {
   const { locale, pathname } = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
   const [hoveredItem, setHoveredItem] = useState(null);
+  const menuRef = useRef(null); // Riferimento per il sottomenu
+
+  useEffect(() => {
+    // Funzione per gestire il clic esterno
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setMenuOpen(false);
+      }
+    };
+
+    // Aggiunge l'event listener per i clic
+    document.addEventListener("mousedown", handleClickOutside);
+
+    // Rimuove l'event listener quando il componente viene smontato
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [menuRef]);
 
   return (
     <header className="relative">
@@ -27,7 +45,7 @@ const NavBar = ({ translation }) => {
           </div>
           <div className="xl:flex items-center hidden font-black text-[#4A4A49] ">
             <div className="flex items-center gap-8 3xl:gap-14">
-              <div className="group">
+              <div className="group" ref={menuRef}>
                 <button
                   onClick={() => setMenuOpen(!menuOpen)}
                   className=" text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular flex items-center"
@@ -45,9 +63,8 @@ const NavBar = ({ translation }) => {
                       animate={{ y: 0 }}
                       exit={{ y: "-100%" }}
                       transition={{
-                        type: "spring",
-                        stiffness: 300,
-                        damping: 30,
+                        type: "linear",
+                        durantion: 0.3,
                       }}
                       className="absolute top-0 left-0 right-0 mt-[80px] w-full h-[50vh] 3xl:mt-[150px]  bg-white  transition-all p-6"
                     >
@@ -119,45 +136,7 @@ const NavBar = ({ translation }) => {
               </Link>
             </div>
           </div>
-          {/* <div className="w-[33%] mx-auto flex justify-center">
-            <Link href={`/`} title="Torna all'homepage di Les Crêtes" as="/">
-              <Image
-                src={Logo}
-                alt="Logo di Les Crêtes"
-                className="w-[85px] md:w-[150px] lg:w-[110px] xl:w-[130px] 2xl:w-[140px] fxl:w-[150px] 3xl:w-[200px] 4xl:w-[300px]"
-              />
-            </Link>
-          </div> */}
           <div className="items-center justify-end hidden gap-8 font-black xl:flex ">
-            {/* <Link
-              href={`/notizie`}
-              title="I miei articoli"
-              className="text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
-            >
-              {translation?.[locale]?.news}
-            </Link> */}
-            {/* <Link
-              href={`/areaDownload`}
-              title="I miei articoli"
-              className="mr-[1rem] gap-2 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
-            >
-              {translation?.[locale]?.download}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-4 h-4 fxl:w-5 fxl:h-5 3xl:w-8 3xl:h-8"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
-                />
-              </svg>
-            </Link> */}
-
             <Link
               href="/contatti"
               title="Pagina info e contatti"

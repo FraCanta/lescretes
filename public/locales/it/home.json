@@ -1,27 +1,27 @@
 {
   "home": {
     "hero": {
-      "title": "Passione e Montagna"
+      "title": "Viticoltura di Montagna"
     },
     "seo": {
       "title": "Les Crêtes | Viticoltori dal 1750 | Passione e Montagna | Valle d'Aosta - Italia",
       "description": "Les Crêtes - Viticoltori dal 1750 in Aymavilles (Aosta) - Produzione ed imbottigliamento - Visitaci e degusta i nostri vini - Scopri il Rifugio del Vino"
     },
     "section2": {
-      "title": "Passione e innovazione da oltre 200 anni",
-      "descrizione": "La storia della famiglia Charrère ha inizio nel 1750 e vive ancora oggi con grande rispetto delle tradizioni e dei valori tramandati nel tempo. L’attenzione all’innovazione e la cura del territorio sono il motore di un’azienda che mette anima e cuore nella viticoltura.",
+      "title": "Tradizione ed innovazione",
+      "descrizione": "La storia della famiglia Charrère dal 1750 vede ancora oggi il rispetto delle tradizioni, dei valori e dell’ambiente tramandato con sapienza da 6 generazioni. Passione, artigianalità, amore per il terroir, spirito di innovazione e cura di campo e cantina, sono il motore di Les Crêtes che, con anima e corpo si dedica alla viticoltura eroica in Valle ‘Aosta.",
       "family": "La famiglia Charrère",
       "rifugio": "Il Rifugio",
       "terroir": "Il Terroir"
     },
     "section3": {
-      "title": "Degusta i nostri vini immerso nel relax",
-      "descrizione": "Potrai vivere un’esperienza sensoriale, con una zona dedicata alle essenze e una biblioteca con libri della Valle d’Aosta e del vino, tutto questo in un luogo in cui potersi accomodare, leggere, bere un bicchiere ed osservare il panorama.",
+      "title": "Nel cuore della Valle d’Aosta con il Rifugio del Vino, Les Crêtes apre le porte del suo mondo",
+      "descrizione": "Ti aspettiamo nella sala degustazione & Wine Shop Il Rifugio del Vino, dove con vista sui vigneti, potrai conoscerci, scoprire i nostri vini e il cuore della nostra cantina, con un’esperienza dedicata",
       "scopri": "Prenota la tua esperienza"
     },
     "section4": {
-      "title": "Vini di Montagna: Espressione Autentica della Valle d'Aosta",
-      "descrizione": "I nostri vini sapidi, freschi ed eleganti, esprimono l’essenza del <strong> Terroir</strong> di montagna della Valle d’Aosta. Sono creati con passione e dedicati agli amatori ed esperti. Il clima alpino influenza fortemente le caratteristiche organolettiche dei <strong>vini prodotti in Valle d’Aosta</strong>. Sono figli di una cantina a conduzione famigliare, con piccoli appezzamenti coltivati a mano e curati nei minimi dettagli."
+      "title": "Vini di montagna, figli di una viticoltura eroica",
+      "descrizione": "I nostri vini esprimono l’essenza del terroir Valdostano. Sono figli di una viticoltura eroica ed artigianale, fatta di condizioni estreme e difficili. Creati con passione e sapienza, sono dedicati ad amatori ed esperti. Sapidi, freschi, eleganti, raccontano della montagna e della famiglia che li produce. Sono figli di piccole vigne coltivate a mano e curate nei dettagli, per ottenere uve sane, con basse rese, seguendo sia in campo che in cantina, le pratiche tradizionali ed ecosostenibili a tutela dell’ambiente. La produzione complessiva annua è in media di circa 225.000 bottiglie."
     },
     "tabs": [
       {
@@ -143,7 +143,7 @@
         ]
       },
       {
-        "name": "Dessert e Bollicine",
+        "name": "Bollicine e Dessert",
         "content": [
           {
             "img": "/assets/vinidessert/dorè.png",
@@ -176,7 +176,7 @@
     },
     "section6": {
       "title": "Non solo Vino",
-      "descrizione": "DeVin propone una formula cosmetica innovativa, naturale e efficace, derivata da estratti biologici delle montagne, per soddisfare le esigenze di chi cerca prodotti naturali ad alte prestazioni.",
+      "descrizione": "Dall’uva per la cura naturale della pelle, Les Crêtes propone la linea cosmetica DeVin dalla formula green con attivi naturali e biologici all’olio di vinaccioli, polifenoli dell’uva e fiori di vigna, 0% parabeni petrolati paraffina EDTA.",
       "button": "Scopri la nostra cosmesi"
     }
   }
