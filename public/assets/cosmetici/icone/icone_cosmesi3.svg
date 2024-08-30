@@ -3,7 +3,7 @@
 <svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 <style type="text/css">
-	.st0{clip-path:url(#SVGID_00000067211011098708705570000005218166550471638438_);fill:none;stroke:#7C7B7B;stroke-width:5;}
+	.st0{clip-path:url(#SVGID_00000067211011098708705570000005218166550471638438_);fill:none;stroke:#7C7B7B;strokeWidth:5;}
 	.st1{clip-path:url(#SVGID_00000067211011098708705570000005218166550471638438_);fill:#4A4A49;}
 	.st2{clip-path:url(#SVGID_00000067211011098708705570000005218166550471638438_);fill:#7C7B7B;}
 </style>
@@ -15,7 +15,7 @@
 		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 	</clipPath>
 	
-		<circle style="clip-path:url(#SVGID_00000152227985122587576390000010248136487022067866_);fill:none;stroke:#7C7B7B;stroke-width:5;" cx="50" cy="50" r="47.5"/>
+		<circle style="clip-path:url(#SVGID_00000152227985122587576390000010248136487022067866_);fill:none;stroke:#7C7B7B;strokeWidth:5;" cx="50" cy="50" r="47.5"/>
 	<path style="clip-path:url(#SVGID_00000152227985122587576390000010248136487022067866_);fill:#4A4A49;" d="M60.3,76.5l1,2.9h-2
 		L60.3,76.5z M62.3,82.3H64l-2.9-7.8h-1.5l-2.9,7.8h1.7l0.5-1.6h2.8L62.3,82.3z M56.7,74.5h-6.4v1.3h2.4v6.5h1.6v-6.5h2.4V74.5z
 		 M45.6,75.8c0.6,0,1.1,0.2,1.4,0.6c0.3,0.4,0.5,1,0.5,1.8v0.4c0,0.8-0.2,1.4-0.5,1.8c-0.3,0.4-0.8,0.6-1.4,0.6h-0.8v-5.2H45.6z

@@ -30,7 +30,6 @@ button {
 p,
 span {
   font-family: "DM Sans", sans-serif;
-  font-weight: 300;
 }
 
 @layer utilities {
@@ -42,9 +41,9 @@ span {
   }
   .bg-pattern2 {
     background-image: url("../public/assets/pattern2.png");
-    background-size: 1300px;
+    background-size: 1200px;
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: bottom;
   }
   .bg-pattern2a {
     background-image: url("../public/assets/pattern2.png");
@@ -52,9 +51,24 @@ span {
     background-repeat: no-repeat;
     background-position: calc(100% - 350px) calc(100% - 0px);
   }
+
+  .bg-pattern2b {
+    background-image: url("../public/assets/pattern2.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
   .bg-pattern3 {
     background-image: url("../public/assets/pattern2.png");
     background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .bg-pattern3a {
+    background-image: url("../public/assets/pattern2.png");
+    background-size: 950px;
     background-repeat: no-repeat;
     background-position: bottom right;
   }
@@ -68,6 +82,18 @@ span {
   @media screen and (max-width: 640px) {
     .bg-pattern {
       background-size: 500px;
+    }
+    .bg-pattern3a {
+      background-image: url("../public/assets/pattern2.png");
+      background-size: 1200px;
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+    .bg-pattern2 {
+      background-image: url("../public/assets/pattern2.png");
+      background-size: 1000px;
+      background-repeat: no-repeat;
+      background-position: bottom;
     }
   }
 }

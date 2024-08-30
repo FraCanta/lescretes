@@ -8,8 +8,8 @@ import CtaOutlineBrown from "../Cta/CtaOutlineBrown";
 
 const Sections6 = ({ translation }) => {
   return (
-    <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
-      <div className="w-full h-full lg:p-6 aspect-square">
+    <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 w-[90%] mx-auto">
+      <div className="w-full h-full aspect-square">
         <Image
           className="object-cover w-full h-full rounded-sm"
           width={500}
@@ -18,11 +18,11 @@ const Sections6 = ({ translation }) => {
         />
       </div>
       <div className="relative flex flex-col justify-center w-full gap-6 xl:h-full lg:p-8 2xl:p-20">
-        <h2 className="w-full  text-main text-[40px] md:text-6xl 2xl:text-[64px] fxl:text-[80px] font-bold 3xl:text-7xl">
+        <h2 className="w-full  text-main text-[36px] md:text-6xl 2xl:text-[64px] fxl:text-[80px] font-bold 3xl:text-7xl">
           {translation.title}
         </h2>
         <div className="w-full ">
-          <p className="text-xl font-normal text-main fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">
+          <p className="text-lg font-normal text-main/80 fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">
             {translation.descrizione}
           </p>
         </div>

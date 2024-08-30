@@ -327,12 +327,18 @@ const SingleDeg = ({ deg, others }) => {
       </div>
       <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs"></div>
       <div className="w-full bg-second">
-        <div className="flex flex-col gap-10 py-20 w-[90%] mx-auto">
-          <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl xl:w-[65%] mx-auto text-center">
-            {deg.othersTitle}
-          </h2>
+        <div className="flex flex-col w-full gap-10 py-20 mx-auto">
+          <div className="w-[90%] mx-auto">
+            <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl ">
+              {deg.othersTitle}
+            </h2>
+          </div>
           <div className="relative w-full ">
             <Swiper
+              className="!px-20"
+              centeredSlides={true}
+              centeredSlidesBounds={true}
+              loop
               slidesPerView={3}
               spaceBetween={6}
               modules={[Navigation]}

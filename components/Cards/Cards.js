@@ -22,7 +22,7 @@ const Cards = ({
     <>
       {link ? (
         <Link href={link}>
-          <div className="h-full overflow-hidden transition-all duration-500 ease-out bg-white  shadow-lg shadow-main/10 card hover:shadow-xl !rounded-sm">
+          <div className="h-[600px]  overflow-hidden transition-all duration-500 ease-out bg-white  shadow-lg shadow-main/10 card hover:shadow-xl !rounded-sm">
             <figure>
               <Image
                 src={img}

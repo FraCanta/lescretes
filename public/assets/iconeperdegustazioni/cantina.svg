@@ -4,10 +4,10 @@
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#7C7C7B;}
-	.st1{fill:none;stroke:#7C7C7B;stroke-width:13.5198;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#7C7C7B;stroke-width:12;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#7C7C7B;stroke-width:8;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#7C7C7B;stroke-width:13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#7C7C7B;strokeWidth:13.5198;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#7C7C7B;strokeWidth:12;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#7C7C7B;strokeWidth:8;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#7C7C7B;strokeWidth:13;strokeLinecap:round;strokeLinejoin:round;stroke-miterlimit:10;}
 </style>
 <g>
 	<path class="st0" d="M70.9,451.2C71,451.3,71.1,451.4,70.9,451.2L70.9,451.2z"/>

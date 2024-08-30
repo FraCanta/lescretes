@@ -37,20 +37,20 @@ function Sostenibilita({ translation }) {
             height={150}
           />
         </div>
-        <h2 className="text-3xl lg:text-5xl font-bold lg:text-center text-main w-[90%] lg:w-[70%] mx-auto">
+        <h2 className="text-4xl lg:text-5xl font-bold lg:text-center text-main w-[90%] lg:w-[70%] mx-auto">
           {translation.garanzia.title}
         </h2>
-        <p className="text-xl lg:text-center text-main w-[90%] lg:w-[70%] lg:mx-auto">
+        <p className="text-lg lg:text-xl lg:text-center text-main/80 w-[90%] lg:w-[70%] lg:mx-auto">
           {translation.garanzia.descrizione}
         </p>
       </div>
       <div className="bg-[#77966d]/30 flex flex-col items-center justify-center relative  lg:p-6 bg-pattern3">
         <div className="flex flex-col gap-6 py-10 lg:p-10">
           {" "}
-          <h2 className="text-3xl lg:text-5xl font-bold lg:text-center text-main w-[90%] lg:w-[70%] mx-auto">
+          <h2 className="text-4xl lg:text-5xl font-bold lg:text-center text-main w-[90%] lg:w-[70%] mx-auto">
             {translation.verde.title}
           </h2>
-          <p className="text-xl lg:text-center text-main w-[90%] lg:w-[80%] mx-auto">
+          <p className="text-lg lg:text-xl lg:text-center text-main/80 w-[90%] lg:w-[80%] mx-auto">
             {translation.verde.descrizione}
           </p>
         </div>
@@ -67,10 +67,10 @@ function Sostenibilita({ translation }) {
           </div>
 
           <div className="flex flex-col gap-6 ">
-            <h2 className="text-3xl font-bold text-main">
+            <h2 className="text-4xl font-bold lg:text-3xl text-main">
               {translation.verde.title2}
             </h2>
-            <p className="text-xl text-main lg:w-[70%]">
+            <p className="text-lg lg:text-xl text-main/80 lg:w-[70%]">
               {translation.verde.descrizione2}
             </p>
             <div className="flex flex-col gap-6 max-w-max">
@@ -93,10 +93,10 @@ function Sostenibilita({ translation }) {
       <div className="relative flex flex-col items-center justify-center lg:p-6 ">
         <div className="flex flex-col gap-6 py-10 lg:p-10  w-[90%] mx-auto">
           {" "}
-          <h2 className="text-3xl font-bold lg:text-5xl lg:text-center text-main">
+          <h2 className="text-4xl font-bold lg:text-5xl lg:text-center text-main">
             {translation.packaging.title}
           </h2>
-          <p className="text-xl lg:text-center text-main lg:w-[70%] mx-auto">
+          <p className="text-lg lg:text-xl lg:text-center text-main/80 lg:w-[70%] mx-auto">
             {translation.packaging.descrizione}
           </p>
         </div>
@@ -113,10 +113,10 @@ function Sostenibilita({ translation }) {
           </div>
 
           <div className="flex flex-col gap-6 ">
-            <h2 className="text-3xl font-bold text-main">
+            <h2 className="text-4xl font-bold lg:text-5xl text-main">
               {translation.packaging.tappo.title}
             </h2>
-            <p className="text-xl text-main">
+            <p className="text-lg lg:text-xl text-main/80">
               {translation.packaging.tappo.descrizione}
             </p>
             <div className="flex flex-col gap-6 max-w-max">
@@ -131,10 +131,10 @@ function Sostenibilita({ translation }) {
         </div>
         <div className="w-[90%] mx-auto  grid items-center grid-cols-1 lg:grid-cols-2 gap-10 my-10">
           <div className="flex flex-col gap-6">
-            <h2 className="text-3xl font-bold text-main">
-              {translation.packaging.bottiglie.title}
+          <h2 className="text-4xl font-bold lg:text-5xl text-main">
+          {translation.packaging.bottiglie.title}
             </h2>
-            <p className="text-xl text-main ">
+            <p className="text-lg lg:text-xl text-main/80">
               {translation.packaging.bottiglie.descrizione}
             </p>
           </div>

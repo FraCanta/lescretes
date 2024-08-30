@@ -1,6 +1,8 @@
 {
   "prenotazione": {
     "riepilogo": {
+      "title": "Riepilogo richiesta di prenotazione",
+      "subTitle": "Controlla la tua scelta prima di confermare la prenotazione",
       "data": "Data",
       "people": "Partecipanti",
       "lingua": "Lingua",

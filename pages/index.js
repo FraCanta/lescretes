@@ -119,7 +119,7 @@ export default function Home({ translation, locale }) {
           />
         </>
       </Head>
-      <div className=" h-[calc(100vh_-_60px)] md:h-[calc(100vh_-_70px)] overflow-hidden fxl:min-h-[calc(100vh_-_100px)] 3xl:min-h-[calc(100vh_-_180px)] w-full hero  relative flex text-end items-end">
+      <div className="reltiveh-screen overflow-hidden fxl:min-h-[calc(100vh_-_100px)] 3xl:min-h-[calc(100vh_-_180px)] w-full hero  relative flex text-end items-end">
         <HeroHome3 translation={translation?.hero} />
       </div>
       <div className="min-h-screen">
@@ -135,7 +135,7 @@ export default function Home({ translation, locale }) {
         <Sections5 translation={translation.section5} />
       </div>
 
-      <div className="relative flex flex-col items-center justify-center w-[90%] mx-auto py-10 ">
+      <div className="relative flex flex-col items-center justify-center py-10 bg-second/30">
         <Sections6 translation={translation.section6} />
       </div>
     </>

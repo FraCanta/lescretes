@@ -8,7 +8,7 @@ const Sections5 = ({ translation }) => {
   return (
     <>
       <div className="min-h-[80vh] flex flex-col xl:flex-row ">
-        <div className="relative flex flex-col justify-center w-full gap-20 p-8 py-20 xl:gap-14 2xl:p-20 fxl:gap-24">
+        <div className="relative flex flex-col justify-center w-[90%] mx-auto lg:w-full gap-20 py-20 lg:p-8 xl:gap-14 2xl:p-20 fxl:gap-24">
           <div className="z-10 flex flex-col gap-10">
             <div className="flex flex-col gap-2 3xl:gap-6">
               <div className="bg-white h-[50px] w-[50px] 3xl:w-[90px] 3xl:h-[90px] rounded-full flex items-center justify-center ">
@@ -52,10 +52,10 @@ const Sections5 = ({ translation }) => {
                   />
                 </svg>
               </div>
-              <h3 className="text-[30px] md:text-[40px] fxl:text-[50px] 3xl:text-6xl text-main font-black">
+              <h3 className="text-[36px] md:text-[40px] fxl:text-[50px] 3xl:text-6xl text-main font-black">
                 {translation.title1}
               </h3>
-              <p className="text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/80 font-medium w-full lg:w-[80%] fxl:w-[90%]">
+              <p className="text-lg fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/80 font-medium w-full lg:w-[80%] fxl:w-[90%]">
                 {translation.descrizione}
               </p>
             </div>
@@ -76,10 +76,10 @@ const Sections5 = ({ translation }) => {
                   />
                 </svg>
               </div>
-              <h3 className="text-[30px] md:text-[40px] fxl:text-[50px] 3xl:text-6xl text-main font-black">
+              <h3 className="text-[36px] md:text-[40px] fxl:text-[50px] 3xl:text-6xl text-main font-black">
                 {translation.title2}
               </h3>
-              <p className="text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/80 font-medium w-full lg:w-[80%] fxl:w-[90%] z-10">
+              <p className="text-lg fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/80 font-medium w-full lg:w-[80%] fxl:w-[90%] z-10">
                 {translation.descrizione2}
               </p>
             </div>{" "}

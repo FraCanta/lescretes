@@ -9,10 +9,10 @@ const Sections2 = ({ translation }) => {
   return (
     <div className="w-full min-h-screen py-[90px] 3xl:py-[10rem]  gap-[50px] flex flex-col">
       <div className="w-[90%] mx-auto flex flex-col gap-4 3xl:gap-10">
-        <h2 className="text-3xl font-bold text-main md:text-5xl 3xl:text-7xl ">
+        <h2 className="text-4xl font-bold text-main md:text-5xl 3xl:text-7xl ">
           {translation?.title}
         </h2>
-        <p className="text-xl 2xl:w-2/3 3xl:w-3/4 md:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main">
+        <p className="text-lg 2xl:w-2/3 3xl:w-3/4 md:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/80">
           {translation?.descrizione}
         </p>
       </div>

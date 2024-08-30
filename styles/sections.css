@@ -13,20 +13,24 @@
 .tab-bordered {
   cursor: pointer;
   transition: 0.3s;
-  font-size: 16px;
-  font-weight: 600;
-
+  font-weight: 400;
+  border-radius: 8px;
   color: #4a4a49 !important;
-  padding: 0 24px;
-  /* border-color: transparent !important; */
+  padding: 10px 20px;
+  border: 1px;
+  text-transform: uppercase;
+  border-style: solid;
+  border-color: #f5f4ef !important;
 }
 
 /* Create an active/current tablink class */
 .tab-active {
   border: 1px;
   border-style: solid;
-  border-color: #4a4a49 !important;
-  border-radius: 20px;
+  border-color: #f5f4ef !important;
+  border-radius: 8px;
+  background-color: #f4f3ef;
+  font-weight: 600;
   transition: all 0.5s ease-in-out;
 }
 

@@ -76,11 +76,11 @@ const Prenotazione = ({ translation }) => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="#4A4A49"
-              stroke-width="1"
+              strokeWidth="1"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>
@@ -98,11 +98,11 @@ const Prenotazione = ({ translation }) => {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M7 16l-4-4m0 0l4-4m-4 4h18"
                 />
               </svg>
@@ -248,7 +248,7 @@ const Prenotazione = ({ translation }) => {
             </div>
 
             <div className="p-8 bg-second">
-              <ul className="grid grid-cols-1 gap-6 py-6 text-xl lg:grid-cols-4 text-main">
+              <ul className="grid grid-cols-1 gap-6 py-6 text-xl gap-x-10 lg:grid-cols-4 text-main">
                 <li>
                   <span className="font-bold">{formData.deg}</span>
                 </li>

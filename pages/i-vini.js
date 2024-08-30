@@ -11,7 +11,7 @@ import viniRU from "@/public/locales/ru/vini.json";
 import viniZH from "@/public/locales/zh/vini.json";
 import Head from "next/head";
 import Banner from "@/components/Banner/Banner";
-import Terr from "@/public/assets/terroir2.png";
+import Terr from "@/public/assets/coteau2.webp";
 import Image from "next/image";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -19,6 +19,7 @@ import { Autoplay } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
 import HeroHome3 from "@/components/heroHome/HeroHome3";
+import HeroHome4 from "@/components/heroHome/HeroHome4";
 
 const Vini = ({ translation }) => {
   return (
@@ -26,22 +27,33 @@ const Vini = ({ translation }) => {
       <Head>
         <title>{translation?.hero?.title}</title>
       </Head>
-      <div className="relative bg-second/25 bg-pattern2a flex flex-col justify-center lg:flex-row items-center  h-[calc(100vh_-_70px)] md:h-[calc(100vh_-_70px)] fxl:h-[calc(100vh_-_100px)]">
-        <HeroHome2
+      <div className="bg-second/30 bg-pattern2a flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)] 3xl:h-[calc(80vh_-_180px)]">
+        <HeroHome4
           title={translation?.hero?.title}
           img={translation?.hero?.img}
         />
       </div>
 
-      <div className="flex flex-col items-start justify-start gap-10 w-[90%] mx-auto my-10 lg:my-20">
-        <h2 className="text-main text-3xl md:text-5xl xl:text-4xl 2xl:text-5xl fxl:text-6xl font-bold lg:leading-[46px] 3xl:text-7xl">
+      <div className="w-full lg:py-20">
+        <Tabs translation={translation?.tabs} />
+      </div>
+      <div className="flex flex-col items-start justify-start gap-10 w-[90%] mx-auto my-10 lg:mb-20">
+        <h2 className="text-main text-4xl md:text-5xl xl:text-4xl 2xl:text-5xl fxl:text-6xl font-bold lg:leading-[46px] 3xl:text-7xl">
           {translation.intro.title}
         </h2>
+        <div className="relative w-full aspect-video ">
+          <Image
+            src="/assets/label2.webp"
+            alt="les cretes family"
+            fill
+            className="object-cover object-bottom rounded-sm"
+          />
+        </div>
         {translation.intro.descrizione.map((para, i) => {
           return (
             <div
               key={i}
-              className="flex flex-col gap-2 text-xl font-normal text-main fxl:text-2xl fxl:gap-16 3xl:text-4xl"
+              className="flex flex-col gap-2 text-lg font-normal lg:text-xl text-main/80 fxl:text-2xl fxl:gap-16 3xl:text-4xl"
             >
               <p dangerouslySetInnerHTML={{ __html: para.text }}></p>
             </div>
@@ -49,25 +61,22 @@ const Vini = ({ translation }) => {
         })}
       </div>
 
-      <div className="w-full">
-        <Tabs translation={translation?.tabs} />
-      </div>
       <div className="w-full min-h-screen bg-[#F4F3EF] ">
-        <div className="w-[90%] mx-auto py-10 xl:p-20 lg:text-center flex flex-col gap-10 justify-center items-center">
-          <div className="relative w-full aspect-square lg:aspect-video ">
+        <div className="flex flex-col items-center justify-center gap-10 py-10 xl:p-20 lg:text-center">
+          <div className="relative  w-[90%] mx-auto lg:w-full aspect-video ">
             <Image
               src="/assets/lc3a.webp"
               alt="les cretes family"
               fill
-              className="object-cover rounded-sm lg:object-center lg:object-contain"
+              className="object-cover rounded-sm lg:object-center "
             />
           </div>
-          <div className="flex flex-col gap-10 lg:items-center lg:justify-center">
-            <h2 className="text-main text-3xl md:text-5xl xl:text-4xl 2xl:text-5xl fxl:text-6xl font-bold md:leading-[46px] 3xl:text-7xl">
+          <div className="flex flex-col gap-10 lg:items-center lg:justify-center w-[90%] mx-auto">
+            <h2 className="text-main text-4xl md:text-5xl xl:text-4xl 2xl:text-5xl fxl:text-6xl font-bold md:leading-[46px] 3xl:text-7xl">
               {translation.family.title}
             </h2>
             <p
-              className="flex flex-col gap-10 text-xl font-normal text-main fxl:text-2xl fxl:gap-16 3xl:text-4xl"
+              className="flex flex-col gap-10 text-lg font-normal lg:text-xl text-main/80 fxl:text-2xl fxl:gap-16 3xl:text-4xl"
               dangerouslySetInnerHTML={{
                 __html: translation.family.descrizione,
               }}
@@ -88,11 +97,11 @@ const Vini = ({ translation }) => {
       <div className="w-full min-h-screen bg-[#F4F3EF] ">
         <div className="flex flex-col w-full gap-20 mx-auto lg:text-center lg:items-center lg:justify-center">
           <div className="flex flex-col lg:items-center lg:justify-center gap-10 w-[90%] mx-auto pt-10 lg:pt-40">
-            <h2 className="text-main text-3xl md:text-5xl xl:text-4xl 2xl:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl">
+            <h2 className="text-main text-4xl md:text-5xl xl:text-4xl 2xl:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl">
               {translation.produzione.title}
             </h2>
             <p
-              className="text-xl font-normal text-main fxl:text-2xl fxl:gap-16 3xl:text-4xl"
+              className="text-lg font-normal lg:text-xl text-main/80 fxl:text-2xl fxl:gap-16 3xl:text-4xl"
               dangerouslySetInnerHTML={{
                 __html: translation.produzione.descrizione,
               }}
@@ -117,11 +126,11 @@ const Vini = ({ translation }) => {
       <div className="w-full min-h-screen bg-[#F4F3EF] ">
         <div className="flex flex-col w-full gap-20 mx-auto lg:text-center lg:items-center lg:justify-center">
           <div className="flex flex-col lg:items-center lg:justify-center gap-10 w-[90%] mx-auto pt-10 lg:pt-40">
-            <h2 className="text-main text-3xl md:text-5xl xl:text-4xl 2xl:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl xl:w-[65%] mx-auto">
+            <h2 className="text-main text-4xl md:text-5xl xl:text-4xl 2xl:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl xl:w-[65%] mx-auto">
               {translation.artigianalità.title}
             </h2>
             <p
-              className="mx-auto text-xl font-normal lg:w-2/3 text-main fxl:text-2xl fxl:gap-16 3xl:text-4xl"
+              className="mx-auto text-lg font-normal lg:text-xl lg:w-2/3 text-main/80 fxl:text-2xl fxl:gap-16 3xl:text-4xl"
               dangerouslySetInnerHTML={{
                 __html: translation.artigianalità.descrizione,
               }}

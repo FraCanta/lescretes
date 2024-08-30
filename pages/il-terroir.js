@@ -132,10 +132,10 @@ const Terroir = ({ translation, locale }) => {
       </div>
       <div className="w-[90%]  flex-col justify-start items-start gap-[50px] flex mx-auto py-20 fxl:gap-20">
         <div className="flex flex-col gap-10">
-          <h2 className="text-3xl font-bold lg:text-center lg:text-5xl">
+          <h2 className="text-4xl font-bold lg:text-center lg:text-5xl">
             {translation.section1.title}
           </h2>
-          <div className="relative w-full lg:w-[80%] h-full aspect-video mx-auto grayscale opacity-95">
+          <div className="relative w-full lg:w-[80%] h-full aspect-square lg:aspect-video mx-auto grayscale opacity-95">
             <Image
               src={Valle}
               alt="denominazione"
@@ -147,7 +147,7 @@ const Terroir = ({ translation, locale }) => {
             return (
               <div
                 key={i}
-                className="flex flex-col gap-10 text-xl font-normal lg:text-center text-main fxl:text-2xl fxl:gap-16 3xl:text-4xl"
+                className="flex flex-col gap-10 text-lg font-normal lg:text-center text-main/80 fxl:text-2xl fxl:gap-16 3xl:text-4xl"
               >
                 <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
               </div>
@@ -155,7 +155,7 @@ const Terroir = ({ translation, locale }) => {
           })}
         </div>
         <div className="flex flex-col w-full gap-10">
-          <h2 className="text-3xl font-bold lg:text-5xl lg:text-center">
+          <h2 className="text-4xl font-bold lg:text-5xl lg:text-center">
             {translation.section2.title}
           </h2>
           <div className="relative w-full lg:w-[50%] h-full aspect-video lg:mx-auto">
@@ -166,20 +166,20 @@ const Terroir = ({ translation, locale }) => {
               className="object-contain"
             />
           </div>
-          <p className="lg:w-[80%] mx-auto text-xl lg:text-center text-main">
+          <p className="lg:w-[80%] mx-auto text-lg lg:text-center lg:text-xl text-main/80">
             {translation.section2.paragrafo}
           </p>
         </div>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 w-[90%] mx-auto text-center py-10">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-20 w-[90%] mx-auto text-center py-10">
           {translation.section3.map((el, i) => {
             return (
               <div className="stats  !bg-white text-main" key={i}>
-                <div className="flex flex-col justify-center w-[90%] gap-4 mx-auto text-center 2xl:w-[90%]">
-                  <h2 className="text-6xl font-bold lg:text-8xl">
+                <div className="flex flex-col justify-center  gap-4 mx-auto text-center w-[90%]">
+                  <h2 className="font-bold text-8xl lg:text-8xl">
                     {el.number}
                   </h2>
                   <hr />
-                  <p className="flex flex-wrap lg:text-lg xl:text-base 2xl:text-lg text-main">
+                  <p className="flex flex-wrap text-base text-main/80">
                     {el.didascalia}
                   </p>
                 </div>
@@ -190,10 +190,10 @@ const Terroir = ({ translation, locale }) => {
       </div>
       <div className="w-full h-full mb-20">
         <div className="flex flex-col lg:items-center lg:justify-center gap-6 mb-10 lg:py-10 w-[90%] mx-auto lg:text-center">
-          <h2 className="text-3xl font-bold lg:text-5xl text-main">
+          <h2 className="text-4xl font-bold lg:text-5xl text-main">
             {translation.section4.title}
           </h2>{" "}
-          <p className="w-11/12 text-xl text-main">
+          <p className="w-11/12 text-lg lg:text-xl text-main/80">
             {translation.section4.descrizione}
           </p>
           <CtaOutlineBrown link="/sostenibilita" title="storia">
@@ -297,12 +297,12 @@ const Terroir = ({ translation, locale }) => {
         </Swiper>
       </div>
 
-      <div className="w-[90%] mx-auto flex flex-col gap-10 lg:text-center pb-10">
-        <h2 className="py-10 text-3xl font-bold lg:text-5xl text-main">
+      <div className="w-[90%] mx-auto flex flex-col lg:gap-10 lg:text-center pb-10">
+        <h2 className="py-10 text-4xl font-bold lg:text-5xl text-main">
           {translation.section5.title}
         </h2>
 
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 gap-y-10">
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 gap-y-20">
           {translation.section5.menupage.map((m, i) => {
             return (
               <div
@@ -318,7 +318,7 @@ const Terroir = ({ translation, locale }) => {
                     className="object-cover rounded-sm"
                   />
                 </div>
-                <p className="text-2xl text-main">{m.name}</p>
+                <p className="text-2xl font-bold text-main">{m.name}</p>
                 <CtaOutlineBrown link={m.link} title="degustazioni">
                   {m.cta}
                 </CtaOutlineBrown>

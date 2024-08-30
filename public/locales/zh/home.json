@@ -1,168 +1,286 @@
 {
   "home": {
     "hero": {
-      "title": "Passion and Mountain"
+      "title": "Mountain viticulture",
+      "text": "Discover the authenticity and excellence of our wines, the result of a unique territory and a craftsmanship that enhances the wine traditions of the Aosta Valley.",
+      "wines": "Our wines",
+      "taste": "Book your experience"
     },
     "seo": {
-      "title": "Les Crêtes | Winegrowers since 1750 | Passion and Mountain | Valle d'Aosta - Italy",
+      "title": "Les Crêtes | Winegrowers since 1750 | Passion and Mountain | Aosta Valley - Italy",
       "description": "Les Crêtes - Winegrowers since 1750 in Aymavilles (Aosta) - Production and bottling - Visit us and taste our wines - Discover the Wine Refuge"
     },
     "section2": {
-      "title": "Passion and innovation for over 200 years",
-      "descrizione": "The history of the Charrère family begins in 1750 and still thrives today with loyalty and respect for traditions and values passed down through generations. Attention to innovation and care for the land are the driving forces of a company that puts its soul and heart into winemaking.",
+      "title": "Tradition and innovation",
+      "descrizione": "The history of the Charrère family since 1750 still sees today the respect of traditions, values and environment handed down with wisdom for 6 generations. Passion, craftsmanship, love for the terroir, spirit of innovation and care for the field and cellar are the driving force behind Les Crêtes, which is dedicated to heroic viticulture in the Aosta Valley with body and soul.",
       "family": "The Charrère family",
       "rifugio": "The refuge",
       "terroir": "The Terroir"
     },
     "section3": {
-      "title": "Taste our wines immersed in relaxation",
-      "descrizione": "Entering you can live a sensory experience, with an area dedicated to essences and a library with books of the Valle d'Aosta and wine, all this in a place where you can sit, read, drink a glass and take in the view.",
+      "title": "In the heart of Valle d'Aosta with the Wine Refuge, Les Crêtes opens the doors to its world",
+      "descrizione": "We are waiting for you in the tasting room & Wine Shop Il Rifugio del Vino, where with a view on the vineyards, you can meet us, discover our wines and the heart of our cellar, with a dedicated experience",
       "scopri": "Book your experience"
     },
     "section4": {
-      "title": "Mountain Wines: Authentic Expression of the Valle d'Aosta",
-      "descrizione": "Our fresh and elegant wines, that are full of flavour, express the essence of Valle d'Aosta’s mountain <strong> Terroir</strong>. They are created with passion and dedicated to novices and connoisseurs. The Alpine climate strongly influences the organoleptic characterics of <strong>the wines produced in Valle d'Aosta</strong>."
+      "title": "Mountain wines, the children of a heroic viticulture",
+      "descrizione": "Our wines express the essence of the Valdostano terroir. They are the children of a heroic and artisanal viticulture, made of extreme and difficult conditions. Created with passion and wisdom, they are dedicated to amateurs and experts. Fresh, elegant, they tell of the mountain and the family that produces them. They are the children of small vineyards cultivated by hand and cared for in detail, to obtain healthy grapes with low yields, following both in the field and in the cellar, traditional and eco-sustainable practices to protect the environment. The annual total production is on average around 225,000 bottles."
     },
     "tabs": [
       {
-        "name": "Reds",
+        "name": "Red wines",
         "content": [
           {
             "img": "/assets/vinirossi/merle.png",
-            "name": "Merlot Le Merle Valle D'Aosta DOP",
-            "link": "/i-vini/rossi/merle"
+            "name": "Merlot Le Merle® ",
+            "link": "/i-vini/rossi/merle",
+            "cat": "rossi",
+            "vitigni": "Merlot 100%",
+            "origine": "D.O.P.",
+            "type": "red wines"
           },
           {
             "img": "/assets/vinirossi/cornalin.png",
             "name": "Cornalin",
-            "link": "/i-vini/rossi/cornalin"
+            "link": "/i-vini/rossi/cornalin",
+            "cat": "rossi",
+            "vitigni": "Cornalin 100%",
+            "origine": "D.O.P.",
+            "type": "red wines"
           },
           {
-            "img": "/assets/vinirossi/fumin_lacor.webp",
-            "name": "Fumin La Cor",
-            "link": "/i-vini/rossi/lacor"
+            "img": "/assets/vinirossi/fumin_lacor.png",
+            "name": "Fumin La Cor®",
+            "link": "/i-vini/rossi/lacor",
+            "cat": "rossi",
+            "vitigni": "Fumin 100%",
+            "origine": "D.O.P.",
+            "type": "red wines"
+          },
+          {
+            "img": "/assets/vinirossi/fumin.png",
+            "name": "Fumin",
+            "link": "/i-vini/rossi/fumin",
+            "cat": "rossi",
+            "vitigni": "Fumin 100%",
+            "origine": "D.O.P.",
+            "type": "red wines"
           },
 
           {
-            "img": "/assets/vinirossi/nebbiolo_sommet.png",
-            "name": "Nebbiolo Sommet Valle d’Aosta D.O.P.",
-            "link": "/i-vini/rossi/nebbiolos"
+            "img": "/assets/vinirossi/nebbiolo.png",
+            "name": "Nebbiolo Sommet",
+            "link": "/i-vini/rossi/nebbiolos",
+            "cat": "rossi",
+            "vitigni": "Nebbiolo 100%",
+            "origine": "D.O.P.",
+            "type": "red wines"
           },
           {
             "img": "/assets/vinirossi/nebbiolo.png",
-            "name": "Nebbiolo Valle d’Aosta D.O.P.",
-            "link": "/i-vini/rossi/nebbiolo"
+            "name": "Nebbiolo",
+            "link": "/i-vini/rossi/nebbiolo",
+            "cat": "rossi",
+            "vitigni": "Nebbiolo 100%",
+            "origine": "D.O.P.",
+            "type": "red wines"
           },
           {
             "img": "/assets/vinirossi/pinot_nero.png",
-            "name": "Pinot Nero",
-            "link": "/i-vini/rossi/pinot"
+            "name": "Pinot Noir",
+            "link": "/i-vini/rossi/pinot",
+            "cat": "rossi",
+            "vitigni": "Pinot Nero 100% (Burgundian selection)",
+            "origine": "D.O.P.",
+            "type": "red wines"
           },
           {
             "img": "/assets/vinirossi/pinot_revei.png",
-            "name": "Pinot Revei",
-            "link": "/i-vini/rossi/revei"
+            "name": "Pinot Nero Revei",
+            "link": "/i-vini/rossi/revei",
+            "cat": "rossi",
+            "vitigni": "Pinot Nero 100% (traditional variety)",
+            "origine": "D.O.P.",
+            "type": "red wines"
           },
+
           {
             "img": "/assets/vinirossi/sabla.png",
-            "name": "Sabla",
-            "link": "/i-vini/rossi/sabla"
+            "name": "La Sabla® – Red Wine",
+            "link": "/i-vini/rossi/sabla",
+            "cat": "rossi",
+            "vitigni": "blend of native, red grapes from old and young vines",
+            "origine": "D.O.P.",
+            "type": "red wines"
           },
           {
             "img": "/assets/vinirossi/lasabla_50.webp",
             "name": "La Sabla® 50 anni",
-            "link": "/i-vini/rossi/sabla50"
+            "link": "/i-vini/rossi/sabla50",
+            "cat": "rossi",
+            "vitigni": "20% Syrah, 20% Petit Rouge 20%, Merlot, 20% Fumin, 20% Fumin Late harvest",
+            "origine": "D.O.P.",
+            "type": "red wines"
           },
           {
-            "img": "/assets/vinirossi/syrah.webp",
-            "name": "Syrah",
-            "link": "/i-vini/rossi/syrah"
+            "img": "/assets/vinirossi/syrah.png",
+            "name": "Syrah La Tour",
+            "link": "/i-vini/rossi/syrah",
+            "cat": "rossi",
+            "vitigni": "Syrah 100%",
+            "origine": "D.O.P.",
+            "type": "red wines"
           },
           {
             "img": "/assets/vinirossi/torrette_sup.png",
             "name": "Torrette Superiore",
-            "link": "/i-vini/rossi/torrettesup"
+            "link": "/i-vini/rossi/torrettesup",
+            "cat": "rossi",
+            "vitigni": "Petit Rouge 100%",
+            "origine": "D.O.P.",
+            "type": "red wines"
           },
           {
-            "img": "/assets/vinirossi/torrette.webp",
+            "img": "/assets/vinirossi/torrette.png",
             "name": "Torrette",
-            "link": "/i-vini/rossi/torrette"
+            "link": "/i-vini/rossi/torrette",
+            "cat": "rossi",
+            "vitigni": "Petit Rouge 70%, autochthonous grapes 30% (Mayolet, Cornalin, Fumin)",
+            "origine": "D.O.P.",
+            "type": "red wines"
           },
           {
             "img": "/assets/vinirossi/monrouge.png",
-            "name": "Mon Rouge",
-            "link": "/i-vini/rossi/monrouge"
+            "name": "Mon Rouge®",
+            "link": "/i-vini/rossi/monrouge",
+            "cat": "rossi",
+            "vitigni": "Blend of local black varieties: Cornalin, Fumin, Vuillermin, Gamay, Petit Rouge.",
+            "origine": "D.O.P.",
+            "type": "red wines"
           }
         ]
       },
       {
-        "name": "Whites",
+        "name": "White wines",
         "content": [
           {
-            "img": "/assets/vinibianchi/chardonnay_cb.webp",
+            "img": "/assets/vinibianchi/chardonnay_cb2.webp",
             "name": "Chardonnay Cuvée Bois",
-            "link": "/i-vini/bianchi/chardonnaycb"
+            "link": "/i-vini/bianchi/chardonnaycb",
+            "cat": "bianchi",
+            "vitigni": "Chardonnay 100%",
+            "origine": "D.O.P.",
+            "type": "white wines"
           },
           {
-            "img": "/assets/vinibianchi/chardonnay.webp",
+            "img": "/assets/vinibianchi/chardonnay.png",
             "name": "Chardonnay",
-            "link": "/i-vini/bianchi/chardonnay"
+            "link": "/i-vini/bianchi/chardonnay",
+            "cat": "bianchi",
+            "vitigni": "Chardonnay 100%",
+            "origine": "D.O.P.",
+            "type": "white wines"
           },
 
           {
             "img": "/assets/vinibianchi/neige.png",
-            "name": "Neige D'Or",
-            "link": "/i-vini/bianchi/neige"
+            "name": "Neige d’Or",
+            "link": "/i-vini/bianchi/neige",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 60%, Pinot Gris 40%",
+            "origine": "D.O.P.",
+            "type": "white wines"
           },
           {
-            "img": "/assets/vinibianchi/petite_arvine.webp",
+            "img": "/assets/vinibianchi/petite_arvine.png",
             "name": "Petite Arvine",
-            "link": "/i-vini/bianchi/petitearvine"
+            "link": "/i-vini/bianchi/petitearvine",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 100%",
+            "origine": "D.O.P.",
+            "type": "white wines"
           },
           {
             "img": "/assets/vinibianchi/petite_fleur.png",
             "name": "Petite Arvine Fleur",
-            "link": "/i-vini/bianchi/petitefleur"
+            "link": "/i-vini/bianchi/petitefleur",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 100%",
+            "origine": "D.O.P.",
+            "type": "white wines"
           },
           {
-            "img": "/assets/vinibianchi/pinot_grigio.webp",
-            "name": "Pinot Gris Brutant",
-            "link": "/i-vini/bianchi/pinotgris"
+            "img": "/assets/vinibianchi/pinot_grigio.png",
+            "name": "Pinot Gris Brulant",
+            "link": "/i-vini/bianchi/pinotgris",
+            "cat": "bianchi",
+            "vitigni": "Pinot Gris 100%",
+            "origine": "D.O.P.",
+            "type": "white wines"
           },
           {
-            "img": "/assets/vinibianchi/mon_blanc.webp",
-            "name": "Mon Blanc",
-            "link": "/i-vini/bianchi/monblanc"
+            "img": "/assets/vinibianchi/mon_blanc.png",
+            "name": "Mon Blanc – Vino bianco",
+            "link": "/i-vini/bianchi/monblanc",
+            "cat": "bianchi",
+            "vitigni": "Blend of native and international white grape varieties.",
+            "origine": "D.O.P.",
+            "type": "white wines"
+          },
+          {
+            "img": "/assets/vinibianchi/chambave.webp",
+            "name": "Chambave Moscato",
+            "link": "/i-vini/bianchi/chambave",
+            "cat": "bianchi",
+            "vitigni": "Moscato 100%",
+            "origine": "D.O.C.",
+            "type": "white wines"
           }
         ]
       },
       {
-        "name": "Rosès",
+        "name": "Rosè wines",
         "content": [
           {
             "img": "/assets/vinirose/rose.png",
-            "name": "Rosè",
-            "link": "/i-vini/rose/rose"
+            "name": "Rosé",
+            "link": "/i-vini/rose/rose",
+            "cat": "rosè",
+            "vitigni": "Petit Rouge 100%",
+            "origine": "D.O.P.",
+            "type": "rosè wines"
           }
         ]
       },
       {
-        "name": "Dessert wines and bubbles",
+        "name": "Bubbles and Dessert Wines",
         "content": [
           {
-            "img": "/assets/vinidessert/dorè.png",
-            "name": "Dorè",
-            "link": "/i-vini/vinidessert/dore"
+            "img": "/assets/vinidessert/dorè2.webp",
+            "name": "Doré® - Moscato Bianco",
+            "link": "/i-vini/vinidessert/dore",
+            "cat": "bollicine e dessert",
+            "vitigni": "Aromatic white grape variety 100%",
+            "origine": "D.O.P.",
+            "type": "Bubbles and Dessert Wines"
           },
           {
             "img": "/assets/vinidessert/neblu.png",
-            "name": "Neblu Brut Nature Rose",
-            "link": "/i-vini/vinidessert/neblu"
+            "name": "Neblù Brut Nature Rosè",
+            "link": "/i-vini/vinidessert/neblu",
+            "cat": "bollicine e dessert",
+            "vitigni": "International, red grape variety 60%, Neblu 40% (native grape of Valle d’Aosta).",
+            "origine": "D.O.P.",
+            "type": "Bubbles and Dessert Wines"
           },
           {
             "img": "/assets/vinidessert/reban.png",
-            "name": "Reban Pas Dosè",
-            "link": "/i-vini/vinidessert/reban"
+            "name": "Rebàn Pas Dosé",
+            "link": "/i-vini/vinidessert/reban",
+            "cat": "bollicine e dessert",
+            "vitigni": "Petite Arvine, 100% traditional variety",
+            "origine": "D.O.P.",
+            "type": "Bubbles and Dessert Wines"
           }
         ]
       }
@@ -181,7 +299,7 @@
     "section6": {
       "title": "Beyond the Grape",
       "descrizione": "Devin offers an innovative, natural and effective cosmetic formula, derived from organic extracts of the mountains, to meet the needs of those looking for high-performance natural products.",
-      "button": "Discover Our Cosmetics"
+      "button": "Discover Les Crêtes DeVin"
     }
   }
 }

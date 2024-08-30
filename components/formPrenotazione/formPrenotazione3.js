@@ -149,8 +149,8 @@ const FormPrenotazione3 = ({ inputs, setInputs, data }) => {
                       y="80"
                       fill="none"
                       stroke="#4a4a49"
-                      stroke-linejoin="round"
-                      stroke-width="32"
+                      strokeLinejoin="round"
+                      strokeWidth="32"
                       rx="48"
                     />
                     <circle cx="296" cy="232" r="24" fill="#4a4a49" />
@@ -165,16 +165,16 @@ const FormPrenotazione3 = ({ inputs, setInputs, data }) => {
                     <path
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="32"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="32"
                       d="M128 48v32m256-32v32"
                     />
                     <path
                       fill="none"
                       stroke="#4a4a49"
-                      stroke-linejoin="round"
-                      stroke-width="32"
+                      strokeLinejoin="round"
+                      strokeWidth="32"
                       d="M464 160H48"
                     />
                   </svg>

@@ -40,7 +40,7 @@ export function Email2(props) {
             </Section>
             <Section>
               <Row>
-                <Text className="font-bold">Nome della degustazione:</Text>
+                <Text className="font-bold">Motivo del contatto:</Text>
                 <Text>{reason}</Text>
               </Row>
               <Hr className="border border-solid  my-[10px] mx-0 w-full" />

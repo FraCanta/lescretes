@@ -27,14 +27,14 @@ export default async function mailer(req, res) {
   } = req.body;
 
   const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
+    host: "smtp.ionos.it",
     port: 465,
     secure: true,
     auth: {
       //   user: process.env.SMTP_USER, se vogliamo inserire le credenziali su env
       //   pass: process.env.SMTP_PASSWORD,
-      user: "thalliondev@gmail.com",
-      pass: "lywb cntb nbqm uckr",
+      user: "info@lescretes.it",
+      pass: "infocontact_2024?!",
     },
   });
   const emailHtml = render(
@@ -77,8 +77,8 @@ export default async function mailer(req, res) {
 
   try {
     await transporter.sendMail({
-      from: `Les Crêtes degustazioni <thalliondev@gmail.com>`,
-      to: ["thalliondev@gmail.com"],
+      from: `Les Crêtes degustazioni <info@lescretes.it>`,
+      to: ["thalliondev@gmail.com","info@lescretes.it"],
       subject: `Richiesta prenotazione degustazione: ${deg} `,
       replyTo: `${email}`,
       html: emailHtml,
@@ -86,7 +86,7 @@ export default async function mailer(req, res) {
 
     // Invio della mail di ringraziamento
     await transporter.sendMail({
-      from: `Les Crêtes degustazioni <thalliondev@gmail.com>`,
+      from: `Les Crêtes degustazioni <info@lescretes.it>`,
       to: email,
       subject: "Grazie per la tua prenotazione",
       html: thankHtml,

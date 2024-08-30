@@ -83,7 +83,7 @@ export default function Storia({ translation, locale }) {
           <meta property="og:site_name" content="Les Crêtes" />
           <meta
             property="og:image"
-            content="https://lescretes-liard.vercel.app/assets/seo/cover_storia.png"
+            content="https://lescretes.it/assets/seo/cover_storia.png"
           />
           <meta property="og:image:alt" content="Les Crêtes cover image" />
           <meta property="og:image:width" content="1200" />
@@ -102,7 +102,7 @@ export default function Storia({ translation, locale }) {
           />
           <meta
             name="twitter:image"
-            content="https://lescretes-liard.vercel.app/assets/seo/cover_storia.png"
+            content="https://lescretes.it/assets/seo/cover_storia.png"
           />
           <meta name="twitter:image:alt" content="Les Crêtes cover image" />
           <script
@@ -122,7 +122,7 @@ export default function Storia({ translation, locale }) {
           />
         </>
       </Head>
-      <div className="flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)] 3xl:h-[calc(80vh_-_180px)]">
+      <div className="bg-second/20 bg-pattern2a flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)] 3xl:h-[calc(80vh_-_180px)]">
         <HeroHome4
           title={translation?.hero?.title}
           img={translation?.hero?.img}
@@ -134,15 +134,15 @@ export default function Storia({ translation, locale }) {
       <Sections3 translation={translation.section3} />
       <div className="w-[90%] mx-auto h-[0.08rem] bg-main/20 my-10"></div>
 
-      <div className="w-[90%] mx-auto py-10">
+      <div className="w-[90%] mx-auto lg:py-10">
         <VideoPlayer video="/video/video2.mp4" poster="/video/cover.jpg" />
       </div>
-      <div className="w-[90%] mx-auto py-10 lg:text-center flex flex-col gap-6 3xl:gap-10 3xl:py-32">
+      <div className="w-[90%] mx-auto lg:py-10 lg:text-center flex flex-col gap-6 3xl:gap-10 3xl:py-32">
         <div className="flex flex-col gap-4 py-10 mx-auto lg:w-2/3 xl:w-[90%] 2xl:w-2/3 3xl:gap-10 3xl:w-11/12">
-          <h2 className="text-3xl font-bold text-main lg:text-5xl 3xl:text-7xl">
+          <h2 className="text-4xl font-bold text-main lg:text-5xl 3xl:text-7xl">
             {translation.section4.title}
           </h2>
-          <p className="text-xl xl:text-lg 2xl:text-xl text-main 3xl:text-4xl 3xl:leading-normal ">
+          <p className="text-lg 2xl:text-xl text-main/80 3xl:text-4xl 3xl:leading-normal ">
             {translation.section4.descrizione}
           </p>
         </div>
@@ -158,11 +158,11 @@ export default function Storia({ translation, locale }) {
                   className="object-cover object-right rounded-sm"
                 />
               </div>
-              <div className="flex flex-col px-3 3xl:gap-4">
+              <div className="flex flex-col gap-1 px-3 3xl:gap-4">
                 <h3 className="text-2xl font-bold text-main 3xl:text-3xl">
                   {t.name}
                 </h3>
-                <p className="text-lg xl:text-base 2xl:text-md text-main 3xl:text-2xl">
+                <p className="text-lg xl:text-base 2xl:text-md text-main/80 3xl:text-2xl">
                   {t.role}
                 </p>
               </div>

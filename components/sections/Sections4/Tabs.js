@@ -1,11 +1,13 @@
-import Image from "next/image";
+import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { motion } from "framer-motion"; // Importa il componente motion
 import "swiper/css";
+import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Pagination } from "swiper/modules";
-import { useState, useEffect } from "react";
+import { Navigation, Pagination } from "swiper/modules";
+import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
+import { Icon } from "@iconify/react";
 
 const Tabs = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(0);
@@ -14,31 +16,10 @@ const Tabs = ({ tabs }) => {
     setActiveTab(index);
   };
 
-  useEffect(() => {
-    const cursor = document.querySelector(".cursor");
-    const body = document.body;
-    const toggleClass = "show-custom-cursor";
-
-    function pointermoveHandler(e) {
-      const target = e.target;
-      if (
-        e.target.closest(".carousel-wrapper") &&
-        window.matchMedia("(hover: hover)").matches
-      ) {
-        body.classList.add(toggleClass);
-        cursor.style.setProperty("--cursor-x", `${e.clientX}px`);
-        cursor.style.setProperty("--cursor-y", `${e.clientY}px`);
-      } else {
-        body.classList.remove(toggleClass);
-      }
-    }
-    document.addEventListener("pointermove", pointermoveHandler);
-  }, []);
-
   return (
     <div className="pt-10">
       {/* Tab links */}
-      <div className="flex gap-4  lg:gap-10  !px-5 lg:!px-0 overflow-x-auto whitespace-nowrap w-full tabs">
+      <div className="flex items-center gap-4 lg:gap-6 !px-5 lg:!px-0 overflow-x-auto whitespace-nowrap w-[90%] mx-auto tabs relative">
         {tabs.map((tab, index) => (
           <button
             key={index}
@@ -51,11 +32,28 @@ const Tabs = ({ tabs }) => {
             {tab.name}
           </button>
         ))}
+        {/* Navigation Buttons */}
+        <div className="hidden gap-4 py-6 ml-auto lg:flex">
+          <button className="p-2 bg-white hover:rounded-full hover:bg-second prev">
+            <Icon
+              icon="iconamoon:arrow-left-1-thin"
+              width={30}
+              className="text-main"
+            />
+          </button>
+          <button className="p-2 bg-white hover:rounded-full hover:bg-second next">
+            <Icon
+              icon="iconamoon:arrow-right-1-thin"
+              width={30}
+              className="text-main"
+            />
+          </button>
+        </div>
       </div>
 
       {/* Tab content */}
       {tabs.map((tab, index) => (
-        <motion.div // Usa motion.div anziché div
+        <motion.div
           key={index}
           id={tab.name}
           initial={{ opacity: 0, y: 20 }}
@@ -65,95 +63,97 @@ const Tabs = ({ tabs }) => {
             transition: { duration: 0.5 },
           }}
           exit={{ opacity: 0, y: 20 }}
-          className={`w-[90%] mx-auto lg:w-full pt-10 gap-4 ${
+          className={`w-[90%] mx-auto lg:w-full gap-4 overflow-visible ${
             activeTab === index ? "tabcontent" : "tabcontent hidden"
           }`}
         >
-          <Swiper
-            pagination={{
-              clickable: true,
-              el: ".swiper-pagination",
-            }}
-            modules={[Pagination]}
-            className="carousel-wrapper"
-            breakpoints={{
-              300: {
-                slidesPerView: 1,
-                spaceBetween: 20,
-              },
-              768: {
-                slidesPerView: 1,
-                spaceBetween: 40,
-              },
-              820: {
-                slidesPerView: 2.2,
-                spaceBetween: 40,
-              },
-              1024: {
-                slidesPerView: 4,
-                spaceBetween: 20,
-              },
-
-              1280: {
-                slidesPerView: 3.6,
-                spaceBetween: 20,
-              },
-              1500: {
-                slidesPerView: 4.5,
-                spaceBetween: 20,
-              },
-              2500: {
-                slidesPerView: 4,
-                spaceBetween: 20,
-              },
-            }}
-          >
-            {tab.content.map((content, contentIndex) => (
-              <SwiperSlide key={contentIndex}>
-                <Link
-                  href={content.link}
-                  title={content.name}
-                  key={contentIndex}
-                  className="w-full h-[450px] fxl:h-full 3xl:h-[800px] relative bg-[#F4F3EF]  hover:bg-main hover:text-white "
-                >
-                  <motion.div // Usa motion.div anziché div
-                    className="w-full h-[450px] fxl:h-[500px] 3xl:h-[800px] relative"
+          <div className="relative w-full overflow-visible">
+            <Swiper
+              modules={[Navigation, Pagination]}
+              navigation={{
+                prevEl: ".prev",
+                nextEl: ".next",
+              }}
+              pagination={{
+                clickable: true,
+                el: ".swiper-pagination",
+              }}
+              centeredSlides={true}
+              centeredSlidesBounds={true}
+              loop
+              className="lg:!px-20"
+              breakpoints={{
+                300: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 1,
+                  spaceBetween: 40,
+                },
+                820: {
+                  slidesPerView: 1.5,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 2.5,
+                  spaceBetween: 20,
+                },
+                1280: {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+                },
+                1500: {
+                  slidesPerView: 3.4,
+                  spaceBetween: 20,
+                },
+                2500: {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+                },
+              }}
+            >
+              {tab.content.map((content, contentIndex) => (
+                <SwiperSlide key={contentIndex}>
+                  <Link
+                    href={content.link}
+                    className="flex flex-col gap-6 items-center justify-between h-[600px] p-10 rounded-sm bg-pattern2 bg-second"
+                    key={contentIndex}
                   >
-                    <div className="w-full h-[450px] fxl:h-[500px] 3xl:h-[800px] left-0 top-0 absolute bg-[#F4F3EF] rounded-sm hover:bg-main" />
+                    <div className="flex flex-col items-center justify-center w-full">
+                      <p className="text-sm uppercase text-main/85 font-regular">
+                        {content.type}
+                      </p>
+                      <h2 className="text-center text-main text-[20px] font-bold leading-snug fxl:text-xl">
+                        {content.name}
+                      </h2>
+                      <p className="text-sm text-center text-main/60">
+                        {content.vitigni}
+                      </p>
+                      <p className="p-1 text-xs border rounded-sm text-main/60 border-main/30">
+                        {content.origine}
+                      </p>
+                    </div>
+                    <div className="flex justify-center w-full">
+                      <Image
+                        className="object-contain"
+                        src={content.img}
+                        width={100}
+                        height={100}
+                        alt={content.name}
+                      />
+                    </div>
+                  </Link>
+                </SwiperSlide>
+              ))}
 
-                    <Image
-                      className="object-contain left-0 top-[1.5rem] absolute w-full h-[80%]"
-                      src={content.img}
-                      width={100}
-                      height={100}
-                      alt={content.name}
-                    />
-                    <p className="w-[100%] left-0 bottom-8 absolute text-center text-main text-[16px] fxl:text-[22px] 3xl:text-3xl font-bold  leading-snug z-10">
-                      {content.name}
-                    </p>
-                  </motion.div>
-                </Link>
-              </SwiperSlide>
-            ))}
-            <div className="relative block w-full mt-16 md:hidden">
-              <div className="mt-10 swiper-pagination"></div>
-            </div>
-          </Swiper>
+              <div className="relative flex w-full mt-10">
+                <div className="mt-10 swiper-pagination"></div>
+              </div>
+            </Swiper>
+          </div>
         </motion.div>
       ))}
-      <div className="hidden cursor lg:fixed">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="40px"
-          height="40px"
-          viewBox="0 0 24 24"
-        >
-          <path
-            fill="currentColor"
-            d="M22 7h-5V5.5h2.9q-1.65-1.45-3.675-2.225T12 2.5q-2.2 0-4.225.775T4.1 5.5H7V7H2V2h1.5v2.025q1.8-1.475 3.975-2.25T12 1q2.35 0 4.525.775t3.975 2.25V2H22zM11.825 22q-.6 0-1.15-.225t-.975-.65L4.6 16l.75-.775q.4-.4.938-.537t1.062.012l1.65.475V7q0-.425.288-.712T10 6q.425 0 .713.288T11 7v7h1v-3q0-.425.288-.712T13 10q.425 0 .713.288T14 11v3h1v-2q0-.425.288-.712T16 11q.425 0 .713.288T17 12v2h1q0-.425.288-.712T19 13q.425 0 .713.288T20 14v4q0 1.65-1.175 2.825T16 22z"
-          />
-        </svg>
-      </div>
     </div>
   );
 };

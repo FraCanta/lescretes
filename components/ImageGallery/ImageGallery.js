@@ -23,7 +23,7 @@ const images = [
 const ImageGallery = () => {
   return (
     <>
-      <div className="w-full py-20 mx-auto ">
+      <div className="w-full mx-auto mb-20 lg:py-20 ">
         <Swiper
           effect={"coverflow"}
           grabCursor={true}

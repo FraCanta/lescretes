@@ -39,7 +39,7 @@ const NavBar = ({ translation }) => {
               <Image
                 src={Logo}
                 alt="Logo di Les Crêtes"
-                className="w-[85px] md:w-[150px] lg:w-[110px] xl:w-[130px] 2xl:w-[120px] fxl:w-[150px] 3xl:w-[200px] 4xl:w-[300px]"
+                className="w-[85px] md:w-[150px] lg:w-[110px] xl:w-[130px] 2xl:w-[110px] fxl:w-[150px] 3xl:w-[200px] 4xl:w-[300px]"
               />
             </Link>
           </div>

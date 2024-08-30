@@ -13,7 +13,7 @@ const Hero = ({ img, text, alt }) => {
             src={img}
             fill
             alt={alt}
-            className="object-cover object-bottom w-auto h-auto"
+            className="object-cover w-auto h-auto"
           />
         </div>
       ) : null}

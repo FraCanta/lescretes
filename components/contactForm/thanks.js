@@ -1,25 +1,20 @@
 import * as React from "react";
 import {
   Body,
-  Button,
   Container,
   Head,
   Hr,
   Html,
   Img,
-  Preview,
-  Section,
   Text,
 } from "@react-email/components";
 export function Thanks(props) {
-  const { name, surname } = props;
+  const { name } = props;
 
   return (
     <Html>
       <Head />
-      <Preview>
-        The sales intelligence platform that helps you uncover qualified leads.
-      </Preview>
+
       <Body style={main}>
         <Container style={container}>
           <Img

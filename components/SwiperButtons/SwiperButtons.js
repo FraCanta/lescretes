@@ -8,7 +8,7 @@ function SwiperButtons() {
     <div className="justify-end hidden w-full gap-4 py-6 md:flex">
       {" "}
       <button
-        className="p-2 bg-white rounded-full shadow-sm prev"
+        className="p-2 bg-white hover:rounded-full hover:bg-second prev"
         onClick={() => swiper.slidePrev()}
       >
         <Icon
@@ -18,7 +18,7 @@ function SwiperButtons() {
         />
       </button>
       <button
-        className="z-10 p-2 bg-white rounded-full shadow-sm next"
+        className="p-2 bg-white hover:rounded-full hover:bg-second next"
         onClick={() => swiper.slideNext()}
       >
         <Icon

@@ -4,7 +4,7 @@ import Hero from "@/components/heroHome/Hero";
 import Head from "next/head";
 import ImageGallery from "@/components/ImageGallery/ImageGallery";
 import Banner from "@/components/Banner/Banner";
-import Deg from "@/public/assets/degustazione.webp";
+import Deg from "@/public/assets/deg3.jpg";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 import rifugioIT from "@/public/locales/it/rifugio.json";
@@ -135,14 +135,14 @@ const Rifugio = ({ translation, locale }) => {
               className="flex flex-col items-start justify-start gap-10"
               key={i}
             >
-              <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
+              <h2 className="text-4xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
                 {el.title}
               </h2>
               {el.descrizione.map((d, i) => {
                 return (
                   <div
                     key={i}
-                    className="flex flex-col gap-10 text-xl font-normal text-main fxl:text-2xl 3xl:text-4xl 3xl:leading-normal"
+                    className="flex flex-col gap-10 text-lg font-normal text-main/80 lg:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal"
                   >
                     <p dangerouslySetInnerHTML={{ __html: d.p }}></p>
                   </div>
@@ -155,7 +155,7 @@ const Rifugio = ({ translation, locale }) => {
 
       <div className="w-full min-h-[40vh] flex flex-col justify-center bg-second   bg-pattern">
         <div className="w-[90%] h-full  mx-auto flex flex-col gap-4 md:gap-8 justify-center ">
-          <h3 className="text-3xl font-bold text-main md:text-4xl fxl:text-5xl 3xl:text-6xl">
+          <h3 className="text-4xl font-bold text-main fxl:text-5xl 3xl:text-6xl">
             {translation.section2.title}
           </h3>
           <ul className="flex flex-col gap-2 text-xl font-normal text-main/80 md:text-2xl xl:text-xl 3xl:text-3xl fxl:text-2xl">
@@ -178,16 +178,16 @@ const Rifugio = ({ translation, locale }) => {
       </div>
       <div className="w-[90%] mx-auto mt-10">
         <div className="flex flex-col items-start justify-start gap-10">
-          <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
+          <h2 className="text-4xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
             {translation.section3.title}
           </h2>
-          <div className="flex flex-col gap-10 text-xl font-normal text-main/80 fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">
+          <div className="flex flex-col gap-10 text-lg font-normal lg:text-xl text-main/80 fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">
             <p
               dangerouslySetInnerHTML={{
                 __html: translation.section3.descrizione,
               }}
             ></p>
-            <ul className="flex flex-col gap-4 fxl:gap-8  text-main/main text-[20px] font-normal fxl:text-2xl 3xl:text-4xl">
+            <ul className="flex flex-col gap-4 fxl:gap-8  text-main/80 text-[18px] lg:text-xl font-normal fxl:text-2xl 3xl:text-4xl">
               {translation.section3.list.map((el, i) => {
                 return (
                   <li key={i}>
@@ -200,8 +200,8 @@ const Rifugio = ({ translation, locale }) => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 fxl:gap-8 xl:py-20 mx-auto mt-14  w-[90%] lg:justify-center xl:items-center">
-        <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-6xl lg:text-center 3xl:text-7xl">
+      <div className="flex flex-col gap-4 fxl:gap-8 xl:py-20 mx-auto mt-14  w-[90%] justify-center items-center">
+        <h2 className="text-4xl font-bold text-center text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
           {translation.gallery.title}
         </h2>
 

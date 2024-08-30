@@ -14,8 +14,9 @@ import FAQ from "@/components/FAQ/FAQ";
 import Banner from "@/components/Banner/Banner";
 import Rif from "@/public/assets/rifugio/rifugio6.webp";
 import Hero from "@/components/heroHome/Hero";
-import Deg from "@/public/assets/degustazioni/deg_hero3.webp";
+import Deg from "@/public/assets/deg3.jpg";
 import HeroHome2 from "@/components/heroHome/HeroHome2";
+import HeroHome4 from "@/components/heroHome/HeroHome4";
 
 const Degustazioni = ({ translation }) => {
   return (
@@ -23,8 +24,8 @@ const Degustazioni = ({ translation }) => {
       <Head>
         <title>{translation.hero.title}</title>
       </Head>
-      <div className="relative bg-second/25 bg-pattern2a flex flex-col justify-center lg:flex-row items-center  h-[calc(100vh_-_70px)] md:min-h-[calc(90vh_-_70px)] fxl:min-h-[calc(80vh_-_100px)]">
-        <HeroHome2 img={Deg} title={translation.hero.title} />
+      <div className="bg-second/30 bg-pattern2a flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)] 3xl:h-[calc(80vh_-_180px)]">
+        <HeroHome4 img={Deg} title={translation.hero.title} />
       </div>
       <div className="lg:w-[90%] mx-auto py-10 lg:py-20 flex flex-col gap-6 justify-center items-center h-full">
         {translation.intro.map((el, i) => {

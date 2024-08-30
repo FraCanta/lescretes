@@ -74,6 +74,7 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
 
   const onSubmitForm = (e) => {
     e.preventDefault();
+ 
 
     if (startDate && timeSlot && clickedRadio) {
       const formData = {
@@ -96,6 +97,7 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
       });
     } else {
       toast.error("Per favore, compila tutti i campi richiesti.");
+      console.log("errore", error)
     }
   };
 
@@ -169,8 +171,8 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
                         y="80"
                         fill="none"
                         stroke="#4a4a49"
-                        stroke-linejoin="round"
-                        stroke-width="32"
+                        strokeLinejoin="round"
+                        strokeWidth="32"
                         rx="48"
                       />
                       <circle cx="296" cy="232" r="24" fill="#4a4a49" />
@@ -185,16 +187,16 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
                       <path
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="32"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="32"
                         d="M128 48v32m256-32v32"
                       />
                       <path
                         fill="none"
                         stroke="#4a4a49"
-                        stroke-linejoin="round"
-                        stroke-width="32"
+                        strokeLinejoin="round"
+                        strokeWidth="32"
                         d="M464 160H48"
                       />
                     </svg>

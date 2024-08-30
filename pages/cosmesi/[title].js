@@ -160,16 +160,36 @@ const SingleCosmetic = ({ cosm, others }) => {
         <FAQ translation={cosm.faq} />
       </div>
       <div className="relative flex flex-col w-full bg-second  py-10 gap-[30px] fxl:gap-[50px] fxl:py-20">
-        <div className="w-[90%] mx-auto">
+        <div className="w-[90%] mx-auto flex items-center">
           <h2 className="mb-4 text-5xl font-bold fxl:text-5xl">
             {cosm.highlights.title}
           </h2>
+          <div className="hidden gap-4 py-6 ml-auto lg:flex">
+            <button className="p-2 hover:rounded-full hover:bg-white prev">
+              <Icon
+                icon="iconamoon:arrow-left-1-thin"
+                width={30}
+                className="text-main"
+              />
+            </button>
+            <button className="p-2 hover:rounded-full hover:bg-white next">
+              <Icon
+                icon="iconamoon:arrow-right-1-thin"
+                width={30}
+                className="text-main"
+              />
+            </button>
+          </div>
         </div>
 
-        <div className="flex flex-col items-center w-[90%] mx-auto">
+        <div className="flex flex-col items-center w-full">
           <div className="relative w-full py-10">
             <Swiper
               modules={[Navigation, Pagination]}
+              className="!px-20"
+              centeredSlides={true}
+              centeredSlidesBounds={true}
+              loop
               navigation={{
                 prevEl: ".prev",
                 nextEl: ".next",
@@ -192,7 +212,7 @@ const SingleCosmetic = ({ cosm, others }) => {
                   spaceBetween: 10,
                 },
                 1500: {
-                  slidesPerView: 4,
+                  slidesPerView: 3.2,
                   spaceBetween: 10,
                 },
               }}
@@ -210,7 +230,6 @@ const SingleCosmetic = ({ cosm, others }) => {
                   </div>
                 </SwiperSlide>
               ))}
-              <SwiperButtons />
             </Swiper>
             <div className="relative flex w-full mt-16 md:hidden">
               <div className="mt-10 swiper-pagination"></div>
