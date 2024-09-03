@@ -248,7 +248,7 @@ const Prenotazione = ({ translation }) => {
             </div>
 
             <div className="p-8 bg-second">
-              <ul className="grid grid-cols-1 gap-6 py-6 text-xl gap-x-10 lg:grid-cols-4 text-main">
+              <ul className="grid grid-cols-1 gap-6 py-6 text-[18px] uppercase gap-x-10 lg:grid-cols-4 text-main">
                 <li>
                   <span className="font-bold">{formData.deg}</span>
                 </li>

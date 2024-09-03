@@ -18,13 +18,12 @@ export function Thanks(props) {
       <Body style={main}>
         <Container style={container}>
           <Img
-            src={`public/logo/logo.ong`}
-            width="170"
-            height="50"
-            alt="Koala"
+            src="https://i.ibb.co/09ZWsRF/logo.png"
+            className="object-contain w-full h-[100px]"
+            alt="logo les cretes"
             style={logo}
           />
-          <Text style={paragraph}>Hi {name},</Text>
+          <Text style={paragraph}>Salve {name},</Text>
           <Text style={paragraph}>
             Grazie per averci contattato e per aver scelto la nostra azienda per
             la tua degustazione di vini.

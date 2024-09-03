@@ -33,8 +33,10 @@ export default async function mailer(req, res) {
     auth: {
       //   user: process.env.SMTP_USER, se vogliamo inserire le credenziali su env
       //   pass: process.env.SMTP_PASSWORD,
-      user: "info@lescretes.it",
-      pass: "infocontact_2024?!",
+      // user: "info@lescretes.it",
+      // pass: "infocontact_2024?!",
+      user: "info@thallion-dev.it",
+      pass: "Sari_male84?",
     },
   });
   const emailHtml = render(
@@ -77,8 +79,8 @@ export default async function mailer(req, res) {
 
   try {
     await transporter.sendMail({
-      from: `Les Crêtes degustazioni <info@lescretes.it>`,
-      to: ["thalliondev@gmail.com","info@lescretes.it"],
+      from: `Les Crêtes degustazioni <info@thallion-dev.it>`,
+      to: ["info@thallion-dev.it"],
       subject: `Richiesta prenotazione degustazione: ${deg} `,
       replyTo: `${email}`,
       html: emailHtml,
@@ -86,7 +88,7 @@ export default async function mailer(req, res) {
 
     // Invio della mail di ringraziamento
     await transporter.sendMail({
-      from: `Les Crêtes degustazioni <info@lescretes.it>`,
+      from: `Les Crêtes degustazioni <info@thallion-dev.it>`,
       to: email,
       subject: "Grazie per la tua prenotazione",
       html: thankHtml,

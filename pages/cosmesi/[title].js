@@ -165,16 +165,16 @@ const SingleCosmetic = ({ cosm, others }) => {
             {cosm.highlights.title}
           </h2>
           <div className="hidden gap-4 py-6 ml-auto lg:flex">
-            <button className="p-2 hover:rounded-full hover:bg-white prev">
+            <button className="p-2 bg-white hover:rounded-full hover:bg-second prev">
               <Icon
-                icon="iconamoon:arrow-left-1-thin"
+                icon="prime:chevron-left"
                 width={30}
                 className="text-main"
               />
             </button>
-            <button className="p-2 hover:rounded-full hover:bg-white next">
+            <button className="p-2 bg-white hover:rounded-full hover:bg-second next">
               <Icon
-                icon="iconamoon:arrow-right-1-thin"
+                icon="prime:chevron-right"
                 width={30}
                 className="text-main"
               />
@@ -183,10 +183,10 @@ const SingleCosmetic = ({ cosm, others }) => {
         </div>
 
         <div className="flex flex-col items-center w-full">
-          <div className="relative w-full py-10">
+          <div className="relative w-[90%] mx-auto lg:w-full pb-10">
             <Swiper
               modules={[Navigation, Pagination]}
-              className="!px-20"
+              className="lg:!px-20"
               centeredSlides={true}
               centeredSlidesBounds={true}
               loop
@@ -231,7 +231,7 @@ const SingleCosmetic = ({ cosm, others }) => {
                 </SwiperSlide>
               ))}
             </Swiper>
-            <div className="relative flex w-full mt-16 md:hidden">
+            <div className="relative flex w-full mt-10 ">
               <div className="mt-10 swiper-pagination"></div>
             </div>
           </div>

@@ -21,9 +21,9 @@ import Reviews from "@/components/sections/Reviews";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 
-import { Navigation } from "swiper/modules";
-import SwiperButtons from "@/components/SwiperButtons/SwiperButtons";
+import { Navigation, Pagination } from "swiper/modules";
 
 const SingleDeg = ({ deg, others }) => {
   console.log(others);
@@ -71,7 +71,7 @@ const SingleDeg = ({ deg, others }) => {
               alt="bicchiere"
             />
             <div className="flex flex-wrap items-center justify-center gap-2">
-              <h2 className="font-bold text-[18px] text-main fxl:text-2xl ">
+              <h2 className="font-bold text-[16px] text-main fxl:text-2xl uppercase">
                 {deg.degustazione.title}:{" "}
                 <span className="text-base font-regular">
                   {deg.degustazione.vini}
@@ -86,7 +86,7 @@ const SingleDeg = ({ deg, others }) => {
               alt="bicchiere"
             />
             <div className="flex flex-wrap items-center h-full gap-2">
-              <h2 className="font-bold text-[18px] text-main">
+              <h2 className="font-bold text-[16px] text-main fxl:text-2xl uppercase">
                 {deg.durata?.title}:{" "}
                 <span className="text-base font-regular">
                   {deg.durata?.tempo}
@@ -101,7 +101,7 @@ const SingleDeg = ({ deg, others }) => {
               alt="bicchiere"
             />
             <div className="flex items-center h-full gap-2">
-              <h2 className="font-bold text-[18px] text-main">
+              <h2 className="font-bold text-[16px] text-main fxl:text-2xl uppercase">
                 {deg.visita?.title}:{" "}
                 <span className="text-base font-regular">
                   {deg.visita?.cantina}
@@ -112,7 +112,7 @@ const SingleDeg = ({ deg, others }) => {
           <div className="flex items-center h-full gap-1">
             <Image src={Lingue} className="h-full w-9" alt="bicchiere" />
             <div className="flex flex-wrap items-center gap-2">
-              <h2 className="font-bold text-[18px] text-main">
+              <h2 className="font-bold text-[16px] text-main fxl:text-2xl uppercase">
                 {deg.lingua?.title}:{" "}
                 <span className="text-base font-regular">
                   {deg.lingua.tipo}
@@ -127,7 +127,7 @@ const SingleDeg = ({ deg, others }) => {
               alt="bicchiere"
             />
             <div className="flex flex-wrap items-center gap-2">
-              <h2 className="font-bold text-[18px] text-main">
+              <h2 className="font-bold text-[16px] text-main fxl:text-2xl uppercase">
                 {deg.gradi?.title}:{" "}
                 <span className="text-base font-regular">{deg.gradi.tipo}</span>
               </h2>
@@ -136,7 +136,7 @@ const SingleDeg = ({ deg, others }) => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-[94%] mx-auto gap-6 py-14">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto gap-6 py-6">
         <div className="flex-col justify-start items-start gap-[34px] flex">
           <div className="flex items-center gap-2">
             <div
@@ -328,36 +328,58 @@ const SingleDeg = ({ deg, others }) => {
       <div className="w-[90%] mx-auto flex flex-wrap justify-end  gap-6 xl:justify-between text-sm md:text-xl breadcrumbs"></div>
       <div className="w-full bg-second">
         <div className="flex flex-col w-full gap-10 py-20 mx-auto">
-          <div className="w-[90%] mx-auto">
+          <div className="w-[90%] mx-auto flex items-center">
             <h2 className="text-main text-3xl md:text-5xl fxl:text-6xl font-bold xl:leading-[46px] 3xl:text-7xl ">
               {deg.othersTitle}
             </h2>
+            <div className="hidden gap-4 py-6 ml-auto lg:flex">
+              <button className="p-2 hover:bg-white hover:rounded-full prev">
+                <Icon
+                  icon="prime:chevron-left"
+                  width={30}
+                  className="text-main"
+                />
+              </button>
+              <button className="p-2 hover:bg-white hover:rounded-full next">
+                <Icon
+                  icon="prime:chevron-right"
+                  width={30}
+                  className="text-main"
+                />
+              </button>
+            </div>
           </div>
-          <div className="relative w-full ">
+          <div className="relative w-[90%] mx-auto lg:w-full ">
             <Swiper
-              className="!px-20"
+              className="lg:!px-20"
               centeredSlides={true}
               centeredSlidesBounds={true}
               loop
-              slidesPerView={3}
-              spaceBetween={6}
-              modules={[Navigation]}
+              modules={[Navigation, Pagination]}
               navigation={{
                 prevEl: ".prev",
                 nextEl: ".next",
               }}
+              pagination={{
+                clickable: true,
+                el: ".swiper-pagination",
+              }}
               breakpoints={{
-                640: {
+                360: {
                   slidesPerView: 1,
                   spaceBetween: 10,
                 },
                 768: {
-                  slidesPerView: 1,
+                  slidesPerView: 2.5,
                   spaceBetween: 20,
                 },
                 1024: {
-                  slidesPerView: 3,
-                  spaceBetween: 30,
+                  slidesPerView: 3.5,
+                  spaceBetween: 10,
+                },
+                1500: {
+                  slidesPerView: 3.2,
+                  spaceBetween: 10,
                 },
               }}
             >
@@ -378,8 +400,10 @@ const SingleDeg = ({ deg, others }) => {
                   </div>
                 </SwiperSlide>
               ))}
-              <SwiperButtons />
             </Swiper>
+            <div className="relative flex w-full mt-10 ">
+              <div className="mt-10 swiper-pagination"></div>
+            </div>
           </div>
         </div>
       </div>
