@@ -64,7 +64,7 @@ const Prenotazione = ({ translation }) => {
       },
     });
   };
-
+  console.log(formData?.link);
   if (!formData) {
     return (
       <div className="relative flex items-center justify-center h-screen bg-pattern2">

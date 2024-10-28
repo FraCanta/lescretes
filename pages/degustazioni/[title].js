@@ -15,7 +15,7 @@ import { Icon } from "@iconify/react";
 import { FacebookShareButton, WhatsappShareButton } from "next-share";
 import Drawer from "@/components/drawer/drawer";
 import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
-import FormPrenotazione from "@/components/formPrenotazione/formPrenotazione";
+
 import Cards from "@/components/Cards/Cards";
 import Reviews from "@/components/sections/Reviews";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -24,6 +24,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import { Navigation, Pagination } from "swiper/modules";
+import FormPrenotazione from "@/components/formPrenotazione/formPrenotazione";
 
 const SingleDeg = ({ deg, others }) => {
   console.log(others);

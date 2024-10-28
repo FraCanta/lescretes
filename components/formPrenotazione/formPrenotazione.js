@@ -74,7 +74,6 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
 
   const onSubmitForm = (e) => {
     e.preventDefault();
- 
 
     if (startDate && timeSlot && clickedRadio) {
       const formData = {
@@ -97,7 +96,7 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
       });
     } else {
       toast.error("Per favore, compila tutti i campi richiesti.");
-      console.log("errore", error)
+      console.log("errore", error);
     }
   };
 

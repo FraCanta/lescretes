@@ -11,11 +11,9 @@ import {
   Section,
   Text,
   Tailwind,
-  Link,
   Hr,
   Heading,
 } from "@react-email/components";
-import { Icon } from "@iconify/react";
 
 export function Email2(props) {
   const { name, surname, email, phone, message, reason, nation } = props;
