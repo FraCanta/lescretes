@@ -56,6 +56,43 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
     "06:00 PM",
   ];
 
+  const excludedDates = [
+    new Date(2024, 11, 24), // 24 Dicembre
+    new Date(2024, 11, 25), // 25 Dicembre
+    new Date(2024, 11, 26), // 26 Dicembre
+    new Date(2024, 11, 31), // 31 Dicembre
+    new Date(2025, 0, 1), // 1 Gennaio
+    new Date(2025, 0, 6), // 6 Gennaio
+  ];
+
+  const openSundays = [
+    new Date(2024, 11, 29), // 29 Dicembre
+    new Date(2025, 0, 5), // 5 Gennaio
+  ];
+
+  const isDateSelectable = (date) => {
+    // Disabilita le domeniche, a meno che non siano "openSundays"
+    if (
+      date.getDay() === 0 &&
+      !openSundays.some(
+        (openDate) =>
+          date.getDate() === openDate.getDate() &&
+          date.getMonth() === openDate.getMonth() &&
+          date.getFullYear() === openDate.getFullYear()
+      )
+    ) {
+      return false;
+    }
+
+    // Disabilita le date specifiche
+    return !excludedDates.some(
+      (excludedDate) =>
+        date.getDate() === excludedDate.getDate() &&
+        date.getMonth() === excludedDate.getMonth() &&
+        date.getFullYear() === excludedDate.getFullYear()
+    );
+  };
+
   useEffect(() => {
     if (router.query.formData) {
       const formData = JSON.parse(router.query.formData);
@@ -155,6 +192,7 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
                   className="!outline-none"
                   minDate={tomorrow}
                   calendarClassName={startDate ? "hidden" : ""}
+                  filterDate={isDateSelectable} // Usa la funzione aggiornata qui
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
