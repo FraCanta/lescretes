@@ -96,6 +96,7 @@ const Contatti = ({ translation }) => {
             inputs={inputs}
             setInputs={setInputs}
             translation={translation.formContact}
+            formType="contatti"
           />
         </div>
       </div>

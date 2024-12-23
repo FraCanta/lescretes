@@ -12,8 +12,10 @@ export default async function mailer(req, res) {
     port: 465,
     secure: true,
     auth: {
-      user: "thalliondev@gmail.com",
-      pass: "lywb cntb nbqm uckr",
+      // user: "thalliondev@gmail.com",
+      // pass: "lywb cntb nbqm uckr",
+      user: "info@lescretes.it",
+      pass: "infocontact_2024?!",
     },
   });
 
@@ -41,7 +43,7 @@ export default async function mailer(req, res) {
 
   try {
     await transporter.sendMail({
-      from: `Les Crêtes degustazioni <thalliondev@gmail.com>`,
+      from: `Les Crêtes degustazioni <info@lescretes.it>`,
       to: ["thalliondev@gmail.com"],
       subject: `Info: ${reason}`,
       replyTo: `${email}`,
@@ -50,7 +52,7 @@ export default async function mailer(req, res) {
 
     // Invio della mail di ringraziamento
     await transporter.sendMail({
-      from: `Les Crêtes info <thalliondev@gmail.com>`,
+      from: `Les Crêtes info <info@lescretes.it>`,
       to: email,
       subject: "Grazie per averci contattato",
       html: thankHtml,

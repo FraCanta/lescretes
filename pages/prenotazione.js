@@ -15,7 +15,7 @@ import Head from "next/head";
 import { Icon } from "@iconify/react";
 import FormPrenotazione3 from "@/components/formPrenotazione/formPrenotazione3";
 import CtaPrimary from "@/components/Cta/CtaPrimary";
-const Prenotazione = ({ translation }) => {
+const Prenotazione = ({ translation, formType }) => {
   const router = useRouter();
   const [formData, setFormData] = useState(null);
   const [accompagnatiDaMinori, setAccompagnatiDaMinori] = useState(null);
@@ -64,7 +64,6 @@ const Prenotazione = ({ translation }) => {
       },
     });
   };
-  console.log(formData?.link);
   if (!formData) {
     return (
       <div className="relative flex items-center justify-center h-screen bg-pattern2">
@@ -155,9 +154,10 @@ const Prenotazione = ({ translation }) => {
           tipo: formData.tipo,
           totalNumber: formData.totalNumber,
           durata: formData.durata,
+          formType: "prenotazione",
         };
 
-        const res = await fetch(`/api/prenotazioni`, {
+        const res = await fetch(`/api/email`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -237,6 +237,7 @@ const Prenotazione = ({ translation }) => {
           onSubmit={(e) => onSubmitForm(e)}
           className="w-[90%] flex flex-col gap-6 mx-auto bg-white xl:my-6"
         >
+          <input type="hidden" name="formType" value={formType} />
           <div className="flex flex-col gap-6 py-5">
             <div className="flex flex-col gap-2">
               <h1 className="text-3xl font-bold lg:text-5xl text-main">
@@ -485,7 +486,7 @@ const Prenotazione = ({ translation }) => {
               </div>
             ))}
           </div>
-          <div className="flex gap-4 mt-6 text-main">
+          {/* <div className="flex gap-4 mt-6 text-main">
             <input
               type="checkbox"
               id="newsletter"
@@ -497,7 +498,7 @@ const Prenotazione = ({ translation }) => {
                 {translation.form.termini.newsletter.text}
               </span>
             </label>
-          </div>
+          </div> */}
           <div className="flex items-center gap-4 text-main">
             <input
               type="checkbox"

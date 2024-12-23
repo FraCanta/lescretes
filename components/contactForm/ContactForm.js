@@ -8,7 +8,6 @@ import {
 import "react-international-phone/style.css";
 import Select, { components } from "react-select";
 import countryList from "react-select-country-list";
-import Link from "next/link";
 import toast from "react-hot-toast";
 
 const countries = defaultCountries.filter((country) => {
@@ -16,8 +15,7 @@ const countries = defaultCountries.filter((country) => {
   return ["it", "us", "gb", "fr", "de"].includes(iso2);
 });
 
-const ContactForm = ({ translation, inputs, setInputs }) => {
-  const [phone, setPhone] = useState("");
+const ContactForm = ({ translation, inputs, setInputs, formType }) => {
   const [privacyChecked, setPrivacyChecked] = useState(false);
 
   const options = countryList().getData();
@@ -43,9 +41,10 @@ const ContactForm = ({ translation, inputs, setInputs }) => {
       try {
         const formDataMail = {
           ...inputs,
+          formType,
         };
 
-        const res = await fetch(`/api/contatti`, {
+        const res = await fetch(`/api/email`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -134,6 +133,7 @@ const ContactForm = ({ translation, inputs, setInputs }) => {
 
   return (
     <form className="container mx-auto bg-white" onSubmit={onSubmitForm}>
+      <input type="hidden" name="formType" value={formType} />
       <div>
         <div className="grid grid-cols-2 gap-6 xl:gap-8">
           <div className="flex flex-col col-span-2 gap-2 lg:col-span-1">
