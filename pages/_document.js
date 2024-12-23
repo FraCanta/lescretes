@@ -4,6 +4,10 @@ export default function Document() {
   return (
     <Html>
       <Head>
+        <meta
+          name="google-site-verification"
+          content="TU__6tmaSdiJzpO6FcVDvsZ5iMNwHvmxd0ITy28ayYk"
+        />
         <link rel="stylesheet" href="https://use.typekit.net/rud7tvc.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -11,7 +15,10 @@ export default function Document() {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
-       <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet"></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+          rel="stylesheet"
+        ></link>
 
         <link
           rel="apple-touch-icon"
