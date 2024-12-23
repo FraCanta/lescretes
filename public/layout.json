@@ -5,12 +5,6 @@
         "name": "Identità",
         "sottomenu": [
           {
-            "name": "La famiglia Charrère",
-            "imgSrc": "/assets/lc.jpg",
-            "link": "/la-famiglia-charrere",
-            "title": "storia dell'azienda"
-          },
-          {
             "name": "Il Rifugio del Vino",
             "imgSrc": "/assets/rifugio/rifugio6.webp",
             "link": "/il-rifugio-del-vino",
@@ -42,12 +36,6 @@
       "storia": {
         "name": "Identity",
         "sottomenu": [
-          {
-            "name": "The Charrère family",
-            "imgSrc": "/assets/lc.jpg",
-            "link": "/la-famiglia-charrere",
-            "title": "The Charrère family"
-          },
           {
             "name": "The Refuge of wine",
             "imgSrc": "/assets/rifugio/rifugio6.webp",
@@ -81,12 +69,6 @@
         "name": "Identity",
         "sottomenu": [
           {
-            "name": "The Charrère family",
-            "imgSrc": "/assets/lc.jpg",
-            "link": "/la-famiglia-charrere",
-            "title": "The Charrère family"
-          },
-          {
             "name": "The Refuge of wine",
             "imgSrc": "/assets/rifugio/rifugio6.webp",
             "link": "/il-rifugio-del-vino",
@@ -119,12 +101,6 @@
         "name": "History",
         "sottomenu": [
           {
-            "name": "The Charrère family",
-            "imgSrc": "/assets/lc.jpg",
-            "link": "/la-famiglia-charrere",
-            "title": "storia dell'azienda"
-          },
-          {
             "name": "The refuge of wine",
             "imgSrc": "/assets/rifugio/rifugio6.webp",
             "link": "/il-rifugio-del-vino",
@@ -150,12 +126,6 @@
       "storia": {
         "name": "History",
         "sottomenu": [
-          {
-            "name": "The Charrère family",
-            "imgSrc": "/assets/lc.jpg",
-            "link": "/la-famiglia-charrere",
-            "title": "storia dell'azienda"
-          },
           {
             "name": "The refuge of wine",
             "imgSrc": "/assets/rifugio/rifugio6.webp",
@@ -183,12 +153,6 @@
         "name": "History",
         "sottomenu": [
           {
-            "name": "The Charrère family",
-            "imgSrc": "/assets/lc.jpg",
-            "link": "/la-famiglia-charrere",
-            "title": "storia dell'azienda"
-          },
-          {
             "name": "The refuge of wine",
             "imgSrc": "/assets/rifugio/rifugio6.webp",
             "link": "/il-rifugio-del-vino",
@@ -215,12 +179,6 @@
         "name": "History",
         "sottomenu": [
           {
-            "name": "The Charrère family",
-            "imgSrc": "/assets/lc.jpg",
-            "link": "/la-famiglia-charrere",
-            "title": "storia dell'azienda"
-          },
-          {
             "name": "The refuge of wine",
             "imgSrc": "/assets/rifugio/rifugio6.webp",
             "link": "/il-rifugio-del-vino",
@@ -246,12 +204,6 @@
       "storia": {
         "name": "History",
         "sottomenu": [
-          {
-            "name": "The Charrère family",
-            "imgSrc": "/assets/lc.jpg",
-            "link": "/la-famiglia-charrere",
-            "title": "storia dell'azienda"
-          },
           {
             "name": "The refuge of wine",
             "imgSrc": "/assets/rifugio/rifugio6.webp",
