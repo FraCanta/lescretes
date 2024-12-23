@@ -1,0 +1,17 @@
+# Regole generali per tutti i bot
+User-agent: *
+Allow: /
+
+
+
+# Specificità per un bot specifico (ad esempio, Googlebot)
+User-agent: Googlebot
+Allow: /
+Disallow: /private/
+Disallow: /temp/
+
+# Host
+Host: https://lescretes.it
+
+# Sitemap
+Sitemap: https://thallion-dev.it/sitemap.xml
