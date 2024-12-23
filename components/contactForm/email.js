@@ -38,6 +38,7 @@ export function Email(props) {
     tipo,
     totalNumber,
     durata,
+    tagliere,
   } = props;
 
   const formattedDOB = new Date(dob).toLocaleDateString("it-IT");
@@ -106,6 +107,7 @@ export function Email(props) {
                     <span className="font-bold">Tipologia: </span>{" "}
                     <span>{tipo}</span>
                   </Text>
+
                   <Text>
                     <span className="font-bold">Durata: </span>
                     <span>{durata}</span>
@@ -169,6 +171,12 @@ export function Email(props) {
                 <Text>
                   <span className="font-bold">Prezzo totale: </span>{" "}
                   <span>{formattedPrice}</span>
+                </Text>
+                <Text>
+                  <span className="font-bold">
+                    Opzione Tagliere (solo per la 5 Wines Experience):{" "}
+                  </span>{" "}
+                  <span>{tagliere ? "Sì" : "No"}</span>
                 </Text>
               </Row>
               <Row>

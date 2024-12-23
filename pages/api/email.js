@@ -28,7 +28,10 @@ export default async function mailer(req, res) {
     durata,
     reason,
     formType, // Aggiunto formType
+    tagliere,
   } = req.body;
+
+  console.log(req.body);
 
   // Crea il trasportatore per inviare le email
   const transporter = nodemailer.createTransport({
@@ -80,6 +83,7 @@ export default async function mailer(req, res) {
         tipo={tipo}
         totalNumber={totalNumber}
         durata={durata}
+        tagliere={tagliere}
       />
     );
     thankHtml = render(
