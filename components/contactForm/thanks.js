@@ -36,7 +36,7 @@ export function Thanks(props) {
           </Text>
           <Text style={paragraph}>
             Per qualsiasi ulteriore informazione o chiarimento, non esitare a
-            contattarci.
+            contattarci ad info@lescretes.it.
           </Text>
           {/* <Section style={btnContainer}>
             <Button style={button} href="https://getkoala.com">

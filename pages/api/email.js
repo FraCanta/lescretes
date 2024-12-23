@@ -3,6 +3,7 @@ import nodemailer from "nodemailer";
 import { Email } from "../../components/contactForm/email";
 import { Thanks } from "@/components/contactForm/thanks";
 import { Email2 } from "@/components/contactForm/email2";
+import ContactThanks from "@/components/contactForm/contactThanks";
 
 export default async function mailer(req, res) {
   const {
@@ -56,6 +57,7 @@ export default async function mailer(req, res) {
         nation={nation}
       />
     );
+    thankHtml = render(<ContactThanks name={name} surname={surname} />);
   } else if (formType === "prenotazione") {
     emailHtml = render(
       <Email
@@ -116,9 +118,9 @@ export default async function mailer(req, res) {
 
     // Invio della mail di ringraziamento
     await transporter.sendMail({
-      from: `Les Crêtes degustazioni <info@lescretes.it>`,
+      from: `Les Crêtes <info@lescretes.it>`,
       to: email,
-      subject: "Grazie per la tua prenotazione",
+      subject: "Grazie per la tua richiesta",
       html: thankHtml,
     });
   } catch (error) {
