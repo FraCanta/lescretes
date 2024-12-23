@@ -1,55 +1,43 @@
 {
   "storia": {
     "hero": {
-      "title": "La nostra è una storia che parla di leggenda e filosofia di vita",
+      "title": "La nostra è una storia che parla di tradizione, passione e innovazione.",
+      "subText": "Dalle radici storiche della famiglia Charrère alla creazione di un vino che racconta la Valle d'Aosta.",
       "img": "/assets/sisters.png"
     },
     "seo": {
-      "title": "La nostra è una storia che parla di leggenda e filosofia di vita - Les Crêtes | La famiglia Charrère | Valle d'Aosta - Italia",
+      "title": "La nostra è una storia che parla di tradizione, passione e innovazione. - Les Crêtes | La famiglia Charrère | Valle d'Aosta - Italia",
       "description": "Scopri la storia e la filosofia di Les Crêtes, un'azienda vitivinicola di sei generazioni nella Valle d'Aosta. Fondata da Costantino Charrère, l'azienda è rinomata per la sua attenzione alla sostenibilità e alla qualità dei vini, coltivati con tecniche eco-sostenibili in un ambiente alpino unico. Leggi di più sulla nostra tradizione e innovazione nel cuore delle montagne valdostane."
     },
     "section1": {
-      "paragrafi": [
-        {
-          "title": "La leggenda",
-          "descrizione": [
-            {
-              "p": "Le figlie, Elena ed Eleonora, del 1977 e del 1980, avevano il compito di ricercare nei prati di Ozein le coccinelle per l'azienda. Queste coccinelle venivano poi trasportate con cura e rilasciate in vigna, poiché utili a combattere gli acari nocivi. Questa attività era più di un gioco per le bambine, ed erano divertite a osservarle."
-            },
-            {
-              "p": "Questa scelta della famiglia Charrère non era una fiaba, ma una pratica concreta che riflette l'approccio sostenibile che la famiglia ha sempre avuto nella sua storia."
-            }
-          ]
-        }
-      ],
       "paragrafi2": [
         {
-          "title": "L’inizio",
+          "title": "Le Radici della Famiglia Charrère",
           "descrizione": [
             {
-              "p": "Il trisnonno Bernardin Charrère emigrò dall’ Alta Savoia ad Aymavilles intorno al 1750, costruendo l'edificio attualmente esistente con cantine e un frantoio per le noci."
+              "p": "La famiglia Charrère è una famiglia dalle radici profonde e di antiche tradizioni. Nel 1750 emigrò da Grenoble (Francia, ai confini con l’Alta Savoia), ad Aymavilles in Valle d’Aosta. Nel 1800 edificò lo stabile storico di famiglia decretato nel 1983 “di interesse storico-artistico particolarmente importante ai sensi della legge del 01/06/1939 n. 1089” e oggi tutelato dalla Soprintendenza per i Beni e le Attività culturali della Valle d’Aosta in quanto patrimonio storico della comunità."
             },
             {
-              "p": "Il bisnonno Etienne ampliò l'attività, includendo la produzione di sidro in risposta alle esigenze del mercato e dell'economia dell'epoca. Aggiunse anche un mulino per macinare i creali locali. Il nonno Louis si adattò nuovamente alle esigenze del mercato costruendo un nuovo mulino."
+              "p": "L’immobile, oltre alle cantine storiche, ospita la cor con le sue macine in pietra per la spremitura dell’olio di noce, i frantoi per la molitura di segale e i vari attrezzi originali per la produzione di sidro e vino, il tutto in ottimo stato di conservazione. La cor, nell’architettura locale, era lo spazio interno di un edificio riservato alla produzione e allo scambio alimentare. Questo ambiente ricopriva un ruolo strategico nell’economia dell’epoca, permettendo il commercio dei diversi generi tramite il baratto, dal momento che gli scambi mercantili di tipo monetario erano scarsi."
             },
             {
-              "p": "Antoine, padre di Costantino, gestì l'attività fino al 1955 quando l'olio d'oliva iniziò ad arrivare da altre regioni. Fu quindi necessario cambiare produzione e la scelta fu quella di produrre vini di alta qualità. L'attenzione fu posta sul pubblico e per distinguersi meglio si avviò un processo di personalizzazione a livello colturale (vinificazione separata dei crus), commerciale (indicazione delle località geografiche di ciascun vigneto) e storico (preservazione dei vitigni autoctoni) che avrebbero contribuito a valorizzare la Valle d'Aosta."
+              "p": "All’edificio è dedicata la nostra riserva La cor, che nasce dal lungo affinamento dell’autoctono Fumin. Fu il trisnonno Bernardin a rendere l’attività agricola professionale, il bisnonno Etienne la ampliò con la produzione di sidro; il nonno Louis con la molitura dei cereali locali ed infine Antoine, padre di Costantino, si specializzò nella produzione di olio di noci e cereali fino al 1955, quando l'olio d'oliva iniziò ad arrivare in Valle da altre regioni con una concorrenza spietata. La produzione di casa Charrère si spostò allora sulla produzione di vini di qualità."
             }
           ]
         }
       ],
       "paragrafi3": [
         {
-          "title": "Costantino Charrère",
+          "title": "L'Innovazione di Antoine e Costantino",
           "descrizione": [
             {
-              "p": "Costantino, atletico professore di ginnastica, come la moglie peraltro, e maestro di sci, ha continuato l’opera del papà Antoine e della mamma Ida, dedicandosi con passione alla viticoltura. Dapprima selezionando vitigni che altrimenti si sarebbero persi nelle montagne valdostane: la Premetta (Prié Rouge), rarissimo vitigno in via di estinzione, le cui uve sono ora vinificate in purezza secondo un protocollo innovativo in spumante metodo classico e il Fumin, altro ceppo “autoctono”, salvato dall’estinzione e vinificato con risultati eclatanti, tanto da meritarsi già nel 1999 l’attenzione della critica Nazionale con “Il sole di Luigi Veronelli”."
+              "p": "Per distinguersi, già allora, Antoine avviò un accurato processo di personalizzazione a livello colturale e di vinificazione separata dei crus mediante indicazione delle località geografiche di ciascun vigneto nonché storico, votato alla preservazione dei vitigni autoctoni, che avrebbe contribuito a valorizzare con il vino, la Valle d'Aosta. Costantino, professore di ginnastica (come la moglie anch’essa proveniente da una famiglia di agricoltori piemontesi) e maestro di sci, ha continuato l’opera del papà Antoine e della mamma Ida, abbandonando la sua professione per dedicarsi interamente alla sua profonda passione, la viticoltura."
             },
             {
-              "p": "In Seguito, lasciato l’insegnamento, Costantino è spinto dal desiderio di dedicarsi completamente alla sua passione per il vino e realizzando quella che è ora Les Crêtes, sempre in Aymavilles, impiantando nuovi vigneti anche in altri comuni della Valle d’Aosta."
+              "p": "Il Vin o Cru de la Sabla è stato per ragioni di cuore il primo vino che Costantino decise di vinificare nel 1970 proprio in omaggio a suo padre e maestro, che gli ha trasmesso l’arte della vinificazione. E fu il vino La Sabla a diventare famoso in Valle d’Aosta ed in Italia, quando Costantino, ospitato nel 1976 nel programma “A tavola alle 7” di Ave Ninchi e Veronelli, fu invitato a farne la presentazione e ad approfondire il tema dell’allora sconosciuta e curiosa viticoltura valdostana."
             },
             {
-              "p": "Oggi, l’azienda, di proprietà della Famiglia Charrère, gestisce 35 ettari di vigneto distribuiti in sei comuni valdostani. Con la sua produzione annua di 250.000 bottiglie è la più grande azienda privata operativa sul territorio regionale."
+              "p": "Costantino, sulle orme paterne, decise in principio di selezionare e curare vitigni che altrimenti si sarebbero persi come la Premetta (Prié Rouge), rarissimo vitigno in via di estinzione ed il Fumin, altro “autoctono”, salvato dall’estinzione e vinificato con risultati eclatanti, tanto da meritarsi nel 1999 l’attenzione della critica Nazionale con “Il sole di Luigi Veronelli”. Nel 1989 Costantino prosegue la sua attività trasformandola in LES CRETES."
             }
           ]
         }
@@ -57,28 +45,14 @@
     },
 
     "section3": {
-      "title": "La nostra filosofia",
-      "descrizione": [
+      "paragrafi": [
         {
-          "p": "L’azienda Les Crêtes produce <a href='/i-vini' title='i vini di Les Cretes' class='font-bold underline'>i suoi vini</a> in un contesto alpino, che si sviluppa ai piedi del Monte Bianco, caratterizzato da montagne elevate, pendenze sabbiose e temperature rigide. Il microclima fresco, secco e ventilato è caratterizzato da suoli di origine morenica, drenanti e a forte componente minerale."
-        },
-        {
-          "p": "L’attenzione all’ambiente e le tecniche di coltivazione sono aspetti fondamentali per la nostra realtà. Questa ha un legame intrinseco e focalizzato con l’habitat circostante. Ogni attività viene svolta con la massima dedizione e cura, in relazione alla qualità e alla passione che ci contraddistingue."
-        },
-        {
-          "p": "Les Crêtes inoltre segue le linee guida dei programmi europei di settore per quanto concerne i trattamenti fitosanitari, scegliendo di fare un utilizzo ridotto di fitofarmaci. Questa è la nostra filosofia."
-        }
-      ],
-      "title2": "Dare valore al territorio significa tutelarne l’identità",
-      "descrizione2": [
-        {
-          "p": "Il principio cardine della filosofia dell’azienda è continuare a seguire i valori delle generazioni passate valorizzando il <a href='/il-terroir' title='Pagina Terroir' class='font-bold underline'> “Terroir” </a> con fedeltà e rispetto delle tradizioni. Lo sguardo, però, è sempre rivolto a quel futuro di innovazione che permette di esprimere appieno le potenzialità di un territorio vitivinicolo di montagna come quello valdostano. Una realtà unica ed irripetibile."
-        },
-        {
-          "p": "La gestione agronomica, in prevalenza manuale, segue le pratiche della lotta integrata a tutela dell’ambiente e a salvaguardia del territorio. Le condizioni climatiche favoriscono inoltre una coltivazione a basso impatto ambientale."
-        },
-        {
-          "p": "Le uve, raccolte a mano, sono disposte in piccole casse, per proteggerne l’integrità e vengono trasformate con grande attenzione. I vini, sapidi freschi ed eleganti, esprimono questa filosofia e l’essenza del ”terroir” di montagna. Sono figli di una cantina a conduzione famigliare, di piccoli appezzamenti coltivati a mano e curati nei dettagli, per ottenere uve sane, con basse rese, seguendo sia in campo che in cantina, le pratiche tradizionali ed eco-sostenibili, a tutela dell’ambiente e del territorio."
+          "title": "Il Passaggio alle Nuove Generazioni",
+          "descrizione": [
+            {
+              "p": "Il testimone è passato oggi alle sue figlie, Elena ed Eleonora classe 1977 e 1980 sin da bimbe, avevano il compito in Azienda di procurare coccinelle: sì, coccinelle! Venivano cercate e prelevate nei prati di montagna, nei dintorni di Ozein, a mezz’ora da Aymavilles, inserite nei piccoli astucci di cartone e trasportate con cura in giornata per essere liberate in vigna ove avrebbero compiuto la loro opera divorando gli acari nocivi: alle bambine, divertite da molto più che un gioco, non restava che fermarsi a guardare. Non è una fiaba di un libro ottocentesco, è stata una semplice scelta, fatta dalla famiglia Charrère che ha, sempre, in tutta la sua storia, badato alle cose concrete."
+            }
+          ]
         }
       ]
     },
@@ -87,19 +61,14 @@
       "descrizione": "L'azienda Les Crêtes nasce nel 1989 in Aymavilles (Valle d'Aosta), per opera di Costantino Charrère ed è oggi gestita dalla sua famiglia che, proprietaria di un storico mulino ad acqua del '700 e delle antiche cantine di Via Moulins, si occupa, da sei generazioni, di produzioni agroalimentari",
       "team": [
         {
-          "img": "/assets/charrere_foto.webp",
-          "name": "Costantino Charrère",
-          "role": "Imprenditore visionario, winemaker, pioniere della viticoltura in Valle d'Aosta. Socio fondatore di Les Crêtes"
+          "img": "/assets/eleonora_2.webp",
+          "name": "Eleonora Charrère",
+          "role": "Socia di Les Crêtes. Agronoma, specializzata nella gestione di vigneto e cantina."
         },
         {
           "img": "/assets/elena_2.webp",
           "name": "Elena Charrère",
           "role": "Socia di Les Crêtes. Appassionata di storia, architettura e arte. Gestisce personale, marketing e comunicazione."
-        },
-        {
-          "img": "/assets/eleonora_2.webp",
-          "name": "Eleonora Charrère",
-          "role": "Socia di Les Crêtes. Agronoma, specializzata nella gestione di vigneto e cantina."
         },
         {
           "img": "/assets/giulio2.webp",

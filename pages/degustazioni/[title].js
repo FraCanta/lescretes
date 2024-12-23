@@ -166,15 +166,18 @@ const SingleDeg = ({ deg, others }) => {
                 </li>
               ))}
             </ul>
-            <div className="flex flex-col gap-4 p-4 my-10 bg-second">
-              <h2 className="text-main text-3xl xl:text-2xl font-bold  leading-[46px]">
-                In opzione con questa degustazione
-              </h2>
-              <p className="text-lg fxl:text-2xl font-normal  !leading-[33.2px] text-main">
-                La nostra selezione di salumi e formaggi della gastronomia
-                locale al costo aggiuntivo di €14.00 iva inclusa / persona
-              </p>
-            </div>
+            {deg?.opzione ? (
+              <div className="flex flex-col gap-4 p-4 my-10 bg-second">
+                <h2 className="text-main text-3xl xl:text-2xl font-bold  leading-[46px]">
+                  {deg?.opzione?.title}
+                </h2>
+                <p className="text-lg fxl:text-2xl font-normal  !leading-[33.2px] text-main">
+                  {deg?.opzione?.content}
+                </p>
+              </div>
+            ) : (
+              ""
+            )}
           </div>
           {deg?.descrizione?.asterisco ? (
             <p className="text-main/60">{deg?.descrizione?.asterisco}</p>
@@ -290,14 +293,26 @@ const SingleDeg = ({ deg, others }) => {
             <div className="p-4 text-center xl:text-2xl bg-main">
               <h2 className="font-bold text-white uppercase">{deg.name}</h2>
             </div>
-            <FormPrenotazione
-              deg={deg.name}
-              link={deg.title}
-              price={deg.price}
-              durata={deg.durata?.tempo}
-              tipo={deg.degustazione.vini}
-              form={deg.form}
-            />
+            {deg.opzione ? (
+              <FormPrenotazione
+                deg={deg.name}
+                link={deg.title}
+                price={deg.price}
+                durata={deg.durata?.tempo}
+                tipo={deg.degustazione.vini}
+                form={deg.form}
+                optPrice={deg.opzione.price}
+              />
+            ) : (
+              <FormPrenotazione
+                deg={deg.name}
+                link={deg.title}
+                price={deg.price}
+                durata={deg.durata?.tempo}
+                tipo={deg.degustazione.vini}
+                form={deg.form}
+              />
+            )}
           </div>
         )}
       </div>

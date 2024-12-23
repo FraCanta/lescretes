@@ -10,7 +10,6 @@ import prenotazioneKO from "@/public/locales/ko/prenotazione.json";
 import prenotazioneRU from "@/public/locales/ru/prenotazione.json";
 import prenotazioneZH from "@/public/locales/zh/prenotazione.json";
 
-import Link from "next/link";
 import Head from "next/head";
 import { Icon } from "@iconify/react";
 import FormPrenotazione3 from "@/components/formPrenotazione/formPrenotazione3";
@@ -60,10 +59,12 @@ const Prenotazione = ({ translation, formType }) => {
           language: formData.language,
           timeSlot: formData.timeSlot,
           gift: formData.gift,
+          tagliere: formData.tagliere,
         }),
       },
     });
   };
+  console.log(formData);
   if (!formData) {
     return (
       <div className="relative flex items-center justify-center h-screen bg-pattern2">
@@ -155,6 +156,7 @@ const Prenotazione = ({ translation, formType }) => {
           totalNumber: formData.totalNumber,
           durata: formData.durata,
           formType: "prenotazione",
+          tagliere: formData.tagliere,
         };
 
         const res = await fetch(`/api/email`, {
@@ -334,6 +336,26 @@ const Prenotazione = ({ translation, formType }) => {
                     </span>
                   )}
                 </li>
+
+                <li className="flex items-center gap-2">
+                  <span className="flex items-center gap-2">
+                    <Icon
+                      icon="ph:gift-thin"
+                      className="w-6 h-full text-main/80"
+                    />{" "}
+                    {translation.riepilogo.tagliere.name}
+                  </span>
+                  {formData.tagliere ? (
+                    <span className="font-bold">
+                      {translation.riepilogo.tagliere.yes}
+                    </span>
+                  ) : (
+                    <span className="font-bold">
+                      {translation.riepilogo.tagliere.no}
+                    </span>
+                  )}
+                </li>
+
                 <li className="flex items-center gap-2">
                   <span className="flex items-center gap-2">
                     <Icon

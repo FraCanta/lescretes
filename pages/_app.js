@@ -54,6 +54,20 @@ export default function App({ Component, pageProps, router }) {
             data-use-service-core
             defer
           ></Script>
+          {/* Google Analytics */}
+          <Script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-N78X2SJWPF"
+            strategy="afterInteractive"
+          ></Script>
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-N78X2SJWPF', { 'debug_mode': true });
+        `}
+          </Script>
         </main>
       </motion.div>
     </AnimatePresence>

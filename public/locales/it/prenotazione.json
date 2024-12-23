@@ -14,6 +14,11 @@
         "yes": "Sì",
         "no": "No"
       },
+      "tagliere": {
+        "name": "Opzione Tagliere",
+        "yes": "Sì",
+        "no": "No"
+      },
       "durata": "Durata",
       "totale": "Totale",
       "edit": "Modifica"

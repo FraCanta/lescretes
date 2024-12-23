@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-const HeroHome4 = ({ img, title }) => {
+const HeroHome4 = ({ img, title, subText }) => {
   return (
     <>
       <div className="w-full mx-auto flex-col  gap-[28.8px] flex  py-[25px] md:py-[80px] 3xl:py-0">
@@ -8,8 +8,7 @@ const HeroHome4 = ({ img, title }) => {
           {title}
         </h1>
         <p className="text-main/80 text-base lg:text-[21.60px] font-normal leading-normal w-[90%] 2xl:w-[80%] mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
-          phasellus mollis sit aliquam sit nullam neque ultrices.
+          {subText}
         </p>
       </div>
       <div className="relative w-full rounded-tl-sm aspect-square lg:h-screen 3xl:h-full">

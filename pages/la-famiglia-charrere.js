@@ -126,17 +126,17 @@ export default function Storia({ translation, locale }) {
         <HeroHome4
           title={translation?.hero?.title}
           img={translation?.hero?.img}
+          subText={translation?.hero?.subText}
         />
       </div>
       <Sections1 translation={translation.section1} />
       <Sections2 />
 
       <Sections3 translation={translation.section3} />
-      <div className="w-[90%] mx-auto h-[0.08rem] bg-main/20 my-10"></div>
 
-      <div className="w-[90%] mx-auto lg:py-10">
+      {/* <div className="w-[90%] mx-auto lg:py-10">
         <VideoPlayer video="/video/video2.mp4" poster="/video/cover.jpg" />
-      </div>
+      </div> */}
       <div className="w-[90%] mx-auto lg:py-10 lg:text-center flex flex-col gap-6 3xl:gap-10 3xl:py-32">
         <div className="flex flex-col gap-4 py-10 mx-auto lg:w-2/3 xl:w-[90%] 2xl:w-2/3 3xl:gap-10 3xl:w-11/12">
           <h2 className="text-4xl font-bold text-main lg:text-5xl 3xl:text-7xl">
@@ -147,7 +147,7 @@ export default function Storia({ translation, locale }) {
           </p>
         </div>
 
-        <div className="grid gap-y-16 xl:gap-4 lg:grid-cols-4">
+        <div className="grid gap-y-16 xl:gap-4 lg:grid-cols-3">
           {translation.section4.team.map((t, i) => (
             <div className="flex flex-col gap-4 3xl:gap-8" key={i}>
               <div className="relative w-full aspect-square">

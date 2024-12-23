@@ -28,7 +28,7 @@
         "img": "/assets/degustazioni/native.jpeg",
         "title": "5 Wines Experience",
         "descrizione": "Tasting of 5 wines from the territory at the wine refuge in the cellar and barricaia",
-        "price": "€40,00 VAT included/ person",
+        "price": "€34,00 VAT included/ person",
         "link": "/degustazioni/fivewines",
         "wine": true,
         "fork": true,
@@ -50,7 +50,7 @@
         "img": "/assets/degustazioni/top.jpeg",
         "title": "Top Wines Experience",
         "descrizione": "Tasting of 5 top wines accompanied by a cutting board of the local gastronomy and visit to the cellar and barricaia",
-        "price": "€70,00 VAT included/ person",
+        "price": "€65,00 VAT included/ person",
         "link": "/degustazioni/top",
         "wine": true,
         "fork": true,
@@ -61,7 +61,7 @@
         "img": "/assets/degustazioni/coteau3.jpg",
         "title": "Côteau la Tour Experience",
         "descrizione": "Tasting of 5 wines accompanied by a cutting board of the local gastronomy and visit in the cellar and barricaia. Tour of the Côteau vineyard and toast in the Medieval Tower",
-        "price": "€90.00 VAT included/ person",
+        "price": "€75.00 VAT included/ person",
         "link": "/degustazioni/tour",
         "wine": true,
         "fork": true,
@@ -72,7 +72,7 @@
         "img": "/assets/degustazioni/winemaker.jpeg",
         "title": "Winemaker's Experience",
         "descrizione": "Discover the world of Les Crêtes, told by our wine maker Raffaele, from the vineyards to the cellar.",
-        "price": "€100.00 VAT included/ person",
+        "price": "€90.00 VAT included/ person",
         "link": "/degustazioni/winemaker",
         "wine": true,
         "fork": true,
@@ -155,7 +155,7 @@
         "seoImg": "/assets/seo/native.png",
 
         "name": "5 Wines Experience",
-        "title": "native",
+        "title": "fivewines",
         "cardDesc": "Tasting of 5 wines from the territory at the wine refuge in the cellar and barricaia",
 
         "degustazione": {
@@ -186,8 +186,13 @@
         },
         "priceTitle": "Price",
 
-        "price": "40",
-        "priceCard": "€40,00 VAT included/ person",
+        "price": "34",
+        "opzione": {
+          "title": "Optional with this tasting",
+          "content": "Our selection of local cured meats and cheeses for an additional cost of €14.00 including VAT per person",
+          "price": "14"
+        },
+        "priceCard": "€34,00 VAT included/ person",
         "downloadCta": "Download",
         "download": "/pdf/degustazioni/native_wine_experience_ita.pdf",
         "shareTitle": "Share on",
@@ -317,9 +322,9 @@
 
           "asterisco": "*The wines indicated are subject to change according to availability"
         },
-        "price": "70",
+        "price": "65",
         "priceTitle": "Price",
-        "priceCard": "€70,00 VAT included/ person",
+        "priceCard": "€65,00 VAT included/ person",
 
         "download": "/pdf/degustazioni/top_wines_experience_ita.pdf",
         "reviewlink": "read our reviews",
@@ -393,8 +398,8 @@
         },
         "priceTitle": "Price",
 
-        "price": "90",
-        "priceCard": "€90.00 VAT included/ person",
+        "price": "75",
+        "priceCard": "€75.00 VAT included/ person",
 
         "download": "/pdf/degustazioni/coteau_la_tour_experience_ita.pdf",
         "reviewlink": "read our reviews",
@@ -469,8 +474,8 @@
         },
         "priceTitle": "Price",
 
-        "price": "100",
-        "priceCard": "€100.00 VAT included/ person",
+        "price": "90",
+        "priceCard": "€90.00 VAT included/ person",
 
         "download": "/pdf/degustazioni/winemakers_experience_ita.pdf",
         "reviewlink": "read our reviews",

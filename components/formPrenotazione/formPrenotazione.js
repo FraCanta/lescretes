@@ -5,7 +5,16 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import toast from "react-hot-toast";
 
-const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
+const FormPrenotazione = ({
+  deg,
+  link,
+  price,
+  durata,
+  tipo,
+  form,
+  optPrice,
+}) => {
+  console.log(optPrice);
   const [startDate, setStartDate] = useState();
   const [inputs, setInputs] = useState({
     deg: deg,
@@ -15,17 +24,21 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
   const [timeSlot, setTimeSlot] = useState(null);
   const router = useRouter();
   const [checkedGift, setCheckedGift] = useState(false);
+  const [includeTagliere, setIncludeTagliere] = useState(false); // Stato per il tagliere
 
   const startNumber = parseInt(price);
-  const totalNumber = startNumber * adultCount;
+  const endNumber = parseInt(optPrice);
+  const baseTotal = startNumber * adultCount;
+  const totalNumber = includeTagliere
+    ? (startNumber + endNumber) * adultCount
+    : baseTotal;
+
   const availableTimeSlots = [
-    "9:30 AM",
     "10:00 AM",
     "10:30 AM",
     "11:00 AM",
     "11:30 AM",
 
-    "02:30 PM",
     "03:00 PM",
     "03:30 PM",
     "04:00 PM",
@@ -36,7 +49,6 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
   ];
 
   const saturdayTimeSlots = [
-    "9:30 AM",
     "10:00 AM",
     "10:30 AM",
     "11:00 AM",
@@ -46,7 +58,7 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
     "01:00 PM",
     "01:30 PM",
     "02:00 PM",
-    "02:30 PM",
+
     "03:00 PM",
     "03:30 PM",
     "04:00 PM",
@@ -93,6 +105,11 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
     );
   };
 
+  // Funzione per gestire il cambio della checkbox del tagliere
+  const handleTagliereChange = (e) => {
+    setIncludeTagliere(e.target.checked);
+  };
+
   useEffect(() => {
     if (router.query.formData) {
       const formData = JSON.parse(router.query.formData);
@@ -102,6 +119,7 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
       setClickedRadio(formData.language);
       setTimeSlot(formData.timeSlot);
       setCheckedGift(formData.gift);
+      setIncludeTagliere(formData.tagliere); // Aggiungi questo campo
     }
   }, [router.query.formData]);
 
@@ -124,6 +142,7 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
         link: link,
         durata: durata,
         tipo: tipo,
+        tagliere: includeTagliere, // Aggiungi questo campo
       };
 
       // Reindirizza alla pagina di riepilogo con i dati del form
@@ -462,6 +481,25 @@ const FormPrenotazione = ({ deg, link, price, durata, tipo, form }) => {
               </label>
             </div>
           </div>
+          {optPrice && (
+            <div className="flex items-center gap-2 py-4">
+              <input
+                type="checkbox"
+                id="tagliere"
+                checked={includeTagliere}
+                onChange={() => setIncludeTagliere((prev) => !prev)} // Aggiungi questo evento
+                className="hidden peer" // Nasconde il checkbox originale
+              />
+              <label
+                htmlFor="tagliere"
+                className="flex items-center gap-2 p-2 transition duration-200 border-2 rounded-lg cursor-pointer border-gray peer-checked:border-main peer-checked:text-white peer-checked:bg-main"
+              >
+                <span className="font-bold ">
+                  Opzione tagliere (+{optPrice}€)
+                </span>
+              </label>
+            </div>
+          )}
 
           <div className="w-full h-[0.05rem] bg-main/50 my-6"></div>
           <div className="flex items-center justify-between gap-4 text-xl">

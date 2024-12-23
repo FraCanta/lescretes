@@ -1,55 +1,43 @@
 {
   "storia": {
     "hero": {
-      "title": "Ours is a story about legend and philosophy of life",
-      "img": "/assets/storia.webp"
+      "title": "Our story is one of tradition, passion, and innovation.",
+      "subText": "From the historical roots of the Charrère family to the creation of a wine that tells the story of Valle d'Aosta.",
+      "img": "/assets/sisters.png"
     },
     "seo": {
-      "title": "Ours is a story about legend and philosophy of life - Les Crêtes | The Charrère family | Valle d'Aosta - Italia",
+      "title": "Our story is one of tradition, passion, and innovation. - Les Crêtes | The Charrère family | Valle d'Aosta - Italia",
       "description": "Discover the history and philosophy of Les Crêtes, a winery of six generations in the Aosta Valley. Founded by Costantino Charrère, the winery is renowned for its attention to sustainability and quality wines, grown with eco-sustainable techniques in a unique alpine environment. Read more about our tradition and innovation in the heart of the Valdostan mountains."
     },
     "section1": {
-      "paragrafi": [
-        {
-          "title": "Legend",
-          "descrizione": [
-            {
-              "p": "The daughters, Elena and Eleonora, from 1977 and 1980, were responsible for searching the fields of Ozein for ladybugs for the company. These ladybugs were then transported with care and released in the vineyard, as they were useful to combat harmful mites. This activity was more than a game for the girls, and they were amused to watch them."
-            },
-            {
-              "p": "This choice of the Charrère family was not a fairy tale, but a concrete practice that reflects the sustainable approach that the family has always had in its history."
-            }
-          ]
-        }
-      ],
       "paragrafi2": [
         {
-          "title": "Beginning",
+          "title": "The Roots of the Charrère Family",
           "descrizione": [
             {
-              "p": "The great-grandfather Bernardin Charrère emigrated from Haute Savoie to Aymavilles around 1750, building the present-day building with cellars and a nut mill."
+              "p": "The Charrère family is one with deep roots and ancient traditions. In 1750, they emigrated from Grenoble (France, near the Haute-Savoie border) to Aymavilles in the Aosta Valley. In the 1800s, they built the historic family estate, which in 1983 was declared “of particularly important historical and artistic interest pursuant to Law No. 1089 of 01/06/1939.” Today, it is protected by the Superintendence for Cultural Heritage and Activities of the Aosta Valley as part of the community's historical heritage."
             },
             {
-              "p": "Great-grandfather Etienne expanded the business, including cider production in response to the needs of the market and the economy of the time. He also added a mill to grind local creali. Grandfather Louis adapted again to the needs of the market by building a new mill."
+              "p": "The property, in addition to the historic cellars, houses the *cor* with its stone mills for walnut oil pressing, rye grinding mills, and various original tools for cider and wine production, all in excellent condition. In local architecture, the *cor* was the interior space of a building designated for food production and exchange. This area played a strategic role in the economy of the time, enabling the barter trade of various goods, as monetary transactions were rare."
             },
             {
-              "p": "Antoine, Constantine’s father, managed the business until 1955 when olive oil began to arrive from other regions. It was therefore necessary to change production and the choice was to produce high quality wines. The focus was on the public and to better distinguish it began a process of customization at the cultural level (separate vinification of the crus), commercial (indication of the geographical locations of each vineyard) and historical (preservation of native vines) that would have contributed to enhance the Aosta Valley."
+              "p": "Our reserve *La Cor* is dedicated to this building, crafted from the long aging of the native Fumin grape. It was great-great-grandfather Bernardin who professionalized agricultural activity, while great-grandfather Etienne expanded it with cider production. Grandfather Louis introduced the milling of local grains, and finally, Antoine, Costantino's father, specialized in producing walnut oil and cereals until 1955, when olive oil began arriving in the valley from other regions, creating fierce competition. From that point on, the Charrère family shifted their focus to the production of quality wines."
             }
           ]
         }
       ],
       "paragrafi3": [
         {
-          "title": "Costantino Charrère",
+          "title": "The Innovation of Antoine and Costantino",
           "descrizione": [
             {
-              "p": "Costantino, atletico professore di ginnastica, come la moglie peraltro, e maestro di sci, ha continuato l’opera del papà Antoine e della mamma Ida, dedicandosi con passione alla viticoltura. Dapprima selezionando vitigni che altrimenti si sarebbero persi nelle montagne valdostane: la Premetta (Prié Rouge), rarissimo vitigno in via di estinzione, le cui uve sono ora vinificate in purezza secondo un protocollo innovativo in spumante metodo classico e il Fumin, altro ceppo “autoctono”, salvato dall’estinzione e vinificato con risultati eclatanti, tanto da meritarsi già nel 1999 l’attenzione della critica Nazionale con “Il sole di Luigi Veronelli”."
+              "p": "To stand out even then, Antoine initiated a meticulous process of customization at the cultivation level, along with separate vinification of the *crus*, identifying the geographical locations of each vineyard. His work was also historically oriented, aimed at preserving native grape varieties, a commitment that would help highlight the Aosta Valley through its wines. Costantino, a gymnastics teacher (like his wife, who also came from a family of Piedmontese farmers) and a ski instructor, continued the work of his parents, Antoine and Ida. He left his profession to dedicate himself entirely to his deep passion: viticulture."
             },
             {
-              "p": "In Seguito, lasciato l’insegnamento, Costantino è spinto dal desiderio di dedicarsi completamente alla sua passione per il vino e realizzando quella che è ora Les Crêtes, sempre in Aymavilles, impiantando nuovi vigneti anche in altri comuni della Valle d’Aosta."
+              "p": "The wine Cru de la Sabla was, for sentimental reasons, the first wine that Costantino decided to vinify in 1970 as a tribute to his father and mentor, who passed on the art of winemaking to him. It was La Sabla that gained fame in the Aosta Valley and throughout Italy when Costantino, featured in 1976 on the program A tavola alle 7 with Ave Ninchi and Veronelli, was invited to present the wine and delve into the then-unknown and intriguing world of Aosta Valley viticulture."
             },
             {
-              "p": "Oggi, l’azienda, di proprietà della Famiglia Charrère, gestisce 35 ettari di vigneto distribuiti in sei comuni valdostani. Con la sua produzione annua di 250.000 bottiglie è la più grande azienda privata operativa sul territorio regionale."
+              "p": "Following in his father’s footsteps, Costantino initially decided to select and nurture grape varieties that would otherwise have been lost, such as *Premetta* (*Prié Rouge*), a very rare and endangered variety, and *Fumin*, another native grape saved from extinction and vinified with outstanding results. In 1999, his work earned national acclaim with Il Sole di Luigi Veronelli. In 1989, Costantino advanced his efforts by founding *LES CRETES*."
             }
           ]
         }
@@ -57,50 +45,32 @@
     },
 
     "section3": {
-      "title": "Our philosophy",
-      "descrizione": [
+      "paragrafi": [
         {
-          "p": "The company Les Crêtes produces <a href='/vini' title='i vini di Les Cretes' class='font-bold underline'> its wines</a> in an alpine context, which develops at the foot of Mont Blanc, characterized by high mountains, sandy slopes and cold temperatures. The fresh, dry and ventilated microclimate is characterized by soils of morainic origin, draining and with a strong mineral component."
-        },
-        {
-          "p": "Attention to the environment and cultivation techniques are fundamental aspects for our reality. This has an intrinsic and focused link with the surrounding habitat. Every activity is carried out with the utmost dedication and care, in relation to the quality and passion that distinguishes us."
-        },
-        {
-          "p": "Les Crêtes also follows the guidelines of the European sector programmes regarding phytosanitary treatments, choosing to make a reduced use of pesticides. This is our philosophy."
-        }
-      ],
-      "title2": "Giving value to the territory means protecting its identity",
-      "descrizione2": [
-        {
-          "p": "The core principle of the company’s philosophy is to continue to follow the values of past generations by enhancing the <a href='/terroir' title='Pagina Terroir' class='font-bold underline'> “Terroir” </a> with fidelity and respect for traditions. The gaze, however, is always turned to that future of innovation that allows to fully express the potential of a mountain wine territory like that of the Aosta Valley. A unique and unrepeatable reality."
-        },
-        {
-          "p": "The agronomic management, mainly manual, follows the practices of integrated control to protect the environment and safeguard the territory. Climatic conditions also favour cultivation with a low environmental impact."
-        },
-        {
-          "p": "The grapes, harvested by hand, are arranged in small crates, to protect the integrity and are processed with great care. The fresh and elegant savory wines express this philosophy and the essence of the 'Terroir' of the mountains. They are the children of a family-run winery, of small plots cultivated by hand and cared for in detail, to obtain healthy grapes, with low yields, following both in the field and in the cellar, traditional and eco-sustainable practices, to protect the environment and the territory."
+          "title": "The Transition to the New Generations",
+          "descrizione": [
+            {
+              "p": "The baton has now passed to his daughters, Elena and Eleonora, born in 1977 and 1980. Since they were little girls, they had the task of collecting ladybugs: yes, ladybugs! They were searched for and gathered in the mountain meadows around Ozein, half an hour from Aymavilles, placed in small cardboard boxes, and carefully transported during the day to be released in the vineyards, where they would carry out their work by devouring harmful mites. The little girls, fascinated by what was more than just a game, could only stop and watch. This is not a tale from an 19th-century book; it was a simple choice made by the Charrère family, which has always focused on practical matters throughout its history."
+            }
+          ]
         }
       ]
     },
     "section4": {
       "title": "From 6 generations in quality wine",
-      "descrizione": "The company Les Crêtes was founded in 1989 in Aymavilles (Aosta Valley), by Costantino Charrère and is now managed by his family who, owner of a historic water mill from the 18th century and the old wineries in Via Moulins, she has been producing food for six generations",
+      "descrizione": "Les Crêtes was founded in 1989 in Aymavilles (Aosta Valley) by Costantino Charrère and is now managed by his family. The family, owners of a historic 18th-century watermill and the ancient cellars of Via Moulins, has been involved in agro-food production for six generations.",
       "team": [
         {
-          "img": "/assets/charrere_foto.webp",
-          "name": "Costantino Charrère",
-          "role": "Visionary entrepreneur, winemaker, pioneer of viticulture in the Aosta Valley. Founding member of Les Crêtes"
-        },
-        {
-          "img": "/assets/elena2.webp",
-          "name": "Elena Charrère",
-          "role": "Partner of Les Crêtes. Passionate about history, architecture and art. She manages personnel, marketing and communication."
-        },
-        {
-          "img": "/assets/eleonora.webp",
+          "img": "/assets/eleonora_2.webp",
           "name": "Eleonora Charrère",
           "role": "Partner in Les Crêtes. Agronomist, specialized in vineyard and winery management."
         },
+        {
+          "img": "/assets/elena_2.webp",
+          "name": "Elena Charrère",
+          "role": "Partner of Les Crêtes. Passionate about history, architecture and art. She manages personnel, marketing and communication."
+        },
+
         {
           "img": "/assets/giulio2.webp",
           "name": "Giulio Corti",
@@ -108,6 +78,7 @@
         }
       ]
     },
+
     "testimonials": {
       "title": "Testimonials",
       "button": "Submit Review"

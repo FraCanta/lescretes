@@ -27,7 +27,7 @@
         "img": "/assets/degustazioni/native.jpeg",
         "title": "5 Wines Experience",
         "descrizione": "Degustazione di 5 vini del territorio presso il rifugio dei vini in cantina e barricaia",
-        "price": "€40,00 iva inclusa / persona",
+        "price": "€34,00 iva inclusa / persona",
         "link": "/degustazioni/fivewines",
         "wine": true,
         "fork": true,
@@ -49,7 +49,7 @@
         "img": "/assets/degustazioni/top.jpeg",
         "title": "Top Wines Experience",
         "descrizione": "Degustazione di 5 vini di alta qualità accompagnati da un tagliere della gastronomia locale e visita alla cantina e barricaia",
-        "price": "€70,00 iva inclusa / persona",
+        "price": "€65,00 iva inclusa / persona",
         "link": "/degustazioni/top",
         "wine": true,
         "fork": true,
@@ -60,7 +60,7 @@
         "img": "/assets/degustazioni/coteau3.jpg",
         "title": "Côteau la Tour Experience",
         "descrizione": "Degustazione di 5 vini accompagnati da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto di Côteau e brindisi nella torre medievale",
-        "price": "€90.00 iva inclusa / persona",
+        "price": "€75.00 iva inclusa / persona",
         "link": "/degustazioni/tour",
         "wine": true,
         "fork": true,
@@ -71,7 +71,7 @@
         "img": "/assets/degustazioni/winemaker.jpeg",
         "title": "Winemaker's Experience",
         "descrizione": "Scopri il mondo di Les Crêtes, raccontato dal nostro enologo Raffaele, dai vigneti alla cantina.",
-        "price": "€100.00 iva inclusa / persona",
+        "price": "€90.00 iva inclusa / persona",
         "link": "/degustazioni/winemaker",
         "wine": true,
         "fork": true,
@@ -160,7 +160,7 @@
 
         "degustazione": {
           "title": "Degustazione",
-          "vini": "5 vini + formaggi e salumi locali"
+          "vini": "5 vini"
         },
         "durata": { "title": "Durata", "tempo": "90'" },
 
@@ -175,21 +175,23 @@
             "title": "Include:",
             "lista": [
               { "testo": "- Degustazione di 5 vini" },
-              { "testo": "- Visita alla cantina e barricaia" },
-              {
-                "testo": "- Selezione di salumi e formaggi locali"
-              }
+              { "testo": "- Visita alla cantina e barricaia" }
             ]
           }
         },
         "priceTitle": "Prezzo",
 
-        "price": "40",
-        "priceCard": "€40,00 iva inclusa / persona",
+        "price": "34",
+        "priceCard": "34,00 iva inclusa / persona",
         "downloadCta": "Scarica qui",
         "download": "/pdf/degustazioni/native_wine_experience_ita.pdf",
         "shareTitle": "Condividi su",
         "bookNow": "Prenota ora",
+        "opzione": {
+          "title": "In opzione con questa degustazione",
+          "content": "La nostra selezione di salumi e formaggi della gastronomia locale al costo aggiuntivo di €14.00 iva inclusa / persona",
+          "price": "14"
+        },
         "testimonials": {
           "title": "Ultime recensioni",
           "button": "Scrivi una recensione"
@@ -313,9 +315,9 @@
 
           "asterisco": "*I vini indicati sono soggetti a modifiche in base alla disponibilità"
         },
-        "price": "70",
+        "price": "65",
         "priceTitle": "Prezzo",
-        "priceCard": "€70,00 iva inclusa/ persona",
+        "priceCard": "€65,00 iva inclusa/ persona",
 
         "download": "/pdf/degustazioni/top_wines_experience_ita.pdf",
         "reviewlink": "leggi le recensioni",
@@ -388,8 +390,8 @@
         },
         "priceTitle": "Prezzo",
 
-        "price": "90",
-        "priceCard": "€90.00 iva inclusa/ persona",
+        "price": "75",
+        "priceCard": "€75.00 iva inclusa/ persona",
 
         "download": "/pdf/degustazioni/coteau_la_tour_experience_ita.pdf",
         "reviewlink": "leggi le recensioni",
@@ -462,8 +464,8 @@
         },
         "priceTitle": "Prezzo",
 
-        "price": "100",
-        "priceCard": "€100.00 iva inclusa/ persona",
+        "price": "90",
+        "priceCard": "€90.00 iva inclusa/ persona",
 
         "download": "/pdf/degustazioni/winemakers_experience_ita.pdf",
         "reviewlink": "leggi le recensioni",
