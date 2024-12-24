@@ -262,6 +262,8 @@ const SingleDeg = ({ deg, others }) => {
           durata={deg.durata?.tempo}
           tipo={deg.degustazione.vini}
           form={deg.form}
+          optPrice={deg.opzione.price}
+          opzione={deg.opzione}
         />
 
         {deg.prenotaBtn ? (

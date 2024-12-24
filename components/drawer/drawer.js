@@ -5,7 +5,18 @@ import FormPrenotazione from "../formPrenotazione/formPrenotazione";
 import { Icon } from "@iconify/react";
 import FormPrenotazione2 from "../formPrenotazione/formPrenotazione2";
 
-const Drawer = ({ isOpen, onClose, deg, link, price, durata, tipo, form }) => {
+const Drawer = ({
+  isOpen,
+  onClose,
+  deg,
+  link,
+  price,
+  durata,
+  tipo,
+  form,
+  optPrice,
+  opzione,
+}) => {
   const controls = useAnimation();
 
   // Configurazioni per le animazioni
@@ -67,7 +78,17 @@ const Drawer = ({ isOpen, onClose, deg, link, price, durata, tipo, form }) => {
             <Icon icon="carbon:close-filled" className="w-6 h-6 text-main " />{" "}
           </button>
         </div>
-        {form && (
+        {form && opzione ? (
+          <FormPrenotazione
+            deg={deg}
+            link={link}
+            price={price}
+            durata={durata}
+            tipo={tipo}
+            form={form}
+            optPrice={optPrice}
+          />
+        ) : (
           <FormPrenotazione
             deg={deg}
             link={link}
