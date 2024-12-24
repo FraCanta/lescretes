@@ -252,19 +252,32 @@ const SingleDeg = ({ deg, others }) => {
             </button>
           )}
         </div>
-
-        <Drawer
-          isOpen={isDrawerOpen}
-          onClose={handleCloseDrawer}
-          deg={deg.name}
-          link={deg.title}
-          price={deg.price}
-          durata={deg.durata?.tempo}
-          tipo={deg.degustazione.vini}
-          form={deg.form}
-          optPrice={deg.opzione.price}
-          opzione={deg.opzione}
-        />
+        {deg.opzione ? (
+          <Drawer
+            isOpen={isDrawerOpen}
+            onClose={handleCloseDrawer}
+            deg={deg.name}
+            link={deg.title}
+            price={deg.price}
+            durata={deg.durata?.tempo}
+            tipo={deg.degustazione.vini}
+            form={deg.form}
+            optPrice={deg.opzione.price}
+            opzione={deg.opzione}
+          />
+        ) : (
+          <Drawer
+            isOpen={isDrawerOpen}
+            onClose={handleCloseDrawer}
+            deg={deg.name}
+            link={deg.title}
+            price={deg.price}
+            durata={deg.durata?.tempo}
+            tipo={deg.degustazione.vini}
+            form={deg.form}
+            opzione={deg.opzione}
+          />
+        )}
 
         {deg.prenotaBtn ? (
           <div className="flex flex-col w-full gap-6">
