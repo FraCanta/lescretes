@@ -78,26 +78,28 @@ const Drawer = ({
             <Icon icon="carbon:close-filled" className="w-6 h-6 text-main " />{" "}
           </button>
         </div>
-        {form && opzione ? (
-          <FormPrenotazione
-            deg={deg}
-            link={link}
-            price={price}
-            durata={durata}
-            tipo={tipo}
-            form={form}
-            optPrice={optPrice}
-          />
-        ) : (
-          <FormPrenotazione
-            deg={deg}
-            link={link}
-            price={price}
-            durata={durata}
-            tipo={tipo}
-            form={form}
-          />
-        )}
+        {form ? (
+          opzione ? (
+            <FormPrenotazione
+              deg={deg}
+              link={link}
+              price={price}
+              durata={durata}
+              tipo={tipo}
+              form={form}
+              optPrice={optPrice}
+            />
+          ) : (
+            <FormPrenotazione
+              deg={deg}
+              link={link}
+              price={price}
+              durata={durata}
+              tipo={tipo}
+              form={form}
+            />
+          )
+        ) : null}
       </motion.div>
     </>
   );
