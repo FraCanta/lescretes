@@ -37,20 +37,17 @@ const SingleCosmetic = ({ cosm, others }) => {
     <>
       <Head>
         <title>{`Les Crêtes - ${contents}`}</title>
-        <meta
-          property="og:image"
-          content={`https://lescretes-liard.vercel.app${cosm.img}`}
-        />
+        <meta property="og:image" content={`https://lescretes.it${cosm.img}`} />
         <meta
           property="og:url"
-          content={`https://lescretes-liard.vercel.app/cosmesi/${cosm?.title}`}
+          content={`https://lescretes.it/cosmesi/${cosm?.title}`}
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={`Les Crêtes - ${contents}`} />
         <meta property="og:description" content={cosm.details} />
         <meta
           property="og:image"
-          content={`https://lescretes-liard.vercel.app${cosm.img}`}
+          content={`https://lescretes.it${cosm.img}`}
         ></meta>
       </Head>
 
@@ -126,7 +123,7 @@ const SingleCosmetic = ({ cosm, others }) => {
                 <li>
                   {" "}
                   <FacebookShareButton
-                    url={`https://lescretes-liard.vercel.app/cosmesi/${cosm?.title}`}
+                    url={`https://lescretes.it/cosmesi/${cosm?.title}`}
                     hashtag={"#lescretes"}
                   >
                     {/* <FacebookIcon size={32} round /> */}
@@ -140,7 +137,7 @@ const SingleCosmetic = ({ cosm, others }) => {
                 <li className="text-[#757575]">
                   {" "}
                   <WhatsappShareButton
-                    url={`https://lescretes-liard.vercel.app/cosmesi/${cosm?.title}`}
+                    url={`https://lescretes.it/cosmesi/${cosm?.title}`}
                     separator="- "
                   >
                     <Icon

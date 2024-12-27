@@ -36,10 +36,7 @@ const SingleWine = ({ wine, others }) => {
       <Head>
         <title>{`${wine?.name} - Les Crêtes`}</title>
 
-        <meta
-          property="og:image"
-          content={`https://lescretes-liard.vercel.app${wine.seoimg}`}
-        />
+        <meta property="og:image" content={`https://lescretes${wine.seoimg}`} />
         <meta name="description" content={wine.tabs[0]?.content[0]?.text} />
       </Head>
       <div className="bg-second rounded-sm min-h-[calc(100vh_-_70px)] bg-pattern3a md:min-h-[calc(100vh_-_60px)] fxl:min-h-[calc(100vh_-_100px)]  h-full relative ">
@@ -353,7 +350,7 @@ const SingleWine = ({ wine, others }) => {
               <li>
                 {" "}
                 <FacebookShareButton
-                  url={`https://lescretes-liard.vercel.app/i-vini/${wine?.cat}/${wine?.title}`}
+                  url={`https://lescretes/i-vini/${wine?.cat}/${wine?.title}`}
                   hashtag={"#lescretes"}
                 >
                   {/* <FacebookIcon size={32} round /> */}
@@ -368,7 +365,7 @@ const SingleWine = ({ wine, others }) => {
               <li className="text-[#757575]">
                 {" "}
                 <WhatsappShareButton
-                  url={`https://lescretes-liard.vercel.app/i-vini/${wine?.cat}/${wine?.title}`}
+                  url={`https://lescretes/i-vini/${wine?.cat}/${wine?.title}`}
                   separator="- "
                 >
                   <Icon

@@ -88,7 +88,7 @@ const Terroir = ({ translation, locale }) => {
           <meta property="og:site_name" content="Les Crêtes" />
           <meta
             property="og:image"
-            content="https://lescretes-liard.vercel.app/assets/seo/cover_terroir.png"
+            content="https://lescretes/assets/seo/cover_terroir.png"
           />
           <meta property="og:image:alt" content="Les Crêtes cover image" />
           <meta property="og:image:width" content="1200" />
@@ -107,7 +107,7 @@ const Terroir = ({ translation, locale }) => {
           />
           <meta
             name="twitter:image"
-            content="https://lescretes-liard.vercel.app/assets/seo/cover_terroir.png"
+            content="https://lescretes/assets/seo/cover_terroir.png"
           />
           <meta name="twitter:image:alt" content="Les Crêtes cover image" />
           <script

@@ -86,7 +86,7 @@ const Rifugio = ({ translation, locale }) => {
           <meta property="og:site_name" content="Les Crêtes" />
           <meta
             property="og:image"
-            content="https://lescretes-liard.vercel.app/assets/seo/rifugio_cover.png"
+            content="https://lescretes/assets/seo/rifugio_cover.png"
           />
           <meta property="og:image:alt" content="Les Crêtes cover image" />
           <meta property="og:image:width" content="1200" />
@@ -105,7 +105,7 @@ const Rifugio = ({ translation, locale }) => {
           />
           <meta
             name="twitter:image"
-            content="https://lescretes-liard.vercel.app/assets/seo/rifugio_cover.png"
+            content="https://lescretes/assets/seo/rifugio_cover.png"
           />
           <meta name="twitter:image:alt" content="Les Crêtes cover image" />
           <script
