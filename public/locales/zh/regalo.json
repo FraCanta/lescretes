@@ -1,0 +1,83 @@
+{
+  "regalo": {
+    "cards": [
+      {
+        "img": "/assets/degustazioni/tre2.png",
+        "title": "3 Wines Experience",
+        "descrizione": "Degustazione di tre vini al Rifugio del Vino e visita alla cantina e alla cantina",
+        "price": "€25.00 iva inclusa / persona",
+        "link": "/degustazioni/trewines",
+        "wine": true,
+        "fork": false,
+        "bed": false,
+        "tempo": "60'"
+      },
+      {
+        "img": "/assets/degustazioni/native.jpeg",
+        "title": "5 Wines Experience",
+        "descrizione": "Degustazione di 5 vini del territorio presso il rifugio dei vini in cantina e barricaia",
+        "price": "€34,00 iva inclusa / persona",
+        "link": "/degustazioni/fivewines",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "90'"
+      },
+      {
+        "img": "/assets/degustazioni/cheese.jpeg",
+        "title": "Wine and Cheese Experience",
+        "descrizione": "Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali e visita alla cantina e barricaia",
+        "price": "€45.00 iva inclusa / persona",
+        "link": "/degustazioni/cheese",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "90'"
+      },
+      {
+        "img": "/assets/degustazioni/top.jpeg",
+        "title": "Top Wines Experience",
+        "descrizione": "Degustazione di 5 vini di alta qualità accompagnati da un tagliere della gastronomia locale e visita alla cantina e barricaia",
+        "price": "€65,00 iva inclusa / persona",
+        "link": "/degustazioni/top",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "105'"
+      },
+      {
+        "img": "/assets/degustazioni/coteau3.jpg",
+        "title": "Côteau la Tour Experience",
+        "descrizione": "Degustazione di 5 vini accompagnati da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto di Côteau e brindisi nella torre medievale",
+        "price": "€75.00 iva inclusa / persona",
+        "link": "/degustazioni/tour",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "120'"
+      },
+      {
+        "img": "/assets/degustazioni/winemaker.jpeg",
+        "title": "Winemaker's Experience",
+        "descrizione": "Scopri il mondo di Les Crêtes, raccontato dal nostro enologo Raffaele, dai vigneti alla cantina.",
+        "price": "€90.00 iva inclusa / persona",
+        "link": "/degustazioni/winemaker",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "120'"
+      },
+      {
+        "img": "/assets/degustazioni/wellness.jpeg",
+        "title": "Wellness & Wine Tasting",
+        "descrizione": "Una notte di soggiorno in camera doppia presso QC Terme Spas & Resorts, con percorso benessere + degustazione di 5 vini selezionati con 6 formaggi locali, visita alla cantina e barricaia.",
+        "price": "A partire da €346,00 iva inclusa",
+        "link": "/degustazioni/wellness",
+        "wine": true,
+        "fork": true,
+        "bed": true,
+        "tempo": "90'"
+      }
+    ]
+  }
+}

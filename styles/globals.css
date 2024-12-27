@@ -73,6 +73,13 @@ span {
     background-position: bottom right;
   }
 
+  .bg-pattern4 {
+    background-image: url("../public/assets/pattern2.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
   .bg-404 {
     background-image: url("../public/assets/4042.jpg");
     background-size: cover;
