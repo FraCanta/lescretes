@@ -201,7 +201,7 @@ const SingleDeg = ({ deg, others }) => {
                 <li>
                   {" "}
                   <FacebookShareButton
-                    url={`https://lescretes-liard.vercel.app/degustazioni/${deg?.title}`}
+                    url={`https://lescretes.it/degustazioni/${deg?.title}`}
                     hashtag={"#lescretes"}
                   >
                     <Icon
@@ -214,7 +214,7 @@ const SingleDeg = ({ deg, others }) => {
                 <li className="text-[#757575]">
                   {" "}
                   <WhatsappShareButton
-                    url={`https://lescretes-liard.vercel.app/degustazioni/${deg?.title}`}
+                    url={`https://lescretes.it/degustazioni/${deg?.title}`}
                     separator="- "
                   >
                     <Icon
