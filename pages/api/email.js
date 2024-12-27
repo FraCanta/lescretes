@@ -35,12 +35,12 @@ export default async function mailer(req, res) {
 
   // Crea il trasportatore per inviare le email
   const transporter = nodemailer.createTransport({
-    host: "smtp.ionos.it",
-    port: 465,
-    secure: true,
+    host: process.env.SMTP_HOST,
+    port: process.env.SMTP_PORT,
+    secure: process.env.SMTP_SECURE === "true", // Confronto booleano
     auth: {
-      user: "info@lescretes.it",
-      pass: "infocontact_2024?!", // Usa le credenziali corrette
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PASS,
     },
   });
 

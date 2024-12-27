@@ -12,10 +12,8 @@ export default async function mailer(req, res) {
     port: 465,
     secure: true,
     auth: {
-      // user: "thalliondev@gmail.com",
-      // pass: "lywb cntb nbqm uckr",
-      user: "info@lescretes.it",
-      pass: "infocontact_2024?!",
+      // user: "info@lescretes.it",
+      // pass: "infocontact_2024?!",
     },
   });
 

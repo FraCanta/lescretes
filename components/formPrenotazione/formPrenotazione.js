@@ -53,11 +53,6 @@ const FormPrenotazione = ({
     "10:30 AM",
     "11:00 AM",
     "11:30 AM",
-    "12:00 PM",
-    "12:30 PM",
-    "01:00 PM",
-    "01:30 PM",
-    "02:00 PM",
 
     "03:00 PM",
     "03:30 PM",
@@ -154,13 +149,6 @@ const FormPrenotazione = ({
       toast.error("Per favore, compila tutti i campi richiesti.");
       console.log("errore", error);
     }
-  };
-
-  const handleChange = (e) => {
-    setInputs((prev) => ({
-      ...prev,
-      [e.target.id]: e.target.value,
-    }));
   };
 
   const incrementAdultCount = () => {
@@ -486,7 +474,7 @@ const FormPrenotazione = ({
               <input
                 type="checkbox"
                 id="tagliere"
-                checked={includeTagliere}
+                checked={includeTagliere} // Aggiungi questo campo
                 onChange={() => setIncludeTagliere((prev) => !prev)} // Aggiungi questo evento
                 className="hidden peer" // Nasconde il checkbox originale
               />
