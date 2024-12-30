@@ -81,15 +81,9 @@
         "name": "Fleurs DeVin Soin Visage",
         "details": "Delicate floral face cream",
         "button": "/cosmesi/soinvisage",
-        "price": "€ 40,00 VAT included"
+        "price": "€ 34,00 VAT included"
       },
-      {
-        "img": "/assets/cosmetici/gommage.webp",
-        "name": "Visage DeVin Gommage Doux",
-        "details": "Delicate scrub",
-        "button": "/cosmesi/gommage",
-        "price": "€ 30,00 VAT included"
-      },
+
       {
         "img": "/assets/cosmetici/tonico.webp",
         "name": "Visage DeVin Lotion Tonique ",
@@ -103,21 +97,21 @@
         "name": "Cristal DeVin ",
         "details": "Eau Parfumee Fraiche",
         "button": "/cosmesi/parfumee",
-        "price": "€ 24,00 VAT included"
+        "price": "€ 18,00 VAT included"
       },
       {
         "img": "/assets/cosmetici/diffusore.webp",
         "name": "Thé DeVin",
         "details": "Fragrance diffuser",
         "button": "/cosmesi/diffuseur",
-        "price": "€ 37,00 VAT included"
+        "price": "€ 35,00 VAT included"
       },
       {
         "img": "/assets/cosmetici/corpo.webp",
         "name": "Fleurs DeVin Soin Corps",
         "details": "Delicate body cream florita",
         "button": "/cosmesi/pepin",
-        "price": "€ 30,00 VAT included"
+        "price": "€ 25,00 VAT included"
       }
     ],
     "singleCosmetic": {
@@ -148,7 +142,7 @@
         "faq": [
           {
             "question": "Where can I buy cosmetics?",
-            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (info@lescretes.it) to arrange a shipment."
+            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (elena.bortoletto@lescretes.it) to arrange a shipment."
           }
         ]
       },
@@ -171,7 +165,7 @@
         "downloadTitle": "Download",
         "download": "/pdf/cosmesi/soins_visage_ita.pdf",
         "priceTitle": "Price",
-        "price": "€ 40,00 VAT included",
+        "price": "€ 34,00 VAT included",
         "share": "Share on",
         "highlights": {
           "title": "You may also like"
@@ -183,38 +177,7 @@
           }
         ]
       },
-      "gommage": {
-        "img": "/assets/cosmetici/gommage.webp",
-        "name": "Visage DeVin Gommage Doux",
-        "ml": "50ml",
-        "descrizione": [
-          {
-            "testo": "Scrub cream for the face with microferule of grape seeds that perform an effective and gentle smoothing action returning to the skin its natural brightness. The oils of grapevines, olive and almonds are formulated together with extracts of hibiscus and elicriso for a greater emollient action. Fragrance of vineyard peach."
-          }
-        ],
-        "ingredientiTitle": "Ingredients",
-        "ingredienti": "Contains grapeseed oil, grapefruit microspores or vitis vinifera seed powder (gentle mechanical scrub action), organic sweet almond oil, extract of Hibiscus biologico, active water of organic elixir (flowers), organic olive oil",
-        "istruzioniTitle": "Instructions for use",
-        "istruzioni": "We recommend its use once a week on moistened face, rinse with warm water.",
 
-        "details": "Gentle scrub",
-        "title": "gommage",
-        "button": "/cosmesi/gommage",
-        "downloadTitle": "Scarica qui",
-        "download": "/pdf/cosmesi/gommage_ita.pdf",
-        "priceTitle": "Prezzo",
-        "price": "€ 30,00 iva inclusa",
-        "share": "Share on",
-        "highlights": {
-          "title": "You may also like"
-        },
-        "faq": [
-          {
-            "question": "Where can I buy cosmetics?",
-            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (info@lescretes.it) to arrange a shipment."
-          }
-        ]
-      },
       "lotion": {
         "img": "/assets/cosmetici/tonico.webp",
         "name": "Visage DeVin Lotion Tonique ",
@@ -271,7 +234,7 @@
         "downloadTitle": "Scarica qui",
         "download": "/pdf/cosmesi/cristal_ita.pdf",
         "priceTitle": "Prezzo",
-        "price": "€ 24,00 iva inclusa",
+        "price": "€ 18,00 iva inclusa",
         "share": "Share on",
         "highlights": {
           "title": "You may also like"
@@ -306,7 +269,7 @@
         "downloadTitle": "Scarica qui",
         "download": "/pdf/cosmesi/diffusore_ita.pdf",
         "priceTitle": "Prezzo",
-        "price": "€ 37,00 iva inclusa",
+        "price": "€ 35,00 iva inclusa",
         "share": "Share on",
         "highlights": {
           "title": "You may also like"
@@ -341,10 +304,10 @@
         "downloadTitle": "Scarica qui",
         "download": "/pdf/cosmesi/soins_corp_ita.pdf",
         "priceTitle": "Prezzo",
-        "price": "€ 30,00 iva inclusa",
+        "price": "€ 25,00 iva inclusa",
         "share": "Share on",
         "highlights": {
-          "title": "TYou may also like"
+          "title": "You may also like"
         },
         "faq": [
           {

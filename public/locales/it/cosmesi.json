@@ -81,15 +81,9 @@
         "name": "Fleurs DeVin Soin Visage",
         "details": "Crema viso fiorita delicata",
         "button": "/cosmesi/soinvisage",
-        "price": "€ 40,00 iva inclusa"
+        "price": "€ 34,00 iva inclusa"
       },
-      {
-        "img": "/assets/cosmetici/gommage.webp",
-        "name": "Visage DeVin Gommage Doux",
-        "details": "Scrub delicato",
-        "button": "/cosmesi/gommage",
-        "price": "€ 30,00 iva inclusa"
-      },
+
       {
         "img": "/assets/cosmetici/tonico.webp",
         "name": "Visage DeVin Lotion Tonique ",
@@ -103,21 +97,21 @@
         "name": "Cristal DeVin ",
         "details": " Eau Parfumee Fraiche",
         "button": "/cosmesi/parfumee",
-        "price": "€ 24,00 iva inclusa"
+        "price": "€ 18,00 iva inclusa"
       },
       {
         "img": "/assets/cosmetici/diffusore.webp",
         "name": "Thé DeVin",
         "details": "Diffuseur de parfum",
         "button": "/cosmesi/diffuseur",
-        "price": "€ 37,00 iva inclusa"
+        "price": "€ 35,00 iva inclusa"
       },
       {
         "img": "/assets/cosmetici/corpo.webp",
         "name": "Fleurs DeVin Soin Corps",
         "details": "Crema corpo fiorita delicata",
         "button": "/cosmesi/pepin",
-        "price": "€ 30,00 iva inclusa"
+        "price": "€ 25,00 iva inclusa"
       }
     ],
     "singleCosmetic": {
@@ -148,7 +142,7 @@
         "faq": [
           {
             "question": "Dove posso acquistare i cosmetici?",
-            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
+            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (elena.bortoletto@lescretes.it) per predisporre una spedizione."
           }
         ]
       },
@@ -171,7 +165,7 @@
         "downloadTitle": "Scarica qui",
         "download": "/pdf/cosmesi/soins_visage_ita.pdf",
         "priceTitle": "Prezzo",
-        "price": "€ 40,00 iva inclusa",
+        "price": "€ 34,00 iva inclusa",
         "share": "Condividi su",
         "highlights": {
           "title": "Ti potrebbe anche interessare"
@@ -183,38 +177,7 @@
           }
         ]
       },
-      "gommage": {
-        "img": "/assets/cosmetici/gommage.webp",
-        "name": "Visage DeVin Gommage Doux",
-        "ml": "50ml",
-        "descrizione": [
-          {
-            "testo": "Scrub in crema per il viso con microsferule di vinaccioli che svolgono un’efficace e delicata azione levigante restituendo alla pelle la sua naturale luminosità. Gli oli di vinaccioli, di oliva e mandorle sono formulati insieme agli estratti di ibisco ed elicriso per una maggior azione emolliente. Fragranza pesca di vigna."
-          }
-        ],
-        "ingredientiTitle": "Ingredienti",
-        "ingredienti": "Contiene olio di vinaccioli, microsferule di vinaccioli o vitis vinifera seed powder (azione scrub meccanica delicata), olio di mandorle dolci biologiche, estratto di Hibiscus biologico, acqua attiva di elicriso biologico (fiori), olio di oliva biologico",
-        "istruzioniTitle": "Istruzioni d'uso",
-        "istruzioni": "Si consiglia il suo utilizzo una volta a settimana su viso inumidito, sciacquare con acqua tiepida.",
 
-        "details": "Scrub delicato",
-        "title": "gommage",
-        "button": "/cosmesi/gommage",
-        "downloadTitle": "Scarica qui",
-        "download": "/pdf/cosmesi/gommage_ita.pdf",
-        "priceTitle": "Prezzo",
-        "price": "€ 30,00 iva inclusa",
-        "share": "Condividi su",
-        "highlights": {
-          "title": "Ti potrebbe anche interessare"
-        },
-        "faq": [
-          {
-            "question": "Dove posso acquistare i cosmetici?",
-            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (info@lescretes.it) per predisporre una spedizione."
-          }
-        ]
-      },
       "lotion": {
         "img": "/assets/cosmetici/tonico.webp",
         "name": "Visage DeVin Lotion Tonique ",
@@ -271,7 +234,7 @@
         "downloadTitle": "Scarica qui",
         "download": "/pdf/cosmesi/cristal_ita.pdf",
         "priceTitle": "Prezzo",
-        "price": "€ 24,00 iva inclusa",
+        "price": "€ 18,00 iva inclusa",
         "share": "Condividi su",
         "highlights": {
           "title": "Ti potrebbe anche interessare"
@@ -306,7 +269,7 @@
         "downloadTitle": "Scarica qui",
         "download": "/pdf/cosmesi/diffusore_ita.pdf",
         "priceTitle": "Prezzo",
-        "price": "€ 37,00 iva inclusa",
+        "price": "€ 35,00 iva inclusa",
         "share": "Condividi su",
         "highlights": {
           "title": "Ti potrebbe anche interessare"
@@ -341,7 +304,7 @@
         "downloadTitle": "Scarica qui",
         "download": "/pdf/cosmesi/soins_corp_ita.pdf",
         "priceTitle": "Prezzo",
-        "price": "€ 30,00 iva inclusa",
+        "price": "€ 25,00 iva inclusa",
         "share": "Condividi su",
         "highlights": {
           "title": "Ti potrebbe anche interessare"

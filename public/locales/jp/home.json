@@ -28,6 +28,84 @@
     },
     "tabs": [
       {
+        "name": "White wines",
+        "content": [
+          {
+            "img": "/assets/vinibianchi/chardonnay_cb2.webp",
+            "name": "Chardonnay Cuvée Bois",
+            "link": "/i-vini/bianchi/chardonnaycb",
+            "cat": "bianchi",
+            "vitigni": "Chardonnay 100%",
+            "origine": "D.O.P.",
+            "type": "white wines"
+          },
+          {
+            "img": "/assets/vinibianchi/chardonnay.png",
+            "name": "Chardonnay",
+            "link": "/i-vini/bianchi/chardonnay",
+            "cat": "bianchi",
+            "vitigni": "Chardonnay 100%",
+            "origine": "D.O.P.",
+            "type": "white wines"
+          },
+
+          {
+            "img": "/assets/vinibianchi/neige.png",
+            "name": "Neige d’Or",
+            "link": "/i-vini/bianchi/neige",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 60%, Pinot Gris 40%",
+            "origine": "D.O.P.",
+            "type": "white wines"
+          },
+          {
+            "img": "/assets/vinibianchi/petite_arvine.png",
+            "name": "Petite Arvine",
+            "link": "/i-vini/bianchi/petitearvine",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 100%",
+            "origine": "D.O.P.",
+            "type": "white wines"
+          },
+          {
+            "img": "/assets/vinibianchi/petite_fleur.png",
+            "name": "Petite Arvine Fleur",
+            "link": "/i-vini/bianchi/petitefleur",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 100%",
+            "origine": "D.O.P.",
+            "type": "white wines"
+          },
+          {
+            "img": "/assets/vinibianchi/pinot_grigio.png",
+            "name": "Pinot Gris Brulant",
+            "link": "/i-vini/bianchi/pinotgris",
+            "cat": "bianchi",
+            "vitigni": "Pinot Gris 100%",
+            "origine": "D.O.P.",
+            "type": "white wines"
+          },
+          {
+            "img": "/assets/vinibianchi/mon_blanc.png",
+            "name": "Mon Blanc – Vino bianco",
+            "link": "/i-vini/bianchi/monblanc",
+            "cat": "bianchi",
+            "vitigni": "Blend of native and international white grape varieties.",
+            "origine": "D.O.P.",
+            "type": "white wines"
+          },
+          {
+            "img": "/assets/vinibianchi/chambave.webp",
+            "name": "Chambave Moscato",
+            "link": "/i-vini/bianchi/chambave",
+            "cat": "bianchi",
+            "vitigni": "Moscato 100%",
+            "origine": "D.O.C.",
+            "type": "white wines"
+          }
+        ]
+      },
+      {
         "name": "Red wines",
         "content": [
           {
@@ -157,84 +235,6 @@
             "vitigni": "Blend of local black varieties: Cornalin, Fumin, Vuillermin, Gamay, Petit Rouge.",
             "origine": "D.O.P.",
             "type": "red wines"
-          }
-        ]
-      },
-      {
-        "name": "White wines",
-        "content": [
-          {
-            "img": "/assets/vinibianchi/chardonnay_cb2.webp",
-            "name": "Chardonnay Cuvée Bois",
-            "link": "/i-vini/bianchi/chardonnaycb",
-            "cat": "bianchi",
-            "vitigni": "Chardonnay 100%",
-            "origine": "D.O.P.",
-            "type": "white wines"
-          },
-          {
-            "img": "/assets/vinibianchi/chardonnay.png",
-            "name": "Chardonnay",
-            "link": "/i-vini/bianchi/chardonnay",
-            "cat": "bianchi",
-            "vitigni": "Chardonnay 100%",
-            "origine": "D.O.P.",
-            "type": "white wines"
-          },
-
-          {
-            "img": "/assets/vinibianchi/neige.png",
-            "name": "Neige d’Or",
-            "link": "/i-vini/bianchi/neige",
-            "cat": "bianchi",
-            "vitigni": "Petite Arvine 60%, Pinot Gris 40%",
-            "origine": "D.O.P.",
-            "type": "white wines"
-          },
-          {
-            "img": "/assets/vinibianchi/petite_arvine.png",
-            "name": "Petite Arvine",
-            "link": "/i-vini/bianchi/petitearvine",
-            "cat": "bianchi",
-            "vitigni": "Petite Arvine 100%",
-            "origine": "D.O.P.",
-            "type": "white wines"
-          },
-          {
-            "img": "/assets/vinibianchi/petite_fleur.png",
-            "name": "Petite Arvine Fleur",
-            "link": "/i-vini/bianchi/petitefleur",
-            "cat": "bianchi",
-            "vitigni": "Petite Arvine 100%",
-            "origine": "D.O.P.",
-            "type": "white wines"
-          },
-          {
-            "img": "/assets/vinibianchi/pinot_grigio.png",
-            "name": "Pinot Gris Brulant",
-            "link": "/i-vini/bianchi/pinotgris",
-            "cat": "bianchi",
-            "vitigni": "Pinot Gris 100%",
-            "origine": "D.O.P.",
-            "type": "white wines"
-          },
-          {
-            "img": "/assets/vinibianchi/mon_blanc.png",
-            "name": "Mon Blanc – Vino bianco",
-            "link": "/i-vini/bianchi/monblanc",
-            "cat": "bianchi",
-            "vitigni": "Blend of native and international white grape varieties.",
-            "origine": "D.O.P.",
-            "type": "white wines"
-          },
-          {
-            "img": "/assets/vinibianchi/chambave.webp",
-            "name": "Chambave Moscato",
-            "link": "/i-vini/bianchi/chambave",
-            "cat": "bianchi",
-            "vitigni": "Moscato 100%",
-            "origine": "D.O.C.",
-            "type": "white wines"
           }
         ]
       },

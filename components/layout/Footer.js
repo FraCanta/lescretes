@@ -8,7 +8,7 @@ const Footer = ({ translation }) => {
   const { locale } = useRouter();
   return (
     <>
-      <footer className="grid grid-cols-1 gap-6 p-10 xl:grid-cols-4 text-main xl:gap-0">
+      <footer className="grid grid-cols-1 gap-6 py-10 xl:grid-cols-4 text-main xl:gap-0 w-[90%] mx-auto">
         <aside className="grid grid-cols-1 gap-2">
           <Link href="/" title="Torna all'homepage di Les Crêtes">
             <Image
@@ -80,7 +80,7 @@ const Footer = ({ translation }) => {
           })}
         </nav>
       </footer>
-      <footer className="lg:text-center px-10 py-4 border-t  text-main/80 border-[#D4D2E3]">
+      <footer className="lg:text-center w-[90%] mx-auto py-4 border-t  text-main/80 border-[#D4D2E3]">
         <aside>
           <p>
             Copyright © 2024 Les Crêtes - P.iva 00520450073 | All Rights

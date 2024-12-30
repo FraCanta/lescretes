@@ -1,7 +1,7 @@
 {
   "contatti": {
     "hero": {
-      "title": "How to contact us and reach us"
+      "title": "Contacts"
     },
     "references": {
       "title": "Contact",
@@ -13,7 +13,7 @@
         "list": [
           {
             "name": "- Foreign Trade:",
-            "value": "ordini@lescretes.it"
+            "value": "elena.bortoletto@lescretes.it"
           },
           {
             "name": "- Commercial Italy:",
@@ -29,7 +29,7 @@
           },
           {
             "name": "- Guides, press contacts and magazines:",
-            "value": "elena@lescretes.it"
+            "value": "elena.bortoletto@lescretes.it"
           },
           {
             "name": "- Warehouse:",
@@ -55,32 +55,41 @@
         "reasonTitle": "Contact reason*",
         "reasonList": [
           {
-            "name": "Foreign Trade"
+            "name": "Foreign Trade",
+            "value": "foreign trade"
           },
           {
-            "name": "Commercial Italy"
+            "name": "Commercial Italy",
+            "value": "commercial italy"
           },
           {
-            "name": "Administrative"
+            "name": "Administrative",
+            "value": "administrative"
           },
           {
-            "name": "Oenological information"
+            "name": "Oenological information",
+            "value": "oenological information"
           },
           {
-            "name": "Guides, press contacts and magazines"
+            "name": "Guides, press contacts and magazines",
+            "value": "guides, press and magazines"
           },
           {
-            "name": "Orders, shipping and billing"
+            "name": "Orders, shipping and billing",
+            "value": "orders, shipping and billing"
           },
           {
-            "name": "Warehouse:"
+            "name": "Warehouse",
+            "value": "warehouse"
           },
 
           {
-            "name": "Information request"
+            "name": "Information request",
+            "value": "information request"
           },
           {
-            "name": "Other"
+            "name": "Other",
+            "value": "other"
           }
         ]
       },
@@ -89,7 +98,7 @@
         "name": "Message*",
         "placeholder": "Write your message..."
       },
-      "check": "* I declare that I have read and understood the <a class='font-bold' target='_blank'>privacy policy*</a>",
+      "check": "<span class='opacity-75'>* I declare that I have read and understood the</span> <a class='font-bold text-main' href='/privacy' target='_blank'>privacy policy*</a>",
       "submit": "Send request"
     }
   }

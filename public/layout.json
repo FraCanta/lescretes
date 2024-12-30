@@ -31,7 +31,23 @@
         ]
       },
       "vini": "Vini",
-      "degustazioni": "Degustazioni",
+      "degustazioni": {
+        "name": "Esperienza",
+        "sottomenu": [
+          {
+            "name": "Degustazioni",
+            "link": "/le-degustazioni",
+            "title": "Degustazioni",
+            "imgSrc": "/assets/deg3.jpg"
+          },
+          {
+            "name": "Reagala una degustazione",
+            "link": "/regala-una-degustazione",
+            "title": "Reagala una degustazione",
+            "imgSrc": "/assets/regala_una_degustazione.webp"
+          }
+        ]
+      },
       "news": "Megazine",
       "cosmesi": "DeVin Cosmetica",
       "download": "Press Kit",
@@ -69,7 +85,23 @@
         ]
       },
       "vini": "Wines",
-      "degustazioni": "Tastings",
+      "degustazioni": {
+        "name": "Experience",
+        "sottomenu": [
+          {
+            "name": "Tastings",
+            "link": "/le-degustazioni",
+            "title": "Tastings",
+            "imgSrc": "/assets/deg3.jpg"
+          },
+          {
+            "name": "Gift a tasting",
+            "link": "/regala-una-degustazione",
+            "title": "Gift a tasting",
+            "imgSrc": "/assets/regala_una_degustazione.webp"
+          }
+        ]
+      },
       "news": "News",
       "cosmesi": "DeVin Cosmetics",
       "download": "Download Area",
@@ -107,7 +139,23 @@
         ]
       },
       "vini": "Wines",
-      "degustazioni": "Tastings",
+      "degustazioni": {
+        "name": "Experience",
+        "sottomenu": [
+          {
+            "name": "Tastings",
+            "link": "/le-degustazioni",
+            "title": "Tastings",
+            "imgSrc": "/assets/deg3.jpg"
+          },
+          {
+            "name": "Gift a tasting",
+            "link": "/regala-una-degustazione",
+            "title": "Gift a tasting",
+            "imgSrc": "/assets/regala_una_degustazione.webp"
+          }
+        ]
+      },
       "news": "News",
       "cosmesi": "DeVin Cosmetics",
       "download": "Download Area",
@@ -171,7 +219,23 @@
         ]
       },
       "vini": "Wines",
-      "degustazioni": "Tastings",
+      "degustazioni": {
+        "name": "Experience",
+        "sottomenu": [
+          {
+            "name": "Tastings",
+            "link": "/le-degustazioni",
+            "title": "Tastings",
+            "imgSrc": "/assets/deg3.jpg"
+          },
+          {
+            "name": "Gift a tasting",
+            "link": "/regala-una-degustazione",
+            "title": "Gift a tasting",
+            "imgSrc": "/assets/regala_una_degustazione.webp"
+          }
+        ]
+      },
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
@@ -203,7 +267,23 @@
         ]
       },
       "vini": "Wines",
-      "degustazioni": "Tastings",
+      "degustazioni": {
+        "name": "Experience",
+        "sottomenu": [
+          {
+            "name": "Tastings",
+            "link": "/le-degustazioni",
+            "title": "Tastings",
+            "imgSrc": "/assets/deg3.jpg"
+          },
+          {
+            "name": "Gift a tasting",
+            "link": "/regala-una-degustazione",
+            "title": "Gift a tasting",
+            "imgSrc": "/assets/regala_una_degustazione.webp"
+          }
+        ]
+      },
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",
@@ -267,7 +347,23 @@
         ]
       },
       "vini": "Wines",
-      "degustazioni": "Tastings",
+      "degustazioni": {
+        "name": "Experience",
+        "sottomenu": [
+          {
+            "name": "Tastings",
+            "link": "/le-degustazioni",
+            "title": "Tastings",
+            "imgSrc": "/assets/deg3.jpg"
+          },
+          {
+            "name": "Gift a tasting",
+            "link": "/regala-una-degustazione",
+            "title": "Gift a tasting",
+            "imgSrc": "/assets/regala_una_degustazione.webp"
+          }
+        ]
+      },
       "news": "News",
       "cosmesi": "Cosmetics",
       "download": "Download Area",

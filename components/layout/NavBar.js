@@ -10,14 +10,18 @@ import { Icon } from "@iconify/react";
 const NavBar = ({ translation }) => {
   const { locale, pathname } = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [degOpen, setDegOpen] = useState(false);
   const [hoveredItem, setHoveredItem] = useState(null);
   const menuRef = useRef(null); // Riferimento per il sottomenu
-
+  const degRef = useRef(null); // Riferimento per il sottomenu
   useEffect(() => {
     // Funzione per gestire il clic esterno
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
         setMenuOpen(false);
+      }
+      if (degRef.current && !degRef.current.contains(event.target)) {
+        setDegOpen(false);
       }
     };
 
@@ -48,6 +52,8 @@ const NavBar = ({ translation }) => {
               <div className="group" ref={menuRef}>
                 <button
                   onClick={() => setMenuOpen(!menuOpen)}
+                  aria-label="Scopri la nostra identità"
+                  title="Scopri la nostra identità"
                   className=" text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular flex items-center"
                 >
                   {translation?.[locale]?.storia.name}{" "}
@@ -115,18 +121,71 @@ const NavBar = ({ translation }) => {
               >
                 {translation?.[locale]?.vini}
               </Link>
-              <Link
-                href={`/le-degustazioni`}
-                title="Le nostre degustazioni"
-                className={`text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center${
-                  pathname === "/i-vini"
-                    ? "underline underline-offset-4 decoration-main"
-                    : ""
-                }`}
-              >
-                {translation?.[locale]?.degustazioni}
-              </Link>
-
+              <div className="group" ref={degRef}>
+                <button
+                  onClick={() => setDegOpen(!degOpen)}
+                  title="Scopri le nostre degustazioni e come regalarle"
+                  aria-label="Scopri le nostre degustazioni e come regalarle"
+                  className=" text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular flex items-center"
+                >
+                  {translation?.[locale]?.degustazioni.name}{" "}
+                  <Icon
+                    icon="ei:chevron-down"
+                    className="w-6 h-6 3xl:w-10 3xl:h-10"
+                  />
+                </button>
+                <AnimatePresence>
+                  {degOpen && (
+                    <motion.div
+                      initial={{ y: "-100%" }}
+                      animate={{ y: 0 }}
+                      exit={{ y: "-100%" }}
+                      transition={{
+                        type: "linear",
+                        durantion: 0.3,
+                      }}
+                      className="absolute top-0 left-0 right-0 mt-[80px] w-full h-[50vh] 3xl:mt-[150px]  bg-white  transition-all p-6"
+                    >
+                      <div className="w-[90%] mx-auto grid grid-cols-2 justify-center h-full items-center ">
+                        <div className="flex flex-col gap-6 text-2xl 3xl:text-4xl 3xl:gap-10">
+                          {translation?.[locale]?.degustazioni.sottomenu.map(
+                            (item, index) => (
+                              <div
+                                key={index}
+                                className="cursor-pointer"
+                                onMouseEnter={() => setHoveredItem(index)}
+                                onMouseLeave={() => setHoveredItem(null)}
+                              >
+                                <Link href={item.link} title={item.title}>
+                                  {item.name}
+                                </Link>
+                              </div>
+                            )
+                          )}
+                        </div>
+                        <div className="relative flex justify-end w-full h-full py-6">
+                          {hoveredItem !== null && (
+                            <Image
+                              src={
+                                translation?.[locale]?.degustazioni.sottomenu[
+                                  hoveredItem
+                                ].imgSrc
+                              }
+                              alt={
+                                translation?.[locale]?.degustazioni.sottomenu[
+                                  hoveredItem
+                                ].name
+                              }
+                              fill
+                              className="object-cover"
+                            />
+                          )}
+                        </div>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
               <Link
                 href={`/cosmesi`}
                 title="La nostra cosmesi"

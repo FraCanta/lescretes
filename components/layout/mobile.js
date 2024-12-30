@@ -3,11 +3,10 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { motion, AnimatePresence } from "framer-motion";
 import { Icon } from "@iconify/react";
-import CtaOutlineBrown from "../Cta/CtaOutlineBrown";
-import Image from "next/image";
 const Mobile = ({ translation }) => {
   const { locale, pathname } = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [degOpen, setDegOpen] = useState(false);
 
   const [open, setOpen] = useState(false);
   const svgVariants = {
@@ -140,15 +139,53 @@ const Mobile = ({ translation }) => {
                 </Link>
               </motion.li>
               <motion.li variants={variants.item} animate="visibleItem">
-                <Link
-                  href={`/le-degustazioni`}
-                  title="I miei articoli"
-                  className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
-                    pathname === "/le-degustazioni" ? "font-bold" : ""
-                  }`}
+                <button
+                  onClick={() => setDegOpen(!degOpen)}
+                  className="menu-item flex text-[25px] md:text-4xl leading-[30px] font-regular text-main items-center w-full justify-between"
                 >
-                  {translation?.[locale]?.degustazioni}
-                </Link>
+                  {translation?.[locale]?.degustazioni.name}{" "}
+                  <Icon icon="ei:chevron-right" className="w-[30px] h-[30px]" />
+                </button>
+                <AnimatePresence>
+                  {degOpen && (
+                    <motion.div
+                      initial={{ x: "100%" }}
+                      animate={{ x: 0 }}
+                      exit={{ x: "100%" }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 200,
+                        damping: 30,
+                      }}
+                      className="absolute top-0 left-0 right-0 w-full h-screen py-10 bg-white"
+                    >
+                      <div className="w-[90%] mx-auto divide-y divide-third/30">
+                        <div className="grid items-center grid-cols-3 pb-6 text-center">
+                          <Icon
+                            icon="ei:chevron-left"
+                            className="w-[30px] h-[30px]"
+                            onClick={() => setDegOpen(!degOpen)}
+                          />
+                          <h2 className="text-[25px] md:text-4xl leading-[30px] font-regular text-main">
+                            {translation?.[locale]?.degustazioni.name}
+                          </h2>
+                          <div></div>
+                        </div>
+                        <div className="flex flex-col text-2xl divide-y divide-third/30">
+                          {translation?.[locale]?.degustazioni.sottomenu.map(
+                            (item, index) => (
+                              <div key={index} className="py-6">
+                                <Link href={item.link} title={item.title}>
+                                  {item.name}
+                                </Link>
+                              </div>
+                            )
+                          )}
+                        </div>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
               </motion.li>
               {/* <motion.div variants={variants.item} animate="visibleItem">
               <Link

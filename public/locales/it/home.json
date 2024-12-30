@@ -2,10 +2,10 @@
   "home": {
     "hero": {
       "title": "Viticoltura di montagna",
-      "text":"Scopri l'autenticità e l'eccellenza dei nostri vini, frutto di                 un territorio unico e di un lavoro artigianale che esalta le                 tradizioni vitivinicole della Valle d'Aosta.",
+      "text": "Scopri l'autenticità e l'eccellenza dei nostri vini, frutto di                 un territorio unico e di un lavoro artigianale che esalta le                 tradizioni vitivinicole della Valle d'Aosta.",
 
-"wines":"Scopri i nostri vini",
-      "taste":"Prenota un'esperienza"
+      "wines": "Scopri i nostri vini",
+      "taste": "Prenota un'esperienza"
     },
     "seo": {
       "title": "Les Crêtes | Viticoltori dal 1750 | Passione e Montagna | Valle d'Aosta - Italia",
@@ -28,6 +28,75 @@
       "descrizione": "I nostri vini esprimono l’essenza del terroir Valdostano. Sono figli di una viticoltura eroica ed artigianale, fatta di condizioni estreme e difficili. Creati con passione e sapienza, sono dedicati ad amatori ed esperti. Sapidi, freschi, eleganti, raccontano della montagna e della famiglia che li produce. Sono figli di piccole vigne coltivate a mano e curate nei dettagli, per ottenere uve sane, con basse rese, seguendo sia in campo che in cantina, le pratiche tradizionali ed ecosostenibili a tutela dell’ambiente. La produzione complessiva annua è in media di circa 225.000 bottiglie."
     },
     "tabs": [
+      {
+        "name": "Bianchi",
+        "content": [
+          {
+            "img": "/assets/vinibianchi/chardonnay_cb2.webp",
+            "name": "Chardonnay Cuvée Bois",
+            "link": "/i-vini/bianchi/chardonnaycb",
+            "cat": "bianchi",
+            "vitigni": "Chardonnay 100%",
+            "origine": "D.O.P.",
+            "type": "vini bianchi"
+          },
+          {
+            "img": "/assets/vinibianchi/chardonnay.png",
+            "name": "Chardonnay",
+            "link": "/i-vini/bianchi/chardonnay",
+            "cat": "bianchi",
+            "vitigni": "Chardonnay 100%",
+            "origine": "D.O.P.",
+            "type": "vini bianchi"
+          },
+
+          {
+            "img": "/assets/vinibianchi/neige.png",
+            "name": "Neige d’Or",
+            "link": "/i-vini/bianchi/neige",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 60%, Pinot Gris 40%",
+            "origine": "D.O.P.",
+            "type": "vini bianchi"
+          },
+          {
+            "img": "/assets/vinibianchi/petite_arvine.png",
+            "name": "Petite Arvine",
+            "link": "/i-vini/bianchi/petitearvine",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 100%",
+            "origine": "D.O.P.",
+            "type": "vini bianchi"
+          },
+          {
+            "img": "/assets/vinibianchi/petite_fleur.png",
+            "name": "Petite Arvine Fleur",
+            "link": "/i-vini/bianchi/petitefleur",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 100%",
+            "origine": "D.O.P.",
+            "type": "vini bianchi"
+          },
+          {
+            "img": "/assets/vinibianchi/pinot_grigio.png",
+            "name": "Pinot Gris Brulant",
+            "link": "/i-vini/bianchi/pinotgris",
+            "cat": "bianchi",
+            "vitigni": "Pinot Gris 100%",
+            "origine": "D.O.P.",
+            "type": "vini bianchi"
+          },
+          {
+            "img": "/assets/vinibianchi/mon_blanc.png",
+            "name": "Mon Blanc – Vino bianco",
+            "link": "/i-vini/bianchi/monblanc",
+            "cat": "bianchi",
+            "vitigni": "Blend di varietà autoctone ed internazionali a bacca bianca.",
+            "origine": "D.O.P.",
+            "type": "vini bianchi"
+          }
+        ]
+      },
       {
         "name": "Rossi",
         "content": [
@@ -158,75 +227,6 @@
             "vitigni": "Cornalin, Fumin, Vuillermin, Gamay, Petit Rouge",
             "origine": "D.O.P.",
             "type": "vini rossi"
-          }
-        ]
-      },
-      {
-        "name": "Bianchi",
-        "content": [
-          {
-            "img": "/assets/vinibianchi/chardonnay_cb2.webp",
-            "name": "Chardonnay Cuvée Bois",
-            "link": "/i-vini/bianchi/chardonnaycb",
-            "cat": "bianchi",
-            "vitigni": "Chardonnay 100%",
-            "origine": "D.O.P.",
-            "type": "vini bianchi"
-          },
-          {
-            "img": "/assets/vinibianchi/chardonnay.png",
-            "name": "Chardonnay",
-            "link": "/i-vini/bianchi/chardonnay",
-            "cat": "bianchi",
-            "vitigni": "Chardonnay 100%",
-            "origine": "D.O.P.",
-            "type": "vini bianchi"
-          },
-
-          {
-            "img": "/assets/vinibianchi/neige.png",
-            "name": "Neige d’Or",
-            "link": "/i-vini/bianchi/neige",
-            "cat": "bianchi",
-            "vitigni": "Petite Arvine 60%, Pinot Gris 40%",
-            "origine": "D.O.P.",
-            "type": "vini bianchi"
-          },
-          {
-            "img": "/assets/vinibianchi/petite_arvine.png",
-            "name": "Petite Arvine",
-            "link": "/i-vini/bianchi/petitearvine",
-            "cat": "bianchi",
-            "vitigni": "Petite Arvine 100%",
-            "origine": "D.O.P.",
-            "type": "vini bianchi"
-          },
-          {
-            "img": "/assets/vinibianchi/petite_fleur.png",
-            "name": "Petite Arvine Fleur",
-            "link": "/i-vini/bianchi/petitefleur",
-            "cat": "bianchi",
-            "vitigni": "Petite Arvine 100%",
-            "origine": "D.O.P.",
-            "type": "vini bianchi"
-          },
-          {
-            "img": "/assets/vinibianchi/pinot_grigio.png",
-            "name": "Pinot Gris Brulant",
-            "link": "/i-vini/bianchi/pinotgris",
-            "cat": "bianchi",
-            "vitigni": "Pinot Gris 100%",
-            "origine": "D.O.P.",
-            "type": "vini bianchi"
-          },
-          {
-            "img": "/assets/vinibianchi/mon_blanc.png",
-            "name": "Mon Blanc – Vino bianco",
-            "link": "/i-vini/bianchi/monblanc",
-            "cat": "bianchi",
-            "vitigni": "Blend di varietà autoctone ed internazionali a bacca bianca.",
-            "origine": "D.O.P.",
-            "type": "vini bianchi"
           }
         ]
       },

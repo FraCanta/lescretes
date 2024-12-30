@@ -13,9 +13,7 @@ import Head from "next/head";
 import FAQ from "@/components/FAQ/FAQ";
 import Banner from "@/components/Banner/Banner";
 import Rif from "@/public/assets/rifugio/rifugio6.webp";
-import Hero from "@/components/heroHome/Hero";
 import Deg from "@/public/assets/deg3.jpg";
-import HeroHome2 from "@/components/heroHome/HeroHome2";
 import HeroHome4 from "@/components/heroHome/HeroHome4";
 
 const Degustazioni = ({ translation }) => {
