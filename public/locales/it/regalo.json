@@ -15,7 +15,7 @@
       {
         "img": "/assets/degustazioni/native.jpeg",
         "title": "5 Wines Experience",
-        "descrizione": "Degustazione di 5 vini del territorio presso il rifugio dei vini in cantina e barricaia",
+        "descrizione": "Degustazione di 5 vini del territorio presso il Rifugio dei vini in cantina e barricaia",
         "price": "€34,00 iva inclusa / persona",
         "link": "/degustazioni/fivewines",
         "wine": true,
@@ -43,7 +43,7 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "105'"
+        "tempo": "100'"
       },
       {
         "img": "/assets/degustazioni/coteau3.jpg",
@@ -66,17 +66,6 @@
         "fork": true,
         "bed": false,
         "tempo": "120'"
-      },
-      {
-        "img": "/assets/degustazioni/wellness.jpeg",
-        "title": "Wellness & Wine Tasting",
-        "descrizione": "Una notte di soggiorno in camera doppia presso QC Terme Spas & Resorts, con percorso benessere + degustazione di 5 vini selezionati con 6 formaggi locali, visita alla cantina e barricaia.",
-        "price": "A partire da €346,00 iva inclusa",
-        "link": "/degustazioni/wellness",
-        "wine": true,
-        "fork": true,
-        "bed": true,
-        "tempo": "90'"
       }
     ]
   }

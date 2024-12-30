@@ -289,11 +289,11 @@
         "menu": [
           {
             "name": "Vini",
-            "link": "/vini"
+            "link": "/i-vini"
           },
           {
             "name": "Degustazioni",
-            "link": "/degustazioni"
+            "link": "/le-degustazioni"
           },
           {
             "name": "Cosmesi",
@@ -301,7 +301,7 @@
           },
           {
             "name": "Dove acquistare",
-            "link": "/store"
+            "link": "/store-locator"
           }
         ]
       },
@@ -339,15 +339,19 @@
         "menu": [
           {
             "name": "Wines",
-            "link": "/vini"
+            "link": "/i-vini"
           },
           {
             "name": "Tastings",
-            "link": "/degustazioni"
+            "link": "/le-degustazioni"
           },
           {
             "name": "Cosmetics",
             "link": "/cosmesi"
+          },
+          {
+            "name": "Find a store",
+            "link": "/store-locator"
           }
         ]
       },
@@ -385,15 +389,19 @@
         "menu": [
           {
             "name": "Wines",
-            "link": "/vini"
+            "link": "/i-vini"
           },
           {
             "name": "Tastings",
-            "link": "/degustazioni"
+            "link": "/le-degustazioni"
           },
           {
             "name": "Cosmetics",
             "link": "/cosmesi"
+          },
+          {
+            "name": "Find a store",
+            "link": "/store-locator"
           }
         ]
       },
@@ -427,24 +435,23 @@
         "close": "Samedi, dimanche et jours fériés fermés"
       },
       "col3": {
-        "title": "Menu",
-
+        "title": "Quick Links",
         "menu": [
           {
-            "name": "Vins",
-            "link": "/vini"
+            "name": "Wines",
+            "link": "/i-vini"
           },
           {
-            "name": "Dégustations",
-            "link": "/degustazioni"
+            "name": "Tastings",
+            "link": "/le-degustazioni"
           },
           {
-            "name": "Cosmétiques",
+            "name": "Cosmetics",
             "link": "/cosmesi"
           },
           {
-            "name": "Où acheter",
-            "link": "/store"
+            "name": "Find a store",
+            "link": "/store-locator"
           }
         ]
       },
@@ -482,15 +489,19 @@
         "menu": [
           {
             "name": "Wines",
-            "link": "/vini"
+            "link": "/i-vini"
           },
           {
             "name": "Tastings",
-            "link": "/degustazioni"
+            "link": "/le-degustazioni"
           },
           {
             "name": "Cosmetics",
             "link": "/cosmesi"
+          },
+          {
+            "name": "Find a store",
+            "link": "/store-locator"
           }
         ]
       },
@@ -528,15 +539,19 @@
         "menu": [
           {
             "name": "Wines",
-            "link": "/vini"
+            "link": "/i-vini"
           },
           {
             "name": "Tastings",
-            "link": "/degustazioni"
+            "link": "/le-degustazioni"
           },
           {
             "name": "Cosmetics",
             "link": "/cosmesi"
+          },
+          {
+            "name": "Find a store",
+            "link": "/store-locator"
           }
         ]
       },
@@ -574,15 +589,19 @@
         "menu": [
           {
             "name": "Wines",
-            "link": "/vini"
+            "link": "/i-vini"
           },
           {
             "name": "Tastings",
-            "link": "/degustazioni"
+            "link": "/le-degustazioni"
           },
           {
             "name": "Cosmetics",
             "link": "/cosmesi"
+          },
+          {
+            "name": "Find a store",
+            "link": "/store-locator"
           }
         ]
       },
@@ -620,15 +639,19 @@
         "menu": [
           {
             "name": "Wines",
-            "link": "/vini"
+            "link": "/i-vini"
           },
           {
             "name": "Tastings",
-            "link": "/degustazioni"
+            "link": "/le-degustazioni"
           },
           {
             "name": "Cosmetics",
             "link": "/cosmesi"
+          },
+          {
+            "name": "Find a store",
+            "link": "/store-locator"
           }
         ]
       },
