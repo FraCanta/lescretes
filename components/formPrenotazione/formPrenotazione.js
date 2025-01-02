@@ -14,7 +14,7 @@ const FormPrenotazione = ({
   form,
   optPrice,
 }) => {
-  console.log(optPrice);
+  console.log(link);
   const [startDate, setStartDate] = useState();
   const [inputs, setInputs] = useState({
     deg: deg,
@@ -255,64 +255,78 @@ const FormPrenotazione = ({
                 </label>
                 <div className="grid grid-cols-3 gap-2">
                   {startDate.getDay() === 6 // Sabato
-                    ? saturdayTimeSlots.map((slot) => (
-                        <div key={slot} className="flex items-center">
-                          <input
-                            type="radio"
-                            id={slot}
-                            value={slot}
-                            name="timeSlot"
-                            onChange={() => handleTimeSlotChange(slot)}
-                            className="hidden"
-                          />
-                          <label
-                            for={slot}
-                            onClick={() => handleTimeSlotChange(slot)}
-                            className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
-                              timeSlot === slot
-                                ? "bg-main text-white"
-                                : "bg-white text-main"
-                            }`}
-                          >
-                            {timeSlot === slot && (
-                              <Icon
-                                icon="material-symbols:check"
-                                className="w-4 h-4"
-                              />
-                            )}
-                            {slot}
-                          </label>
-                        </div>
-                      ))
-                    : availableTimeSlots.map((slot) => (
-                        <div key={slot} className="flex items-center">
-                          <input
-                            type="radio"
-                            id={slot}
-                            value={slot}
-                            name="timeSlot"
-                            onChange={() => handleTimeSlotChange(slot)}
-                            className="hidden"
-                          />
-                          <label
-                            for={slot}
-                            onClick={() => handleTimeSlotChange(slot)}
-                            className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
-                              timeSlot === slot
-                                ? "bg-main text-white"
-                                : "bg-white text-main"
-                            }`}
-                          >
-                            {timeSlot === slot && (
-                              <Icon
-                                icon="material-symbols:check"
-                                className="w-4 h-4"
-                              />
-                            )}
-                            {slot}
-                          </label>
-                        </div>
-                      ))}
+                    ? saturdayTimeSlots
+                        .filter(
+                          (slot) =>
+                            link === "trewines"
+                              ? true // Nessuna limitazione per trewines
+                              : !slot.includes("06") && !slot.includes("05") // Esclude gli slot dopo le 5:00 PM per altre degustazioni
+                        )
+                        .map((slot) => (
+                          <div key={slot} className="flex items-center">
+                            <input
+                              type="radio"
+                              id={slot}
+                              value={slot}
+                              name="timeSlot"
+                              onChange={() => handleTimeSlotChange(slot)}
+                              className="hidden"
+                            />
+                            <label
+                              htmlFor={slot}
+                              onClick={() => handleTimeSlotChange(slot)}
+                              className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
+                                timeSlot === slot
+                                  ? "bg-main text-white"
+                                  : "bg-white text-main"
+                              }`}
+                            >
+                              {timeSlot === slot && (
+                                <Icon
+                                  icon="material-symbols:check"
+                                  className="w-4 h-4"
+                                />
+                              )}
+                              {slot}
+                            </label>
+                          </div>
+                        ))
+                    : availableTimeSlots
+                        .filter(
+                          (slot) =>
+                            link === "trewines"
+                              ? true // Nessuna limitazione per trewines
+                              : !slot.includes("06") && !slot.includes("05:30") // Esclude gli slot dopo le 5:00 PM per altre degustazioni
+                        )
+                        .map((slot) => (
+                          <div key={slot} className="flex items-center">
+                            <input
+                              type="radio"
+                              id={slot}
+                              value={slot}
+                              name="timeSlot"
+                              onChange={() => handleTimeSlotChange(slot)}
+                              className="hidden"
+                            />
+                            <label
+                              htmlFor={slot}
+                              onClick={() => handleTimeSlotChange(slot)}
+                              className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
+                                timeSlot === slot
+                                  ? "bg-main text-white"
+                                  : "bg-white text-main"
+                              }`}
+                            >
+                              {timeSlot === slot && (
+                                <Icon
+                                  icon="material-symbols:check"
+                                  className="w-4 h-4"
+                                />
+                              )}
+                              {slot}
+                            </label>
+                          </div>
+                        ))}
                 </div>
               </div>
             )}
