@@ -32,25 +32,6 @@
         "name": "Bianchi",
         "content": [
           {
-            "img": "/assets/vinibianchi/chardonnay_cb2.webp",
-            "name": "Chardonnay Cuvée Bois",
-            "link": "/i-vini/bianchi/chardonnaycb",
-            "cat": "bianchi",
-            "vitigni": "Chardonnay 100%",
-            "origine": "D.O.P.",
-            "type": "vini bianchi"
-          },
-          {
-            "img": "/assets/vinibianchi/chardonnay.png",
-            "name": "Chardonnay",
-            "link": "/i-vini/bianchi/chardonnay",
-            "cat": "bianchi",
-            "vitigni": "Chardonnay 100%",
-            "origine": "D.O.P.",
-            "type": "vini bianchi"
-          },
-
-          {
             "img": "/assets/vinibianchi/neige.png",
             "name": "Neige d’Or",
             "link": "/i-vini/bianchi/neige",
@@ -60,11 +41,11 @@
             "type": "vini bianchi"
           },
           {
-            "img": "/assets/vinibianchi/petite_arvine.png",
-            "name": "Petite Arvine",
-            "link": "/i-vini/bianchi/petitearvine",
+            "img": "/assets/vinibianchi/chardonnay_cb2.webp",
+            "name": "Chardonnay Cuvée Bois",
+            "link": "/i-vini/bianchi/chardonnaycb",
             "cat": "bianchi",
-            "vitigni": "Petite Arvine 100%",
+            "vitigni": "Chardonnay 100%",
             "origine": "D.O.P.",
             "type": "vini bianchi"
           },
@@ -78,12 +59,40 @@
             "type": "vini bianchi"
           },
           {
+            "img": "/assets/vinibianchi/chardonnay.png",
+            "name": "Chardonnay",
+            "link": "/i-vini/bianchi/chardonnay",
+            "cat": "bianchi",
+            "vitigni": "Chardonnay 100%",
+            "origine": "D.O.P.",
+            "type": "vini bianchi"
+          },
+          {
+            "img": "/assets/vinibianchi/petite_arvine.png",
+            "name": "Petite Arvine",
+            "link": "/i-vini/bianchi/petitearvine",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 100%",
+            "origine": "D.O.P.",
+            "type": "vini bianchi"
+          },
+
+          {
             "img": "/assets/vinibianchi/pinot_grigio.png",
             "name": "Pinot Gris Brulant",
             "link": "/i-vini/bianchi/pinotgris",
             "cat": "bianchi",
             "vitigni": "Pinot Gris 100%",
             "origine": "D.O.P.",
+            "type": "vini bianchi"
+          },
+          {
+            "img": "/assets/vinibianchi/chambave.webp",
+            "name": "Chambave Moscato",
+            "link": "/i-vini/bianchi/chambave",
+            "cat": "bianchi",
+            "vitigni": "Moscato 100%",
+            "origine": "D.O.C.",
             "type": "vini bianchi"
           },
           {
@@ -101,57 +110,11 @@
         "name": "Rossi",
         "content": [
           {
-            "img": "/assets/vinirossi/merle.png",
-            "name": "Merlot Le Merle® ",
-            "link": "/i-vini/rossi/merle",
+            "img": "/assets/vinirossi/lasabla_50.webp",
+            "name": "La Sabla® 50 anni",
+            "link": "/i-vini/rossi/sabla50",
             "cat": "rossi",
-            "vitigni": "Merlot 100%",
-            "origine": "D.O.P.",
-            "type": "vini rossi"
-          },
-          {
-            "img": "/assets/vinirossi/cornalin.png",
-            "name": "Cornalin",
-            "link": "/i-vini/rossi/cornalin",
-            "cat": "rossi",
-            "vitigni": "Cornalin 100%",
-            "origine": "D.O.P.",
-            "type": "vini rossi"
-          },
-          {
-            "img": "/assets/vinirossi/fumin_lacor.png",
-            "name": "Fumin La Cor®",
-            "link": "/i-vini/rossi/lacor",
-            "cat": "rossi",
-            "vitigni": "Fumin 100%",
-            "origine": "D.O.P.",
-            "type": "vini rossi"
-          },
-          {
-            "img": "/assets/vinirossi/fumin.png",
-            "name": "Fumin",
-            "link": "/i-vini/rossi/fumin",
-            "cat": "rossi",
-            "vitigni": "Fumin 100%",
-            "origine": "D.O.P.",
-            "type": "vini rossi"
-          },
-
-          {
-            "img": "/assets/vinirossi/nebbiolo.png",
-            "name": "Nebbiolo Sommet",
-            "link": "/i-vini/rossi/nebbiolos",
-            "cat": "rossi",
-            "vitigni": "Nebbiolo 100%",
-            "origine": "D.O.P.",
-            "type": "vini rossi"
-          },
-          {
-            "img": "/assets/vinirossi/nebbiolo.png",
-            "name": "Nebbiolo",
-            "link": "/i-vini/rossi/nebbiolo",
-            "cat": "rossi",
-            "vitigni": "Nebbiolo 100%",
+            "vitigni": "20% Syrah 20% Petit Rouge 20%Merlot 20%Fumin 20% Fumin appassito",
             "origine": "D.O.P.",
             "type": "vini rossi"
           },
@@ -166,29 +129,46 @@
           },
           {
             "img": "/assets/vinirossi/pinot_revei.png",
-            "name": "Pinot Nero Revei",
+            "name": "Pinot Nero Revei®",
             "link": "/i-vini/rossi/revei",
             "cat": "rossi",
             "vitigni": "Pinot Nero 100% (varietà tradizionale)",
             "origine": "D.O.P.",
             "type": "vini rossi"
           },
-
           {
-            "img": "/assets/vinirossi/sabla.png",
-            "name": "La Sabla® – Vino Rosso",
-            "link": "/i-vini/rossi/sabla",
+            "img": "/assets/vinirossi/fumin.png",
+            "name": "Fumin",
+            "link": "/i-vini/rossi/fumin",
             "cat": "rossi",
-            "vitigni": "Blend di varietà a bacca nera",
+            "vitigni": "Fumin 100%",
             "origine": "D.O.P.",
             "type": "vini rossi"
           },
           {
-            "img": "/assets/vinirossi/lasabla_50.webp",
-            "name": "La Sabla® 50 anni",
-            "link": "/i-vini/rossi/sabla50",
+            "img": "/assets/vinirossi/fumin_lacor.png",
+            "name": "Fumin La Cor®",
+            "link": "/i-vini/rossi/lacor",
             "cat": "rossi",
-            "vitigni": "20% Syrah 20% Petit Rouge 20%Merlot 20%Fumin 20% Fumin appassito",
+            "vitigni": "Fumin 100%",
+            "origine": "D.O.P.",
+            "type": "vini rossi"
+          },
+          {
+            "img": "/assets/vinirossi/nebbiolo.png",
+            "name": "Nebbiolo",
+            "link": "/i-vini/rossi/nebbiolo",
+            "cat": "rossi",
+            "vitigni": "Nebbiolo 100%",
+            "origine": "D.O.P.",
+            "type": "vini rossi"
+          },
+          {
+            "img": "/assets/vinirossi/nebbiolo.png",
+            "name": "Nebbiolo Sommet®",
+            "link": "/i-vini/rossi/nebbiolos",
+            "cat": "rossi",
+            "vitigni": "Nebbiolo 100%",
             "origine": "D.O.P.",
             "type": "vini rossi"
           },
@@ -202,6 +182,24 @@
             "type": "vini rossi"
           },
           {
+            "img": "/assets/vinirossi/merle.png",
+            "name": "Merlot Le Merle® ",
+            "link": "/i-vini/rossi/merle",
+            "cat": "rossi",
+            "vitigni": "Merlot 100%",
+            "origine": "D.O.P.",
+            "type": "vini rossi"
+          },
+          {
+            "img": "/assets/vinirossi/torrette.png",
+            "name": "Torrette",
+            "link": "/i-vini/rossi/torrette",
+            "cat": "rossi",
+            "vitigni": "Petit Rouge 70%, Varietà Autoctone 30% (Mayolet, Cornalin, Fumin)",
+            "origine": "D.O.P.",
+            "type": "vini rossi"
+          },
+          {
             "img": "/assets/vinirossi/torrette_sup.png",
             "name": "Torrette Superiore",
             "link": "/i-vini/rossi/torrettesup",
@@ -211,14 +209,24 @@
             "type": "vini rossi"
           },
           {
-            "img": "/assets/vinirossi/torrette.png",
-            "name": "Torrette",
-            "link": "/i-vini/rossi/torrette",
+            "img": "/assets/vinirossi/sabla.png",
+            "name": "La Sabla® – Vino Rosso",
+            "link": "/i-vini/rossi/sabla",
             "cat": "rossi",
-            "vitigni": "Petit Rouge 70%, Varietà Autoctone 30%",
+            "vitigni": "Blend di varietà a bacca nera",
             "origine": "D.O.P.",
             "type": "vini rossi"
           },
+          {
+            "img": "/assets/vinirossi/cornalin.png",
+            "name": "Cornalin",
+            "link": "/i-vini/rossi/cornalin",
+            "cat": "rossi",
+            "vitigni": "Cornalin 100%",
+            "origine": "D.O.P.",
+            "type": "vini rossi"
+          },
+
           {
             "img": "/assets/vinirossi/monrouge.png",
             "name": "Mon Rouge®",
@@ -238,7 +246,7 @@
             "name": "Rosé",
             "link": "/i-vini/rose/rose",
             "cat": "rosè",
-            "vitigni": "Petit Rouge 100%",
+            "vitigni": "Petit Rouge",
             "origine": "D.O.P.",
             "type": "vini rosè"
           }
@@ -249,30 +257,30 @@
         "content": [
           {
             "img": "/assets/vinidessert/dorè2.webp",
-            "name": "Doré",
+            "name": "Doré® - Moscato Bianco",
             "link": "/i-vini/vinidessert/dore",
             "cat": "bollicine e dessert",
             "vitigni": "Varietà aromatica a bacca bianca 100%.",
             "origine": "D.O.P.",
-            "type": "bollicine e dessert"
+            "type": "vini bollicine e dessert"
           },
           {
             "img": "/assets/vinidessert/neblu.png",
-            "name": "Neblù Brut Nature Rosè",
+            "name": "Neblù® Brut Nature Rosè",
             "link": "/i-vini/vinidessert/neblu",
             "cat": "bollicine e dessert",
             "vitigni": "Rosé, varietà internazionale a bacca nera 60%, Neblu 40% (varietà autoctona a bacca nera)",
             "origine": "D.O.P.",
-            "type": "bollicine e dessert"
+            "type": "vini bollicine e dessert"
           },
           {
             "img": "/assets/vinidessert/reban.png",
-            "name": "Rebàn Pas Dosé",
+            "name": "Rebàn® Pas Dosé",
             "link": "/i-vini/vinidessert/reban",
             "cat": "bollicine e dessert",
             "vitigni": "Bianco, 100% varietà tradizionale",
             "origine": "D.O.P.",
-            "type": "bollicine e dessert"
+            "type": "vini bollicine e dessert"
           }
         ]
       }

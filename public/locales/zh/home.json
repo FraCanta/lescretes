@@ -31,11 +31,29 @@
         "name": "White wines",
         "content": [
           {
+            "img": "/assets/vinibianchi/neige.png",
+            "name": "Neige d’Or",
+            "link": "/i-vini/bianchi/neige",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 60%, Pinot Gris 40%",
+            "origine": "D.O.P.",
+            "type": "white wines"
+          },
+          {
             "img": "/assets/vinibianchi/chardonnay_cb2.webp",
             "name": "Chardonnay Cuvée Bois",
             "link": "/i-vini/bianchi/chardonnaycb",
             "cat": "bianchi",
             "vitigni": "Chardonnay 100%",
+            "origine": "D.O.P.",
+            "type": "white wines"
+          },
+          {
+            "img": "/assets/vinibianchi/petite_fleur.png",
+            "name": "Petite Arvine Fleur",
+            "link": "/i-vini/bianchi/petitefleur",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 100%",
             "origine": "D.O.P.",
             "type": "white wines"
           },
@@ -50,15 +68,6 @@
           },
 
           {
-            "img": "/assets/vinibianchi/neige.png",
-            "name": "Neige d’Or",
-            "link": "/i-vini/bianchi/neige",
-            "cat": "bianchi",
-            "vitigni": "Petite Arvine 60%, Pinot Gris 40%",
-            "origine": "D.O.P.",
-            "type": "white wines"
-          },
-          {
             "img": "/assets/vinibianchi/petite_arvine.png",
             "name": "Petite Arvine",
             "link": "/i-vini/bianchi/petitearvine",
@@ -67,30 +76,13 @@
             "origine": "D.O.P.",
             "type": "white wines"
           },
-          {
-            "img": "/assets/vinibianchi/petite_fleur.png",
-            "name": "Petite Arvine Fleur",
-            "link": "/i-vini/bianchi/petitefleur",
-            "cat": "bianchi",
-            "vitigni": "Petite Arvine 100%",
-            "origine": "D.O.P.",
-            "type": "white wines"
-          },
+
           {
             "img": "/assets/vinibianchi/pinot_grigio.png",
             "name": "Pinot Gris Brulant",
             "link": "/i-vini/bianchi/pinotgris",
             "cat": "bianchi",
             "vitigni": "Pinot Gris 100%",
-            "origine": "D.O.P.",
-            "type": "white wines"
-          },
-          {
-            "img": "/assets/vinibianchi/mon_blanc.png",
-            "name": "Mon Blanc – Vino bianco",
-            "link": "/i-vini/bianchi/monblanc",
-            "cat": "bianchi",
-            "vitigni": "Blend of native and international white grape varieties.",
             "origine": "D.O.P.",
             "type": "white wines"
           },
@@ -102,6 +94,15 @@
             "vitigni": "Moscato 100%",
             "origine": "D.O.C.",
             "type": "white wines"
+          },
+          {
+            "img": "/assets/vinibianchi/mon_blanc.png",
+            "name": "Mon Blanc – Vino bianco",
+            "link": "/i-vini/bianchi/monblanc",
+            "cat": "bianchi",
+            "vitigni": "Blend of native and international white grape varieties.",
+            "origine": "D.O.P.",
+            "type": "white wines"
           }
         ]
       },
@@ -109,57 +110,11 @@
         "name": "Red wines",
         "content": [
           {
-            "img": "/assets/vinirossi/merle.png",
-            "name": "Merlot Le Merle® ",
-            "link": "/i-vini/rossi/merle",
+            "img": "/assets/vinirossi/lasabla_50.webp",
+            "name": "La Sabla® 50 anni",
+            "link": "/i-vini/rossi/sabla50",
             "cat": "rossi",
-            "vitigni": "Merlot 100%",
-            "origine": "D.O.P.",
-            "type": "red wines"
-          },
-          {
-            "img": "/assets/vinirossi/cornalin.png",
-            "name": "Cornalin",
-            "link": "/i-vini/rossi/cornalin",
-            "cat": "rossi",
-            "vitigni": "Cornalin 100%",
-            "origine": "D.O.P.",
-            "type": "red wines"
-          },
-          {
-            "img": "/assets/vinirossi/fumin_lacor.png",
-            "name": "Fumin La Cor®",
-            "link": "/i-vini/rossi/lacor",
-            "cat": "rossi",
-            "vitigni": "Fumin 100%",
-            "origine": "D.O.P.",
-            "type": "red wines"
-          },
-          {
-            "img": "/assets/vinirossi/fumin.png",
-            "name": "Fumin",
-            "link": "/i-vini/rossi/fumin",
-            "cat": "rossi",
-            "vitigni": "Fumin 100%",
-            "origine": "D.O.P.",
-            "type": "red wines"
-          },
-
-          {
-            "img": "/assets/vinirossi/nebbiolo.png",
-            "name": "Nebbiolo Sommet",
-            "link": "/i-vini/rossi/nebbiolos",
-            "cat": "rossi",
-            "vitigni": "Nebbiolo 100%",
-            "origine": "D.O.P.",
-            "type": "red wines"
-          },
-          {
-            "img": "/assets/vinirossi/nebbiolo.png",
-            "name": "Nebbiolo",
-            "link": "/i-vini/rossi/nebbiolo",
-            "cat": "rossi",
-            "vitigni": "Nebbiolo 100%",
+            "vitigni": "20% Syrah, 20% Petit Rouge 20%, Merlot, 20% Fumin, 20% Fumin Late harvest",
             "origine": "D.O.P.",
             "type": "red wines"
           },
@@ -181,22 +136,39 @@
             "origine": "D.O.P.",
             "type": "red wines"
           },
-
           {
-            "img": "/assets/vinirossi/sabla.png",
-            "name": "La Sabla® – Red Wine",
-            "link": "/i-vini/rossi/sabla",
+            "img": "/assets/vinirossi/fumin.png",
+            "name": "Fumin",
+            "link": "/i-vini/rossi/fumin",
             "cat": "rossi",
-            "vitigni": "blend of native, red grapes from old and young vines",
+            "vitigni": "Fumin 100%",
             "origine": "D.O.P.",
             "type": "red wines"
           },
           {
-            "img": "/assets/vinirossi/lasabla_50.webp",
-            "name": "La Sabla® 50 anni",
-            "link": "/i-vini/rossi/sabla50",
+            "img": "/assets/vinirossi/fumin_lacor.png",
+            "name": "Fumin La Cor®",
+            "link": "/i-vini/rossi/lacor",
             "cat": "rossi",
-            "vitigni": "20% Syrah, 20% Petit Rouge 20%, Merlot, 20% Fumin, 20% Fumin Late harvest",
+            "vitigni": "Fumin 100%",
+            "origine": "D.O.P.",
+            "type": "red wines"
+          },
+          {
+            "img": "/assets/vinirossi/nebbiolo.png",
+            "name": "Nebbiolo",
+            "link": "/i-vini/rossi/nebbiolo",
+            "cat": "rossi",
+            "vitigni": "Nebbiolo 100%",
+            "origine": "D.O.P.",
+            "type": "red wines"
+          },
+          {
+            "img": "/assets/vinirossi/nebbiolo.png",
+            "name": "Nebbiolo Sommet",
+            "link": "/i-vini/rossi/nebbiolos",
+            "cat": "rossi",
+            "vitigni": "Nebbiolo 100%",
             "origine": "D.O.P.",
             "type": "red wines"
           },
@@ -210,11 +182,11 @@
             "type": "red wines"
           },
           {
-            "img": "/assets/vinirossi/torrette_sup.png",
-            "name": "Torrette Superiore",
-            "link": "/i-vini/rossi/torrettesup",
+            "img": "/assets/vinirossi/merle.png",
+            "name": "Merlot Le Merle® ",
+            "link": "/i-vini/rossi/merle",
             "cat": "rossi",
-            "vitigni": "Petit Rouge 100%",
+            "vitigni": "Merlot 100%",
             "origine": "D.O.P.",
             "type": "red wines"
           },
@@ -227,6 +199,34 @@
             "origine": "D.O.P.",
             "type": "red wines"
           },
+          {
+            "img": "/assets/vinirossi/torrette_sup.png",
+            "name": "Torrette Superiore",
+            "link": "/i-vini/rossi/torrettesup",
+            "cat": "rossi",
+            "vitigni": "Petit Rouge 100%",
+            "origine": "D.O.P.",
+            "type": "red wines"
+          },
+          {
+            "img": "/assets/vinirossi/sabla.png",
+            "name": "La Sabla® – Red Wine",
+            "link": "/i-vini/rossi/sabla",
+            "cat": "rossi",
+            "vitigni": "blend of native, red grapes from old and young vines",
+            "origine": "D.O.P.",
+            "type": "red wines"
+          },
+          {
+            "img": "/assets/vinirossi/cornalin.png",
+            "name": "Cornalin",
+            "link": "/i-vini/rossi/cornalin",
+            "cat": "rossi",
+            "vitigni": "Cornalin 100%",
+            "origine": "D.O.P.",
+            "type": "red wines"
+          },
+
           {
             "img": "/assets/vinirossi/monrouge.png",
             "name": "Mon Rouge®",

@@ -137,7 +137,7 @@
           "slots": "Select a time slot:",
           "adults": "adults",
           "language": "visit language",
-          "gift": "You want to give a gift?",
+          "gift": "YIs it a gift?",
           "total": "total amount",
           "cta": "Continue with request",
           "langValue": {
@@ -208,7 +208,7 @@
           "slots": "Select a time slot:",
           "adults": "adults",
           "language": "visit language",
-          "gift": "You want to give a gift?",
+          "gift": "Is it a gift?",
           "total": "total amount",
           "cta": "Continue with request",
           "langValue": {
@@ -274,7 +274,7 @@
           "slots": "Select a time slot:",
           "adults": "adults",
           "language": "visit language",
-          "gift": "You want to give a gift?",
+          "gift": "Is it a gift?",
           "total": "total amount",
           "cta": "Continue with request",
           "langValue": {
@@ -342,7 +342,7 @@
           "slots": "Select a time slot:",
           "adults": "adults",
           "language": "visit language",
-          "gift": "You want to give a gift?",
+          "gift": "Is it a gift?",
           "total": "total amount",
           "cta": "Continue with request",
           "langValue": {
@@ -417,7 +417,7 @@
           "slots": "Select a time slot:",
           "adults": "adults",
           "language": "visit language",
-          "gift": "You want to give a gift?",
+          "gift": "Is it a gift?",
           "total": "total amount",
           "cta": "Continue with request",
           "langValue": {
@@ -493,7 +493,7 @@
           "slots": "Select a time slot:",
           "adults": "Adults",
           "language": "Visit Language",
-          "gift": "You want to give a gift?",
+          "gift": "Is it a gift?",
           "total": "Total amount",
           "cta": "Continue with request",
           "langValue": {
