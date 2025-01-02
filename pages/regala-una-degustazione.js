@@ -550,7 +550,10 @@ function GiftPage({ translation }) {
                           </strong>{" "}
                           <span className="opacity-75 text-main">e sui</span>{" "}
                           <strong>
-                            <a target="_blank" href="informativa-cookie">
+                            <a
+                              target="_blank"
+                              href="https://www.iubenda.com/privacy-policy/43776831/cookie-policy"
+                            >
                               cookies
                             </a>{" "}
                           </strong>

@@ -97,7 +97,7 @@
           "text": "* I have read and understand the <a href='/termini-e-condizioni-generali' target='_blank'><strong>General Terms and Conditions</strong></a>"
         },
         "privacy": {
-          "text": "* I have read and understand the <a href='/privacy' target='_blank'><strong>Privacy Policy</strong></a> and the <a href='/informativa-cookie' target='_blank'><strong>cookies</strong></a>"
+          "text": "* I have read and understand the <a href='/privacy' target='_blank'><strong>Privacy Policy</strong></a> and the <a href='https://www.iubenda.com/privacy-policy/43776831/cookie-policy' target='_blank'><strong>cookies</strong></a>"
         }
       },
       "sendCta": "Send request"
