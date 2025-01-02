@@ -49,6 +49,29 @@ export default function App({ Component, pageProps, router }) {
           <Layout>
             <Component {...pageProps} />
           </Layout>
+          {/* Configurazione Iubenda */}
+          <Script id="iubenda-cs-configuration" strategy="afterInteractive">
+            {`
+          var _iub = _iub || [];
+          _iub.csConfiguration = {
+            siteId: 3780565,
+            cookiePolicyId: 43776831,
+            lang: "it"
+          };
+        `}
+          </Script>
+          {/* Script di autoblocco Iubenda */}
+          <Script
+            src="https://cs.iubenda.com/autoblocking/3780565.js"
+            strategy="afterInteractive"
+          />
+          {/* Script di soluzione cookie Iubenda */}
+          <Script
+            src="//cdn.iubenda.com/cs/iubenda_cs.js"
+            charset="UTF-8"
+            async
+            strategy="afterInteractive"
+          />
           <Script
             src="https://static.elfsight.com/platform/platform.js"
             data-use-service-core

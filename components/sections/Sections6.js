@@ -18,7 +18,7 @@ const Sections6 = ({ translation }) => {
         />
       </div>
       <div className="relative flex flex-col justify-center w-full gap-6 xl:h-full lg:p-8 2xl:p-20">
-        <h2 className="w-full  text-main text-[36px] md:text-6xl 2xl:text-[64px] fxl:text-[80px] font-bold 3xl:text-7xl">
+        <h2 className="w-full  text-main text-3xl md:text-6xl 2xl:text-[64px] fxl:text-[80px] font-bold 3xl:text-7xl">
           {translation.title}
         </h2>
         <div className="w-full ">

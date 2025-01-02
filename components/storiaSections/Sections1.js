@@ -3,15 +3,15 @@ import React from "react";
 
 const Sections1 = ({ translation }) => {
   return (
-    <div className="w-[90%] flex-col justify-start items-start gap-[50px] md:gap-20 fxl:gap-20 flex mx-auto lg:my-20 ">
-      <div className="">
+    <div className="w-[90%] flex-col justify-start items-start gap-[50px] md:gap-20 fxl:gap-20 flex mx-auto my-20 ">
+      <div>
         {translation.paragrafi2.map((p, i) => {
           return (
             <div
               className="flex flex-col items-start justify-start gap-8"
               key={i}
             >
-              <h2 className="text-4xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
+              <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
                 {p.title}
               </h2>
               {p.descrizione.map((el, j) => {
@@ -46,7 +46,7 @@ const Sections1 = ({ translation }) => {
               className="flex flex-col items-start justify-start gap-8"
               key={i}
             >
-              <h2 className="text-4xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
+              <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
                 {p.title}
               </h2>
               {p.descrizione.map((el, j) => {

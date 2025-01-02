@@ -51,7 +51,7 @@ const Sections3 = ({ translation }) => {
             className="flex flex-col items-start justify-start gap-8"
             key={i}
           >
-            <h2 className="text-4xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
+            <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
               {p.title}
             </h2>
             {p.descrizione.map((el, j) => {

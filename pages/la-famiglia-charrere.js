@@ -139,7 +139,7 @@ export default function Storia({ translation, locale }) {
       </div> */}
       <div className="w-[90%] mx-auto lg:py-10 lg:text-center flex flex-col gap-6 3xl:gap-10 3xl:py-32">
         <div className="flex flex-col gap-4 py-10 mx-auto lg:w-2/3 xl:w-[90%] 2xl:w-2/3 3xl:gap-10 3xl:w-11/12">
-          <h2 className="text-4xl font-bold text-main lg:text-5xl 3xl:text-7xl">
+          <h2 className="text-3xl font-bold text-main lg:text-5xl 3xl:text-7xl">
             {translation.section4.title}
           </h2>
           <p className="text-lg 2xl:text-xl text-main/80 3xl:text-4xl 3xl:leading-normal ">
