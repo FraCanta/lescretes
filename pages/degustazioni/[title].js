@@ -152,7 +152,7 @@ const SingleDeg = ({ deg, others }) => {
           <h2 className="flex items-center gap-2 text-3xl font-bold text-main xl:text-4xl">
             {deg.descrizione.title}{" "}
           </h2>
-          <p className="text-xl fxl:text-2xl font-normal  !leading-[33.2px] text-main">
+          <p className="text-lg fxl:text-2xl font-normal  !leading-[33.2px] text-main/80">
             {deg.descrizione.content}
           </p>
           <div className="flex flex-col w-full h-full gap-6 text-main">
@@ -161,7 +161,7 @@ const SingleDeg = ({ deg, others }) => {
             </h2>
             <ul className="flex flex-col gap-2">
               {deg?.descrizione?.pacchetto?.lista?.map((l, i) => (
-                <li className="text-xl fxl:text-2xl" key={i}>
+                <li className="text-lg fxl:text-2xl text-main/80" key={i}>
                   {l.testo}
                 </li>
               ))}
@@ -196,7 +196,9 @@ const SingleDeg = ({ deg, others }) => {
               </CtaOutlineBrown>
             ) : null}
             <div className="flex items-center gap-6 ">
-              <p className="text-xl fxl:text-2xl text-main">{deg.shareTitle}</p>
+              <p className="text-lg fxl:text-2xl text-main/80">
+                {deg.shareTitle}
+              </p>
               <ul className="flex gap-6">
                 <li>
                   {" "}

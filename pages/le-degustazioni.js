@@ -30,7 +30,7 @@ const Degustazioni = ({ translation }) => {
           return (
             <div
               key={i}
-              className="text-xl font-normal xl:text-center text-main fxl:text-2xl w-[90%]"
+              className="text-lg font-normal xl:text-center text-main/80 fxl:text-2xl w-[90%]"
             >
               <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
             </div>

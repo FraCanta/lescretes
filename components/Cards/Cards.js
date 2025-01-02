@@ -69,7 +69,7 @@ const Cards = ({
                 </div>
               </div>
 
-              <p className="text-lg whitespace-normal fxl:text-xl text-main">
+              <p className="text-lg whitespace-normal fxl:text-xl text-main/80">
                 {descrizione}
               </p>
               <div className="items-center justify-between mt-2 border-t border-t-main/30 card-actions">

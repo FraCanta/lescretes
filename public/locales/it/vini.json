@@ -24,25 +24,6 @@
         "name": "Bianchi",
         "content": [
           {
-            "img": "/assets/vinibianchi/chardonnay_cb2.webp",
-            "name": "Chardonnay Cuvée Bois",
-            "link": "/i-vini/bianchi/chardonnaycb",
-            "cat": "bianchi",
-            "vitigni": "Chardonnay 100%",
-            "origine": "D.O.P.",
-            "type": "vini bianchi"
-          },
-          {
-            "img": "/assets/vinibianchi/chardonnay.png",
-            "name": "Chardonnay",
-            "link": "/i-vini/bianchi/chardonnay",
-            "cat": "bianchi",
-            "vitigni": "Chardonnay 100%",
-            "origine": "D.O.P.",
-            "type": "vini bianchi"
-          },
-
-          {
             "img": "/assets/vinibianchi/neige.png",
             "name": "Neige d’Or",
             "link": "/i-vini/bianchi/neige",
@@ -52,11 +33,11 @@
             "type": "vini bianchi"
           },
           {
-            "img": "/assets/vinibianchi/petite_arvine.png",
-            "name": "Petite Arvine",
-            "link": "/i-vini/bianchi/petitearvine",
+            "img": "/assets/vinibianchi/chardonnay_cb2.webp",
+            "name": "Chardonnay Cuvée Bois",
+            "link": "/i-vini/bianchi/chardonnaycb",
             "cat": "bianchi",
-            "vitigni": "Petite Arvine 100%",
+            "vitigni": "Chardonnay 100%",
             "origine": "D.O.P.",
             "type": "vini bianchi"
           },
@@ -70,20 +51,30 @@
             "type": "vini bianchi"
           },
           {
+            "img": "/assets/vinibianchi/chardonnay.png",
+            "name": "Chardonnay",
+            "link": "/i-vini/bianchi/chardonnay",
+            "cat": "bianchi",
+            "vitigni": "Chardonnay 100%",
+            "origine": "D.O.P.",
+            "type": "vini bianchi"
+          },
+          {
+            "img": "/assets/vinibianchi/petite_arvine.png",
+            "name": "Petite Arvine",
+            "link": "/i-vini/bianchi/petitearvine",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 100%",
+            "origine": "D.O.P.",
+            "type": "vini bianchi"
+          },
+
+          {
             "img": "/assets/vinibianchi/pinot_grigio.png",
             "name": "Pinot Gris Brulant",
             "link": "/i-vini/bianchi/pinotgris",
             "cat": "bianchi",
             "vitigni": "Pinot Gris 100%",
-            "origine": "D.O.P.",
-            "type": "vini bianchi"
-          },
-          {
-            "img": "/assets/vinibianchi/mon_blanc.png",
-            "name": "Mon Blanc – Vino bianco",
-            "link": "/i-vini/bianchi/monblanc",
-            "cat": "bianchi",
-            "vitigni": "Blend di varietà autoctone ed internazionali a bacca bianca.",
             "origine": "D.O.P.",
             "type": "vini bianchi"
           },
@@ -95,6 +86,15 @@
             "vitigni": "Moscato 100%",
             "origine": "D.O.C.",
             "type": "vini bianchi"
+          },
+          {
+            "img": "/assets/vinibianchi/mon_blanc.png",
+            "name": "Mon Blanc – Vino bianco",
+            "link": "/i-vini/bianchi/monblanc",
+            "cat": "bianchi",
+            "vitigni": "Blend di varietà autoctone ed internazionali a bacca bianca.",
+            "origine": "D.O.P.",
+            "type": "vini bianchi"
           }
         ]
       },
@@ -102,57 +102,11 @@
         "name": "Rossi",
         "content": [
           {
-            "img": "/assets/vinirossi/merle.png",
-            "name": "Merlot Le Merle® ",
-            "link": "/i-vini/rossi/merle",
+            "img": "/assets/vinirossi/lasabla_50.webp",
+            "name": "La Sabla® 50 anni",
+            "link": "/i-vini/rossi/sabla50",
             "cat": "rossi",
-            "vitigni": "Merlot 100%",
-            "origine": "D.O.P.",
-            "type": "vini rossi"
-          },
-          {
-            "img": "/assets/vinirossi/cornalin.png",
-            "name": "Cornalin",
-            "link": "/i-vini/rossi/cornalin",
-            "cat": "rossi",
-            "vitigni": "Cornalin 100%",
-            "origine": "D.O.P.",
-            "type": "vini rossi"
-          },
-          {
-            "img": "/assets/vinirossi/fumin_lacor.png",
-            "name": "Fumin La Cor®",
-            "link": "/i-vini/rossi/lacor",
-            "cat": "rossi",
-            "vitigni": "Fumin 100%",
-            "origine": "D.O.P.",
-            "type": "vini rossi"
-          },
-          {
-            "img": "/assets/vinirossi/fumin.png",
-            "name": "Fumin",
-            "link": "/i-vini/rossi/fumin",
-            "cat": "rossi",
-            "vitigni": "Fumin 100%",
-            "origine": "D.O.P.",
-            "type": "vini rossi"
-          },
-
-          {
-            "img": "/assets/vinirossi/nebbiolo.png",
-            "name": "Nebbiolo Sommet®",
-            "link": "/i-vini/rossi/nebbiolos",
-            "cat": "rossi",
-            "vitigni": "Nebbiolo 100%",
-            "origine": "D.O.P.",
-            "type": "vini rossi"
-          },
-          {
-            "img": "/assets/vinirossi/nebbiolo.png",
-            "name": "Nebbiolo",
-            "link": "/i-vini/rossi/nebbiolo",
-            "cat": "rossi",
-            "vitigni": "Nebbiolo 100%",
+            "vitigni": "20% Syrah 20% Petit Rouge 20%Merlot 20%Fumin 20% Fumin appassito",
             "origine": "D.O.P.",
             "type": "vini rossi"
           },
@@ -174,22 +128,39 @@
             "origine": "D.O.P.",
             "type": "vini rossi"
           },
-
           {
-            "img": "/assets/vinirossi/sabla.png",
-            "name": "La Sabla® – Vino Rosso",
-            "link": "/i-vini/rossi/sabla",
+            "img": "/assets/vinirossi/fumin.png",
+            "name": "Fumin",
+            "link": "/i-vini/rossi/fumin",
             "cat": "rossi",
-            "vitigni": "Blend di varietà a bacca nera",
+            "vitigni": "Fumin 100%",
             "origine": "D.O.P.",
             "type": "vini rossi"
           },
           {
-            "img": "/assets/vinirossi/lasabla_50.webp",
-            "name": "La Sabla® 50 anni",
-            "link": "/i-vini/rossi/sabla50",
+            "img": "/assets/vinirossi/fumin_lacor.png",
+            "name": "Fumin La Cor®",
+            "link": "/i-vini/rossi/lacor",
             "cat": "rossi",
-            "vitigni": "20% Syrah 20% Petit Rouge 20%Merlot 20%Fumin 20% Fumin appassito",
+            "vitigni": "Fumin 100%",
+            "origine": "D.O.P.",
+            "type": "vini rossi"
+          },
+          {
+            "img": "/assets/vinirossi/nebbiolo.png",
+            "name": "Nebbiolo",
+            "link": "/i-vini/rossi/nebbiolo",
+            "cat": "rossi",
+            "vitigni": "Nebbiolo 100%",
+            "origine": "D.O.P.",
+            "type": "vini rossi"
+          },
+          {
+            "img": "/assets/vinirossi/nebbiolo.png",
+            "name": "Nebbiolo Sommet®",
+            "link": "/i-vini/rossi/nebbiolos",
+            "cat": "rossi",
+            "vitigni": "Nebbiolo 100%",
             "origine": "D.O.P.",
             "type": "vini rossi"
           },
@@ -203,11 +174,11 @@
             "type": "vini rossi"
           },
           {
-            "img": "/assets/vinirossi/torrette_sup.png",
-            "name": "Torrette Superiore",
-            "link": "/i-vini/rossi/torrettesup",
+            "img": "/assets/vinirossi/merle.png",
+            "name": "Merlot Le Merle® ",
+            "link": "/i-vini/rossi/merle",
             "cat": "rossi",
-            "vitigni": "Petit Rouge 100%",
+            "vitigni": "Merlot 100%",
             "origine": "D.O.P.",
             "type": "vini rossi"
           },
@@ -220,6 +191,34 @@
             "origine": "D.O.P.",
             "type": "vini rossi"
           },
+          {
+            "img": "/assets/vinirossi/torrette_sup.png",
+            "name": "Torrette Superiore",
+            "link": "/i-vini/rossi/torrettesup",
+            "cat": "rossi",
+            "vitigni": "Petit Rouge 100%",
+            "origine": "D.O.P.",
+            "type": "vini rossi"
+          },
+          {
+            "img": "/assets/vinirossi/sabla.png",
+            "name": "La Sabla® – Vino Rosso",
+            "link": "/i-vini/rossi/sabla",
+            "cat": "rossi",
+            "vitigni": "Blend di varietà a bacca nera",
+            "origine": "D.O.P.",
+            "type": "vini rossi"
+          },
+          {
+            "img": "/assets/vinirossi/cornalin.png",
+            "name": "Cornalin",
+            "link": "/i-vini/rossi/cornalin",
+            "cat": "rossi",
+            "vitigni": "Cornalin 100%",
+            "origine": "D.O.P.",
+            "type": "vini rossi"
+          },
+
           {
             "img": "/assets/vinirossi/monrouge.png",
             "name": "Mon Rouge®",
@@ -298,7 +297,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Grand Ballon",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età 25 anni",
         "vinificazioneTitle": "Vinificazione",
@@ -572,7 +571,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": " Ballon piccolo",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "vinificazioneTitle": "Vinificazione",
         "vinificazione": "Diraspatura delle uve, fermentazione di 8/10 giorni in acciaio inox a temperatura controllata (22°c), con rimontaggi giornalieri.",
         "zonaTitle": "Zona di produzione",
@@ -749,7 +748,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Grand Ballon",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età 34 anni",
         "vinificazioneTitle": "Vinificazione",
@@ -911,7 +910,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Grand Ballon",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "375 ml" }, { "f": "750 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età 30 anni",
         "vinificazioneTitle": "Vinificazione:",
@@ -1659,7 +1658,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Ballon piccolo",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età 15 anni",
         "vinificazioneTitle": "Vinificazione:",
@@ -1926,7 +1925,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Ballon piccolo",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età 30 anni",
         "vinificazioneTitle": "Vinificazione:",
@@ -2041,7 +2040,8 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Grand Ballon",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
+
         "longevitàTitle": "Longevità",
         "longevità": "Età 30 anni",
         "vinificazioneTitle": "Vinificazione:",
@@ -2318,7 +2318,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Borgogna",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età 20 anni",
         "vinificazioneTitle": "Vinificazione:",
@@ -2680,7 +2680,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Grand Ballon",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }, { "f": "1500 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età 20 anni",
         "vinificazioneTitle": "Vinificazione:",
@@ -2989,7 +2989,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Borgogna",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }, { "f": "1500 ml" }, { "f": "3000 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età dai 20 ai 70 anni",
         "vinificazioneTitle": "Vinificazione:",
@@ -3104,7 +3104,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Grand Ballon",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }, { "f": "1500 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età dai 20 ai 70 anni",
         "vinificazioneTitle": "Vinificazione:",
@@ -3219,7 +3219,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Grand Ballon",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età 16 anni",
         "vinificazioneTitle": "Vinificazione:",
@@ -3673,7 +3673,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Ballon piccolo",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
 
         "vinificazioneTitle": "Vinificazione:",
         "vinificazione": "Diraspatura delle uve refrigerate, fermentazione di 8 giorni in acciaio inox a temperatura controllata (26 °C), con rimontaggi giornalieri.",
@@ -3957,7 +3957,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Ballon piccolo",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
 
         "vinificazioneTitle": "Vinificazione:",
         "vinificazione": "Diraspatura delle uve refrigerate, fermentazione di 12 giorni in acciaio inox a temperatura controllata (26°C), con rimontaggi giornalieri.",
@@ -4197,7 +4197,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Renano ampio",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }, { "f": "1500 ml" }],
 
         "vinificazioneTitle": "Vinificazione:",
         "vinificazione": "Selezione delle uve, refrigerazione e pressatura soffice a grappolo intero di 7 crus, fermentazione in barriques di rovere francese da 300 L e affinamento “sur lies” di 12 mesi, con bâtonnages settimanali. ",
@@ -5118,7 +5118,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Tulipano ampio",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età 20 anni",
         "vinificazioneTitle": "Vinificazione:",
@@ -5553,7 +5553,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Tulipano",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età 15 anni",
         "vinificazioneTitle": "Vinificazione:",
@@ -5803,7 +5803,8 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Grand Ballon",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
+
         "longevitàTitle": "Longevità",
         "longevità": "Età 30 anni",
         "vinificazioneTitle": "Vinificazione:",
@@ -6162,7 +6163,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Tulipano",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età 30 anni",
         "vinificazioneTitle": "Vinificazione:",
@@ -6751,7 +6752,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Tulipano",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età 20 anni",
         "vinificazioneTitle": "Vinificazione:",
@@ -7122,7 +7123,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Tulipano",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "vinificazioneTitle": "Vinificazione:",
         "vinificazione": "Refrigerazione e pressatura soffice a grappolo intero delle uve, fermentazione di 15 giorni in acciaio inox a temperatura controllata (13°C). ",
         "zonaTitle": "Zona di produzione",
@@ -7301,7 +7302,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Tulipano",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età 30 anni",
         "vinificazioneTitle": "Vinificazione",
@@ -7890,7 +7891,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Tulipano",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "vinificazioneTitle": "Vinificazione:",
         "vinificazione": "3 ore di macerazione pellicolare di uva a grappolo intero refrigerata in pressa. Fermentazione di 12 giorni in acciaio inox a temperatura controllata (14 °C).",
         "zonaTitle": "Zona di produzione",
@@ -8144,7 +8145,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Tulipano",
         "formatoTitle": "Formati disponibili",
-        "formato": "375 ml",
+        "formato": [{ "f": "375 ml" }],
         "vinificazioneTitle": "Vinificazione:",
         "vinificazione": "Appassimento delle uve in pianta, pressatura soffice a grappolo intero, fermentazione di 25 giorni a temperatura controllata (13 °C).",
         "zonaTitle": "Zona di produzione",
@@ -8409,7 +8410,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Tulipano",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": ["750 ml", "1500 ml"],
 
         "vinificazioneTitle": "Vinificazione:",
         "vinificazione": "Criomacerazione in pressa delle uve a grappolo intero di 5 ore e successiva pressatura soffice, fermentazione di 12 giorni a temperatura controllata (14 °C)",
@@ -8523,7 +8524,7 @@
         "bicchiereTitle": "Tipologia di bicchiere",
         "bicchiere": "Tulipano",
         "formatoTitle": "Formati disponibili",
-        "formato": "750 ml",
+        "formato": [{ "f": "750 ml" }],
         "longevitàTitle": "Longevità",
         "longevità": "Età 20 anni",
         "vinificazioneTitle": "Vinificazione:",

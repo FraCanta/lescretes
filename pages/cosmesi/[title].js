@@ -71,7 +71,7 @@ const SingleCosmetic = ({ cosm, others }) => {
           </div>
           {cosm?.descrizione?.map((el, i) => (
             <p
-              className="text-xl xl:text-lg fxl:text-2xl text-main"
+              className="text-lg fxl:text-2xl text-main/80"
               key={i}
               dangerouslySetInnerHTML={{ __html: el.testo }}
             ></p>
@@ -158,7 +158,7 @@ const SingleCosmetic = ({ cosm, others }) => {
       </div>
       <div className="relative flex flex-col w-full bg-second  py-10 gap-[30px] fxl:gap-[50px] fxl:py-20">
         <div className="w-[90%] mx-auto flex items-center">
-          <h2 className="mb-4 text-5xl font-bold fxl:text-5xl">
+          <h2 className="mb-4 text-3xl font-bold fxl:text-5xl">
             {cosm.highlights.title}
           </h2>
           <div className="hidden gap-4 py-6 ml-auto lg:flex">

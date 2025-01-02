@@ -54,7 +54,7 @@ const SingleWine = ({ wine, others }) => {
             <p className="p-1 text-xs border rounded-sm text-main/80 border-main/70">
               {wine.origine}
             </p>
-            <p className="text-main/80 text-xl md:w-[90%] fxl:!text-2xl flex flex-col gap-6">
+            <p className="text-main/80 text-lg md:w-[90%] fxl:!text-2xl flex flex-col gap-6">
               {wine.text}
             </p>
           </div>
@@ -126,9 +126,17 @@ const SingleWine = ({ wine, others }) => {
                 <p className="text-sm font-bold uppercase text-main">
                   {wine.formatoTitle}
                 </p>
-                <p className="p-1 text-lg border rounded-sm text-main/80 border-main/30 max-w-max">
-                  {wine.formato}
-                </p>
+                <div className="flex items-center gap-2 py-1">
+                  {wine.formato.map((el, i) => (
+                    <span
+                      key={i}
+                      className="p-1 text-lg border rounded-sm text-main/80 border-main/30 max-w-max"
+                    >
+                      {" "}
+                      {el.f}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -382,8 +390,8 @@ const SingleWine = ({ wine, others }) => {
       </div>
 
       <div className="lg:w-full py-10 w-[90%] mx-auto">
-        <div className="w-[90%] mx-auto flex items-center mb-10">
-          <h2 className="text-main text-[40px] font-bold ">
+        <div className="w-[90%] mx-auto flex items-center my-10">
+          <h2 className="text-3xl font-bold 2xl:text-4xl text-main ">
             {wine.more} {wine.tipologia}
           </h2>
           {wine.showButtons && (

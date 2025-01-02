@@ -27,11 +27,15 @@ const Cosmesi = ({ translation }) => {
           <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-5xl">
             {translation.intro.title}
           </h2>
-          <p>{translation.intro.text}</p>
+          <p className="text-lg text-main/80 fxl:text-2xl">
+            {translation.intro.text}
+          </p>
           <h2 className="text-3xl font-bold text-main md:text-5xl fxl:text-5xl">
             {translation.section.title}
           </h2>
-          <p>{translation.section.text}</p>
+          <p className="text-lg text-main/80 fxl:text-2xl">
+            {translation.section.text}
+          </p>
         </div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
           {translation?.cards?.map((el, i) => {
@@ -64,7 +68,7 @@ const Cosmesi = ({ translation }) => {
                     />
                   </div>
 
-                  <p className="text-center text-neutral-600 text-[22.20px] font-bold font-['MinervaModern'] leading-[50.20px]">
+                  <p className="text-center text-neutral-600 text-lg font-bold font-['MinervaModern'] leading-[50.20px]">
                     {el.text}
                   </p>
                 </div>
