@@ -100,11 +100,6 @@ const FormPrenotazione = ({
     );
   };
 
-  // Funzione per gestire il cambio della checkbox del tagliere
-  const handleTagliereChange = (e) => {
-    setIncludeTagliere(e.target.checked);
-  };
-
   useEffect(() => {
     if (router.query.formData) {
       const formData = JSON.parse(router.query.formData);
@@ -488,17 +483,15 @@ const FormPrenotazione = ({
               <input
                 type="checkbox"
                 id="tagliere"
-                checked={includeTagliere} // Aggiungi questo campo
-                onChange={() => setIncludeTagliere((prev) => !prev)} // Aggiungi questo evento
-                className="hidden peer" // Nasconde il checkbox originale
+                checked={includeTagliere}
+                onChange={() => setIncludeTagliere((prev) => !prev)}
+                className="w-4 h-4 text-[#F4F3EF] bg-gray-100 !border-third rounded focus:ring-third focus:ring-2"
               />
               <label
-                htmlFor="tagliere"
-                className="flex items-center gap-2 p-2 transition duration-200 border-2 rounded-lg cursor-pointer border-gray peer-checked:border-main peer-checked:text-white peer-checked:bg-main"
+                for="link-checkbox"
+                className="flex items-center gap-2 text-sm font-bold text-main ms-2 dark:text-gray-300"
               >
-                <span className="font-bold ">
-                  Opzione tagliere (+{optPrice}€)
-                </span>
+                <span>Opzione tagliere (+{optPrice}€)</span>
               </label>
             </div>
           )}
@@ -517,7 +510,12 @@ const FormPrenotazione = ({
             </button> */}
             <button
               type="submit"
-              className="cursor-pointer flex items-center text-lg xl:text-xl gap-2 text-main w-full max-w-max text-center lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 border-main"
+              className={`cursor-pointer flex items-center text-lg xl:text-xl gap-2 text-main w-full max-w-max text-center lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 ${
+                timeSlot && clickedRadio
+                  ? "border-main opacity-100"
+                  : "border-gray-300 opacity-50 cursor-not-allowed"
+              }`}
+              disabled={!timeSlot || !clickedRadio}
             >
               {form.cta}
             </button>
