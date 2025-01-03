@@ -3,6 +3,10 @@
     "hero": {
       "title": "Vieni a degustare i nostri vini e a visitare la nostra cantina"
     },
+    "seo": {
+      "title": "Vieni a degustare i nostri vini e a visitare la nostra cantina | Les Crêtes | Viticoltori dal 1750 | Valle d'Aosta - Italia",
+      "description": "Il Rifugio del Vino è una vera terrazza sulla vigne che sovrastano la città di Aosta, un luogo dove l’accoglienza è di casa e dove vivere un’esperienza unica."
+    },
     "intro": [
       {
         "p": "Il <a href='/rifugio' title='Pagina Rifugio' class='font-bold'>Rifugio del Vino</a> è una vera terrazza sulla vigne che sovrastano la città di Aosta, un luogo dove l’accoglienza è di casa e dove vivere un’esperienza unica. Le degustazioni sono dedicate sia a gruppi che a singoli eno-appassionati."

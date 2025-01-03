@@ -17,6 +17,7 @@ const Cards = ({
   wine,
   fork,
   tempo,
+  alt,
 }) => {
   return (
     <>
@@ -26,7 +27,7 @@ const Cards = ({
             <figure>
               <Image
                 src={img}
-                alt={`${title} degustazione img`}
+                alt={alt}
                 className="rounded-t-sm  h-[45vh] object-cover w-full"
                 width={500}
                 height={600}

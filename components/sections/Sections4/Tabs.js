@@ -111,6 +111,7 @@ const Tabs = ({ tabs }) => {
                     href={content.link}
                     className="flex flex-col gap-6 items-center justify-between h-[600px] p-10 rounded-sm bg-pattern2 bg-second"
                     key={contentIndex}
+                    title={`${content.name} - ${content.type}`}
                   >
                     <div className="flex flex-col items-center justify-center w-full">
                       <p className="text-sm uppercase text-main/85 font-regular">

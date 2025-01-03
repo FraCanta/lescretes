@@ -12,12 +12,12 @@ const HeroHome3 = ({ translation }) => {
     <AnimatePresence wait>
       <motion.div
         key="heroHome3"
-        className="w-[90%] h-full flex-col  items-center flex mx-auto py-10 md:py-20"
+        className="w-[90%] h-full flex-col  items-center flex mx-auto py-10 sm2:py-4 md:py-20"
         style={{
           backgroundImage: 'url("/assets/404.jpg")', // sostituisci con il percorso dell'immagine
           backgroundSize: "cover",
           width: "100%",
-          height: "100vh",
+          height: "100%",
           position: "relative",
           backgroundPosition: "bottom",
         }}

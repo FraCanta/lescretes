@@ -15,6 +15,7 @@ const Sections6 = ({ translation }) => {
           width={500}
           height={500}
           src={Cosmesi}
+          alt="DeVin Cosmesi"
         />
       </div>
       <div className="relative flex flex-col justify-center w-full gap-6 xl:h-full lg:p-8 2xl:p-20">

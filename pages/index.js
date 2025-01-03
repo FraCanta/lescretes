@@ -50,7 +50,7 @@ export default function Home({ translation, locale }) {
           />
           <link
             rel="alternate"
-            hrefLang="jp"
+            hrefLang="ja"
             href="https://www.lescretes.it/jp"
           />
           <link
@@ -119,7 +119,7 @@ export default function Home({ translation, locale }) {
           />
         </>
       </Head>
-      <div className="reltiveh-screen overflow-hidden fxl:min-h-[calc(100vh_-_100px)] 3xl:min-h-[calc(100vh_-_180px)] w-full hero  relative flex text-end items-end">
+      <div className="reltive h-screen sm2:min-h-[calc(100vh_-_60px)] overflow-hidden 2xl:min-h-[calc(100vh_-_100px)] 3xl:min-h-[calc(100vh_-_180px)] w-full hero  relative flex text-end items-end">
         <HeroHome3 translation={translation?.hero} />
       </div>
       <div className="min-h-screen">

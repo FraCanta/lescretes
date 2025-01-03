@@ -20,7 +20,7 @@ const Banner = ({ img, title, paragraph, btn1, btn2, link1, link2 }) => {
 
         <div className="flex flex-col h-full justify-center gap-8 relative lg:w-[90%] mx-auto py-10 lg:py-0">
           <div className="flex flex-col gap-6 w-[90%] mx-auto">
-            <h3 className="text-white text-4xl xl:text-[40px] font-bold fxl:text-5xl xl:w-[95%] 3xl:text-6xl">
+            <h3 className="text-white text-3xl xl:text-[40px] font-bold fxl:text-5xl xl:w-[95%] 3xl:text-6xl">
               {title}
             </h3>
             <p className="text-white/80 text-lg 2xl:w-[90%] fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">
@@ -39,6 +39,7 @@ const Banner = ({ img, title, paragraph, btn1, btn2, link1, link2 }) => {
           src={Pattern}
           fill
           className="object-cover lg:object-contain opacity-10 mix-blend-luminosity"
+          alt="pattern"
         />
       </div>
     </div>

@@ -122,7 +122,7 @@ export default function Storia({ translation, locale }) {
           />
         </>
       </Head>
-      <div className="bg-second/20 bg-pattern2a flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)] 3xl:h-[calc(80vh_-_180px)]">
+      <div className="bg-second/20 bg-pattern2a flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_60px)] md:min-h-[calc(100vh_-_90px)] fxl:min-h-[calc(100vh_-_100px)] 3xl:h-[calc(80vh_-_180px)]">
         <HeroHome4
           title={translation?.hero?.title}
           img={translation?.hero?.img}

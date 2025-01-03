@@ -1,4 +1,3 @@
-import HeroHome from "@/components/heroHome/HeroHome";
 import React from "react";
 import degustazioniIT from "../public/locales/it/degustazioni.json";
 import degustazioniEN from "../public/locales/en/degustazioni.json";
@@ -8,22 +7,121 @@ import degustazioniJP from "@/public/locales/jp/degustazioni.json";
 import degustazioniKO from "@/public/locales/ko/degustazioni.json";
 import degustazioniRU from "@/public/locales/ru/degustazioni.json";
 import degustazioniZH from "@/public/locales/zh/degustazioni.json";
-import Cards from "@/components/Cards/Cards";
+import dynamic from "next/dynamic";
+const Cards = dynamic(() => import("@/components/Cards/Cards"));
+const FAQ = dynamic(() => import("@/components/FAQ/FAQ"));
+const Banner = dynamic(() => import("@/components/Banner/Banner"));
+const HeroHome4 = dynamic(() => import("@/components/heroHome/HeroHome4"));
 import Head from "next/head";
-import FAQ from "@/components/FAQ/FAQ";
-import Banner from "@/components/Banner/Banner";
 import Rif from "@/public/assets/rifugio/rifugio6.webp";
 import Deg from "@/public/assets/deg3.jpg";
-import HeroHome4 from "@/components/heroHome/HeroHome4";
 
-const Degustazioni = ({ translation }) => {
+const Degustazioni = ({ translation, locale }) => {
   return (
     <>
       <Head>
-        <title>{translation.hero.title}</title>
+        <title>{translation.seo.title}</title>
+        <meta name="author" content="Les Crêtes" />
+        <meta name="description" content={translation.seo.description} />
+        <meta name="robots" content="index, follow" />
+
+        <link
+          rel="canonical"
+          href={`https://www.lescretes.it/${locale.locale}/le-degustazioni`}
+        />
+        <link
+          rel="alternate"
+          hrefLang="it"
+          href="https://www.lescretes.it/it/le-degustazioni"
+        />
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href="https://www.lescretes.it/en/le-degustazioni"
+        />
+        <link
+          rel="alternate"
+          hrefLang="de"
+          href="https://www.lescretes.it/de/le-degustazioni"
+        />
+        <link
+          rel="alternate"
+          hrefLang="fr"
+          href="https://www.lescretes.it/fr/le-degustazioni"
+        />
+        <link
+          rel="alternate"
+          hrefLang="jp"
+          href="https://www.lescretes.it/jp/le-degustazioni"
+        />
+        <link
+          rel="alternate"
+          hrefLang="ko"
+          href="https://www.lescretes.it/ko/le-degustazioni"
+        />
+        <link
+          rel="alternate"
+          hrefLang="ru"
+          href="https://www.lescretes.it/ru/le-degustazioni"
+        />
+        <link
+          rel="alternate"
+          hrefLang="zh"
+          href="https://www.lescretes.it/zh/le-degustazioni"
+        />
+
+        <meta
+          property="og:url"
+          content={`https://www.lescretes.it/${locale.locale}/le-degustazioni`}
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={translation.seo.title} />
+        <meta property="og:locale" content={locale.locale} />
+        <meta property="og:description" content={translation.seo.description} />
+        <meta property="og:site_name" content="Les Crêtes" />
+        <meta property="og:image" content="https://lescretes/assets/deg3.jpg" />
+        <meta property="og:image:alt" content="Les Crêtes cover image" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="lescretes.it" />
+        <meta
+          property="twitter:url"
+          content="https://www.lescretes.it/le-degustazioni"
+        />
+        <meta name="twitter:title" content={translation.seo.title} />
+        <meta
+          name="twitter:description"
+          content={translation.seo.description}
+        />
+        <meta
+          name="twitter:image"
+          content="https://lescretes/assets/deg3.jpg"
+        />
+        <meta name="twitter:image:alt" content="Les Crêtes - degustazioni" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "${translation.seo.title}",
+            "description": "${translation.seo.description}",
+            "url": "https://www.lescretes.it/${locale.locale}/le-degustazioni",
+            "logo": "https://www.lescretes.it/favicon.ico"
+          }
+        `,
+          }}
+        />
       </Head>
       <div className="bg-second/30 bg-pattern2a flex flex-col justify-center lg:flex-row items-center xl:w-[100%] mx-auto min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)] 3xl:h-[calc(80vh_-_180px)]">
-        <HeroHome4 img={Deg} title={translation.hero.title} />
+        <HeroHome4
+          img={Deg}
+          title={translation.hero.title}
+          seoTitle={translation.seo.title}
+        />
       </div>
       <div className="lg:w-[90%] mx-auto py-10 lg:py-20 flex flex-col gap-6 justify-center items-center h-full">
         {translation.intro.map((el, i) => {
@@ -53,6 +151,7 @@ const Degustazioni = ({ translation }) => {
                 wine={el.wine}
                 fork={el.fork}
                 tempo={el.tempo}
+                alt={el.title}
               />
             );
           })}
@@ -133,6 +232,7 @@ export async function getStaticProps(locale, context) {
   return {
     props: {
       translation: obj?.degustazioni,
+      locale: locale,
     },
     revalidate: 60,
   };
