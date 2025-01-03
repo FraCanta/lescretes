@@ -26,52 +26,52 @@ export default function Storia({ translation, locale }) {
 
           <link
             rel="canonical"
-            href={`https://www.lescretes.it/${locale.locale}/storia`}
+            href={`https://www.lescretes.it/${locale.locale}/la-famiglia-charrere`}
           />
           <link
             rel="alternate"
             hrefLang="it"
-            href="https://www.lescretes.it/it/storia"
+            href="https://www.lescretes.it/it/la-famiglia-charrere"
           />
           <link
             rel="alternate"
             hrefLang="en"
-            href="https://www.lescretes.it/en/storia"
+            href="https://www.lescretes.it/en/la-famiglia-charrere"
           />
           <link
             rel="alternate"
             hrefLang="de"
-            href="https://www.lescretes.it/de/storia"
+            href="https://www.lescretes.it/de/la-famiglia-charrere"
           />
           <link
             rel="alternate"
             hrefLang="fr"
-            href="https://www.lescretes.it/fr/storia"
+            href="https://www.lescretes.it/fr/la-famiglia-charrere"
           />
           <link
             rel="alternate"
             hrefLang="jp"
-            href="https://www.lescretes.it/jp/storia"
+            href="https://www.lescretes.it/jp/la-famiglia-charrere"
           />
           <link
             rel="alternate"
             hrefLang="ko"
-            href="https://www.lescretes.it/ko/storia"
+            href="https://www.lescretes.it/ko/la-famiglia-charrere"
           />
           <link
             rel="alternate"
             hrefLang="ru"
-            href="https://www.lescretes.it/ru/storia"
+            href="https://www.lescretes.it/ru/la-famiglia-charrere"
           />
           <link
             rel="alternate"
             hrefLang="zh"
-            href="https://www.lescretes.it/zh/storia"
+            href="https://www.lescretes.it/zh/la-famiglia-charrere"
           />
 
           <meta
             property="og:url"
-            content={`https://www.lescretes.it/${locale.locale}/storia`}
+            content={`https://www.lescretes.it/${locale.locale}/la-famiglia-charrere`}
           />
           <meta property="og:type" content="website" />
           <meta property="og:title" content={translation.seo.title} />
@@ -83,7 +83,7 @@ export default function Storia({ translation, locale }) {
           <meta property="og:site_name" content="Les Crêtes" />
           <meta
             property="og:image"
-            content="https://lescretes.it/assets/seo/cover_storia.png"
+            content="https://www.lescretes.it/assets/seo/cover_storia.png"
           />
           <meta property="og:image:alt" content="Les Crêtes cover image" />
           <meta property="og:image:width" content="1200" />
@@ -93,7 +93,7 @@ export default function Storia({ translation, locale }) {
           <meta property="twitter:domain" content="lescretes.it" />
           <meta
             property="twitter:url"
-            content={`https://www.lescretes.it/${locale.locale}/storia`}
+            content={`https://www.lescretes.it/${locale.locale}/la-famiglia-charrere`}
           />
           <meta name="twitter:title" content={translation.seo.title} />
           <meta
@@ -102,7 +102,7 @@ export default function Storia({ translation, locale }) {
           />
           <meta
             name="twitter:image"
-            content="https://lescretes.it/assets/seo/cover_storia.png"
+            content="https://www.lescretes.it/assets/seo/cover_storia.png"
           />
           <meta name="twitter:image:alt" content="Les Crêtes cover image" />
           <script
@@ -114,7 +114,7 @@ export default function Storia({ translation, locale }) {
             "@type": "WebPage",
             "name": "${translation.seo.title}",
             "description": "${translation.seo.description}",
-            "url": "https://www.lescretes.it/${locale.locale}/storia",
+            "url": "https://www.lescretes.it/${locale.locale}/la-famiglia-charrere",
             "logo": "https://www.lescretes.it/favicon.ico"
           }
         `,
