@@ -57,6 +57,7 @@ const Footer = ({ translation }) => {
                 href={m.link}
                 className="link link-hover text-main/80"
                 key={i}
+                title={m.name}
               >
                 {m.name}
               </Link>
@@ -73,6 +74,7 @@ const Footer = ({ translation }) => {
                 href={l.link}
                 className="link link-hover text-main/80"
                 key={i}
+                title={l.name}
               >
                 {l.name}
               </Link>
