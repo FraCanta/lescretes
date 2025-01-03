@@ -83,7 +83,7 @@ export default function Home({ translation, locale }) {
           <meta property="og:site_name" content="Les Crêtes" />
           <meta
             property="og:image"
-            content="https://lescretes/assets/seo/cover_home.png"
+            content="https://www.lescretes.it/assets/seo/cover_home.png"
           />
           <meta property="og:image:alt" content="Les Crêtes cover image" />
           <meta property="og:image:width" content="1200" />
@@ -99,7 +99,7 @@ export default function Home({ translation, locale }) {
           />
           <meta
             name="twitter:image"
-            content="https://lescretes/assets/seo/cover_home.png"
+            content="https://www.lescretes.it/assets/seo/cover_home.png"
           />
           <meta name="twitter:image:alt" content="Les Crêtes cover image" />
           <script

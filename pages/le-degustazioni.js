@@ -79,7 +79,10 @@ const Degustazioni = ({ translation, locale }) => {
         <meta property="og:locale" content={locale.locale} />
         <meta property="og:description" content={translation.seo.description} />
         <meta property="og:site_name" content="Les Crêtes" />
-        <meta property="og:image" content="https://lescretes/assets/deg3.jpg" />
+        <meta
+          property="og:image"
+          content="https://www.lescretes.it/assets/deg3.jpg"
+        />
         <meta property="og:image:alt" content="Les Crêtes cover image" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -97,7 +100,7 @@ const Degustazioni = ({ translation, locale }) => {
         />
         <meta
           name="twitter:image"
-          content="https://lescretes/assets/deg3.jpg"
+          content="https://www.lescretes.it/assets/deg3.jpg"
         />
         <meta name="twitter:image:alt" content="Les Crêtes - degustazioni" />
         <script
