@@ -264,8 +264,8 @@ const Degustazioni = ({ translation, locale }) => {
           ))}
         </div>
       </div>
-      <div className="w-[90%] mx-auto my-[80px]">
-        <div className="grid grid-cols-1 gap-6 px-20 lg:grid-cols-2">
+      <div className="w-[90%] mx-auto my-10 lg:my-[80px]">
+        <div className="grid grid-cols-1 gap-6 lg:px-20 lg:grid-cols-2">
           {translation.info.cards.map((el, i) => (
             <div
               key={i}
