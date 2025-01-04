@@ -25,7 +25,7 @@
     },
     "form": {
       "title": "Inserisci i dati",
-      "subTitle": "Compila la scheda sottostante per cofermare la tua richiesta di prenotazione",
+      "subTitle": "Compila la scheda sottostante per confermare la tua richiesta di prenotazione",
       "nome": "Nome*",
       "cognome": "Cognome*",
       "email": "example@email.com*",

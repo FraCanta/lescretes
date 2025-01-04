@@ -85,7 +85,7 @@ const FormPrenotazione3 = ({ inputs, setInputs, data }) => {
   return (
     <div className="container mx-auto bg-white ">
       <div className="py-5 ">
-        <div className="grid grid-cols-2 gap-6 xl:gap-10">
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 xl:gap-10">
           <input
             id="name"
             type="text"
@@ -93,7 +93,7 @@ const FormPrenotazione3 = ({ inputs, setInputs, data }) => {
             required
             value={inputs.name}
             onChange={handleChange}
-            className="py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
+            className="col-span-2 py-2 bg-transparent border-b lg:col-span-1 focus:outline-none focus:border-main text-main"
             placeholder={data.nome}
           />
           <input
@@ -103,15 +103,15 @@ const FormPrenotazione3 = ({ inputs, setInputs, data }) => {
             required
             value={inputs.surname}
             onChange={handleChange}
-            className="col-span-1 py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
+            className="col-span-2 py-2 bg-transparent border-b lg:col-span-1 focus:outline-none focus:border-main text-main"
             placeholder={data.cognome}
           />
-          <div className="grid grid-cols-2 col-span-2 gap-6">
+          <div className="grid grid-cols-1 col-span-2 gap-6 lg:grid-cols-2">
             <input
               id="email"
               data-invalid="false"
               data-filled="false"
-              className="col-span-1 py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
+              className="col-span-2 py-2 bg-transparent border-b lg:col-span-1 focus:outline-none focus:border-main text-main"
               name="email"
               placeholder={data.email}
               type="email"
@@ -126,7 +126,7 @@ const FormPrenotazione3 = ({ inputs, setInputs, data }) => {
               onChange={handleDateChange}
               dateFormat="dd/MM/yyyy"
               isClearable
-              className="py-2 bg-transparent text-main focus:outline-none"
+              className="w-full !col-span-2 !px-0 py-2 bg-transparent lg:!col-span-1 text-main focus:outline-none"
               placeholderText={data.birth}
               showYearDropdown
               scrollableYearDropdown
@@ -195,7 +195,7 @@ const FormPrenotazione3 = ({ inputs, setInputs, data }) => {
               }))
             }
             countries={countries}
-            className="!border-b  focus:outline-none focus:border-main bg-transparent !w-full col-span-1 text-main"
+            className="!border-b  focus:outline-none focus:border-main bg-transparent !w-full col-span-2 lg:col-span-1 text-main"
           />
           <input
             id="city"
@@ -204,7 +204,7 @@ const FormPrenotazione3 = ({ inputs, setInputs, data }) => {
             required
             value={inputs.city}
             onChange={handleChange}
-            className="col-span-1 py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
+            className="col-span-2 py-2 bg-transparent border-b lg:col-span-1 focus:outline-none focus:border-main text-main"
             placeholder={data.city}
           />
           <input
@@ -214,7 +214,7 @@ const FormPrenotazione3 = ({ inputs, setInputs, data }) => {
             required
             value={inputs.cap}
             onChange={handleChange}
-            className="col-span-1 py-2 bg-transparent border-b focus:outline-none focus:border-main text-main"
+            className="col-span-2 py-2 bg-transparent border-b lg:col-span-1 focus:outline-none focus:border-main text-main"
             placeholder={data.cap}
           />
 
@@ -224,7 +224,7 @@ const FormPrenotazione3 = ({ inputs, setInputs, data }) => {
             onChange={handleNationChange}
             components={{ ClearIndicator }}
             isClearable
-            className="col-span-1 !border-none"
+            className="col-span-2 lg:col-span-1 !border-none"
             placeholder={data.nation}
             styles={customStyles}
           />

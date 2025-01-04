@@ -88,7 +88,7 @@ const ContactForm = ({ translation, inputs, setInputs, formType }) => {
   const handleReasonChange = (selectedOption) => {
     setInputs((prev) => ({
       ...prev,
-      reason: selectedOption ? selectedOption.value : "",
+      reason: selectedOption ? selectedOption.label : "",
     }));
   };
 
@@ -204,16 +204,19 @@ const ContactForm = ({ translation, inputs, setInputs, formType }) => {
                 value: option.value,
                 label: option.name,
               }))}
-              value={translation.reason.reasonList.find(
-                (option) => option.value === inputs.reason
-              )}
+              value={
+                inputs.reason
+                  ? translation.reason.reasonList.find(
+                      (option) => option.value === inputs.reason
+                    )
+                  : null
+              }
               onChange={handleReasonChange}
               components={{ ClearIndicator }}
               isClearable
               className="!border-none"
               placeholder=""
               styles={customStyles}
-              required
             />
           </div>
           <div className="flex flex-col col-span-2 gap-2 lg:col-span-1">
