@@ -30,7 +30,7 @@ const Cards2 = ({
             <Image
               src={img}
               alt={alt}
-              className="object-cover w-full h-[350px] rounded-t-sm"
+              className="object-cover w-full lg:h-[350px] rounded-t-sm"
               width={500}
               height={800}
             />
