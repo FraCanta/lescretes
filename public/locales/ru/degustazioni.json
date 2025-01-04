@@ -5,17 +5,30 @@
     },
     "seo": {
       "title": "Enter the world of Les Crêtes to taste our wines and visit our cellar | Les Crêtes | Winemakers since 1750 | Valle d'Aosta - Italy",
-      "description": "The Rifugio del Vino is a real terrace on the vineyards overlooking the city of Aosta, a place where hospitality is at home and where you can live a unique experience."
+      "description": "The Rifugio del Vino and a real terrace on the vineyards overlooking the city of Aosta, a place where hospitality is at home and where you can live a unique experience."
     },
 
-    "intro": [
-      {
-        "p": "The <a href='/en/il-rifugio-del-vino' title='Pagina Rifugio' class='font-bold'>Rifugio del Vino</a>  is a real terrace on the vineyards overlooking the city of Aosta, a place where hospitality is at home and where you can live a unique experience. The tastings are dedicated to both groups and individual eno-fans."
-      },
-      {
-        "p": "Each tasting is accompanied by a visit to the cellar, available in various ways, depending on your preferences. If you have special needs for yourself or your group, contact us to create your personalized visit."
-      }
-    ],
+    "intro": {
+      "title": "Live a unique experience in the heart of Valle d'Aosta",
+      "text": "The <a href='/rifugio' title='Pagina Rifugio' class='font-bold'>Rifugio del Vino</a> offers breathtaking views like a terrace over the historic Torrette vineyards—a place where hospitality feels at home, and guests can enjoy a unique experience, surrounded by nature and the authentic flavors of Valle d'Aosta.",
+      "cards": [
+        {
+          "title": "Explore",
+          "text": "Tastings at Les Crêtes are a journey through the vineyards that embrace the stunning Valle d'Aosta. Immerse yourself in nature and discover the techniques that make our wines unique—a perfect blend of tradition and modernity.",
+          "img": "/assets/degustazioni/esplora.webp"
+        },
+        {
+          "title": "Savor",
+          "text": "Accompanied by industry experts, let yourself be guided through a sensory experience that combines the authentic flavors of our land with our fine wines, offering you unparalleled moments of pleasure.",
+          "img": "/assets/degustazioni/gusta.webp"
+        },
+        {
+          "title": "Share",
+          "text": "Each sip is an emotion worth reliving. Take a bottle of our wines with you to continue experiencing the magic of Les Crêtes, sharing it with those you love.",
+          "img": "/assets/galleryWines/lacor1.webp"
+        }
+      ]
+    },
     "cards": [
       {
         "img": "/assets/degustazioni/tre2.png",
@@ -26,7 +39,9 @@
         "wine": true,
         "fork": false,
         "bed": false,
-        "tempo": "60'"
+        "tempo": "60'",
+        "ctaTitle": "Full details",
+        "priceTitle": "Price"
       },
       {
         "img": "/assets/degustazioni/native.jpeg",
@@ -37,7 +52,9 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "90'"
+        "tempo": "90'",
+        "ctaTitle": "Full details",
+        "priceTitle": "Price"
       },
       {
         "img": "/assets/degustazioni/cheese.jpeg",
@@ -48,7 +65,9 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "90'"
+        "tempo": "90'",
+        "ctaTitle": "Full details",
+        "priceTitle": "Price"
       },
       {
         "img": "/assets/degustazioni/top.jpeg",
@@ -59,7 +78,9 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "105'"
+        "tempo": "105'",
+        "ctaTitle": "Full details",
+        "priceTitle": "Price"
       },
       {
         "img": "/assets/degustazioni/coteau3.jpg",
@@ -70,7 +91,9 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "120'"
+        "tempo": "120'",
+        "ctaTitle": "Full details",
+        "priceTitle": "Price"
       },
       {
         "img": "/assets/degustazioni/winemaker.jpeg",
@@ -81,7 +104,9 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "120'"
+        "tempo": "120'",
+        "ctaTitle": "Full details",
+        "priceTitle": "Price"
       },
       {
         "img": "/assets/degustazioni/wellness.jpeg",
@@ -92,7 +117,9 @@
         "wine": true,
         "fork": true,
         "bed": true,
-        "tempo": "90'"
+        "tempo": "90'",
+        "ctaTitle": "Full details",
+        "priceTitle": "Price"
       }
     ],
     "singleDeg": {
@@ -568,16 +595,27 @@
       }
     },
     "prenota": {
-      "title": "Book your visit now or ask for information about the tastings:",
-      "list": [
+      "title": "Book the experience that suits you best!",
+      "text": "We look forward to welcoming you and letting you discover the world of Les Crêtes, told through our wines and our story."
+    },
+    "info": {
+      "cards": [
         {
-          "name": "- phone  <a href='callto:+390165902274'>+39 0165 / 90 22 74</a>"
+          "title": "Groups and Events",
+          "text": "If you have specific needs for yourself or your group, contact us to create your personalized visit.",
+          "img": "/assets/rifugio/rifugio3.webp",
+          "link": "/contatti",
+          "ctaText": "Contact us",
+          "icon": "ri:mail-send-line"
         },
         {
-          "name": "- to the e-mail address: <a href='mailto:info@lescretes.it'>info@lescretes.it</a>"
-        },
-        {
-          "name": "- Fill in the form on the page of the chosen tasting"
+          "title": "Gift Voucher",
+          "text": "Surprise someone special with a gift voucher to experience an authentic visit to the Wine Refuge.",
+          "img": "/assets/gift_card.jpg",
+          "link": "/regala-una-degustazione",
+          "ctaText": "Request now",
+
+          "icon": "mynaui:gift"
         }
       ]
     },

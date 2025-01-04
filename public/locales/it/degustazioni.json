@@ -5,16 +5,29 @@
     },
     "seo": {
       "title": "Vieni a degustare i nostri vini e a visitare la nostra cantina | Les Crêtes | Viticoltori dal 1750 | Valle d'Aosta - Italia",
-      "description": "Il Rifugio del Vino è una vera terrazza sulla vigne che sovrastano la città di Aosta, un luogo dove l’accoglienza è di casa e dove vivere un’esperienza unica."
+      "description": "Il Rifugio del Vino e una vera terrazza sulla vigne che sovrastano la città di Aosta, un luogo dove l’accoglienza è di casa e dove vivere un’esperienza unica."
     },
-    "intro": [
-      {
-        "p": "Il <a href='/rifugio' title='Pagina Rifugio' class='font-bold'>Rifugio del Vino</a> è una vera terrazza sulla vigne che sovrastano la città di Aosta, un luogo dove l’accoglienza è di casa e dove vivere un’esperienza unica. Le degustazioni sono dedicate sia a gruppi che a singoli eno-appassionati."
-      },
-      {
-        "p": "Ogni degustazione è accompagnata da una visita in cantina, disponibile in varie modalità, a seconda delle preferenze. Se hai esigenze particolari per te o per il tuo gruppo contattaci per creare la tua visita personalizzata."
-      }
-    ],
+    "intro": {
+      "title": "Vivi un'esperienza unica nel cuore della Valle d'Aosta",
+      "text": "Il <a href='/rifugio' title='Pagina Rifugio' class='font-bold'>Rifugio del Vino</a> e una vera terrazza sulle vigne storiche del Torrette, un luogo dove l’accoglienza è di casa e dove gli ospiti possono vivere un’esperienza unica, immersi nella natura e nei sapori autentici della Valle d'Aosta. ",
+      "cards": [
+        {
+          "title": "Scopri",
+          "text": "Le degustazioni da Les Crêtes sono un viaggio attraverso i vigneti che abbracciano la splendida Valle d'Aosta. Immergiti nella natura e scopri le tecniche che rendono unici i nostri vini, un mix perfetto di tradizione e innovazione.",
+          "img": "/assets/degustazioni/esplora.webp"
+        },
+        {
+          "title": "Gusta",
+          "text": "Accompagnato da esperti del settore, lasciati guidare in un'esperienza sensoriale che unisce i sapori autentici della nostra terra ai nostri pregiati vini, offrendoti momenti di piacere senza pari.",
+          "img": "/assets/degustazioni/gusta.webp"
+        },
+        {
+          "title": "Condividi",
+          "text": "Ogni sorso è un'emozione che merita di essere rivissuta. Porta con te una bottiglia dei nostri vini per continuare a vivere la magia di Les Crêtes, condividendola con chi ami.",
+          "img": "/assets/galleryWines/lacor1.webp"
+        }
+      ]
+    },
     "cards": [
       {
         "img": "/assets/degustazioni/tre2.png",
@@ -25,7 +38,9 @@
         "wine": true,
         "fork": false,
         "bed": false,
-        "tempo": "60'"
+        "tempo": "60'",
+        "ctaTitle": "Dettagli",
+        "priceTitle": "Prezzo"
       },
       {
         "img": "/assets/degustazioni/native.jpeg",
@@ -36,7 +51,9 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "90'"
+        "tempo": "90'",
+        "ctaTitle": "Dettagli",
+        "priceTitle": "Prezzo"
       },
       {
         "img": "/assets/degustazioni/cheese.jpeg",
@@ -47,7 +64,9 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "90'"
+        "tempo": "90'",
+        "ctaTitle": "Dettagli",
+        "priceTitle": "Prezzo"
       },
       {
         "img": "/assets/degustazioni/top.jpeg",
@@ -58,7 +77,9 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "100'"
+        "tempo": "100'",
+        "ctaTitle": "Dettagli",
+        "priceTitle": "Prezzo"
       },
       {
         "img": "/assets/degustazioni/coteau3.jpg",
@@ -69,7 +90,9 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "120'"
+        "tempo": "120'",
+        "ctaTitle": "Dettagli",
+        "priceTitle": "Prezzo"
       },
       {
         "img": "/assets/degustazioni/winemaker.jpeg",
@@ -80,18 +103,22 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "120'"
+        "tempo": "120'",
+        "ctaTitle": "Dettagli",
+        "priceTitle": "Prezzo"
       },
       {
         "img": "/assets/degustazioni/wellness.jpeg",
         "title": "Wellness & Wine Tasting",
-        "descrizione": "Una notte di soggiorno in camera doppia presso QC Terme Spas & Resorts, con percorso benessere + degustazione di 5 vini selezionati con 6 formaggi locali, visita alla cantina e barricaia.",
+        "descrizione": "Una notte di soggiorno in camera doppia presso QC Terme Spas & Resorts, con percorso benessere, degustazione, visita alla cantina e barricaia.",
         "price": "A partire da €346,00 iva inclusa",
         "link": "/degustazioni/wellness",
         "wine": true,
         "fork": true,
         "bed": true,
-        "tempo": "90'"
+        "tempo": "90'",
+        "ctaTitle": "Dettagli",
+        "priceTitle": "Prezzo"
       }
     ],
     "singleDeg": {
@@ -557,16 +584,27 @@
       }
     },
     "prenota": {
-      "title": "Prenota subito la tua visita o richiedi informazioni sulle degustazioni:",
-      "list": [
+      "title": "Prenota subito l'esperienza più adatta a te! ",
+      "text": "Ti aspettiamo per farti scoprire il mondo di Les Crêtes, raccontato dai nostri vini e dalla nostra storia. "
+    },
+    "info": {
+      "cards": [
         {
-          "name": "- cellulare:  <a href='callto:+390165902274'>+39 0165 / 90 22 74</a>"
+          "title": "Gruppi ed eventi",
+          "text": "Se hai esigenze particolari per te o per il tuo gruppo contattaci per creare la tua visita personalizzata.",
+          "img": "/assets/rifugio/rifugio3.webp",
+          "link": "/contatti",
+          "ctaText": "Contattaci",
+          "icon": "ri:mail-send-line"
         },
         {
-          "name": "- all'indirizzo e-mail: <a href='mailto:info@lescretes.it'>info@lescretes.it</a>"
-        },
-        {
-          "name": "- Compila il form sulla pagina della degustazione scelta"
+          "title": "Buono regalo",
+          "text": "Sorprendi qualcuno di speciale con un buono regalo per vivere un’esperienza autentica al Rifugio del Vino.",
+          "img": "/assets/gift_card.jpg",
+          "link": "/regala-una-degustazione",
+          "ctaText": "Richiedi ora",
+
+          "icon": "mynaui:gift"
         }
       ]
     },

@@ -85,7 +85,7 @@ const Footer = ({ translation }) => {
       <footer className="lg:text-center w-[90%] mx-auto py-4 border-t  text-main/80 border-[#D4D2E3]">
         <aside>
           <p>
-            Copyright © 2024 Les Crêtes - P.iva 00520450073 | All Rights
+            Copyright © 2025 Les Crêtes - P.iva 00520450073 | All Rights
             Reserved |{" "}
             <Link
               href="/privacy"
@@ -93,6 +93,17 @@ const Footer = ({ translation }) => {
               className="underline"
             >
               Privacy Policy
+            </Link>
+          </p>
+          <p>
+            Made with ❤️ by{" "}
+            <Link
+              href="https://www.thallion-dev.it/"
+              title="Web Designer Creativa | Dai Valore al Tuo Brand"
+              className="underline"
+              target="_blank"
+            >
+              Thallion Dev di Francesca Cantale
             </Link>
           </p>
         </aside>

@@ -8,13 +8,21 @@ import degustazioniKO from "@/public/locales/ko/degustazioni.json";
 import degustazioniRU from "@/public/locales/ru/degustazioni.json";
 import degustazioniZH from "@/public/locales/zh/degustazioni.json";
 import dynamic from "next/dynamic";
-const Cards = dynamic(() => import("@/components/Cards/Cards"));
+const Cards2 = dynamic(() => import("@/components/Cards/Cards2"));
 const FAQ = dynamic(() => import("@/components/FAQ/FAQ"));
 const Banner = dynamic(() => import("@/components/Banner/Banner"));
 const HeroHome4 = dynamic(() => import("@/components/heroHome/HeroHome4"));
 import Head from "next/head";
 import Rif from "@/public/assets/rifugio/rifugio6.webp";
 import Deg from "@/public/assets/deg3.jpg";
+import Image from "next/image";
+import Link from "next/link";
+import { Icon } from "@iconify/react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Navigation, Pagination } from "swiper/modules";
 
 const Degustazioni = ({ translation, locale }) => {
   return (
@@ -126,59 +134,175 @@ const Degustazioni = ({ translation, locale }) => {
           seoTitle={translation.seo.title}
         />
       </div>
-      <div className="lg:w-[90%] mx-auto py-10 lg:py-20 flex flex-col gap-6 justify-center items-center h-full">
-        {translation.intro.map((el, i) => {
-          return (
-            <div
-              key={i}
-              className="text-lg font-normal xl:text-center text-main/80 fxl:text-2xl w-[90%]"
-            >
-              <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
-            </div>
-          );
-        })}
-      </div>
 
-      <div className="w-[90%] flex-col justify-start items-center gap-[60px] flex mx-auto py-20 xl:py-10">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3">
-          {translation?.cards?.map((el, i) => {
-            return (
-              <Cards
-                key={i}
-                img={el?.img}
-                title={el?.title}
-                descrizione={el?.descrizione}
-                price={el?.price}
-                link={el.link}
-                bed={el.bed}
-                wine={el.wine}
-                fork={el.fork}
-                tempo={el.tempo}
-                alt={el.title}
-              />
-            );
-          })}
+      <div className="w-[90%] mx-auto my-10 lg:my-[80px]">
+        <div className="grid grid-cols-1 gap-6 py-6 lg:grid-cols-2">
+          <h2 className="text-3xl font-bold lg:max-w-2xl lg:text-4xl 2xl:text-5xl">
+            {translation.intro.title}
+          </h2>
+          <p
+            className="text-lg text-main/80"
+            dangerouslySetInnerHTML={{ __html: translation.intro.text }}
+          ></p>
+        </div>
+        <div className="relative w-full overflow-visible">
+          <Swiper
+            modules={[Navigation, Pagination]}
+            navigation={{
+              prevEl: ".prev",
+              nextEl: ".next",
+            }}
+            pagination={{
+              clickable: true,
+              el: ".swiper-pagination",
+            }}
+            className="lg:!my-20 !h-full"
+            centeredSlides={true}
+            centeredSlidesBounds={true}
+            breakpoints={{
+              300: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 1,
+                spaceBetween: 40,
+              },
+              820: {
+                slidesPerView: 1.5,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+              },
+              1280: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+              },
+              1500: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+              },
+              2500: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+              },
+            }}
+          >
+            {translation.intro.cards.map((el, i) => (
+              <SwiperSlide key={i}>
+                <div className="!h-full !flex !flex-col !justify-between !p-4  transition-all duration-500 ease-out bg-white  border border-main/10   !rounded-sm">
+                  <figure>
+                    <Image
+                      src={el.img}
+                      alt={el.title}
+                      className="object-cover w-full h-full 2xl:h-[350px] rounded-t-sm"
+                      width={500}
+                      height={800}
+                    />
+                  </figure>
+                  <div className="card-body  !p-0 !py-4 !gap-y-4  !h-full">
+                    <div className="flex flex-col justify-evenly gap-y-4">
+                      <h2 className="text-xl font-bold card-title lg:text-2xl fxl:text-3xl">
+                        {el.title}
+                      </h2>
+
+                      <div className="flex flex-col gap-4">
+                        <p className="text-lg whitespace-normal fxl:text-xl text-main/80">
+                          {el.text}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+            <div className="relative flex justify-center w-full gap-2 mt-10 lg:hidden">
+              <div className="mt-6 swiper-pagination"></div>
+            </div>
+          </Swiper>
         </div>
       </div>
-      <div className="w-full min-h-[80vh] md:min-h-[50vh] xl:min-h-[60vh] flex flex-col justify-center bg-second   bg-pattern">
-        <div className="w-[90%] h-full  mx-auto flex flex-col gap-4 md:gap-8 justify-center ">
-          <h3 className="text-3xl font-bold text-main xl:text-4xl">
-            {translation.prenota.title}
-          </h3>{" "}
-          {translation.prenota.list.map((el, i) => {
-            return (
-              <ul
-                key={i}
-                className="flex flex-col gap-4  text-main text-[18px] xl:text-[20px] font-normal leading-[33.20px]"
-              >
-                <li dangerouslySetInnerHTML={{ __html: el.name }}></li>
-              </ul>
-            );
-          })}
-          <p
-            className=" text-main text-[18px] xl:text-[20px] font-normal leading-[33.20px]"
-            dangerouslySetInnerHTML={{ __html: translation.prenota.nota }}
-          ></p>
+
+      <div className="flex flex-col w-full gap-4 lg:flex-row bg-second py-10 lg:p-[60px]">
+        {/* Contenitore Sticky */}
+        <div className="w-full lg:w-[40%] flex flex-col gap-10">
+          <div className="w-[90%] mx-auto flex flex-col  lg:sticky top-[40px] ">
+            <h3 className="text-3xl font-bold text-main lg:text-5xl 2xl:text-6xl">
+              {translation.prenota.title}
+            </h3>
+            <p className="font-[400] text-[22px] mt-4 text-main/80">
+              {translation.prenota.text}
+            </p>
+
+            <p
+              className="text-main text-[18px] xl:text-[20px] font-normal leading-[33.20px]"
+              dangerouslySetInnerHTML={{ __html: translation.prenota.nota }}
+            ></p>
+          </div>
+        </div>
+
+        {/* Contenuto Scrollabile */}
+        <div className="w-[90%] mx-auto lg:w-[60%] flex flex-col gap-10">
+          {translation?.cards?.map((el, i) => (
+            <Cards2
+              key={i}
+              img={el?.img}
+              title={el?.title}
+              descrizione={el?.descrizione}
+              price={el?.price}
+              link={el.link}
+              bed={el.bed}
+              wine={el.wine}
+              fork={el.fork}
+              tempo={el.tempo}
+              alt={el.title}
+              priceTitle={el.priceTitle}
+              ctaTitle={el.ctaTitle}
+            />
+          ))}
+        </div>
+      </div>
+      <div className="w-[90%] mx-auto my-[80px]">
+        <div className="grid grid-cols-1 gap-6 px-20 lg:grid-cols-2">
+          {translation.info.cards.map((el, i) => (
+            <div
+              key={i}
+              className="h-full  !p-4  transition-all duration-500 ease-out bg-white  border border-main/10   !rounded-sm"
+            >
+              <figure>
+                <Image
+                  src={el.img}
+                  alt={el.title}
+                  className="object-cover w-full h-[350px] rounded-t-sm"
+                  width={500}
+                  height={800}
+                />
+              </figure>
+              <div className="card-body !p-0 !py-4 !gap-y-4 !justify-between !h-full">
+                <div className="flex flex-col gap-y-4 ">
+                  <h2 className="text-xl font-bold card-title lg:text-2xl fxl:text-3xl">
+                    {el.title}
+                  </h2>
+
+                  <div className="flex flex-col gap-4">
+                    <p className="text-lg whitespace-normal fxl:text-xl text-main/80">
+                      {el.text}
+                    </p>
+                  </div>
+                  <Link
+                    href={el.link}
+                    title={el.title}
+                    className="uppercase justify-center font-bold py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 text-base  fxl:text-2xl 3xl:text-3xl rounded-[32px] shadow text-main   hover:bg-white hover:transition-all bg-second flex items-center gap-4"
+                  >
+                    {el.ctaText} <Icon icon={el.icon} />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          ))}
+          <div></div>
         </div>
       </div>
       <div className="w-[90%] mx-auto my-[50px]">
