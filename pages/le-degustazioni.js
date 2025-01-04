@@ -275,7 +275,7 @@ const Degustazioni = ({ translation, locale }) => {
                 <Image
                   src={el.img}
                   alt={el.title}
-                  className="object-cover w-full h-[350px] rounded-t-sm"
+                  className="object-cover w-full lg:h-[350px] rounded-t-sm"
                   width={500}
                   height={800}
                 />
