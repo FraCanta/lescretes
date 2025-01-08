@@ -1,7 +1,4 @@
 //pages/sitemap.xml.js
-const headlessSite = "https://www.lescretes.it";
-
-import LayoutTranslation from "../public/layout.json";
 
 function generateSiteMap() {
   return `<?xml version="1.0" encoding="UTF-8"?>
