@@ -71,7 +71,7 @@ const Mobile = ({ translation }) => {
                 <Link
                   href={`/`}
                   title="Torna alla Homepage"
-                  className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
+                  className={`menu-item block  overflow-hidden text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
                     pathname === "/" ? "font-bold" : ""
                   }`}
                 >
@@ -83,7 +83,7 @@ const Mobile = ({ translation }) => {
                   onClick={() => setMenuOpen(!menuOpen)}
                   className="menu-item flex text-[25px] md:text-4xl leading-[30px] font-regular text-main items-center w-full justify-between"
                 >
-                  {translation?.[locale]?.storia.name}{" "}
+                  {translation?.[locale]?.storia.name}
                   <Icon icon="ei:chevron-right" className="w-[30px] h-[30px]" />
                 </button>
                 <AnimatePresence>
@@ -97,13 +97,14 @@ const Mobile = ({ translation }) => {
                         stiffness: 200,
                         damping: 30,
                       }}
-                      className="absolute top-0 left-0 right-0 w-full h-screen py-10 bg-white"
+                      className="fixed top-0 left-0 z-50 w-full h-screen py-10 bg-white"
                     >
                       <div className="w-[90%] mx-auto divide-y divide-third/30">
+                        {/* Header del sottomenù */}
                         <div className="grid items-center grid-cols-3 pb-6 text-center">
                           <Icon
                             icon="ei:chevron-left"
-                            className="w-[30px] h-[30px]"
+                            className="w-[30px] h-[30px] cursor-pointer"
                             onClick={() => setMenuOpen(!menuOpen)}
                           />
                           <h2 className="text-[25px] md:text-4xl leading-[30px] font-regular text-main">
@@ -111,6 +112,7 @@ const Mobile = ({ translation }) => {
                           </h2>
                           <div></div>
                         </div>
+                        {/* Contenuto del sottomenù */}
                         <div className="flex flex-col text-2xl divide-y divide-third/30">
                           {translation?.[locale]?.storia.sottomenu.map(
                             (item, index) => (
