@@ -116,7 +116,7 @@ function SiteMap() {
 }
 
 export async function getServerSideProps({ res }) {
-  const sitemap = generateSiteMap(resObj);
+  const sitemap = generateSiteMap();
 
   res.setHeader("Content-Type", "text/xml");
   // we send the XML to the browser
