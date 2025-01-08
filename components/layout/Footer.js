@@ -104,6 +104,15 @@ const Footer = ({ translation }) => {
               target="_blank"
             >
               Thallion Dev di Francesca Cantale
+            </Link>{" "}
+            & Graphics by{" "}
+            <Link
+              href="https://www.miaographics.it/"
+              title="Graphic Designer Creativa | Miao grafismi itineranti"
+              className="underline"
+              target="_blank"
+            >
+              Miao Graphics
             </Link>
           </p>
         </aside>
