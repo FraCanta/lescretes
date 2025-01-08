@@ -1,5 +1,7 @@
 //pages/sitemap.xml.js
 
+import LayoutTranslation from "../public/layout.json";
+
 function generateSiteMap() {
   return `<?xml version="1.0" encoding="UTF-8"?>
      <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">       
@@ -113,7 +115,7 @@ function SiteMap() {
 }
 
 export async function getServerSideProps({ res }) {
-  const sitemap = generateSiteMap();
+  const sitemap = generateSiteMap(resObj);
 
   res.setHeader("Content-Type", "text/xml");
   // we send the XML to the browser

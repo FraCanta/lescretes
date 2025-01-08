@@ -14,4 +14,4 @@ Disallow: /temp/
 Host: https://lescretes.it
 
 # Sitemap
-Sitemap: https://thallion-dev.it/sitemap.xml
+Sitemap: https://lescretes.it/sitemap.xml
