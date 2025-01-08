@@ -54,7 +54,7 @@ const Mobile = ({ translation }) => {
       <AnimatePresence initial={false}>
         {open && (
           <motion.div
-            className=" absolute top-[60px] left-0 right-0 bg-white min-h-screen w-screen text-main   bg-pattern2 divide-y"
+            className=" absolute top-[60px] left-0 right-0 bg-white min-h-screen w-screen text-main overflow-hidden   bg-pattern2 divide-y"
             initial={{ x: "-100%" }}
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
