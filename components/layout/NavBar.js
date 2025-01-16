@@ -6,7 +6,6 @@ import Logo from "@/public/logo/logo.png";
 import Mobile from "./mobile";
 import { motion, AnimatePresence } from "framer-motion";
 import { Icon } from "@iconify/react";
-import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitccher";
 
 const NavBar = ({ translation }) => {
   const { locale, pathname } = useRouter();
@@ -219,7 +218,6 @@ const NavBar = ({ translation }) => {
               />
               {translation?.[locale]?.store}
             </Link>
-            <LanguageSwitcher />
           </div>
           <div className="flex items-center justify-end py-1 text-main xl:hidden ">
             <Mobile translation={translation} />
