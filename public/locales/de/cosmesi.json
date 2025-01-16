@@ -139,12 +139,14 @@
         "highlights": {
           "title": "You may also like"
         },
-        "faq": [
-          {
-            "question": "Where can I buy cosmetics?",
-            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (elena.bortoletto@lescretes.it) to arrange a shipment."
-          }
-        ]
+        "faq": {
+          "items": [
+            {
+              "question": "Where can I buy cosmetics?",
+              "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (elena.bortoletto@lescretes.it) to arrange a shipment."
+            }
+          ]
+        }
       },
       "soinvisage": {
         "img": "/assets/cosmetici/visage.webp",

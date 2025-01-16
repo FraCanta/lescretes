@@ -139,12 +139,14 @@
         "highlights": {
           "title": "Ti potrebbe anche interessare"
         },
-        "faq": [
-          {
-            "question": "Dove posso acquistare i cosmetici?",
-            "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (elena.bortoletto@lescretes.it) per predisporre una spedizione."
-          }
-        ]
+        "faq": {
+          "items": [
+            {
+              "question": "Dove posso acquistare i cosmetici?",
+              "answer": "La linea della cosmetica si acquista presso il Rifugio del Vino. Qualora non fosse possibile raggiungerci potete inviare una mail (elena.bortoletto@lescretes.it) per predisporre una spedizione."
+            }
+          ]
+        }
       },
       "soinvisage": {
         "img": "/assets/cosmetici/visage.webp",
