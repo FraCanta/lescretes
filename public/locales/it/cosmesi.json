@@ -172,12 +172,14 @@
         "highlights": {
           "title": "You may also like"
         },
-        "faq": [
-          {
-            "question": "Where can I buy cosmetics?",
-            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (info@lescretes.it) to arrange a shipment."
-          }
-        ]
+        "faq": {
+          "items": [
+            {
+              "question": "Where can I buy cosmetics?",
+              "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (elena.bortoletto@lescretes.it) to arrange a shipment."
+            }
+          ]
+        }
       },
 
       "lotion": {
@@ -205,12 +207,14 @@
         "highlights": {
           "title": "You may also like"
         },
-        "faq": [
-          {
-            "question": "Where can I buy cosmetics?",
-            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (info@lescretes.it) to arrange a shipment."
-          }
-        ]
+        "faq": {
+          "items": [
+            {
+              "question": "Where can I buy cosmetics?",
+              "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (elena.bortoletto@lescretes.it) to arrange a shipment."
+            }
+          ]
+        }
       },
 
       "parfumee": {
@@ -241,12 +245,14 @@
         "highlights": {
           "title": "You may also like"
         },
-        "faq": [
-          {
-            "question": "Where can I buy cosmetics?",
-            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (info@lescretes.it) to arrange a shipment."
-          }
-        ]
+        "faq": {
+          "items": [
+            {
+              "question": "Where can I buy cosmetics?",
+              "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (elena.bortoletto@lescretes.it) to arrange a shipment."
+            }
+          ]
+        }
       },
       "diffuseur": {
         "img": "/assets/cosmetici/diffusore.webp",
@@ -276,12 +282,14 @@
         "highlights": {
           "title": "You may also like"
         },
-        "faq": [
-          {
-            "question": "Where can I buy cosmetics?",
-            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (info@lescretes.it) to arrange a shipment."
-          }
-        ]
+        "faq": {
+          "items": [
+            {
+              "question": "Where can I buy cosmetics?",
+              "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (elena.bortoletto@lescretes.it) to arrange a shipment."
+            }
+          ]
+        }
       },
       "pepin": {
         "img": "/assets/cosmetici/corpo.webp",
@@ -311,12 +319,14 @@
         "highlights": {
           "title": "You may also like"
         },
-        "faq": [
-          {
-            "question": "Where can I buy cosmetics?",
-            "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (info@lescretes.it) to arrange a shipment."
-          }
-        ]
+        "faq": {
+          "items": [
+            {
+              "question": "Where can I buy cosmetics?",
+              "answer": "The cosmetics line is available at the Rifugio del Vino. If you cannot reach us, please send an email (elena.bortoletto@lescretes.it) to arrange a shipment."
+            }
+          ]
+        }
       }
     }
   }
