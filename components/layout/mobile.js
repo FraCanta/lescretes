@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { motion, AnimatePresence } from "framer-motion";
 import { Icon } from "@iconify/react";
+import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitccher";
 const Mobile = ({ translation }) => {
   const { locale, pathname } = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,7 +31,8 @@ const Mobile = ({ translation }) => {
     setOpen(!open);
   };
   return (
-    <div className="flex items-center">
+    <div className="flex items-center gap-6">
+      <LanguageSwitcher />
       <motion.div id="close" onClick={handleOpen}>
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -305,10 +305,6 @@ const Degustazioni = ({ translation, locale }) => {
           <div></div>
         </div>
       </div>
-      <div className="w-[90%] mx-auto my-[50px]">
-        <h2 className="py-6 text-6xl font-bold">FAQs</h2>
-        <FAQ translation={translation.faq} />
-      </div>
 
       <Banner
         img={Rif}

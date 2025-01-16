@@ -6,6 +6,7 @@ import Logo from "@/public/logo/logo.png";
 import Mobile from "./mobile";
 import { motion, AnimatePresence } from "framer-motion";
 import { Icon } from "@iconify/react";
+import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitccher";
 
 const NavBar = ({ translation }) => {
   const { locale, pathname } = useRouter();
@@ -163,23 +164,27 @@ const NavBar = ({ translation }) => {
                             )
                           )}
                         </div>
+
                         <div className="relative flex justify-end w-full h-full py-6">
-                          {hoveredItem !== null && (
-                            <Image
-                              src={
-                                translation?.[locale]?.degustazioni.sottomenu[
-                                  hoveredItem
-                                ].imgSrc
-                              }
-                              alt={
-                                translation?.[locale]?.degustazioni.sottomenu[
-                                  hoveredItem
-                                ].name
-                              }
-                              fill
-                              className="object-cover"
-                            />
-                          )}
+                          {hoveredItem !== null &&
+                            translation?.[locale]?.degustazioni.sottomenu[
+                              hoveredItem
+                            ]?.imgSrc && (
+                              <Image
+                                src={
+                                  translation?.[locale]?.degustazioni.sottomenu[
+                                    hoveredItem
+                                  ].imgSrc
+                                }
+                                alt={
+                                  translation?.[locale]?.degustazioni.sottomenu[
+                                    hoveredItem
+                                  ].name
+                                }
+                                fill
+                                className="object-cover"
+                              />
+                            )}
                         </div>
                       </div>
                     </motion.div>
@@ -214,6 +219,7 @@ const NavBar = ({ translation }) => {
               />
               {translation?.[locale]?.store}
             </Link>
+            <LanguageSwitcher />
           </div>
           <div className="flex items-center justify-end py-1 text-main xl:hidden ">
             <Mobile translation={translation} />

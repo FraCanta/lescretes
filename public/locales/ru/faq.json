@@ -1,0 +1,69 @@
+{
+  "faq": {
+    "title": "FAQs - Frequently Asked Questions",
+    "p": "Here you will find answers to the most common questions we receive. If you can't find what you're looking for, don't hesitate to <a title='Questions & Answer' class='font-bold underline' href='mailto:info@lescretes.it'>contact us</a>!",
+
+    "items": [
+      {
+        "question": "I am gluten intolerant, can I ask for a dedicated plate/cutting board?",
+        "answer": "For intolerances/allergies please inform us at the time of booking and we will create a special assortment for you."
+      },
+      {
+        "question": "Can I take my dog to the tasting?",
+        "answer": "Dogs are welcome at the Wine Refuge and can accompany you during the tastings. However, they will not be able to access the cellars for the company visit."
+      },
+      {
+        "question": "Is there parking available in front of the Rifugio del Vino?",
+        "answer": "We offer a large square in front of the Wine Hut where you can park your vehicles."
+      },
+      {
+        "question": "Can I reach you by public transport?",
+        "answer": "The farm can be reached on line 5 from Aosta. Buses leave from the square in front of the train station, same for taxis to contact on +39 0165 262010."
+      },
+      {
+        "question": "Do you have a parking area for your camper?",
+        "answer": "The company does not regulate this service. The parking area for campers is located in front of the post office of Aymavilles (Frazione Chef Lieu, 24, 11010 Aymavilles - AO)."
+      },
+      {
+        "question": "Is the property accessible to disabled people?",
+        "answer": "The property offers ramps for disabled people. They can visit the cellars with a lift."
+      },
+      {
+        "question": "Are groups allowed in?",
+        "answer": "They are admitted upon availability of the structure. The reservation must be made well in advance (at least two weeks before the selected date)."
+      },
+      {
+        "question": "Is there a children’s area?",
+        "answer": "We propose a children’s space within the structure to give the little ones a moment of leisure and play during the tasting routes."
+      },
+      {
+        "question": "Can I take the kids to a wine tasting?",
+        "answer": "Children can access the structure and we guarantee non-alcoholic proposals as well as the space for children."
+      },
+      {
+        "question": "If I have an unexpected event, can I change the day of the tasting?",
+        "answer": "It is possible to change the day of the tasting by giving two days - no later than - notice from the selected date."
+      },
+      {
+        "question": "Are the tastings also suitable for vegetarians or vegans?",
+        "answer": "The tasting of wines is free and dedicated to anyone although instead of the cutting board we will offer galettes as an accompaniment."
+      },
+      {
+        "question": "Is it possible to give away a tasting?",
+        "answer": "You can give an experience to Les Crêtes with your voucher (gift certificate). Please contact us at the email address (ordini@lescretes.it) to regulate the payment of the voucher after the balance of the experience by bank transfer."
+      },
+      {
+        "question": "What is the maximum capacity for a tasting? Is advance booking required?",
+        "answer": "Our structure can accommodate up to 50 people and a reservation is necessary at least two weeks in advance from the selected date."
+      },
+      {
+        "question": "Is it possible to ship the wines?",
+        "answer": "It is possible to arrange a shipment by sending the request to the mail address ordini@lescretes.it."
+      },
+      {
+        "question": "Is it a structure that offers lunches and dinners?",
+        "answer": "The Rifugio del Vino does not provide for the discipline of meals but offers emotional tasting experiences to which, upon request, assortments of cheeses and cold cuts can be added. "
+      }
+    ]
+  }
+}

@@ -42,7 +42,7 @@ const FAQItem = ({ question, answer }) => {
 const FAQ = ({ translation }) => {
   return (
     <>
-      {translation.map((el, i) => {
+      {translation.items.map((el, i) => {
         return (
           <div key={i}>
             <FAQItem question={el.question} answer={el.answer} />

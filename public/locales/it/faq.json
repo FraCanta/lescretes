@@ -1,0 +1,68 @@
+{
+  "faq": {
+    "title": "FAQs - Domande Frequenti",
+    "p": "Qui trovi le risposte alle domande più comuni che riceviamo. Se non trovi ciò che cerchi, non esitare a <a title='Info e domande' class='font-bold underline' href='mailto:info@lescretes.it'>contattarci</a>!",
+    "items": [
+      {
+        "question": "Sono intollerante al glutine, posso richiedere un piatto/taglieri dedicato?",
+        "answer": "Per intolleranze/allergie vi preghiamo di informarci al momento della prenotazione e creeremo un assortimento speciale per voi."
+      },
+      {
+        "question": "Posso portare il mio cane alla degustazione?",
+        "answer": "I cani sono benvenuti al Rifugio del Vino e possono accompagnarvi durante le degustazioni. Tuttavia, non potranno accedere alle cantine per la visita dell'azienda."
+      },
+      {
+        "question": "Sono disponibili parcheggi di fronte al Rifugio del Vino?",
+        "answer": "Offriamo una grande piazza di fronte al Rifugio del Vino dove è possibile parcheggiare i veicoli."
+      },
+      {
+        "question": "Posso raggiungervi con i mezzi pubblici?",
+        "answer": "L'azienda è raggiungibile con la linea 5 da Aosta. Gli autobus partono dalla piazza di fronte alla stazione ferroviaria, lo stesso per i taxi contattare il numero +39 0165 262010."
+      },
+      {
+        "question": "Avete un parcheggio per il vostro camper?",
+        "answer": "La società non regola questo servizio. Il parcheggio per camper si trova di fronte all'ufficio postale di Aymavilles (Frazione Chef Lieu, 24, 11010 Aymavilles - AO)."
+      },
+      {
+        "question": "La struttura è accessibile ai disabili?",
+        "answer": "La struttura dispone di rampe per disabili. È possibile visitare le cantine con un ascensore."
+      },
+      {
+        "question": "Sono ammessi i gruppi?",
+        "answer": "Sono ammessi previa disponibilità della struttura. La prenotazione deve essere effettuata con largo anticipo (almeno due settimane prima della data selezionata)."
+      },
+      {
+        "question": "C'è un'area per bambini?",
+        "answer": "All'interno della struttura proponiamo uno spazio per bambini per regalare ai più piccoli un momento di svago e gioco durante i percorsi degustazione."
+      },
+      {
+        "question": "Posso portare i bambini a una degustazione di vini?",
+        "answer": "I bambini possono accedere alla struttura e garantiamo proposte analcoliche così come lo spazio per i bambini."
+      },
+      {
+        "question": "Se ho un evento inaspettato, posso cambiare il giorno della degustazione?",
+        "answer": "È possibile cambiare il giorno della degustazione dando due giorni - al più tardi - preavviso dalla data selezionata."
+      },
+      {
+        "question": "Le degustazioni sono adatte anche a vegetariani o vegani?",
+        "answer": "La degustazione dei vini è gratuita e dedicata a chiunque, anche se invece del tagliere vi offriremo delle galette come accompagnamento."
+      },
+      {
+        "question": "È possibile regalare una degustazione?",
+        "answer": "Con il vostro buono (buono regalo) potete regalare un'esperienza a Les Crêtes. Contattaci all'indirizzo email (ordini@lescretes.it) per regolare il pagamento del voucher dopo il saldo dell'esperienza tramite bonifico bancario."
+      },
+      {
+        "question": "Qual è la capienza massima per una degustazione? È richiesta la prenotazione anticipata?",
+        "answer": "La nostra struttura può ospitare fino a 50 persone e è necessario effettuare una prenotazione almeno due settimane prima della data selezionata."
+      },
+      {
+        "question": "È possibile spedire i vini?",
+        "answer": "Iè possibile organizzare una spedizione inviando la richiesta all'indirizzo mail ordini@lescretes.it."
+      },
+      {
+        "question": "È una struttura che offre pranzi e cene?",
+        "answer": "Il Rifugio del Vino non prevede la disciplina dei pasti ma offre esperienze di degustazione emozionanti alle quali, su richiesta, possono essere aggiunte assortimenti di formaggi e salumi. "
+      }
+    ]
+  }
+}
