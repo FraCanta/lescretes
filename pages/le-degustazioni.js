@@ -305,7 +305,7 @@ const Degustazioni = ({ translation, locale }) => {
           <div></div>
         </div>
       </div>
-
+      <div></div>
       <Banner
         img={Rif}
         title={translation.banner.title}
