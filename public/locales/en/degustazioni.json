@@ -619,7 +619,19 @@
         }
       ]
     },
-
+    "etiquette": {
+      "title": "Winery Etiquette",
+      "text": "<strong>Visits</strong> and <strong>tastings</strong> are available <strong>by reservation only</strong>. Walk-in requests can only be accommodated based on availability at the time.",
+      "p": "To provide our guests with <strong>the best possible experience</strong>, we kindly ask that a few <strong>simple guidelines</strong> be followed.",
+      "list": [
+        {
+          "text": "<strong>- Children:</strong> If you will be accompanied by your little ones, please indicate this in the appropriate field when making your reservation or contact us to better organize your experience at Les Cretes in the dedicated children's area."
+        },
+        {
+          "text": "<strong>- Pets:</strong> Small-sized four-legged friends are welcome, but for more information, please <a href='mailto:info@lescretes.it' title='contact us for more information' class='font-bold underline'>contact us</a>."
+        }
+      ]
+    },
     "banner": {
       "title": "Il Rifugio del Vino: emotional tasting room",
       "paragraph": "A place where hospitality is at home and where you can live a unique experience in the mountains of Valle d'Aosta.",

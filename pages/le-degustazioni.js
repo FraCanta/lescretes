@@ -280,7 +280,7 @@ const Degustazioni = ({ translation, locale }) => {
                   height={800}
                 />
               </figure>
-              <div className="card-body !p-0 !py-4 !gap-y-4 !justify-between !h-full">
+              <div className="card-body !p-0 !py-4 !gap-y-4 !justify-between ">
                 <div className="flex flex-col gap-y-4 ">
                   <h2 className="text-xl font-bold card-title lg:text-2xl fxl:text-3xl">
                     {el.title}
@@ -302,10 +302,36 @@ const Degustazioni = ({ translation, locale }) => {
               </div>
             </div>
           ))}
-          <div></div>
         </div>
       </div>
-      <div></div>
+      <div className="w-[90%] mx-auto my-20 flex flex-col gap-6">
+        <h3 className="text-3xl font-bold lg:max-w-2xl lg:text-4xl 2xl:text-5xl">
+          {translation.etiquette.title}
+        </h3>
+        <p
+          className="max-w-6xl text-lg lg:text-xl text-main/80"
+          dangerouslySetInnerHTML={{
+            __html: translation.etiquette.text,
+          }}
+        ></p>
+        <p
+          className="text-lg lg:text-xl text-main/80"
+          dangerouslySetInnerHTML={{
+            __html: translation.etiquette.p,
+          }}
+        ></p>
+        <ul className="flex flex-col max-w-full gap-4 text-lg lg:max-w-6xl lg:text-xl text-main/80">
+          {translation.etiquette.list.map((el, i) => {
+            return (
+              <li
+                dangerouslySetInnerHTML={{
+                  __html: el.text,
+                }}
+              ></li>
+            );
+          })}
+        </ul>
+      </div>
       <Banner
         img={Rif}
         title={translation.banner.title}

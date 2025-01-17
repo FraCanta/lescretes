@@ -608,7 +608,19 @@
         }
       ]
     },
-
+    "etiquette": {
+      "title": "Winery Etiquette",
+      "text": "Le <strong>visite</strong> e le <strong>degustazioni</strong> sono disponibili <strong>solo su prenotazione</strong>, pertanto richieste senza prenotazione potranno essere soddisfatte solo su disponibilità del momento.",
+      "p": "Inoltre, per offrire ai nostri ospiti <strong>la miglior esperienza di visita</strong> richiediamo che siano rispettate alcune <strong>semplici indicazioni</strong>.",
+      "list": [
+        {
+          "text": "<strong>- Bambini:</strong> Se sarete accompagnati dai vostri bimbi, vi preghiamo di indicarlo al momento della prenotazione nell’apposito campo, o di contattarci in modo da organizzare al meglio la vostra esperienza in Les Cretes nell'apposito spazio bimbi."
+        },
+        {
+          "text": "<strong>- Animali domestici:</strong> gli amici a quattro zampe di piccola taglia sono i benvenuti, ma per ulteriori informazioni vi preghiamo di <a href='mailto:info@lescretes.it' title='scrivici per maggiori informazioni' class='font-bold underline'>contattarci</a>."
+        }
+      ]
+    },
     "banner": {
       "title": "Il Rifugio del Vino: sala degustazione emozionale",
       "paragraph": "Un luogo dove l'ospitalità è di casa e dove vivere un'esperienza unica tra le montagne della Valle d'Aosta.",

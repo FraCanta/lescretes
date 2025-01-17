@@ -18,9 +18,11 @@ function faqsDomandeFrequenti({ translation }) {
       </Head>
       <div className="w-[90%] mx-auto my-[50px]">
         <div className="flex flex-col gap-4 my-10 text-main">
-          <h1 className="text-6xl font-bold ">{translation.title}</h1>
+          <h1 className="text-4xl font-bold lg:text-6xl ">
+            {translation.title}
+          </h1>
           <p
-            className="text-xl"
+            className="text-lg lg:text-xl"
             dangerouslySetInnerHTML={{
               __html: translation.p,
             }}
