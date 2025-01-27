@@ -41,7 +41,7 @@ function ObblighiDiTrasparenza() {
           </strong>{" "}
           <strong>
             - Soutien aux investissements dans les exploitations agricoles
-          </strong>
+          </strong>{" "}
           Impianto di un vigneto di Chardonnay nel Comune di Saint Christophe.
           Iniziativa finanziata dal Programma di sviluppo rurale della Valle
           d’Aosta 2014/2022 Initiative financée par le Programme de
