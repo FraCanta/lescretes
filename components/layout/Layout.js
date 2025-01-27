@@ -70,7 +70,7 @@ export const Layout = (props) => {
           accountName="Les Crêtes"
           statusMessage="Ti risponderemo al più presto"
           allowClickAway
-          notification
+          notificationSound={true}
           chatMessage="Ciao, come possiamo aiutarti?"
           placeholder="Scrivi un messaggio..."
           darkMode
