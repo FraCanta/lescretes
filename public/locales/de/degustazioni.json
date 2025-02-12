@@ -235,6 +235,7 @@
         "othersTitle": "Other highlights of tastings",
         "form": {
           "day": "Select a date",
+          "opzioneTitle": "Cutting board option",
 
           "slots": "Select a time slot:",
           "adults": "adults",

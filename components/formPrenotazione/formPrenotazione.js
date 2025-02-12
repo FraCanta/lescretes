@@ -491,7 +491,9 @@ const FormPrenotazione = ({
                 for="link-checkbox"
                 className="flex items-center gap-2 text-sm font-bold text-main ms-2 dark:text-gray-300"
               >
-                <span>Opzione tagliere (+{optPrice}€)</span>
+                <span>
+                  {form.opzioneTitle} (+{optPrice}€)
+                </span>
               </label>
             </div>
           )}
