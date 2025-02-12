@@ -54,15 +54,15 @@ export default function App({ Component, pageProps, router }) {
             {`
           var _iub = _iub || [];
           _iub.csConfiguration = {
-            siteId: 3780565,
-            cookiePolicyId: 43776831,
+            siteId: 3877789,
+            cookiePolicyId: 39805788,
             lang: "it"
           };
         `}
           </Script>
           {/* Script di autoblocco Iubenda */}
           <Script
-            src="https://cs.iubenda.com/autoblocking/3780565.js"
+            src="https://cs.iubenda.com/autoblocking/3877789.js"
             strategy="afterInteractive"
           />
           {/* Script di soluzione cookie Iubenda */}
