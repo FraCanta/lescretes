@@ -447,7 +447,7 @@
     "it": {
       "col1": {
         "title": "Orari Wine Shop & Degustazioni",
-        "days": "Da Lunedì a Venerdì / Domenica",
+        "days": "Da Lunedì a Venerdì",
         "close": "Sabato"
       },
 
@@ -499,12 +499,12 @@
       "col1": {
         "title": "Office Hours",
         "days": "From Monday to Friday",
-        "close": "Saturday, Sunday and holidays closed"
+        "close": "Saturday"
       },
       "col2": {
         "title": "WAREHOUSE HOURS",
         "days": "From Monday to Friday",
-        "close": "Saturday, Sunday and holidays closed"
+        "close": "Saturday"
       },
       "col3": {
         "title": "Quick Links",
@@ -553,12 +553,12 @@
       "col1": {
         "title": "Office Hours",
         "days": "From Monday to Friday",
-        "close": "Saturday, Sunday and holidays closed"
+        "close": "Saturday"
       },
       "col2": {
         "title": "WAREHOUSE HOURS",
         "days": "From Monday to Friday",
-        "close": "Saturday, Sunday and holidays closed"
+        "close": "Saturday"
       },
       "col3": {
         "title": "Quick Links",
@@ -661,12 +661,12 @@
       "col1": {
         "title": "Office Hours",
         "days": "From Monday to Friday",
-        "close": "Saturday, Sunday and holidays closed"
+        "close": "Saturday"
       },
       "col2": {
         "title": "WAREHOUSE HOURS",
         "days": "From Monday to Friday",
-        "close": "Saturday, Sunday and holidays closed"
+        "close": "Saturday"
       },
       "col3": {
         "title": "Quick Links",
@@ -715,12 +715,12 @@
       "col1": {
         "title": "Office Hours",
         "days": "From Monday to Friday",
-        "close": "Saturday, Sunday and holidays closed"
+        "close": "Saturday"
       },
       "col2": {
         "title": "WAREHOUSE HOURS",
         "days": "From Monday to Friday",
-        "close": "Saturday, Sunday and holidays closed"
+        "close": "Saturday"
       },
       "col3": {
         "title": "Quick Links",
@@ -769,12 +769,12 @@
       "col1": {
         "title": "Office Hours",
         "days": "From Monday to Friday",
-        "close": "Saturday, Sunday and holidays closed"
+        "close": "Saturday"
       },
       "col2": {
         "title": "WAREHOUSE HOURS",
         "days": "From Monday to Friday",
-        "close": "Saturday, Sunday and holidays closed"
+        "close": "Saturday"
       },
       "col3": {
         "title": "Quick Links",
@@ -823,12 +823,12 @@
       "col1": {
         "title": "Office Hours",
         "days": "From Monday to Friday",
-        "close": "Saturday, Sunday and holidays closed"
+        "close": "Saturday"
       },
       "col2": {
         "title": "WAREHOUSE HOURS",
         "days": "From Monday to Friday",
-        "close": "Saturday, Sunday and holidays closed"
+        "close": "Saturday"
       },
       "col3": {
         "title": "Quick Links",

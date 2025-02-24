@@ -70,11 +70,17 @@ const FormPrenotazione = ({
     new Date(2024, 11, 31), // 31 Dicembre
     new Date(2025, 0, 1), // 1 Gennaio
     new Date(2025, 0, 6), // 6 Gennaio
+    new Date(2025, 3, 20), // 20 Aprile
+    new Date(2025, 3, 21), // 21 Aprile
+    new Date(2025, 4, 1), // 1 Maggio
   ];
 
   const openSundays = [
     new Date(2024, 11, 29), // 29 Dicembre
     new Date(2025, 0, 5), // 5 Gennaio
+    new Date(2025, 3, 25), // 25 Aprile
+    new Date(2025, 3, 27), // 27 Aprile
+    new Date(2025, 5, 2), // 2 Giugno
   ];
 
   const isDateSelectable = (date) => {
