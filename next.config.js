@@ -12,6 +12,15 @@ const nextConfig = {
     plugins: [],
   },
   i18n,
+  async redirects() {
+    return [
+      {
+        source: "/wp-content/:path*", // Cattura tutti i percorsi che iniziano con /wp-content/
+        destination: "https://www.lescretes.it/", // Reindirizza alla homepage
+        permanent: true, // 301 Redirect
+      },
+    ];
+  },
   async headers() {
     return [
       {
