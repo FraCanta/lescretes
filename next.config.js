@@ -1,9 +1,26 @@
 /** @type {import('next').NextConfig} */
+const withPlugins = require("next-compose-plugins");
 
 const { i18n } = require("./next-18next.config");
 const nextConfig = {
-  i18n,
   reactStrictMode: true,
+  swcMinify: true,
+  eslint: {
+    ignoreDuringBuilds: false,
+  },
+  postcss: {
+    plugins: [],
+  },
+  i18n,
+  async headers() {
+    return [
+      {
+        // Apply these headers to all routes in your application.
+        source: "/:path*",
+        headers: securityHeaders,
+      },
+    ];
+  },
 
   images: {
     formats: ["image/avif", "image/webp"],
@@ -16,4 +33,68 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+const ContentSecurityPolicy = `
+  default-src 'self' https://region1.google-analytics.com/ https://api.iconify.design/ https://cpl.iubenda.com/ https://idb.iubenda.com/ https://use.typekit.net/;
+  script-src 'self' https://www.googletagmanager.com/ https://static.elfsight.com/ https://p.typekit.net/ http://cdn.iubenda.com/ https://cs.iubenda.com/ https://fonts.googleapis.com/ 'unsafe-inline' 'unsafe-eval';
+  child-src 'self';
+  style-src 'self' https://p.typekit.net/ https://fonts.googleapis.com/ https://use.typekit.net/ https://cdn.iubenda.com/ 'unsafe-inline' data:;
+  font-src 'self' https://use.typekit.net/ https://fonts.gstatic.com/ 'unsafe-inline' data:;
+  img-src 'self' data: blob:;
+`;
+
+const securityHeaders = [
+  {
+    key: "X-XSS-Protection",
+    value: "1; mode=block",
+  },
+  {
+    key: "X-Frame-Options",
+    value: "SAMEORIGIN",
+  },
+  {
+    key: "X-Content-Type-Options",
+    value: "nosniff",
+  },
+  {
+    key: "Content-Security-Policy",
+    value: ContentSecurityPolicy.replace(/\s{2,}/g, " ").trim(),
+  },
+  {
+    key: "X-DNS-Prefetch-Control",
+    value: "on",
+  },
+];
+
+module.exports = withPlugins([
+  nextConfig,
+  {
+    i18n: {
+      locales: ["it", "en"],
+      defaultLocale: "it",
+      localeDetection: true,
+    },
+  },
+  {
+    async headers() {
+      return [
+        {
+          // Apply these headers to all routes in your application.
+          source: "/:path*",
+          headers: securityHeaders,
+        },
+      ];
+    },
+  },
+  {
+    images: {
+      formats: ["image/avif", "image/webp"],
+      domains: ["www.lescretes.it"],
+
+      deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+      imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+      minimumCacheTTL: 60,
+      unoptimized: true,
+    },
+  },
+  // withBundleAnalyzer,
+]);
