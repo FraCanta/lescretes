@@ -68,11 +68,7 @@ const securityHeaders = [
 module.exports = withPlugins([
   nextConfig,
   {
-    i18n: {
-      locales: ["it", "en"],
-      defaultLocale: "it",
-      localeDetection: true,
-    },
+    i18n,
   },
   {
     async headers() {
