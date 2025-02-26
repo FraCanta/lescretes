@@ -5,13 +5,15 @@ const { i18n } = require("./next-18next.config");
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  eslint: {
-    ignoreDuringBuilds: false,
-  },
+
   postcss: {
     plugins: [],
   },
-  i18n,
+  i18n: {
+    locales: ["it", "en", "fr", "de", "ko", "jp", "ru", "zh"],
+    defaultLocale: "it",
+    localeDetection: true,
+  },
   async redirects() {
     return [
       {
@@ -92,7 +94,11 @@ const securityHeaders = [
 module.exports = withPlugins([
   nextConfig,
   {
-    i18n,
+    i18n: {
+      locales: ["it", "en", "fr", "de", "ko", "jp", "ru", "zh"],
+      defaultLocale: "it",
+      localeDetection: true,
+    },
   },
   {
     async headers() {

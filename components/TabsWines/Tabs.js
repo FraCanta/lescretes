@@ -16,11 +16,6 @@ const Tabs = ({ translation }) => {
     setActiveTab(index);
   };
 
-  const lineMotion = {
-    rest: { width: "0%", transition: { duration: 0.1 } },
-    active: { width: "100%", transition: { duration: 0.1 } },
-  };
-
   return (
     <div className="pt-20 xl:pt-0">
       <div className="flex items-center gap-4 lg:gap-6 !px-5 lg:!px-0 overflow-x-auto whitespace-nowrap w-[90%] mx-auto tabs relative">

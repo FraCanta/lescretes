@@ -4,18 +4,17 @@ import Image from "next/image";
 import viniIT from "../../public/locales/it/vini.json";
 import viniEN from "../../public/locales/en/vini.json";
 import viniFR from "../../public/locales/fr/vini.json";
+import viniDE from "../../public/locales/de/vini.json";
+import viniJP from "../../public/locales/jp/vini.json";
+import viniKO from "../../public/locales/ko/vini.json";
+import viniRU from "../../public/locales/ru/vini.json";
+import viniZH from "../../public/locales/zh/vini.json";
+
 import Head from "next/head";
 import Piatti from "@/public/assets/piatti.svg";
 import Vitigni from "@/public/assets/iconewine/vitigni.svg";
-import Tipologia from "@/public/assets/iconewine/tipologia.svg";
-import Gradazione from "@/public/assets/iconewine/gradazione.svg";
 import Type from "@/public/assets/iconewine/type.svg";
-import Formati from "@/public/assets/iconewine/formati.svg";
-import Vinificazione from "@/public/assets/iconewine/vinificazione.svg";
-import Zona from "@/public/assets/iconewine/zona.svg";
 import Affinamento from "@/public/assets/iconewine/affinamento.svg";
-import Servizio from "@/public/assets/iconewine/servizio.svg";
-import TabWine from "@/components/TabWine/TabWine";
 import Link from "next/link";
 import { FacebookShareButton, WhatsappShareButton } from "next-share";
 import { Icon } from "@iconify/react";
@@ -517,6 +516,21 @@ export async function getStaticProps(context) {
     case "fr":
       obj = viniFR;
       break;
+    case "de":
+      obj = viniDE;
+      break;
+    case "jp":
+      obj = viniJP;
+      break;
+    case "ko":
+      obj = viniKO;
+      break;
+    case "ru":
+      obj = viniRU;
+      break;
+    case "zh":
+      obj = viniZH;
+      break;
     default:
       obj = viniIT;
       break;
@@ -561,6 +575,21 @@ export async function getStaticPaths({ locale }) {
     case "fr":
       obj = viniFR;
       break;
+    case "de":
+      obj = viniDE;
+      break;
+    case "jp":
+      obj = viniJP;
+      break;
+    case "ko":
+      obj = viniKO;
+      break;
+    case "ru":
+      obj = viniRU;
+      break;
+    case "zh":
+      obj = viniZH;
+      break;
     default:
       obj = viniIT;
       break;
@@ -594,7 +623,56 @@ export async function getStaticPaths({ locale }) {
       locale: "it",
     };
   });
-  const paths = pathIt.concat(pathEn).concat(pathFr);
+  const pathDe = wines?.map((el) => {
+    return {
+      params: {
+        title: [el?.cat, el?.title],
+      },
+      locale: "de",
+    };
+  });
+  const pathJp = wines?.map((el) => {
+    return {
+      params: {
+        title: [el?.cat, el?.title],
+      },
+      locale: "jp",
+    };
+  });
+  const pathKo = wines?.map((el) => {
+    return {
+      params: {
+        title: [el?.cat, el?.title],
+      },
+      locale: "ko",
+    };
+  });
+  const pathRu = wines?.map((el) => {
+    return {
+      params: {
+        title: [el?.cat, el?.title],
+      },
+      locale: "ru",
+    };
+  });
+  const pathZh = wines?.map((el) => {
+    return {
+      params: {
+        title: [el?.cat, el?.title],
+      },
+      locale: "zh",
+    };
+  });
+
+  // Concatenazione di tutti i percorsi
+  const paths = pathIt
+    .concat(pathEn)
+    .concat(pathFr)
+    .concat(pathDe)
+    .concat(pathJp)
+    .concat(pathKo)
+    .concat(pathRu)
+    .concat(pathZh);
 
   return {
     paths,
