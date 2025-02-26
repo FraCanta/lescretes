@@ -22,9 +22,14 @@ const nextConfig = {
         permanent: true, // 301 Redirect
       },
       {
-        source: "/en/our-wines/:path*", // Cattura tutti i percorsi che iniziano con /wp-content/
+        source: "/en/our-wines", // Cattura tutti i percorsi che iniziano con /wp-content/
         destination: "https://www.lescretes.it/en/i-vini", // Reindirizza alla homepage
         permanent: true, // 301 Redirect
+      },
+      {
+        source: "/en/our-wines/:path*",
+        destination: "https://www.lescretes.it/en/i-vini/:path*", // Mantieni il percorso relativo per gli altri URL
+        permanent: true,
       },
       {
         source: "/azienda-les-cretes/:path*", // Cattura tutti i percorsi che iniziano con /wp-content/
