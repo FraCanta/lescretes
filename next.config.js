@@ -29,6 +29,11 @@ const nextConfig = {
         destination: "https://www.lescretes.it/la-famiglia-charrere", // Reindirizza alla homepage
         permanent: true, // 301 Redirect
       },
+      {
+        source: "/les-cretes-vini-di-montagna-dal-1800/:path*", // Cattura tutti i percorsi che iniziano con /wp-content/
+        destination: "https://www.lescretes.it/", // Reindirizza alla homepage
+        permanent: true, // 301 Redirect
+      },
     ];
   },
   async headers() {
