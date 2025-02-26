@@ -28,13 +28,13 @@ const nextConfig = {
       },
       // Reindirizzamento per /en/our-wines con categoria dinamica
       {
-        source: "/en/our-wines/:categoria/:prodotto",
-        destination: "https://www.lescretes.it/en/i-vini/:categoria/:prodotto", // Usa :categoria per mappare la categoria dinamica
+        source: "/en/our-wines/:categoria/*",
+        destination: "https://www.lescretes.it/en/i-vini/:categoria/*", // Usa :categoria per mappare la categoria dinamica
         permanent: true,
       },
       {
-        source: "/fr/nos-vins/:categoria/:prodotto",
-        destination: "https://www.lescretes.it/fr/i-vini/:categoria/:prodotto", // Usa :categoria per mappare la categoria dinamica
+        source: "/fr/nos-vins/:categoria/*",
+        destination: "https://www.lescretes.it/fr/i-vini/:categoria/*", // Usa :categoria per mappare la categoria dinamica
         permanent: true,
       },
       {
