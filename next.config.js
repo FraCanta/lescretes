@@ -47,11 +47,7 @@ const nextConfig = {
         destination: "https://www.lescretes.it/", // Reindirizza alla homepage
         permanent: true, // 301 Redirect
       },
-      {
-        source: "/pdf/path*", // Cattura tutti i percorsi che iniziano con /wp-content/
-        destination: "https://www.lescretes.it/", // Reindirizza alla homepage
-        permanent: true, // 301 Redirect
-      },
+
       {
         source: "/vini", // Cattura tutti i percorsi che iniz
         destination: "https://www.lescretes.it/i-vini", // Reindirizza alla homepage
