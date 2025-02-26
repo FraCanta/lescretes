@@ -33,7 +33,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/fr/nos-vins/:path*",
+        source: "/fr/nos-vins/",
         destination: "https://www.lescretes.it/fr/i-vini", // Usa :categoria per mappare la categoria dinamica
         permanent: true,
       },
