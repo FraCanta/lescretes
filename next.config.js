@@ -33,6 +33,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/fr/nos-vins/:categoria/:path*",
+        destination: "https://www.lescretes.it/fr/i-vini/:categoria/:path*", // Usa :categoria per mappare la categoria dinamica
+        permanent: true,
+      },
+      {
         source: "/azienda-les-cretes/:path*", // Cattura tutti i percorsi che iniziano con /wp-content/
         destination: "https://www.lescretes.it/la-famiglia-charrere", // Reindirizza alla homepage
         permanent: true, // 301 Redirect
