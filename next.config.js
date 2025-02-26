@@ -29,11 +29,6 @@ const nextConfig = {
         destination: "https://www.lescretes.it/la-famiglia-charrere", // Reindirizza alla homepage
         permanent: true, // 301 Redirect
       },
-      {
-        source: "https://www.lescretes.it/en/cosmesi/gommage", // Cattura tutti i percorsi che iniziano con /wp-content/
-        destination: "https://www.lescretes.it/la-famiglia-charrere", // Reindirizza alla homepage
-        permanent: true, // 301 Redirect
-      },
     ];
   },
   async headers() {
