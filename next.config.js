@@ -26,9 +26,10 @@ const nextConfig = {
         destination: "https://www.lescretes.it/en/i-vini", // Reindirizza alla homepage
         permanent: true, // 301 Redirect
       },
+      // Reindirizzamento per /en/our-wines con categoria dinamica
       {
-        source: "/en/our-wines/:path*",
-        destination: "https://www.lescretes.it/en/i-vini/:path*", // Mantieni il percorso relativo per gli altri URL
+        source: "/en/our-wines/:categoria/:path*",
+        destination: "https://www.lescretes.it/en/i-vini/:categoria/:path*", // Usa :categoria per mappare la categoria dinamica
         permanent: true,
       },
       {
