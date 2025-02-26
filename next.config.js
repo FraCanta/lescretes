@@ -42,6 +42,31 @@ const nextConfig = {
         destination: "https://www.lescretes.it/", // Reindirizza alla homepage
         permanent: true, // 301 Redirect
       },
+      {
+        source: "/pdf/path*", // Cattura tutti i percorsi che iniziano con /wp-content/
+        destination: "https://www.lescretes.it/", // Reindirizza alla homepage
+        permanent: true, // 301 Redirect
+      },
+      {
+        source: "/vini", // Cattura tutti i percorsi che iniz
+        destination: "https://www.lescretes.it/i-vini", // Reindirizza alla homepage
+        permanent: true, // 301 Redirect
+      },
+      {
+        source: "/vini-lestate-by-doctorwine-2022/:path*", // Cattura tutti i percorsi che iniz
+        destination: "https://www.lescretes.it/", // Re
+        permanent: true, // 301 Redirect
+      },
+      {
+        source: "/vignernonscourmayeur-sabato-4-aprile-2015/:path*", // Cattura tutti i percorsi che iniz
+        destination: "https://www.lescretes.it/", // Re
+        permanent: true, // 301 Redirect
+      },
+      {
+        source: "/valle-daosta-le-gelate-aprile-secondo-les-cr/:path*", // Cattura tutti i percorsi che iniz
+        destination: "https://www.lescretes.it/", // Re
+        permanent: true, // 301 Redirect
+      },
     ];
   },
   async headers() {
