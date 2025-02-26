@@ -22,12 +22,12 @@ const nextConfig = {
         permanent: true, // 301 Redirect
       },
       {
-        source: "/:lang/our-wines/", // Cattura tutti i percorsi che iniziano con /wp-content/
+        source: "/:lang/our-wines/:path*", // Cattura tutti i percorsi che iniziano con /wp-content/
         destination: "https://www.lescretes.it/:lang/i-vini", // Reindirizza alla homepage
         permanent: true, // 301 Redirect
       },
       {
-        source: "/azienda-les-cretes/", // Cattura tutti i percorsi che iniziano con /wp-content/
+        source: "/azienda-les-cretes/:path*", // Cattura tutti i percorsi che iniziano con /wp-content/
         destination: "https://www.lescretes.it/la-famiglia-charrere", // Reindirizza alla homepage
         permanent: true, // 301 Redirect
       },
