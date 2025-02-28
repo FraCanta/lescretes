@@ -92,12 +92,12 @@ const nextConfig = {
 };
 
 const ContentSecurityPolicy = `
-  default-src 'self' https://region1.google-analytics.com/ https://api.iconify.design/ https://cpl.iubenda.com/ https://idb.iubenda.com/ https://use.typekit.net/;
+  default-src 'self'  https://service-reviews-ultimate.elfsight.com/ https://core.service.elfsight.com/ https://region1.google-analytics.com/ https://api.iconify.design/ https://cpl.iubenda.com/ https://idb.iubenda.com/ https://use.typekit.net/;
   script-src 'self' https://www.googletagmanager.com/ https://static.elfsight.com/ https://p.typekit.net/ http://cdn.iubenda.com/ https://cs.iubenda.com/ https://fonts.googleapis.com/ 'unsafe-inline' 'unsafe-eval';
   child-src 'self';
   style-src 'self' https://p.typekit.net/ https://fonts.googleapis.com/ https://use.typekit.net/ https://cdn.iubenda.com/ 'unsafe-inline' data:;
   font-src 'self' https://use.typekit.net/ https://fonts.gstatic.com/ 'unsafe-inline' data:;
-  img-src 'self' data: blob:;
+  img-src 'self' https://lh3.googleusercontent.com/ data: blob:;
 `;
 
 const securityHeaders = [

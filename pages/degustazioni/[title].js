@@ -27,7 +27,6 @@ import { Navigation, Pagination } from "swiper/modules";
 import FormPrenotazione from "@/components/formPrenotazione/formPrenotazione";
 
 const SingleDeg = ({ deg, others }) => {
-  console.log(others);
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
   const handleDrawerToggle = () => {
     setIsDrawerOpen(!isDrawerOpen);
