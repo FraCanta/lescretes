@@ -97,7 +97,7 @@ const ContentSecurityPolicy = `
   child-src 'self';
   style-src 'self' https://p.typekit.net/ https://fonts.googleapis.com/ https://use.typekit.net/ https://cdn.iubenda.com/ 'unsafe-inline' data:;
   font-src 'self' https://use.typekit.net/ https://fonts.gstatic.com/ 'unsafe-inline' data:;
-  img-src 'self' https://lh3.googleusercontent.com/ data: blob:;
+  img-src 'self' 'https://cdnjs.cloudflare.com/ https://lh3.googleusercontent.com/ data: blob:;
 `;
 
 const securityHeaders = [
