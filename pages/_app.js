@@ -60,12 +60,19 @@ export default function App({ Component, pageProps, router }) {
           };
         `}
           </Script>
-          {/* Script di autoblocco Iubenda */}
           <Script
-            src="https://cs.iubenda.com/autoblocking/3877789.js"
+            type="text/javascript"
+            src="//embeds.iubenda.com/widgets/01bd6fa3-d024-4628-a199-8783de3d5c32.js"
+          ></Script>
+          <Script
+            src="https://cs.iubenda.com/autoblocking/39805788.js"
             strategy="afterInteractive"
           />
-          {/* Script di soluzione cookie Iubenda */}
+          <Script
+            id="iubenda-script"
+            src="https://cdn.iubenda.com/iubenda.js"
+            strategy="afterInteractive"
+          />
           <Script
             src="//cdn.iubenda.com/cs/iubenda_cs.js"
             charset="UTF-8"

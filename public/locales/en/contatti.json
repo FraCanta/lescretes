@@ -98,7 +98,7 @@
         "name": "Message*",
         "placeholder": "Write your message..."
       },
-      "check": "<span class='opacity-75'>* I declare that I have read and understood the</span> <a class='font-bold text-main' href='/privacy' target='_blank'>privacy policy*</a>",
+      "check": "<span class='opacity-75'>* I declare that I have read and understood the</span> <a class='font-bold text-main' href='https://www.iubenda.com/privacy-policy/39805788' target='_blank'>privacy policy*</a>",
       "submit": "Send request"
     }
   }

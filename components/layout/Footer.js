@@ -87,11 +87,22 @@ const Footer = ({ translation }) => {
             Copyright © 2025 Les Crêtes - P.iva 00520450073 | All Rights
             Reserved |{" "}
             <Link
-              href="/privacy"
-              title="Pagina privacy policy"
-              className="underline"
+              href="https://www.iubenda.com/privacy-policy/39805788"
+              className="iubenda-white iubenda-noiframe iubenda-embed"
+              title="Privacy Policy"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Privacy Policy
+            </Link>
+            <Link
+              href="https://www.iubenda.com/privacy-policy/39805788/cookie-policy"
+              className="iubenda-white iubenda-noiframe iubenda-embed"
+              title="Cookie Policy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Cookie Policy
             </Link>
           </p>
           <p>
