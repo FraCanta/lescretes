@@ -60,10 +60,10 @@ export default function App({ Component, pageProps, router }) {
           };
         `}
           </Script>
-          <Script
+          <script
             type="text/javascript"
-            src="//embeds.iubenda.com/widgets/01bd6fa3-d024-4628-a199-8783de3d5c32.js"
-          ></Script>
+            src="//embeds.iubenda.com/widgets/663fad6f-6d86-492d-b2b7-e029eb52b781.js"
+          ></script>
           <Script
             src="https://cs.iubenda.com/autoblocking/39805788.js"
             strategy="afterInteractive"
