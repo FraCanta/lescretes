@@ -189,6 +189,17 @@ const Mobile = ({ translation }) => {
                   )}
                 </AnimatePresence>
               </motion.li>
+              <motion.div variants={variants.item} animate="visibleItem">
+                <Link
+                  href={`/regala-una-degustazione`}
+                  title="Regala una degustazione"
+                  className={`menu-item block  text-[25px] leading-[30px] font-regular text-main ${
+                    pathname === "/notizie" ? "font-bold" : ""
+                  }`}
+                >
+                  {translation?.[locale]?.gift}
+                </Link>
+              </motion.div>
               {/* <motion.div variants={variants.item} animate="visibleItem">
               <Link
                 href={`/notizie`}
