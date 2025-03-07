@@ -191,6 +191,13 @@ const NavBar = ({ translation }) => {
                 </AnimatePresence>
               </div>
               <Link
+                href={`/regala-una-degustazione`}
+                title="Regala una degustazione"
+                className="text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"
+              >
+                {translation?.[locale]?.gift}
+              </Link>
+              <Link
                 href={`/cosmesi`}
                 title="La nostra cosmesi"
                 className="text-[16px] md:text-[1.2rem] xl:text-[1.2rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular capitalize flex items-center"

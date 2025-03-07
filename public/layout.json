@@ -40,12 +40,7 @@
             "title": "Degustazioni",
             "imgSrc": "/assets/deg3.jpg"
           },
-          {
-            "name": "Regala una degustazione",
-            "link": "/regala-una-degustazione",
-            "title": "Regala una degustazione",
-            "imgSrc": "/assets/regala_una_degustazione.webp"
-          },
+
           {
             "name": "FAQs - Domande Frequenti",
             "link": "/faqs-domande-frequenti",
@@ -53,6 +48,9 @@
           }
         ]
       },
+
+      "gift": "Regala una degustazione",
+
       "news": "Megazine",
       "cosmesi": "DeVin Cosmetica",
       "download": "Press Kit",
@@ -99,12 +97,7 @@
             "title": "Tastings",
             "imgSrc": "/assets/deg3.jpg"
           },
-          {
-            "name": "Gift a tasting",
-            "link": "/regala-una-degustazione",
-            "title": "Gift a tasting",
-            "imgSrc": "/assets/regala_una_degustazione.webp"
-          },
+
           {
             "name": "FAQs - Frequently Asked Questions",
             "link": "/faqs-domande-frequenti",
@@ -112,6 +105,9 @@
           }
         ]
       },
+
+      "gift": "Gift a tasting",
+
       "news": "News",
       "cosmesi": "DeVin Cosmetics",
       "download": "Download Area",
@@ -158,12 +154,7 @@
             "title": "Tastings",
             "imgSrc": "/assets/deg3.jpg"
           },
-          {
-            "name": "Gift a tasting",
-            "link": "/regala-una-degustazione",
-            "title": "Gift a tasting",
-            "imgSrc": "/assets/regala_una_degustazione.webp"
-          },
+
           {
             "name": "FAQs - Frequently Asked Questions",
             "link": "/faqs-domande-frequenti",
@@ -171,6 +162,9 @@
           }
         ]
       },
+
+      "gift": "Gift a tasting",
+
       "news": "News",
       "cosmesi": "DeVin Cosmetics",
       "download": "Download Area",
@@ -179,25 +173,31 @@
     },
     "de": {
       "storia": {
-        "name": "History",
+        "name": "Identity",
         "sottomenu": [
           {
             "name": "The Charrère family",
             "imgSrc": "/assets/lc.jpg",
             "link": "/la-famiglia-charrere",
-            "title": "storia dell'azienda"
+            "title": "The Charrère family"
           },
           {
-            "name": "The refuge of wine",
+            "name": "The Refuge of wine",
             "imgSrc": "/assets/rifugio/rifugio6.webp",
             "link": "/il-rifugio-del-vino",
-            "title": "il rifugio del vino"
+            "title": "The Refuge of wine"
           },
           {
             "name": "The Terroir",
             "imgSrc": "/assets/coteau2.webp",
             "link": "/il-terroir",
-            "title": "il terroir"
+            "title": "The Terroir"
+          },
+          {
+            "name": "The sustainability of Les Crêtes",
+            "imgSrc": "/assets/lc2.webp",
+            "link": "/sostenibilita",
+            "title": "The sustainability of Les Crêtes"
           }
         ]
       },
@@ -211,12 +211,7 @@
             "title": "Tastings",
             "imgSrc": "/assets/deg3.jpg"
           },
-          {
-            "name": "Gift a tasting",
-            "link": "/regala-una-degustazione",
-            "title": "Gift a tasting",
-            "imgSrc": "/assets/regala_una_degustazione.webp"
-          },
+
           {
             "name": "FAQs - Frequently Asked Questions",
             "link": "/faqs-domande-frequenti",
@@ -224,33 +219,42 @@
           }
         ]
       },
+
+      "gift": "Gift a tasting",
+
       "news": "News",
-      "cosmesi": "Cosmetics",
+      "cosmesi": "DeVin Cosmetics",
       "download": "Download Area",
       "store": "Store Locator",
       "contatti": "Contacts"
     },
     "ko": {
       "storia": {
-        "name": "History",
+        "name": "Identity",
         "sottomenu": [
           {
             "name": "The Charrère family",
             "imgSrc": "/assets/lc.jpg",
             "link": "/la-famiglia-charrere",
-            "title": "storia dell'azienda"
+            "title": "The Charrère family"
           },
           {
-            "name": "The refuge of wine",
+            "name": "The Refuge of wine",
             "imgSrc": "/assets/rifugio/rifugio6.webp",
             "link": "/il-rifugio-del-vino",
-            "title": "il rifugio del vino"
+            "title": "The Refuge of wine"
           },
           {
             "name": "The Terroir",
             "imgSrc": "/assets/coteau2.webp",
             "link": "/il-terroir",
-            "title": "il terroir"
+            "title": "The Terroir"
+          },
+          {
+            "name": "The sustainability of Les Crêtes",
+            "imgSrc": "/assets/lc2.webp",
+            "link": "/sostenibilita",
+            "title": "The sustainability of Les Crêtes"
           }
         ]
       },
@@ -264,12 +268,7 @@
             "title": "Tastings",
             "imgSrc": "/assets/deg3.jpg"
           },
-          {
-            "name": "Gift a tasting",
-            "link": "/regala-una-degustazione",
-            "title": "Gift a tasting",
-            "imgSrc": "/assets/regala_una_degustazione.webp"
-          },
+
           {
             "name": "FAQs - Frequently Asked Questions",
             "link": "/faqs-domande-frequenti",
@@ -277,33 +276,42 @@
           }
         ]
       },
+
+      "gift": "Gift a tasting",
+
       "news": "News",
-      "cosmesi": "Cosmetics",
+      "cosmesi": "DeVin Cosmetics",
       "download": "Download Area",
       "store": "Store Locator",
       "contatti": "Contacts"
     },
     "jp": {
       "storia": {
-        "name": "History",
+        "name": "Identity",
         "sottomenu": [
           {
             "name": "The Charrère family",
             "imgSrc": "/assets/lc.jpg",
             "link": "/la-famiglia-charrere",
-            "title": "storia dell'azienda"
+            "title": "The Charrère family"
           },
           {
-            "name": "The refuge of wine",
+            "name": "The Refuge of wine",
             "imgSrc": "/assets/rifugio/rifugio6.webp",
             "link": "/il-rifugio-del-vino",
-            "title": "il rifugio del vino"
+            "title": "The Refuge of wine"
           },
           {
             "name": "The Terroir",
             "imgSrc": "/assets/coteau2.webp",
             "link": "/il-terroir",
-            "title": "il terroir"
+            "title": "The Terroir"
+          },
+          {
+            "name": "The sustainability of Les Crêtes",
+            "imgSrc": "/assets/lc2.webp",
+            "link": "/sostenibilita",
+            "title": "The sustainability of Les Crêtes"
           }
         ]
       },
@@ -317,12 +325,7 @@
             "title": "Tastings",
             "imgSrc": "/assets/deg3.jpg"
           },
-          {
-            "name": "Gift a tasting",
-            "link": "/regala-una-degustazione",
-            "title": "Gift a tasting",
-            "imgSrc": "/assets/regala_una_degustazione.webp"
-          },
+
           {
             "name": "FAQs - Frequently Asked Questions",
             "link": "/faqs-domande-frequenti",
@@ -330,33 +333,42 @@
           }
         ]
       },
+
+      "gift": "Gift a tasting",
+
       "news": "News",
-      "cosmesi": "Cosmetics",
+      "cosmesi": "DeVin Cosmetics",
       "download": "Download Area",
       "store": "Store Locator",
       "contatti": "Contacts"
     },
     "ru": {
       "storia": {
-        "name": "History",
+        "name": "Identity",
         "sottomenu": [
           {
             "name": "The Charrère family",
             "imgSrc": "/assets/lc.jpg",
             "link": "/la-famiglia-charrere",
-            "title": "storia dell'azienda"
+            "title": "The Charrère family"
           },
           {
-            "name": "The refuge of wine",
+            "name": "The Refuge of wine",
             "imgSrc": "/assets/rifugio/rifugio6.webp",
             "link": "/il-rifugio-del-vino",
-            "title": "il rifugio del vino"
+            "title": "The Refuge of wine"
           },
           {
             "name": "The Terroir",
-            "imgSrc": "/assets/terroir.jpg",
+            "imgSrc": "/assets/coteau2.webp",
             "link": "/il-terroir",
-            "title": "il terroir"
+            "title": "The Terroir"
+          },
+          {
+            "name": "The sustainability of Les Crêtes",
+            "imgSrc": "/assets/lc2.webp",
+            "link": "/sostenibilita",
+            "title": "The sustainability of Les Crêtes"
           }
         ]
       },
@@ -370,12 +382,7 @@
             "title": "Tastings",
             "imgSrc": "/assets/deg3.jpg"
           },
-          {
-            "name": "Gift a tasting",
-            "link": "/regala-una-degustazione",
-            "title": "Gift a tasting",
-            "imgSrc": "/assets/regala_una_degustazione.webp"
-          },
+
           {
             "name": "FAQs - Frequently Asked Questions",
             "link": "/faqs-domande-frequenti",
@@ -383,33 +390,42 @@
           }
         ]
       },
+
+      "gift": "Gift a tasting",
+
       "news": "News",
-      "cosmesi": "Cosmetics",
+      "cosmesi": "DeVin Cosmetics",
       "download": "Download Area",
       "store": "Store Locator",
       "contatti": "Contacts"
     },
     "zh": {
       "storia": {
-        "name": "History",
+        "name": "Identity",
         "sottomenu": [
           {
             "name": "The Charrère family",
             "imgSrc": "/assets/lc.jpg",
             "link": "/la-famiglia-charrere",
-            "title": "storia dell'azienda"
+            "title": "The Charrère family"
           },
           {
-            "name": "The refuge of wine",
+            "name": "The Refuge of wine",
             "imgSrc": "/assets/rifugio/rifugio6.webp",
             "link": "/il-rifugio-del-vino",
-            "title": "il rifugio del vino"
+            "title": "The Refuge of wine"
           },
           {
             "name": "The Terroir",
-            "imgSrc": "/assets/terroir.jpg",
+            "imgSrc": "/assets/coteau2.webp",
             "link": "/il-terroir",
-            "title": "il terroir"
+            "title": "The Terroir"
+          },
+          {
+            "name": "The sustainability of Les Crêtes",
+            "imgSrc": "/assets/lc2.webp",
+            "link": "/sostenibilita",
+            "title": "The sustainability of Les Crêtes"
           }
         ]
       },
@@ -423,12 +439,7 @@
             "title": "Tastings",
             "imgSrc": "/assets/deg3.jpg"
           },
-          {
-            "name": "Gift a tasting",
-            "link": "/regala-una-degustazione",
-            "title": "Gift a tasting",
-            "imgSrc": "/assets/regala_una_degustazione.webp"
-          },
+
           {
             "name": "FAQs - Frequently Asked Questions",
             "link": "/faqs-domande-frequenti",
@@ -436,8 +447,11 @@
           }
         ]
       },
+
+      "gift": "Gift a tasting",
+
       "news": "News",
-      "cosmesi": "Cosmetics",
+      "cosmesi": "DeVin Cosmetics",
       "download": "Download Area",
       "store": "Store Locator",
       "contatti": "Contacts"

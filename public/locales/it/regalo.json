@@ -1,5 +1,64 @@
 {
   "regalo": {
+    "heroTitle": "Regala una degustazione",
+    "main": {
+      "title": "Il regalo perfetto per ogni wine lover",
+      "descrizione": "Un'occasione unica per entrare nel mondo e nei colori di Les Crêtes."
+    },
+    "user": {
+      "title": "Chi fa il regalo",
+      "desc": "Sceglie l'esperienza e la data in cui spedire il regalo.",
+      "instru": [
+        {
+          "number": "1",
+          "icon": "mynaui:gift",
+          "p": "Seleziona l'esperienza da regalare."
+        },
+        {
+          "number": "2",
+          "icon": "mage:pen",
+          "p": "Personalizza il messaggio."
+        },
+        {
+          "number": "3",
+          "icon": "lsicon:email-send-outline",
+          "p": " Compila il modulo di richiesta."
+        }
+      ]
+    },
+    "present": {
+      "title": "Chi riceve il regalo",
+      "desc": "Al momento della richiesta di prenotazione, dichiarerà di possedere un voucher regalo e potrà prenotare la visita in data e orario a scelta.",
+      "four": "Prenota e fai la visita <br />entro 1 anno dall’acquisto"
+    },
+    "card": {
+      "one": "Seleziona l'esperienza",
+      "two": "Inserisci i tuoi dati",
+      "form": {
+        "name": "Nome*",
+        "surname": "Cognome*"
+      },
+      "dedica": {
+        "name": "Nome*",
+        "surname": "Cognome*",
+        "title": "Inserisci i dati di chi riceverà il Buono Regalo",
+        "messaggio": "Messaggio",
+        "dedicaTitle": "Scrivi una dedica"
+      },
+      "terms": {
+        "title": "Termini e condizioni generali",
+        "conditions": [
+          "Il voucher regalo è valido per 1 anno dal momento dell’acquisto",
+          "Il voucher regalo non è rimborsabile dopo la data di scadenza",
+          "Il voucher regalo potrà essere utilizzato una sola volta"
+        ],
+
+        "checkterms": "* Dichiaro di aver letto e compreso i <a href='/termini-e-condizioni-generali' target='_blank' class='font-bold'>Termini e le condizioni generali</a>",
+        "checkprivacy": "* Dichiaro di aver letto e compreso la <a href='https://www.iubenda.com/privacy-policy/39805788' target='_blank' class='font-bold'>Politica sulla privacy</a> e sui <a href='https://www.iubenda.com/privacy-policy/39805788/cookie-policy' target='_blank' class='font-bold'>cookies</a>",
+
+        "submit": "Invia richiesta"
+      }
+    },
     "cards": [
       {
         "img": "/assets/degustazioni/tre2.png",
@@ -10,7 +69,9 @@
         "wine": true,
         "fork": false,
         "bed": false,
-        "tempo": "60'"
+        "tempo": "60'",
+        "detail": "Dettagli",
+        "select": "Seleziona"
       },
       {
         "img": "/assets/degustazioni/native.jpeg",
@@ -21,7 +82,9 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "90'"
+        "tempo": "90'",
+        "detail": "Dettagli",
+        "select": "Seleziona"
       },
       {
         "img": "/assets/degustazioni/cheese.jpeg",
@@ -32,7 +95,9 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "90'"
+        "tempo": "90'",
+        "detail": "Dettagli",
+        "select": "Seleziona"
       },
       {
         "img": "/assets/degustazioni/top.jpeg",
@@ -43,7 +108,9 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "100'"
+        "tempo": "100'",
+        "detail": "Dettagli",
+        "select": "Seleziona"
       },
       {
         "img": "/assets/degustazioni/coteau3.jpg",
@@ -54,7 +121,9 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "120'"
+        "tempo": "120'",
+        "detail": "Dettagli",
+        "select": "Seleziona"
       },
       {
         "img": "/assets/degustazioni/winemaker.jpeg",
@@ -65,7 +134,9 @@
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "120'"
+        "tempo": "120'",
+        "detail": "Dettagli",
+        "select": "Seleziona"
       }
     ]
   }

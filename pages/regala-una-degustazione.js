@@ -19,6 +19,7 @@ import {
 } from "react-international-phone";
 import "react-international-phone/style.css";
 import toast from "react-hot-toast";
+import { traceGlobals } from "next/dist/trace/shared";
 
 const countries = defaultCountries.filter((country) => {
   const { iso2 } = parseCountry(country);
@@ -147,7 +148,7 @@ function GiftPage({ translation }) {
           <div className="absolute inset-0 flex items-center justify-center lg:text-center w-[90%] mx-auto">
             <div className="flex flex-col gap-2 mx-auto">
               <h1 className="text-5xl font-bold tracking-wider text-white lf:text-center lg:text-6xl">
-                <span className="font-2">Regala una degustazione</span>
+                <span className="font-2">{translation.heroTitle}</span>
               </h1>
             </div>
           </div>
@@ -157,11 +158,10 @@ function GiftPage({ translation }) {
         <div className="flex flex-col py-4">
           <div className="max-w-2xl fz-2">
             <h2 className="mb-4 text-4xl font-bold lg:text-6xl display-5 text-main">
-              Il regalo perfetto per ogni wine lover
+              {translation.main.title}
             </h2>
             <p className="max-w-xl text-xl lg:text-2xl text-main/80">
-              Un’occasione unica per entrare nel mondo e nei colori di Les
-              Crêtes.
+              {translation.main.descrizione}
             </p>
           </div>
         </div>
@@ -183,66 +183,32 @@ function GiftPage({ translation }) {
         {/* Chi regala */}
         <div className="flex flex-col justify-between h-full gap-6">
           <div className="flex flex-col gap-6">
-            <h3 className="text-3xl font-bold text-main">Chi fa il regalo</h3>
-            <p className="text-lg text-main/80">
-              Sceglie l'esperienza e la data in cui spedire il regalo.
-            </p>
+            <h3 className="text-3xl font-bold text-main">
+              {translation.user.title}
+            </h3>
+            <p className="text-lg text-main/80">{translation.user.desc}</p>
           </div>
           <div className="grid grid-cols-2 gap-6 lg:grid-cols-3">
-            <div className="flex">
-              <div className="iTotem">
-                <div className="flex items-center gap-4">
-                  <b className="flex items-center justify-center w-8 h-8 text-white rounded-full bg-main">
-                    1
-                  </b>
-                  <Icon
-                    icon="mynaui:gift"
-                    width="50"
-                    height="50"
-                    className="text-main"
-                  />
+            {translation.user.instru.map((el, i) => {
+              return (
+                <div className="flex" key={i}>
+                  <div className="iTotem">
+                    <div className="flex items-center gap-4">
+                      <b className="flex items-center justify-center w-8 h-8 text-white rounded-full bg-main">
+                        {el.number}
+                      </b>
+                      <Icon
+                        icon={el.icon}
+                        width="50"
+                        height="50"
+                        className="text-main"
+                      />
+                    </div>
+                    <p className="text-base text-main/80">{el.p}</p>
+                  </div>
                 </div>
-                <p className="text-base text-main/80">
-                  Seleziona l'esperienza da regalare.
-                </p>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="iTotem">
-                <div className="flex items-center gap-4">
-                  <b className="flex items-center justify-center w-8 h-8 text-white rounded-full bg-main">
-                    2
-                  </b>
-                  <Icon
-                    icon="mage:pen"
-                    width="50"
-                    height="50"
-                    className="text-main"
-                  />
-                </div>
-                <p className="text-base text-main/80">
-                  Personalizza il messaggio
-                </p>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="iTotem">
-                <div className="flex items-center gap-4">
-                  <b className="flex items-center justify-center w-8 h-8 text-white rounded-full bg-main">
-                    3
-                  </b>
-                  <Icon
-                    icon="lsicon:email-send-outline"
-                    width="50"
-                    height="50"
-                    className="text-main"
-                  />
-                </div>
-                <p className="text-base text-main/80">
-                  Compila il modulo di richiesta
-                </p>
-              </div>
-            </div>
+              );
+            })}
           </div>
         </div>
 
@@ -250,13 +216,9 @@ function GiftPage({ translation }) {
         <div className="flex flex-col justify-between h-full gap-6">
           <div className="flex flex-col gap-6">
             <h3 className="text-3xl font-bold text-main">
-              Chi riceve il regalo
+              {translation.present.title}
             </h3>
-            <p className="text-lg text-main/80">
-              Al momento della richiesta di prenotazione, dichiarerà di
-              possedere un voucher regalo e potrà prenotare la visita in data e
-              orario a scelta.
-            </p>
+            <p className="text-lg text-main/80">{translation.present.desc}</p>
           </div>
           <div className="flex">
             <div className="iTotem">
@@ -271,11 +233,12 @@ function GiftPage({ translation }) {
                   className="text-main"
                 />
               </div>
-              <p className="text-base text-main/80">
-                Prenota e fai la visita
-                <br />
-                entro 1 anno dall’acquisto
-              </p>
+              <p
+                className="text-base text-main/80"
+                dangerouslySetInnerHTML={{
+                  __html: translation.present.four,
+                }}
+              ></p>
             </div>
           </div>
         </div>
@@ -290,7 +253,7 @@ function GiftPage({ translation }) {
           <b className="flex items-center justify-center w-8 h-8 text-white rounded-full bg-main">
             1
           </b>
-          <span>Seleziona l'esperienza</span>
+          <span>{translation.card.one}</span>
           <Icon
             icon="mynaui:gift"
             width="24"
@@ -318,7 +281,7 @@ function GiftPage({ translation }) {
                       onClick={() => handleSelect(el.title)}
                       className="px-4 py-2 text-white rounded-[32px] bg-main hover:bg-opacity-90"
                     >
-                      Seleziona
+                      {el.select}
                     </button>
                     <Modal
                       title={el.title}
@@ -328,6 +291,7 @@ function GiftPage({ translation }) {
                       fork={el.fork}
                       tempo={el.tempo}
                       price={el.price}
+                      cta={el.detail}
                     />
                   </div>
                 </div>
@@ -343,7 +307,7 @@ function GiftPage({ translation }) {
                   <b className="flex items-center justify-center w-8 h-8 text-white rounded-full bg-main">
                     2
                   </b>
-                  <span>Inserisci i tuoi dati</span>
+                  <span>{translation.card.two}</span>
                   <Icon
                     icon="mage:pen"
                     width="24"
@@ -369,7 +333,7 @@ function GiftPage({ translation }) {
                       type="text"
                       id="name"
                       name="name"
-                      placeholder="Nome*"
+                      placeholder={translation.card.form.name}
                       value={inputs.name}
                       onChange={handleChange}
                       required
@@ -379,7 +343,7 @@ function GiftPage({ translation }) {
                       type="text"
                       id="surname"
                       name="surname"
-                      placeholder="Cognome*"
+                      placeholder={translation.card.form.surname}
                       value={inputs.surname}
                       onChange={handleChange}
                       required
@@ -414,7 +378,7 @@ function GiftPage({ translation }) {
                   <div className="my-20">
                     <h3 className="flex items-center gap-4 text-xl font-bold lg:text-center lg:justify-center">
                       <span className="align-bottom d-inline-block">
-                        Inserisci i dati di chi riceverà il Buono Regalo
+                        {translation.card.dedica.title}
                       </span>
                     </h3>
                   </div>
@@ -423,7 +387,7 @@ function GiftPage({ translation }) {
                       type="text"
                       id="namegift"
                       name="namegift"
-                      placeholder="Nome*"
+                      placeholder={translation.card.dedica.name}
                       value={inputs.namegift}
                       onChange={handleChange}
                       required
@@ -433,7 +397,7 @@ function GiftPage({ translation }) {
                       type="text"
                       id="surnamegift"
                       name="surnamegift"
-                      placeholder="Cognome*"
+                      placeholder={translation.card.dedica.surname}
                       value={inputs.surnamegift}
                       onChange={handleChange}
                       required
@@ -471,7 +435,7 @@ function GiftPage({ translation }) {
                       for="note_mittente"
                       className="text-xl font-bold text-center text-main "
                     >
-                      Scrivi una dedica{" "}
+                      {translation.card.dedica.dedicaTitle}
                     </label>
                     <textarea
                       id="message"
@@ -480,26 +444,18 @@ function GiftPage({ translation }) {
                       cols="10"
                       rows="10"
                       className="w-full py-10 bg-transparent border-b focus:outline-none focus:border-main text-main"
-                      placeholder="Messaggio"
+                      placeholder={translation.card.dedica.messaggio}
                       required
                     ></textarea>
                   </div>
                   <div>
                     <h3 className="mt-20 text-xl font-bold text-main">
-                      Termini e condizioni generali
+                      {translation.card.terms.title}
                     </h3>
                     <ul className="flex flex-col gap-2 p-8 my-6 text-base list-disc list-inside text-main/80 bg-second">
-                      <li>
-                        Il voucher regalo è valido per 1 anno dal momento
-                        dell’acquisto
-                      </li>
-                      <li>
-                        Il voucher regalo non è rimborsabile dopo la data di
-                        scadenza
-                      </li>
-                      <li>
-                        Il voucher regalo potrà essere utilizzato una sola volta
-                      </li>
+                      {translation.card.terms.conditions.map((el, i) => {
+                        return <li key={i}>{el}</li>;
+                      })}
                     </ul>
                   </div>
                   <div>
@@ -514,17 +470,12 @@ function GiftPage({ translation }) {
                           onChange={() => setTermsChecked(!termsChecked)}
                           checked={termsChecked}
                         />
-                        <label for="tec">
-                          <span className="opacity-75 text-main">
-                            * Dichiaro di aver letto e compreso i
-                          </span>{" "}
-                          <Link
-                            target="_blank"
-                            href="termini-e-condizioni-generali"
-                          >
-                            <strong>Termini e le condizioni generali</strong>
-                          </Link>
-                        </label>
+                        <label
+                          for="tec"
+                          dangerouslySetInnerHTML={{
+                            __html: translation.card.terms.checkterms,
+                          }}
+                        ></label>
                       </div>
                       <div className="help-block with-errors"></div>
                     </div>
@@ -539,25 +490,12 @@ function GiftPage({ translation }) {
                           onChange={() => setPrivacyChecked(!privacyChecked)}
                           checked={privacyChecked}
                         />
-                        <label for="privacy">
-                          <span className="opacity-75 text-main">
-                            * Dichiaro di aver letto e compreso la{" "}
-                          </span>{" "}
-                          <strong>
-                            <Link target="_blank" href="privacy">
-                              Politica sulla privacy
-                            </Link>{" "}
-                          </strong>{" "}
-                          <span className="opacity-75 text-main">e sui</span>{" "}
-                          <strong>
-                            <a
-                              target="_blank"
-                              href="https://www.iubenda.com/privacy-policy/43776831/cookie-policy"
-                            >
-                              cookies
-                            </a>{" "}
-                          </strong>
-                        </label>
+                        <label
+                          for="privacy"
+                          dangerouslySetInnerHTML={{
+                            __html: translation.card.terms.checkprivacy,
+                          }}
+                        ></label>
                       </div>
                       <div className="help-block with-errors"></div>
                     </div>
@@ -572,7 +510,7 @@ function GiftPage({ translation }) {
                       } ${canProceed() ? "" : "pointer-events-none"}`}
                       disabled={!canProceed()}
                     >
-                      Invia richiesta{" "}
+                      {translation.card.terms.submit}
                       <Icon
                         icon="lsicon:email-send-outline"
                         className="w-6 h-full"

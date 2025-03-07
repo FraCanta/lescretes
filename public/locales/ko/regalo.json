@@ -1,82 +1,153 @@
 {
   "regalo": {
+    "heroTitle": "Gift a Tasting",
+    "main": {
+      "title": "The perfect gift for every wine lover",
+      "descrizione": "A unique opportunity to enter the world and colors of Les Crêtes."
+    },
+    "user": {
+      "title": "The gift giver",
+      "desc": "Chooses the experience and the date to send the gift.",
+      "instru": [
+        {
+          "number": "1",
+          "icon": "mynaui:gift",
+          "p": "Select the experience to give."
+        },
+        {
+          "number": "2",
+          "icon": "mage:pen",
+          "p": "Personalize the message."
+        },
+        {
+          "number": "3",
+          "icon": "lsicon:email-send-outline",
+          "p": "Complete the request form."
+        }
+      ]
+    },
+    "present": {
+      "title": "The recipient",
+      "desc": "When booking, they will declare they have a gift voucher and can book the visit at their chosen date and time.",
+      "four": "Book and enjoy the visit <br />within 1 year from the purchase"
+    },
+    "card": {
+      "one": "Select the experience",
+      "two": "Enter your details",
+      "form": {
+        "name": "First Name*",
+        "surname": "Last Name*"
+      },
+      "dedica": {
+        "name": "First Name*",
+        "surname": "Last Name*",
+        "title": "Enter the details of the person receiving the Gift Voucher",
+        "messaggio": "Message",
+        "dedicaTitle": "Write a dedication"
+      },
+      "terms": {
+        "title": "Terms and conditions",
+        "conditions": [
+          "The gift voucher is valid for 1 year from the purchase date",
+          "The gift voucher is non-refundable after the expiration date",
+          "The gift voucher can be used only once"
+        ],
+        "checkterms": "* I confirm that I have read and understood the <a href='/termini-e-condizioni-generali' target='_blank' class='font-bold'>Terms and Conditions</a>",
+        "checkprivacy": "* I confirm that I have read and understood the <a href='https://www.iubenda.com/privacy-policy/39805788' target='_blank' class='font-bold'>Privacy Policy</a> and the <a href='https://www.iubenda.com/privacy-policy/39805788/cookie-policy' target='_blank' class='font-bold'>Cookies Policy</a>",
+        "submit": "Submit Request"
+      }
+    },
     "cards": [
       {
         "img": "/assets/degustazioni/tre2.png",
         "title": "3 Wines Experience",
-        "descrizione": "Degustazione di tre vini al Rifugio del Vino e visita alla cantina e alla cantina",
-        "price": "€25.00 iva inclusa / persona",
+        "descrizione": "Tasting of three wines at the Wine Refuge and visit to the cellar and wine cellar",
+        "price": "€25.00 VAT included/ person",
         "link": "/degustazioni/trewines",
         "wine": true,
         "fork": false,
         "bed": false,
-        "tempo": "60'"
+        "tempo": "60'",
+        "detail": "Full Details",
+        "select": "Select"
       },
       {
         "img": "/assets/degustazioni/native.jpeg",
         "title": "5 Wines Experience",
-        "descrizione": "Degustazione di 5 vini del territorio presso il rifugio dei vini in cantina e barricaia",
-        "price": "€34,00 iva inclusa / persona",
+        "descrizione": "Tasting of 5 wines from the territory at the wine refuge in the cellar and barricaia",
+        "price": "€34,00 VAT included/ person",
         "link": "/degustazioni/fivewines",
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "90'"
+        "tempo": "90'",
+        "detail": "Full Details",
+        "select": "Select"
       },
       {
         "img": "/assets/degustazioni/cheese.jpeg",
         "title": "Wine and Cheese Experience",
-        "descrizione": "Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali e visita alla cantina e barricaia",
-        "price": "€45.00 iva inclusa / persona",
+        "descrizione": "Tasting of 5 selected wines in combination with 6 local cheeses and visit to the cellar and barricaia",
+        "price": "€45.00 VAT included/ person",
         "link": "/degustazioni/cheese",
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "90'"
+        "tempo": "90'",
+        "detail": "Full Details",
+        "select": "Select"
       },
       {
         "img": "/assets/degustazioni/top.jpeg",
         "title": "Top Wines Experience",
-        "descrizione": "Degustazione di 5 vini di alta qualità accompagnati da un tagliere della gastronomia locale e visita alla cantina e barricaia",
-        "price": "€65,00 iva inclusa / persona",
+        "descrizione": "Tasting of 5 top wines accompanied by a cutting board of the local gastronomy and visit to the cellar and barricaia",
+        "price": "€65,00 VAT included/ person",
         "link": "/degustazioni/top",
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "105'"
+        "tempo": "105'",
+        "detail": "Full Details",
+        "select": "Select"
       },
       {
         "img": "/assets/degustazioni/coteau3.jpg",
         "title": "Côteau la Tour Experience",
-        "descrizione": "Degustazione di 5 vini accompagnati da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto di Côteau e brindisi nella torre medievale",
-        "price": "€75.00 iva inclusa / persona",
+        "descrizione": "Tasting of 5 wines accompanied by a cutting board of the local gastronomy and visit in the cellar and barricaia. Tour of the Côteau vineyard and toast in the Medieval Tower",
+        "price": "€75.00 VAT included/ person",
         "link": "/degustazioni/tour",
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "120'"
+        "tempo": "120'",
+        "detail": "Full Details",
+        "select": "Select"
       },
       {
         "img": "/assets/degustazioni/winemaker.jpeg",
         "title": "Winemaker's Experience",
-        "descrizione": "Scopri il mondo di Les Crêtes, raccontato dal nostro enologo Raffaele, dai vigneti alla cantina.",
-        "price": "€90.00 iva inclusa / persona",
+        "descrizione": "Discover the world of Les Crêtes, told by our winemaker Raffaele, from the vineyards to the cellar.",
+        "price": "€90.00 VAT included/ person",
         "link": "/degustazioni/winemaker",
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "120'"
+        "tempo": "120'",
+        "detail": "Full Details",
+        "select": "Select"
       },
       {
         "img": "/assets/degustazioni/wellness.jpeg",
         "title": "Wellness & Wine Tasting",
-        "descrizione": "Una notte di soggiorno in camera doppia presso QC Terme Spas & Resorts, con percorso benessere + degustazione di 5 vini selezionati con 6 formaggi locali, visita alla cantina e barricaia.",
-        "price": "A partire da €346,00 iva inclusa",
+        "descrizione": "One night stay in a double room at QC Terme Spas & Resorts, with wellness path + tasting of 5 selected wines with 6 local cheeses, visit to the cellar and barricaia.",
+        "price": "From €346,00 including VAT ",
         "link": "/degustazioni/wellness",
         "wine": true,
         "fork": true,
         "bed": true,
-        "tempo": "90'"
+        "tempo": "90'",
+        "detail": "Full Details",
+        "select": "Select"
       }
     ]
   }

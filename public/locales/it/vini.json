@@ -83,7 +83,7 @@
             "name": "Chambave Moscato",
             "link": "/i-vini/bianchi/chambave",
             "cat": "bianchi",
-            "vitigni": "Moscato 100%",
+            "vitigni": "Moscato Bianco 100%",
             "origine": "D.O.C.",
             "type": "vini bianchi"
           },
@@ -156,7 +156,7 @@
             "type": "vini rossi"
           },
           {
-            "img": "/assets/vinirossi/nebbiolo.png",
+            "img": "/assets/vinirossi/nebbiolo_sommet.png",
             "name": "Nebbiolo Sommet®",
             "link": "/i-vini/rossi/nebbiolos",
             "cat": "rossi",
@@ -549,7 +549,12 @@
         "sharetext": "Condividi su",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "cornalin": {
         "img": "/assets/vinirossi/cornalin.png",
@@ -724,7 +729,12 @@
         "sharetext": "Condividi su",
         "download": "/Cornalin-Valle-dAosta-DOP-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "lacor": {
         "img": "/assets/vinirossi/fumin_lacor.png",
@@ -887,7 +897,12 @@
         "sharetext": "Condividi su",
         "download": "/Fumin-LA-COR-Valle-dAosta-DOP-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "fumin": {
         "seoimg": "/assets/seo/seovini/fumin_seo.png",
@@ -1635,7 +1650,12 @@
         "sharetext": "Condividi su",
         "download": "/Fumin-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "monrouge": {
         "seoimg": "/assets/seo/seovini/monrouge_seo.png",
@@ -1902,7 +1922,12 @@
         "sharetext": "Condividi su",
         "download": "/Mon-Rouge-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "nebbiolo": {
         "seoimg": "/assets/seo/seovini/nebbiolo_seo.png",
@@ -2019,7 +2044,12 @@
         "sharetext": "Condividi su",
         "download": "/Nebbiolo-sommet-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "nebbiolos": {
         "seoimg": "/assets/seo/seovini/nebbiolosom_seo.png",
@@ -2298,7 +2328,12 @@
         "sharetext": "Condividi su",
         "download": "/Nebbiolo-sommet-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "pinot": {
         "img": "/assets/vinirossi/pinot_nero.png",
@@ -2660,7 +2695,12 @@
         "sharetext": "Condividi su",
         "download": "/Pinot-nero-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "revei": {
         "seoimg": "/assets/seo/seovini/revei_seo.png",
@@ -2969,7 +3009,12 @@
         "sharetext": "Condividi su",
         "download": "/Pinot-Nero-REVEI-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "sabla": {
         "seoimg": "/assets/seo/seovini/sabla_seo.png",
@@ -3084,7 +3129,12 @@
         "sharetext": "Condividi su",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "sabla50": {
         "seoimg": "/assets/seo/seovini/sabla50_seo.png",
@@ -3198,7 +3248,12 @@
         "sharetext": "Condividi su",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "syrah": {
         "seoimg": "/assets/seo/seovini/syrah_seo.png",
@@ -3651,7 +3706,12 @@
         "sharetext": "Condividi su",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
 
       "torrettesup": {
@@ -3936,7 +3996,12 @@
         "sharetext": "Condividi su",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "torrette": {
         "seoimg": "/assets/seo/seovini/torrette_seo.png",
@@ -4175,7 +4240,12 @@
         "sharetext": "Condividi su",
         "download": "/Merlot-le-merle-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "chardonnaycb": {
         "seoimg": "/assets/seo/seovini/chardonnaycb_seo.png",
@@ -5097,7 +5167,12 @@
         "sharetext": "Condividi su",
         "download": "/Chardonnay-CUVEE-BOIS-Valle-dAosta-DOP-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "chardonnay": {
         "seoimg": "/assets/seo/seovini/chardonnay_seo.png",
@@ -5533,7 +5608,12 @@
         "sharetext": "Condividi su",
         "download": "/Chardonnay-Valle-dAosta-DOP-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "monblanc": {
         "seoimg": "/assets/seo/seovini/monblanc_seo.png",
@@ -5783,7 +5863,12 @@
         "sharetext": "Condividi su",
         "download": "/Mon-Blanc-Vino-bianco-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "neige": {
         "seoimg": "/assets/seo/seovini/neige_seo.png",
@@ -6142,7 +6227,12 @@
         "sharetext": "Condividi su",
         "download": "/Neige-dOr-Valle-dAosta-DOP-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "petitearvine": {
         "seoimg": "/assets/seo/seovini/petite_seo.png",
@@ -6731,7 +6821,12 @@
         "sharetext": "Condividi su",
         "download": "/Petite-arvine-Valle-dAosta-DOP-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "petitefleur": {
         "seoimg": "/assets/seo/seovini/petitefleur_seo.png",
@@ -7102,7 +7197,12 @@
         "sharetext": "Condividi su",
         "download": "/Petite-arvine-FLEUR-Valle-dAosta-DOP-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "pinotgris": {
         "seoimg": "/assets/seo/seovini/pinotgris_seo.png",
@@ -7280,7 +7380,12 @@
         "sharetext": "Condividi su",
         "download": "/Pinot-Gris-Brulant-Valle-dAosta-DOP-LES-CRETES-2.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "chambave": {
         "seoimg": "/assets/seo/seovini/petite_seo.png",
@@ -7291,11 +7396,11 @@
         "link": "/i-vini/bianchi/chambave",
         "cat": "bianchi",
         "origine": "D.O.C.",
-        "text": "Chambave is a small village in Valle d'Aosta, between Chantillon and Aosta. Its good positioning benefits from a particular microclimate that is renowned for the production of wines of prestige that show pronounced aromas. Its appreciation dates back to the XV century as a statement of 1450 narrates of a gift of barrels of dry or passito muscat of Chambave, being given to Bona di Borbone, mother of Amedeo VIII of Savoy, on behalf of noble residents of the Valle d'Aosta.",
+        "text": "Chambave è un piccolo villaggio nella Valle d'Aosta, situato tra Châtillon e Aosta. La sua posizione favorevole beneficia di un microclima particolare, rinomato per la produzione di vini prestigiosi con aromi pronunciati. Il suo apprezzamento risale al XV secolo: un documento del 1450 racconta di un dono di botti di Moscato di Chambave, sia secco che passito, offerto a Bona di Borbone, madre di Amedeo VIII di Savoia, da parte di nobili residenti della Valle d'Aosta.",
         "denominazioneTitle": "Denominazione:",
         "denominazione": "Valle d'Aosta",
         "vitigniTitle": "Vitigni",
-        "vitigni": "Petite Arvine 100%",
+        "vitigni": "Moscato Bianco 100%",
         "tipologiaTitle": "Vini",
         "tipologia": "bianchi",
         "carattersticheTitle": "Caratteristiche",
@@ -7304,7 +7409,7 @@
         "formatoTitle": "Formati disponibili",
         "formato": [{ "f": "750 ml" }],
         "longevitàTitle": "Longevità",
-        "longevità": "Età 30 anni",
+        "longevità": "Età 5 anni",
         "vinificazioneTitle": "Vinificazione",
         "vinificazione": "Refrigerazione e pressatura soffice a grappolo intero delle uve, fermentazione di 12 giorni in acciaio inox a temperatura controllata (14 °C). ",
         "zonaTitle": "Zona di produzione",
@@ -7864,13 +7969,18 @@
             }
           }
         ],
-        "more": "More",
-        "downloadtext": "Wine Sheet",
-        "recycletext": "Environmental Labeling",
-        "sharetext": "Share on",
+        "more": "Altri",
+        "downloadtext": "Scheda vino",
+        "recycletext": "Etichettatura ambientale",
+        "sharetext": "Condividi su",
         "download": "/Petite-arvine-Valle-dAosta-DOP-LES-CRETES.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": true
+        "showButtons": true,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "rose": {
         "seoimg": "/assets/seo/seovini/rose_seo.png",
@@ -8124,7 +8234,12 @@
         "sharetext": "Condividi su",
         "download": "/Rose-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": false
+        "showButtons": false,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "dore": {
         "seoimg": "/assets/seo/seovini/dore_seo.png",
@@ -8388,7 +8503,12 @@
         "sharetext": "Condividi su",
         "download": "/Dore-Vino-da-uve-stramature-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": false
+        "showButtons": false,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "neblu": {
         "seoimg": "/assets/seo/seovini/neblu_seo.png",
@@ -8502,7 +8622,12 @@
         "sharetext": "Condividi su",
         "download": "/Metodo-classico-Neblu-Brut-Nature-Rose-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": false
+        "showButtons": false,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       },
       "reban": {
         "seoimg": "/assets/seo/seovini/reban_seo.png",
@@ -8616,7 +8741,12 @@
         "sharetext": "Condividi su",
         "download": "/Metodo-classico-Reban-pas-dose-Valle-dAosta-DOP-LES-CRETES-1.pdf",
         "recycle": "/tabella.jpg",
-        "showButtons": false
+        "showButtons": false,
+        "banner": {
+          "title": "Fai o regala a chi vuoi una degustazione a Les Crêtes",
+          "descrizione": "Regala un’esperienza unica ed originale scegliendo una degustazione tra quelle disponibili sul nostro sito oppure, se hai esigenze particolari, contattaci per creare il tuo regalo personalizzato.",
+          "cta": "Scopri le nostre proposte"
+        }
       }
     },
     "family": {

@@ -1,14 +1,14 @@
 import { Icon } from "@iconify/react";
 import React from "react";
 
-const Modal = ({ title, id, descrizione, wine, fork, tempo, price }) => {
+const Modal = ({ title, id, descrizione, wine, fork, tempo, price, cta }) => {
   return (
     <>
       <button
         className="underline"
         onClick={() => document.getElementById(id).showModal()}
       >
-        Dettagli
+        {cta}
       </button>
       <dialog id={id} className="modal">
         <div className="modal-box !bg-white">

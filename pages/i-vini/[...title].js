@@ -339,10 +339,10 @@ const SingleWine = ({ wine, others }) => {
       <div className="w-[90%] mx-auto py-6">
         <div className="flex flex-col w-full gap-10 xl:flex-row xl:justify-between">
           <div className="flex flex-col gap-6 xl:flex-row">
-            <CtaOutlineBrown link={wine.download} download>
+            {/* <CtaOutlineBrown link={wine.download} download>
               {wine.downloadtext}
               <Icon icon="material-symbols:download" width={30} />
-            </CtaOutlineBrown>
+            </CtaOutlineBrown> */}
             <CtaOutlineBrown link={wine.recycle} download>
               {wine.recycletext}
               <Icon icon="material-symbols:download" width={30} />
@@ -485,14 +485,9 @@ const SingleWine = ({ wine, others }) => {
 
       <Banner
         img={Deg}
-        title="Fai o regala a chi vuoi una degustazione a Les Crêtes"
-        paragraph="Regala un’esperienza unica ed originale scegliendo una
-              degustazione tra quelle disponibili sul nostro sito oppure, se hai
-              esigenze particolari, contattaci per creare il tuo regalo
-              personalizzato."
-        btn1="Prenota subito"
-        btn2="Scopri le proposte"
-        link1="/contatti"
+        title={wine.banner.title}
+        paragraph={wine.banner.descrizione}
+        btn2={wine.banner.cta}
         link2="/le-degustazioni"
       />
     </>
