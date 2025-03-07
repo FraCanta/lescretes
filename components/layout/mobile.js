@@ -194,7 +194,7 @@ const Mobile = ({ translation }) => {
                   href={`/regala-una-degustazione`}
                   title="Regala una degustazione"
                   className={`menu-item block  text-[25px] leading-[30px] font-regular text-main ${
-                    pathname === "/notizie" ? "font-bold" : ""
+                    pathname === "/regala-una-degustazione" ? "font-bold" : ""
                   }`}
                 >
                   {translation?.[locale]?.gift}
