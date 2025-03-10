@@ -40,6 +40,18 @@
             "title": "Degustazioni",
             "imgSrc": "/assets/deg3.jpg"
           },
+          {
+            "name": "Orari e Contatti",
+            "link": "/orari-e-contatti",
+            "title": "Orari e contatti",
+            "imgSrc": "/assets/rifugio/rifugio10.webp"
+          },
+          {
+            "name": "I Nostri Eventi",
+
+            "badge": "coming soon",
+            "title": "I nostri eventi"
+          },
 
           {
             "name": "FAQs - Domande Frequenti",
@@ -49,7 +61,7 @@
         ]
       },
 
-      "gift": "Regala una degustazione",
+      "gift": "Gift Card",
 
       "news": "Megazine",
       "cosmesi": "DeVin Cosmetica",
@@ -97,6 +109,18 @@
             "title": "Tastings",
             "imgSrc": "/assets/deg3.jpg"
           },
+          {
+            "name": "Hours & Contacts",
+            "link": "/orari-e-contatti",
+            "title": "Hours & Contacts",
+            "imgSrc": "/assets/rifugio/rifugio10.webp"
+          },
+          {
+            "name": "Our Events",
+
+            "badge": "coming soon",
+            "title": "Our Events"
+          },
 
           {
             "name": "FAQs - Frequently Asked Questions",
@@ -106,7 +130,7 @@
         ]
       },
 
-      "gift": "Gift a tasting",
+      "gift": "Gift Card",
 
       "news": "News",
       "cosmesi": "DeVin Cosmetics",
@@ -154,6 +178,18 @@
             "title": "Tastings",
             "imgSrc": "/assets/deg3.jpg"
           },
+          {
+            "name": "Hours & Contacts",
+            "link": "/orari-e-contatti",
+            "title": "Hours & Contacts",
+            "imgSrc": "/assets/rifugio/rifugio10.webp"
+          },
+          {
+            "name": "Our Events",
+
+            "badge": "coming soon",
+            "title": "Our Events"
+          },
 
           {
             "name": "FAQs - Frequently Asked Questions",
@@ -163,7 +199,7 @@
         ]
       },
 
-      "gift": "Gift a tasting",
+      "gift": "Gift Card",
 
       "news": "News",
       "cosmesi": "DeVin Cosmetics",
@@ -211,6 +247,18 @@
             "title": "Tastings",
             "imgSrc": "/assets/deg3.jpg"
           },
+          {
+            "name": "Hours & Contacts",
+            "link": "/orari-e-contatti",
+            "title": "Hours & Contacts",
+            "imgSrc": "/assets/rifugio/rifugio10.webp"
+          },
+          {
+            "name": "Our Events",
+
+            "badge": "coming soon",
+            "title": "Our Events"
+          },
 
           {
             "name": "FAQs - Frequently Asked Questions",
@@ -220,7 +268,7 @@
         ]
       },
 
-      "gift": "Gift a tasting",
+      "gift": "Gift Card",
 
       "news": "News",
       "cosmesi": "DeVin Cosmetics",
@@ -268,6 +316,18 @@
             "title": "Tastings",
             "imgSrc": "/assets/deg3.jpg"
           },
+          {
+            "name": "Hours & Contacts",
+            "link": "/orari-e-contatti",
+            "title": "Hours & Contacts",
+            "imgSrc": "/assets/rifugio/rifugio10.webp"
+          },
+          {
+            "name": "Our Events",
+
+            "badge": "coming soon",
+            "title": "Our Events"
+          },
 
           {
             "name": "FAQs - Frequently Asked Questions",
@@ -277,7 +337,7 @@
         ]
       },
 
-      "gift": "Gift a tasting",
+      "gift": "Gift Card",
 
       "news": "News",
       "cosmesi": "DeVin Cosmetics",
@@ -325,6 +385,18 @@
             "title": "Tastings",
             "imgSrc": "/assets/deg3.jpg"
           },
+          {
+            "name": "Hours & Contacts",
+            "link": "/orari-e-contatti",
+            "title": "Hours & Contacts",
+            "imgSrc": "/assets/rifugio/rifugio10.webp"
+          },
+          {
+            "name": "Our Events",
+
+            "badge": "coming soon",
+            "title": "Our Events"
+          },
 
           {
             "name": "FAQs - Frequently Asked Questions",
@@ -334,7 +406,7 @@
         ]
       },
 
-      "gift": "Gift a tasting",
+      "gift": "Gift Card",
 
       "news": "News",
       "cosmesi": "DeVin Cosmetics",
@@ -382,6 +454,18 @@
             "title": "Tastings",
             "imgSrc": "/assets/deg3.jpg"
           },
+          {
+            "name": "Hours & Contacts",
+            "link": "/orari-e-contatti",
+            "title": "Hours & Contacts",
+            "imgSrc": "/assets/rifugio/rifugio10.webp"
+          },
+          {
+            "name": "Our Events",
+
+            "badge": "coming soon",
+            "title": "Our Events"
+          },
 
           {
             "name": "FAQs - Frequently Asked Questions",
@@ -391,7 +475,7 @@
         ]
       },
 
-      "gift": "Gift a tasting",
+      "gift": "Gift Card",
 
       "news": "News",
       "cosmesi": "DeVin Cosmetics",
@@ -439,6 +523,18 @@
             "title": "Tastings",
             "imgSrc": "/assets/deg3.jpg"
           },
+          {
+            "name": "Hours & Contacts",
+            "link": "/orari-e-contatti",
+            "title": "Hours & Contacts",
+            "imgSrc": "/assets/rifugio/rifugio10.webp"
+          },
+          {
+            "name": "Our Events",
+
+            "badge": "coming soon",
+            "title": "Our Events"
+          },
 
           {
             "name": "FAQs - Frequently Asked Questions",
@@ -448,7 +544,7 @@
         ]
       },
 
-      "gift": "Gift a tasting",
+      "gift": "Gift Card",
 
       "news": "News",
       "cosmesi": "DeVin Cosmetics",
@@ -495,8 +591,8 @@
         "title": "Contatti & Social",
         "contatti": [
           {
-            "name": "Contatti e indicazioni",
-            "link": "/contatti"
+            "name": "Orari e Contatti",
+            "link": "/orari-e-contatti"
           },
           {
             "name": "Facebook",
@@ -549,8 +645,8 @@
         "title": "Contacts & Social",
         "contatti": [
           {
-            "name": "Contacts and directions",
-            "link": "/contatti"
+            "name": "Hours & Contacts",
+            "link": "/orari-e-contatti"
           },
           {
             "name": "Facebook",
@@ -603,8 +699,8 @@
         "title": "Contacts & Social",
         "contatti": [
           {
-            "name": "Contacts and directions",
-            "link": "/contatti"
+            "name": "Hours & Contacts",
+            "link": "/orari-e-contatti"
           },
           {
             "name": "Facebook",
@@ -619,14 +715,14 @@
     },
     "fr": {
       "col1": {
-        "title": "HEURES DE BUREAU",
-        "days": "Du lundi au vendredi",
-        "close": "Samedi, dimanche et jours fériés fermés"
+        "title": "Office Hours",
+        "days": "From Monday to Friday",
+        "close": "Saturday"
       },
       "col2": {
-        "title": "HORAIRES DE L’ENTREPÔT",
-        "days": "Du lundi au vendredi",
-        "close": "Samedi, dimanche et jours fériés fermés"
+        "title": "WAREHOUSE HOURS",
+        "days": "From Monday to Friday",
+        "close": "Saturday"
       },
       "col3": {
         "title": "Quick Links",
@@ -657,8 +753,8 @@
         "title": "CONTACTS & SOCIAL",
         "contatti": [
           {
-            "name": "Contacts et Accès",
-            "link": "/contatti"
+            "name": "Hours & Contacts",
+            "link": "/orari-e-contatti"
           },
           {
             "name": "Facebook",
@@ -711,8 +807,8 @@
         "title": "Contacts & Social",
         "contatti": [
           {
-            "name": "Contacts and directions",
-            "link": "/contatti"
+            "name": "Hours & Contacts",
+            "link": "/orari-e-contatti"
           },
           {
             "name": "Facebook",
@@ -765,8 +861,8 @@
         "title": "Contacts & Social",
         "contatti": [
           {
-            "name": "Contacts and directions",
-            "link": "/contatti"
+            "name": "Hours & Contacts",
+            "link": "/orari-e-contatti"
           },
           {
             "name": "Facebook",
@@ -819,8 +915,8 @@
         "title": "Contacts & Social",
         "contatti": [
           {
-            "name": "Contacts and directions",
-            "link": "/contatti"
+            "name": "Hours & Contacts",
+            "link": "/orari-e-contatti"
           },
           {
             "name": "Facebook",
@@ -873,8 +969,8 @@
         "title": "Contacts & Social",
         "contatti": [
           {
-            "name": "Contacts and directions",
-            "link": "/contatti"
+            "name": "Hours & Contacts",
+            "link": "/orari-e-contatti"
           },
           {
             "name": "Facebook",

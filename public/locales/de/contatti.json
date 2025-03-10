@@ -1,8 +1,29 @@
 {
   "contatti": {
     "hero": {
-      "title": "Contacts"
+      "title": "Hours & Contacts"
     },
+    "hour": {
+      "title": "Wine Shop & Tasting Hours",
+      "week": {
+        "title": "Monday to Friday",
+        "orari": "8:30 AM - 1:00 PM and 2:30 PM - 7:00 PM"
+      },
+      "saturday": {
+        "title": "Saturday",
+        "orari": "9:30 AM - 1:00 PM and 2:30 PM - 7:00 PM"
+      },
+      "rifugioClosed": {
+        "title": "Holiday Closures",
+        "orari": "April 20 - 21 / May 1"
+      },
+      "rifugioOpen": {
+        "title": "Special Openings",
+        "orari": "April 25 - 27 / June 2"
+      },
+      "allert": "We remind you that reservations are required"
+    },
+
     "references": {
       "title": "Contact",
       "phone": "Phone",

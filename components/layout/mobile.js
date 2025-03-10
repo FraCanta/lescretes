@@ -3,6 +3,8 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { motion, AnimatePresence } from "framer-motion";
 import { Icon } from "@iconify/react";
+import LanguageSwitcher from "./LanguageSwitcher";
+import MobileLanguageSwitcher from "./MobileLanguageSwitcher";
 const Mobile = ({ translation }) => {
   const { locale, pathname } = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -64,8 +66,11 @@ const Mobile = ({ translation }) => {
               damping: 30,
             }}
           >
+            <div className="w-[90%] mx-auto mt-6">
+              <MobileLanguageSwitcher />
+            </div>
+
             <ul className="w-[90%] mx-auto h-full  flex flex-col gap-10">
-              {" "}
               {/* Add your menu items here */}
               <motion.li variants={variants.item} animate="visibleItem">
                 <Link
@@ -177,9 +182,29 @@ const Mobile = ({ translation }) => {
                           {translation?.[locale]?.degustazioni.sottomenu.map(
                             (item, index) => (
                               <div key={index} className="py-6">
-                                <Link href={item.link} title={item.title}>
-                                  {item.name}
-                                </Link>
+                                {item.link ? (
+                                  <Link
+                                    href={item.link}
+                                    title={item.title}
+                                    className="inline-flex items-center gap-2"
+                                  >
+                                    {item.name}
+                                    {item.badge && (
+                                      <span className="inline-flex items-center px-2 py-1 text-xs font-medium uppercase rounded-md text-main bg-main/10 ring-1 ring-main/20 ring-inset">
+                                        {item.badge}
+                                      </span>
+                                    )}
+                                  </Link>
+                                ) : (
+                                  <h6 className="inline-flex items-center gap-2 text-main">
+                                    {item.name}
+                                    {item.badge && (
+                                      <span className="inline-flex items-center px-2 py-1 text-xs font-medium uppercase rounded-md text-main bg-main/10 ring-1 ring-main/20 ring-inset">
+                                        {item.badge}
+                                      </span>
+                                    )}
+                                  </h6>
+                                )}
                               </div>
                             )
                           )}
@@ -200,17 +225,6 @@ const Mobile = ({ translation }) => {
                   {translation?.[locale]?.gift}
                 </Link>
               </motion.div>
-              {/* <motion.div variants={variants.item} animate="visibleItem">
-              <Link
-                href={`/notizie`}
-                title="I miei articoli"
-                className={`menu-item block  text-[25px] leading-[30px] font-regular text-main ${
-                  pathname === "/notizie" ? "font-bold" : ""
-                }`}
-              >
-                {translation?.[locale]?.news}
-              </Link>
-            </motion.div> */}
               <motion.li variants={variants.item} animate="visibleItem">
                 <Link
                   href={`/cosmesi`}
@@ -222,42 +236,6 @@ const Mobile = ({ translation }) => {
                   {translation?.[locale]?.cosmesi}
                 </Link>
               </motion.li>
-              {/* <motion.div variants={variants.item} animate="visibleItem">
-              <Link
-                href={`/areaDownload`}
-                title="I miei articoli"
-                className={`menu-item gap-2   text-[25px] md:text-4xl leading-[30px] font-regular text-main flex items-center ${
-                  pathname === "/areaDownload" ? "font-bold" : ""
-                }`}
-              >
-                {translation?.[locale]?.download}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-4 h-4 md:w-6 md:h-6 3xl:w-8 3xl:h-8"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
-                  />
-                </svg>
-              </Link>
-            </motion.div> */}
-              <motion.li variants={variants.item} animate="visibleItem">
-                <Link
-                  href="/contatti"
-                  title="Come raggiungerci e contattarci"
-                  className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
-                    pathname === "/contatti" ? "font-bold" : ""
-                  }`}
-                >
-                  {translation?.[locale]?.contatti}
-                </Link>
-              </motion.li>
               <motion.li variants={variants.item} animate="visibleItem">
                 <Link
                   href={`/store-locator`}
@@ -266,25 +244,9 @@ const Mobile = ({ translation }) => {
                     pathname === "/store-locator" ? "font-bold" : ""
                   }`}
                 >
-                  <Icon
-                    icon="line-md:map-marker-alt-filled"
-                    className="w-6 h-6"
-                  />
                   {translation?.[locale]?.store}
                 </Link>
               </motion.li>
-              <motion.div
-                ariants={variants.item}
-                animate="visibleItem"
-                className="my-10 text-center md:py-4"
-              >
-                <h3 className="text-[20px] md:text-3xl font-bold">
-                  Les Crêtes
-                </h3>
-                <p className="text-[14px] md:text-xl">
-                  SR20, 5011010 Aymavilles (AO) <br /> Valle d’Aosta, Italia
-                </p>
-              </motion.div>
             </ul>
           </motion.div>
         )}
