@@ -37,7 +37,7 @@ const OrariContatti = ({ translation }) => {
         <div className="flex flex-col gap-10">
           <div className="flex flex-col gap-10">
             <h2 className="text-3xl font-bold">{translation.hour.title}</h2>
-            <div className="grid grid-cols-2 gap-y-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-10">
               <ContactCard
                 color="main"
                 title={translation.hour.week.title}
