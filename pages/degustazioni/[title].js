@@ -136,7 +136,7 @@ const SingleDeg = ({ deg, others }) => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto gap-6 py-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto gap-6 py-6 ">
         <div className="flex-col justify-start items-start gap-[34px] flex">
           <div className="flex items-center gap-2">
             <div
