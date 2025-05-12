@@ -48,11 +48,15 @@ const OrariContatti = ({ translation }) => {
                 title={translation.hour.saturday.title}
                 description={translation.hour.week.orari}
               />
-              <ContactCard
-                color="main"
-                title={translation.hour.rifugioClosed.title}
-                description={translation.hour.rifugioClosed.orari}
-              />
+              {translation.hour.rifugioClosed &&
+                translation.hour.rifugioClosed.orari && (
+                  <ContactCard
+                    color="main"
+                    title={translation.hour.rifugioClosed.title}
+                    description={translation.hour.rifugioClosed.orari}
+                  />
+                )}
+
               <ContactCard
                 color="main"
                 title={translation.hour.rifugioOpen.title}

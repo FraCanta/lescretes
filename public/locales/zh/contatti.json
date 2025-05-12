@@ -13,13 +13,10 @@
         "title": "Saturday",
         "orari": "9:30 AM - 1:00 PM and 2:30 PM - 7:00 PM"
       },
-      "rifugioClosed": {
-        "title": "Holiday Closures",
-        "orari": "April 20 - 21 / May 1"
-      },
+
       "rifugioOpen": {
         "title": "Special Openings",
-        "orari": "April 25 - 27 / June 2"
+        "orari": "June 2 / Every Sunday from July to September"
       },
       "allert": "We remind you that reservations are required"
     },
