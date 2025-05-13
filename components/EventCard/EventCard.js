@@ -2,6 +2,7 @@
 import React from "react";
 import { format, isBefore } from "date-fns";
 import { it } from "date-fns/locale";
+import CtaPrimary from "../Cta/CtaPrimary";
 
 function EventCard({ date, title, description, image }) {
   const eventDate = new Date(date);
@@ -31,9 +32,9 @@ function EventCard({ date, title, description, image }) {
       <div className="flex flex-col justify-between flex-1 p-6">
         <div>
           <h3 className="mb-2 text-2xl font-bold text-main">{title}</h3>
-          <p className="mb-2 text-sm italic text-main/60">
+          {/* <p className="mb-2 text-sm italic text-main/60">
             {format(eventDate, "EEEE d MMMM yyyy", { locale: it })}
-          </p>
+          </p> */}
           <p className="mb-4 text-main">{description}</p>
         </div>
 
@@ -41,7 +42,7 @@ function EventCard({ date, title, description, image }) {
         <div className="flex items-center justify-between">
           <span
             className={`flex items-center gap-2 text-sm font-semibold ${
-              isPast ? "text-main/30" : "text-main"
+              isPast ? "text-main" : "text-main"
             }`}
           >
             <span
@@ -49,16 +50,16 @@ function EventCard({ date, title, description, image }) {
                 isPast ? "bg-[red]" : "bg-[green]"
               }`}
             ></span>
-            {isPast ? "Finito" : "Attivo"}
+            {isPast ? "Chiuso" : "Attivo"}
           </span>
 
           {!isPast ? (
-            <a
-              href="mailto:rifugiodelvino@lescretes.it?subject=Prenotazione evento"
+            <CtaPrimary
+              link={`mailto:rifugiodelvino@lescretes.it?subject=Informazioni su ${title} Les Crêtes`}
               className="inline-block px-4 py-2 font-semibold text-white transition rounded bg-main hover:bg-opacity-80"
             >
-              Prenota
-            </a>
+              Richiedi dettagli
+            </CtaPrimary>
           ) : (
             <button
               disabled
