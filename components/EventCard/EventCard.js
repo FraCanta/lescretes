@@ -2,8 +2,9 @@
 import React from "react";
 import { format, isBefore } from "date-fns";
 import { it } from "date-fns/locale";
-import CtaPrimary from "../Cta/CtaPrimary";
 import CtaOutlineBrown from "../Cta/CtaOutlineBrown";
+import Image from "next/image";
+import Pattern from "@/public/assets/pattern3.png";
 
 function EventCard({ date, title, description, image }) {
   const eventDate = new Date(date);
@@ -11,20 +12,28 @@ function EventCard({ date, title, description, image }) {
   const isPast = isBefore(eventDate, today);
 
   return (
-    <div className="flex flex-col mb-6 overflow-hidden bg-white border shadow-md rounded-xs md:flex-row border-main/30">
+    <div className="flex flex-col mb-6 overflow-hidden bg-white border shadow-md rounded-xs md:flex-row border-main/10">
       {/* Colonna data */}
-      <div className="flex items-center justify-center flex-shrink-0 gap-1 px-4 py-6 text-white bg-main md:flex-col md:w-20">
+      <div className="relative flex items-center justify-center flex-shrink-0 gap-1 px-4 py-10 text-white lg:py-6 bg-main md:flex-col md:w-20 ">
         <p className="text-xl font-bold leading-none">
           {format(eventDate, "dd", { locale: it })}
         </p>
         <p className="text-sm tracking-wide uppercase">
           {format(eventDate, "MMM", { locale: it })}
         </p>
+        <div className="absolute lg:bottom-0 right-0 w-full h-[80%] lg:h-[65%] ">
+          <Image
+            src={Pattern}
+            fill
+            className="object-cover opacity-10 mix-blend-luminosity"
+            alt="pattern"
+          />
+        </div>
       </div>
 
       {/* Immagine (se presente) */}
       {image && (
-        <div className="object-cover w-full h-48 md:w-48 md:h-auto">
+        <div className="object-cover w-full h-52 md:w-48 md:h-auto">
           <img src={image} alt={title} className="object-cover w-full h-full" />
         </div>
       )}
@@ -36,7 +45,7 @@ function EventCard({ date, title, description, image }) {
           {/* <p className="mb-2 text-sm italic text-main/60">
             {format(eventDate, "EEEE d MMMM yyyy", { locale: it })}
           </p> */}
-          <p className="mb-4 text-main">{description}</p>
+          <p className="mb-6 text-main">{description}</p>
         </div>
 
         {/* Stato e pulsante */}
