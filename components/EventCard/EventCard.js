@@ -3,6 +3,7 @@ import React from "react";
 import { format, isBefore } from "date-fns";
 import { it } from "date-fns/locale";
 import CtaPrimary from "../Cta/CtaPrimary";
+import CtaOutlineBrown from "../Cta/CtaOutlineBrown";
 
 function EventCard({ date, title, description, image }) {
   const eventDate = new Date(date);
@@ -54,12 +55,11 @@ function EventCard({ date, title, description, image }) {
           </span>
 
           {!isPast ? (
-            <CtaPrimary
-              link={`mailto:rifugiodelvino@lescretes.it?subject=Informazioni su ${title} Les Crêtes`}
-              className="inline-block px-4 py-2 font-semibold text-white transition rounded bg-main hover:bg-opacity-80"
+            <CtaOutlineBrown
+              link={`mailto:rifugiodelvino@lescretes.it?subject=Informazioni su ${title}`}
             >
               Richiedi dettagli
-            </CtaPrimary>
+            </CtaOutlineBrown>
           ) : (
             <button
               disabled
