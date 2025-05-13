@@ -88,7 +88,7 @@ function EventiPage() {
           </div>
 
           {/* EVENTI */}
-          <div className="mt-6">
+          <div className="mt-10 mb-20">
             {eventi.map((evento, index) => (
               <EventCard
                 key={index}
