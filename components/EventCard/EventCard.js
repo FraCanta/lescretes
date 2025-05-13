@@ -11,13 +11,13 @@ function EventCard({ date, title, description, image }) {
   return (
     <div className="flex flex-col mb-6 overflow-hidden bg-white border shadow-md rounded-xs md:flex-row border-main/30">
       {/* Colonna data */}
-      <div className="flex items-center justify-center flex-shrink-0 px-4 py-6 text-white bg-main md:flex-col md:w-20">
-        <span className="text-xl font-bold leading-none">
+      <div className="flex items-center justify-center flex-shrink-0 gap-1 px-4 py-6 text-white bg-main md:flex-col md:w-20">
+        <p className="text-xl font-bold leading-none">
           {format(eventDate, "dd", { locale: it })}
-        </span>
-        <span className="text-sm tracking-wide uppercase">
+        </p>
+        <p className="text-sm tracking-wide uppercase">
           {format(eventDate, "MMM", { locale: it })}
-        </span>
+        </p>
       </div>
 
       {/* Immagine (se presente) */}

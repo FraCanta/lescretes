@@ -83,7 +83,7 @@ function EventiPage() {
           {/* TITOLO con BORDO */}
           <div className="border-b-2 border-main">
             <h2 className="px-6 py-4 text-xl tracking-wider text-white uppercase font-regular bg-main max-w-max">
-              <span className="font-2">{titolo}</span>
+              {titolo}
             </h2>
           </div>
 
