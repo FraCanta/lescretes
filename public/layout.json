@@ -49,7 +49,7 @@
           {
             "name": "I Nostri Eventi",
 
-            "badge": "coming soon",
+            "link": "/i-nostri-eventi",
             "title": "I nostri eventi"
           },
 
@@ -118,7 +118,8 @@
           {
             "name": "Our Events",
 
-            "badge": "coming soon",
+            "link": "/i-nostri-eventi",
+
             "title": "Our Events"
           },
 
@@ -187,7 +188,7 @@
           {
             "name": "Our Events",
 
-            "badge": "coming soon",
+            "link": "/i-nostri-eventi",
             "title": "Our Events"
           },
 
@@ -256,7 +257,7 @@
           {
             "name": "Our Events",
 
-            "badge": "coming soon",
+            "link": "/i-nostri-eventi",
             "title": "Our Events"
           },
 
@@ -325,7 +326,7 @@
           {
             "name": "Our Events",
 
-            "badge": "coming soon",
+            "link": "/i-nostri-eventi",
             "title": "Our Events"
           },
 
@@ -463,7 +464,7 @@
           {
             "name": "Our Events",
 
-            "badge": "coming soon",
+            "link": "/i-nostri-eventi",
             "title": "Our Events"
           },
 
@@ -532,7 +533,7 @@
           {
             "name": "Our Events",
 
-            "badge": "coming soon",
+            "link": "/i-nostri-eventi",
             "title": "Our Events"
           },
 
@@ -581,6 +582,7 @@
             "name": "Dove acquistare",
             "link": "/store-locator"
           },
+
           {
             "name": "Obblighi di trasparenza",
             "link": "/obblighi-di-trasparenza"
