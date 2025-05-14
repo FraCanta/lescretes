@@ -19,8 +19,41 @@ function EventiPage({ translation, locale }) {
   return (
     <>
       <Head>
-        <title>Les Crêtes - i nostri eventi</title>
-        <meta name="description" content="Les Crêtes - i nostri eventi" />
+        <title>{`Les Crêtes - ${translation.title}`}</title>
+        <meta name="description" content={translation.description} />
+        <meta
+          property="og:url"
+          content={`https://www.lescretes.it/${locale.locale}/i-nostri-eventi`}
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content={`Les Crêtes - ${translation.title}`}
+        />
+        <meta property="og:locale" content={locale.locale} />
+        <meta property="og:description" content={translation.description} />
+        <meta property="og:site_name" content="Les Crêtes" />
+        <meta
+          property="og:image"
+          content="https://www.lescretes.it/assets/seo/cover_home.png"
+        />
+        <meta property="og:image:alt" content="Les Crêtes cover image" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="lescretes.it" />
+        <meta property="twitter:url" content="https://www.lescretes.it/" />
+        <meta
+          name="twitter:title"
+          content={`Les Crêtes - ${translation.title}`}
+        />
+        <meta name="twitter:description" content={translation.description} />
+        <meta
+          name="twitter:image"
+          content="https://www.lescretes.it/assets/seo/cover_home.png"
+        />
+        <meta name="twitter:image:alt" content="Les Crêtes cover image" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

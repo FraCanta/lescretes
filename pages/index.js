@@ -23,7 +23,10 @@ export default function Home({ translation, locale }) {
           <meta name="author" content="Les Crêtes" />
           <meta name="description" content={translation.seo.description} />
           <meta name="robots" content="index, follow" />
-
+          <meta
+            name="geo.placename"
+            content="SR20, 11010 Aymavilles (AO) Valle d’Aosta, Italia"
+          />
           <link
             rel="canonical"
             href={`https://www.lescretes.it/${locale.locale}`}
@@ -111,6 +114,20 @@ export default function Home({ translation, locale }) {
             "@type": "WebPage",
             "name": "${translation.seo.title}",
             "description": "${translation.seo.description}",
+             "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "SR20",
+                "addressLocality": "Aymavilles",
+                "addressRegion": "AO",
+                "postalCode": "11010",
+                "addressCountry": "IT"
+       },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 45.70479379977933,
+                "longitude": 7.247488237673872 
+            },
+             "telephone": "0165 902274",
             "url": "https://www.lescretes.it/${locale.locale}",
             "logo": "https://www.lescretes.it/favicon.ico"
           }
