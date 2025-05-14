@@ -16,8 +16,10 @@ const NotFound = () => {
       <div className="relative flex flex-col items-center  min-h-[calc(100vh_-_70px)] md:min-h-[calc(100vh_-_70px)] fxl:min-h-[calc(100vh_-_100px)] bg-404">
         <div className="absolute inset-0 opacity-50 bg-main"></div>
         <div className="relative z-10 flex flex-col gap-6 text-center mt-36">
-          <h1 className="font-bold text-white text-8xl">Pagina non trovata</h1>
-          <p className="text-2xl text-white">
+          <h1 className="text-4xl font-bold text-white lg:text-8xl">
+            Pagina non trovata
+          </h1>
+          <p className="text-lg text-white lg:text-2xl">
             Ci dispiace, sembra che la pagina che stai cercando non esista.
             Torna all'{" "}
             <Link

@@ -1,0 +1,99 @@
+{
+  "eventi": {
+    "title": "I nostri eventi",
+    "description": "Vivi la magia dell’estate tra vigneti, tramonti e stelle. Ogni evento è un’occasione per scoprire i sapori e i luoghi più iconici di Les Crêtes, accompagnati dai nostri vini d’eccellenza.",
+    "download": {
+      "title": "la nostra cartolina",
+      "file": "/pdf/eventi/eventi_lescretes_estate_2025.pdf"
+    },
+    "eventiPerMese": [
+      {
+        "titolo": "Luglio",
+        "eventi": [
+          {
+            "date": "2025-07-10",
+            "title": "Insolito Picnic",
+            "description": "Picnic tra i filari del nostro iconico vigneto Côteau La Tour",
+            "image": "/assets/eventi/picnic.jpg",
+            "labels": {
+              "active": "Attivo",
+              "closed": "Chiuso",
+              "cta": "Richiedi dettagli",
+              "closedBooking": "Prenotazioni chiuse"
+            }
+          },
+          {
+            "date": "2025-07-25",
+            "title": "Tramonto al Rifugio",
+            "description": "Apericena con abbinamento di 3 vini di Les Crêtes",
+            "image": "/assets/eventi/tramonto.jpg",
+            "labels": {
+              "active": "Attivo",
+              "closed": "Chiuso",
+              "cta": "Richiedi dettagli",
+              "closedBooking": "Prenotazioni chiuse"
+            }
+          }
+        ]
+      },
+      {
+        "titolo": "Agosto",
+        "eventi": [
+          {
+            "date": "2025-08-10",
+            "title": "Les Crêtes sotto le stelle",
+            "description": "Cena nella terrazza del suggestivo Rifugio del Vino con abbinamento i CRU iconici prodotti da Les Crêtes",
+            "image": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
+            "labels": {
+              "active": "Attivo",
+              "closed": "Chiuso",
+              "cta": "Richiedi dettagli",
+              "closedBooking": "Prenotazioni chiuse"
+            }
+          },
+          {
+            "date": "2025-08-20",
+            "title": "Insolito Picnic",
+            "description": "Picnic tra i filari del nostro iconico vigneto Côteau La Tour",
+            "image": "/assets/eventi/picnic.jpg",
+            "labels": {
+              "active": "Attivo",
+              "closed": "Chiuso",
+              "cta": "Richiedi dettagli",
+              "closedBooking": "Prenotazioni chiuse"
+            }
+          },
+          {
+            "date": "2025-08-29",
+            "title": "Tramonto al Rifugio",
+            "description": "Apericena con abbinamento di 3 vini di Les Crêtes",
+            "image": "/assets/eventi/tramonto.jpg",
+            "labels": {
+              "active": "Attivo",
+              "closed": "Chiuso",
+              "cta": "Richiedi dettagli",
+              "closedBooking": "Prenotazioni chiuse"
+            }
+          }
+        ]
+      },
+      {
+        "titolo": "Settembre",
+        "eventi": [
+          {
+            "date": "2025-09-05",
+            "title": "Sorsi di storia cenando tra i filari",
+            "description": "Cena tra i filari dell’iconico vigneto Côteau La Tour sorseggiando i CRU iconici prodotti da Les Crêtes",
+            "image": "/assets/eventi/cena.jpg",
+            "labels": {
+              "active": "Attivo",
+              "closed": "Chiuso",
+              "cta": "Richiedi dettagli",
+              "closedBooking": "Prenotazioni chiuse"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

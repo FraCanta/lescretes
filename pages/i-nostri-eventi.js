@@ -2,57 +2,20 @@
 import EventCard from "@/components/EventCard/EventCard";
 import Head from "next/head";
 import React from "react";
+import eventiIT from "@/public/locales/it/eventi.json";
+import eventiEN from "@/public/locales/en/eventi.json";
+import eventiFR from "@/public/locales/fr/eventi.json";
+import eventiDE from "@/public/locales/de/eventi.json";
+import eventiJP from "@/public/locales/jp/eventi.json";
+import eventiKO from "@/public/locales/ko/eventi.json";
+import eventiRU from "@/public/locales/ru/eventi.json";
+import eventiZH from "@/public/locales/zh/eventi.json";
+import CtaOutlineBrown from "@/components/Cta/CtaOutlineBrown";
+import { Icon } from "@iconify/react";
+import Link from "next/link";
 
-function EventiPage() {
-  const eventiLuglio = [
-    {
-      date: "2025-07-10",
-      title: "Insolito Picnic",
-      description:
-        "Picnic tra i filari del nostro iconico vigneto Côteau La Tour",
-      image: "/assets/eventi/picnic.jpg", // <--- aggiunta immagine
-    },
-    {
-      date: "2025-07-25",
-      title: "Tramonto al Rifugio",
-      description: "Apericena con abbinamento di 3 vini di Les Crêtes",
-      image: "/assets/eventi/tramonto.jpg", // <--- aggiunta immagine
-    },
-  ];
-
-  const eventiAgosto = [
-    {
-      date: "2025-08-10",
-      title: "Les Crêtes sotto le stelle",
-      description:
-        "Cena nella terrazza del suggestivo Rifugio del Vino con abbinamento i CRU iconici prodotti da Les Crêtes",
-      image: "/assets/eventi/les_cretes_sotto_le_stelle.jpg", // <--- aggiunta immagine
-    },
-    {
-      date: "2025-08-20",
-      title: "Insolito Picnic",
-      description:
-        "Picnic tra i filari del nostro iconico vigneto Côteau La Tour",
-      image: "/assets/eventi/picnic.jpg", // <--- aggiunta immagine
-    },
-    {
-      date: "2025-08-29",
-      title: "Tramonto al Rifugio",
-      description: "Apericena con abbinamento di 3 vini di Les Crêtes",
-      image: "/assets/eventi/tramonto.jpg", // <--- aggiunta immagine
-    },
-  ];
-
-  const eventiSettembre = [
-    {
-      date: "2025-09-5",
-      title: "Sorsi di storia cenando tra i filari ",
-      description:
-        "Cena tra i filari dell’iconico vigneto Côteau La Tour sorseggiando i CRU iconici prodotti da Les Crêtes",
-      image: "/assets/eventi/cena.jpg", // <--- aggiunta immagine
-    },
-  ];
-
+function EventiPage({ translation, locale }) {
+  console.log(translation);
   return (
     <>
       <Head>
@@ -64,38 +27,41 @@ function EventiPage() {
       <div className="flex items-center min-h-[calc(30vh_-_70px)] md:min-h-[calc(40vh_-_70px)] fxl:min-h-[calc(50vh_-_100px)] 3xl:h-[calc(80vh_-_180px)]">
         <div className="w-[90%] mx-auto flex flex-col gap-4 my-10">
           <h1 className="text-4xl font-regular text-main lf:text-center lg:text-6xl">
-            I nostri eventi
+            {translation.title}
           </h1>
           <p className="w-full text-lg lg:max-w-4xl text-main/80 fxl:text-2xl">
-            Vivi la magia dell’estate tra vigneti, tramonti e stelle. Ogni
-            evento è un’occasione per scoprire i sapori e i luoghi più iconici
-            di Les Crêtes, accompagnati dai nostri vini d’eccellenza.
+            {translation.description}
           </p>
+          <div className="mt-6">
+            <CtaOutlineBrown
+              link={translation.download.file}
+              download
+              title={translation.download.title}
+            >
+              {translation.download.title}
+              <Icon icon="material-symbols:download" width={30} />
+            </CtaOutlineBrown>
+          </div>
         </div>
       </div>
 
-      {[
-        { titolo: "Luglio", eventi: eventiLuglio },
-        { titolo: "Agosto", eventi: eventiAgosto },
-        { titolo: "Settembre", eventi: eventiSettembre },
-      ].map(({ titolo, eventi }) => (
+      {translation.eventiPerMese.map(({ titolo, eventi }) => (
         <div key={titolo} className="w-[90%] mx-auto mt-10">
-          {/* TITOLO con BORDO */}
           <div className="border-b-2 border-main">
             <h2 className="px-6 py-3 text-xl tracking-wider text-white uppercase font-regular bg-main max-w-max">
               {titolo}
             </h2>
           </div>
 
-          {/* EVENTI */}
           <div className="mt-10 mb-20">
-            {eventi.map((evento, index) => (
+            {eventi.map((event, index) => (
               <EventCard
                 key={index}
-                date={evento.date}
-                title={evento.title}
-                description={evento.description}
-                image={evento.image} // <--- passaggio dell'immagine
+                date={event.date}
+                title={event.title}
+                description={event.description}
+                image={event.image}
+                labels={event.labels}
               />
             ))}
           </div>
@@ -106,3 +72,46 @@ function EventiPage() {
 }
 
 export default EventiPage;
+
+export async function getStaticProps(locale, context) {
+  let obj;
+  switch (locale.locale) {
+    case "it":
+      obj = eventiIT;
+      break;
+
+    case "en":
+      obj = eventiEN;
+      break;
+    case "fr":
+      obj = eventiFR;
+      break;
+    case "de":
+      obj = eventiDE;
+      break;
+    case "jp":
+      obj = eventiJP;
+      break;
+    case "ko":
+      obj = eventiKO;
+      break;
+    case "ru":
+      obj = eventiRU;
+      break;
+    case "zh":
+      obj = eventiZH;
+      break;
+    default:
+      obj = eventiIT;
+      break;
+  }
+
+  return {
+    props: {
+      translation: obj?.eventi,
+
+      locale: locale,
+    },
+    revalidate: 60,
+  };
+}

@@ -1,0 +1,99 @@
+{
+  "eventi": {
+    "title": "Our Events",
+    "description": "Experience the magic of summer among vineyards, sunsets, and stars. Each event is an opportunity to discover the flavors and most iconic places of Les Crêtes, accompanied by our excellent wines.",
+    "download": {
+      "title": "our postcard",
+      "file": "/pdf/eventi/eventi_lescretes_estate_2025_en.pdf"
+    },
+    "eventiPerMese": [
+      {
+        "titolo": "July",
+        "eventi": [
+          {
+            "date": "2025-07-10",
+            "title": "Unusual Picnic",
+            "description": "A unique picnic experience among the rows of vines in the iconic Côteau",
+            "image": "/assets/eventi/picnic.jpg",
+            "labels": {
+              "active": "Active",
+              "closed": "Closed",
+              "cta": "More details",
+              "closedBooking": "Bookings closed"
+            }
+          },
+          {
+            "date": "2025-07-25",
+            "title": "Sunset at the Rifugio",
+            "description": "An aperitif-style dinner at sunset, paired with a selection of 3 Les Crêtes wines.",
+            "image": "/assets/eventi/tramonto.jpg",
+            "labels": {
+              "active": "Active",
+              "closed": "Closed",
+              "cta": "More details",
+              "closedBooking": "Bookings closed"
+            }
+          }
+        ]
+      },
+      {
+        "titolo": "August",
+        "eventi": [
+          {
+            "date": "2025-08-10",
+            "title": "Les Crêtes under the stars",
+            "description": "A magical dinner under the stars, featuring a pairing with Les Crêtes’ iconic CRU wines",
+            "image": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
+            "labels": {
+              "active": "Active",
+              "closed": "Closed",
+              "cta": "More details",
+              "closedBooking": "Bookings closed"
+            }
+          },
+          {
+            "date": "2025-08-20",
+            "title": "Unusual Picnic",
+            "description": "A unique picnic experience among the rows of vines in the iconic Côteau",
+            "image": "/assets/eventi/picnic.jpg",
+            "labels": {
+              "active": "Active",
+              "closed": "Closed",
+              "cta": "More details",
+              "closedBooking": "Bookings closed"
+            }
+          },
+          {
+            "date": "2025-08-29",
+            "title": "Sunset at the Rifugio",
+            "description": "An aperitif-style dinner at sunset, paired with a selection of 3 Les Crêtes wines.",
+            "image": "/assets/eventi/tramonto.jpg",
+            "labels": {
+              "active": "Active",
+              "closed": "Closed",
+              "cta": "More details",
+              "closedBooking": "Bookings closed"
+            }
+          }
+        ]
+      },
+      {
+        "titolo": "September",
+        "eventi": [
+          {
+            "date": "2025-09-05",
+            "title": "Sips of History: Dining Among the Vines",
+            "description": "A dinner set among the vineyard rows, savoring Les Crêtes’ iconic CRU wines while discovering the stories behind them.",
+            "image": "/assets/eventi/cena.jpg",
+            "labels": {
+              "active": "Active",
+              "closed": "Closed",
+              "cta": "More details",
+              "closedBooking": "Bookings closed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
