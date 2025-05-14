@@ -96,6 +96,16 @@ function generateSiteMap() {
      <priority>1</priority>
    </url>
     <url>
+       <loc>https://www.lescretes.it/i-nostri-eventi</loc>
+       <changefreq>weekly</changefreq>
+       <priority>1</priority>
+     </url>
+     <url>
+     <loc>https://www.lescretes.it/en/i-nostri-eventi</loc>
+     <changefreq>weekly</changefreq>
+     <priority>1</priority>
+   </url>
+    <url>
        <loc>https://www.lescretes.it/store-locator</loc>
        <changefreq>weekly</changefreq>
        <priority>1</priority>
