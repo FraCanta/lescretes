@@ -75,13 +75,24 @@ const FormPrenotazione = ({
     new Date(2025, 4, 1), // 1 Maggio
   ];
 
-  const openSundays = [
-    new Date(2024, 11, 29), // 29 Dicembre
-    new Date(2025, 0, 5), // 5 Gennaio
-    new Date(2025, 3, 25), // 25 Aprile
-    new Date(2025, 3, 27), // 27 Aprile
-    new Date(2025, 5, 2), // 2 Giugno
-  ];
+  const getOpenSundays = (startYear, startMonth, endMonth) => {
+    const openSundays = [];
+    const date = new Date(startYear, startMonth, 1);
+
+    while (date.getMonth() <= endMonth) {
+      if (date.getDay() === 0) {
+        openSundays.push(new Date(date));
+      }
+      date.setDate(date.getDate() + 1);
+    }
+
+    return openSundays;
+  };
+
+  const openSundays = getOpenSundays(2025, 6, 8);
+
+  // Aggiungi manualmente il 2 giugno 2025
+  openSundays.push(new Date(2025, 5, 2)); // Mese 5 = giugno
 
   const isDateSelectable = (date) => {
     // Disabilita le domeniche, a meno che non siano "openSundays"

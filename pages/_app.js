@@ -4,9 +4,9 @@ import "@/styles/sections.css";
 import "@/styles/tabs.css";
 import "@/styles/wordpress.css";
 import "@/styles/gallery3d.css";
-
 import Script from "next/script";
 import { AnimatePresence, motion } from "framer-motion";
+import { useEffect } from "react";
 export default function App({ Component, pageProps, router }) {
   const transitionSpringPhysics = {
     type: "spring",

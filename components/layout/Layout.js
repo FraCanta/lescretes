@@ -4,6 +4,7 @@ import LayoutTranslation from "../../public/layout.json";
 import Footer from "./Footer";
 import { Toaster } from "react-hot-toast";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import LenisScroll from "../LenisScroll/LenisScroll";
 
 export const Layout = (props) => {
   const [showWhatsApp, setShowWhatsApp] = useState(false);
@@ -59,6 +60,7 @@ export const Layout = (props) => {
           },
         }}
       />
+      <LenisScroll />
       <NavBar translation={LayoutTranslation?.menu} />
       <main>{props.children}</main>
 
