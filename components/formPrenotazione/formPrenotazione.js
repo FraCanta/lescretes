@@ -34,11 +34,17 @@ const FormPrenotazione = ({
     : baseTotal;
 
   const availableTimeSlots = [
+    "8:30 AM",
+    "09:00 AM",
+    "09:30 AM",
     "10:00 AM",
     "10:30 AM",
     "11:00 AM",
     "11:30 AM",
-
+    "12:00 PM",
+    "12:30 PM",
+    "01:00 PM",
+    "02:30 PM",
     "03:00 PM",
     "03:30 PM",
     "04:00 PM",
@@ -46,14 +52,22 @@ const FormPrenotazione = ({
     "05:00 PM",
     "05:30 PM",
     "06:00 PM",
+    "06:30 PM",
+    "07:00 PM",
   ];
 
   const saturdayTimeSlots = [
+    "8:30 AM",
+    "09:00 AM",
+    "09:30 AM",
     "10:00 AM",
     "10:30 AM",
     "11:00 AM",
     "11:30 AM",
-
+    "12:00 PM",
+    "12:30 PM",
+    "01:00 PM",
+    "02:30 PM",
     "03:00 PM",
     "03:30 PM",
     "04:00 PM",
@@ -61,6 +75,53 @@ const FormPrenotazione = ({
     "05:00 PM",
     "05:30 PM",
     "06:00 PM",
+    "06:30 PM",
+    "07:00 PM",
+  ];
+
+  const summerSutardayTimeSlots = [
+    "09:30 AM",
+    "10:00 AM",
+    "10:30 AM",
+    "11:00 AM",
+    "11:30 AM",
+    "12:00 PM",
+    "12:30 PM",
+    "01:00 PM",
+    "01:30 PM",
+    "02:00 PM",
+    "02:30 PM",
+    "03:00 PM",
+    "03:30 PM",
+    "04:00 PM",
+    "04:30 PM",
+    "05:00 PM",
+    "05:30 PM",
+    "06:00 PM",
+    "06:30 PM",
+    "07:00 PM",
+    "07:30 PM",
+  ];
+  const summerSundayTimeSlots = [
+    "09:30 AM",
+    "10:00 AM",
+    "10:30 AM",
+    "11:00 AM",
+    "11:30 AM",
+    "12:00 PM",
+    "12:30 PM",
+    "01:00 PM",
+    "02:30 PM",
+    "03:00 PM",
+    "03:30 PM",
+    "04:00 PM",
+    "04:30 PM",
+    "05:00 PM",
+    "05:30 PM",
+    "06:00 PM",
+    "06:30 PM",
+    "07:00 PM",
+    "07:30 PM",
   ];
 
   const excludedDates = [
@@ -266,79 +327,65 @@ const FormPrenotazione = ({
                   {form.slots}
                 </label>
                 <div className="grid grid-cols-3 gap-2">
-                  {startDate.getDay() === 6 // Sabato
-                    ? saturdayTimeSlots
-                        .filter(
-                          (slot) =>
-                            link === "trewines"
-                              ? true // Nessuna limitazione per trewines
-                              : !slot.includes("06") && !slot.includes("05") // Esclude gli slot dopo le 5:00 PM per altre degustazioni
-                        )
-                        .map((slot) => (
-                          <div key={slot} className="flex items-center">
-                            <input
-                              type="radio"
-                              id={slot}
-                              value={slot}
-                              name="timeSlot"
-                              onChange={() => handleTimeSlotChange(slot)}
-                              className="hidden"
+                  {(() => {
+                    const day = startDate.getDay(); // 0: domenica, 6: sabato
+                    const month = startDate.getMonth(); // 0-based: 6=luglio, 7=agosto
+
+                    const isSummer = month === 6 || month === 7;
+                    const isSaturday = day === 6;
+                    const isSunday = day === 0;
+
+                    let slotsToRender = [];
+
+                    if (isSummer && isSaturday) {
+                      slotsToRender = summerSutardayTimeSlots;
+                    } else if (isSummer && isSunday) {
+                      slotsToRender = summerSundayTimeSlots;
+                    } else if (isSaturday) {
+                      slotsToRender = saturdayTimeSlots;
+                    } else if (isSunday) {
+                      // Domenica non estiva: niente slot
+                      return null;
+                    } else {
+                      slotsToRender = availableTimeSlots;
+                    }
+
+                    const filteredSlots = slotsToRender.filter((slot) =>
+                      link === "trewines"
+                        ? true
+                        : !slot.includes("06") && !slot.includes("05")
+                    );
+
+                    return filteredSlots.map((slot) => (
+                      <div key={slot} className="flex items-center">
+                        <input
+                          type="radio"
+                          id={slot}
+                          value={slot}
+                          name="timeSlot"
+                          onChange={() => handleTimeSlotChange(slot)}
+                          className="hidden"
+                        />
+                        <label
+                          htmlFor={slot}
+                          onClick={() => handleTimeSlotChange(slot)}
+                          className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
+                            timeSlot === slot
+                              ? "bg-main text-white"
+                              : "bg-white text-main"
+                          }`}
+                        >
+                          {timeSlot === slot && (
+                            <Icon
+                              icon="material-symbols:check"
+                              className="w-4 h-4"
                             />
-                            <label
-                              htmlFor={slot}
-                              onClick={() => handleTimeSlotChange(slot)}
-                              className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
-                                timeSlot === slot
-                                  ? "bg-main text-white"
-                                  : "bg-white text-main"
-                              }`}
-                            >
-                              {timeSlot === slot && (
-                                <Icon
-                                  icon="material-symbols:check"
-                                  className="w-4 h-4"
-                                />
-                              )}
-                              {slot}
-                            </label>
-                          </div>
-                        ))
-                    : availableTimeSlots
-                        .filter(
-                          (slot) =>
-                            link === "trewines"
-                              ? true // Nessuna limitazione per trewines
-                              : !slot.includes("06") && !slot.includes("05:30") // Esclude gli slot dopo le 5:00 PM per altre degustazioni
-                        )
-                        .map((slot) => (
-                          <div key={slot} className="flex items-center">
-                            <input
-                              type="radio"
-                              id={slot}
-                              value={slot}
-                              name="timeSlot"
-                              onChange={() => handleTimeSlotChange(slot)}
-                              className="hidden"
-                            />
-                            <label
-                              htmlFor={slot}
-                              onClick={() => handleTimeSlotChange(slot)}
-                              className={`flex items-center justify-center w-full p-2 border rounded cursor-pointer ${
-                                timeSlot === slot
-                                  ? "bg-main text-white"
-                                  : "bg-white text-main"
-                              }`}
-                            >
-                              {timeSlot === slot && (
-                                <Icon
-                                  icon="material-symbols:check"
-                                  className="w-4 h-4"
-                                />
-                              )}
-                              {slot}
-                            </label>
-                          </div>
-                        ))}
+                          )}
+                          {slot}
+                        </label>
+                      </div>
+                    ));
+                  })()}
                 </div>
               </div>
             )}

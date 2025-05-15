@@ -62,7 +62,7 @@ const SingleDeg = ({ deg, others }) => {
           </h1>
         </div>
       </div>
-      <div className="w-full bg-[#F4F3EF] ">
+      <div className="w-full bg-[#F4F3EF]">
         <div className="w-[94%] mx-auto flex gap-6 xl:gap-10  py-7 text-main flex-col lg:flex-row">
           <div className="flex items-center h-full">
             <Image
