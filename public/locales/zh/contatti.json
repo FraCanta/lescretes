@@ -13,6 +13,10 @@
         "title": "Saturday",
         "orari": "9:30 AM - 1:00 PM and 2:30 PM - 7:00 PM"
       },
+      "summerTime": {
+        "title": "Summer Hours (July to September)",
+        "orari": "Saturday: continuous hours 9:30 AM – 7:30 PM, Sunday: 9:30 AM – 1:00 PM / 2:30 PM – 7:30 PM"
+      },
 
       "rifugioOpen": {
         "title": "Special Openings",

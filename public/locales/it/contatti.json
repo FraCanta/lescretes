@@ -13,6 +13,10 @@
         "title": "Sabato",
         "orari": "9.30 - 13.00 e dalle 14.30 - 19.00"
       },
+      "summerTime": {
+        "title": "Orario estivo (da Luglio a Settembre)",
+        "orari": "Sabato: orario continuato 9:30 – 19:30, Domenica: 9:30 – 13:00 / 14:30 – 19:30"
+      },
 
       "rifugioOpen": {
         "title": "Aperture straordinarie",

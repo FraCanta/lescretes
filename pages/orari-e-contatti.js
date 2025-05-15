@@ -33,11 +33,11 @@ const OrariContatti = ({ translation }) => {
         <title>Les Crêtes - contatti</title>
       </Head>
       <Hero text={translation.hero.title} img={Rifugio} />
-      <div className="w-[90%] mx-auto py-20 lg:py-10 grid grid-cols-1 lg:grid-cols-2 gap-y-20 lg:gap-10">
+      <div className="w-[90%] mx-auto py-20 lg:py-10 grid grid-cols-1 lg:grid-cols-2 gap-y-20 lg:gap-20">
         <div className="flex flex-col gap-10">
           <div className="flex flex-col gap-10">
             <h2 className="text-3xl font-bold">{translation.hour.title}</h2>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-10">
+            <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
               <ContactCard
                 color="main"
                 title={translation.hour.week.title}
@@ -46,7 +46,7 @@ const OrariContatti = ({ translation }) => {
               <ContactCard
                 color="main"
                 title={translation.hour.saturday.title}
-                description={translation.hour.week.orari}
+                description={translation.hour.saturday.orari}
               />
               {translation.hour.rifugioClosed &&
                 translation.hour.rifugioClosed.orari && (
@@ -61,6 +61,11 @@ const OrariContatti = ({ translation }) => {
                 color="main"
                 title={translation.hour.rifugioOpen.title}
                 description={translation.hour.rifugioOpen.orari}
+              />
+              <ContactCard
+                color="main"
+                title={translation.hour.summerTime.title}
+                description={translation.hour.summerTime.orari}
               />
             </div>
             <div className="flex items-center gap-2 font-bold text-main">
