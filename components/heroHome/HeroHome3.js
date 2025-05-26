@@ -2,6 +2,7 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import CtaOutline from "../Cta/CtaOutline";
 import CtaWhite from "../Cta/CtaWhite";
+import Image from "next/image";
 const HeroHome3 = ({ translation }) => {
   return (
     // <div className="w-[90%] h-full flex-col lg:justify-end items-start flex mx-auto py-20">
@@ -13,6 +14,8 @@ const HeroHome3 = ({ translation }) => {
       <motion.div
         key="heroHome3"
         className="w-[90%] h-full flex-col  items-center flex mx-auto py-10 sm2:py-4 md:py-20"
+        role="img"
+        aria-label="immagine principale della home"
         style={{
           backgroundImage: 'url("/assets/404.jpg")', // sostituisci con il percorso dell'immagine
           backgroundSize: "cover",
@@ -22,7 +25,14 @@ const HeroHome3 = ({ translation }) => {
           backgroundPosition: "bottom",
         }}
       >
-        <div className="absolute top-0 left-0 w-full h-full bg-main/20 "></div>
+        <Image
+          src="/assets/404.jpg"
+          fill
+          alt="immagine principale della home"
+          className="sr-only"
+        />
+
+        <div className="absolute top-0 left-0 w-full h-full bg-main/40 "></div>
         <AnimatePresence>
           <motion.div
             className="flex flex-col gap-4 lg:gap-6 py-16 lg:py-24 3xl:py-56 w-[90%] mx-auto justify-center items-center text-center z-10 2xl:py-16 2xla:py-32"

@@ -86,6 +86,7 @@ const Mobile = ({ translation }) => {
               <motion.li variants={variants.item} animate="visibleItem">
                 <button
                   onClick={() => setMenuOpen(!menuOpen)}
+                  aria-label="la nostra identità"
                   className="menu-item flex text-[25px] md:text-4xl leading-[30px] font-regular text-main items-center w-full justify-between"
                 >
                   {translation?.[locale]?.storia.name}
@@ -148,6 +149,7 @@ const Mobile = ({ translation }) => {
               <motion.li variants={variants.item} animate="visibleItem">
                 <button
                   onClick={() => setDegOpen(!degOpen)}
+                  aria-label="le nostre esperienze"
                   className="menu-item flex text-[25px] md:text-4xl leading-[30px] font-regular text-main items-center w-full justify-between"
                 >
                   {translation?.[locale]?.degustazioni.name}{" "}

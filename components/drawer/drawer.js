@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import FormPrenotazione from "../formPrenotazione/formPrenotazione";
 import { Icon } from "@iconify/react";
 import FormPrenotazione2 from "../formPrenotazione/formPrenotazione2";
+import FormPrenotazione4 from "../formPrenotazione/FormPrenotazione4";
 
 const Drawer = ({
   isOpen,
@@ -16,6 +17,8 @@ const Drawer = ({
   form,
   optPrice,
   opzione,
+  fixedDates,
+  eventoForm,
 }) => {
   const controls = useAnimation();
 
@@ -74,11 +77,21 @@ const Drawer = ({
 
         {/* Bottone per chiudere il drawer */}
         <div className="flex justify-end">
-          <button onClick={onClose}>
+          <button onClick={onClose} aria-label="Close Drawer">
             <Icon icon="carbon:close-filled" className="w-6 h-6 text-main " />{" "}
           </button>
         </div>
-        {form ? (
+        {eventoForm ? (
+          <FormPrenotazione4
+            deg={deg}
+            link={link}
+            price={price}
+            durata={durata}
+            tipo={tipo}
+            form={form}
+            fixedDates={fixedDates}
+          />
+        ) : form ? (
           opzione ? (
             <FormPrenotazione
               deg={deg}

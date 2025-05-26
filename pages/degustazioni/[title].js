@@ -2,6 +2,12 @@ import React from "react";
 import degustazioniIT from "../../public/locales/it/degustazioni.json";
 import degustazioniEN from "../../public/locales/en/degustazioni.json";
 import degustazioniFR from "../../public/locales/fr/degustazioni.json";
+import degustazioniDE from "../../public/locales/de/degustazioni.json";
+import degustazioniJP from "../../public/locales/jp/degustazioni.json";
+import degustazioniKO from "../../public/locales/ko/degustazioni.json";
+import degustazioniRU from "../../public/locales/ru/degustazioni.json";
+import degustazioniZH from "../../public/locales/zh/degustazioni.json";
+
 import Image from "next/image";
 import Bicchiere from "@/public/assets/iconeperdegustazioni/bicchiere.png";
 import Durata from "@/public/assets/iconeperdegustazioni/durata.png";
@@ -25,6 +31,7 @@ import "swiper/css/pagination";
 
 import { Navigation, Pagination } from "swiper/modules";
 import FormPrenotazione from "@/components/formPrenotazione/formPrenotazione";
+import FormPrenotazione4 from "@/components/formPrenotazione/FormPrenotazione4";
 
 const SingleDeg = ({ deg, others }) => {
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
@@ -94,21 +101,24 @@ const SingleDeg = ({ deg, others }) => {
               </h2>
             </div>
           </div>
-          <div className="flex items-center h-full">
-            <Image
-              src={Cantina}
-              className="h-full w-9 fxl:w-12"
-              alt="bicchiere"
-            />
-            <div className="flex items-center h-full gap-2">
-              <h2 className="font-bold text-[16px] text-main fxl:text-2xl uppercase">
-                {deg.visita?.title}:{" "}
-                <span className="text-base font-regular">
-                  {deg.visita?.cantina}
-                </span>
-              </h2>
+          {deg.visita && (
+            <div className="flex items-center h-full">
+              <Image
+                src={Cantina}
+                className="h-full w-9 fxl:w-12"
+                alt="bicchiere"
+              />
+              <div className="flex items-center h-full gap-2">
+                <h2 className="font-bold text-[16px] text-main fxl:text-2xl uppercase">
+                  {deg.visita?.title}:{" "}
+                  <span className="text-base font-regular">
+                    {deg.visita?.cantina}
+                  </span>
+                </h2>
+              </div>
             </div>
-          </div>
+          )}
+
           <div className="flex items-center h-full gap-1">
             <Image src={Lingue} className="h-full w-9" alt="bicchiere" />
             <div className="flex flex-wrap items-center gap-2">
@@ -120,19 +130,23 @@ const SingleDeg = ({ deg, others }) => {
               </h2>
             </div>
           </div>
-          <div className="flex items-center h-full">
-            <Image
-              src={Gradi}
-              className="h-full w-9 fxl:w-12"
-              alt="bicchiere"
-            />
-            <div className="flex flex-wrap items-center gap-2">
-              <h2 className="font-bold text-[16px] text-main fxl:text-2xl uppercase">
-                {deg.gradi?.title}:{" "}
-                <span className="text-base font-regular">{deg.gradi.tipo}</span>
-              </h2>
+          {deg.gradi && (
+            <div className="flex items-center h-full">
+              <Image
+                src={Gradi}
+                className="h-full w-9 fxl:w-12"
+                alt="bicchiere"
+              />
+              <div className="flex flex-wrap items-center gap-2">
+                <h2 className="font-bold text-[16px] text-main fxl:text-2xl uppercase">
+                  {deg.gradi?.title}:{" "}
+                  <span className="text-base font-regular">
+                    {deg.gradi.tipo}
+                  </span>
+                </h2>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
 
@@ -253,7 +267,7 @@ const SingleDeg = ({ deg, others }) => {
             </button>
           )}
         </div>
-        {deg.opzione ? (
+        {deg.eventoForm ? (
           <Drawer
             isOpen={isDrawerOpen}
             onClose={handleCloseDrawer}
@@ -263,8 +277,21 @@ const SingleDeg = ({ deg, others }) => {
             durata={deg.durata?.tempo}
             tipo={deg.degustazione.vini}
             form={deg.form}
-            optPrice={deg.opzione.price}
+            eventoForm={deg.eventoForm}
+            fixedDates={deg.fixedDates}
+          />
+        ) : deg.opzione ? (
+          <Drawer
+            isOpen={isDrawerOpen}
+            onClose={handleCloseDrawer}
+            deg={deg.name}
+            link={deg.title}
+            price={deg.price}
+            durata={deg.durata?.tempo}
+            tipo={deg.degustazione.vini}
+            form={deg.form}
             opzione={deg.opzione}
+            optPrice={deg.opzione.price}
           />
         ) : (
           <Drawer
@@ -276,7 +303,6 @@ const SingleDeg = ({ deg, others }) => {
             durata={deg.durata?.tempo}
             tipo={deg.degustazione.vini}
             form={deg.form}
-            opzione={deg.opzione}
           />
         )}
 
@@ -309,24 +335,37 @@ const SingleDeg = ({ deg, others }) => {
             <div className="p-4 text-center xl:text-2xl bg-main">
               <h2 className="font-bold text-white uppercase">{deg.name}</h2>
             </div>
-            {deg.opzione ? (
-              <FormPrenotazione
+            {!deg.eventoForm &&
+              (deg.opzione ? (
+                <FormPrenotazione
+                  deg={deg.name}
+                  link={deg.title}
+                  price={deg.price}
+                  durata={deg.durata?.tempo}
+                  tipo={deg.degustazione.vini}
+                  form={deg.form}
+                  optPrice={deg.opzione.price}
+                />
+              ) : (
+                <FormPrenotazione
+                  deg={deg.name}
+                  link={deg.title}
+                  price={deg.price}
+                  durata={deg.durata?.tempo}
+                  tipo={deg.degustazione.vini}
+                  form={deg.form}
+                />
+              ))}
+
+            {deg.eventoForm && (
+              <FormPrenotazione4
                 deg={deg.name}
                 link={deg.title}
                 price={deg.price}
                 durata={deg.durata?.tempo}
                 tipo={deg.degustazione.vini}
                 form={deg.form}
-                optPrice={deg.opzione.price}
-              />
-            ) : (
-              <FormPrenotazione
-                deg={deg.name}
-                link={deg.title}
-                price={deg.price}
-                durata={deg.durata?.tempo}
-                tipo={deg.degustazione.vini}
-                form={deg.form}
+                fixedDates={deg.fixedDates}
               />
             )}
           </div>
@@ -461,6 +500,21 @@ export async function getStaticProps(context) {
 
     case "fr":
       obj = degustazioniFR;
+      break;
+    case "de":
+      obj = degustazioniDE;
+      break;
+    case "jp":
+      obj = degustazioniJP;
+      break;
+    case "ko":
+      obj = degustazioniKO;
+      break;
+    case "ru":
+      obj = degustazioniRU;
+      break;
+    case "zh":
+      obj = degustazioniZH;
       break;
 
     default:

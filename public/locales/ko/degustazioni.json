@@ -70,15 +70,41 @@
         "priceTitle": "Price"
       },
       {
+        "img": "/assets/eventi/picnic.jpg",
+        "title": "Unusual Picnic",
+        "descrizione": "Picnic among the rows of our iconic Côteau La Tour vineyard, featuring a selection of cured meats and cheeses, along with a tasting of three Les Crêtes wines.",
+        "price": "€45.00 VAT included/ person",
+        "link": "/degustazioni/insolitopicnic",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "180'",
+        "ctaTitle": "Full details",
+        "priceTitle": "Price"
+      },
+      {
         "img": "/assets/degustazioni/top.jpeg",
         "title": "Top Wines Experience",
         "descrizione": "Tasting of 5 top wines accompanied by a cutting board of the local gastronomy and visit to the cellar and barricaia",
-        "price": "€65,00 VAT included/ person",
+        "price": "€65.00 VAT included/ person",
         "link": "/degustazioni/top",
         "wine": true,
         "fork": true,
         "bed": false,
         "tempo": "105'",
+        "ctaTitle": "Full details",
+        "priceTitle": "Price"
+      },
+      {
+        "img": "/assets/eventi/tramonto.jpg",
+        "title": "Sunset at the Rifugio",
+        "descrizione": "An aperitif-style dinner at sunset, paired with a selection of 3 Les Crêtes wines.",
+        "price": "€70.00 VAT included/ person",
+        "link": "/degustazioni/tramontoalrifugio",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "180'",
         "ctaTitle": "Full details",
         "priceTitle": "Price"
       },
@@ -107,6 +133,19 @@
         "tempo": "120'",
         "ctaTitle": "Full details",
         "priceTitle": "Price"
+      },
+      {
+        "img": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
+        "title": "Les Crêtes under the stars",
+        "descrizione": "A magical dinner under the stars, featuring a pairing with Les Crêtes’ iconic CRU wines.",
+        "price": "€130.00 VAT included/ person",
+        "link": "/degustazioni/sottolestelle",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "180'",
+        "ctaTitle": "Dettagli",
+        "priceTitle": "Prezzo"
       },
       {
         "img": "/assets/degustazioni/wellness.jpeg",
@@ -319,6 +358,74 @@
         "fork": true,
         "bed": false
       },
+      "insolitopicnic": {
+        "img": "/assets/eventi/picnic.jpg",
+        "name": "Unusual Picnic",
+        "seoImg": "/assets/eventi/picnic.jpg",
+
+        "title": "insolitopicnic",
+        "cardDesc": "Picnic among the rows of our iconic Côteau La Tour vineyard, featuring a selection of cured meats and cheeses, along with a tasting of three Les Crêtes wines.",
+
+        "degustazione": {
+          "title": "Tasting",
+          "vini": "3 wines + selection of local cured meats and cheeses"
+        },
+        "durata": { "title": "Time", "tempo": "180'" },
+
+        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+
+        "descrizione": {
+          "title": "Description",
+          "content": "Picnic among the rows of our iconic Côteau La Tour vineyard, featuring a selection of cured meats and cheeses, along with a tasting of three Les Crêtes wines.",
+          "pacchetto": {
+            "title": "Includes:",
+            "lista": [
+              {
+                "testo": "- Tasting of 3 wines"
+              },
+
+              {
+                "testo": "- Selection of local salami and cheese"
+              }
+            ]
+          }
+        },
+        "priceTitle": "Price",
+
+        "price": "45",
+        "priceCard": "€45.00 iva inclusa/ persona",
+
+        "reviewlink": "read our reviews",
+        "downloadCta": "Scarica qui",
+        "shareTitle": "Share on",
+        "bookNow": "Book now",
+        "testimonials": {
+          "title": "Last reviews",
+          "button": "Write a review"
+        },
+        "othersTitle": "Other highlights of tastings",
+        "form": {
+          "day": "Select a date",
+          "adults": "Adults",
+          "language": "Visit Language",
+          "gift": "Is it a gift?",
+          "total": "Total amount",
+          "cta": "Continue with request",
+          "langValue": {
+            "ita": "italian",
+            "eng": "english",
+            "fr": "french"
+          }
+        },
+        "fixedDates": [
+          { "label": "July 10, 2025 - 6:00 PM" },
+          { "label": "August 20, 2025 - 6:00 PM" }
+        ],
+        "eventoForm": true,
+        "bed": false,
+        "wine": true,
+        "fork": true
+      },
       "top": {
         "img": "/assets/degustazioni/top.jpg",
         "name": "Top Wines Experience",
@@ -386,6 +493,71 @@
         "wine": true,
         "fork": true,
         "bed": false
+      },
+      "tramontoalrifugio": {
+        "img": "/assets/eventi/tramonto.jpg",
+        "name": "Sunset at the Rifugio",
+        "seoImg": "/assets/eventi/tramonto.jpg",
+
+        "title": "tramontoalrifugio",
+        "cardDesc": "An aperitif-style dinner at sunset, paired with a selection of 3 Les Crêtes wines.",
+
+        "degustazione": {
+          "title": "Tasting",
+          "vini": "3 wines"
+        },
+        "durata": { "title": "Time", "tempo": "180'" },
+
+        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+
+        "descrizione": {
+          "title": "Description",
+          "content": "Aperitif-style dinner at sunset, paired with a selection of 3 Les Crêtes wines.",
+          "pacchetto": {
+            "title": "Includes:",
+            "lista": [
+              {
+                "testo": "- Tasting of 3 wines chosen with the winemaker "
+              }
+            ]
+          }
+        },
+        "priceTitle": "Price",
+
+        "price": "70",
+        "priceCard": "€70.00 VAT included/ person",
+
+        "reviewlink": "read our reviews",
+        "downloadCta": "Scarica qui",
+        "shareTitle": "Share on",
+        "bookNow": "Book now",
+        "testimonials": {
+          "title": "Last reviews",
+          "button": "Write a review"
+        },
+        "othersTitle": "Other highlights of tastings",
+        "form": {
+          "day": "Select a date",
+          "adults": "Adults",
+          "language": "Visit Language",
+          "gift": "Is it a gift?",
+          "total": "Total amount",
+          "cta": "Continue with request",
+          "langValue": {
+            "ita": "italian",
+            "eng": "english",
+            "fr": "french"
+          }
+        },
+        "fixedDates": [
+          { "label": "July 25, 2025 - 6:00 PM" },
+          { "label": "August 29, 2025 - 6:00 PM" }
+        ],
+
+        "eventoForm": true,
+        "bed": false,
+        "wine": true,
+        "fork": true
       },
       "tour": {
         "img": "/assets/degustazioni/coteau3.jpg",
@@ -537,6 +709,68 @@
         "wine": true,
         "fork": true,
         "bed": false
+      },
+      "sottolestelle": {
+        "img": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
+        "name": "Les Crêtes under the stars",
+        "seoImg": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
+
+        "title": "sottolestelle",
+        "cardDesc": "A magical dinner under the stars, featuring a pairing with Les Crêtes’ iconic CRU wines.",
+
+        "degustazione": {
+          "title": "Tasting",
+          "vini": "Cru wines"
+        },
+        "durata": { "title": "Time", "tempo": "180'" },
+
+        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+
+        "descrizione": {
+          "title": "Description",
+          "content": "A magical dinner under the stars, featuring a pairing with Les Crêtes’ iconic CRU wines.",
+          "pacchetto": {
+            "title": "Includes:",
+            "lista": [
+              {
+                "testo": "- Dinner paired with CRU Les Crêtes wines"
+              }
+            ]
+          }
+        },
+        "priceTitle": "Price",
+
+        "price": "130",
+        "priceCard": "€130.00 VAT included/ person",
+
+        "reviewlink": "read our reviews",
+        "downloadCta": "Scarica qui",
+        "shareTitle": "Share on",
+        "bookNow": "Book now",
+        "testimonials": {
+          "title": "Last reviews",
+          "button": "Write a review"
+        },
+        "othersTitle": "Other highlights of tastings",
+        "form": {
+          "day": "Select a date",
+          "slots": "Seleziona una fascia oraria:",
+          "adults": "Adults",
+          "language": "Visit Language",
+          "gift": "Is it a gift?",
+          "total": "Total amount",
+          "cta": "Continue with request",
+          "langValue": {
+            "ita": "italian",
+            "eng": "english",
+            "fr": "french"
+          }
+        },
+        "fixedDates": [{ "label": "August 10, 2025 - 6:00 PM" }],
+        "eventoForm": true,
+        "bed": false,
+        "wine": true,
+        "fork": true
       },
       "wellness": {
         "img": "/assets/degustazioni/wellness.jpeg",

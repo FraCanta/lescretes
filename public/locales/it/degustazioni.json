@@ -69,15 +69,41 @@
         "priceTitle": "Prezzo"
       },
       {
+        "img": "/assets/eventi/picnic.jpg",
+        "title": "Insolito Picnic",
+        "descrizione": "Picnic tra i filari del nostro iconico vigneto Côteau La Tour con selezioni di salumi e formaggi con degustazione di tre vini Les Cretes. ",
+        "price": "€45.00 iva inclusa / persona",
+        "link": "/degustazioni/insolitopicnic",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "180'",
+        "ctaTitle": "Dettagli",
+        "priceTitle": "Prezzo"
+      },
+      {
         "img": "/assets/degustazioni/top.jpeg",
         "title": "Top Wines Experience",
         "descrizione": "Degustazione di 5 vini di alta qualità accompagnati da un tagliere della gastronomia locale e visita alla cantina e barricaia",
-        "price": "€65,00 iva inclusa / persona",
+        "price": "€65.00 iva inclusa / persona",
         "link": "/degustazioni/top",
         "wine": true,
         "fork": true,
         "bed": false,
         "tempo": "100'",
+        "ctaTitle": "Dettagli",
+        "priceTitle": "Prezzo"
+      },
+      {
+        "img": "/assets/eventi/tramonto.jpg",
+        "title": "Tramonto al Rifugio",
+        "descrizione": "Apericena con abbinamento di 3 vini di Les Crêtes",
+        "price": "€70.00 iva inclusa / persona",
+        "link": "/degustazioni/tramontoalrifugio",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "180'",
         "ctaTitle": "Dettagli",
         "priceTitle": "Prezzo"
       },
@@ -108,10 +134,23 @@
         "priceTitle": "Prezzo"
       },
       {
+        "img": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
+        "title": "Les Crêtes sotto le stelle",
+        "descrizione": "Cena nella terrazza del suggestivo Rifugio del Vino con abbinamento i CRU iconici prodotti da Les Crêtes",
+        "price": "€130.00 iva inclusa / persona",
+        "link": "/degustazioni/sottolestelle",
+        "wine": true,
+        "fork": true,
+        "bed": false,
+        "tempo": "180'",
+        "ctaTitle": "Dettagli",
+        "priceTitle": "Prezzo"
+      },
+      {
         "img": "/assets/degustazioni/wellness.jpeg",
         "title": "Wellness & Wine Tasting",
         "descrizione": "Una notte di soggiorno in camera doppia presso QC Terme Spas & Resorts, con percorso benessere, degustazione, visita alla cantina e barricaia.",
-        "price": "A partire da €346,00 iva inclusa",
+        "price": "A partire da €346.00 iva inclusa",
         "link": "/degustazioni/wellness",
         "wine": true,
         "fork": true,
@@ -312,6 +351,74 @@
         "wine": true,
         "fork": true
       },
+      "insolitopicnic": {
+        "img": "/assets/eventi/picnic.jpg",
+        "name": "Insolito Picnic",
+        "seoImg": "/assets/seo/winemaker.png",
+
+        "title": "insolitopicnic",
+        "cardDesc": "Picnic tra i filari del nostro iconico vigneto Côteau La Tour con selezioni di salumi e formaggi con degustazione di tre vini Les Cretes. ",
+
+        "degustazione": {
+          "title": "Degustazione",
+          "vini": "3 vini + formaggi e salumi locali"
+        },
+        "durata": { "title": "Durata", "tempo": "180'" },
+
+        "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
+
+        "descrizione": {
+          "title": "Descrizione",
+          "content": "Picnic tra i filari del nostro iconico vigneto Côteau La Tour con selezioni di salumi e formaggi con degustazione di tre vini Les Cretes.",
+          "pacchetto": {
+            "title": "Include:",
+            "lista": [
+              {
+                "testo": "- Degustazione di 3 vini scelti con l'enologo "
+              },
+
+              {
+                "testo": "- Selezione di salumi e formaggi locali"
+              }
+            ]
+          }
+        },
+        "priceTitle": "Prezzo",
+
+        "price": "45",
+        "priceCard": "€45.00 iva inclusa/ persona",
+
+        "reviewlink": "leggi le recensioni",
+        "downloadCta": "Scarica qui",
+        "shareTitle": "Condividi su",
+        "bookNow": "Prenota ora",
+        "testimonials": {
+          "title": "Ultime recensioni",
+          "button": "Scrivi una recensione"
+        },
+        "othersTitle": "Altre degustazioni in evidenza",
+        "form": {
+          "day": "Scegli una data",
+          "adults": "Adulti",
+          "language": "Lingua visita",
+          "gift": "È un regalo?",
+          "total": "Totale da pagare",
+          "cta": "Procedi con la richiesta",
+          "langValue": {
+            "ita": "italiano",
+            "eng": "inglese",
+            "fr": "francese"
+          }
+        },
+        "fixedDates": [
+          { "label": "10 luglio 2025 - ore 18:00" },
+          { "label": "20 agosto 2025 - ore 18:00" }
+        ],
+        "eventoForm": true,
+        "bed": false,
+        "wine": true,
+        "fork": true
+      },
       "top": {
         "img": "/assets/degustazioni/top.jpg",
         "name": "Top Wines Experience",
@@ -375,6 +482,70 @@
             "fr": "francese"
           }
         },
+        "bed": false,
+        "wine": true,
+        "fork": true
+      },
+      "tramontoalrifugio": {
+        "img": "/assets/eventi/tramonto.jpg",
+        "name": "Tramonto al Rifugio",
+        "seoImg": "/assets/seo/winemaker.png",
+
+        "title": "tramontoalrifugio",
+        "cardDesc": "Apericena con abbinamento di 3 vini di Les Crêtes.",
+
+        "degustazione": {
+          "title": "Degustazione",
+          "vini": "3 vini "
+        },
+        "durata": { "title": "Durata", "tempo": "180'" },
+
+        "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
+
+        "descrizione": {
+          "title": "Descrizione",
+          "content": "Apericena con abbinamento di 3 vini di Les Crêtes.",
+          "pacchetto": {
+            "title": "Include:",
+            "lista": [
+              {
+                "testo": "- Degustazione di 3 vini scelti con l'enologo "
+              }
+            ]
+          }
+        },
+        "priceTitle": "Prezzo",
+
+        "price": "70",
+        "priceCard": "€70.00 iva inclusa/ persona",
+
+        "reviewlink": "leggi le recensioni",
+        "downloadCta": "Scarica qui",
+        "shareTitle": "Condividi su",
+        "bookNow": "Prenota ora",
+        "testimonials": {
+          "title": "Ultime recensioni",
+          "button": "Scrivi una recensione"
+        },
+        "othersTitle": "Altre degustazioni in evidenza",
+        "form": {
+          "day": "Scegli una data",
+          "adults": "Adulti",
+          "language": "Lingua visita",
+          "gift": "È un regalo?",
+          "total": "Totale da pagare",
+          "cta": "Procedi con la richiesta",
+          "langValue": {
+            "ita": "italiano",
+            "eng": "inglese",
+            "fr": "francese"
+          }
+        },
+        "fixedDates": [
+          { "label": "25 luglio 2025 - ore 18:00" },
+          { "label": "29 agosto 2025 - ore 18:00" }
+        ],
+        "eventoForm": true,
         "bed": false,
         "wine": true,
         "fork": true
@@ -523,6 +694,68 @@
             "fr": "francese"
           }
         },
+        "bed": false,
+        "wine": true,
+        "fork": true
+      },
+      "sottolestelle": {
+        "img": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
+        "name": "Les Crêtes sotto le stelle",
+        "seoImg": "/assets/seo/winemaker.png",
+
+        "title": "sottolestelle",
+        "cardDesc": "Cena nella terrazza del suggestivo Rifugio del Vino con abbinamento i CRU iconici prodotti da Les Crêtes.",
+
+        "degustazione": {
+          "title": "Degustazione",
+          "vini": "vini CRU"
+        },
+        "durata": { "title": "Durata", "tempo": "180'" },
+
+        "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
+
+        "descrizione": {
+          "title": "Descrizione",
+          "content": "Apericena con abbinamento di 3 vini di Les Crêtes.",
+          "pacchetto": {
+            "title": "Include:",
+            "lista": [
+              {
+                "testo": "- Degustazione di 3 vini scelti con l'enologo "
+              }
+            ]
+          }
+        },
+        "priceTitle": "Prezzo",
+
+        "price": "130",
+        "priceCard": "€130.00 iva inclusa/ persona",
+
+        "reviewlink": "leggi le recensioni",
+        "downloadCta": "Scarica qui",
+        "shareTitle": "Condividi su",
+        "bookNow": "Prenota ora",
+        "testimonials": {
+          "title": "Ultime recensioni",
+          "button": "Scrivi una recensione"
+        },
+        "othersTitle": "Altre degustazioni in evidenza",
+        "form": {
+          "day": "Scegli una data",
+          "slots": "Seleziona una fascia oraria:",
+          "adults": "Adulti",
+          "language": "Lingua visita",
+          "gift": "È un regalo?",
+          "total": "Totale da pagare",
+          "cta": "Procedi con la richiesta",
+          "langValue": {
+            "ita": "italiano",
+            "eng": "inglese",
+            "fr": "francese"
+          }
+        },
+        "fixedDates": [{ "label": "10 agosto 2025 - ore 18:00" }],
+        "eventoForm": true,
         "bed": false,
         "wine": true,
         "fork": true

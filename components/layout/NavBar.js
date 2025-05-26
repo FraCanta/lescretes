@@ -137,7 +137,7 @@ const NavBar = ({ translation }) => {
               <button
                 onClick={() => setDegOpen(!degOpen)}
                 title="Scopri le nostre degustazioni e come regalarle"
-                aria-label="Scopri le nostre degustazioni e come regalarle"
+                aria-label="Scopri le nostre degustazioni, eventi, orari e contatti e come regalare le nostre esperienze"
                 className=" text-[16px] md:text-[1.2rem] uppercase xl:text-[1rem]  fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular flex items-center"
               >
                 {translation?.[locale]?.degustazioni.name}{" "}
