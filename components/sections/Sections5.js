@@ -55,7 +55,7 @@ const Sections5 = ({ translation }) => {
               <h3 className="text-3xl md:text-4xl fxl:text-[50px] 3xl:text-6xl text-main font-black">
                 {translation.title1}
               </h3>
-              <p className="text-lg fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/80 font-medium w-full lg:w-[80%] fxl:w-[90%]">
+              <p className="text-lg fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/90 font-medium w-full lg:w-[80%] fxl:w-[90%]">
                 {translation.descrizione}
               </p>
             </div>
@@ -79,7 +79,7 @@ const Sections5 = ({ translation }) => {
               <h3 className="text-3xl md:text-4xl fxl:text-[50px] 3xl:text-6xl text-main font-black">
                 {translation.title2}
               </h3>
-              <p className="text-lg fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/80 font-medium w-full lg:w-[80%] fxl:w-[90%] z-10">
+              <p className="text-lg fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/90 font-medium w-full lg:w-[80%] fxl:w-[90%] z-10">
                 {translation.descrizione2}
               </p>
             </div>{" "}
