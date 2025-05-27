@@ -34,10 +34,16 @@ const Tabs = ({ tabs }) => {
         ))}
         {/* Navigation Buttons */}
         <div className="hidden gap-4 py-6 ml-auto lg:flex">
-          <button className="p-2 bg-white hover:rounded-full hover:bg-second prev">
+          <button
+            className="p-2 bg-white hover:rounded-full hover:bg-second prev"
+            aria-label="Previous tab"
+          >
             <Icon icon="prime:chevron-left" width={30} className="text-main" />
           </button>
-          <button className="p-2 bg-white hover:rounded-full hover:bg-second next">
+          <button
+            className="p-2 bg-white hover:rounded-full hover:bg-second next"
+            aria-label="Next tab"
+          >
             <Icon icon="prime:chevron-right" width={30} className="text-main" />
           </button>
         </div>
