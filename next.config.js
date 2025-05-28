@@ -5,7 +5,7 @@ const { i18n } = require("./next-18next.config");
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-
+  productionBrowserSourceMaps: true,
   postcss: {
     plugins: [],
   },
