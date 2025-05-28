@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const withPlugins = require("next-compose-plugins");
-const { i18n } = require("./next-18next.config");
 
 const ContentSecurityPolicy = `
   default-src 'self' https://service-reviews-ultimate.elfsight.com/ https://core.service.elfsight.com/ https://region1.google-analytics.com/ https://api.iconify.design/ https://cpl.iubenda.com/ https://idb.iubenda.com/ https://use.typekit.net/;
@@ -30,7 +29,11 @@ const nextConfig = {
   postcss: {
     plugins: [],
   },
-  i18n,
+  i18n: {
+    locales: ["it", "en", "fr", "de", "ko", "jp", "ru", "zh"],
+    defaultLocale: "it",
+    localeDetection: true,
+  },
   async redirects() {
     return [
       {
