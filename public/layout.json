@@ -559,7 +559,11 @@
       "col1": {
         "title": "Orari Wine Shop & Degustazioni",
         "days": "Da Lunedì a Venerdì",
-        "close": "Sabato"
+        "close": "Sabato",
+        "summer": "Aperture straordinarie",
+        "sundaySummer": "Tutte le domeniche da Luglio a Settembre",
+        "summerSaturday": "Orari estivi da Luglio a Settembre",
+        "saturdaySummer": "<strong>Sabato:</strong> orario continuato 9:30 – 19:30, <br/> <strong>Domenica:</strong> 9:30 – 13:00 / 14:30 – 19:30"
       },
 
       "col3": {
@@ -573,6 +577,10 @@
           {
             "name": "Degustazioni",
             "link": "/le-degustazioni"
+          },
+          {
+            "name": "I nostri eventi",
+            "link": "/i-nostri-eventi"
           },
           {
             "name": "Cosmesi",

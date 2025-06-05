@@ -33,19 +33,24 @@ const Footer = ({ translation }) => {
             {translation?.[locale]?.col1.close}
           </p>
           <p className="text-main/80">9.30 – 13.00 / 14.30 – 19.00</p>
+          <p className="font-bold text-main/90">
+            {translation?.[locale]?.col1.summer}
+          </p>
+          <p className="text-main/80">
+            {" "}
+            {translation?.[locale]?.col1.sundaySummer}
+          </p>
+          <p className="font-bold text-main/90">
+            {translation?.[locale]?.col1.summerSaturday}
+          </p>
+          <p
+            className="text-main/80"
+            dangerouslySetInnerHTML={{
+              __html: translation?.[locale]?.col1.saturdaySummer,
+            }}
+          ></p>
         </nav>
-        {/* <nav className="grid grid-cols-1 gap-2">
-          <header className="uppercase font-bold !text-main">
-            {translation?.[locale]?.col2.title}
-          </header>
-          <p className="font-bold text-main/90">
-            {translation?.[locale]?.col2.days}
-          </p>
-          <p className="text-main/80">9.00 – 12.00 / 15.00 – 17.00</p>
-          <p className="font-bold text-main/90">
-            {translation?.[locale]?.col2.close}
-          </p>
-        </nav> */}
+
         <nav className="grid grid-cols-1 gap-1">
           <header className="uppercase font-bold !text-main">
             {translation?.[locale]?.col3.title}
