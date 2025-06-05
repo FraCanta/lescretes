@@ -619,7 +619,11 @@
       "col1": {
         "title": "Office Hours",
         "days": "From Monday to Friday",
-        "close": "Saturday"
+        "close": "Saturday",
+        "summer": "Special Openings",
+        "sundaySummer": "Every Sunday from July to September",
+        "summerSaturday": "Summer Hours from July to September",
+        "saturdaySummer": "<strong>Saturday:</strong> continuous hours 9:30 AM – 7:30 PM, <br/> <strong>Sunday:</strong> 9:30 AM – 1:00 PM / 2:30 PM – 7:30 PM"
       },
       "col2": {
         "title": "WAREHOUSE HOURS",
@@ -673,7 +677,11 @@
       "col1": {
         "title": "Office Hours",
         "days": "From Monday to Friday",
-        "close": "Saturday"
+        "close": "Saturday",
+        "summer": "Special Openings",
+        "sundaySummer": "Every Sunday from July to September",
+        "summerSaturday": "Summer Hours from July to September",
+        "saturdaySummer": "<strong>Saturday:</strong> continuous hours 9:30 AM – 7:30 PM, <br/> <strong>Sunday:</strong> 9:30 AM – 1:00 PM / 2:30 PM – 7:30 PM"
       },
       "col2": {
         "title": "WAREHOUSE HOURS",
@@ -727,7 +735,11 @@
       "col1": {
         "title": "Office Hours",
         "days": "From Monday to Friday",
-        "close": "Saturday"
+        "close": "Saturday",
+        "summer": "Special Openings",
+        "sundaySummer": "Every Sunday from July to September",
+        "summerSaturday": "Summer Hours from July to September",
+        "saturdaySummer": "<strong>Saturday:</strong> continuous hours 9:30 AM – 7:30 PM, <br/> <strong>Sunday:</strong> 9:30 AM – 1:00 PM / 2:30 PM – 7:30 PM"
       },
       "col2": {
         "title": "WAREHOUSE HOURS",
@@ -781,7 +793,11 @@
       "col1": {
         "title": "Office Hours",
         "days": "From Monday to Friday",
-        "close": "Saturday"
+        "close": "Saturday",
+        "summer": "Special Openings",
+        "sundaySummer": "Every Sunday from July to September",
+        "summerSaturday": "Summer Hours from July to September",
+        "saturdaySummer": "<strong>Saturday:</strong> continuous hours 9:30 AM – 7:30 PM, <br/> <strong>Sunday:</strong> 9:30 AM – 1:00 PM / 2:30 PM – 7:30 PM"
       },
       "col2": {
         "title": "WAREHOUSE HOURS",
@@ -835,7 +851,11 @@
       "col1": {
         "title": "Office Hours",
         "days": "From Monday to Friday",
-        "close": "Saturday"
+        "close": "Saturday",
+        "summer": "Special Openings",
+        "sundaySummer": "Every Sunday from July to September",
+        "summerSaturday": "Summer Hours from July to September",
+        "saturdaySummer": "<strong>Saturday:</strong> continuous hours 9:30 AM – 7:30 PM, <br/> <strong>Sunday:</strong> 9:30 AM – 1:00 PM / 2:30 PM – 7:30 PM"
       },
       "col2": {
         "title": "WAREHOUSE HOURS",
@@ -889,7 +909,11 @@
       "col1": {
         "title": "Office Hours",
         "days": "From Monday to Friday",
-        "close": "Saturday"
+        "close": "Saturday",
+        "summer": "Special Openings",
+        "sundaySummer": "Every Sunday from July to September",
+        "summerSaturday": "Summer Hours from July to September",
+        "saturdaySummer": "<strong>Saturday:</strong> continuous hours 9:30 AM – 7:30 PM, <br/> <strong>Sunday:</strong> 9:30 AM – 1:00 PM / 2:30 PM – 7:30 PM"
       },
       "col2": {
         "title": "WAREHOUSE HOURS",
@@ -943,7 +967,11 @@
       "col1": {
         "title": "Office Hours",
         "days": "From Monday to Friday",
-        "close": "Saturday"
+        "close": "Saturday",
+        "summer": "Special Openings",
+        "sundaySummer": "Every Sunday from July to September",
+        "summerSaturday": "Summer Hours from July to September",
+        "saturdaySummer": "<strong>Saturday:</strong> continuous hours 9:30 AM – 7:30 PM, <br/> <strong>Sunday:</strong> 9:30 AM – 1:00 PM / 2:30 PM – 7:30 PM"
       },
       "col2": {
         "title": "WAREHOUSE HOURS",
