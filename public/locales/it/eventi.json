@@ -12,25 +12,39 @@
         "eventi": [
           {
             "date": "2025-07-10",
-            "title": "Insolito Picnic",
-            "description": "Picnic tra i filari del nostro iconico vigneto Côteau La Tour",
+            "title": "Picnic al Côteau",
+            "description": "Un’esperienza immersiva tra i filari del suggestivo vigneto Côteau La Tour: un picnic esclusivo accompagnato da una selezione curata di salumi, formaggi e tre vini Les Crêtes scelti insieme al nostro enologo.",
             "image": "/assets/eventi/picnic.jpg",
+            "priceTitle": "Prezzo",
+            "price": "€45.00 iva inclusa / persona",
+            "link": "/degustazioni/picnicalcoteau",
+            "wine": true,
+            "fork": true,
+            "tempo": "180'",
             "labels": {
               "active": "Attivo",
               "closed": "Chiuso",
-              "cta": "Richiedi dettagli",
+              "cta": "Dettagli",
               "closedBooking": "Prenotazioni chiuse"
             }
           },
           {
             "date": "2025-07-25",
             "title": "Tramonto al Rifugio",
-            "description": "Apericena con abbinamento di 3 vini di Les Crêtes",
+            "description": "Un itinerario enogastronomico in tre tappe, con degustazioni abbinate a vini selezionati e visita guidata alla cantina.",
             "image": "/assets/eventi/tramonto.jpg",
+            "price": "€70.00 iva inclusa / persona",
+            "priceTitle": "Prezzo",
+
+            "link": "/degustazioni/tramontoalrifugio",
+            "wine": true,
+            "fork": true,
+            "bed": false,
+            "tempo": "180'",
             "labels": {
               "active": "Attivo",
               "closed": "Chiuso",
-              "cta": "Richiedi dettagli",
+              "cta": "Dettagli",
               "closedBooking": "Prenotazioni chiuse"
             }
           }
@@ -44,34 +58,55 @@
             "title": "Les Crêtes sotto le stelle",
             "description": "Cena nella terrazza del suggestivo Rifugio del Vino con abbinamento i CRU iconici prodotti da Les Crêtes",
             "image": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
+            "price": "€130.00 iva inclusa / persona",
+            "priceTitle": "Prezzo",
+
+            "link": "/degustazioni/sottolestelle",
+            "wine": true,
+            "fork": true,
+            "bed": false,
+            "tempo": "180'",
             "labels": {
               "active": "Attivo",
               "closed": "Chiuso",
-              "cta": "Richiedi dettagli",
+              "cta": "Dettagli",
               "closedBooking": "Prenotazioni chiuse"
             }
           },
           {
-            "date": "2025-08-20",
-            "title": "Insolito Picnic",
-            "description": "Picnic tra i filari del nostro iconico vigneto Côteau La Tour",
+            "date": "2025-07-10",
+            "title": "Picnic al Côteau",
+            "description": "Un’esperienza immersiva tra i filari del suggestivo vigneto Côteau La Tour: un picnic esclusivo accompagnato da una selezione curata di salumi, formaggi e tre vini Les Crêtes scelti insieme al nostro enologo.",
             "image": "/assets/eventi/picnic.jpg",
+            "priceTitle": "Prezzo",
+            "price": "€45.00 iva inclusa / persona",
+            "link": "/degustazioni/picnicalcoteau",
+            "wine": true,
+            "fork": true,
+            "tempo": "180'",
             "labels": {
               "active": "Attivo",
               "closed": "Chiuso",
-              "cta": "Richiedi dettagli",
+              "cta": "Dettagli",
               "closedBooking": "Prenotazioni chiuse"
             }
           },
           {
-            "date": "2025-08-29",
+            "date": "2025-07-25",
             "title": "Tramonto al Rifugio",
-            "description": "Apericena con abbinamento di 3 vini di Les Crêtes",
+            "description": "Un itinerario enogastronomico in tre tappe, con degustazioni abbinate a vini selezionati e visita guidata alla cantina.",
             "image": "/assets/eventi/tramonto.jpg",
+            "price": "€70.00 iva inclusa / persona",
+            "priceTitle": "Prezzo",
+            "link": "/degustazioni/tramontoalrifugio",
+            "wine": true,
+            "fork": true,
+            "bed": false,
+            "tempo": "180'",
             "labels": {
               "active": "Attivo",
               "closed": "Chiuso",
-              "cta": "Richiedi dettagli",
+              "cta": "Dettagli",
               "closedBooking": "Prenotazioni chiuse"
             }
           }
@@ -85,10 +120,15 @@
             "title": "Sorsi di storia cenando tra i filari",
             "description": "Cena tra i filari dell’iconico vigneto Côteau La Tour sorseggiando i CRU iconici prodotti da Les Crêtes",
             "image": "/assets/eventi/cena.jpg",
+            "wine": true,
+            "fork": true,
+            "bed": false,
+            "tempo": "180'",
+
             "labels": {
               "active": "Attivo",
               "closed": "Chiuso",
-              "cta": "Richiedi dettagli",
+              "cta": "Dettagli",
               "closedBooking": "Prenotazioni chiuse"
             }
           }

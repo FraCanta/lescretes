@@ -1,10 +1,10 @@
 {
   "eventi": {
     "title": "Our Events",
-    "description": "Experience the magic of summer among vineyards, sunsets, and stars. Each event is an opportunity to discover the flavors and most iconic places of Les Crêtes, accompanied by our excellent wines.",
+    "description": "Experience the magic of summer among vineyards, sunsets, and stars. Each event is a chance to discover the most iconic flavors and places of Les Crêtes, accompanied by our finest wines.",
     "download": {
       "title": "our postcard",
-      "file": "/pdf/eventi/eventi_lescretes_estate_2025_en.pdf"
+      "file": "/pdf/eventi/eventi_lescretes_estate_2025.pdf"
     },
     "eventiPerMese": [
       {
@@ -12,25 +12,38 @@
         "eventi": [
           {
             "date": "2025-07-10",
-            "title": "Unusual Picnic",
-            "description": "A unique picnic experience among the rows of vines in the iconic Côteau",
+            "title": "Picnic at the Côteau",
+            "description": "An immersive experience among the rows of the enchanting Côteau La Tour vineyard: an exclusive picnic with a curated selection of cured meats, cheeses, and three Les Crêtes wines chosen with our winemaker.",
             "image": "/assets/eventi/picnic.jpg",
+            "priceTitle": "Price",
+            "price": "€45.00 VAT included / per person",
+            "link": "/degustazioni/picnicalcoteau",
+            "wine": true,
+            "fork": true,
+            "tempo": "180'",
             "labels": {
               "active": "Active",
               "closed": "Closed",
-              "cta": "More details",
+              "cta": "Details",
               "closedBooking": "Bookings closed"
             }
           },
           {
             "date": "2025-07-25",
-            "title": "Sunset at the Rifugio",
-            "description": "An aperitif-style dinner at sunset, paired with a selection of 3 Les Crêtes wines.",
+            "title": "Sunset at the Refuge",
+            "description": "A three-stage food and wine itinerary, with tastings paired with selected wines and a guided tour of the cellar.",
             "image": "/assets/eventi/tramonto.jpg",
+            "price": "€70.00 VAT included / per person",
+            "priceTitle": "Price",
+            "link": "/degustazioni/tramontoalrifugio",
+            "wine": true,
+            "fork": true,
+            "bed": false,
+            "tempo": "180'",
             "labels": {
               "active": "Active",
               "closed": "Closed",
-              "cta": "More details",
+              "cta": "Details",
               "closedBooking": "Bookings closed"
             }
           }
@@ -42,36 +55,56 @@
           {
             "date": "2025-08-10",
             "title": "Les Crêtes under the stars",
-            "description": "A magical dinner under the stars, featuring a pairing with Les Crêtes’ iconic CRU wines",
+            "description": "Dinner on the terrace of the enchanting Wine Refuge with a pairing of iconic CRUs produced by Les Crêtes.",
             "image": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
+            "price": "€130.00 VAT included / per person",
+            "priceTitle": "Price",
+            "link": "/degustazioni/sottolestelle",
+            "wine": true,
+            "fork": true,
+            "bed": false,
+            "tempo": "180'",
             "labels": {
               "active": "Active",
               "closed": "Closed",
-              "cta": "More details",
+              "cta": "Details",
               "closedBooking": "Bookings closed"
             }
           },
           {
-            "date": "2025-08-20",
-            "title": "Unusual Picnic",
-            "description": "A unique picnic experience among the rows of vines in the iconic Côteau",
+            "date": "2025-07-10",
+            "title": "Picnic at the Côteau",
+            "description": "An immersive experience among the rows of the enchanting Côteau La Tour vineyard: an exclusive picnic with a curated selection of cured meats, cheeses, and three Les Crêtes wines chosen with our winemaker.",
             "image": "/assets/eventi/picnic.jpg",
+            "priceTitle": "Price",
+            "price": "€45.00 VAT included / per person",
+            "link": "/degustazioni/picnicalcoteau",
+            "wine": true,
+            "fork": true,
+            "tempo": "180'",
             "labels": {
               "active": "Active",
               "closed": "Closed",
-              "cta": "More details",
+              "cta": "Details",
               "closedBooking": "Bookings closed"
             }
           },
           {
-            "date": "2025-08-29",
-            "title": "Sunset at the Rifugio",
-            "description": "An aperitif-style dinner at sunset, paired with a selection of 3 Les Crêtes wines.",
+            "date": "2025-07-25",
+            "title": "Sunset at the Refuge",
+            "description": "A three-stage food and wine itinerary, with tastings paired with selected wines and a guided tour of the cellar.",
             "image": "/assets/eventi/tramonto.jpg",
+            "price": "€70.00 VAT included / per person",
+            "priceTitle": "Price",
+            "link": "/degustazioni/tramontoalrifugio",
+            "wine": true,
+            "fork": true,
+            "bed": false,
+            "tempo": "180'",
             "labels": {
               "active": "Active",
               "closed": "Closed",
-              "cta": "More details",
+              "cta": "Details",
               "closedBooking": "Bookings closed"
             }
           }
@@ -82,13 +115,17 @@
         "eventi": [
           {
             "date": "2025-09-05",
-            "title": "Sips of History: Dining Among the Vines",
-            "description": "A dinner set among the vineyard rows, savoring Les Crêtes’ iconic CRU wines while discovering the stories behind them.",
+            "title": "Sips of history dining among the rows",
+            "description": "Dinner among the rows of the iconic Côteau La Tour vineyard while sipping the iconic CRUs produced by Les Crêtes.",
             "image": "/assets/eventi/cena.jpg",
+            "wine": true,
+            "fork": true,
+            "bed": false,
+            "tempo": "180'",
             "labels": {
               "active": "Active",
               "closed": "Closed",
-              "cta": "More details",
+              "cta": "Details",
               "closedBooking": "Bookings closed"
             }
           }

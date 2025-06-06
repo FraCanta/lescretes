@@ -417,7 +417,7 @@
           "adults": "Adults",
           "language": "Tour language",
           "gift": "Is it a gift?",
-          "total": "Total to pay",
+          "total": "total amount",
           "cta": "Proceed with request",
           "langValue": {
             "ita": "Italian",
@@ -563,7 +563,7 @@
           "adults": "Adults",
           "language": "Tour language",
           "gift": "Is it a gift?",
-          "total": "Total to pay",
+          "total": "total amount",
           "cta": "Proceed with request",
           "langValue": {
             "ita": "Italian",
@@ -805,7 +805,7 @@
           "adults": "Adults",
           "language": "Tour language",
           "gift": "Is it a gift?",
-          "total": "Total to pay",
+          "total": "total amount",
           "cta": "Proceed with request",
           "langValue": {
             "ita": "Italian",

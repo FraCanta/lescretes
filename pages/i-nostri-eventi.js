@@ -95,6 +95,12 @@ function EventiPage({ translation, locale }) {
                 description={event.description}
                 image={event.image}
                 labels={event.labels}
+                wine={event.wine}
+                fork={event.fork}
+                tempo={event.tempo}
+                price={event.price}
+                priceTitle={event.priceTitle}
+                link={event.link}
               />
             ))}
           </div>

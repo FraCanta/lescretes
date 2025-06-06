@@ -113,6 +113,13 @@ const NavBar = ({ translation }) => {
               >
                 {translation?.[locale]?.vini}
               </Link>
+              <Link
+                href={`/i-nostri-eventi`}
+                title="I nostri eventi"
+                className="text-[16px] md:text-[1.2rem]  xl:text-[1rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular uppercase flex items-center"
+              >
+                {translation?.[locale]?.eventi}
+              </Link>
 
               <Link
                 href={`/cosmesi`}

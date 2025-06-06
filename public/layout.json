@@ -46,12 +46,6 @@
             "title": "Orari e contatti",
             "imgSrc": "/assets/rifugio/rifugio10.webp"
           },
-          {
-            "name": "I Nostri Eventi",
-
-            "link": "/i-nostri-eventi",
-            "title": "I nostri eventi"
-          },
 
           {
             "name": "FAQs - Domande Frequenti",
@@ -60,6 +54,7 @@
           }
         ]
       },
+      "eventi": "I Nostri Eventi",
 
       "gift": "Gift Card",
 
@@ -100,6 +95,7 @@
         ]
       },
       "vini": "Wines",
+      "eventi": "Our Events",
       "degustazioni": {
         "name": "Experience",
         "sottomenu": [
@@ -114,13 +110,6 @@
             "link": "/orari-e-contatti",
             "title": "Hours & Contacts",
             "imgSrc": "/assets/rifugio/rifugio10.webp"
-          },
-          {
-            "name": "Our Events",
-
-            "link": "/i-nostri-eventi",
-
-            "title": "Our Events"
           },
 
           {
@@ -170,6 +159,7 @@
         ]
       },
       "vini": "Wines",
+      "eventi": "Our Events",
       "degustazioni": {
         "name": "Experience",
         "sottomenu": [
@@ -184,12 +174,6 @@
             "link": "/orari-e-contatti",
             "title": "Hours & Contacts",
             "imgSrc": "/assets/rifugio/rifugio10.webp"
-          },
-          {
-            "name": "Our Events",
-
-            "link": "/i-nostri-eventi",
-            "title": "Our Events"
           },
 
           {
@@ -239,6 +223,7 @@
         ]
       },
       "vini": "Wines",
+      "eventi": "Our Events",
       "degustazioni": {
         "name": "Experience",
         "sottomenu": [
@@ -253,12 +238,6 @@
             "link": "/orari-e-contatti",
             "title": "Hours & Contacts",
             "imgSrc": "/assets/rifugio/rifugio10.webp"
-          },
-          {
-            "name": "Our Events",
-
-            "link": "/i-nostri-eventi",
-            "title": "Our Events"
           },
 
           {
@@ -308,6 +287,7 @@
         ]
       },
       "vini": "Wines",
+      "eventi": "Our Events",
       "degustazioni": {
         "name": "Experience",
         "sottomenu": [
@@ -322,12 +302,6 @@
             "link": "/orari-e-contatti",
             "title": "Hours & Contacts",
             "imgSrc": "/assets/rifugio/rifugio10.webp"
-          },
-          {
-            "name": "Our Events",
-
-            "link": "/i-nostri-eventi",
-            "title": "Our Events"
           },
 
           {
@@ -377,6 +351,7 @@
         ]
       },
       "vini": "Wines",
+      "eventi": "Our Events",
       "degustazioni": {
         "name": "Experience",
         "sottomenu": [
@@ -391,12 +366,6 @@
             "link": "/orari-e-contatti",
             "title": "Hours & Contacts",
             "imgSrc": "/assets/rifugio/rifugio10.webp"
-          },
-          {
-            "name": "Our Events",
-
-            "badge": "coming soon",
-            "title": "Our Events"
           },
 
           {
@@ -446,6 +415,7 @@
         ]
       },
       "vini": "Wines",
+      "eventi": "Our Events",
       "degustazioni": {
         "name": "Experience",
         "sottomenu": [
@@ -460,12 +430,6 @@
             "link": "/orari-e-contatti",
             "title": "Hours & Contacts",
             "imgSrc": "/assets/rifugio/rifugio10.webp"
-          },
-          {
-            "name": "Our Events",
-
-            "link": "/i-nostri-eventi",
-            "title": "Our Events"
           },
 
           {
@@ -515,6 +479,7 @@
         ]
       },
       "vini": "Wines",
+      "eventi": "Our Events",
       "degustazioni": {
         "name": "Experience",
         "sottomenu": [
@@ -529,12 +494,6 @@
             "link": "/orari-e-contatti",
             "title": "Hours & Contacts",
             "imgSrc": "/assets/rifugio/rifugio10.webp"
-          },
-          {
-            "name": "Our Events",
-
-            "link": "/i-nostri-eventi",
-            "title": "Our Events"
           },
 
           {
