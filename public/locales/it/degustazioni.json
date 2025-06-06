@@ -705,61 +705,78 @@
       },
       "sottolestelle": {
         "img": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
-        "name": "Les Crêtes under the stars",
-        "seoImg": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
+        "name": "Les Crêtes sotto le stelle",
+        "seoImg": "/assets/seo/winemaker.png",
 
         "title": "sottolestelle",
-        "cardDesc": "A magical dinner under the stars, featuring a pairing with Les Crêtes’ iconic CRU wines.",
+        "cardDesc": "Cena nella terrazza del suggestivo Rifugio del Vino con abbinamento i CRU iconici prodotti da Les Crêtes.",
 
         "degustazione": {
-          "title": "Tasting",
-          "vini": "Cru wines"
+          "title": "Degustazione",
+          "vini": "vini CRU"
         },
-        "durata": { "title": "Time", "tempo": "180'" },
+        "durata": { "title": "Durata", "tempo": "180'" },
 
-        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+        "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
 
         "descrizione": {
-          "title": "Description",
-          "content": "A magical dinner under the stars, featuring a pairing with Les Crêtes’ iconic CRU wines.",
-          "pacchetto": {
-            "title": "Includes:",
-            "lista": [
-              {
-                "testo": "- Dinner paired with CRU Les Crêtes wines"
-              }
-            ]
-          }
+          "title": "Descrizione",
+          "content": "Nella suggestiva cornice della terrazza del Rifugio del Vino, vi invitiamo a una Wine Dinner esclusiva dedicata ai nostri migliori Cru. Una serata speciale, con piatti gourmet in abbinamento ai nostri vini d’eccellenza, da vivere con lo sguardo rivolto al cielo stellato e alle amate montagne che ci circondano. Un'esperienza unica tra sapori, profumi e desideri espressi sotto le stelle."
         },
-        "priceTitle": "Price",
+        "menu": {
+          "title": "Menu della serata",
+          "content": [
+            {
+              "title": "Amuse-bouche di benvenuto",
+              "description": "In abbinamento con la nostra <strong>bollicina Metodo Classico</strong>"
+            },
+            {
+              "title": "Antipasto",
+              "description": "<strong>Uovo in camicia</strong> su letto di zucchine scottate, con leggera fonduta di Parmigiano Reggiano e bacon croccante. <br/>In abbinamento con il nostro <strong>Chardonnay Cuvée Bois 2023</strong>"
+            },
+            {
+              "title": "Primo piatto",
+              "description": "<strong>Risotto Carnaroli</strong> al pesto di fave, con gocce di stracciatella e polvere di speck. <br/>In abbinamento con il nostro <strong>Petite Arvine Fleur 2024</strong>."
+            },
+            {
+              "title": "Secondo piatto",
+              "description": "<strong>Rollé di coniglio</strong> con fondo bruno, pesto di olive taggiasche e piccola misticanza estiva. <br/>In abbinamento con il nostro <strong>Nebbiolo Sommet 2021</strong>."
+            },
+            {
+              "title": "Dessert",
+              "description": "<strong>Sacher Torte</strong> con coulis di lamponi freschi. <br/>In abbinamento con la nostra <strong>edizione limitata di Sabla 50</strong>."
+            }
+          ]
+        },
+        "priceTitle": "Prezzo",
 
         "price": "130",
-        "priceCard": "€130.00 VAT included/ person",
+        "priceCard": "€130.00 iva inclusa/ persona",
 
-        "reviewlink": "read our reviews",
+        "reviewlink": "leggi le recensioni",
         "downloadCta": "Scarica qui",
-        "shareTitle": "Share on",
-        "bookNow": "Book now",
+        "shareTitle": "Condividi su",
+        "bookNow": "Prenota ora",
         "testimonials": {
-          "title": "Last reviews",
-          "button": "Write a review"
+          "title": "Ultime recensioni",
+          "button": "Scrivi una recensione"
         },
-        "othersTitle": "Other highlights of tastings",
+        "othersTitle": "Altre degustazioni in evidenza",
         "form": {
-          "day": "Select a date",
+          "day": "Scegli una data",
           "slots": "Seleziona una fascia oraria:",
-          "adults": "Adults",
-          "language": "Visit Language",
-          "gift": "Is it a gift?",
-          "total": "Total amount",
-          "cta": "Continue with request",
+          "adults": "Adulti",
+          "language": "Lingua visita",
+          "gift": "È un regalo?",
+          "total": "Totale da pagare",
+          "cta": "Procedi con la richiesta",
           "langValue": {
-            "ita": "italian",
-            "eng": "english",
-            "fr": "french"
+            "ita": "italiano",
+            "eng": "inglese",
+            "fr": "francese"
           }
         },
-        "fixedDates": [{ "label": "August 10, 2025 - 6:00 PM" }],
+        "fixedDates": [{ "label": "10 agosto 2025 - ore 18:00" }],
         "eventoForm": true,
         "bed": false,
         "wine": true,
