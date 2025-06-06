@@ -70,10 +70,10 @@
       },
       {
         "img": "/assets/eventi/picnic.jpg",
-        "title": "Insolito Picnic",
-        "descrizione": "Picnic tra i filari del nostro iconico vigneto Côteau La Tour con selezioni di salumi e formaggi con degustazione di tre vini Les Cretes. ",
+        "title": "Picnic al Côteau",
+        "descrizione": "Un’esperienza immersiva tra i filari del suggestivo vigneto Côteau La Tour: un picnic esclusivo accompagnato da una selezione curata di salumi, formaggi e tre vini Les Crêtes scelti insieme al nostro enologo.",
         "price": "€45.00 iva inclusa / persona",
-        "link": "/degustazioni/insolitopicnic",
+        "link": "/degustazioni/picnicalcoteau",
         "wine": true,
         "fork": true,
         "bed": false,
@@ -97,7 +97,7 @@
       {
         "img": "/assets/eventi/tramonto.jpg",
         "title": "Tramonto al Rifugio",
-        "descrizione": "Apericena con abbinamento di 3 vini di Les Crêtes",
+        "descrizione": "Un itinerario enogastronomico in tre tappe, con degustazioni abbinate a vini selezionati e visita guidata alla cantina.",
         "price": "€70.00 iva inclusa / persona",
         "link": "/degustazioni/tramontoalrifugio",
         "wine": true,
@@ -351,13 +351,13 @@
         "wine": true,
         "fork": true
       },
-      "insolitopicnic": {
+      "picnicalcoteau": {
         "img": "/assets/eventi/picnic.jpg",
-        "name": "Insolito Picnic",
+        "name": "Picnic al Côteau",
         "seoImg": "/assets/seo/winemaker.png",
 
-        "title": "insolitopicnic",
-        "cardDesc": "Picnic tra i filari del nostro iconico vigneto Côteau La Tour con selezioni di salumi e formaggi con degustazione di tre vini Les Cretes. ",
+        "title": "picnicalcoteau",
+        "cardDesc": "Un’esperienza immersiva tra i filari del suggestivo vigneto Côteau La Tour: un picnic esclusivo accompagnato da una selezione curata di salumi, formaggi e tre vini Les Crêtes scelti insieme al nostro enologo.",
 
         "degustazione": {
           "title": "Degustazione",
@@ -369,7 +369,7 @@
 
         "descrizione": {
           "title": "Descrizione",
-          "content": "Picnic tra i filari del nostro iconico vigneto Côteau La Tour con selezioni di salumi e formaggi con degustazione di tre vini Les Cretes.",
+          "content": "Un’esperienza immersiva tra i filari del suggestivo vigneto Côteau La Tour: un picnic esclusivo accompagnato da una selezione curata di salumi, formaggi e tre vini Les Crêtes scelti insieme al nostro enologo.",
           "pacchetto": {
             "title": "Include:",
             "lista": [
@@ -378,11 +378,12 @@
               },
 
               {
-                "testo": "- Selezione di salumi e formaggi locali"
+                "testo": "- Il set comprende una coperta da picnic e un cestino con una selezione di salumi e formaggi, varie tipologie di pane e grissini, e un dolce monoporzione"
               }
             ]
           }
         },
+
         "priceTitle": "Prezzo",
 
         "price": "45",
@@ -492,24 +493,28 @@
         "seoImg": "/assets/seo/winemaker.png",
 
         "title": "tramontoalrifugio",
-        "cardDesc": "Apericena con abbinamento di 3 vini di Les Crêtes.",
+        "cardDesc": "Un itinerario enogastronomico in tre tappe, con degustazioni abbinate a vini selezionati e visita guidata alla cantina.",
 
         "degustazione": {
           "title": "Degustazione",
-          "vini": "3 vini "
+          "vini": "3 vini + formaggi e salumi locali"
         },
         "durata": { "title": "Durata", "tempo": "180'" },
+        "visita": { "title": "Tour cantina", "cantina": "Sì" },
 
         "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
 
         "descrizione": {
           "title": "Descrizione",
-          "content": "Apericena con abbinamento di 3 vini di Les Crêtes.",
+          "content": "Un percorso enogastronomico in tre tappe, all'interno e all'esterno della nostra struttura, per vivere un'esperienza unica tra gusto e territorio. Ogni tappa offrirà un abbinamento tra formaggi e salumi di altissima qualità e piccoli piatti caldi della tradizione locale, sapientemente selezionati. Ad accompagnare il percorso, tre dei nostri vini, scelti per esaltare al meglio i sapori di ogni prodotto da noi selezionato. Durante la serata è prevista anche la visita alla cantina con una presentazione dei nostri prodotti e del processo produttivo.",
           "pacchetto": {
             "title": "Include:",
             "lista": [
               {
-                "testo": "- Degustazione di 3 vini scelti con l'enologo "
+                "testo": "- 3 vini Les Cretes parte delle nostre selezioni "
+              },
+              {
+                "testo": "- 3 diverse postazioni di formaggi - salumi e piccoli piatti caldi della tradizione locale"
               }
             ]
           }
@@ -700,61 +705,61 @@
       },
       "sottolestelle": {
         "img": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
-        "name": "Les Crêtes sotto le stelle",
-        "seoImg": "/assets/seo/winemaker.png",
+        "name": "Les Crêtes under the stars",
+        "seoImg": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
 
         "title": "sottolestelle",
-        "cardDesc": "Cena nella terrazza del suggestivo Rifugio del Vino con abbinamento i CRU iconici prodotti da Les Crêtes.",
+        "cardDesc": "A magical dinner under the stars, featuring a pairing with Les Crêtes’ iconic CRU wines.",
 
         "degustazione": {
-          "title": "Degustazione",
-          "vini": "vini CRU"
+          "title": "Tasting",
+          "vini": "Cru wines"
         },
-        "durata": { "title": "Durata", "tempo": "180'" },
+        "durata": { "title": "Time", "tempo": "180'" },
 
-        "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
+        "lingua": { "title": "Language", "tipo": " italian, english, french" },
 
         "descrizione": {
-          "title": "Descrizione",
-          "content": "Apericena con abbinamento di 3 vini di Les Crêtes.",
+          "title": "Description",
+          "content": "A magical dinner under the stars, featuring a pairing with Les Crêtes’ iconic CRU wines.",
           "pacchetto": {
-            "title": "Include:",
+            "title": "Includes:",
             "lista": [
               {
-                "testo": "- Degustazione di 3 vini scelti con l'enologo "
+                "testo": "- Dinner paired with CRU Les Crêtes wines"
               }
             ]
           }
         },
-        "priceTitle": "Prezzo",
+        "priceTitle": "Price",
 
         "price": "130",
-        "priceCard": "€130.00 iva inclusa/ persona",
+        "priceCard": "€130.00 VAT included/ person",
 
-        "reviewlink": "leggi le recensioni",
+        "reviewlink": "read our reviews",
         "downloadCta": "Scarica qui",
-        "shareTitle": "Condividi su",
-        "bookNow": "Prenota ora",
+        "shareTitle": "Share on",
+        "bookNow": "Book now",
         "testimonials": {
-          "title": "Ultime recensioni",
-          "button": "Scrivi una recensione"
+          "title": "Last reviews",
+          "button": "Write a review"
         },
-        "othersTitle": "Altre degustazioni in evidenza",
+        "othersTitle": "Other highlights of tastings",
         "form": {
-          "day": "Scegli una data",
+          "day": "Select a date",
           "slots": "Seleziona una fascia oraria:",
-          "adults": "Adulti",
-          "language": "Lingua visita",
-          "gift": "È un regalo?",
-          "total": "Totale da pagare",
-          "cta": "Procedi con la richiesta",
+          "adults": "Adults",
+          "language": "Visit Language",
+          "gift": "Is it a gift?",
+          "total": "Total amount",
+          "cta": "Continue with request",
           "langValue": {
-            "ita": "italiano",
-            "eng": "inglese",
-            "fr": "francese"
+            "ita": "italian",
+            "eng": "english",
+            "fr": "french"
           }
         },
-        "fixedDates": [{ "label": "10 agosto 2025 - ore 18:00" }],
+        "fixedDates": [{ "label": "August 10, 2025 - 6:00 PM" }],
         "eventoForm": true,
         "bed": false,
         "wine": true,

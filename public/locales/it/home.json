@@ -292,9 +292,69 @@
       "descrizione2": "Il principio cardine della nostra filosofia è continuare a seguire i valori delle generazioni passate, valorizzando il 'Terroir' con fedeltà e rispetto delle tradizioni. Tuttavia, il nostro sguardo è sempre rivolto al futuro dell'innovazione che ci consente di esprimere appieno le potenzialità del territorio vitivinicolo di montagna della Valle d'Aosta.",
       "cta": "Scopri il nostro impegno"
     },
-    "testimonials": {
-      "title": "Dicono di noi",
-      "button": "Scrivi Recensione"
+    "section7": {
+      "title": "I nostri eventi",
+      "descrizione": "Vivi la magia dell’estate tra vigneti, tramonti e stelle. Ogni evento è un’occasione per scoprire i sapori e i luoghi più iconici di Les Crêtes, accompagnati dai nostri vini d’eccellenza.",
+      "tabs": [
+        {
+          "name": "luglio",
+          "content": [
+            {
+              "img": "/assets/eventi/picnic.jpg",
+              "name": "Picnic al Côteau",
+              "link": "/degustazioni/picnicalcoteau",
+              "day": "10",
+              "month": "luglio",
+              "descrizione": "Picnic tra i filari del nostro iconico vigneto Côteau La Tour"
+            },
+            {
+              "img": "/assets/eventi/tramonto.jpg",
+              "name": "Tramonto al Rifugio",
+              "link": "/degustazioni/tramontoalrifugio",
+              "day": "25",
+              "month": "luglio"
+            }
+          ]
+        },
+        {
+          "name": "agosto",
+          "content": [
+            {
+              "img": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
+              "name": "Les Crêtes sotto le stelle",
+              "link": "/degustazioni/sottolestelle",
+              "day": "10",
+              "month": "agosto"
+            },
+            {
+              "img": "/assets/eventi/picnic.jpg",
+              "name": "Picnic al Côteau",
+              "link": "/degustazioni/picnicalcoteau",
+              "day": "20",
+              "month": "agosto",
+              "descrizione": "Picnic tra i filari del nostro iconico vigneto Côteau La Tour"
+            },
+            {
+              "img": "/assets/eventi/tramonto.jpg",
+              "name": "Tramonto al Rifugio",
+              "link": "/degustazioni/tramontoalrifugio",
+              "day": "29",
+              "month": "agosto"
+            }
+          ]
+        },
+        {
+          "name": "settembre",
+          "content": [
+            {
+              "img": "/assets/eventi/cena.jpg",
+              "name": "Sorsi di storia cenando tra i filari",
+              "day": "05",
+              "month": "settembre"
+            }
+          ]
+        }
+      ]
     },
     "section6": {
       "title": "Non solo Vino",

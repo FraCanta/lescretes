@@ -13,6 +13,7 @@ import Sections4 from "@/components/sections/Sections4/Sections4";
 import Sections5 from "@/components/sections/Sections5";
 import Sections6 from "@/components/sections/Sections6";
 import Head from "next/head";
+import Sections7 from "@/components/sections/Sections7";
 
 export default function Home({ translation, locale }) {
   return (
@@ -151,7 +152,12 @@ export default function Home({ translation, locale }) {
       <div className="fxl:min-h-[80vh] bg-[#77966d]/30 flex flex-col justify-center items-center relative ">
         <Sections5 translation={translation.section5} />
       </div>
-
+      <div className="relative flex flex-col items-center justify-center min-h-screen ">
+        <Sections7
+          translation={translation.section7}
+          tabs={translation.section7.tabs}
+        />
+      </div>
       <div className="relative flex flex-col items-center justify-center py-10 bg-second/30">
         <Sections6 translation={translation.section6} />
       </div>

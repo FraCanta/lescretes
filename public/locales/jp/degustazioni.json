@@ -33,134 +33,135 @@
       {
         "img": "/assets/degustazioni/tre2.png",
         "title": "3 Wines Experience",
-        "descrizione": "Tasting of three wines at the Wine Refuge and visit to the cellar and the wine cellar",
-        "price": "€25.00 VAT included/ person",
+        "descrizione": "Tasting of three wines at the Wine Refuge with a guided tour of the cellar",
+        "price": "€25.00 VAT included / person",
         "link": "/degustazioni/trewines",
         "wine": true,
         "fork": false,
         "bed": false,
         "tempo": "60'",
-        "ctaTitle": "Full details",
+        "ctaTitle": "Details",
         "priceTitle": "Price"
       },
       {
         "img": "/assets/degustazioni/native.jpeg",
         "title": "5 Wines Experience",
-        "descrizione": "Tasting of 5 wines from the territory at the wine refuge in the cellar and barricaia",
-        "price": "€34,00 VAT included/ person",
+        "descrizione": "Tasting of 5 local wines at the Wine Refuge, including the cellar and barrel room",
+        "price": "€34.00 VAT included / person",
         "link": "/degustazioni/fivewines",
         "wine": true,
         "fork": true,
         "bed": false,
         "tempo": "90'",
-        "ctaTitle": "Full details",
+        "ctaTitle": "Details",
         "priceTitle": "Price"
       },
       {
         "img": "/assets/degustazioni/cheese.jpeg",
         "title": "Wine and Cheese Experience",
-        "descrizione": "Tasting of 5 selected wines in combination with 6 local cheeses and visit to the cellar and barricaia",
-        "price": "€45.00 VAT included/ person",
+        "descrizione": "Tasting of 5 selected wines paired with 6 local cheeses and a guided tour of the cellar and barrel room",
+        "price": "€45.00 VAT included / person",
         "link": "/degustazioni/cheese",
         "wine": true,
         "fork": true,
         "bed": false,
         "tempo": "90'",
-        "ctaTitle": "Full details",
+        "ctaTitle": "Details",
         "priceTitle": "Price"
       },
       {
         "img": "/assets/eventi/picnic.jpg",
-        "title": "Unusual Picnic",
-        "descrizione": "Picnic among the rows of our iconic Côteau La Tour vineyard, featuring a selection of cured meats and cheeses, along with a tasting of three Les Crêtes wines.",
-        "price": "€45.00 VAT included/ person",
-        "link": "/degustazioni/insolitopicnic",
+        "title": "Picnic at Côteau",
+        "descrizione": "An immersive experience among the rows of the scenic Côteau La Tour vineyard: an exclusive picnic with a curated selection of cold cuts, cheeses, and three Les Crêtes wines chosen with our winemaker.",
+        "price": "€45.00 VAT included / person",
+        "link": "/degustazioni/picnicalcoteau",
         "wine": true,
         "fork": true,
         "bed": false,
         "tempo": "180'",
-        "ctaTitle": "Full details",
+        "ctaTitle": "Details",
         "priceTitle": "Price"
       },
       {
         "img": "/assets/degustazioni/top.jpeg",
         "title": "Top Wines Experience",
-        "descrizione": "Tasting of 5 top wines accompanied by a cutting board of the local gastronomy and visit to the cellar and barricaia",
-        "price": "€65.00 VAT included/ person",
+        "descrizione": "Tasting of 5 premium wines paired with a board of local delicacies and a guided tour of the cellar and barrel room",
+        "price": "€65.00 VAT included / person",
         "link": "/degustazioni/top",
         "wine": true,
         "fork": true,
         "bed": false,
-        "tempo": "105'",
-        "ctaTitle": "Full details",
+        "tempo": "100'",
+        "ctaTitle": "Details",
         "priceTitle": "Price"
       },
       {
         "img": "/assets/eventi/tramonto.jpg",
-        "title": "Sunset at the Rifugio",
-        "descrizione": "An aperitif-style dinner at sunset, paired with a selection of 3 Les Crêtes wines.",
-        "price": "€70.00 VAT included/ person",
+        "title": "Sunset at the Refuge",
+        "descrizione": "A three-stage food and wine journey with tastings paired with selected wines and a guided tour of the cellar.",
+        "price": "€70.00 VAT included / person",
         "link": "/degustazioni/tramontoalrifugio",
         "wine": true,
         "fork": true,
         "bed": false,
         "tempo": "180'",
-        "ctaTitle": "Full details",
+        "ctaTitle": "Details",
         "priceTitle": "Price"
       },
       {
         "img": "/assets/degustazioni/coteau3.jpg",
         "title": "Côteau la Tour Experience",
-        "descrizione": "Tasting of 5 wines accompanied by a cutting board of the local gastronomy and visit in the cellar and barricaia. Tour of the Côteau vineyard and toast in the Medieval Tower",
-        "price": "€75.00 VAT included/ person",
+        "descrizione": "Tasting of 5 wines paired with a board of local gastronomy and a tour of the cellar and barrel room. Vineyard tour of Côteau and toast in the medieval tower.",
+        "price": "€75.00 VAT included / person",
         "link": "/degustazioni/tour",
         "wine": true,
         "fork": true,
         "bed": false,
         "tempo": "120'",
-        "ctaTitle": "Full details",
+        "ctaTitle": "Details",
         "priceTitle": "Price"
       },
       {
         "img": "/assets/degustazioni/winemaker.jpeg",
         "title": "Winemaker's Experience",
-        "descrizione": "Discover the world of Les Crêtes, told by our wine maker Raffaele, from the vineyards to the cellar.",
-        "price": "€90.00 VAT included/ person",
+        "descrizione": "Discover the world of Les Crêtes, told by our winemaker Raffaele, from the vineyards to the cellar.",
+        "price": "€90.00 VAT included / person",
         "link": "/degustazioni/winemaker",
         "wine": true,
         "fork": true,
         "bed": false,
         "tempo": "120'",
-        "ctaTitle": "Full details",
+        "ctaTitle": "Details",
         "priceTitle": "Price"
       },
       {
         "img": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
-        "title": "Les Crêtes under the stars",
-        "descrizione": "A magical dinner under the stars, featuring a pairing with Les Crêtes’ iconic CRU wines.",
-        "price": "€130.00 VAT included/ person",
+        "title": "Les Crêtes Under the Stars",
+        "descrizione": "Dinner on the terrace of the scenic Wine Refuge with pairings of iconic Les Crêtes CRUs",
+        "price": "€130.00 VAT included / person",
         "link": "/degustazioni/sottolestelle",
         "wine": true,
         "fork": true,
         "bed": false,
         "tempo": "180'",
-        "ctaTitle": "Dettagli",
-        "priceTitle": "Prezzo"
+        "ctaTitle": "Details",
+        "priceTitle": "Price"
       },
       {
         "img": "/assets/degustazioni/wellness.jpeg",
         "title": "Wellness & Wine Tasting",
-        "descrizione": "One night stay in a double room at QC Terme Spas & Resorts, with wellness path + tasting of 5 selected wines with 6 local cheeses, visit to the cellar and barricaia.",
-        "price": "From €346,00 including VAT ",
+        "descrizione": "One-night stay in a double room at QC Terme Spas & Resorts with wellness path, tasting, and tour of the cellar and barrel room.",
+        "price": "Starting from €346.00 VAT included",
         "link": "/degustazioni/wellness",
         "wine": true,
         "fork": true,
         "bed": true,
         "tempo": "90'",
-        "ctaTitle": "Full details",
+        "ctaTitle": "Details",
         "priceTitle": "Price"
       }
     ],
+
     "singleDeg": {
       "trewines": {
         "img": "/assets/degustazioni/tre2.jpg",
@@ -358,68 +359,75 @@
         "fork": true,
         "bed": false
       },
-      "insolitopicnic": {
+      "picnicalcoteau": {
         "img": "/assets/eventi/picnic.jpg",
-        "name": "Unusual Picnic",
-        "seoImg": "/assets/eventi/picnic.jpg",
+        "name": "Picnic at Côteau",
+        "seoImg": "/assets/seo/winemaker.png",
 
-        "title": "insolitopicnic",
-        "cardDesc": "Picnic among the rows of our iconic Côteau La Tour vineyard, featuring a selection of cured meats and cheeses, along with a tasting of three Les Crêtes wines.",
+        "title": "picnicalcoteau",
+        "cardDesc": "An immersive experience among the rows of the scenic Côteau La Tour vineyard: an exclusive picnic accompanied by a curated selection of cold cuts, cheeses, and three Les Crêtes wines chosen together with our winemaker.",
 
         "degustazione": {
           "title": "Tasting",
-          "vini": "3 wines + selection of local cured meats and cheeses"
+          "vini": "3 wines + local cheeses and cold cuts"
         },
-        "durata": { "title": "Time", "tempo": "180'" },
+        "durata": {
+          "title": "Duration",
+          "tempo": "180'"
+        },
 
-        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+        "lingua": {
+          "title": "Language",
+          "tipo": " Italian, English, French"
+        },
 
         "descrizione": {
           "title": "Description",
-          "content": "Picnic among the rows of our iconic Côteau La Tour vineyard, featuring a selection of cured meats and cheeses, along with a tasting of three Les Crêtes wines.",
+          "content": "An immersive experience among the rows of the scenic Côteau La Tour vineyard: an exclusive picnic accompanied by a curated selection of cold cuts, cheeses, and three Les Crêtes wines chosen together with our winemaker.",
           "pacchetto": {
             "title": "Includes:",
             "lista": [
               {
-                "testo": "- Tasting of 3 wines"
+                "testo": "- Tasting of 3 wines selected with the winemaker"
               },
-
               {
-                "testo": "- Selection of local salami and cheese"
+                "testo": "- The set includes a picnic blanket and a basket with a selection of cold cuts and cheeses, various types of bread and breadsticks, and a single-serving dessert"
               }
             ]
           }
         },
+
         "priceTitle": "Price",
 
         "price": "45",
-        "priceCard": "€45.00 iva inclusa/ persona",
+        "priceCard": "€45.00 VAT included / person",
 
-        "reviewlink": "read our reviews",
-        "downloadCta": "Scarica qui",
+        "reviewlink": "Read reviews",
+        "downloadCta": "Download here",
         "shareTitle": "Share on",
         "bookNow": "Book now",
+
         "testimonials": {
-          "title": "Last reviews",
+          "title": "Latest reviews",
           "button": "Write a review"
         },
-        "othersTitle": "Other highlights of tastings",
+        "othersTitle": "Other featured tastings",
         "form": {
-          "day": "Select a date",
+          "day": "Choose a date",
           "adults": "Adults",
-          "language": "Visit Language",
+          "language": "Tour language",
           "gift": "Is it a gift?",
-          "total": "Total amount",
-          "cta": "Continue with request",
+          "total": "Total to pay",
+          "cta": "Proceed with request",
           "langValue": {
-            "ita": "italian",
-            "eng": "english",
-            "fr": "french"
+            "ita": "Italian",
+            "eng": "English",
+            "fr": "French"
           }
         },
         "fixedDates": [
-          { "label": "July 10, 2025 - 6:00 PM" },
-          { "label": "August 20, 2025 - 6:00 PM" }
+          { "label": "10 July 2025 - 6:00 PM" },
+          { "label": "20 August 2025 - 6:00 PM" }
         ],
         "eventoForm": true,
         "bed": false,
@@ -496,28 +504,41 @@
       },
       "tramontoalrifugio": {
         "img": "/assets/eventi/tramonto.jpg",
-        "name": "Sunset at the Rifugio",
-        "seoImg": "/assets/eventi/tramonto.jpg",
+        "name": "Sunset at the Refuge",
+        "seoImg": "/assets/seo/winemaker.png",
 
         "title": "tramontoalrifugio",
-        "cardDesc": "An aperitif-style dinner at sunset, paired with a selection of 3 Les Crêtes wines.",
+        "cardDesc": "A three-stop food and wine journey, with tastings paired with selected wines and a guided tour of the winery.",
 
         "degustazione": {
           "title": "Tasting",
-          "vini": "3 wines"
+          "vini": "3 wines + local cheeses and cold cuts"
         },
-        "durata": { "title": "Time", "tempo": "180'" },
+        "durata": {
+          "title": "Duration",
+          "tempo": "180'"
+        },
+        "visita": {
+          "title": "Winery tour",
+          "cantina": "Yes"
+        },
 
-        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+        "lingua": {
+          "title": "Language",
+          "tipo": " Italian, English, French"
+        },
 
         "descrizione": {
           "title": "Description",
-          "content": "Aperitif-style dinner at sunset, paired with a selection of 3 Les Crêtes wines.",
+          "content": "A three-stop food and wine journey, both inside and outside our facility, designed to offer a unique experience combining flavor and local tradition. Each stop will feature a pairing of top-quality cheeses and cured meats with small warm dishes inspired by local culinary heritage, all expertly selected. The experience will be accompanied by three of our wines, carefully chosen to enhance the flavors of each product we’ve selected. The evening also includes a visit to the winery with a presentation of our products and production process. ",
           "pacchetto": {
             "title": "Includes:",
             "lista": [
               {
-                "testo": "- Tasting of 3 wines chosen with the winemaker "
+                "testo": "- 3 Les Crêtes wines from our curated selections"
+              },
+              {
+                "testo": "- 3 tasting stations with cheeses, cured meats, and traditional warm dishes"
               }
             ]
           }
@@ -525,35 +546,35 @@
         "priceTitle": "Price",
 
         "price": "70",
-        "priceCard": "€70.00 VAT included/ person",
+        "priceCard": "€70.00 VAT included / person",
 
-        "reviewlink": "read our reviews",
-        "downloadCta": "Scarica qui",
+        "reviewlink": "Read reviews",
+        "downloadCta": "Download here",
         "shareTitle": "Share on",
         "bookNow": "Book now",
+
         "testimonials": {
-          "title": "Last reviews",
+          "title": "Latest reviews",
           "button": "Write a review"
         },
-        "othersTitle": "Other highlights of tastings",
+        "othersTitle": "Other featured tastings",
         "form": {
-          "day": "Select a date",
+          "day": "Choose a date",
           "adults": "Adults",
-          "language": "Visit Language",
+          "language": "Tour language",
           "gift": "Is it a gift?",
-          "total": "Total amount",
-          "cta": "Continue with request",
+          "total": "Total to pay",
+          "cta": "Proceed with request",
           "langValue": {
-            "ita": "italian",
-            "eng": "english",
-            "fr": "french"
+            "ita": "Italian",
+            "eng": "English",
+            "fr": "French"
           }
         },
         "fixedDates": [
-          { "label": "July 25, 2025 - 6:00 PM" },
-          { "label": "August 29, 2025 - 6:00 PM" }
+          { "label": "25 July 2025 - 6:00 PM" },
+          { "label": "29 August 2025 - 6:00 PM" }
         ],
-
         "eventoForm": true,
         "bed": false,
         "wine": true,
@@ -712,66 +733,93 @@
       },
       "sottolestelle": {
         "img": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
-        "name": "Les Crêtes under the stars",
-        "seoImg": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
+        "name": "Les Crêtes Under the Stars",
+        "seoImg": "/assets/seo/winemaker.png",
 
         "title": "sottolestelle",
-        "cardDesc": "A magical dinner under the stars, featuring a pairing with Les Crêtes’ iconic CRU wines.",
+        "cardDesc": "Dinner on the terrace of the enchanting Wine Refuge paired with Les Crêtes’ iconic CRU wines.",
 
         "degustazione": {
           "title": "Tasting",
-          "vini": "Cru wines"
+          "vini": "CRU wines"
         },
-        "durata": { "title": "Time", "tempo": "180'" },
+        "durata": {
+          "title": "Duration",
+          "tempo": "180'"
+        },
 
-        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+        "lingua": {
+          "title": "Language",
+          "tipo": " Italian, English, French"
+        },
 
         "descrizione": {
           "title": "Description",
-          "content": "A magical dinner under the stars, featuring a pairing with Les Crêtes’ iconic CRU wines.",
-          "pacchetto": {
-            "title": "Includes:",
-            "lista": [
-              {
-                "testo": "- Dinner paired with CRU Les Crêtes wines"
-              }
-            ]
-          }
+          "content": "In the enchanting setting of the Rifugio del Vino terrace, we invite you to an exclusive Wine Dinner dedicated to our finest Crus. A special evening featuring gourmet dishes paired with our exceptional wines, to be enjoyed under a starry sky and surrounded by the beloved mountains that define our landscape. A one-of-a-kind experience of flavors, aromas, and wishes whispered under the stars."
         },
+
+        "menu": {
+          "title": "Dinner Menu",
+          "content": [
+            {
+              "title": "Welcome amuse-bouche",
+              "description": "Paired with our <strong>Metodo Classico sparkling wine</strong>"
+            },
+            {
+              "title": "Starter",
+              "description": "<strong>Poached egg</strong> on a bed of seared zucchini, with a light Parmigiano Reggiano fondue and crispy bacon. <br/>Paired with our <strong>Chardonnay Cuvée Bois 2023</strong>"
+            },
+            {
+              "title": "First course",
+              "description": "<strong>Carnaroli risotto</strong> with fava bean pesto, drops of stracciatella, and speck powder. <br/>Paired with our <strong>Petite Arvine Fleur 2024</strong>."
+            },
+            {
+              "title": "Main course",
+              "description": "<strong>Rabbit roll</strong> with a rich brown stock, Taggiasca olive pesto,  and a small summer salad. <br/>Paired with our <strong>Nebbiolo Sommet 2021</strong>."
+            },
+            {
+              "title": "Dessert",
+              "description": "<strong>Sacher Torte</strong> with fresh raspberry coulis. <br/>Paired with our <strong>limited edition Sabla 50</strong>."
+            }
+          ]
+        },
+
         "priceTitle": "Price",
 
         "price": "130",
-        "priceCard": "€130.00 VAT included/ person",
+        "priceCard": "€130.00 VAT included / person",
 
-        "reviewlink": "read our reviews",
-        "downloadCta": "Scarica qui",
+        "reviewlink": "Read reviews",
+        "downloadCta": "Download here",
         "shareTitle": "Share on",
         "bookNow": "Book now",
+
         "testimonials": {
-          "title": "Last reviews",
+          "title": "Latest reviews",
           "button": "Write a review"
         },
-        "othersTitle": "Other highlights of tastings",
+        "othersTitle": "Other featured tastings",
         "form": {
-          "day": "Select a date",
-          "slots": "Seleziona una fascia oraria:",
+          "day": "Choose a date",
+          "slots": "Select a time slot:",
           "adults": "Adults",
-          "language": "Visit Language",
+          "language": "Tour language",
           "gift": "Is it a gift?",
-          "total": "Total amount",
-          "cta": "Continue with request",
+          "total": "Total to pay",
+          "cta": "Proceed with request",
           "langValue": {
-            "ita": "italian",
-            "eng": "english",
-            "fr": "french"
+            "ita": "Italian",
+            "eng": "English",
+            "fr": "French"
           }
         },
-        "fixedDates": [{ "label": "August 10, 2025 - 6:00 PM" }],
+        "fixedDates": [{ "label": "10 August 2025 - 6:00 PM" }],
         "eventoForm": true,
         "bed": false,
         "wine": true,
         "fork": true
       },
+
       "wellness": {
         "img": "/assets/degustazioni/wellness.jpeg",
         "name": "Wellness & Wine Tasting",

@@ -292,9 +292,69 @@
       "descrizione2": "The key principle of our philosophy is to continue to follow the values of past generations, enhancing the 'Terroir' with fidelity and respect for traditions. However, our focus is always on the future of innovation that allows us to fully express the potential of the mountain wine territory of Valle d'Aosta.",
       "cta": "Discover our commitment"
     },
-    "testimonials": {
-      "title": "Testimonials",
-      "button": "Submit Review"
+    "section7": {
+      "title": "Our Events",
+      "descrizione": "Experience the magic of summer among vineyards, sunsets, and stars. Each event is a unique opportunity to discover the most iconic flavors and places of Les Crêtes, paired with our finest wines.",
+      "tabs": [
+        {
+          "name": "july",
+          "content": [
+            {
+              "img": "/assets/eventi/picnic.jpg",
+              "name": "Picnic at Côteau",
+              "link": "/degustazioni/picnicalcoteau",
+              "day": "10",
+              "month": "july",
+              "descrizione": "Picnic among the rows of our iconic Côteau La Tour vineyard"
+            },
+            {
+              "img": "/assets/eventi/tramonto.jpg",
+              "name": "Sunset at the Refuge",
+              "link": "/degustazioni/tramontoalrifugio",
+              "day": "25",
+              "month": "july"
+            }
+          ]
+        },
+        {
+          "name": "august",
+          "content": [
+            {
+              "img": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
+              "name": "Les Crêtes Under the Stars",
+              "link": "/degustazioni/sottolestelle",
+              "day": "10",
+              "month": "august"
+            },
+            {
+              "img": "/assets/eventi/picnic.jpg",
+              "name": "Picnic at Côteau",
+              "link": "/degustazioni/picnicalcoteau",
+              "day": "20",
+              "month": "august",
+              "descrizione": "Picnic among the rows of our iconic Côteau La Tour vineyard"
+            },
+            {
+              "img": "/assets/eventi/tramonto.jpg",
+              "name": "Sunset at the Refuge",
+              "link": "/degustazioni/tramontoalrifugio",
+              "day": "29",
+              "month": "august"
+            }
+          ]
+        },
+        {
+          "name": "september",
+          "content": [
+            {
+              "img": "/assets/eventi/cena.jpg",
+              "name": "Sips of History Dining Among the Vines",
+              "day": "05",
+              "month": "september"
+            }
+          ]
+        }
+      ]
     },
     "section6": {
       "title": "Beyond the Grape",

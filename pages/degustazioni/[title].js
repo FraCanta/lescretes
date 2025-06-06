@@ -168,6 +168,25 @@ const SingleDeg = ({ deg, others }) => {
           <p className="text-lg fxl:text-2xl font-normal  !leading-[33.2px] text-main/80">
             {deg.descrizione.content}
           </p>
+          {deg.menu && (
+            <div className="flex flex-col w-full h-full gap-6 text-main">
+              <h2 className="text-main text-3xl xl:text-4xl font-bold  leading-[46px]">
+                {deg?.menu?.title}
+              </h2>
+              <ul className="flex flex-col gap-2">
+                {deg?.menu?.content?.map((l, i) => (
+                  <li className="text-lg fxl:text-2xl text-main/80" key={i}>
+                    <h3 className="font-bold">- {l.title}</h3>
+                    <p
+                      className="text-base "
+                      dangerouslySetInnerHTML={{ __html: l.description }}
+                    ></p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           <div className="flex flex-col w-full h-full gap-6 text-main">
             <h2 className="text-main text-3xl xl:text-4xl font-bold  leading-[46px]">
               {deg?.descrizione?.pacchetto?.title}
