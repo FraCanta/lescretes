@@ -76,13 +76,13 @@ function EventCard({
       </div>
 
       {/* Contenuto */}
-      <div className="flex flex-col justify-between flex-1 p-2 md:p-6">
+      <div className="flex flex-col justify-between flex-1 p-6">
         <div>
           <div className="flex flex-col gap-2 mb-6 lg:flex-row lg:items-center lg:justify-between">
             {/* Titolo + Icone */}
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between lg:gap-6">
-              <div className="flex items-center gap-2 lg:gap-6">
-                <h3 className="text-lg font-bold uppercase lg:text-xl text-main">
+              <div className="flex flex-wrap items-center gap-2 lg:gap-6">
+                <h3 className="text-xl font-bold uppercase text-main">
                   {title}
                 </h3>
                 <div className="flex items-center gap-4">
@@ -125,7 +125,7 @@ function EventCard({
           <p className="mb-6 text-base text-main">{description}</p>
         </div>
 
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col justify-between gap-4 lg:items-center lg:flex-row">
           <div className="flex flex-col gap-1">
             <h3 className="text-base font-bold ">{priceTitle}</h3>
             <p className="text-lg text-main/80">{price}</p>

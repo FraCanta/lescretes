@@ -58,7 +58,7 @@ const HeroHome3 = ({ translation }) => {
             </div>
 
             <div className="flex flex-wrap items-center justify-center gap-6 lg:mt-4">
-              <CtaOutline link="/i-vini" title="Link pagina vini">
+              <CtaOutline link="/i-nostri-eventi" title="Link pagina vini">
                 {translation.wines}
               </CtaOutline>{" "}
               <CtaWhite
