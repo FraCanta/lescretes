@@ -147,6 +147,17 @@ const Mobile = ({ translation }) => {
                 </Link>
               </motion.li>
               <motion.li variants={variants.item} animate="visibleItem">
+                <Link
+                  href={`/i-nostri-eventi`}
+                  title="I nostri eventi"
+                  className={`menu-item block   text-[25px] md:text-4xl leading-[30px] font-regular text-main ${
+                    pathname === "/i-nostri-eventi" ? "font-bold" : ""
+                  }`}
+                >
+                  {translation?.[locale]?.eventi}
+                </Link>
+              </motion.li>
+              <motion.li variants={variants.item} animate="visibleItem">
                 <button
                   onClick={() => setDegOpen(!degOpen)}
                   aria-label="le nostre esperienze"
