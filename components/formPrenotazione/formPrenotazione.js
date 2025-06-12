@@ -179,7 +179,7 @@ const FormPrenotazione = ({
 
   useEffect(() => {
     if (router.query.formData) {
-      const formData = JSON.parse(decodeURIComponent(router.query.formData));
+      const formData = JSON.parse(router.query.formData);
       setInputs(formData);
       setStartDate(new Date(formData.date));
       setAdultCount(formData.adultCount);
