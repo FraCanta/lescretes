@@ -14,7 +14,7 @@ import Head from "next/head";
 import { Icon } from "@iconify/react";
 import FormPrenotazione3 from "@/components/formPrenotazione/formPrenotazione3";
 import CtaPrimary from "@/components/Cta/CtaPrimary";
-const Prenotazione = ({ translation, formType }) => {
+const Prenotazione = ({ translation }) => {
   const router = useRouter();
   const [formData, setFormData] = useState(null);
   const [accompagnatiDaMinori, setAccompagnatiDaMinori] = useState(null);
@@ -43,7 +43,14 @@ const Prenotazione = ({ translation, formType }) => {
 
   useEffect(() => {
     if (router.query.formData) {
-      setFormData(JSON.parse(router.query.formData));
+      console.log("Query param:", router.query.formData); // <-- aggiungi questo
+      try {
+        const parsedData = JSON.parse(router.query.formData);
+        console.log("Parsed formData:", parsedData); // <-- e anche questo
+        setFormData(parsedData);
+      } catch (e) {
+        console.error("Errore nel parsing di formData:", e);
+      }
     }
   }, [router.query.formData]);
 
@@ -52,15 +59,17 @@ const Prenotazione = ({ translation, formType }) => {
     router.push({
       pathname: `/degustazioni/${formData?.link}`, // Assicura che formData.deg sia il link corretto
       query: {
-        formData: JSON.stringify({
-          deg: formData.deg,
-          date: formData.date,
-          adultCount: formData.adultCount,
-          language: formData.language,
-          timeSlot: formData.timeSlot,
-          gift: formData.gift,
-          tagliere: formData.tagliere,
-        }),
+        formData: encodeURIComponent(
+          JSON.stringify({
+            deg: formData.deg,
+            date: formData.date,
+            adultCount: formData.adultCount,
+            language: formData.language,
+            timeSlot: formData.timeSlot,
+            gift: formData.gift,
+            tagliere: formData.tagliere,
+          })
+        ),
       },
     });
   };
@@ -121,6 +130,7 @@ const Prenotazione = ({ translation, formType }) => {
     return privacyChecked && termsChecked;
   };
   const onSubmitForm = async () => {
+    e.preventDefault();
     if (
       inputs.name &&
       inputs.surname &&
@@ -238,7 +248,6 @@ const Prenotazione = ({ translation, formType }) => {
           onSubmit={(e) => onSubmitForm(e)}
           className="w-[90%] flex flex-col gap-6 mx-auto bg-white xl:my-6"
         >
-          <input type="hidden" name="formType" value={formType} />
           <div className="flex flex-col gap-6 py-5">
             <div className="flex flex-col gap-2">
               <h1 className="text-3xl font-bold lg:text-5xl text-main">
@@ -264,7 +273,7 @@ const Prenotazione = ({ translation, formType }) => {
                     {translation.riepilogo.data}
                   </span>
                   <span className="font-bold">
-                    {new Date(formData.date).toLocaleDateString()}
+                    {new Date(formData?.date).toLocaleDateString()}
                   </span>
                 </li>
                 <li className="flex items-center gap-2">
@@ -325,7 +334,7 @@ const Prenotazione = ({ translation, formType }) => {
                     />{" "}
                     {translation.riepilogo.gift.name}
                   </span>
-                  {formData.gift ? (
+                  {formData?.gift ? (
                     <span className="font-bold">
                       {translation.riepilogo.gift.yes}
                     </span>

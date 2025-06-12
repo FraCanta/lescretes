@@ -34,6 +34,7 @@ import FormPrenotazione from "@/components/formPrenotazione/formPrenotazione";
 import FormPrenotazione4 from "@/components/formPrenotazione/FormPrenotazione4";
 
 const SingleDeg = ({ deg, others }) => {
+  console.log(deg);
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
   const handleDrawerToggle = () => {
     setIsDrawerOpen(!isDrawerOpen);

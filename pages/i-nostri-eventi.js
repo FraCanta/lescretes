@@ -15,7 +15,6 @@ import { Icon } from "@iconify/react";
 import Link from "next/link";
 
 function EventiPage({ translation, locale }) {
-  console.log(translation);
   return (
     <>
       <Head>

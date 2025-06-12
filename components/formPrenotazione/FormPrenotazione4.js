@@ -12,8 +12,9 @@ const FormPrenotazione4 = ({
   form,
   optPrice,
   fixedDates,
+  formType,
 }) => {
-  const [inputs, setInputs] = useState({ deg });
+  const [inputs, setInputs] = useState({ deg: deg });
   const [adultCount, setAdultCount] = useState(1);
   const [clickedRadio, setClickedRadio] = useState(null); // lingua
   const [selectedDate, setSelectedDate] = useState(null); // nuova data fissa scelta
@@ -31,7 +32,7 @@ const FormPrenotazione4 = ({
 
   useEffect(() => {
     if (router.query.formData) {
-      const formData = JSON.parse(router.query.formData);
+      const formData = JSON.parse(decodeURIComponent(router.query.formData));
       setInputs(formData);
       setAdultCount(formData.adultCount);
       setClickedRadio(formData.language);
@@ -53,7 +54,7 @@ const FormPrenotazione4 = ({
         adultCount,
         language: clickedRadio,
         date: selectedDate,
-        timeSlot: "18:00",
+        deg,
         totalNumber,
         link,
         durata,
@@ -78,6 +79,8 @@ const FormPrenotazione4 = ({
     <div className="w-full h-full mx-auto bg-white">
       <div className="mt-10">
         <form onSubmit={onSubmitForm}>
+          <input type="hidden" name="formType" value={formType} />
+
           {/* Selezione data fissa */}
           <div className="grid grid-cols-2 gap-6 xl:gap-10">
             {" "}
