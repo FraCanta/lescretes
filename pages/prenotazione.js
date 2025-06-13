@@ -59,17 +59,15 @@ const Prenotazione = ({ translation }) => {
     router.push({
       pathname: `/degustazioni/${formData?.link}`, // Assicura che formData.deg sia il link corretto
       query: {
-        formData: encodeURIComponent(
-          JSON.stringify({
-            deg: formData.deg,
-            date: formData.date,
-            adultCount: formData.adultCount,
-            language: formData.language,
-            timeSlot: formData.timeSlot,
-            gift: formData.gift,
-            tagliere: formData.tagliere,
-          })
-        ),
+        formData: JSON.stringify({
+          deg: formData.deg,
+          date: formData.date,
+          adultCount: formData.adultCount,
+          language: formData.language,
+          timeSlot: formData.timeSlot,
+          gift: formData.gift,
+          tagliere: formData.tagliere,
+        }),
       },
     });
   };
