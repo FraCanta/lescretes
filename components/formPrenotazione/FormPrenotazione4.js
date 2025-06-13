@@ -32,7 +32,7 @@ const FormPrenotazione4 = ({
 
   useEffect(() => {
     if (router.query.formData) {
-      const formData = JSON.parse(decodeURIComponent(router.query.formData));
+      const formData = JSON.parse(router.query.formData);
       setInputs(formData);
       setAdultCount(formData.adultCount);
       setClickedRadio(formData.language);
