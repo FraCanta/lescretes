@@ -174,7 +174,7 @@ const Prenotazione = ({ translation }) => {
           body: JSON.stringify(formDataMail),
         });
 
-        if (res.status === 200) {
+        if (res.ok) {
           setInputs({
             name: "",
             surname: "",

@@ -246,5 +246,7 @@ export default async function mailer(req, res) {
   } catch (error) {
     return res.status(500).json({ error: error.message || error.toString() });
   }
-  return res.status(200).json({ error: "" });
+  return res
+    .status(200)
+    .json({ success: true, message: "Email sent successfully" });
 }
