@@ -164,7 +164,7 @@ const Prenotazione = ({ translation }) => {
   if (!formData || submitted) {
     return (
       <div className="relative flex items-center justify-center h-screen bg-pattern2">
-        <div className="w-[90%] xl:w-[60%] mx-auto h-2/3 p-4 rounded shadow-lg ring ring-third/60">
+        <div className="w-[90%] xl:w-[60%] mx-auto h-2/3 p-4 rounded shadow-lg ring ring-third/60 ">
           <div className="flex flex-col items-center justify-center h-full space-y-6 text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -190,7 +190,7 @@ const Prenotazione = ({ translation }) => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-5 h-5"
+                className="w-5 h-5 "
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -203,6 +203,7 @@ const Prenotazione = ({ translation }) => {
                 />
               </svg>
               <span className="text-xl font-medium">
+                {" "}
                 {translation.thank.cta}
               </span>
             </CtaPrimary>
