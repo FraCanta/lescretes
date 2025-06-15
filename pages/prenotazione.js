@@ -1,6 +1,12 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
+import Head from "next/head";
+import { Icon } from "@iconify/react";
+import CtaPrimary from "@/components/Cta/CtaPrimary";
+import FormPrenotazione3 from "@/components/formPrenotazione/formPrenotazione3";
+
+// Traduzioni
 import prenotazioneIT from "../public/locales/it/prenotazione.json";
 import prenotazioneEN from "../public/locales/en/prenotazione.json";
 import prenotazioneFR from "../public/locales/fr/prenotazione.json";
@@ -10,17 +16,17 @@ import prenotazioneKO from "@/public/locales/ko/prenotazione.json";
 import prenotazioneRU from "@/public/locales/ru/prenotazione.json";
 import prenotazioneZH from "@/public/locales/zh/prenotazione.json";
 
-import Head from "next/head";
-import { Icon } from "@iconify/react";
-import FormPrenotazione3 from "@/components/formPrenotazione/formPrenotazione3";
-import CtaPrimary from "@/components/Cta/CtaPrimary";
 const Prenotazione = ({ translation }) => {
   const router = useRouter();
+
   const [formData, setFormData] = useState(null);
+  const [submitted, setSubmitted] = useState(false);
+
   const [accompagnatiDaMinori, setAccompagnatiDaMinori] = useState(null);
-  const [numeroMinori, setNumeroMinori] = useState(""); // Stato per il numero di minori accompagnati
+  const [numeroMinori, setNumeroMinori] = useState("");
   const [privacyChecked, setPrivacyChecked] = useState(false);
   const [termsChecked, setTermsChecked] = useState(false);
+
   const [inputs, setInputs] = useState({
     name: "",
     surname: "",
@@ -33,31 +39,37 @@ const Prenotazione = ({ translation }) => {
     nation: "",
   });
 
+  useEffect(() => {
+    if (router.query.formData) {
+      try {
+        const parsedData = JSON.parse(router.query.formData);
+        setFormData(parsedData);
+      } catch (e) {
+        console.error("Errore parsing formData:", e);
+      }
+    }
+  }, [router.query.formData]);
+
   const handleRadioChange = (e) => {
     setAccompagnatiDaMinori(e.target.value === "true");
   };
 
   const handleNumeroMinoriChange = (e) => {
-    setNumeroMinori(parseInt(e.target.value, 10)); // Converte il valore in un numero intero
+    setNumeroMinori(parseInt(e.target.value, 10));
   };
 
-  useEffect(() => {
-    if (router.query.formData) {
-      console.log("Query param:", router.query.formData); // <-- aggiungi questo
-      try {
-        const parsedData = JSON.parse(router.query.formData);
-        console.log("Parsed formData:", parsedData); // <-- e anche questo
-        setFormData(parsedData);
-      } catch (e) {
-        console.error("Errore nel parsing di formData:", e);
-      }
-    }
-  }, [router.query.formData]);
+  const canProceed = () => privacyChecked && termsChecked;
+
+  const handleChange = (e) => {
+    setInputs((prev) => ({
+      ...prev,
+      [e.target.id]: e.target.value,
+    }));
+  };
 
   const handleModificaClick = () => {
-    // Costruisci il percorso di ritorno includendo tutti i dati di formData necessari
     router.push({
-      pathname: `/degustazioni/${formData?.link}`, // Assicura che formData.deg sia il link corretto
+      pathname: `/degustazioni/${formData?.link}`,
       query: {
         formData: JSON.stringify({
           deg: formData.deg,
@@ -71,62 +83,7 @@ const Prenotazione = ({ translation }) => {
       },
     });
   };
-  if (!formData) {
-    return (
-      <div className="relative flex items-center justify-center h-screen bg-pattern2">
-        <div className="w-[90%] xl:w-[60%] mx-auto h-2/3 p-4 rounded shadow-lg ring ring-third/60 ">
-          <div className="flex flex-col items-center justify-center h-full space-y-6 text-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="text-green-600 w-28 h-28"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="#4A4A49"
-              strokeWidth="1"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
-            <h1 className="text-4xl font-bold xl:text-6xl">
-              {translation.thank.title}
-            </h1>
-            <p className="text-main">{translation.thank.text}</p>
-            <CtaPrimary
-              link="/le-degustazioni"
-              title="Torna alla Pagina Degustazione"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-5 h-5 "
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth="2"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M7 16l-4-4m0 0l4-4m-4 4h18"
-                />
-              </svg>
-              <span className="text-xl font-medium">
-                {" "}
-                {translation.thank.cta}
-              </span>
-            </CtaPrimary>
-          </div>
-        </div>
-      </div>
-    );
-  }
 
-  // Function to check if both checkboxes are checked
-  const canProceed = () => {
-    return privacyChecked && termsChecked;
-  };
   const onSubmitForm = async (e) => {
     e.preventDefault();
     if (
@@ -155,7 +112,7 @@ const Prenotazione = ({ translation }) => {
           gift: formData.gift,
           adultCount: formData.adultCount,
           language: formData.language,
-          numeroMinori: numeroMinori,
+          numeroMinori,
           date: formattedDate,
           timeSlot: formData.timeSlot,
           deg: formData.deg,
@@ -168,14 +125,12 @@ const Prenotazione = ({ translation }) => {
 
         const res = await fetch(`/api/email`, {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify(formDataMail),
         });
 
         if (res.status === 200) {
-          console.log("Email inviata con successo."); // ✅ LOG QUI
+          setSubmitted(true);
           setInputs({
             name: "",
             surname: "",
@@ -187,9 +142,6 @@ const Prenotazione = ({ translation }) => {
             dob: null,
             nation: "",
           });
-          setCheckedGift(false);
-          setClickedRadio(null);
-          setAdultCount(1);
           setNumeroMinori("");
           setPrivacyChecked(false);
           setTermsChecked(false);
@@ -197,26 +149,68 @@ const Prenotazione = ({ translation }) => {
             `Hey ${inputs.name}, your message was sent successfully`
           );
         } else {
-          console.error("Errore nell'invio della mail. Status:", res.status); // ❌ LOG ERRORE HTTP
-          throw new Error("Failed to send data");
+          throw new Error("Errore invio email");
         }
       } catch (error) {
-        console.error("Errore durante la richiesta:", error); // ❌ LOG CATCH
-        toast.error(
-          `Hey ${inputs.name}, your message wasn't sent successfully`
-        );
+        console.error("Errore richiesta:", error);
+        toast.error(`Hey ${inputs.name}, something went wrong`);
       }
     } else {
       toast.error("Please fill in all required fields");
     }
   };
 
-  const handleChange = (e) => {
-    setInputs((prev) => ({
-      ...prev,
-      [e.target.id]: e.target.value,
-    }));
-  };
+  // Se nessun dato o se già inviato, mostra ringraziamento
+  if (!formData || submitted) {
+    return (
+      <div className="relative flex items-center justify-center h-screen bg-pattern2">
+        <div className="w-[90%] xl:w-[60%] mx-auto h-2/3 p-4 rounded shadow-lg ring ring-third/60">
+          <div className="flex flex-col items-center justify-center h-full space-y-6 text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="text-green-600 w-28 h-28"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="#4A4A49"
+              strokeWidth="1"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+            <h1 className="text-4xl font-bold xl:text-6xl">
+              {translation.thank.title}
+            </h1>
+            <p className="text-main">{translation.thank.text}</p>
+            <CtaPrimary
+              link="/le-degustazioni"
+              title="Torna alla Pagina Degustazione"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-5 h-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M7 16l-4-4m0 0l4-4m-4 4h18"
+                />
+              </svg>
+              <span className="text-xl font-medium">
+                {translation.thank.cta}
+              </span>
+            </CtaPrimary>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <>
