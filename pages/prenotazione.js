@@ -174,7 +174,8 @@ const Prenotazione = ({ translation }) => {
           body: JSON.stringify(formDataMail),
         });
 
-        if (res.ok) {
+        if (res.status === 200) {
+          console.log("Email inviata con successo."); // ✅ LOG QUI
           setInputs({
             name: "",
             surname: "",
@@ -189,19 +190,23 @@ const Prenotazione = ({ translation }) => {
           setCheckedGift(false);
           setClickedRadio(null);
           setAdultCount(1);
+          setNumeroMinori("");
+          setPrivacyChecked(false);
+          setTermsChecked(false);
           toast.success(
             `Hey ${inputs.name}, your message was sent successfully`
           );
         } else {
+          console.error("Errore nell'invio della mail. Status:", res.status); // ❌ LOG ERRORE HTTP
           throw new Error("Failed to send data");
         }
       } catch (error) {
+        console.error("Errore durante la richiesta:", error); // ❌ LOG CATCH
         toast.error(
           `Hey ${inputs.name}, your message wasn't sent successfully`
         );
       }
     } else {
-      // Gestisci caso in cui non tutti i campi sono compilati
       toast.error("Please fill in all required fields");
     }
   };
