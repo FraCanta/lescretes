@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { Icon } from "@iconify/react";
 import toast from "react-hot-toast";
+import Link from "next/link";
 
 const FormPrenotazione4 = ({
   deg,
@@ -12,7 +13,6 @@ const FormPrenotazione4 = ({
   form,
   optPrice,
   fixedDates,
-  formType,
 }) => {
   const [inputs, setInputs] = useState({ deg: deg });
   const [adultCount, setAdultCount] = useState(1);
@@ -51,14 +51,14 @@ const FormPrenotazione4 = ({
       const formData = {
         ...inputs,
         gift: checkedGift,
-        adultCount,
+        adultCount: adultCount,
         language: clickedRadio,
         date: selectedDate,
-        deg,
-        totalNumber,
-        link,
-        durata,
-        tipo,
+        totalNumber: totalNumber,
+        timeSlot: "18:00",
+        link: link,
+        durata: durata,
+        tipo: tipo,
         tagliere: includeTagliere,
       };
 
@@ -79,8 +79,6 @@ const FormPrenotazione4 = ({
     <div className="w-full h-full mx-auto bg-white">
       <div className="mt-10">
         <form onSubmit={onSubmitForm}>
-          <input type="hidden" name="formType" value={formType} />
-
           {/* Selezione data fissa */}
           <div className="grid grid-cols-2 gap-6 xl:gap-10">
             {" "}

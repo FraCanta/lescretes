@@ -229,17 +229,6 @@ const Prenotazione = ({ translation }) => {
           property="og:description"
           content="Prenota la tua visita presso le Cantine di Les Crêtes in Valle d'Aosta"
         />
-        {/* <base href="https://lescretes/le-degustazioni.it" />
-        <meta
-          name="geo.placename"
-          content="SR20, 50 11010 Aymavilles (AO) Valle d’Aosta, Italia"
-        ></meta>
-        <meta name="geo.region" content="IT-Valle d'Aosta" />
-        <meta
-          name="geo.position"
-          content="45.70478630723863, 7.247584796948278"
-        />
-        <meta name="icbm" content="45.70478630723863, 7.247584796948278" /> */}
       </Head>
       <div>
         <form

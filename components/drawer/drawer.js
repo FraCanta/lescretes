@@ -3,7 +3,6 @@ import { motion, useAnimation } from "framer-motion";
 import { useState, useEffect } from "react";
 import FormPrenotazione from "../formPrenotazione/formPrenotazione";
 import { Icon } from "@iconify/react";
-import FormPrenotazione2 from "../formPrenotazione/formPrenotazione2";
 import FormPrenotazione4 from "../formPrenotazione/FormPrenotazione4";
 
 const Drawer = ({
