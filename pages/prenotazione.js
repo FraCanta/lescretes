@@ -127,7 +127,7 @@ const Prenotazione = ({ translation }) => {
   const canProceed = () => {
     return privacyChecked && termsChecked;
   };
-  const onSubmitForm = async () => {
+  const onSubmitForm = async (e) => {
     e.preventDefault();
     if (
       inputs.name &&

@@ -229,14 +229,6 @@ const FormPrenotazione3 = ({ inputs, setInputs, data }) => {
             styles={customStyles}
           />
         </div>
-
-        {/* <div className="flex justify-end mt-6">
-            <input
-              type="submit"
-              value="Invia richiesta"
-              className="cursor-pointer flex items-center text-lg xl:text-xl gap-2 text-main w-full max-w-max text-center lg:text-[21.57px] font-bold leading-snug py-2.5 px-6 2xl:py-2 2xl:px-6 fxl:py-4 fxl:px-6 3xl:py-6 3xl:px-8 2xl:text-[1.2rem] fxl:text-2xl 3xl:text-3xl rounded-[32px] border-2 border-main"
-            />
-          </div> */}
       </div>
     </div>
   );
