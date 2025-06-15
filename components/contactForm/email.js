@@ -62,7 +62,7 @@ export function Email(props) {
               <Row>
                 <Column className="w-full text-center">
                   <Img
-                    src="https://i.ibb.co/Vp42ftY/logo.png"
+                    src="https://i.ibb.co/Pstg4Pt8/logo.png"
                     alt="company_logo"
                     className="object-contain w-full h-[100px]"
                   />

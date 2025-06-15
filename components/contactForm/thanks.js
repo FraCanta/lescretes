@@ -18,7 +18,7 @@ export function Thanks(props) {
       <Body style={main}>
         <Container style={container}>
           <Img
-            src="https://i.ibb.co/09ZWsRF/logo.png"
+            src="https://i.ibb.co/Pstg4Pt8/logo.png"
             className="object-contain w-full h-[100px]"
             alt="logo les cretes"
             style={logo}
