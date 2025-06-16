@@ -45,7 +45,6 @@ export default function App({ Component, pageProps, router }) {
           animate={{ height: "0vh", transition: { delay: 0.2 } }}
         />
         <main>
-          <div data-getsitecontrol-inline="480935"></div>
           <Layout>
             <Component {...pageProps} />
           </Layout>
@@ -60,6 +59,11 @@ export default function App({ Component, pageProps, router }) {
           };
         `}
           </Script>
+          <Script
+            type="text/javascript"
+            async
+            src="//l.getsitecontrol.com/g4dm15k4.js"
+          ></Script>
           <script
             type="text/javascript"
             src="//embeds.iubenda.com/widgets/663fad6f-6d86-492d-b2b7-e029eb52b781.js"
