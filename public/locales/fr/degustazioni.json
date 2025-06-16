@@ -69,19 +69,7 @@
         "ctaTitle": "Details",
         "priceTitle": "Price"
       },
-      {
-        "img": "/assets/eventi/picnic.jpg",
-        "title": "Picnic at Côteau",
-        "descrizione": "An immersive experience among the rows of the scenic Côteau La Tour vineyard: an exclusive picnic with a curated selection of cold cuts, cheeses, and three Les Crêtes wines chosen with our winemaker.",
-        "price": "€45.00 VAT included / person",
-        "link": "/degustazioni/picnicalcoteau",
-        "wine": true,
-        "fork": true,
-        "bed": false,
-        "tempo": "180'",
-        "ctaTitle": "Details",
-        "priceTitle": "Price"
-      },
+
       {
         "img": "/assets/degustazioni/top.jpeg",
         "title": "Top Wines Experience",
@@ -95,19 +83,7 @@
         "ctaTitle": "Details",
         "priceTitle": "Price"
       },
-      {
-        "img": "/assets/eventi/tramonto.jpg",
-        "title": "Sunset at the Refuge",
-        "descrizione": "A three-stage food and wine journey with tastings paired with selected wines and a guided tour of the cellar.",
-        "price": "€70.00 VAT included / person",
-        "link": "/degustazioni/tramontoalrifugio",
-        "wine": true,
-        "fork": true,
-        "bed": false,
-        "tempo": "180'",
-        "ctaTitle": "Details",
-        "priceTitle": "Price"
-      },
+
       {
         "img": "/assets/degustazioni/coteau3.jpg",
         "title": "Côteau la Tour Experience",
@@ -134,19 +110,7 @@
         "ctaTitle": "Details",
         "priceTitle": "Price"
       },
-      {
-        "img": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
-        "title": "Les Crêtes Under the Stars",
-        "descrizione": "Dinner on the terrace of the scenic Wine Refuge with pairings of iconic Les Crêtes CRUs",
-        "price": "€130.00 VAT included / person",
-        "link": "/degustazioni/sottolestelle",
-        "wine": true,
-        "fork": true,
-        "bed": false,
-        "tempo": "180'",
-        "ctaTitle": "Details",
-        "priceTitle": "Price"
-      },
+
       {
         "img": "/assets/degustazioni/wellness.jpeg",
         "title": "Wellness & Wine Tasting",
