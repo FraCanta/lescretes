@@ -7,7 +7,7 @@ const ContentSecurityPolicy = `
   child-src 'self' https://www.iubenda.com/ http://embeds.iubenda.com/;
   style-src 'self' https://p.typekit.net/ https://fonts.googleapis.com/ https://use.typekit.net/ https://cdn.iubenda.com/ 'unsafe-inline' data:;
   font-src 'self' https://use.typekit.net/ https://fonts.gstatic.com/ 'unsafe-inline' data:;
-  img-src 'self' https://core.service.elfsight.com/ https://b.tile.openstreetmap.org/ https://c.tile.openstreetmap.org/ https://a.tile.openstreetmap.org/ https://cdnjs.cloudflare.com/ https://lh3.googleusercontent.com/ data: blob:;
+  img-src 'self' https://m2.getsitecontrol.com/ https://core.service.elfsight.com/ https://b.tile.openstreetmap.org/ https://c.tile.openstreetmap.org/ https://a.tile.openstreetmap.org/ https://cdnjs.cloudflare.com/ https://lh3.googleusercontent.com/ data: blob:;
   media-src 'self' ;
 `;
 
