@@ -45,7 +45,7 @@ export default function App({ Component, pageProps, router }) {
           animate={{ height: "0vh", transition: { delay: 0.2 } }}
         />
         <main>
-          {" "}
+          <div data-getsitecontrol-inline="480935"></div>
           <Layout>
             <Component {...pageProps} />
           </Layout>

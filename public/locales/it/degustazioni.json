@@ -68,19 +68,7 @@
         "ctaTitle": "Dettagli",
         "priceTitle": "Prezzo"
       },
-      {
-        "img": "/assets/eventi/picnic.jpg",
-        "title": "Picnic al Côteau",
-        "descrizione": "Un’esperienza immersiva tra i filari del suggestivo vigneto Côteau La Tour: un picnic esclusivo accompagnato da una selezione curata di salumi, formaggi e tre vini Les Crêtes scelti insieme al nostro enologo.",
-        "price": "€45.00 iva inclusa / persona",
-        "link": "/degustazioni/picnicalcoteau",
-        "wine": true,
-        "fork": true,
-        "bed": false,
-        "tempo": "180'",
-        "ctaTitle": "Dettagli",
-        "priceTitle": "Prezzo"
-      },
+
       {
         "img": "/assets/degustazioni/top.jpeg",
         "title": "Top Wines Experience",
@@ -94,19 +82,7 @@
         "ctaTitle": "Dettagli",
         "priceTitle": "Prezzo"
       },
-      {
-        "img": "/assets/eventi/tramonto.jpg",
-        "title": "Tramonto al Rifugio",
-        "descrizione": "Un itinerario enogastronomico in tre tappe, con degustazioni abbinate a vini selezionati e visita guidata alla cantina.",
-        "price": "€70.00 iva inclusa / persona",
-        "link": "/degustazioni/tramontoalrifugio",
-        "wine": true,
-        "fork": true,
-        "bed": false,
-        "tempo": "180'",
-        "ctaTitle": "Dettagli",
-        "priceTitle": "Prezzo"
-      },
+
       {
         "img": "/assets/degustazioni/coteau3.jpg",
         "title": "Côteau la Tour Experience",
@@ -133,19 +109,7 @@
         "ctaTitle": "Dettagli",
         "priceTitle": "Prezzo"
       },
-      {
-        "img": "/assets/eventi/les_cretes_sotto_le_stelle.jpg",
-        "title": "Les Crêtes sotto le stelle",
-        "descrizione": "Cena nella terrazza del suggestivo Rifugio del Vino con abbinamento i CRU iconici prodotti da Les Crêtes",
-        "price": "€130.00 iva inclusa / persona",
-        "link": "/degustazioni/sottolestelle",
-        "wine": true,
-        "fork": true,
-        "bed": false,
-        "tempo": "180'",
-        "ctaTitle": "Dettagli",
-        "priceTitle": "Prezzo"
-      },
+
       {
         "img": "/assets/degustazioni/wellness.jpeg",
         "title": "Wellness & Wine Tasting",
