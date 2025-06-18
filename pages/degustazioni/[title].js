@@ -55,7 +55,7 @@ const SingleDeg = ({ deg, others }) => {
           content={`https://lescretes.it${deg.seoImg}`}
         />
       </Head>
-      <div className="min-h-[55vh] xl:min-h-[90vh] fxl:min-h-[90vh] w-full  mx-auto flex items-center justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main before:opacity-40 before:rounded-lg">
+      <div className="min-h-[60vh] xl:min-h-[100vh] fxl:min-h-[90vh] w-full  mx-auto flex items-center justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-main before:opacity-40 ">
         <div className="w-full h-full p-8 ">
           <Image
             src={deg?.img}
@@ -65,7 +65,7 @@ const SingleDeg = ({ deg, others }) => {
           />
         </div>
         <div className=" flex flex-col xl:flex-row gap-4 xl:gap-0 justify-between w-[90%] translate-x-[3%]  absolute bottom-0 left-0 mx-auto   z-[999]">
-          <h1 className="text-white text-[40px]  leading-[40px] md:text-5xl xl:text-7xl 2xl:text-8xl 2xl:leading-[70px] font-bold fxl:text-7xl uppercase lg:whitespace-nowrap">
+          <h1 className="text-white text-[40px]  leading-[40px] md:text-5xl xl:text-7xl 2xl:text-[5.3rem] 2xl:leading-[70px] font-bold fxl:text-7xl uppercase lg:whitespace-nowrap">
             {deg?.name}
           </h1>
         </div>

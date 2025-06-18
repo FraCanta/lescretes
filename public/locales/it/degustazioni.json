@@ -30,7 +30,7 @@
     },
     "cards": [
       {
-        "img": "/assets/degustazioni/tre2.png",
+        "img": "/assets/degustazioni/trewines.jpg",
         "title": "3 Wines Experience",
         "descrizione": "Degustazione di tre vini al Rifugio del Vino e visita alla cantina e alla cantina",
         "price": "€25.00 iva inclusa / persona",
@@ -43,7 +43,7 @@
         "priceTitle": "Prezzo"
       },
       {
-        "img": "/assets/degustazioni/native.jpeg",
+        "img": "/assets/degustazioni/five.jpg",
         "title": "5 Wines Experience",
         "descrizione": "Degustazione di 5 vini del territorio presso il rifugio dei vini in cantina e barricaia",
         "price": "€34,00 iva inclusa / persona",
@@ -84,7 +84,7 @@
       },
 
       {
-        "img": "/assets/degustazioni/coteau3.jpg",
+        "img": "/assets/degustazioni/coteau5.jpg",
         "title": "Côteau la Tour Experience",
         "descrizione": "Degustazione di 5 vini accompagnati da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto di Côteau e brindisi nella torre medievale",
         "price": "€75.00 iva inclusa / persona",
@@ -97,7 +97,7 @@
         "priceTitle": "Prezzo"
       },
       {
-        "img": "/assets/degustazioni/winemaker.jpeg",
+        "img": "/assets/degustazioni/winemaker.jpg",
         "title": "Winemaker's Experience",
         "descrizione": "Scopri il mondo di Les Crêtes, raccontato dal nostro enologo Raffaele, dai vigneti alla cantina.",
         "price": "€90.00 iva inclusa / persona",
@@ -126,7 +126,7 @@
     ],
     "singleDeg": {
       "trewines": {
-        "img": "/assets/degustazioni/tre2.jpg",
+        "img": "/assets/degustazioni/trewines.jpg",
         "seoImg": "/assets/seo/tre.png",
         "name": "3 Wines Experience",
         "title": "trewines",
@@ -185,7 +185,7 @@
         "fork": false
       },
       "fivewines": {
-        "img": "/assets/degustazioni/native.jpg",
+        "img": "/assets/degustazioni/five.jpg",
         "seoImg": "/assets/seo/native.png",
 
         "name": "5 Wines Experience",
@@ -316,7 +316,7 @@
         "fork": true
       },
       "picnicalcoteau": {
-        "img": "/assets/eventi/picnic.jpg",
+        "img": "/assets/pop-up.jpg",
         "name": "Picnic al Côteau",
         "seoImg": "/assets/seo/winemaker.png",
 
@@ -376,8 +376,8 @@
           }
         },
         "fixedDates": [
-          { "label": "10 luglio 2025 - ore 18:00" },
-          { "label": "20 agosto 2025 - ore 18:00" }
+          { "label": "10 luglio 2025 - ore 19:00" },
+          { "label": "20 agosto 2025 - ore 19:00" }
         ],
         "eventoForm": true,
         "bed": false,
@@ -511,8 +511,8 @@
           }
         },
         "fixedDates": [
-          { "label": "25 luglio 2025 - ore 18:00" },
-          { "label": "29 agosto 2025 - ore 18:00" }
+          { "label": "25 luglio 2025 - ore 19:30" },
+          { "label": "29 agosto 2025 - ore 19:30" }
         ],
         "eventoForm": true,
         "bed": false,
@@ -520,7 +520,7 @@
         "fork": true
       },
       "tour": {
-        "img": "/assets/degustazioni/coteau3.jpg",
+        "img": "/assets/degustazioni/coteau5.jpg",
         "name": "Côteau la Tour Experience",
         "seoImg": "/assets/seo/tour.png",
 
@@ -594,7 +594,7 @@
         "fork": true
       },
       "winemaker": {
-        "img": "/assets/degustazioni/winemaker.jpeg",
+        "img": "/assets/degustazioni/winemaker.jpg",
         "name": "Winemaker's Experience",
         "seoImg": "/assets/seo/winemaker.png",
 
@@ -740,7 +740,86 @@
             "fr": "francese"
           }
         },
-        "fixedDates": [{ "label": "10 agosto 2025 - ore 18:00" }],
+        "fixedDates": [{ "label": "10 agosto 2025 - ore 20:00" }],
+        "eventoForm": true,
+        "bed": false,
+        "wine": true,
+        "fork": true
+      },
+      "sorsidistoriacenandotraifilari": {
+        "img": "/assets/eventi/cena.jpg",
+        "name": "Sorsi di storia cenando tra i filari",
+        "seoImg": "/assets/seo/winemaker.png",
+
+        "title": "sorsidistoriacenandotraifilari",
+        "cardDesc": "Un’esperienza unica nel cuore della vigna di Les Crêtes, una cena tra i filari tra natura, gusto e tradizione.",
+
+        "degustazione": {
+          "title": "Evento",
+          "vini": "Cena"
+        },
+        "durata": { "title": "Durata", "tempo": "180'" },
+        "visita": {
+          "title": "Tour cantina",
+          "cantina": "sì"
+        },
+        "lingua": { "title": "Lingua", "tipo": " italiano, inglese, francese" },
+
+        "descrizione": {
+          "title": "Descrizione",
+          "content": "Nel cuore della vigna più iconica di Les Crêtes, dove la tradizione incontra l’eccellenza, vi invitiamo a vivere una cena indimenticabile all’insegna del gusto, del vino e della bellezza della natura. Lasciatevi avvolgere dai profumi della vigna e dai sapori autentici della nostra terra."
+        },
+        "menu": {
+          "title": "Menu della serata",
+          "content": [
+            {
+              "title": "Aperitivo di Benvenuto tra i filari",
+              "description": "Prosciutto di Parma DOP alla morsa, Parmigiano Reggiano DOP 24 mesi a scaglie, Fontina DOP della Valle d’Aosta, Gnocco fritto in show cooking, In abbinamento con il nostro Reban Pas Dosè"
+            },
+            {
+              "title": "Antipasto",
+              "description": "Il <strong>Tonno di Gallina</strong> con pesto di rucola selvatica, olive taggiasche e pane carasau. <br/>In abbinamento con il nostro <strong>Rosè 2024</strong>"
+            },
+            {
+              "title": "Primo piatto",
+              "description": "<strong>Mezzi paccheri freschi</strong> alla leggera carbonara di trota salmonata affumicata. <br/>In abbinamento con il nostro <strong>Chardonnay Cuvee Bois 2023</strong>."
+            },
+
+            {
+              "title": "Dessert",
+              "description": "<strong>Semifreddo al pane di segale</strong> con salsa al cioccolato. <br/>In abbinamento con il nostro <strong>Syrah La Tour 2021</strong>."
+            }
+          ]
+        },
+        "priceTitle": "Prezzo",
+
+        "price": "150",
+        "priceCard": "€150.00 iva inclusa/ persona",
+
+        "reviewlink": "leggi le recensioni",
+        "downloadCta": "Scarica qui",
+        "shareTitle": "Condividi su",
+        "bookNow": "Prenota ora",
+        "testimonials": {
+          "title": "Ultime recensioni",
+          "button": "Scrivi una recensione"
+        },
+        "othersTitle": "Altre degustazioni in evidenza",
+        "form": {
+          "day": "Scegli una data",
+          "slots": "Seleziona una fascia oraria:",
+          "adults": "Adulti",
+          "language": "Lingua visita",
+          "gift": "È un regalo?",
+          "total": "Totale da pagare",
+          "cta": "Procedi con la richiesta",
+          "langValue": {
+            "ita": "italiano",
+            "eng": "inglese",
+            "fr": "francese"
+          }
+        },
+        "fixedDates": [{ "label": "5 settembre 2025 - ore 19:00" }],
         "eventoForm": true,
         "bed": false,
         "wine": true,

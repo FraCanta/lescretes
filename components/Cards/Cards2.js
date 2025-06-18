@@ -25,12 +25,12 @@ const Cards2 = ({
   return (
     <>
       {link ? (
-        <div className="h-full !grid grid-cols-1 lg:!grid-cols-2 !p-4  !gap-6 transition-all duration-500 ease-out bg-white  shadow-lg shadow-main/10 card hover:shadow-xl !rounded-sm">
+        <div className="h-full !grid grid-cols-1 lg:!grid-cols-2 !px-4 !py-2  !gap-6 transition-all duration-500 ease-out bg-white  shadow-lg shadow-main/10 card hover:shadow-xl !rounded-sm">
           <figure>
             <Image
               src={img}
               alt={alt}
-              className="object-cover w-full lg:h-[350px] rounded-t-sm"
+              className="object-cover w-full lg:h-[290px]"
               width={500}
               height={800}
             />

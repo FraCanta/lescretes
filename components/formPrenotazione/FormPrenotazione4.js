@@ -48,6 +48,14 @@ const FormPrenotazione4 = ({
     e.preventDefault();
 
     if (selectedDate && clickedRadio) {
+      // Estrai orario dalla prima fixedDate (tutte uguali)
+      const timeSlot =
+        fixedDates.length > 0
+          ? fixedDates[0].label.includes("ore")
+            ? fixedDates[0].label.split("ore ")[1].trim()
+            : fixedDates[0].label.split(" - ")[1]?.trim()
+          : null;
+
       const formData = {
         ...inputs,
         gift: checkedGift,
@@ -55,7 +63,7 @@ const FormPrenotazione4 = ({
         language: clickedRadio,
         date: selectedDate,
         totalNumber: totalNumber,
-        timeSlot: "18:00",
+        timeSlot: timeSlot, // orario fisso
         link: link,
         durata: durata,
         tipo: tipo,

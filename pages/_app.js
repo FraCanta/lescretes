@@ -7,6 +7,7 @@ import "@/styles/gallery3d.css";
 import Script from "next/script";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect } from "react";
+import PopUpEventoAnimato from "@/components/PopUpEventoAnimato/PopUpEventoAnimato";
 export default function App({ Component, pageProps, router }) {
   const transitionSpringPhysics = {
     type: "spring",
@@ -45,6 +46,7 @@ export default function App({ Component, pageProps, router }) {
           animate={{ height: "0vh", transition: { delay: 0.2 } }}
         />
         <main>
+          {/* <PopUpEventoAnimato /> */}
           <Layout>
             <Component {...pageProps} />
           </Layout>

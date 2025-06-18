@@ -31,7 +31,7 @@
     },
     "cards": [
       {
-        "img": "/assets/degustazioni/tre2.png",
+        "img": "/assets/degustazioni/trewines.jpg",
         "title": "3 Wines Experience",
         "descrizione": "Tasting of three wines at the Wine Refuge with a guided tour of the cellar",
         "price": "€25.00 VAT included / person",
@@ -44,7 +44,7 @@
         "priceTitle": "Price"
       },
       {
-        "img": "/assets/degustazioni/native.jpeg",
+        "img": "/assets/degustazioni/five.jpg",
         "title": "5 Wines Experience",
         "descrizione": "Tasting of 5 local wines at the Wine Refuge, including the cellar and barrel room",
         "price": "€34.00 VAT included / person",
@@ -85,7 +85,7 @@
       },
 
       {
-        "img": "/assets/degustazioni/coteau3.jpg",
+        "img": "/assets/degustazioni/coteau5.jpg",
         "title": "Côteau la Tour Experience",
         "descrizione": "Tasting of 5 wines paired with a board of local gastronomy and a tour of the cellar and barrel room. Vineyard tour of Côteau and toast in the medieval tower.",
         "price": "€75.00 VAT included / person",
@@ -98,7 +98,7 @@
         "priceTitle": "Price"
       },
       {
-        "img": "/assets/degustazioni/winemaker.jpeg",
+        "img": "/assets/degustazioni/winemaker.jpg",
         "title": "Winemaker's Experience",
         "descrizione": "Discover the world of Les Crêtes, told by our winemaker Raffaele, from the vineyards to the cellar.",
         "price": "€90.00 VAT included / person",
@@ -128,7 +128,7 @@
 
     "singleDeg": {
       "trewines": {
-        "img": "/assets/degustazioni/tre2.jpg",
+        "img": "/assets/degustazioni/trewines.jpg",
         "seoImg": "/assets/seo/tre.png",
         "name": "3 Wines Experience",
         "title": "trewines",
@@ -186,7 +186,7 @@
         "bed": false
       },
       "fivewines": {
-        "img": "/assets/degustazioni/native.jpg",
+        "img": "/assets/degustazioni/five.jpg",
         "seoImg": "/assets/seo/native.png",
 
         "name": "5 Wines Experience",
@@ -324,7 +324,7 @@
         "bed": false
       },
       "picnicalcoteau": {
-        "img": "/assets/eventi/picnic.jpg",
+        "img": "/assets/pop-up.jpg",
         "name": "Picnic at Côteau",
         "seoImg": "/assets/seo/winemaker.png",
 
@@ -390,8 +390,8 @@
           }
         },
         "fixedDates": [
-          { "label": "10 July 2025 - 6:00 PM" },
-          { "label": "20 August 2025 - 6:00 PM" }
+          { "label": "10 July 2025 - 7:00 PM" },
+          { "label": "20 August 2025 - 7:00 PM" }
         ],
         "eventoForm": true,
         "bed": false,
@@ -536,8 +536,8 @@
           }
         },
         "fixedDates": [
-          { "label": "25 July 2025 - 6:00 PM" },
-          { "label": "29 August 2025 - 6:00 PM" }
+          { "label": "25 July 2025 - 7:30 PM" },
+          { "label": "29 August 2025 - 7:30 PM" }
         ],
         "eventoForm": true,
         "bed": false,
@@ -545,7 +545,7 @@
         "fork": true
       },
       "tour": {
-        "img": "/assets/degustazioni/coteau3.jpg",
+        "img": "/assets/degustazioni/coteau5.jpg",
         "name": "Côteau la Tour Experience",
         "seoImg": "/assets/seo/tour.png",
 
@@ -777,7 +777,85 @@
             "fr": "French"
           }
         },
-        "fixedDates": [{ "label": "10 August 2025 - 6:00 PM" }],
+        "fixedDates": [{ "label": "10 August 2025 - 8:00 PM" }],
+        "eventoForm": true,
+        "bed": false,
+        "wine": true,
+        "fork": true
+      },
+      "sorsidistoriacenandotraifilari": {
+        "img": "/assets/eventi/cena.jpg",
+        "name": "Sips of History, Dining Among the Vines",
+        "seoImg": "/assets/seo/winemaker.png",
+
+        "title": "sorsidistoriacenandotraifilari",
+        "cardDesc": "A unique experience in the heart of Les Crêtes’ vineyard — a dinner among the rows, surrounded by nature, flavor, and tradition.",
+
+        "degustazione": {
+          "title": "Event",
+          "vini": "Dinner"
+        },
+        "durata": { "title": "Durata", "tempo": "180'" },
+        "visita": {
+          "title": "Winery tour",
+          "cantina": "yes "
+        },
+        "lingua": { "title": "Language", "tipo": " italian, english, french" },
+
+        "descrizione": {
+          "title": "Description",
+          "content": "In the heart of Les Crêtes’ most iconic vineyard—where tradition meets excellence—we invite you to enjoy an unforgettable evening of fine dining, great wine, and the pure beauty of nature. Let yourself be embraced by the scents of the vines, the golden light of sunset, and the authentic flavors of the Aosta Valley."
+        },
+        "menu": {
+          "title": "Dinner Menu",
+          "content": [
+            {
+              "title": "Welcome Aperitif among the vines",
+              "description": "Hand-sliced Parma Ham DOP, 24-month aged Parmigiano Reggiano DOP, Fontina DOP from the Aosta Valley, Freshly prepared fried gnocco ( live show cooking ), wine pairing: Reban Pas Dosè."
+            },
+            {
+              "title": "Appetizer",
+              "description": "<strong>Tuna-style” Chicken</strong> with wild arugula pesto, Taggiasca olives, and carasau bread. <br/>Wine pairing: <strong>Rosè 2024</strong>"
+            },
+            {
+              "title": "Main Course",
+              "description": "<strong>Fresh Mezzi Paccheri Pasta</strong> with a light smoked trout carbonara. <br/>Wine pairing: <strong>Chardonnay Cuvee Bois 2023</strong>."
+            },
+
+            {
+              "title": "Dessert",
+              "description": "<strong>Rye Bread Semifreddo</strong> with chocolate sauce. <br/>Wine pairing: <strong>Syrah La Tour 2021</strong>."
+            }
+          ]
+        },
+        "priceTitle": "Price",
+
+        "price": "150",
+        "priceCard": "€150.00 VAT included / person",
+
+        "reviewlink": "read our reviews",
+        "downloadCta": "Download",
+        "shareTitle": "Share on",
+        "bookNow": "Book now",
+        "testimonials": {
+          "title": "Latest reviews",
+          "button": "Write a review"
+        },
+        "othersTitle": "Other featured tastings",
+        "form": {
+          "day": "Select a date",
+          "adults": "Adulti",
+          "language": "Visit Language",
+          "gift": "Is it a gift?",
+          "total": "Total amount",
+          "cta": "Proceed with request",
+          "langValue": {
+            "ita": "italian",
+            "eng": "english",
+            "fr": "french"
+          }
+        },
+        "fixedDates": [{ "label": "September 5, 2025 - 7:00 PM" }],
         "eventoForm": true,
         "bed": false,
         "wine": true,
