@@ -33,7 +33,6 @@ const useOnClickOutside = (ref, handler) => {
 };
 
 const Store = ({ translation }) => {
-  console.log(translation);
   const { locale } = useRouter();
   const [activeStore, setActiveStore] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");

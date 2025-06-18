@@ -27,7 +27,6 @@ import { Navigation, Pagination } from "swiper/modules";
 import SwiperButtons from "@/components/SwiperButtons/SwiperButtons";
 
 const SingleCosmetic = ({ cosm, others }) => {
-  console.log(cosm);
   const contents = parse(cosm.name, {
     createElement: React.createElement,
     Fragment: React.Fragment,
