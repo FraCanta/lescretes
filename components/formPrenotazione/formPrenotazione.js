@@ -50,9 +50,6 @@ const FormPrenotazione = ({
     "04:30 PM",
     "05:00 PM",
     "05:30 PM",
-    "06:00 PM",
-    "06:30 PM",
-    "07:00 PM",
   ];
 
   const saturdayTimeSlots = [
@@ -73,9 +70,6 @@ const FormPrenotazione = ({
     "04:30 PM",
     "05:00 PM",
     "05:30 PM",
-    "06:00 PM",
-    "06:30 PM",
-    "07:00 PM",
   ];
 
   const summerSutardayTimeSlots = [
@@ -96,10 +90,6 @@ const FormPrenotazione = ({
     "04:30 PM",
     "05:00 PM",
     "05:30 PM",
-    "06:00 PM",
-    "06:30 PM",
-    "07:00 PM",
-    "07:30 PM",
   ];
   const summerSundayTimeSlots = [
     "09:30 AM",
@@ -117,10 +107,6 @@ const FormPrenotazione = ({
     "04:30 PM",
     "05:00 PM",
     "05:30 PM",
-    "06:00 PM",
-    "06:30 PM",
-    "07:00 PM",
-    "07:30 PM",
   ];
 
   const excludedDates = [
