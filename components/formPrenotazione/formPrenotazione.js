@@ -338,7 +338,8 @@ const FormPrenotazione = ({
                     const filteredSlots = slotsToRender.filter((slot) =>
                       link === "trewines"
                         ? true
-                        : !slot.includes("06") && !slot.includes("05")
+                        : // : !slot.includes("06") && !slot.includes("05")
+                          !slot.includes("06")
                     );
 
                     return filteredSlots.map((slot) => (
