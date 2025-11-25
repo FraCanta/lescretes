@@ -123,7 +123,7 @@ const Tabs = ({ tabs }) => {
                       <p className="text-sm uppercase text-main/85 font-regular">
                         {content.type}
                       </p>
-                      <h2 className="text-center text-main text-[20px] font-bold leading-snug fxl:text-xl">
+                      <h2 className="text-center text-main text-[20px] font-bold leading-snug ">
                         {content.name}
                       </h2>
                       <p className="text-sm text-center text-main/60">

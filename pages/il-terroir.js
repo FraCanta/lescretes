@@ -147,7 +147,7 @@ const Terroir = ({ translation, locale }) => {
             return (
               <div
                 key={i}
-                className="flex flex-col gap-10 text-lg font-normal lg:text-center text-main/80 fxl:text-2xl fxl:gap-16 3xl:text-4xl"
+                className="flex flex-col gap-10 text-lg font-normal lg:text-center text-main/80 fxl:text-xl fxl:gap-16 3xl:text-4xl"
               >
                 <p dangerouslySetInnerHTML={{ __html: el.p }}></p>
               </div>

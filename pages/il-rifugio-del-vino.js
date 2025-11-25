@@ -135,14 +135,14 @@ const Rifugio = ({ translation, locale }) => {
               className="flex flex-col items-start justify-start gap-10"
               key={i}
             >
-              <h2 className="text-4xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
+              <h2 className="text-4xl font-bold text-main md:text-5xl 3xl:text-7xl">
                 {el.title}
               </h2>
               {el.descrizione.map((d, i) => {
                 return (
                   <div
                     key={i}
-                    className="flex flex-col gap-10 text-lg font-normal text-main/80 lg:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal"
+                    className="flex flex-col gap-10 text-lg font-normal text-main/80 lg:text-xl 3xl:text-4xl 3xl:leading-normal"
                   >
                     <p dangerouslySetInnerHTML={{ __html: d.p }}></p>
                   </div>
@@ -158,7 +158,7 @@ const Rifugio = ({ translation, locale }) => {
           <h3 className="text-4xl font-bold text-main fxl:text-5xl 3xl:text-6xl">
             {translation.section2.title}
           </h3>
-          <ul className="flex flex-col gap-2 text-xl font-normal text-main/80 md:text-2xl xl:text-xl 3xl:text-3xl fxl:text-2xl">
+          <ul className="flex flex-col gap-2 text-xl font-normal text-main/80 md:text-2xl xl:text-xl 3xl:text-3xl ">
             {translation.section2.links.map((el, i) => {
               return (
                 <li key={i}>
@@ -178,16 +178,16 @@ const Rifugio = ({ translation, locale }) => {
       </div>
       <div className="w-[90%] mx-auto mt-10">
         <div className="flex flex-col items-start justify-start gap-10">
-          <h2 className="text-4xl font-bold text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
+          <h2 className="text-4xl font-bold text-main md:text-5xl 3xl:text-7xl">
             {translation.section3.title}
           </h2>
-          <div className="flex flex-col gap-10 text-lg font-normal lg:text-xl text-main/80 fxl:text-2xl 3xl:text-4xl 3xl:leading-normal">
+          <div className="flex flex-col gap-10 text-lg font-normal lg:text-xl text-main/80 3xl:text-4xl 3xl:leading-normal">
             <p
               dangerouslySetInnerHTML={{
                 __html: translation.section3.descrizione,
               }}
             ></p>
-            <ul className="flex flex-col gap-4 fxl:gap-8  text-main/80 text-[18px] lg:text-xl font-normal fxl:text-2xl 3xl:text-4xl">
+            <ul className="flex flex-col gap-4 fxl:gap-8  text-main/80 text-[18px] lg:text-xl font-normal  3xl:text-4xl">
               {translation.section3.list.map((el, i) => {
                 return (
                   <li key={i}>
@@ -201,7 +201,7 @@ const Rifugio = ({ translation, locale }) => {
       </div>
 
       <div className="flex flex-col gap-4 fxl:gap-8 xl:py-20 mx-auto mt-14  w-[90%] justify-center items-center">
-        <h2 className="text-4xl font-bold text-center text-main md:text-5xl fxl:text-6xl 3xl:text-7xl">
+        <h2 className="text-4xl font-bold text-center text-main md:text-5xl 3xl:text-7xl">
           {translation.gallery.title}
         </h2>
 

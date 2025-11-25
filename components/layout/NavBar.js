@@ -37,7 +37,7 @@ const NavBar = ({ translation }) => {
 
   return (
     <header className="relative">
-      <nav className="h-[60px] md:h-[100px] lg:h-[70px] xl:h-[90px] fxl:h-[100px] 3xl:h-[180px] 4xl:h-[250px]  flex w-full items-center justify-between relative z-[999999] nav-scroll ">
+      <nav className="h-[60px] md:h-[100px] lg:h-[70px] xl:h-[90px]  3xl:h-[180px] 4xl:h-[250px]  flex w-full items-center justify-between relative z-[999999] nav-scroll ">
         <div className="flex w-[90%] mx-auto justify-between items-center">
           <div className="xl:flex items-center hidden font-black text-[#4A4A49] flex-1">
             <div className="flex items-center gap-8 font-black xl:gap-4 2xl:gap-8 3xl:gap-14">
@@ -46,7 +46,7 @@ const NavBar = ({ translation }) => {
                   onClick={() => setMenuOpen(!menuOpen)}
                   aria-label="Scopri la nostra identità"
                   title="Scopri la nostra identità"
-                  className=" text-[16px] md:text-[1.2rem] xl:text-[1rem] uppercase fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular flex items-center"
+                  className=" text-[16px] md:text-[1.2rem] xl:text-[1rem] uppercase fxl:text-[18px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular flex items-center"
                 >
                   {translation?.[locale]?.storia.name}{" "}
                   <Icon
@@ -109,14 +109,14 @@ const NavBar = ({ translation }) => {
               <Link
                 href={`/i-vini`}
                 title="I nostri vini"
-                className="text-[16px] md:text-[1.2rem]  xl:text-[1rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular uppercase flex items-center"
+                className="text-[16px] md:text-[1.2rem]  xl:text-[1rem] fxl:text-[18px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular uppercase flex items-center"
               >
                 {translation?.[locale]?.vini}
               </Link>
               <Link
                 href={`/i-nostri-eventi`}
                 title="I nostri eventi"
-                className="text-[16px] md:text-[1.2rem]  xl:text-[1rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular uppercase flex items-center"
+                className="text-[16px] md:text-[1.2rem]  xl:text-[1rem] fxl:text-[18px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular uppercase flex items-center"
               >
                 {translation?.[locale]?.eventi}
               </Link>
@@ -124,7 +124,7 @@ const NavBar = ({ translation }) => {
               <Link
                 href={`/cosmesi`}
                 title="La nostra cosmesi"
-                className="text-[16px] md:text-[1.2rem] xl:text-[1rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular uppercase flex items-center"
+                className="text-[16px] md:text-[1.2rem] xl:text-[1rem] fxl:text-[18px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular uppercase flex items-center"
               >
                 {translation?.[locale]?.cosmesi}
               </Link>
@@ -135,7 +135,7 @@ const NavBar = ({ translation }) => {
               <Image
                 src={Logo}
                 alt="Logo di Les Crêtes"
-                className="w-[100px] md:w-[150px] lg:w-[110px] xl:w-[125px] 2xla:w-[140px] fxl:w-[150px] 3xl:w-[200px] 4xl:w-[300px]"
+                className="w-[100px] md:w-[150px] lg:w-[110px] xl:w-[125px] 2xla:w-[140px] 3xl:w-[200px] 4xl:w-[300px]"
               />
             </Link>
           </div>
@@ -145,7 +145,7 @@ const NavBar = ({ translation }) => {
                 onClick={() => setDegOpen(!degOpen)}
                 title="Scopri le nostre degustazioni e come regalarle"
                 aria-label="Scopri le nostre degustazioni, eventi, orari e contatti e come regalare le nostre esperienze"
-                className=" text-[16px] md:text-[1.2rem] uppercase xl:text-[1rem]  fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular flex items-center"
+                className=" text-[16px] md:text-[1.2rem] uppercase xl:text-[1rem]  fxl:text-[18px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular flex items-center"
               >
                 {translation?.[locale]?.degustazioni.name}{" "}
                 <Icon
@@ -232,7 +232,7 @@ const NavBar = ({ translation }) => {
             <Link
               href={`/regala-una-degustazione`}
               title="Regala una degustazione"
-              className="text-[16px] md:text-[1.2rem] xl:text-[1rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular uppercase flex items-center"
+              className="text-[16px] md:text-[1.2rem] xl:text-[1rem] fxl:text-[18px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular uppercase flex items-center"
             >
               {translation?.[locale]?.gift}
             </Link>
@@ -240,7 +240,7 @@ const NavBar = ({ translation }) => {
             <Link
               href={`/store-locator`}
               title="Dove poter acquistare"
-              className="gap-1 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1rem] fxl:text-[25px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular uppercase flex items-center"
+              className="gap-1 3xl:mr-12 4xl:mr-16 text-[16px] md:text-[1.2rem] xl:text-[1rem] fxl:text-[18px]  3xl:text-[35px] 4xl:text-[55px]  text-main font-regular uppercase flex items-center"
             >
               {translation?.[locale]?.store}
             </Link>

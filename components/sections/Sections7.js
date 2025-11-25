@@ -9,7 +9,7 @@ const Sections7 = ({ translation, tabs }) => {
             {translation.title}
           </h2>
           <p
-            className="lg:w-[90%] text-main/80 text-lg  fxl:text-2xl 3xl:text-4xl 3xl:leading-normal font-normal"
+            className="lg:w-[90%] text-main/80 text-lg  fxl:text-xl 3xl:text-4xl 3xl:leading-normal font-normal"
             dangerouslySetInnerHTML={{ __html: translation.descrizione }}
           ></p>
         </div>

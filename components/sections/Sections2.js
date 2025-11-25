@@ -12,7 +12,7 @@ const Sections2 = ({ translation }) => {
         <h2 className="text-3xl font-bold text-main md:text-5xl 3xl:text-7xl ">
           {translation?.title}
         </h2>
-        <p className="text-lg 2xl:w-2/3 3xl:w-3/4 md:text-xl fxl:text-2xl 3xl:text-4xl 3xl:leading-normal text-main/80">
+        <p className="text-lg 2xl:w-2/3 3xl:w-3/4 md:text-xl 3xl:text-4xl 3xl:leading-normal text-main/80">
           {translation?.descrizione}
         </p>
       </div>
@@ -30,7 +30,7 @@ const Sections2 = ({ translation }) => {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
             />
 
-            <h3 className="text-center text-white text-[25px] md:text-3xl fxl:text-5xl font-bold  leading-[33.60px] right-6 bottom-6 absolute justify-start items-center gap-2.5 flex">
+            <h3 className="text-center text-white text-[25px] md:text-3xl  font-bold  leading-[33.60px] right-6 bottom-6 absolute justify-start items-center gap-2.5 flex">
               {translation?.family}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ const Sections2 = ({ translation }) => {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
 
-              <h3 className="text-white text-[25px] md:text-3xl font-bold fxl:text-5xl  leading-[33.60px] right-6 bottom-6 absolute justify-start items-center gap-2.5 flex">
+              <h3 className="text-white text-[25px] md:text-3xl font-bold   leading-[33.60px] right-6 bottom-6 absolute justify-start items-center gap-2.5 flex">
                 {translation?.rifugio}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,7 @@ const Sections2 = ({ translation }) => {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
 
-              <h3 className="text-white text-[25px] md:text-3xl fxl:text-5xl font-bold  leading-[33.60px] right-6 bottom-6 absolute justify-start items-center gap-2.5 flex">
+              <h3 className="text-white text-[25px] md:text-3xl   font-bold  leading-[33.60px] right-6 bottom-6 absolute justify-start items-center gap-2.5 flex">
                 {translation?.terroir}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

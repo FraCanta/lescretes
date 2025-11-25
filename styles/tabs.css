@@ -49,9 +49,9 @@
 
 @media screen and (min-width: 1920px) {
   .tab-bordered {
-    font-size: 22px;
+    font-size: 18px;
   }
   .tab-active {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
