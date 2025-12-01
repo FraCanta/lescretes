@@ -19,7 +19,7 @@
     "leaflet": "^1.9.4",
     "leaflet-geosearch": "^4.0.0",
     "lenis": "^1.3.3",
-    "next": "14.0.1",
+    "next": "14.2.32",
     "next-compose-plugins": "^2.2.1",
     "next-i18next": "^15.4.1",
     "next-share": "^0.27.0",
